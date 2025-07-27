@@ -1,0 +1,1760 @@
+{
+    "name": "landmark on continent_10shot_perm3",
+    "prompt_templates": [
+        "Monte Erebus se encuentra en el continente Antártida.\nUluru se encuentra en el continente Australia.\nMachu Picchu se encuentra en el continente América del Sur.\nMonte Fuji se encuentra en el continente Asia.\nColiseo se encuentra en el continente Europa.\nBig Ben se encuentra en el continente Europa.\nTable Mountain se encuentra en el continente África.\nTorre Eiffel se encuentra en el continente Europa.\nSydney Opera House se encuentra en el continente Australia.\nEstatua de la Libertad se encuentra en el continente América del Norte.\n{} se encuentra en el continente"
+    ],
+    "samples": [
+        {
+            "subject": "Krivói Rog",
+            "object": "Europa"
+        },
+        {
+            "subject": "Bahía Prydz",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Tierra de Jorge V",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Markham",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Kalahari",
+            "object": "África"
+        },
+        {
+            "subject": "Nizamabad",
+            "object": "Asia"
+        },
+        {
+            "subject": "Glaciar Argosy",
+            "object": "Antártida"
+        },
+        {
+            "subject": "califato Omeya",
+            "object": "Europa"
+        },
+        {
+            "subject": "Isla Huidobro",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Dniéster",
+            "object": "Europa"
+        },
+        {
+            "subject": "Isla Ongul Oriental",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Cabo Legoupil",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Brabante Septentrional",
+            "object": "Europa"
+        },
+        {
+            "subject": "Monte Karisimbi",
+            "object": "África"
+        },
+        {
+            "subject": "Cordillera de Harold Byrd",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Afganistán",
+            "object": "Asia"
+        },
+        {
+            "subject": "Níger",
+            "object": "África"
+        },
+        {
+            "subject": "Isla Torre",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Cordillera Forrestal",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Guadalquivir",
+            "object": "Europa"
+        },
+        {
+            "subject": "Vístula",
+            "object": "Europa"
+        },
+        {
+            "subject": "Himachal Pradesh",
+            "object": "Asia"
+        },
+        {
+            "subject": "Río Chambal",
+            "object": "Asia"
+        },
+        {
+            "subject": "Namibia",
+            "object": "África"
+        },
+        {
+            "subject": "Barrera de hielo Shackleton",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Japón",
+            "object": "Asia"
+        },
+        {
+            "subject": "Nunataks Foca",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Lago Vida",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Monte San Giorgio",
+            "object": "Europa"
+        },
+        {
+            "subject": "Punta Cuatro Romano",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Escalda",
+            "object": "Europa"
+        },
+        {
+            "subject": "Alsace-Lorraine",
+            "object": "Europa"
+        },
+        {
+            "subject": "Cordillera Heritage",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Nile",
+            "object": "África"
+        },
+        {
+            "subject": "Monte Foster",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Montañas Swanson",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Bloque del Este",
+            "object": "Europa"
+        },
+        {
+            "subject": "Pune",
+            "object": "Asia"
+        },
+        {
+            "subject": "Monte Stephenson",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Distrito de Shahdol",
+            "object": "Asia"
+        },
+        {
+            "subject": "Costa Bowman",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Chamrajnagar",
+            "object": "Asia"
+        },
+        {
+            "subject": "Cabo Adriasola",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Tierra de la Reina Maud",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Montañas Hudson",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Grossglockner",
+            "object": "Europa"
+        },
+        {
+            "subject": "Moldavia",
+            "object": "Europa"
+        },
+        {
+            "subject": "Clyde",
+            "object": "Europa"
+        },
+        {
+            "subject": "Montes Avión Cruz del Sur",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Gadag",
+            "object": "Asia"
+        },
+        {
+            "subject": "Carretera de McMurdo al Polo Sur",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Monte Passel",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Río Turgay",
+            "object": "Asia"
+        },
+        {
+            "subject": "Islas Possession",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Lago Don Juan",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Yangtsé",
+            "object": "Asia"
+        },
+        {
+            "subject": "Chukotka",
+            "object": "Asia"
+        },
+        {
+            "subject": "Isla Odbert",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Reino Unido de los Países Bajos",
+            "object": "Europa"
+        },
+        {
+            "subject": "Basilea",
+            "object": "Europa"
+        },
+        {
+            "subject": "Karun",
+            "object": "Asia"
+        },
+        {
+            "subject": "Base Palmer",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Udupi",
+            "object": "Asia"
+        },
+        {
+            "subject": "Atenas",
+            "object": "Europa"
+        },
+        {
+            "subject": "Imperio sueco",
+            "object": "Europa"
+        },
+        {
+            "subject": "Tayikistán",
+            "object": "Asia"
+        },
+        {
+            "subject": "Río Gambia",
+            "object": "África"
+        },
+        {
+            "subject": "Bahía Schokalsky",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Imperio austrohúngaro",
+            "object": "Europa"
+        },
+        {
+            "subject": "Tamil Nadu",
+            "object": "Asia"
+        },
+        {
+            "subject": "Armenia",
+            "object": "Europa"
+        },
+        {
+            "subject": "Isla Macquarie",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Meseta Antártica",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Vuelo 901 de Air New Zealand",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Macizo Santa Teresita",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Valonia",
+            "object": "Europa"
+        },
+        {
+            "subject": "Monte España",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Península Cole",
+            "object": "Antártida"
+        },
+        {
+            "subject": "canal de la Mancha",
+            "object": "Europa"
+        },
+        {
+            "subject": "Época vikinga",
+            "object": "Europa"
+        },
+        {
+            "subject": "Base Concordia",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Liberia",
+            "object": "África"
+        },
+        {
+            "subject": "Islas Biscoe",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Guinea-Bisáu",
+            "object": "África"
+        },
+        {
+            "subject": "Reino de Borgoña",
+            "object": "Europa"
+        },
+        {
+            "subject": "Península Juan Pablo II",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Ensenada Mendelssohn",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Cataluña",
+            "object": "Europa"
+        },
+        {
+            "subject": "Bahía Beascochea",
+            "object": "Antártida"
+        },
+        {
+            "subject": "islotes Peligro",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Jammu y Cachemira",
+            "object": "Asia"
+        },
+        {
+            "subject": "Glaciar Shinnan",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Monte Nyamuragira",
+            "object": "África"
+        },
+        {
+            "subject": "Provincias Unidas de los Países Bajos",
+            "object": "Europa"
+        },
+        {
+            "subject": "Alemania",
+            "object": "Europa"
+        },
+        {
+            "subject": "Isla Guest",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Baluchistán",
+            "object": "Asia"
+        },
+        {
+            "subject": "Meseta Avery",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Kanchenjunga",
+            "object": "Asia"
+        },
+        {
+            "subject": "Esuatini",
+            "object": "África"
+        },
+        {
+            "subject": "Vantaa",
+            "object": "Europa"
+        },
+        {
+            "subject": "Península Sobral",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Glaciar Uspallata",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Maharashtra",
+            "object": "Asia"
+        },
+        {
+            "subject": "Francia metropolitana",
+            "object": "Europa"
+        },
+        {
+            "subject": "Indonesia",
+            "object": "Asia"
+        },
+        {
+            "subject": "Monte Melbourne",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Valle Garwood",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Río Jhelum",
+            "object": "Asia"
+        },
+        {
+            "subject": "Grupo de la isla James Ross",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Isla Brabante",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Emiratos Árabes Unidos",
+            "object": "Asia"
+        },
+        {
+            "subject": "Tierra de Oates",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Benín",
+            "object": "África"
+        },
+        {
+            "subject": "Río Atbara",
+            "object": "África"
+        },
+        {
+            "subject": "Mozambique",
+            "object": "África"
+        },
+        {
+            "subject": "Glaciar Rennick",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Warta",
+            "object": "Europa"
+        },
+        {
+            "subject": "Toulouse",
+            "object": "Europa"
+        },
+        {
+            "subject": "Corea del Sur",
+            "object": "Asia"
+        },
+        {
+            "subject": "Macizo Vinson",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Glaciar Bahía Buen Suceso",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Aconcagua",
+            "object": "América"
+        },
+        {
+            "subject": "Tigris",
+            "object": "Asia"
+        },
+        {
+            "subject": "Yugoslavia",
+            "object": "Europa"
+        },
+        {
+            "subject": "Glaciar Schytt",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Isla Laurie",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Piedemonte de hielo Händel",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Glaciar Nimrod",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Irlanda",
+            "object": "Europa"
+        },
+        {
+            "subject": "Exarcado de Rávena",
+            "object": "Europa"
+        },
+        {
+            "subject": "Catar",
+            "object": "Asia"
+        },
+        {
+            "subject": "Base Scott",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Escocia",
+            "object": "Europa"
+        },
+        {
+            "subject": "Monte Steere",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Bahía Watt",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Cordillera Príncipe Carlos",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Isla Dundee",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Barrera de hielo Jorge VI",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Chandigarh",
+            "object": "Asia"
+        },
+        {
+            "subject": "Glaciar Reeves",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Cabo Jeremy",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Isla Berkner",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Turkmenistán",
+            "object": "Asia"
+        },
+        {
+            "subject": "Reino de Sajonia",
+            "object": "Europa"
+        },
+        {
+            "subject": "Tupungato",
+            "object": "América"
+        },
+        {
+            "subject": "Helsinki",
+            "object": "Europa"
+        },
+        {
+            "subject": "Primorie",
+            "object": "Asia"
+        },
+        {
+            "subject": "Glaciar Lambert",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Base Maitri",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Bulgaria del Volga",
+            "object": "Europa"
+        },
+        {
+            "subject": "Base Plateau",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Harsewinkel",
+            "object": "Europa"
+        },
+        {
+            "subject": "Medio Oriente",
+            "object": "Europa"
+        },
+        {
+            "subject": "Arno",
+            "object": "Europa"
+        },
+        {
+            "subject": "Mauricio",
+            "object": "África"
+        },
+        {
+            "subject": "Glaciar Leverett",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Isla Barrientos",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Cordillera Argentina",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Antigua Grecia",
+            "object": "Europa"
+        },
+        {
+            "subject": "mar de Bellingshausen",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Cordilleras Ford",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Ducado de Brabante",
+            "object": "Europa"
+        },
+        {
+            "subject": "España",
+            "object": "Europa"
+        },
+        {
+            "subject": "Isla Enterprise",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Glaciar Venus",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Costa Danco",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Pico Ismail Samani",
+            "object": "Asia"
+        },
+        {
+            "subject": "Península Coppermine",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Cuenca del Chad",
+            "object": "África"
+        },
+        {
+            "subject": "Isla Honkala",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Cabo Royds",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Neva",
+            "object": "Europa"
+        },
+        {
+            "subject": "Barrera de hielo Getz",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Tajo",
+            "object": "Europa"
+        },
+        {
+            "subject": "South Georgia Survey",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Isla Ardery",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Reino Unido de Gran Bretaña e Irlanda",
+            "object": "Europa"
+        },
+        {
+            "subject": "Isla Adelaida",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Rin",
+            "object": "Europa"
+        },
+        {
+            "subject": "Cabo Tres Pérez",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Isla Stonington",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Costa Black",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Ice Runway",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Cabo Penck",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Azerbaiyán",
+            "object": "Asia"
+        },
+        {
+            "subject": "Camboya",
+            "object": "Asia"
+        },
+        {
+            "subject": "Reino de Mercia",
+            "object": "Europa"
+        },
+        {
+            "subject": "Isla Beaufort",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Base Antártica Juan Carlos I",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Sudán",
+            "object": "África"
+        },
+        {
+            "subject": "Loira",
+            "object": "Europa"
+        },
+        {
+            "subject": "La Haya",
+            "object": "Europa"
+        },
+        {
+            "subject": "Arabia Saudí",
+            "object": "Asia"
+        },
+        {
+            "subject": "Bihar",
+            "object": "Asia"
+        },
+        {
+            "subject": "Malasia",
+            "object": "Asia"
+        },
+        {
+            "subject": "Reino de los Países Bajos",
+            "object": "Europa"
+        },
+        {
+            "subject": "Río Rufiji",
+            "object": "África"
+        },
+        {
+            "subject": "Lago Vostok",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Isla Booth",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Colinas Larsemann",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Costa Knox",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Katowice",
+            "object": "Europa"
+        },
+        {
+            "subject": "Irawadi",
+            "object": "Asia"
+        },
+        {
+            "subject": "Península Ameghino",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Montaña Saunders",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Inglaterra",
+            "object": "Europa"
+        },
+        {
+            "subject": "Nueva Suabia",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Cordillera Douglas",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Tierra de Jorge V",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Checoslovaquia",
+            "object": "Europa"
+        },
+        {
+            "subject": "Cabo Morris",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Isla Coronación",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Somalia",
+            "object": "África"
+        },
+        {
+            "subject": "Gdynia",
+            "object": "Europa"
+        },
+        {
+            "subject": "Hanói",
+            "object": "Asia"
+        },
+        {
+            "subject": "Base Byrd",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Indias Occidentales",
+            "object": "América"
+        },
+        {
+            "subject": "Río Luapula",
+            "object": "África"
+        },
+        {
+            "subject": "Schreckhorn",
+            "object": "Europa"
+        },
+        {
+            "subject": "Base Mario Zucchelli",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Bombay",
+            "object": "Asia"
+        },
+        {
+            "subject": "Damán y Diu",
+            "object": "Asia"
+        },
+        {
+            "subject": "Francia Oriental",
+            "object": "Europa"
+        },
+        {
+            "subject": "Indlandsis de la Antártida",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Islas Balleny",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Distrito de Banaskantha",
+            "object": "Asia"
+        },
+        {
+            "subject": "Isla Coulman",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Nueva Delhi",
+            "object": "Asia"
+        },
+        {
+            "subject": "Monte Murphy",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Cabo Mónaco",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Bahía Andvord",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Campamento Domo Siple",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Campo Academia",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Uttar Pradesh",
+            "object": "Asia"
+        },
+        {
+            "subject": "Madagascar",
+            "object": "África"
+        },
+        {
+            "subject": "Gales",
+            "object": "Europa"
+        },
+        {
+            "subject": "GOA",
+            "object": "Asia"
+        },
+        {
+            "subject": "Imperio carolingio",
+            "object": "Europa"
+        },
+        {
+            "subject": "Manipur",
+            "object": "Asia"
+        },
+        {
+            "subject": "Segura",
+            "object": "Europa"
+        },
+        {
+            "subject": "Tiflis",
+            "object": "Europa"
+        },
+        {
+            "subject": "Shenzhen",
+            "object": "Asia"
+        },
+        {
+            "subject": "Timbu",
+            "object": "Asia"
+        },
+        {
+            "subject": "Taskent",
+            "object": "Asia"
+        },
+        {
+            "subject": "Plataforma de hielo Bach",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Venta",
+            "object": "Europa"
+        },
+        {
+            "subject": "Liga Árabe",
+            "object": "Asia"
+        },
+        {
+            "subject": "Craiova",
+            "object": "Europa"
+        },
+        {
+            "subject": "Cabo Hallett",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Cordillera Sentinel",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Hong Kong",
+            "object": "Asia"
+        },
+        {
+            "subject": "Isla Scott",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Isla Brooklyn",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Cabo Adams",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Cabo Rey",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Kazajistán",
+            "object": "Europa"
+        },
+        {
+            "subject": "Glaciar Mertz",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Tiber",
+            "object": "Europa"
+        },
+        {
+            "subject": "Cordillera Los Menucos",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Isla Neny",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Tierra de Marie Byrd",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Irán",
+            "object": "Asia"
+        },
+        {
+            "subject": "Monte Discovery",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Thiruvannamalai",
+            "object": "Asia"
+        },
+        {
+            "subject": "Glaciar Albanus",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Glaciar Marsh",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Montañas Transantárticas",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Estrecho Pendleton",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Expedición Ballenera Dundee",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Base McMurdo",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Eritrea",
+            "object": "África"
+        },
+        {
+            "subject": "Nevado Ojos del Salado",
+            "object": "América"
+        },
+        {
+            "subject": "Carlota Cove",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Barrera de hielo Riiser-Larsen",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Macedonia del Norte",
+            "object": "Europa"
+        },
+        {
+            "subject": "religión yoruba",
+            "object": "África"
+        },
+        {
+            "subject": "Glaciar Mars",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Isla Rothschild",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Lago Vanda",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Shimla",
+            "object": "Asia"
+        },
+        {
+            "subject": "Costa English",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Cabo Longing",
+            "object": "Antártida"
+        },
+        {
+            "subject": "califato abasí",
+            "object": "África"
+        },
+        {
+            "subject": "Melilla",
+            "object": "África"
+        },
+        {
+            "subject": "Cordillera Eisenhower",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Eslovenia",
+            "object": "Europa"
+        },
+        {
+            "subject": "Mar de la Flota",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Camerún",
+            "object": "África"
+        },
+        {
+            "subject": "Nigeria",
+            "object": "África"
+        },
+        {
+            "subject": "Monte Camerún",
+            "object": "África"
+        },
+        {
+            "subject": "Río Bani",
+            "object": "África"
+        },
+        {
+            "subject": "Estrecho McFarlane",
+            "object": "Antártida"
+        },
+        {
+            "subject": "cuenca hidrográfica del Congo",
+            "object": "África"
+        },
+        {
+            "subject": "Tallin",
+            "object": "Europa"
+        },
+        {
+            "subject": "Yibuti",
+            "object": "África"
+        },
+        {
+            "subject": "Glaciar Beardmore",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Medio Oriente",
+            "object": "África"
+        },
+        {
+            "subject": "Río Ma",
+            "object": "Asia"
+        },
+        {
+            "subject": "Tisza",
+            "object": "Europa"
+        },
+        {
+            "subject": "Marruecos",
+            "object": "África"
+        },
+        {
+            "subject": "Elba",
+            "object": "Europa"
+        },
+        {
+            "subject": "Anderson Heights",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Montañas Denfeld",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Cordillera Thiel",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Estado Libre de Orange",
+            "object": "África"
+        },
+        {
+            "subject": "Comoras",
+            "object": "África"
+        },
+        {
+            "subject": "Guinea Ecuatorial",
+            "object": "África"
+        },
+        {
+            "subject": "Portugal",
+            "object": "Europa"
+        },
+        {
+            "subject": "Bulgaria",
+            "object": "Europa"
+        },
+        {
+            "subject": "Isla de Ross",
+            "object": "Antártida"
+        },
+        {
+            "subject": "condado de York",
+            "object": "Europa"
+        },
+        {
+            "subject": "Costa Palmer",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Miers Bluff",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Isla Steventon",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Territorio Antártico Australiano",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Costa Foyn",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Montañas Pensacola",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Vietnam",
+            "object": "Asia"
+        },
+        {
+            "subject": "Berna",
+            "object": "Europa"
+        },
+        {
+            "subject": "Ensenada Weber",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Laos",
+            "object": "Asia"
+        },
+        {
+            "subject": "Península Byers",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Isla Paulet",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Bosnia y Herzegovina",
+            "object": "Europa"
+        },
+        {
+            "subject": "Costa de Ingrid Christensen",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Río Sobat",
+            "object": "África"
+        },
+        {
+            "subject": "Shjara",
+            "object": "Europa"
+        },
+        {
+            "subject": "Cabo Adare",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Mont Blanc",
+            "object": "Europa"
+        },
+        {
+            "subject": "Archipiélago Palmer",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Río Onyx",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Solan",
+            "object": "Asia"
+        },
+        {
+            "subject": "partición prusiana",
+            "object": "Europa"
+        },
+        {
+            "subject": "Bahía Block",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Sultanato benimerín",
+            "object": "África"
+        },
+        {
+            "subject": "Archipiélago Melchior",
+            "object": "Antártida"
+        },
+        {
+            "subject": "París",
+            "object": "Europa"
+        },
+        {
+            "subject": "Lesoto",
+            "object": "África"
+        },
+        {
+            "subject": "Islas Pitt",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Burundi",
+            "object": "África"
+        },
+        {
+            "subject": "Estonia",
+            "object": "Europa"
+        },
+        {
+            "subject": "Güeldres",
+            "object": "Europa"
+        },
+        {
+            "subject": "Imperio británico",
+            "object": "África"
+        },
+        {
+            "subject": "Unión Soviética",
+            "object": "Europa"
+        },
+        {
+            "subject": "Mali",
+            "object": "África"
+        },
+        {
+            "subject": "Corriente de hielo Rutford",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Nepal",
+            "object": "Asia"
+        },
+        {
+            "subject": "Níger",
+            "object": "África"
+        },
+        {
+            "subject": "Montañas Fosdick",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Éufrates",
+            "object": "Asia"
+        },
+        {
+            "subject": "Base Rothera",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Isla Alejandro I",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Bahía Wilhelmina",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Glaciar Neptuno",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Austria",
+            "object": "Europa"
+        },
+        {
+            "subject": "Glaciar Saturno",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Glaciar Aviator",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Glaciar Support Force",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Estado Libre del Congo",
+            "object": "África"
+        },
+        {
+            "subject": "Tierra de Ellsworth",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Costa Ruppert",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Placa Antártica",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Islas Aitcho",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Ol Doinyo Lengai",
+            "object": "África"
+        },
+        {
+            "subject": "Tierra de la Reina Isabel",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Tierra de Mac. Robertson",
+            "object": "Antártida"
+        },
+        {
+            "subject": "posada",
+            "object": "Europa"
+        },
+        {
+            "subject": "Isla Juan de Nova",
+            "object": "África"
+        },
+        {
+            "subject": "Cabo Evensen",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Suiza",
+            "object": "Europa"
+        },
+        {
+            "subject": "Isla Andersson",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Gibraltar",
+            "object": "Europa"
+        },
+        {
+            "subject": "Países Bajos meridionales",
+            "object": "Europa"
+        },
+        {
+            "subject": "Río Kouilou-Niari",
+            "object": "África"
+        },
+        {
+            "subject": "Snowdon",
+            "object": "Europa"
+        },
+        {
+            "subject": "Montañas Scaife",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Cieszyn",
+            "object": "Europa"
+        },
+        {
+            "subject": "Montañas Tapley",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Tailandia",
+            "object": "Asia"
+        },
+        {
+            "subject": "Fiordo Bourgeois",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Glaciar Uranus",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Estado Libre Irlandés",
+            "object": "Europa"
+        },
+        {
+            "subject": "Costa Eights",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Egipto",
+            "object": "África"
+        },
+        {
+            "subject": "Cabo Colbeck",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Moscú",
+            "object": "Europa"
+        },
+        {
+            "subject": "Thiruvananthapuram",
+            "object": "Asia"
+        },
+        {
+            "subject": "Montañas Clark",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Senegambia",
+            "object": "África"
+        },
+        {
+            "subject": "San Marino",
+            "object": "Europa"
+        },
+        {
+            "subject": "Finlandia",
+            "object": "Europa"
+        },
+        {
+            "subject": "Reino Unido",
+            "object": "Europa"
+        },
+        {
+            "subject": "Programa antártico indio",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Duero",
+            "object": "Europa"
+        },
+        {
+            "subject": "Líbano",
+            "object": "Asia"
+        },
+        {
+            "subject": "Eslovaquia",
+            "object": "Europa"
+        },
+        {
+            "subject": "Tierras Australes y Antárticas Francesas",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Holtedahlfjella",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Mar de Davis",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Despotado de Epiro",
+            "object": "Europa"
+        },
+        {
+            "subject": "Tierra de Palmer",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Península Trinidad",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Base Carlini",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Bahía de Moubray",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Valle Taylor",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Rajkot",
+            "object": "Asia"
+        },
+        {
+            "subject": "Isla Lavoisier",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Holanda Septentrional",
+            "object": "Europa"
+        },
+        {
+            "subject": "Cabo Shirreff",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Sealand",
+            "object": "Europa"
+        },
+        {
+            "subject": "Mayotte",
+            "object": "África"
+        },
+        {
+            "subject": "Cabo Evans",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Isla Detaille",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Angola",
+            "object": "África"
+        },
+        {
+            "subject": "Bahía Scotia",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Río Shebelle",
+            "object": "África"
+        },
+        {
+            "subject": "Cumbres Planetas",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Monte Berlín",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Imperio británico",
+            "object": "América"
+        },
+        {
+            "subject": "Jabárovsk",
+            "object": "Asia"
+        },
+        {
+            "subject": "Montenegro",
+            "object": "Europa"
+        },
+        {
+            "subject": "Fiordo Bigourdan",
+            "object": "Antártida"
+        },
+        {
+            "subject": "San Petersburgo",
+            "object": "Europa"
+        },
+        {
+            "subject": "Isla Millerand",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Kuwait",
+            "object": "Asia"
+        },
+        {
+            "subject": "Monte Tyree",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Cochín",
+            "object": "Asia"
+        },
+        {
+            "subject": "Dinamarca",
+            "object": "Europa"
+        },
+        {
+            "subject": "Turquía",
+            "object": "Asia"
+        },
+        {
+            "subject": "Ensenada Brahms",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Tratado Antártico",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Seychelles",
+            "object": "África"
+        },
+        {
+            "subject": "Montañas Darwin",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Grecia",
+            "object": "Europa"
+        },
+        {
+            "subject": "Glaciar Ninnis",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Isla Signy",
+            "object": "Antártida"
+        },
+        {
+            "subject": "Baikal",
+            "object": "Asia"
+        }
+    ]
+}

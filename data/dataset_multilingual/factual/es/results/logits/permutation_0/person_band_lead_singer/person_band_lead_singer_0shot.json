@@ -1,0 +1,3776 @@
+[
+  {
+    "prompt": "Brian Johnson es el/la cantante principal de",
+    "generated_prefix": "Brian Johnson es el/la cantante principal de",
+    "gold_token": " AC",
+    "predicted_top1_token": " la",
+    "token_pos_in_answer": 0,
+    "gold_logit": 8.890625,
+    "gold_prob_percent": 0.05,
+    "first_token_prob": 0.372802734375,
+    "second_token_prob": 0.07513427734375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " la",
+        "logit": 15.4921875,
+        "probability_percent": 37.28
+      },
+      {
+        "rank": 1,
+        "token": " The",
+        "logit": 13.890625,
+        "probability_percent": 7.51
+      },
+      {
+        "rank": 2,
+        "token": " los",
+        "logit": 13.0234375,
+        "probability_percent": 3.16
+      },
+      {
+        "rank": 3,
+        "token": " esta",
+        "logit": 12.3203125,
+        "probability_percent": 1.56
+      },
+      {
+        "rank": 4,
+        "token": " este",
+        "logit": 11.7734375,
+        "probability_percent": 0.9
+      },
+      {
+        "rank": 5,
+        "token": " un",
+        "logit": 11.7109375,
+        "probability_percent": 0.85
+      },
+      {
+        "rank": 6,
+        "token": " las",
+        "logit": 11.5703125,
+        "probability_percent": 0.74
+      },
+      {
+        "rank": 7,
+        "token": " \"",
+        "logit": 11.4140625,
+        "probability_percent": 0.63
+      },
+      {
+        "rank": 8,
+        "token": " La",
+        "logit": 11.3125,
+        "probability_percent": 0.57
+      },
+      {
+        "rank": 9,
+        "token": " Los",
+        "logit": 11.1875,
+        "probability_percent": 0.5
+      }
+    ]
+  },
+  {
+    "prompt": "Brian Johnson es el/la cantante principal de",
+    "generated_prefix": "Brian Johnson es el/la cantante principal de la",
+    "gold_token": "/",
+    "predicted_top1_token": " banda",
+    "token_pos_in_answer": 1,
+    "gold_logit": 9.03125,
+    "gold_prob_percent": 0.05,
+    "first_token_prob": 0.372802734375,
+    "second_token_prob": 0.07513427734375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " banda",
+        "logit": 16.421875,
+        "probability_percent": 74.41
+      },
+      {
+        "rank": 1,
+        "token": " agr",
+        "logit": 13.1796875,
+        "probability_percent": 2.91
+      },
+      {
+        "rank": 2,
+        "token": " form",
+        "logit": 12.1640625,
+        "probability_percent": 1.05
+      },
+      {
+        "rank": 3,
+        "token": " band",
+        "logit": 12.09375,
+        "probability_percent": 0.98
+      },
+      {
+        "rank": 4,
+        "token": " canc",
+        "logit": 11.96875,
+        "probability_percent": 0.87
+      },
+      {
+        "rank": 5,
+        "token": " B",
+        "logit": 11.8671875,
+        "probability_percent": 0.78
+      },
+      {
+        "rank": 6,
+        "token": " or",
+        "logit": 11.859375,
+        "probability_percent": 0.78
+      },
+      {
+        "rank": 7,
+        "token": " cor",
+        "logit": 11.421875,
+        "probability_percent": 0.5
+      },
+      {
+        "rank": 8,
+        "token": " música",
+        "logit": 11.390625,
+        "probability_percent": 0.49
+      },
+      {
+        "rank": 9,
+        "token": " popular",
+        "logit": 11.3828125,
+        "probability_percent": 0.48
+      }
+    ]
+  },
+  {
+    "prompt": "Brian Johnson es el/la cantante principal de",
+    "generated_prefix": "Brian Johnson es el/la cantante principal de la banda",
+    "gold_token": "DC",
+    "predicted_top1_token": " de",
+    "token_pos_in_answer": 2,
+    "gold_logit": 0.1646728515625,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.372802734375,
+    "second_token_prob": 0.07513427734375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " de",
+        "logit": 14.1875,
+        "probability_percent": 18.95
+      },
+      {
+        "rank": 1,
+        "token": ".",
+        "logit": 14.046875,
+        "probability_percent": 16.47
+      },
+      {
+        "rank": 2,
+        "token": ",",
+        "logit": 13.71875,
+        "probability_percent": 11.86
+      },
+      {
+        "rank": 3,
+        "token": " y",
+        "logit": 13.078125,
+        "probability_percent": 6.25
+      },
+      {
+        "rank": 4,
+        "token": ".\n",
+        "logit": 12.7265625,
+        "probability_percent": 4.4
+      },
+      {
+        "rank": 5,
+        "token": " estad",
+        "logit": 12.390625,
+        "probability_percent": 3.14
+      },
+      {
+        "rank": 6,
+        "token": " The",
+        "logit": 11.8828125,
+        "probability_percent": 1.89
+      },
+      {
+        "rank": 7,
+        "token": " brit",
+        "logit": 11.8671875,
+        "probability_percent": 1.86
+      },
+      {
+        "rank": 8,
+        "token": ".\n\n",
+        "logit": 11.3984375,
+        "probability_percent": 1.17
+      },
+      {
+        "rank": 9,
+        "token": " americ",
+        "logit": 11.28125,
+        "probability_percent": 1.04
+      }
+    ]
+  },
+  {
+    "prompt": "Steven Tyler es el/la cantante principal de",
+    "generated_prefix": "Steven Tyler es el/la cantante principal de",
+    "gold_token": " Aeros",
+    "predicted_top1_token": " la",
+    "token_pos_in_answer": 0,
+    "gold_logit": 10.890625,
+    "gold_prob_percent": 2.19,
+    "first_token_prob": 0.419921875,
+    "second_token_prob": 0.040283203125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " la",
+        "logit": 13.84375,
+        "probability_percent": 41.99
+      },
+      {
+        "rank": 1,
+        "token": " los",
+        "logit": 11.5,
+        "probability_percent": 4.03
+      },
+      {
+        "rank": 2,
+        "token": " The",
+        "logit": 10.9921875,
+        "probability_percent": 2.42
+      },
+      {
+        "rank": 3,
+        "token": " Aeros",
+        "logit": 10.890625,
+        "probability_percent": 2.19
+      },
+      {
+        "rank": 4,
+        "token": " A",
+        "logit": 10.7109375,
+        "probability_percent": 1.83
+      },
+      {
+        "rank": 5,
+        "token": "\n",
+        "logit": 10.609375,
+        "probability_percent": 1.65
+      },
+      {
+        "rank": 6,
+        "token": " un",
+        "logit": 10.2421875,
+        "probability_percent": 1.15
+      },
+      {
+        "rank": 7,
+        "token": "/",
+        "logit": 10.1640625,
+        "probability_percent": 1.06
+      },
+      {
+        "rank": 8,
+        "token": " /",
+        "logit": 10.125,
+        "probability_percent": 1.02
+      },
+      {
+        "rank": 9,
+        "token": " una",
+        "logit": 10.0625,
+        "probability_percent": 0.96
+      }
+    ]
+  },
+  {
+    "prompt": "Steven Tyler es el/la cantante principal de",
+    "generated_prefix": "Steven Tyler es el/la cantante principal de la",
+    "gold_token": "mith",
+    "predicted_top1_token": " banda",
+    "token_pos_in_answer": 1,
+    "gold_logit": -1.6416015625,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.419921875,
+    "second_token_prob": 0.040283203125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " banda",
+        "logit": 16.828125,
+        "probability_percent": 87.16
+      },
+      {
+        "rank": 1,
+        "token": " band",
+        "logit": 12.640625,
+        "probability_percent": 1.32
+      },
+      {
+        "rank": 2,
+        "token": " agr",
+        "logit": 12.234375,
+        "probability_percent": 0.88
+      },
+      {
+        "rank": 3,
+        "token": " form",
+        "logit": 12.125,
+        "probability_percent": 0.79
+      },
+      {
+        "rank": 4,
+        "token": " fam",
+        "logit": 12.0625,
+        "probability_percent": 0.74
+      },
+      {
+        "rank": 5,
+        "token": " película",
+        "logit": 11.5,
+        "probability_percent": 0.42
+      },
+      {
+        "rank": 6,
+        "token": "/",
+        "logit": 11.375,
+        "probability_percent": 0.37
+      },
+      {
+        "rank": 7,
+        "token": " popular",
+        "logit": 11.1484375,
+        "probability_percent": 0.3
+      },
+      {
+        "rank": 8,
+        "token": " canc",
+        "logit": 11.0859375,
+        "probability_percent": 0.28
+      },
+      {
+        "rank": 9,
+        "token": " /",
+        "logit": 10.8125,
+        "probability_percent": 0.21
+      }
+    ]
+  },
+  {
+    "prompt": "Chris Martin es el/la cantante principal de",
+    "generated_prefix": "Chris Martin es el/la cantante principal de",
+    "gold_token": " Cold",
+    "predicted_top1_token": " la",
+    "token_pos_in_answer": 0,
+    "gold_logit": 13.140625,
+    "gold_prob_percent": 6.04,
+    "first_token_prob": 0.509765625,
+    "second_token_prob": 0.060394287109375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " la",
+        "logit": 15.2734375,
+        "probability_percent": 50.98
+      },
+      {
+        "rank": 1,
+        "token": " Cold",
+        "logit": 13.140625,
+        "probability_percent": 6.04
+      },
+      {
+        "rank": 2,
+        "token": " The",
+        "logit": 12.5625,
+        "probability_percent": 3.39
+      },
+      {
+        "rank": 3,
+        "token": " los",
+        "logit": 12.1640625,
+        "probability_percent": 2.28
+      },
+      {
+        "rank": 4,
+        "token": " Capital",
+        "logit": 11.0859375,
+        "probability_percent": 0.77
+      },
+      {
+        "rank": 5,
+        "token": " Red",
+        "logit": 11.0,
+        "probability_percent": 0.71
+      },
+      {
+        "rank": 6,
+        "token": " un",
+        "logit": 10.96875,
+        "probability_percent": 0.69
+      },
+      {
+        "rank": 7,
+        "token": " Arcade",
+        "logit": 10.9375,
+        "probability_percent": 0.67
+      },
+      {
+        "rank": 8,
+        "token": " una",
+        "logit": 10.625,
+        "probability_percent": 0.49
+      },
+      {
+        "rank": 9,
+        "token": " las",
+        "logit": 10.59375,
+        "probability_percent": 0.47
+      }
+    ]
+  },
+  {
+    "prompt": "Chris Martin es el/la cantante principal de",
+    "generated_prefix": "Chris Martin es el/la cantante principal de la",
+    "gold_token": "play",
+    "predicted_top1_token": " banda",
+    "token_pos_in_answer": 1,
+    "gold_logit": -0.50244140625,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.509765625,
+    "second_token_prob": 0.060394287109375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " banda",
+        "logit": 16.765625,
+        "probability_percent": 82.28
+      },
+      {
+        "rank": 1,
+        "token": " agr",
+        "logit": 12.875,
+        "probability_percent": 1.68
+      },
+      {
+        "rank": 2,
+        "token": " band",
+        "logit": 12.3359375,
+        "probability_percent": 0.98
+      },
+      {
+        "rank": 3,
+        "token": " form",
+        "logit": 12.203125,
+        "probability_percent": 0.86
+      },
+      {
+        "rank": 4,
+        "token": " popular",
+        "logit": 12.140625,
+        "probability_percent": 0.81
+      },
+      {
+        "rank": 5,
+        "token": " cant",
+        "logit": 11.8515625,
+        "probability_percent": 0.6
+      },
+      {
+        "rank": 6,
+        "token": " fam",
+        "logit": 11.71875,
+        "probability_percent": 0.53
+      },
+      {
+        "rank": 7,
+        "token": " canc",
+        "logit": 11.7109375,
+        "probability_percent": 0.52
+      },
+      {
+        "rank": 8,
+        "token": " boy",
+        "logit": 11.4609375,
+        "probability_percent": 0.41
+      },
+      {
+        "rank": 9,
+        "token": " exit",
+        "logit": 11.0,
+        "probability_percent": 0.26
+      }
+    ]
+  },
+  {
+    "prompt": "Dave Grohl es el/la cantante principal de",
+    "generated_prefix": "Dave Grohl es el/la cantante principal de",
+    "gold_token": " Foo",
+    "predicted_top1_token": " la",
+    "token_pos_in_answer": 0,
+    "gold_logit": 14.53125,
+    "gold_prob_percent": 17.54,
+    "first_token_prob": 0.404541015625,
+    "second_token_prob": 0.1754150390625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " la",
+        "logit": 15.3671875,
+        "probability_percent": 40.45
+      },
+      {
+        "rank": 1,
+        "token": " Foo",
+        "logit": 14.53125,
+        "probability_percent": 17.54
+      },
+      {
+        "rank": 2,
+        "token": " Nir",
+        "logit": 13.3203125,
+        "probability_percent": 5.22
+      },
+      {
+        "rank": 3,
+        "token": " los",
+        "logit": 13.0390625,
+        "probability_percent": 3.94
+      },
+      {
+        "rank": 4,
+        "token": " su",
+        "logit": 13.0,
+        "probability_percent": 3.79
+      },
+      {
+        "rank": 5,
+        "token": " The",
+        "logit": 12.03125,
+        "probability_percent": 1.44
+      },
+      {
+        "rank": 6,
+        "token": " esta",
+        "logit": 11.921875,
+        "probability_percent": 1.29
+      },
+      {
+        "rank": 7,
+        "token": " las",
+        "logit": 11.7578125,
+        "probability_percent": 1.1
+      },
+      {
+        "rank": 8,
+        "token": " un",
+        "logit": 11.65625,
+        "probability_percent": 0.99
+      },
+      {
+        "rank": 9,
+        "token": "/",
+        "logit": 11.6015625,
+        "probability_percent": 0.94
+      }
+    ]
+  },
+  {
+    "prompt": "Dave Grohl es el/la cantante principal de",
+    "generated_prefix": "Dave Grohl es el/la cantante principal de la",
+    "gold_token": " Fighters",
+    "predicted_top1_token": " banda",
+    "token_pos_in_answer": 1,
+    "gold_logit": 0.4052734375,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.404541015625,
+    "second_token_prob": 0.1754150390625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " banda",
+        "logit": 17.390625,
+        "probability_percent": 88.92
+      },
+      {
+        "rank": 1,
+        "token": " band",
+        "logit": 13.1796875,
+        "probability_percent": 1.32
+      },
+      {
+        "rank": 2,
+        "token": " form",
+        "logit": 13.1015625,
+        "probability_percent": 1.22
+      },
+      {
+        "rank": 3,
+        "token": " canc",
+        "logit": 12.7734375,
+        "probability_percent": 0.88
+      },
+      {
+        "rank": 4,
+        "token": " agr",
+        "logit": 12.3671875,
+        "probability_percent": 0.59
+      },
+      {
+        "rank": 5,
+        "token": " fam",
+        "logit": 12.140625,
+        "probability_percent": 0.47
+      },
+      {
+        "rank": 6,
+        "token": "/",
+        "logit": 11.890625,
+        "probability_percent": 0.36
+      },
+      {
+        "rank": 7,
+        "token": " música",
+        "logit": 11.4921875,
+        "probability_percent": 0.24
+      },
+      {
+        "rank": 8,
+        "token": " popular",
+        "logit": 11.25,
+        "probability_percent": 0.19
+      },
+      {
+        "rank": 9,
+        "token": " mayoría",
+        "logit": 11.2109375,
+        "probability_percent": 0.18
+      }
+    ]
+  },
+  {
+    "prompt": "Axl Rose es el/la cantante principal de",
+    "generated_prefix": "Axl Rose es el/la cantante principal de",
+    "gold_token": " Guns",
+    "predicted_top1_token": " la",
+    "token_pos_in_answer": 0,
+    "gold_logit": 12.9140625,
+    "gold_prob_percent": 4.71,
+    "first_token_prob": 0.681640625,
+    "second_token_prob": 0.047119140625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " la",
+        "logit": 15.5859375,
+        "probability_percent": 68.16
+      },
+      {
+        "rank": 1,
+        "token": " Guns",
+        "logit": 12.9140625,
+        "probability_percent": 4.71
+      },
+      {
+        "rank": 2,
+        "token": " el",
+        "logit": 12.484375,
+        "probability_percent": 3.07
+      },
+      {
+        "rank": 3,
+        "token": " los",
+        "logit": 12.484375,
+        "probability_percent": 3.07
+      },
+      {
+        "rank": 4,
+        "token": " Alice",
+        "logit": 11.9296875,
+        "probability_percent": 1.76
+      },
+      {
+        "rank": 5,
+        "token": " esta",
+        "logit": 11.6484375,
+        "probability_percent": 1.33
+      },
+      {
+        "rank": 6,
+        "token": " las",
+        "logit": 11.34375,
+        "probability_percent": 0.98
+      },
+      {
+        "rank": 7,
+        "token": " este",
+        "logit": 10.703125,
+        "probability_percent": 0.52
+      },
+      {
+        "rank": 8,
+        "token": " su",
+        "logit": 10.65625,
+        "probability_percent": 0.49
+      },
+      {
+        "rank": 9,
+        "token": "\n",
+        "logit": 10.4921875,
+        "probability_percent": 0.42
+      }
+    ]
+  },
+  {
+    "prompt": "Axl Rose es el/la cantante principal de",
+    "generated_prefix": "Axl Rose es el/la cantante principal de la",
+    "gold_token": " N",
+    "predicted_top1_token": " banda",
+    "token_pos_in_answer": 1,
+    "gold_logit": 8.390625,
+    "gold_prob_percent": 0.01,
+    "first_token_prob": 0.681640625,
+    "second_token_prob": 0.047119140625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " banda",
+        "logit": 17.71875,
+        "probability_percent": 93.26
+      },
+      {
+        "rank": 1,
+        "token": " agr",
+        "logit": 13.6953125,
+        "probability_percent": 1.67
+      },
+      {
+        "rank": 2,
+        "token": " band",
+        "logit": 12.96875,
+        "probability_percent": 0.81
+      },
+      {
+        "rank": 3,
+        "token": " fam",
+        "logit": 12.515625,
+        "probability_percent": 0.51
+      },
+      {
+        "rank": 4,
+        "token": " form",
+        "logit": 12.375,
+        "probability_percent": 0.45
+      },
+      {
+        "rank": 5,
+        "token": " popular",
+        "logit": 11.4296875,
+        "probability_percent": 0.17
+      },
+      {
+        "rank": 6,
+        "token": " canc",
+        "logit": 11.078125,
+        "probability_percent": 0.12
+      },
+      {
+        "rank": 7,
+        "token": " conoc",
+        "logit": 10.609375,
+        "probability_percent": 0.08
+      },
+      {
+        "rank": 8,
+        "token": " música",
+        "logit": 10.46875,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 9,
+        "token": " primera",
+        "logit": 10.4140625,
+        "probability_percent": 0.06
+      }
+    ]
+  },
+  {
+    "prompt": "Axl Rose es el/la cantante principal de",
+    "generated_prefix": "Axl Rose es el/la cantante principal de la banda",
+    "gold_token": "'",
+    "predicted_top1_token": " de",
+    "token_pos_in_answer": 2,
+    "gold_logit": 4.7890625,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.681640625,
+    "second_token_prob": 0.047119140625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " de",
+        "logit": 14.8359375,
+        "probability_percent": 48.02
+      },
+      {
+        "rank": 1,
+        "token": " estad",
+        "logit": 13.75,
+        "probability_percent": 16.21
+      },
+      {
+        "rank": 2,
+        "token": ".",
+        "logit": 12.9609375,
+        "probability_percent": 7.37
+      },
+      {
+        "rank": 3,
+        "token": ",",
+        "logit": 12.875,
+        "probability_percent": 6.76
+      },
+      {
+        "rank": 4,
+        "token": " y",
+        "logit": 12.0546875,
+        "probability_percent": 2.98
+      },
+      {
+        "rank": 5,
+        "token": " Guns",
+        "logit": 11.53125,
+        "probability_percent": 1.76
+      },
+      {
+        "rank": 6,
+        "token": ".\n",
+        "logit": 11.4609375,
+        "probability_percent": 1.64
+      },
+      {
+        "rank": 7,
+        "token": " americ",
+        "logit": 10.6953125,
+        "probability_percent": 0.76
+      },
+      {
+        "rank": 8,
+        "token": " n",
+        "logit": 10.6640625,
+        "probability_percent": 0.74
+      },
+      {
+        "rank": 9,
+        "token": ";",
+        "logit": 10.328125,
+        "probability_percent": 0.53
+      }
+    ]
+  },
+  {
+    "prompt": "Axl Rose es el/la cantante principal de",
+    "generated_prefix": "Axl Rose es el/la cantante principal de la banda de",
+    "gold_token": " Roses",
+    "predicted_top1_token": " heavy",
+    "token_pos_in_answer": 3,
+    "gold_logit": -0.58740234375,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.681640625,
+    "second_token_prob": 0.047119140625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " heavy",
+        "logit": 14.6796875,
+        "probability_percent": 24.5
+      },
+      {
+        "rank": 1,
+        "token": " rock",
+        "logit": 14.3515625,
+        "probability_percent": 17.65
+      },
+      {
+        "rank": 2,
+        "token": " metal",
+        "logit": 14.28125,
+        "probability_percent": 16.44
+      },
+      {
+        "rank": 3,
+        "token": " nu",
+        "logit": 13.1640625,
+        "probability_percent": 5.38
+      },
+      {
+        "rank": 4,
+        "token": " hard",
+        "logit": 13.0390625,
+        "probability_percent": 4.75
+      },
+      {
+        "rank": 5,
+        "token": " punk",
+        "logit": 12.6171875,
+        "probability_percent": 3.11
+      },
+      {
+        "rank": 6,
+        "token": " música",
+        "logit": 12.4140625,
+        "probability_percent": 2.54
+      },
+      {
+        "rank": 7,
+        "token": " gr",
+        "logit": 12.359375,
+        "probability_percent": 2.41
+      },
+      {
+        "rank": 8,
+        "token": " Metal",
+        "logit": 12.0234375,
+        "probability_percent": 1.72
+      },
+      {
+        "rank": 9,
+        "token": " rap",
+        "logit": 11.6875,
+        "probability_percent": 1.23
+      }
+    ]
+  },
+  {
+    "prompt": "Robert Plant es el/la cantante principal de",
+    "generated_prefix": "Robert Plant es el/la cantante principal de",
+    "gold_token": " Led",
+    "predicted_top1_token": " Led",
+    "token_pos_in_answer": 0,
+    "gold_logit": 14.2109375,
+    "gold_prob_percent": 32.25,
+    "first_token_prob": 0.322509765625,
+    "second_token_prob": 0.2958984375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Led",
+        "logit": 14.2109375,
+        "probability_percent": 32.25
+      },
+      {
+        "rank": 1,
+        "token": " la",
+        "logit": 14.125,
+        "probability_percent": 29.59
+      },
+      {
+        "rank": 2,
+        "token": " The",
+        "logit": 11.65625,
+        "probability_percent": 2.51
+      },
+      {
+        "rank": 3,
+        "token": " un",
+        "logit": 11.5234375,
+        "probability_percent": 2.19
+      },
+      {
+        "rank": 4,
+        "token": " los",
+        "logit": 11.34375,
+        "probability_percent": 1.83
+      },
+      {
+        "rank": 5,
+        "token": "\n",
+        "logit": 11.078125,
+        "probability_percent": 1.41
+      },
+      {
+        "rank": 6,
+        "token": "/",
+        "logit": 11.0625,
+        "probability_percent": 1.38
+      },
+      {
+        "rank": 7,
+        "token": ":",
+        "logit": 11.0625,
+        "probability_percent": 1.38
+      },
+      {
+        "rank": 8,
+        "token": " las",
+        "logit": 10.8359375,
+        "probability_percent": 1.1
+      },
+      {
+        "rank": 9,
+        "token": ":\n",
+        "logit": 10.78125,
+        "probability_percent": 1.04
+      }
+    ]
+  },
+  {
+    "prompt": "Robert Plant es el/la cantante principal de",
+    "generated_prefix": "Robert Plant es el/la cantante principal de Led",
+    "gold_token": " Ze",
+    "predicted_top1_token": " Ze",
+    "token_pos_in_answer": 1,
+    "gold_logit": 21.78125,
+    "gold_prob_percent": 98.68,
+    "first_token_prob": 0.322509765625,
+    "second_token_prob": 0.2958984375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Ze",
+        "logit": 21.78125,
+        "probability_percent": 98.68
+      },
+      {
+        "rank": 1,
+        "token": " Z",
+        "logit": 17.15625,
+        "probability_percent": 0.97
+      },
+      {
+        "rank": 2,
+        "token": " ze",
+        "logit": 15.390625,
+        "probability_percent": 0.17
+      },
+      {
+        "rank": 3,
+        "token": "Ze",
+        "logit": 14.171875,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 4,
+        "token": "\n",
+        "logit": 12.5078125,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 5,
+        "token": " z",
+        "logit": 12.1328125,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 6,
+        "token": "Z",
+        "logit": 11.859375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": "-Z",
+        "logit": 11.6875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": " ",
+        "logit": 11.4453125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "_Z",
+        "logit": 11.3515625,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "Robert Plant es el/la cantante principal de",
+    "generated_prefix": "Robert Plant es el/la cantante principal de Led Ze",
+    "gold_token": "ppelin",
+    "predicted_top1_token": "ppelin",
+    "token_pos_in_answer": 2,
+    "gold_logit": 24.90625,
+    "gold_prob_percent": 99.71,
+    "first_token_prob": 0.322509765625,
+    "second_token_prob": 0.2958984375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ppelin",
+        "logit": 24.90625,
+        "probability_percent": 99.71
+      },
+      {
+        "rank": 1,
+        "token": "pp",
+        "logit": 18.875,
+        "probability_percent": 0.24
+      },
+      {
+        "rank": 2,
+        "token": "pl",
+        "logit": 16.859375,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 3,
+        "token": "pt",
+        "logit": 14.4140625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 4,
+        "token": "pe",
+        "logit": 14.1875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 5,
+        "token": "ppard",
+        "logit": 13.1875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": "pper",
+        "logit": 13.1484375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": "plen",
+        "logit": 13.0625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "pr",
+        "logit": 12.9453125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "ep",
+        "logit": 12.8203125,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "James Hetfield es el/la cantante principal de",
+    "generated_prefix": "James Hetfield es el/la cantante principal de",
+    "gold_token": " Metal",
+    "predicted_top1_token": " la",
+    "token_pos_in_answer": 0,
+    "gold_logit": 14.8515625,
+    "gold_prob_percent": 9.76,
+    "first_token_prob": 0.72705078125,
+    "second_token_prob": 0.09759521484375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " la",
+        "logit": 16.859375,
+        "probability_percent": 72.71
+      },
+      {
+        "rank": 1,
+        "token": " Metal",
+        "logit": 14.8515625,
+        "probability_percent": 9.76
+      },
+      {
+        "rank": 2,
+        "token": " Meg",
+        "logit": 14.15625,
+        "probability_percent": 4.87
+      },
+      {
+        "rank": 3,
+        "token": " los",
+        "logit": 13.546875,
+        "probability_percent": 2.65
+      },
+      {
+        "rank": 4,
+        "token": " esta",
+        "logit": 12.359375,
+        "probability_percent": 0.81
+      },
+      {
+        "rank": 5,
+        "token": " las",
+        "logit": 11.953125,
+        "probability_percent": 0.54
+      },
+      {
+        "rank": 6,
+        "token": " su",
+        "logit": 11.6484375,
+        "probability_percent": 0.4
+      },
+      {
+        "rank": 7,
+        "token": " Jud",
+        "logit": 11.609375,
+        "probability_percent": 0.38
+      },
+      {
+        "rank": 8,
+        "token": " este",
+        "logit": 11.59375,
+        "probability_percent": 0.38
+      },
+      {
+        "rank": 9,
+        "token": " M",
+        "logit": 11.4140625,
+        "probability_percent": 0.31
+      }
+    ]
+  },
+  {
+    "prompt": "James Hetfield es el/la cantante principal de",
+    "generated_prefix": "James Hetfield es el/la cantante principal de la",
+    "gold_token": "lica",
+    "predicted_top1_token": " banda",
+    "token_pos_in_answer": 1,
+    "gold_logit": 2.763671875,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.72705078125,
+    "second_token_prob": 0.09759521484375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " banda",
+        "logit": 17.78125,
+        "probability_percent": 91.65
+      },
+      {
+        "rank": 1,
+        "token": " agr",
+        "logit": 14.171875,
+        "probability_percent": 2.48
+      },
+      {
+        "rank": 2,
+        "token": " form",
+        "logit": 13.5390625,
+        "probability_percent": 1.32
+      },
+      {
+        "rank": 3,
+        "token": " band",
+        "logit": 13.3046875,
+        "probability_percent": 1.04
+      },
+      {
+        "rank": 4,
+        "token": " fam",
+        "logit": 11.8359375,
+        "probability_percent": 0.24
+      },
+      {
+        "rank": 5,
+        "token": " canc",
+        "logit": 11.0390625,
+        "probability_percent": 0.11
+      },
+      {
+        "rank": 6,
+        "token": " popular",
+        "logit": 11.0,
+        "probability_percent": 0.1
+      },
+      {
+        "rank": 7,
+        "token": " leg",
+        "logit": 10.953125,
+        "probability_percent": 0.1
+      },
+      {
+        "rank": 8,
+        "token": " mayoría",
+        "logit": 10.765625,
+        "probability_percent": 0.08
+      },
+      {
+        "rank": 9,
+        "token": " disc",
+        "logit": 10.6953125,
+        "probability_percent": 0.08
+      }
+    ]
+  },
+  {
+    "prompt": "Kurt Cobain es el/la cantante principal de",
+    "generated_prefix": "Kurt Cobain es el/la cantante principal de",
+    "gold_token": " Nir",
+    "predicted_top1_token": " la",
+    "token_pos_in_answer": 0,
+    "gold_logit": 15.640625,
+    "gold_prob_percent": 30.81,
+    "first_token_prob": 0.434326171875,
+    "second_token_prob": 0.30810546875,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " la",
+        "logit": 15.984375,
+        "probability_percent": 43.43
+      },
+      {
+        "rank": 1,
+        "token": " Nir",
+        "logit": 15.640625,
+        "probability_percent": 30.81
+      },
+      {
+        "rank": 2,
+        "token": " los",
+        "logit": 12.625,
+        "probability_percent": 1.51
+      },
+      {
+        "rank": 3,
+        "token": ":\n",
+        "logit": 12.5546875,
+        "probability_percent": 1.41
+      },
+      {
+        "rank": 4,
+        "token": " una",
+        "logit": 12.328125,
+        "probability_percent": 1.12
+      },
+      {
+        "rank": 5,
+        "token": " un",
+        "logit": 12.3046875,
+        "probability_percent": 1.1
+      },
+      {
+        "rank": 6,
+        "token": ":",
+        "logit": 12.1875,
+        "probability_percent": 0.98
+      },
+      {
+        "rank": 7,
+        "token": " las",
+        "logit": 11.953125,
+        "probability_percent": 0.77
+      },
+      {
+        "rank": 8,
+        "token": "\n",
+        "logit": 11.9140625,
+        "probability_percent": 0.74
+      },
+      {
+        "rank": 9,
+        "token": " esta",
+        "logit": 11.7890625,
+        "probability_percent": 0.65
+      }
+    ]
+  },
+  {
+    "prompt": "Kurt Cobain es el/la cantante principal de",
+    "generated_prefix": "Kurt Cobain es el/la cantante principal de la",
+    "gold_token": "vana",
+    "predicted_top1_token": " banda",
+    "token_pos_in_answer": 1,
+    "gold_logit": -0.9228515625,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.434326171875,
+    "second_token_prob": 0.30810546875,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " banda",
+        "logit": 17.234375,
+        "probability_percent": 87.74
+      },
+      {
+        "rank": 1,
+        "token": " fam",
+        "logit": 13.46875,
+        "probability_percent": 2.03
+      },
+      {
+        "rank": 2,
+        "token": " band",
+        "logit": 13.046875,
+        "probability_percent": 1.33
+      },
+      {
+        "rank": 3,
+        "token": " agr",
+        "logit": 12.234375,
+        "probability_percent": 0.59
+      },
+      {
+        "rank": 4,
+        "token": "/",
+        "logit": 12.1484375,
+        "probability_percent": 0.54
+      },
+      {
+        "rank": 5,
+        "token": " canc",
+        "logit": 12.109375,
+        "probability_percent": 0.52
+      },
+      {
+        "rank": 6,
+        "token": " form",
+        "logit": 12.03125,
+        "probability_percent": 0.48
+      },
+      {
+        "rank": 7,
+        "token": " popular",
+        "logit": 11.890625,
+        "probability_percent": 0.42
+      },
+      {
+        "rank": 8,
+        "token": " música",
+        "logit": 11.3515625,
+        "probability_percent": 0.24
+      },
+      {
+        "rank": 9,
+        "token": " primera",
+        "logit": 10.9609375,
+        "probability_percent": 0.17
+      }
+    ]
+  },
+  {
+    "prompt": "Freddie Mercury es el/la cantante principal de",
+    "generated_prefix": "Freddie Mercury es el/la cantante principal de",
+    "gold_token": " Queen",
+    "predicted_top1_token": " la",
+    "token_pos_in_answer": 0,
+    "gold_logit": 16.4375,
+    "gold_prob_percent": 27.29,
+    "first_token_prob": 0.54248046875,
+    "second_token_prob": 0.27294921875,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " la",
+        "logit": 17.125,
+        "probability_percent": 54.25
+      },
+      {
+        "rank": 1,
+        "token": " Queen",
+        "logit": 16.4375,
+        "probability_percent": 27.29
+      },
+      {
+        "rank": 2,
+        "token": " los",
+        "logit": 14.9375,
+        "probability_percent": 6.09
+      },
+      {
+        "rank": 3,
+        "token": " una",
+        "logit": 12.609375,
+        "probability_percent": 0.59
+      },
+      {
+        "rank": 4,
+        "token": " \"",
+        "logit": 12.59375,
+        "probability_percent": 0.58
+      },
+      {
+        "rank": 5,
+        "token": " esta",
+        "logit": 12.421875,
+        "probability_percent": 0.49
+      },
+      {
+        "rank": 6,
+        "token": " las",
+        "logit": 12.375,
+        "probability_percent": 0.47
+      },
+      {
+        "rank": 7,
+        "token": " The",
+        "logit": 12.296875,
+        "probability_percent": 0.43
+      },
+      {
+        "rank": 8,
+        "token": " QUE",
+        "logit": 12.2578125,
+        "probability_percent": 0.42
+      },
+      {
+        "rank": 9,
+        "token": " La",
+        "logit": 12.2421875,
+        "probability_percent": 0.41
+      }
+    ]
+  },
+  {
+    "prompt": "Anthony Kiedis es el/la cantante principal de",
+    "generated_prefix": "Anthony Kiedis es el/la cantante principal de",
+    "gold_token": " Red",
+    "predicted_top1_token": " la",
+    "token_pos_in_answer": 0,
+    "gold_logit": 15.15625,
+    "gold_prob_percent": 27.34,
+    "first_token_prob": 0.379638671875,
+    "second_token_prob": 0.2734375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " la",
+        "logit": 15.484375,
+        "probability_percent": 37.96
+      },
+      {
+        "rank": 1,
+        "token": " Red",
+        "logit": 15.15625,
+        "probability_percent": 27.34
+      },
+      {
+        "rank": 2,
+        "token": " los",
+        "logit": 13.046875,
+        "probability_percent": 3.32
+      },
+      {
+        "rank": 3,
+        "token": "\n",
+        "logit": 12.7265625,
+        "probability_percent": 2.41
+      },
+      {
+        "rank": 4,
+        "token": " esta",
+        "logit": 12.4453125,
+        "probability_percent": 1.82
+      },
+      {
+        "rank": 5,
+        "token": " The",
+        "logit": 12.40625,
+        "probability_percent": 1.75
+      },
+      {
+        "rank": 6,
+        "token": " su",
+        "logit": 12.171875,
+        "probability_percent": 1.38
+      },
+      {
+        "rank": 7,
+        "token": ":",
+        "logit": 11.859375,
+        "probability_percent": 1.01
+      },
+      {
+        "rank": 8,
+        "token": " Who",
+        "logit": 11.859375,
+        "probability_percent": 1.01
+      },
+      {
+        "rank": 9,
+        "token": ":\n",
+        "logit": 11.765625,
+        "probability_percent": 0.92
+      }
+    ]
+  },
+  {
+    "prompt": "Anthony Kiedis es el/la cantante principal de",
+    "generated_prefix": "Anthony Kiedis es el/la cantante principal de la",
+    "gold_token": " Hot",
+    "predicted_top1_token": " banda",
+    "token_pos_in_answer": 1,
+    "gold_logit": 3.15234375,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.379638671875,
+    "second_token_prob": 0.2734375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " banda",
+        "logit": 17.734375,
+        "probability_percent": 93.8
+      },
+      {
+        "rank": 1,
+        "token": " band",
+        "logit": 13.1015625,
+        "probability_percent": 0.91
+      },
+      {
+        "rank": 2,
+        "token": " form",
+        "logit": 12.984375,
+        "probability_percent": 0.81
+      },
+      {
+        "rank": 3,
+        "token": " fam",
+        "logit": 12.5,
+        "probability_percent": 0.5
+      },
+      {
+        "rank": 4,
+        "token": " agr",
+        "logit": 12.5,
+        "probability_percent": 0.5
+      },
+      {
+        "rank": 5,
+        "token": "/",
+        "logit": 12.3125,
+        "probability_percent": 0.41
+      },
+      {
+        "rank": 6,
+        "token": " popular",
+        "logit": 11.5390625,
+        "probability_percent": 0.19
+      },
+      {
+        "rank": 7,
+        "token": " cant",
+        "logit": 11.15625,
+        "probability_percent": 0.13
+      },
+      {
+        "rank": 8,
+        "token": " /",
+        "logit": 10.7578125,
+        "probability_percent": 0.09
+      },
+      {
+        "rank": 9,
+        "token": " música",
+        "logit": 10.734375,
+        "probability_percent": 0.09
+      }
+    ]
+  },
+  {
+    "prompt": "Anthony Kiedis es el/la cantante principal de",
+    "generated_prefix": "Anthony Kiedis es el/la cantante principal de la banda",
+    "gold_token": " Chili",
+    "predicted_top1_token": ".",
+    "token_pos_in_answer": 2,
+    "gold_logit": 2.818359375,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.379638671875,
+    "second_token_prob": 0.2734375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": ".",
+        "logit": 14.3515625,
+        "probability_percent": 19.91
+      },
+      {
+        "rank": 1,
+        "token": ",",
+        "logit": 14.21875,
+        "probability_percent": 17.43
+      },
+      {
+        "rank": 2,
+        "token": " de",
+        "logit": 14.1640625,
+        "probability_percent": 16.5
+      },
+      {
+        "rank": 3,
+        "token": ".\n",
+        "logit": 13.390625,
+        "probability_percent": 7.62
+      },
+      {
+        "rank": 4,
+        "token": " y",
+        "logit": 13.296875,
+        "probability_percent": 6.93
+      },
+      {
+        "rank": 5,
+        "token": " Red",
+        "logit": 13.265625,
+        "probability_percent": 6.72
+      },
+      {
+        "rank": 6,
+        "token": " estad",
+        "logit": 12.828125,
+        "probability_percent": 4.34
+      },
+      {
+        "rank": 7,
+        "token": ";",
+        "logit": 12.2421875,
+        "probability_percent": 2.42
+      },
+      {
+        "rank": 8,
+        "token": "\n",
+        "logit": 12.1328125,
+        "probability_percent": 2.17
+      },
+      {
+        "rank": 9,
+        "token": " cal",
+        "logit": 11.078125,
+        "probability_percent": 0.75
+      }
+    ]
+  },
+  {
+    "prompt": "Anthony Kiedis es el/la cantante principal de",
+    "generated_prefix": "Anthony Kiedis es el/la cantante principal de la banda.",
+    "gold_token": " Pe",
+    "predicted_top1_token": " K",
+    "token_pos_in_answer": 3,
+    "gold_logit": 7.953125,
+    "gold_prob_percent": 0.01,
+    "first_token_prob": 0.379638671875,
+    "second_token_prob": 0.2734375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " K",
+        "logit": 14.53125,
+        "probability_percent": 5.64
+      },
+      {
+        "rank": 1,
+        "token": " Es",
+        "logit": 14.453125,
+        "probability_percent": 5.22
+      },
+      {
+        "rank": 2,
+        "token": " Su",
+        "logit": 14.375,
+        "probability_percent": 4.82
+      },
+      {
+        "rank": 3,
+        "token": " En",
+        "logit": 14.2890625,
+        "probability_percent": 4.43
+      },
+      {
+        "rank": 4,
+        "token": " F",
+        "logit": 14.1328125,
+        "probability_percent": 3.78
+      },
+      {
+        "rank": 5,
+        "token": " El",
+        "logit": 14.125,
+        "probability_percent": 3.76
+      },
+      {
+        "rank": 6,
+        "token": " También",
+        "logit": 13.9921875,
+        "probability_percent": 3.29
+      },
+      {
+        "rank": 7,
+        "token": " Ha",
+        "logit": 13.953125,
+        "probability_percent": 3.16
+      },
+      {
+        "rank": 8,
+        "token": " La",
+        "logit": 13.828125,
+        "probability_percent": 2.79
+      },
+      {
+        "rank": 9,
+        "token": " A",
+        "logit": 13.78125,
+        "probability_percent": 2.66
+      }
+    ]
+  },
+  {
+    "prompt": "Anthony Kiedis es el/la cantante principal de",
+    "generated_prefix": "Anthony Kiedis es el/la cantante principal de la banda. K",
+    "gold_token": "ppers",
+    "predicted_top1_token": "ied",
+    "token_pos_in_answer": 4,
+    "gold_logit": 1.8359375,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.379638671875,
+    "second_token_prob": 0.2734375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ied",
+        "logit": 25.296875,
+        "probability_percent": 99.95
+      },
+      {
+        "rank": 1,
+        "token": "ier",
+        "logit": 15.484375,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 2,
+        "token": "ip",
+        "logit": 15.3828125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 3,
+        "token": "ie",
+        "logit": 15.2265625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 4,
+        "token": "ried",
+        "logit": 14.9140625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 5,
+        "token": "orn",
+        "logit": 14.8046875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": "ien",
+        "logit": 14.671875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": "ool",
+        "logit": 14.578125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "iel",
+        "logit": 14.3359375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "haled",
+        "logit": 14.0859375,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "Mick Jagger es el/la cantante principal de",
+    "generated_prefix": "Mick Jagger es el/la cantante principal de",
+    "gold_token": " The",
+    "predicted_top1_token": " la",
+    "token_pos_in_answer": 0,
+    "gold_logit": 15.03125,
+    "gold_prob_percent": 19.31,
+    "first_token_prob": 0.39306640625,
+    "second_token_prob": 0.193115234375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " la",
+        "logit": 15.7421875,
+        "probability_percent": 39.31
+      },
+      {
+        "rank": 1,
+        "token": " The",
+        "logit": 15.03125,
+        "probability_percent": 19.31
+      },
+      {
+        "rank": 2,
+        "token": " los",
+        "logit": 14.25,
+        "probability_percent": 8.84
+      },
+      {
+        "rank": 3,
+        "token": " Rolling",
+        "logit": 12.859375,
+        "probability_percent": 2.2
+      },
+      {
+        "rank": 4,
+        "token": "\n",
+        "logit": 12.546875,
+        "probability_percent": 1.61
+      },
+      {
+        "rank": 5,
+        "token": " las",
+        "logit": 12.1640625,
+        "probability_percent": 1.1
+      },
+      {
+        "rank": 6,
+        "token": "/",
+        "logit": 12.1328125,
+        "probability_percent": 1.06
+      },
+      {
+        "rank": 7,
+        "token": ":",
+        "logit": 12.0703125,
+        "probability_percent": 1.0
+      },
+      {
+        "rank": 8,
+        "token": " esta",
+        "logit": 12.03125,
+        "probability_percent": 0.96
+      },
+      {
+        "rank": 9,
+        "token": " una",
+        "logit": 11.8984375,
+        "probability_percent": 0.84
+      }
+    ]
+  },
+  {
+    "prompt": "Mick Jagger es el/la cantante principal de",
+    "generated_prefix": "Mick Jagger es el/la cantante principal de la",
+    "gold_token": " Rolling",
+    "predicted_top1_token": " banda",
+    "token_pos_in_answer": 1,
+    "gold_logit": 7.578125,
+    "gold_prob_percent": 0.01,
+    "first_token_prob": 0.39306640625,
+    "second_token_prob": 0.193115234375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " banda",
+        "logit": 16.46875,
+        "probability_percent": 86.47
+      },
+      {
+        "rank": 1,
+        "token": " band",
+        "logit": 12.703125,
+        "probability_percent": 2.0
+      },
+      {
+        "rank": 2,
+        "token": " fam",
+        "logit": 12.1953125,
+        "probability_percent": 1.2
+      },
+      {
+        "rank": 3,
+        "token": " form",
+        "logit": 12.0625,
+        "probability_percent": 1.06
+      },
+      {
+        "rank": 4,
+        "token": " canc",
+        "logit": 11.140625,
+        "probability_percent": 0.42
+      },
+      {
+        "rank": 5,
+        "token": " popular",
+        "logit": 10.9296875,
+        "probability_percent": 0.34
+      },
+      {
+        "rank": 6,
+        "token": " que",
+        "logit": 10.8515625,
+        "probability_percent": 0.31
+      },
+      {
+        "rank": 7,
+        "token": " agr",
+        "logit": 10.6484375,
+        "probability_percent": 0.26
+      },
+      {
+        "rank": 8,
+        "token": "\n",
+        "logit": 10.609375,
+        "probability_percent": 0.25
+      },
+      {
+        "rank": 9,
+        "token": " música",
+        "logit": 10.53125,
+        "probability_percent": 0.23
+      }
+    ]
+  },
+  {
+    "prompt": "Mick Jagger es el/la cantante principal de",
+    "generated_prefix": "Mick Jagger es el/la cantante principal de la banda",
+    "gold_token": " Stones",
+    "predicted_top1_token": ".",
+    "token_pos_in_answer": 2,
+    "gold_logit": 9.5234375,
+    "gold_prob_percent": 0.1,
+    "first_token_prob": 0.39306640625,
+    "second_token_prob": 0.193115234375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": ".",
+        "logit": 14.5546875,
+        "probability_percent": 15.64
+      },
+      {
+        "rank": 1,
+        "token": " de",
+        "logit": 14.5546875,
+        "probability_percent": 15.64
+      },
+      {
+        "rank": 2,
+        "token": ",",
+        "logit": 14.4921875,
+        "probability_percent": 14.7
+      },
+      {
+        "rank": 3,
+        "token": " The",
+        "logit": 14.484375,
+        "probability_percent": 14.58
+      },
+      {
+        "rank": 4,
+        "token": " y",
+        "logit": 13.625,
+        "probability_percent": 6.17
+      },
+      {
+        "rank": 5,
+        "token": " brit",
+        "logit": 13.4296875,
+        "probability_percent": 5.08
+      },
+      {
+        "rank": 6,
+        "token": ".\n",
+        "logit": 13.2265625,
+        "probability_percent": 4.14
+      },
+      {
+        "rank": 7,
+        "token": " Rolling",
+        "logit": 12.5859375,
+        "probability_percent": 2.18
+      },
+      {
+        "rank": 8,
+        "token": " ing",
+        "logit": 12.5078125,
+        "probability_percent": 2.02
+      },
+      {
+        "rank": 9,
+        "token": ";",
+        "logit": 11.953125,
+        "probability_percent": 1.16
+      }
+    ]
+  },
+  {
+    "prompt": "John Lennon es el/la cantante principal de",
+    "generated_prefix": "John Lennon es el/la cantante principal de",
+    "gold_token": " The",
+    "predicted_top1_token": " The",
+    "token_pos_in_answer": 0,
+    "gold_logit": 16.296875,
+    "gold_prob_percent": 36.74,
+    "first_token_prob": 0.367431640625,
+    "second_token_prob": 0.3193359375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " The",
+        "logit": 16.296875,
+        "probability_percent": 36.74
+      },
+      {
+        "rank": 1,
+        "token": " la",
+        "logit": 16.15625,
+        "probability_percent": 31.93
+      },
+      {
+        "rank": 2,
+        "token": " los",
+        "logit": 14.8125,
+        "probability_percent": 8.33
+      },
+      {
+        "rank": 3,
+        "token": " esta",
+        "logit": 13.5078125,
+        "probability_percent": 2.26
+      },
+      {
+        "rank": 4,
+        "token": " este",
+        "logit": 12.8359375,
+        "probability_percent": 1.15
+      },
+      {
+        "rank": 5,
+        "token": " John",
+        "logit": 12.640625,
+        "probability_percent": 0.95
+      },
+      {
+        "rank": 6,
+        "token": " las",
+        "logit": 12.4921875,
+        "probability_percent": 0.82
+      },
+      {
+        "rank": 7,
+        "token": " una",
+        "logit": 12.4453125,
+        "probability_percent": 0.78
+      },
+      {
+        "rank": 8,
+        "token": "/",
+        "logit": 12.3828125,
+        "probability_percent": 0.73
+      },
+      {
+        "rank": 9,
+        "token": " un",
+        "logit": 12.3125,
+        "probability_percent": 0.68
+      }
+    ]
+  },
+  {
+    "prompt": "John Lennon es el/la cantante principal de",
+    "generated_prefix": "John Lennon es el/la cantante principal de The",
+    "gold_token": " Beatles",
+    "predicted_top1_token": " Beatles",
+    "token_pos_in_answer": 1,
+    "gold_logit": 19.484375,
+    "gold_prob_percent": 96.83,
+    "first_token_prob": 0.367431640625,
+    "second_token_prob": 0.3193359375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Beatles",
+        "logit": 19.484375,
+        "probability_percent": 96.83
+      },
+      {
+        "rank": 1,
+        "token": " Fab",
+        "logit": 14.2265625,
+        "probability_percent": 0.5
+      },
+      {
+        "rank": 2,
+        "token": " Plastic",
+        "logit": 14.171875,
+        "probability_percent": 0.48
+      },
+      {
+        "rank": 3,
+        "token": " Beat",
+        "logit": 13.9609375,
+        "probability_percent": 0.39
+      },
+      {
+        "rank": 4,
+        "token": " Quarry",
+        "logit": 13.8515625,
+        "probability_percent": 0.35
+      },
+      {
+        "rank": 5,
+        "token": " Lennon",
+        "logit": 12.40625,
+        "probability_percent": 0.08
+      },
+      {
+        "rank": 6,
+        "token": " Beet",
+        "logit": 12.1953125,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 7,
+        "token": " New",
+        "logit": 11.8515625,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 8,
+        "token": " Beach",
+        "logit": 11.5859375,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 9,
+        "token": " Rut",
+        "logit": 11.2734375,
+        "probability_percent": 0.03
+      }
+    ]
+  },
+  {
+    "prompt": "Jim Morrison es el/la cantante principal de",
+    "generated_prefix": "Jim Morrison es el/la cantante principal de",
+    "gold_token": " The",
+    "predicted_top1_token": " la",
+    "token_pos_in_answer": 0,
+    "gold_logit": 13.421875,
+    "gold_prob_percent": 4.93,
+    "first_token_prob": 0.40966796875,
+    "second_token_prob": 0.04931640625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " la",
+        "logit": 15.5390625,
+        "probability_percent": 40.97
+      },
+      {
+        "rank": 1,
+        "token": " The",
+        "logit": 13.421875,
+        "probability_percent": 4.93
+      },
+      {
+        "rank": 2,
+        "token": " los",
+        "logit": 12.65625,
+        "probability_percent": 2.29
+      },
+      {
+        "rank": 3,
+        "token": "/",
+        "logit": 12.578125,
+        "probability_percent": 2.12
+      },
+      {
+        "rank": 4,
+        "token": ":",
+        "logit": 12.4375,
+        "probability_percent": 1.84
+      },
+      {
+        "rank": 5,
+        "token": "\n",
+        "logit": 12.3671875,
+        "probability_percent": 1.72
+      },
+      {
+        "rank": 6,
+        "token": " esta",
+        "logit": 12.0625,
+        "probability_percent": 1.27
+      },
+      {
+        "rank": 7,
+        "token": ":\n",
+        "logit": 12.015625,
+        "probability_percent": 1.21
+      },
+      {
+        "rank": 8,
+        "token": " un",
+        "logit": 12.015625,
+        "probability_percent": 1.21
+      },
+      {
+        "rank": 9,
+        "token": " una",
+        "logit": 11.765625,
+        "probability_percent": 0.94
+      }
+    ]
+  },
+  {
+    "prompt": "Jim Morrison es el/la cantante principal de",
+    "generated_prefix": "Jim Morrison es el/la cantante principal de la",
+    "gold_token": " Doors",
+    "predicted_top1_token": " banda",
+    "token_pos_in_answer": 1,
+    "gold_logit": -0.3876953125,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.40966796875,
+    "second_token_prob": 0.04931640625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " banda",
+        "logit": 16.734375,
+        "probability_percent": 78.66
+      },
+      {
+        "rank": 1,
+        "token": "/",
+        "logit": 12.9375,
+        "probability_percent": 1.77
+      },
+      {
+        "rank": 2,
+        "token": " band",
+        "logit": 12.8203125,
+        "probability_percent": 1.57
+      },
+      {
+        "rank": 3,
+        "token": " canc",
+        "logit": 12.359375,
+        "probability_percent": 0.99
+      },
+      {
+        "rank": 4,
+        "token": " agr",
+        "logit": 12.25,
+        "probability_percent": 0.89
+      },
+      {
+        "rank": 5,
+        "token": " fam",
+        "logit": 12.0078125,
+        "probability_percent": 0.7
+      },
+      {
+        "rank": 6,
+        "token": " música",
+        "logit": 11.875,
+        "probability_percent": 0.61
+      },
+      {
+        "rank": 7,
+        "token": " form",
+        "logit": 11.859375,
+        "probability_percent": 0.6
+      },
+      {
+        "rank": 8,
+        "token": " popular",
+        "logit": 11.6953125,
+        "probability_percent": 0.51
+      },
+      {
+        "rank": 9,
+        "token": " película",
+        "logit": 11.6875,
+        "probability_percent": 0.51
+      }
+    ]
+  },
+  {
+    "prompt": "Bono es el/la cantante principal de",
+    "generated_prefix": "Bono es el/la cantante principal de",
+    "gold_token": " U",
+    "predicted_top1_token": " la",
+    "token_pos_in_answer": 0,
+    "gold_logit": 8.96875,
+    "gold_prob_percent": 0.14,
+    "first_token_prob": 0.3173828125,
+    "second_token_prob": 0.058258056640625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " la",
+        "logit": 14.421875,
+        "probability_percent": 31.74
+      },
+      {
+        "rank": 1,
+        "token": " los",
+        "logit": 12.7265625,
+        "probability_percent": 5.83
+      },
+      {
+        "rank": 2,
+        "token": " un",
+        "logit": 12.2578125,
+        "probability_percent": 3.64
+      },
+      {
+        "rank": 3,
+        "token": " B",
+        "logit": 11.75,
+        "probability_percent": 2.19
+      },
+      {
+        "rank": 4,
+        "token": " una",
+        "logit": 11.734375,
+        "probability_percent": 2.16
+      },
+      {
+        "rank": 5,
+        "token": " las",
+        "logit": 11.4296875,
+        "probability_percent": 1.59
+      },
+      {
+        "rank": 6,
+        "token": " su",
+        "logit": 11.3359375,
+        "probability_percent": 1.45
+      },
+      {
+        "rank": 7,
+        "token": " esta",
+        "logit": 11.3046875,
+        "probability_percent": 1.41
+      },
+      {
+        "rank": 8,
+        "token": " \"",
+        "logit": 10.9375,
+        "probability_percent": 0.97
+      },
+      {
+        "rank": 9,
+        "token": " Cold",
+        "logit": 10.90625,
+        "probability_percent": 0.94
+      }
+    ]
+  },
+  {
+    "prompt": "Bono es el/la cantante principal de",
+    "generated_prefix": "Bono es el/la cantante principal de la",
+    "gold_token": "2",
+    "predicted_top1_token": " banda",
+    "token_pos_in_answer": 1,
+    "gold_logit": 0.357421875,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.3173828125,
+    "second_token_prob": 0.058258056640625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " banda",
+        "logit": 15.7734375,
+        "probability_percent": 56.49
+      },
+      {
+        "rank": 1,
+        "token": " canc",
+        "logit": 14.328125,
+        "probability_percent": 13.32
+      },
+      {
+        "rank": 2,
+        "token": " agr",
+        "logit": 12.75,
+        "probability_percent": 2.75
+      },
+      {
+        "rank": 3,
+        "token": " película",
+        "logit": 12.3671875,
+        "probability_percent": 1.87
+      },
+      {
+        "rank": 4,
+        "token": " música",
+        "logit": 12.1796875,
+        "probability_percent": 1.55
+      },
+      {
+        "rank": 5,
+        "token": " B",
+        "logit": 11.96875,
+        "probability_percent": 1.26
+      },
+      {
+        "rank": 6,
+        "token": " can",
+        "logit": 11.90625,
+        "probability_percent": 1.18
+      },
+      {
+        "rank": 7,
+        "token": " form",
+        "logit": 11.3515625,
+        "probability_percent": 0.68
+      },
+      {
+        "rank": 8,
+        "token": " g",
+        "logit": 11.1953125,
+        "probability_percent": 0.58
+      },
+      {
+        "rank": 9,
+        "token": " band",
+        "logit": 11.1875,
+        "probability_percent": 0.58
+      }
+    ]
+  },
+  {
+    "prompt": "Ozzy Osbourne es el/la cantante principal de",
+    "generated_prefix": "Ozzy Osbourne es el/la cantante principal de",
+    "gold_token": " Black",
+    "predicted_top1_token": " la",
+    "token_pos_in_answer": 0,
+    "gold_logit": 15.25,
+    "gold_prob_percent": 12.17,
+    "first_token_prob": 0.66845703125,
+    "second_token_prob": 0.1217041015625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " la",
+        "logit": 16.953125,
+        "probability_percent": 66.85
+      },
+      {
+        "rank": 1,
+        "token": " Black",
+        "logit": 15.25,
+        "probability_percent": 12.17
+      },
+      {
+        "rank": 2,
+        "token": " Oz",
+        "logit": 14.59375,
+        "probability_percent": 6.31
+      },
+      {
+        "rank": 3,
+        "token": " los",
+        "logit": 13.4296875,
+        "probability_percent": 1.97
+      },
+      {
+        "rank": 4,
+        "token": " las",
+        "logit": 12.96875,
+        "probability_percent": 1.24
+      },
+      {
+        "rank": 5,
+        "token": " una",
+        "logit": 12.265625,
+        "probability_percent": 0.62
+      },
+      {
+        "rank": 6,
+        "token": " su",
+        "logit": 12.0390625,
+        "probability_percent": 0.49
+      },
+      {
+        "rank": 7,
+        "token": " Os",
+        "logit": 12.015625,
+        "probability_percent": 0.48
+      },
+      {
+        "rank": 8,
+        "token": "\n",
+        "logit": 11.96875,
+        "probability_percent": 0.46
+      },
+      {
+        "rank": 9,
+        "token": " O",
+        "logit": 11.953125,
+        "probability_percent": 0.45
+      }
+    ]
+  },
+  {
+    "prompt": "Ozzy Osbourne es el/la cantante principal de",
+    "generated_prefix": "Ozzy Osbourne es el/la cantante principal de la",
+    "gold_token": " Sabbath",
+    "predicted_top1_token": " banda",
+    "token_pos_in_answer": 1,
+    "gold_logit": 2.2578125,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.66845703125,
+    "second_token_prob": 0.1217041015625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " banda",
+        "logit": 17.421875,
+        "probability_percent": 90.43
+      },
+      {
+        "rank": 1,
+        "token": " fam",
+        "logit": 13.390625,
+        "probability_percent": 1.61
+      },
+      {
+        "rank": 2,
+        "token": " band",
+        "logit": 13.078125,
+        "probability_percent": 1.17
+      },
+      {
+        "rank": 3,
+        "token": " agr",
+        "logit": 12.46875,
+        "probability_percent": 0.64
+      },
+      {
+        "rank": 4,
+        "token": " form",
+        "logit": 12.109375,
+        "probability_percent": 0.45
+      },
+      {
+        "rank": 5,
+        "token": " popular",
+        "logit": 11.8125,
+        "probability_percent": 0.33
+      },
+      {
+        "rank": 6,
+        "token": " ley",
+        "logit": 11.7265625,
+        "probability_percent": 0.3
+      },
+      {
+        "rank": 7,
+        "token": "/",
+        "logit": 11.65625,
+        "probability_percent": 0.28
+      },
+      {
+        "rank": 8,
+        "token": " canc",
+        "logit": 11.125,
+        "probability_percent": 0.17
+      },
+      {
+        "rank": 9,
+        "token": " leg",
+        "logit": 11.03125,
+        "probability_percent": 0.15
+      }
+    ]
+  },
+  {
+    "prompt": "Billie Joe Armstrong es el/la cantante principal de",
+    "generated_prefix": "Billie Joe Armstrong es el/la cantante principal de",
+    "gold_token": " Green",
+    "predicted_top1_token": " Green",
+    "token_pos_in_answer": 0,
+    "gold_logit": 16.0625,
+    "gold_prob_percent": 72.41,
+    "first_token_prob": 0.72412109375,
+    "second_token_prob": 0.1392822265625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Green",
+        "logit": 16.0625,
+        "probability_percent": 72.41
+      },
+      {
+        "rank": 1,
+        "token": " la",
+        "logit": 14.4140625,
+        "probability_percent": 13.93
+      },
+      {
+        "rank": 2,
+        "token": " los",
+        "logit": 12.953125,
+        "probability_percent": 3.23
+      },
+      {
+        "rank": 3,
+        "token": " esta",
+        "logit": 11.75,
+        "probability_percent": 0.97
+      },
+      {
+        "rank": 4,
+        "token": " las",
+        "logit": 11.078125,
+        "probability_percent": 0.5
+      },
+      {
+        "rank": 5,
+        "token": " band",
+        "logit": 10.9296875,
+        "probability_percent": 0.43
+      },
+      {
+        "rank": 6,
+        "token": " un",
+        "logit": 10.7265625,
+        "probability_percent": 0.35
+      },
+      {
+        "rank": 7,
+        "token": " Los",
+        "logit": 10.5546875,
+        "probability_percent": 0.29
+      },
+      {
+        "rank": 8,
+        "token": " ",
+        "logit": 10.34375,
+        "probability_percent": 0.24
+      },
+      {
+        "rank": 9,
+        "token": " Gre",
+        "logit": 10.34375,
+        "probability_percent": 0.24
+      }
+    ]
+  },
+  {
+    "prompt": "Billie Joe Armstrong es el/la cantante principal de",
+    "generated_prefix": "Billie Joe Armstrong es el/la cantante principal de Green",
+    "gold_token": " Day",
+    "predicted_top1_token": " Day",
+    "token_pos_in_answer": 1,
+    "gold_logit": 21.53125,
+    "gold_prob_percent": 99.61,
+    "first_token_prob": 0.72412109375,
+    "second_token_prob": 0.1392822265625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Day",
+        "logit": 21.53125,
+        "probability_percent": 99.61
+      },
+      {
+        "rank": 1,
+        "token": " day",
+        "logit": 15.1015625,
+        "probability_percent": 0.16
+      },
+      {
+        "rank": 2,
+        "token": "Day",
+        "logit": 14.7734375,
+        "probability_percent": 0.12
+      },
+      {
+        "rank": 3,
+        "token": " Days",
+        "logit": 12.6953125,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 4,
+        "token": "-Day",
+        "logit": 12.3046875,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 5,
+        "token": " River",
+        "logit": 11.96875,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 6,
+        "token": "\n",
+        "logit": 11.703125,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 7,
+        "token": " Bay",
+        "logit": 11.4765625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": ".",
+        "logit": 11.3984375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": " DAY",
+        "logit": 11.3203125,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "Eddie Vedder es el/la cantante principal de",
+    "generated_prefix": "Eddie Vedder es el/la cantante principal de",
+    "gold_token": " Pearl",
+    "predicted_top1_token": " la",
+    "token_pos_in_answer": 0,
+    "gold_logit": 16.28125,
+    "gold_prob_percent": 41.48,
+    "first_token_prob": 0.469970703125,
+    "second_token_prob": 0.414794921875,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " la",
+        "logit": 16.40625,
+        "probability_percent": 47.0
+      },
+      {
+        "rank": 1,
+        "token": " Pearl",
+        "logit": 16.28125,
+        "probability_percent": 41.48
+      },
+      {
+        "rank": 2,
+        "token": " los",
+        "logit": 12.546875,
+        "probability_percent": 0.99
+      },
+      {
+        "rank": 3,
+        "token": " esta",
+        "logit": 12.3359375,
+        "probability_percent": 0.8
+      },
+      {
+        "rank": 4,
+        "token": " una",
+        "logit": 12.171875,
+        "probability_percent": 0.68
+      },
+      {
+        "rank": 5,
+        "token": " Nir",
+        "logit": 11.8671875,
+        "probability_percent": 0.5
+      },
+      {
+        "rank": 6,
+        "token": " su",
+        "logit": 11.859375,
+        "probability_percent": 0.5
+      },
+      {
+        "rank": 7,
+        "token": " un",
+        "logit": 11.5703125,
+        "probability_percent": 0.37
+      },
+      {
+        "rank": 8,
+        "token": " Foo",
+        "logit": 11.546875,
+        "probability_percent": 0.36
+      },
+      {
+        "rank": 9,
+        "token": " Eddie",
+        "logit": 11.5234375,
+        "probability_percent": 0.36
+      }
+    ]
+  },
+  {
+    "prompt": "Eddie Vedder es el/la cantante principal de",
+    "generated_prefix": "Eddie Vedder es el/la cantante principal de la",
+    "gold_token": " Jam",
+    "predicted_top1_token": " banda",
+    "token_pos_in_answer": 1,
+    "gold_logit": 4.39453125,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.469970703125,
+    "second_token_prob": 0.414794921875,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " banda",
+        "logit": 17.859375,
+        "probability_percent": 92.63
+      },
+      {
+        "rank": 1,
+        "token": " band",
+        "logit": 13.5234375,
+        "probability_percent": 1.21
+      },
+      {
+        "rank": 2,
+        "token": " agr",
+        "logit": 13.09375,
+        "probability_percent": 0.79
+      },
+      {
+        "rank": 3,
+        "token": " fam",
+        "logit": 13.0546875,
+        "probability_percent": 0.76
+      },
+      {
+        "rank": 4,
+        "token": " form",
+        "logit": 12.546875,
+        "probability_percent": 0.46
+      },
+      {
+        "rank": 5,
+        "token": " popular",
+        "logit": 12.3671875,
+        "probability_percent": 0.38
+      },
+      {
+        "rank": 6,
+        "token": " canc",
+        "logit": 11.6640625,
+        "probability_percent": 0.19
+      },
+      {
+        "rank": 7,
+        "token": " cant",
+        "logit": 11.625,
+        "probability_percent": 0.18
+      },
+      {
+        "rank": 8,
+        "token": " rock",
+        "logit": 11.328125,
+        "probability_percent": 0.13
+      },
+      {
+        "rank": 9,
+        "token": " conoc",
+        "logit": 11.1328125,
+        "probability_percent": 0.11
+      }
+    ]
+  },
+  {
+    "prompt": "Jon Bon Jovi es el/la cantante principal de",
+    "generated_prefix": "Jon Bon Jovi es el/la cantante principal de",
+    "gold_token": " Bon",
+    "predicted_top1_token": " la",
+    "token_pos_in_answer": 0,
+    "gold_logit": 14.1875,
+    "gold_prob_percent": 8.44,
+    "first_token_prob": 0.36083984375,
+    "second_token_prob": 0.0843505859375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " la",
+        "logit": 15.640625,
+        "probability_percent": 36.08
+      },
+      {
+        "rank": 1,
+        "token": " Bon",
+        "logit": 14.1875,
+        "probability_percent": 8.44
+      },
+      {
+        "rank": 2,
+        "token": " los",
+        "logit": 13.21875,
+        "probability_percent": 3.2
+      },
+      {
+        "rank": 3,
+        "token": "\n",
+        "logit": 13.1953125,
+        "probability_percent": 3.13
+      },
+      {
+        "rank": 4,
+        "token": " The",
+        "logit": 12.9765625,
+        "probability_percent": 2.51
+      },
+      {
+        "rank": 5,
+        "token": ":",
+        "logit": 12.9140625,
+        "probability_percent": 2.36
+      },
+      {
+        "rank": 6,
+        "token": " esta",
+        "logit": 12.609375,
+        "probability_percent": 1.74
+      },
+      {
+        "rank": 7,
+        "token": ":\n",
+        "logit": 12.484375,
+        "probability_percent": 1.54
+      },
+      {
+        "rank": 8,
+        "token": " \"",
+        "logit": 12.203125,
+        "probability_percent": 1.16
+      },
+      {
+        "rank": 9,
+        "token": " (",
+        "logit": 12.1875,
+        "probability_percent": 1.14
+      }
+    ]
+  },
+  {
+    "prompt": "Jon Bon Jovi es el/la cantante principal de",
+    "generated_prefix": "Jon Bon Jovi es el/la cantante principal de la",
+    "gold_token": " J",
+    "predicted_top1_token": " banda",
+    "token_pos_in_answer": 1,
+    "gold_logit": 6.15625,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.36083984375,
+    "second_token_prob": 0.0843505859375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " banda",
+        "logit": 16.140625,
+        "probability_percent": 69.58
+      },
+      {
+        "rank": 1,
+        "token": " canc",
+        "logit": 13.96875,
+        "probability_percent": 7.93
+      },
+      {
+        "rank": 2,
+        "token": " band",
+        "logit": 12.359375,
+        "probability_percent": 1.59
+      },
+      {
+        "rank": 3,
+        "token": "/",
+        "logit": 12.2578125,
+        "probability_percent": 1.43
+      },
+      {
+        "rank": 4,
+        "token": " agr",
+        "logit": 12.2578125,
+        "probability_percent": 1.43
+      },
+      {
+        "rank": 5,
+        "token": " form",
+        "logit": 12.0703125,
+        "probability_percent": 1.19
+      },
+      {
+        "rank": 6,
+        "token": " película",
+        "logit": 11.859375,
+        "probability_percent": 0.96
+      },
+      {
+        "rank": 7,
+        "token": " fam",
+        "logit": 11.8359375,
+        "probability_percent": 0.94
+      },
+      {
+        "rank": 8,
+        "token": " música",
+        "logit": 11.6953125,
+        "probability_percent": 0.82
+      },
+      {
+        "rank": 9,
+        "token": " can",
+        "logit": 11.4765625,
+        "probability_percent": 0.66
+      }
+    ]
+  },
+  {
+    "prompt": "Jon Bon Jovi es el/la cantante principal de",
+    "generated_prefix": "Jon Bon Jovi es el/la cantante principal de la banda",
+    "gold_token": "ovi",
+    "predicted_top1_token": " de",
+    "token_pos_in_answer": 2,
+    "gold_logit": 1.17578125,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.36083984375,
+    "second_token_prob": 0.0843505859375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " de",
+        "logit": 14.9296875,
+        "probability_percent": 23.89
+      },
+      {
+        "rank": 1,
+        "token": " Bon",
+        "logit": 14.265625,
+        "probability_percent": 12.3
+      },
+      {
+        "rank": 2,
+        "token": ".",
+        "logit": 14.0859375,
+        "probability_percent": 10.28
+      },
+      {
+        "rank": 3,
+        "token": ".\n",
+        "logit": 13.8125,
+        "probability_percent": 7.82
+      },
+      {
+        "rank": 4,
+        "token": " y",
+        "logit": 13.4453125,
+        "probability_percent": 5.42
+      },
+      {
+        "rank": 5,
+        "token": ",",
+        "logit": 13.3515625,
+        "probability_percent": 4.93
+      },
+      {
+        "rank": 6,
+        "token": " estad",
+        "logit": 13.1953125,
+        "probability_percent": 4.22
+      },
+      {
+        "rank": 7,
+        "token": "\n",
+        "logit": 12.765625,
+        "probability_percent": 2.75
+      },
+      {
+        "rank": 8,
+        "token": " The",
+        "logit": 12.1875,
+        "probability_percent": 1.54
+      },
+      {
+        "rank": 9,
+        "token": " que",
+        "logit": 12.1328125,
+        "probability_percent": 1.46
+      }
+    ]
+  },
+  {
+    "prompt": "Don Henley es el/la cantante principal de",
+    "generated_prefix": "Don Henley es el/la cantante principal de",
+    "gold_token": " The",
+    "predicted_top1_token": " la",
+    "token_pos_in_answer": 0,
+    "gold_logit": 12.109375,
+    "gold_prob_percent": 4.35,
+    "first_token_prob": 0.51318359375,
+    "second_token_prob": 0.0504150390625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " la",
+        "logit": 14.578125,
+        "probability_percent": 51.32
+      },
+      {
+        "rank": 1,
+        "token": " los",
+        "logit": 12.2578125,
+        "probability_percent": 5.04
+      },
+      {
+        "rank": 2,
+        "token": " The",
+        "logit": 12.109375,
+        "probability_percent": 4.35
+      },
+      {
+        "rank": 3,
+        "token": " un",
+        "logit": 12.0078125,
+        "probability_percent": 3.93
+      },
+      {
+        "rank": 4,
+        "token": " esta",
+        "logit": 11.703125,
+        "probability_percent": 2.9
+      },
+      {
+        "rank": 5,
+        "token": " una",
+        "logit": 11.0625,
+        "probability_percent": 1.53
+      },
+      {
+        "rank": 6,
+        "token": " el",
+        "logit": 10.9921875,
+        "probability_percent": 1.42
+      },
+      {
+        "rank": 7,
+        "token": " este",
+        "logit": 10.75,
+        "probability_percent": 1.12
+      },
+      {
+        "rank": 8,
+        "token": " Super",
+        "logit": 10.53125,
+        "probability_percent": 0.9
+      },
+      {
+        "rank": 9,
+        "token": "\n",
+        "logit": 10.4609375,
+        "probability_percent": 0.84
+      }
+    ]
+  },
+  {
+    "prompt": "Don Henley es el/la cantante principal de",
+    "generated_prefix": "Don Henley es el/la cantante principal de la",
+    "gold_token": " Eagles",
+    "predicted_top1_token": " banda",
+    "token_pos_in_answer": 1,
+    "gold_logit": 4.89453125,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.51318359375,
+    "second_token_prob": 0.0504150390625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " banda",
+        "logit": 16.515625,
+        "probability_percent": 81.74
+      },
+      {
+        "rank": 1,
+        "token": " canc",
+        "logit": 12.6875,
+        "probability_percent": 1.78
+      },
+      {
+        "rank": 2,
+        "token": " fam",
+        "logit": 12.4765625,
+        "probability_percent": 1.44
+      },
+      {
+        "rank": 3,
+        "token": " agr",
+        "logit": 12.1796875,
+        "probability_percent": 1.07
+      },
+      {
+        "rank": 4,
+        "token": " form",
+        "logit": 12.15625,
+        "probability_percent": 1.05
+      },
+      {
+        "rank": 5,
+        "token": " band",
+        "logit": 12.109375,
+        "probability_percent": 1.0
+      },
+      {
+        "rank": 6,
+        "token": " popular",
+        "logit": 11.9296875,
+        "probability_percent": 0.83
+      },
+      {
+        "rank": 7,
+        "token": " cant",
+        "logit": 11.34375,
+        "probability_percent": 0.46
+      },
+      {
+        "rank": 8,
+        "token": " g",
+        "logit": 11.03125,
+        "probability_percent": 0.34
+      },
+      {
+        "rank": 9,
+        "token": " exit",
+        "logit": 10.9453125,
+        "probability_percent": 0.31
+      }
+    ]
+  },
+  {
+    "prompt": "Liam Gallagher es el/la cantante principal de",
+    "generated_prefix": "Liam Gallagher es el/la cantante principal de",
+    "gold_token": " Oasis",
+    "predicted_top1_token": " la",
+    "token_pos_in_answer": 0,
+    "gold_logit": 13.8671875,
+    "gold_prob_percent": 20.17,
+    "first_token_prob": 0.26318359375,
+    "second_token_prob": 0.20166015625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " la",
+        "logit": 14.1328125,
+        "probability_percent": 26.32
+      },
+      {
+        "rank": 1,
+        "token": " Oasis",
+        "logit": 13.8671875,
+        "probability_percent": 20.17
+      },
+      {
+        "rank": 2,
+        "token": " los",
+        "logit": 12.375,
+        "probability_percent": 4.53
+      },
+      {
+        "rank": 3,
+        "token": " The",
+        "logit": 12.1953125,
+        "probability_percent": 3.79
+      },
+      {
+        "rank": 4,
+        "token": " Be",
+        "logit": 11.9375,
+        "probability_percent": 2.93
+      },
+      {
+        "rank": 5,
+        "token": "\n",
+        "logit": 11.8203125,
+        "probability_percent": 2.6
+      },
+      {
+        "rank": 6,
+        "token": " (",
+        "logit": 11.6953125,
+        "probability_percent": 2.3
+      },
+      {
+        "rank": 7,
+        "token": " las",
+        "logit": 11.3828125,
+        "probability_percent": 1.68
+      },
+      {
+        "rank": 8,
+        "token": ":",
+        "logit": 11.015625,
+        "probability_percent": 1.17
+      },
+      {
+        "rank": 9,
+        "token": "/",
+        "logit": 10.984375,
+        "probability_percent": 1.13
+      }
+    ]
+  },
+  {
+    "prompt": "Serj Tankian es el/la cantante principal de",
+    "generated_prefix": "Serj Tankian es el/la cantante principal de",
+    "gold_token": " System",
+    "predicted_top1_token": " la",
+    "token_pos_in_answer": 0,
+    "gold_logit": 14.859375,
+    "gold_prob_percent": 31.67,
+    "first_token_prob": 0.464111328125,
+    "second_token_prob": 0.316650390625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " la",
+        "logit": 15.2421875,
+        "probability_percent": 46.41
+      },
+      {
+        "rank": 1,
+        "token": " System",
+        "logit": 14.859375,
+        "probability_percent": 31.67
+      },
+      {
+        "rank": 2,
+        "token": " los",
+        "logit": 12.5390625,
+        "probability_percent": 3.11
+      },
+      {
+        "rank": 3,
+        "token": " esta",
+        "logit": 11.4140625,
+        "probability_percent": 1.01
+      },
+      {
+        "rank": 4,
+        "token": " S",
+        "logit": 11.2578125,
+        "probability_percent": 0.86
+      },
+      {
+        "rank": 5,
+        "token": " su",
+        "logit": 11.09375,
+        "probability_percent": 0.73
+      },
+      {
+        "rank": 6,
+        "token": " The",
+        "logit": 10.6796875,
+        "probability_percent": 0.48
+      },
+      {
+        "rank": 7,
+        "token": " Sistema",
+        "logit": 10.6640625,
+        "probability_percent": 0.48
+      },
+      {
+        "rank": 8,
+        "token": " Ser",
+        "logit": 10.6171875,
+        "probability_percent": 0.46
+      },
+      {
+        "rank": 9,
+        "token": " sistema",
+        "logit": 10.59375,
+        "probability_percent": 0.44
+      }
+    ]
+  },
+  {
+    "prompt": "Serj Tankian es el/la cantante principal de",
+    "generated_prefix": "Serj Tankian es el/la cantante principal de la",
+    "gold_token": " of",
+    "predicted_top1_token": " banda",
+    "token_pos_in_answer": 1,
+    "gold_logit": 5.2890625,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.464111328125,
+    "second_token_prob": 0.316650390625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " banda",
+        "logit": 18.234375,
+        "probability_percent": 93.36
+      },
+      {
+        "rank": 1,
+        "token": " band",
+        "logit": 13.984375,
+        "probability_percent": 1.33
+      },
+      {
+        "rank": 2,
+        "token": " agr",
+        "logit": 13.5625,
+        "probability_percent": 0.87
+      },
+      {
+        "rank": 3,
+        "token": " form",
+        "logit": 13.5234375,
+        "probability_percent": 0.84
+      },
+      {
+        "rank": 4,
+        "token": " fam",
+        "logit": 12.6328125,
+        "probability_percent": 0.34
+      },
+      {
+        "rank": 5,
+        "token": " música",
+        "logit": 12.2109375,
+        "probability_percent": 0.23
+      },
+      {
+        "rank": 6,
+        "token": " popular",
+        "logit": 11.5234375,
+        "probability_percent": 0.11
+      },
+      {
+        "rank": 7,
+        "token": " conoc",
+        "logit": 11.328125,
+        "probability_percent": 0.09
+      },
+      {
+        "rank": 8,
+        "token": " cant",
+        "logit": 11.109375,
+        "probability_percent": 0.08
+      },
+      {
+        "rank": 9,
+        "token": "/",
+        "logit": 10.9921875,
+        "probability_percent": 0.07
+      }
+    ]
+  },
+  {
+    "prompt": "Serj Tankian es el/la cantante principal de",
+    "generated_prefix": "Serj Tankian es el/la cantante principal de la banda",
+    "gold_token": " a",
+    "predicted_top1_token": " de",
+    "token_pos_in_answer": 2,
+    "gold_logit": 8.203125,
+    "gold_prob_percent": 0.12,
+    "first_token_prob": 0.464111328125,
+    "second_token_prob": 0.316650390625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " de",
+        "logit": 13.640625,
+        "probability_percent": 28.49
+      },
+      {
+        "rank": 1,
+        "token": " System",
+        "logit": 12.953125,
+        "probability_percent": 14.32
+      },
+      {
+        "rank": 2,
+        "token": ".",
+        "logit": 12.765625,
+        "probability_percent": 11.88
+      },
+      {
+        "rank": 3,
+        "token": ",",
+        "logit": 12.578125,
+        "probability_percent": 9.84
+      },
+      {
+        "rank": 4,
+        "token": " estad",
+        "logit": 12.359375,
+        "probability_percent": 7.91
+      },
+      {
+        "rank": 5,
+        "token": ".\n",
+        "logit": 11.046875,
+        "probability_percent": 2.13
+      },
+      {
+        "rank": 6,
+        "token": " y",
+        "logit": 10.9375,
+        "probability_percent": 1.91
+      },
+      {
+        "rank": 7,
+        "token": " ser",
+        "logit": 10.6953125,
+        "probability_percent": 1.5
+      },
+      {
+        "rank": 8,
+        "token": " Ser",
+        "logit": 10.5078125,
+        "probability_percent": 1.24
+      },
+      {
+        "rank": 9,
+        "token": " rock",
+        "logit": 10.1640625,
+        "probability_percent": 0.88
+      }
+    ]
+  },
+  {
+    "prompt": "Serj Tankian es el/la cantante principal de",
+    "generated_prefix": "Serj Tankian es el/la cantante principal de la banda de",
+    "gold_token": " Down",
+    "predicted_top1_token": " rock",
+    "token_pos_in_answer": 3,
+    "gold_logit": 2.5390625,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.464111328125,
+    "second_token_prob": 0.316650390625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " rock",
+        "logit": 16.234375,
+        "probability_percent": 65.09
+      },
+      {
+        "rank": 1,
+        "token": " música",
+        "logit": 14.4140625,
+        "probability_percent": 10.54
+      },
+      {
+        "rank": 2,
+        "token": " metal",
+        "logit": 13.8046875,
+        "probability_percent": 5.73
+      },
+      {
+        "rank": 3,
+        "token": " Rock",
+        "logit": 12.9609375,
+        "probability_percent": 2.46
+      },
+      {
+        "rank": 4,
+        "token": " heavy",
+        "logit": 12.6796875,
+        "probability_percent": 1.86
+      },
+      {
+        "rank": 5,
+        "token": " musica",
+        "logit": 12.15625,
+        "probability_percent": 1.1
+      },
+      {
+        "rank": 6,
+        "token": " power",
+        "logit": 12.0390625,
+        "probability_percent": 0.98
+      },
+      {
+        "rank": 7,
+        "token": " pro",
+        "logit": 11.828125,
+        "probability_percent": 0.79
+      },
+      {
+        "rank": 8,
+        "token": " post",
+        "logit": 11.6640625,
+        "probability_percent": 0.67
+      },
+      {
+        "rank": 9,
+        "token": " hard",
+        "logit": 11.65625,
+        "probability_percent": 0.67
+      }
+    ]
+  }
+]

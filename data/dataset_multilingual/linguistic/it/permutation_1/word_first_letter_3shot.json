@@ -1,0 +1,972 @@
+{
+    "name": "word first letter_3shot_perm1",
+    "prompt_templates": [
+        "MAI inizia con la lettera M.\nZEBRA inizia con la lettera Z.\nVIAGGIO inizia con la lettera V.\n{} inizia con la lettera"
+    ],
+    "samples": [
+        {
+            "subject": "PIEGA",
+            "object": "P"
+        },
+        {
+            "subject": "PESANTE",
+            "object": "P"
+        },
+        {
+            "subject": "BELLA",
+            "object": "B"
+        },
+        {
+            "subject": "CHIEDI",
+            "object": "C"
+        },
+        {
+            "subject": "ESPANDERE",
+            "object": "E"
+        },
+        {
+            "subject": "FRONTE",
+            "object": "F"
+        },
+        {
+            "subject": "DURO",
+            "object": "D"
+        },
+        {
+            "subject": "GENTILE",
+            "object": "G"
+        },
+        {
+            "subject": "VAI",
+            "object": "V"
+        },
+        {
+            "subject": "CHIRURGIA",
+            "object": "C"
+        },
+        {
+            "subject": "PASSATO",
+            "object": "P"
+        },
+        {
+            "subject": "DENTRO",
+            "object": "D"
+        },
+        {
+            "subject": "ENTRA",
+            "object": "E"
+        },
+        {
+            "subject": "INIZIARE",
+            "object": "I"
+        },
+        {
+            "subject": "SVANIRE",
+            "object": "S"
+        },
+        {
+            "subject": "AUTUNNO",
+            "object": "A"
+        },
+        {
+            "subject": "PAZZO",
+            "object": "P"
+        },
+        {
+            "subject": "DIMENTICARE",
+            "object": "D"
+        },
+        {
+            "subject": "ACCIGLIARSI",
+            "object": "A"
+        },
+        {
+            "subject": "GRANDE",
+            "object": "G"
+        },
+        {
+            "subject": "IMPARARE",
+            "object": "I"
+        },
+        {
+            "subject": "LISCIO",
+            "object": "L"
+        },
+        {
+            "subject": "AMPIO",
+            "object": "A"
+        },
+        {
+            "subject": "AEREO",
+            "object": "A"
+        },
+        {
+            "subject": "SBAGLIATO",
+            "object": "S"
+        },
+        {
+            "subject": "DANZA",
+            "object": "D"
+        },
+        {
+            "subject": "VINCERE",
+            "object": "V"
+        },
+        {
+            "subject": "CREDERE",
+            "object": "C"
+        },
+        {
+            "subject": "CONCERTO",
+            "object": "C"
+        },
+        {
+            "subject": "BICICLETTA",
+            "object": "B"
+        },
+        {
+            "subject": "STANTIO",
+            "object": "S"
+        },
+        {
+            "subject": "BIBLIOTECA",
+            "object": "B"
+        },
+        {
+            "subject": "CHIAMATA",
+            "object": "C"
+        },
+        {
+            "subject": "DARE",
+            "object": "D"
+        },
+        {
+            "subject": "CONOSCERE",
+            "object": "C"
+        },
+        {
+            "subject": "SCALARE",
+            "object": "S"
+        },
+        {
+            "subject": "FRESCO",
+            "object": "F"
+        },
+        {
+            "subject": "GUARDA",
+            "object": "G"
+        },
+        {
+            "subject": "VECCHIO",
+            "object": "V"
+        },
+        {
+            "subject": "PALESTRA",
+            "object": "P"
+        },
+        {
+            "subject": "ALTO",
+            "object": "A"
+        },
+        {
+            "subject": "DECIDERE",
+            "object": "D"
+        },
+        {
+            "subject": "SCEGLIERE",
+            "object": "S"
+        },
+        {
+            "subject": "VOLERE",
+            "object": "V"
+        },
+        {
+            "subject": "FORTE",
+            "object": "F"
+        },
+        {
+            "subject": "CAMMINARE",
+            "object": "C"
+        },
+        {
+            "subject": "SCATOLA",
+            "object": "S"
+        },
+        {
+            "subject": "SCORTESE",
+            "object": "S"
+        },
+        {
+            "subject": "MACCHINA",
+            "object": "M"
+        },
+        {
+            "subject": "CALMO",
+            "object": "C"
+        },
+        {
+            "subject": "DESTRA",
+            "object": "D"
+        },
+        {
+            "subject": "INCLUDERE",
+            "object": "I"
+        },
+        {
+            "subject": "FALSO",
+            "object": "F"
+        },
+        {
+            "subject": "SUSSURRO",
+            "object": "S"
+        },
+        {
+            "subject": "PROFONDO",
+            "object": "P"
+        },
+        {
+            "subject": "FILM",
+            "object": "F"
+        },
+        {
+            "subject": "RIDERE",
+            "object": "R"
+        },
+        {
+            "subject": "ACIDO",
+            "object": "A"
+        },
+        {
+            "subject": "BENEDICI",
+            "object": "B"
+        },
+        {
+            "subject": "SPORCO",
+            "object": "S"
+        },
+        {
+            "subject": "PICCOLO",
+            "object": "P"
+        },
+        {
+            "subject": "COSTRUIRE",
+            "object": "C"
+        },
+        {
+            "subject": "EDUCAZIONE",
+            "object": "E"
+        },
+        {
+            "subject": "PIACE",
+            "object": "P"
+        },
+        {
+            "subject": "BISOGNO",
+            "object": "B"
+        },
+        {
+            "subject": "DURO",
+            "object": "D"
+        },
+        {
+            "subject": "FINIRE",
+            "object": "F"
+        },
+        {
+            "subject": "PORTARE",
+            "object": "P"
+        },
+        {
+            "subject": "TRISTE",
+            "object": "T"
+        },
+        {
+            "subject": "CATTIVO",
+            "object": "C"
+        },
+        {
+            "subject": "PIGRO",
+            "object": "P"
+        },
+        {
+            "subject": "INSIEME",
+            "object": "I"
+        },
+        {
+            "subject": "CORTO",
+            "object": "C"
+        },
+        {
+            "subject": "SALTO",
+            "object": "S"
+        },
+        {
+            "subject": "SOFTWARE",
+            "object": "S"
+        },
+        {
+            "subject": "BAGNATO",
+            "object": "B"
+        },
+        {
+            "subject": "VERO",
+            "object": "V"
+        },
+        {
+            "subject": "BATTAGLIA",
+            "object": "B"
+        },
+        {
+            "subject": "ALLEGRIA",
+            "object": "A"
+        },
+        {
+            "subject": "SEMPLICE",
+            "object": "S"
+        },
+        {
+            "subject": "LENTO",
+            "object": "L"
+        },
+        {
+            "subject": "PIENO",
+            "object": "P"
+        },
+        {
+            "subject": "LUCE",
+            "object": "L"
+        },
+        {
+            "subject": "PIANOFORTE",
+            "object": "P"
+        },
+        {
+            "subject": "SCRIVERE",
+            "object": "S"
+        },
+        {
+            "subject": "MANGIARE",
+            "object": "M"
+        },
+        {
+            "subject": "SEGUIRE",
+            "object": "S"
+        },
+        {
+            "subject": "GENTILE",
+            "object": "G"
+        },
+        {
+            "subject": "PENSARE",
+            "object": "P"
+        },
+        {
+            "subject": "DRAMMA",
+            "object": "D"
+        },
+        {
+            "subject": "CAPIRE",
+            "object": "C"
+        },
+        {
+            "subject": "COMPRA",
+            "object": "C"
+        },
+        {
+            "subject": "SPINGI",
+            "object": "S"
+        },
+        {
+            "subject": "FREDDO",
+            "object": "F"
+        },
+        {
+            "subject": "SÌ",
+            "object": "S"
+        },
+        {
+            "subject": "SECCO",
+            "object": "S"
+        },
+        {
+            "subject": "AMICHEVOLE",
+            "object": "A"
+        },
+        {
+            "subject": "SCUOTERE",
+            "object": "S"
+        },
+        {
+            "subject": "FELICE",
+            "object": "F"
+        },
+        {
+            "subject": "RICORDA",
+            "object": "R"
+        },
+        {
+            "subject": "BEVANDA",
+            "object": "B"
+        },
+        {
+            "subject": "PRENDERE",
+            "object": "P"
+        },
+        {
+            "subject": "MALATO",
+            "object": "M"
+        },
+        {
+            "subject": "TIRA",
+            "object": "T"
+        },
+        {
+            "subject": "NUOTARE",
+            "object": "N"
+        },
+        {
+            "subject": "VELOCE",
+            "object": "V"
+        },
+        {
+            "subject": "AMORE",
+            "object": "A"
+        },
+        {
+            "subject": "EDUCATO",
+            "object": "E"
+        },
+        {
+            "subject": "VIENI",
+            "object": "V"
+        },
+        {
+            "subject": "BRUTTO",
+            "object": "B"
+        },
+        {
+            "subject": "LODE",
+            "object": "L"
+        },
+        {
+            "subject": "FORTE",
+            "object": "F"
+        },
+        {
+            "subject": "CRUDELE",
+            "object": "C"
+        },
+        {
+            "subject": "ATTRARRE",
+            "object": "A"
+        },
+        {
+            "subject": "POSITIVO",
+            "object": "P"
+        },
+        {
+            "subject": "LUNGO",
+            "object": "L"
+        },
+        {
+            "subject": "PRENDERE",
+            "object": "P"
+        },
+        {
+            "subject": "SALVA",
+            "object": "S"
+        },
+        {
+            "subject": "MATTO",
+            "object": "M"
+        },
+        {
+            "subject": "MEDICINA",
+            "object": "M"
+        },
+        {
+            "subject": "INCONTRARE",
+            "object": "I"
+        },
+        {
+            "subject": "LAVORO",
+            "object": "L"
+        },
+        {
+            "subject": "SU",
+            "object": "S"
+        },
+        {
+            "subject": "DOLCE",
+            "object": "D"
+        },
+        {
+            "subject": "PARLARE",
+            "object": "P"
+        },
+        {
+            "subject": "FABBRICARE",
+            "object": "F"
+        },
+        {
+            "subject": "ATTACCO",
+            "object": "A"
+        },
+        {
+            "subject": "ALTO",
+            "object": "A"
+        },
+        {
+            "subject": "INALARE",
+            "object": "I"
+        },
+        {
+            "subject": "SICURO",
+            "object": "S"
+        },
+        {
+            "subject": "APERTO",
+            "object": "A"
+        },
+        {
+            "subject": "AUMENTARE",
+            "object": "A"
+        },
+        {
+            "subject": "SPARGERE",
+            "object": "S"
+        },
+        {
+            "subject": "ARRIVARE",
+            "object": "A"
+        },
+        {
+            "subject": "AIUTO",
+            "object": "A"
+        },
+        {
+            "subject": "LASCIARE",
+            "object": "L"
+        },
+        {
+            "subject": "SIEDITI",
+            "object": "S"
+        },
+        {
+            "subject": "ECONOMICO",
+            "object": "E"
+        },
+        {
+            "subject": "DOMANDA",
+            "object": "D"
+        },
+        {
+            "subject": "SEPARARE",
+            "object": "S"
+        },
+        {
+            "subject": "FACILE",
+            "object": "F"
+        },
+        {
+            "subject": "RAPIDO",
+            "object": "R"
+        },
+        {
+            "subject": "TAGLIA",
+            "object": "T"
+        },
+        {
+            "subject": "GIOCO",
+            "object": "G"
+        },
+        {
+            "subject": "TRANQUILLO",
+            "object": "T"
+        },
+        {
+            "subject": "AMICO",
+            "object": "A"
+        },
+        {
+            "subject": "POVERO",
+            "object": "P"
+        },
+        {
+            "subject": "AVERE",
+            "object": "A"
+        },
+        {
+            "subject": "PARLARE",
+            "object": "P"
+        },
+        {
+            "subject": "GIOVANE",
+            "object": "G"
+        },
+        {
+            "subject": "GIOCARE",
+            "object": "G"
+        },
+        {
+            "subject": "LUMINOSO",
+            "object": "L"
+        },
+        {
+            "subject": "PERDERE",
+            "object": "P"
+        },
+        {
+            "subject": "INIZIO",
+            "object": "I"
+        },
+        {
+            "subject": "ROMPERE",
+            "object": "R"
+        },
+        {
+            "subject": "LEGGE",
+            "object": "L"
+        },
+        {
+            "subject": "BUONO",
+            "object": "B"
+        },
+        {
+            "subject": "ONESTO",
+            "object": "O"
+        },
+        {
+            "subject": "STUPIDO",
+            "object": "S"
+        },
+        {
+            "subject": "INTELLIGENTE",
+            "object": "I"
+        },
+        {
+            "subject": "SAGGIO",
+            "object": "S"
+        },
+        {
+            "subject": "CHIUDERE",
+            "object": "C"
+        },
+        {
+            "subject": "LEGGI",
+            "object": "L"
+        },
+        {
+            "subject": "OPACO",
+            "object": "O"
+        },
+        {
+            "subject": "TIMIDO",
+            "object": "T"
+        },
+        {
+            "subject": "SCURO",
+            "object": "S"
+        },
+        {
+            "subject": "SOTTILE",
+            "object": "S"
+        },
+        {
+            "subject": "PICCANTE",
+            "object": "P"
+        },
+        {
+            "subject": "NUOVO",
+            "object": "N"
+        },
+        {
+            "subject": "CATTURARE",
+            "object": "C"
+        },
+        {
+            "subject": "ODIO",
+            "object": "O"
+        },
+        {
+            "subject": "CREARE",
+            "object": "C"
+        },
+        {
+            "subject": "PROVARE",
+            "object": "P"
+        },
+        {
+            "subject": "FATTORIA",
+            "object": "F"
+        },
+        {
+            "subject": "GRANDE",
+            "object": "G"
+        },
+        {
+            "subject": "PICCOLO",
+            "object": "P"
+        },
+        {
+            "subject": "GALLEGGIARE",
+            "object": "G"
+        },
+        {
+            "subject": "STARE",
+            "object": "S"
+        },
+        {
+            "subject": "GRANDE",
+            "object": "G"
+        },
+        {
+            "subject": "PICCOLO",
+            "object": "P"
+        },
+        {
+            "subject": "SITO",
+            "object": "S"
+        },
+        {
+            "subject": "RIUSCIRE",
+            "object": "R"
+        },
+        {
+            "subject": "SPESSO",
+            "object": "S"
+        },
+        {
+            "subject": "ARRABBIATO",
+            "object": "A"
+        },
+        {
+            "subject": "IN",
+            "object": "I"
+        },
+        {
+            "subject": "CAMBIAMENTO",
+            "object": "C"
+        },
+        {
+            "subject": "SALIRE",
+            "object": "S"
+        },
+        {
+            "subject": "FAI",
+            "object": "F"
+        },
+        {
+            "subject": "BASSO",
+            "object": "B"
+        },
+        {
+            "subject": "INDOSSARE",
+            "object": "I"
+        },
+        {
+            "subject": "FARE",
+            "object": "F"
+        },
+        {
+            "subject": "CODICE",
+            "object": "C"
+        },
+        {
+            "subject": "FEROCE",
+            "object": "F"
+        },
+        {
+            "subject": "PULITO",
+            "object": "P"
+        },
+        {
+            "subject": "SCAVARE",
+            "object": "S"
+        },
+        {
+            "subject": "STUDIO",
+            "object": "S"
+        },
+        {
+            "subject": "GUIDA",
+            "object": "G"
+        },
+        {
+            "subject": "COLPIRE",
+            "object": "C"
+        },
+        {
+            "subject": "PIANGERE",
+            "object": "P"
+        },
+        {
+            "subject": "PRESTARE",
+            "object": "P"
+        },
+        {
+            "subject": "CORRI",
+            "object": "C"
+        },
+        {
+            "subject": "AFFAMATO",
+            "object": "A"
+        },
+        {
+            "subject": "DRITTO",
+            "object": "D"
+        },
+        {
+            "subject": "LIBRO",
+            "object": "L"
+        },
+        {
+            "subject": "NAVE",
+            "object": "N"
+        },
+        {
+            "subject": "OTTIENI",
+            "object": "O"
+        },
+        {
+            "subject": "VIVERE",
+            "object": "V"
+        },
+        {
+            "subject": "DISORDINATO",
+            "object": "D"
+        },
+        {
+            "subject": "SELVAGGIO",
+            "object": "S"
+        },
+        {
+            "subject": "AMMINISTRARE",
+            "object": "A"
+        },
+        {
+            "subject": "ACCETTARE",
+            "object": "A"
+        },
+        {
+            "subject": "SANO",
+            "object": "S"
+        },
+        {
+            "subject": "SENTIRE",
+            "object": "S"
+        },
+        {
+            "subject": "TROVA",
+            "object": "T"
+        },
+        {
+            "subject": "VOLA",
+            "object": "V"
+        },
+        {
+            "subject": "STRETTO",
+            "object": "S"
+        },
+        {
+            "subject": "SUPERFICIALE",
+            "object": "S"
+        },
+        {
+            "subject": "MOTORE",
+            "object": "M"
+        },
+        {
+            "subject": "SCIENZA",
+            "object": "S"
+        },
+        {
+            "subject": "CONNETTI",
+            "object": "C"
+        },
+        {
+            "subject": "PIATTO",
+            "object": "P"
+        },
+        {
+            "subject": "METTI",
+            "object": "M"
+        },
+        {
+            "subject": "AUTO",
+            "object": "A"
+        },
+        {
+            "subject": "GIORNO",
+            "object": "G"
+        },
+        {
+            "subject": "COSTRUZIONE",
+            "object": "C"
+        },
+        {
+            "subject": "VEDERE",
+            "object": "V"
+        },
+        {
+            "subject": "PROGETTAZIONE",
+            "object": "P"
+        },
+        {
+            "subject": "DIVERTENTE",
+            "object": "D"
+        },
+        {
+            "subject": "MORBIDO",
+            "object": "M"
+        },
+        {
+            "subject": "SORRISO",
+            "object": "S"
+        },
+        {
+            "subject": "RICCO",
+            "object": "R"
+        },
+        {
+            "subject": "DIRE",
+            "object": "D"
+        },
+        {
+            "subject": "CALDO",
+            "object": "C"
+        },
+        {
+            "subject": "VICINO",
+            "object": "V"
+        },
+        {
+            "subject": "ARGUTO",
+            "object": "A"
+        },
+        {
+            "subject": "DORMIRE",
+            "object": "D"
+        },
+        {
+            "subject": "PITTURA",
+            "object": "P"
+        },
+        {
+            "subject": "DEBOLE",
+            "object": "D"
+        },
+        {
+            "subject": "PERDONARE",
+            "object": "P"
+        },
+        {
+            "subject": "SIGNIFICARE",
+            "object": "S"
+        },
+        {
+            "subject": "CORAGGIOSO",
+            "object": "C"
+        }
+    ]
+}

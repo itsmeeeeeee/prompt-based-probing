@@ -1,0 +1,26 @@
+{
+  "relation": "person father",
+  "template_scores": {
+    "{}'s father is named": {
+      "average_first_token_prob": 0.11053124975364216,
+      "reliability": 0.2058526740665994,
+      "overall_score": 0.022753153329710396
+    },
+    "{} is the father of": {
+      "average_first_token_prob": 0.00035918973890010093,
+      "reliability": 0.0,
+      "overall_score": 0.0
+    },
+    "{} has a child named": {
+      "average_first_token_prob": 0.010496507138464934,
+      "reliability": 0.05247225025227043,
+      "overall_score": 0.0005507753493442751
+    }
+  },
+  "best_template": "{}'s father is named",
+  "best_template_metrics": {
+    "average_first_token_prob": 0.11053124975364216,
+    "reliability": 0.2058526740665994,
+    "overall_score": 0.022753153329710396
+  }
+}

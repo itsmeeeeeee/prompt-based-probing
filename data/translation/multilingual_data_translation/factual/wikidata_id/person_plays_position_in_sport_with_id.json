@@ -1,0 +1,5733 @@
+{
+  "name": "person_plays_position_in_sport",
+  "prompt_templates": [
+    "{} plays in the position of a",
+    "In their sport, {} plays as a",
+    "{} is positioned as a",
+    "{} plays the role of a"
+  ],
+  "prompt_templates_zs": [
+    "Which position does {} play? They play as a",
+    "In their sport, {} plays in the position of a"
+  ],
+  "properties": {
+    "relation_type": "factual",
+    "domain_name": "person",
+    "range_name": "sport position",
+    "symmetric": false
+  },
+  "samples": [
+    {
+      "subject": "Percy Snow",
+      "object": "linebacker",
+      "subject_id": "Q7167583",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Pantelis Kafes",
+      "object": "midfielder",
+      "subject_id": "Q371599",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Ruud Gullit",
+      "object": "midfielder",
+      "subject_id": "Q173972",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Elrio van Heerden",
+      "object": "midfielder",
+      "subject_id": "Q438717",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Lars Ricken",
+      "object": "midfielder",
+      "subject_id": "Q506919",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Tuukka Rask",
+      "object": "goaltender",
+      "subject_id": "Q960553",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Karl Mecklenburg",
+      "object": "linebacker",
+      "subject_id": "Q1733720",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Iosif Rotariu",
+      "object": "midfielder",
+      "subject_id": "Q1378336",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "John Navarre",
+      "object": "quarterback",
+      "subject_id": "Q14950742",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Thurman Munson",
+      "object": "catcher",
+      "subject_id": "Q921807",
+      "object_id": "Q1050571"
+    },
+    {
+      "subject": "Evan Dimas Darmono",
+      "object": "midfielder",
+      "subject_id": "Q15065475",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Jonathan Osorio",
+      "object": "midfielder",
+      "subject_id": "Q10554558",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Martina Voss-Tecklenburg",
+      "object": "midfielder",
+      "subject_id": "Q548038",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Nigel de Jong",
+      "object": "midfielder",
+      "subject_id": "Q185650",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Corky Miller",
+      "object": "catcher",
+      "subject_id": "Q2997401",
+      "object_id": "Q1050571"
+    },
+    {
+      "subject": "Antonio Valencia",
+      "object": "midfielder",
+      "subject_id": "Q174486",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Tarvaris Jackson",
+      "object": "quarterback",
+      "subject_id": "Q1325014",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Erik Ersberg",
+      "object": "goaltender",
+      "subject_id": "Q646205",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Kamohelo Mokotjo",
+      "object": "midfielder",
+      "subject_id": "Q210850",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Florent Cuvelier",
+      "object": "midfielder",
+      "subject_id": "Q2920474",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Daniel Royer",
+      "object": "midfielder",
+      "subject_id": "Q689179",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Nick Greisen",
+      "object": "linebacker",
+      "subject_id": "Q7027220",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Massimo Ficcadenti",
+      "object": "midfielder",
+      "subject_id": "Q584313",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Frank Brimsek",
+      "object": "goaltender",
+      "subject_id": "Q1443013",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Mark Visentin",
+      "object": "goaltender",
+      "subject_id": "Q3048335",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Damon Huard",
+      "object": "quarterback",
+      "subject_id": "Q3012962",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Scot Brantley",
+      "object": "linebacker",
+      "subject_id": "Q7435459",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Chase Clement",
+      "object": "quarterback",
+      "subject_id": "Q14950669",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Mark Herrmann",
+      "object": "quarterback",
+      "subject_id": "Q3294104",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Lalrindika Ralte",
+      "object": "midfielder",
+      "subject_id": "Q6480600",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Gianluigi Lentini",
+      "object": "midfielder",
+      "subject_id": "Q721909",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Martin Brodeur",
+      "object": "goaltender",
+      "subject_id": "Q357465",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Casey Matthews",
+      "object": "linebacker",
+      "subject_id": "Q964367",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Trey DePriest",
+      "object": "linebacker",
+      "subject_id": "Q7839585",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Jiloan Hamad",
+      "object": "midfielder",
+      "subject_id": "Q982220",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Graham Dorrans",
+      "object": "midfielder",
+      "subject_id": "Q556630",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Jonas Mouton",
+      "object": "linebacker",
+      "subject_id": "Q3183281",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Stan Gelbaugh",
+      "object": "quarterback",
+      "subject_id": "Q7597649",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Enrico Cucchi",
+      "object": "midfielder",
+      "subject_id": "Q611292",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Teddy Bridgewater",
+      "object": "quarterback",
+      "subject_id": "Q7694001",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Thomas von Heesen",
+      "object": "midfielder",
+      "subject_id": "Q642986",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Glenn Hoddle",
+      "object": "midfielder",
+      "subject_id": "Q296666",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Bobby Bell",
+      "object": "linebacker",
+      "subject_id": "Q105221947",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Marco Verratti",
+      "object": "midfielder",
+      "subject_id": "Q337623",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Andrew Jacobson",
+      "object": "midfielder",
+      "subject_id": "Q47111755",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Robert Griffin III",
+      "object": "quarterback",
+      "subject_id": "Q617158",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Jonathan Goff",
+      "object": "linebacker",
+      "subject_id": "Q91742683",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Norm Maracle",
+      "object": "goaltender",
+      "subject_id": "Q1999261",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Manuel Ruiz Sosa",
+      "object": "midfielder",
+      "subject_id": "Q6752856",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Ivan Gudelj",
+      "object": "midfielder",
+      "subject_id": "Q912972",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Bryan Hughes",
+      "object": "midfielder",
+      "subject_id": "Q995049",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "George Mihai Florescu",
+      "object": "midfielder",
+      "subject_id": "Q927146",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Graham Barrow",
+      "object": "midfielder",
+      "subject_id": "Q10377104",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Ricardo Faty",
+      "object": "midfielder",
+      "subject_id": "Q378790",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Marcus Mariota",
+      "object": "quarterback",
+      "subject_id": "Q6758302",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Devan Dubnyk",
+      "object": "goaltender",
+      "subject_id": "Q969927",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Gianluca Gaudino",
+      "object": "midfielder",
+      "subject_id": "Q17505880",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Andreas Ivanschitz",
+      "object": "midfielder",
+      "subject_id": "Q296837",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Clete Thomas",
+      "object": "outfielder",
+      "subject_id": "Q2390577",
+      "object_id": "Q1142885"
+    },
+    {
+      "subject": "Andy Moog",
+      "object": "goaltender",
+      "subject_id": "Q526778",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Conor Thomas",
+      "object": "midfielder",
+      "subject_id": "Q5162303",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Wesley Sneijder",
+      "object": "midfielder",
+      "subject_id": "Q124086",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Corey Hirsch",
+      "object": "goaltender",
+      "subject_id": "Q365886",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Drew Stanton",
+      "object": "quarterback",
+      "subject_id": "Q1258769",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Angelos Basinas",
+      "object": "midfielder",
+      "subject_id": "Q221142",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Johnny Lujack",
+      "object": "quarterback",
+      "subject_id": "Q471897",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Pascal Leclaire",
+      "object": "goaltender",
+      "subject_id": "Q1261834",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Wayne Corden",
+      "object": "midfielder",
+      "subject_id": "Q7976124",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Magdi Abdelghani",
+      "object": "midfielder",
+      "subject_id": "Q2421787",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Ricardo Ribeiro Fernandes",
+      "object": "midfielder",
+      "subject_id": "Q2470278",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Jonathan Quinn",
+      "object": "quarterback",
+      "subject_id": "Q92467330",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Browning Nagle",
+      "object": "quarterback",
+      "subject_id": "Q4976571",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Earl Morrall",
+      "object": "quarterback",
+      "subject_id": "Q4111661",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Gilles Villemure",
+      "object": "goaltender",
+      "subject_id": "Q364064",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Mike Liut",
+      "object": "goaltender",
+      "subject_id": "Q328821",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Gabriel Heinze",
+      "object": "defender",
+      "subject_id": "Q63659",
+      "object_id": "Q336286"
+    },
+    {
+      "subject": "Joe Torre",
+      "object": "catcher",
+      "subject_id": "Q707804",
+      "object_id": "Q1050571"
+    },
+    {
+      "subject": "Lars Bender",
+      "object": "midfielder",
+      "subject_id": "Q152886",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Jim Magilton",
+      "object": "midfielder",
+      "subject_id": "Q3112340",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Fabio Pecchia",
+      "object": "midfielder",
+      "subject_id": "Q1087530",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Jim Hardy",
+      "object": "quarterback",
+      "subject_id": "Q100799971",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "John Elway",
+      "object": "quarterback",
+      "subject_id": "Q432931",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Eugeneson Lyngdoh",
+      "object": "midfielder",
+      "subject_id": "Q16231415",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Reto Berra",
+      "object": "goaltender",
+      "subject_id": "Q356295",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Michael Garnett",
+      "object": "goaltender",
+      "subject_id": "Q1390176",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Thomas \"Hollywood\" Henderson",
+      "object": "linebacker",
+      "subject_id": "Q3525195",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Kevin Siegrist",
+      "object": "pitcher",
+      "subject_id": "Q13580430",
+      "object_id": "Q1048902"
+    },
+    {
+      "subject": "Joe Magrane",
+      "object": "pitcher",
+      "subject_id": "Q3180117",
+      "object_id": "Q1048902"
+    },
+    {
+      "subject": "Mike Garcia",
+      "object": "pitcher",
+      "subject_id": "Q100794074",
+      "object_id": "Q1048902"
+    },
+    {
+      "subject": "Wesley Lopes Beltrame",
+      "object": "midfielder",
+      "subject_id": "Q925323",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Jordon Dizon",
+      "object": "linebacker",
+      "subject_id": "Q14950910",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Alberto Rivera Pizarro",
+      "object": "midfielder",
+      "subject_id": "Q736915",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Lerin Duarte",
+      "object": "midfielder",
+      "subject_id": "Q349126",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Derrick Brooks",
+      "object": "linebacker",
+      "subject_id": "Q93843",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Joey Gathright",
+      "object": "outfielder",
+      "subject_id": "Q1057276",
+      "object_id": "Q1142885"
+    },
+    {
+      "subject": "Bob Allison",
+      "object": "outfielder",
+      "subject_id": "Q2907564",
+      "object_id": "Q1142885"
+    },
+    {
+      "subject": "Francis Coquelin",
+      "object": "midfielder",
+      "subject_id": "Q180193",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Gary Kubiak",
+      "object": "quarterback",
+      "subject_id": "Q3758515",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Glenn Foley",
+      "object": "quarterback",
+      "subject_id": "Q5568809",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Marcus Marek",
+      "object": "linebacker",
+      "subject_id": "Q17466436",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Jamal Mahmoud",
+      "object": "midfielder",
+      "subject_id": "Q6127574",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Glen Trifiro",
+      "object": "midfielder",
+      "subject_id": "Q16232978",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Chandler Harnish",
+      "object": "quarterback",
+      "subject_id": "Q3666112",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Johan Gastien",
+      "object": "midfielder",
+      "subject_id": "Q6215077",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Mike Stratton",
+      "object": "linebacker",
+      "subject_id": "Q6848964",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Markus Halsti",
+      "object": "midfielder",
+      "subject_id": "Q2535091",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Claudio Marchisio",
+      "object": "midfielder",
+      "subject_id": "Q179995",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Dan Morgan",
+      "object": "linebacker",
+      "subject_id": "Q107270319",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Mario Lessard",
+      "object": "goaltender",
+      "subject_id": "Q364971",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Pontus Wernbloom",
+      "object": "midfielder",
+      "subject_id": "Q313037",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Odise Roshi",
+      "object": "midfielder",
+      "subject_id": "Q978923",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Tim Hiller",
+      "object": "quarterback",
+      "subject_id": "Q7803656",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Ron Jaworski",
+      "object": "quarterback",
+      "subject_id": "Q1416079",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "D'Qwell Jackson",
+      "object": "linebacker",
+      "subject_id": "Q3010941",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Steven Nzonzi",
+      "object": "midfielder",
+      "subject_id": "Q442492",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Francisco Liriano",
+      "object": "pitcher",
+      "subject_id": "Q764633",
+      "object_id": "Q1048902"
+    },
+    {
+      "subject": "Mo Lewis",
+      "object": "linebacker",
+      "subject_id": "Q100876249",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Edmondo Fabbri",
+      "object": "midfielder",
+      "subject_id": "Q1285795",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Giacomo Tedesco",
+      "object": "midfielder",
+      "subject_id": "Q68911236",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Ty Detmer",
+      "object": "quarterback",
+      "subject_id": "Q1147480",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Luca Vigiani",
+      "object": "midfielder",
+      "subject_id": "Q2262270",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Isaac Cuenca",
+      "object": "midfielder",
+      "subject_id": "Q54060",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Kris Griffin",
+      "object": "linebacker",
+      "subject_id": "Q6437175",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Ray Nitschke",
+      "object": "linebacker",
+      "subject_id": "Q726208",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Robert Marve",
+      "object": "quarterback",
+      "subject_id": "Q7347396",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Rich Gannon",
+      "object": "quarterback",
+      "subject_id": "Q514710",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Ray Lewis",
+      "object": "linebacker",
+      "subject_id": "Q44428",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Altin Lala",
+      "object": "midfielder",
+      "subject_id": "Q441430",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Anders Limpar",
+      "object": "midfielder",
+      "subject_id": "Q460375",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Mesut Bakkal",
+      "object": "midfielder",
+      "subject_id": "Q1924617",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Marc Fitzpatrick",
+      "object": "midfielder",
+      "subject_id": "Q6755552",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Daniel Gygax",
+      "object": "midfielder",
+      "subject_id": "Q362181",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Buck Martinez",
+      "object": "catcher",
+      "subject_id": "Q4982896",
+      "object_id": "Q1050571"
+    },
+    {
+      "subject": "Cory Wade",
+      "object": "pitcher",
+      "subject_id": "Q5173663",
+      "object_id": "Q1048902"
+    },
+    {
+      "subject": "Ali Jabbari",
+      "object": "midfielder",
+      "subject_id": "Q102368124",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Taylor Heinicke",
+      "object": "quarterback",
+      "subject_id": "Q16235438",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Trevor Kidd",
+      "object": "goaltender",
+      "subject_id": "Q711399",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Derek Lowe",
+      "object": "pitcher",
+      "subject_id": "Q107670552",
+      "object_id": "Q1048902"
+    },
+    {
+      "subject": "Konstantin Vassiljev",
+      "object": "midfielder",
+      "subject_id": "Q561065",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Jussi Markkanen",
+      "object": "goaltender",
+      "subject_id": "Q327655",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Darren Murphy",
+      "object": "midfielder",
+      "subject_id": "Q5225074",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Frank Mobley",
+      "object": "forward",
+      "subject_id": "Q5488488",
+      "object_id": "Q280658"
+    },
+    {
+      "subject": "Miguel Jones",
+      "object": "midfielder",
+      "subject_id": "Q3857269",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Kailee Wong",
+      "object": "linebacker",
+      "subject_id": "Q6347948",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Johnny Unitas",
+      "object": "quarterback",
+      "subject_id": "Q716029",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Tommy Kramer",
+      "object": "quarterback",
+      "subject_id": "Q7819604",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Kevin Kampl",
+      "object": "midfielder",
+      "subject_id": "Q1740190",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Alex Stalock",
+      "object": "goaltender",
+      "subject_id": "Q1528869",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Miguel Batista",
+      "object": "pitcher",
+      "subject_id": "Q3112725",
+      "object_id": "Q1048902"
+    },
+    {
+      "subject": "Paul Justin",
+      "object": "quarterback",
+      "subject_id": "Q353566",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Selim Bouadla",
+      "object": "midfielder",
+      "subject_id": "Q277898",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Doriva",
+      "object": "midfielder",
+      "subject_id": "Q555339",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Jeff Deslauriers",
+      "object": "goaltender",
+      "subject_id": "Q932100",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Fernando De Napoli",
+      "object": "midfielder",
+      "subject_id": "Q555361",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Grant Fuhr",
+      "object": "goaltender",
+      "subject_id": "Q1354283",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Antonio Comi",
+      "object": "midfielder",
+      "subject_id": "Q1873018",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Wade Dubielewicz",
+      "object": "goaltender",
+      "subject_id": "Q2538693",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Dan LaCosta",
+      "object": "goaltender",
+      "subject_id": "Q174470",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Todd Marinovich",
+      "object": "quarterback",
+      "subject_id": "Q2438464",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Jim Bouton",
+      "object": "pitcher",
+      "subject_id": "Q3045044",
+      "object_id": "Q1048902"
+    },
+    {
+      "subject": "Runar Berg",
+      "object": "midfielder",
+      "subject_id": "Q2779396",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Lonnie Smith",
+      "object": "outfielder",
+      "subject_id": "Q100924390",
+      "object_id": "Q1142885"
+    },
+    {
+      "subject": "Erin Henderson",
+      "object": "linebacker",
+      "subject_id": "Q5389159",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Dennis Franklin",
+      "object": "quarterback",
+      "subject_id": "Q5258426",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Luis del Sol",
+      "object": "midfielder",
+      "subject_id": "Q162892",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Yohan Cabaye",
+      "object": "midfielder",
+      "subject_id": "Q1910",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Marc Lamothe",
+      "object": "goaltender",
+      "subject_id": "Q1892687",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Guy Moussi",
+      "object": "midfielder",
+      "subject_id": "Q653714",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Yannick Cahuzac",
+      "object": "midfielder",
+      "subject_id": "Q27789",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Dan McGwire",
+      "object": "quarterback",
+      "subject_id": "Q5213984",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Luke French",
+      "object": "pitcher",
+      "subject_id": "Q3267065",
+      "object_id": "Q1048902"
+    },
+    {
+      "subject": "Bruno Conti",
+      "object": "midfielder",
+      "subject_id": "Q56503192",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Barry Zito",
+      "object": "pitcher",
+      "subject_id": "Q809118",
+      "object_id": "Q1048902"
+    },
+    {
+      "subject": "Kevin Kolb",
+      "object": "quarterback",
+      "subject_id": "Q2777562",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Ken O'Brien",
+      "object": "quarterback",
+      "subject_id": "Q3195071",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Ryan Miller",
+      "object": "goaltender",
+      "subject_id": "Q29998663",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Johan Santana",
+      "object": "pitcher",
+      "subject_id": "N/A",
+      "object_id": "Q1048902"
+    },
+    {
+      "subject": "David Rocastle",
+      "object": "midfielder",
+      "subject_id": "Q764158",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Seth Smith",
+      "object": "outfielder",
+      "subject_id": "Q100924599",
+      "object_id": "Q1142885"
+    },
+    {
+      "subject": "Kerlon Moura Souza",
+      "object": "midfielder",
+      "subject_id": "Q313580",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Ervin Bulku",
+      "object": "midfielder",
+      "subject_id": "Q2280020",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Mehdi Taouil",
+      "object": "midfielder",
+      "subject_id": "Q391490",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Fred Lynn",
+      "object": "outfielder",
+      "subject_id": "Q26036",
+      "object_id": "Q1142885"
+    },
+    {
+      "subject": "Victor Wanyama",
+      "object": "midfielder",
+      "subject_id": "Q459897",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Tommy Taylor",
+      "object": "forward",
+      "subject_id": "Q219350",
+      "object_id": "Q280658"
+    },
+    {
+      "subject": "Milton Blanco",
+      "object": "midfielder",
+      "subject_id": "Q6861002",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Mark Malone",
+      "object": "quarterback",
+      "subject_id": "Q3294158",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Paul Ince",
+      "object": "midfielder",
+      "subject_id": "Q311171",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Lang Campbell",
+      "object": "quarterback",
+      "subject_id": "Q6485592",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Josh Beckett",
+      "object": "pitcher",
+      "subject_id": "Q1365880",
+      "object_id": "Q1048902"
+    },
+    {
+      "subject": "Lou Saban",
+      "object": "linebacker",
+      "subject_id": "Q6685739",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Raffaele Palladino",
+      "object": "midfielder",
+      "subject_id": "Q41199303",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Corey Moore",
+      "object": "linebacker",
+      "subject_id": "Q100886698",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Jim Plunkett",
+      "object": "quarterback",
+      "subject_id": "Q726211",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Vadis Odjidja-Ofoe",
+      "object": "midfielder",
+      "subject_id": "Q721628",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Emanuele Giaccherini",
+      "object": "midfielder",
+      "subject_id": "Q195878",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Mike Tomczak",
+      "object": "quarterback",
+      "subject_id": "Q1984745",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Gary Beban",
+      "object": "quarterback",
+      "subject_id": "Q5524678",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Tony Conigliaro",
+      "object": "outfielder",
+      "subject_id": "Q3531727",
+      "object_id": "Q1142885"
+    },
+    {
+      "subject": "Matt Szczur",
+      "object": "outfielder",
+      "subject_id": "Q6789407",
+      "object_id": "Q1142885"
+    },
+    {
+      "subject": "Dave Winfield",
+      "object": "outfielder",
+      "subject_id": "Q5230137",
+      "object_id": "Q1142885"
+    },
+    {
+      "subject": "Mark McKeever",
+      "object": "midfielder",
+      "subject_id": "Q6768820",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Nolan Schaefer",
+      "object": "goaltender",
+      "subject_id": "Q665196",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Gustavo Barros Schelotto",
+      "object": "midfielder",
+      "subject_id": "Q2731615",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Heath Shuler",
+      "object": "quarterback",
+      "subject_id": "Q1592517",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Riccardo Maspero",
+      "object": "midfielder",
+      "subject_id": "Q3934523",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Zito",
+      "object": "midfielder",
+      "subject_id": "Q37093261",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Darren Currie",
+      "object": "midfielder",
+      "subject_id": "Q4577577",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Michel Platini",
+      "object": "midfielder",
+      "subject_id": "Q4261",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Jeffrey Monakana",
+      "object": "midfielder",
+      "subject_id": "Q6176174",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Farhad Majidi",
+      "object": "midfielder",
+      "subject_id": "Q942253",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Viktor Klonaridis",
+      "object": "midfielder",
+      "subject_id": "Q2778464",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Maniche",
+      "object": "midfielder",
+      "subject_id": "Q29339",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Pia Wunderlich",
+      "object": "midfielder",
+      "subject_id": "Q442733",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Horace Fairhurst",
+      "object": "defender",
+      "subject_id": "Q1115621",
+      "object_id": "Q336286"
+    },
+    {
+      "subject": "Youssouf Hersi",
+      "object": "midfielder",
+      "subject_id": "Q977441",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Keith Peacock",
+      "object": "midfielder",
+      "subject_id": "Q6384875",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Jim Edmonds",
+      "object": "outfielder",
+      "subject_id": "Q717045",
+      "object_id": "Q1142885"
+    },
+    {
+      "subject": "Drew Storen",
+      "object": "pitcher",
+      "subject_id": "Q1087986",
+      "object_id": "Q1048902"
+    },
+    {
+      "subject": "Scott Allan",
+      "object": "midfielder",
+      "subject_id": "Q2481829",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Guilherme Finkler",
+      "object": "midfielder",
+      "subject_id": "Q3101396",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Antti Raanta",
+      "object": "goaltender",
+      "subject_id": "Q4777426",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Eugen Polanski",
+      "object": "midfielder",
+      "subject_id": "Q5117",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Dont'a Hightower",
+      "object": "linebacker",
+      "subject_id": "Q3036863",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Ulrich Le Pen",
+      "object": "midfielder",
+      "subject_id": "Q2607857",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Bob Essensa",
+      "object": "goaltender",
+      "subject_id": "Q887904",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Teddy Lehman",
+      "object": "linebacker",
+      "subject_id": "Q7694039",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Graham Taylor",
+      "object": "defender",
+      "subject_id": "Q9486",
+      "object_id": "Q336286"
+    },
+    {
+      "subject": "Christian Noboa",
+      "object": "midfielder",
+      "subject_id": "N/A",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Jason Trusnik",
+      "object": "linebacker",
+      "subject_id": "Q14951014",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "David Degen",
+      "object": "midfielder",
+      "subject_id": "Q472327",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Curt Flood",
+      "object": "outfielder",
+      "subject_id": "Q5195372",
+      "object_id": "Q1142885"
+    },
+    {
+      "subject": "Tsuyoshi Shinjo",
+      "object": "outfielder",
+      "subject_id": "Q2400277",
+      "object_id": "Q1142885"
+    },
+    {
+      "subject": "Travis Lulay",
+      "object": "quarterback",
+      "subject_id": "Q7836308",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Glenn Roeder",
+      "object": "defender",
+      "subject_id": "Q725416",
+      "object_id": "Q336286"
+    },
+    {
+      "subject": "John Stofa",
+      "object": "quarterback",
+      "subject_id": "Q6259259",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Mike Piazza",
+      "object": "catcher",
+      "subject_id": "Q613319",
+      "object_id": "Q1050571"
+    },
+    {
+      "subject": "Massimo Murdocca",
+      "object": "midfielder",
+      "subject_id": "Q6784750",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Tommy Harper",
+      "object": "outfielder",
+      "subject_id": "Q100800201",
+      "object_id": "Q1142885"
+    },
+    {
+      "subject": "Koke",
+      "object": "midfielder",
+      "subject_id": "Q276091",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Daniele Franceschini",
+      "object": "midfielder",
+      "subject_id": "Q1089110",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Arben Minga",
+      "object": "forward",
+      "subject_id": "Q629545",
+      "object_id": "Q280658"
+    },
+    {
+      "subject": "Jeff Kemp",
+      "object": "quarterback",
+      "subject_id": "Q6174227",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "John Harkes",
+      "object": "midfielder",
+      "subject_id": "Q936196",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Lee Roy Jordan",
+      "object": "linebacker",
+      "subject_id": "Q1811957",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Anders Ågnes Konradsen",
+      "object": "midfielder",
+      "subject_id": "Q1790935",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Mohammed Noor",
+      "object": "midfielder",
+      "subject_id": "Q381962",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Joanna Lohman",
+      "object": "midfielder",
+      "subject_id": "Q6205897",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Brian Hayward",
+      "object": "goaltender",
+      "subject_id": "Q351834",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Diego Fuser",
+      "object": "midfielder",
+      "subject_id": "Q976301",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Sylvain Legwinski",
+      "object": "midfielder",
+      "subject_id": "Q2303960",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Zinedine Zidane",
+      "object": "midfielder",
+      "subject_id": "Q1835",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Alessio Tacchinardi",
+      "object": "midfielder",
+      "subject_id": "Q382193",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Akin Ayodele",
+      "object": "linebacker",
+      "subject_id": "Q4701043",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Roger Clemens",
+      "object": "pitcher",
+      "subject_id": "Q473208",
+      "object_id": "Q1048902"
+    },
+    {
+      "subject": "Pep Guardiola",
+      "object": "midfielder",
+      "subject_id": "Q164038",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Nenad Bjelica",
+      "object": "midfielder",
+      "subject_id": "Q269404",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Terna Nande",
+      "object": "linebacker",
+      "subject_id": "Q7702921",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Hughie Lehman",
+      "object": "goaltender",
+      "subject_id": "Q3142275",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Lorenzo Crisetig",
+      "object": "midfielder",
+      "subject_id": "Q611116",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Victor Sikora",
+      "object": "midfielder",
+      "subject_id": "Q924602",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Norm Snead",
+      "object": "quarterback",
+      "subject_id": "Q7051588",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Rickey Jackson",
+      "object": "linebacker",
+      "subject_id": "Q100818364",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Mark Fitzpatrick",
+      "object": "goaltender",
+      "subject_id": "Q1900047",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Drew Henson",
+      "object": "quarterback",
+      "subject_id": "Q5307192",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Pat Swilling",
+      "object": "linebacker",
+      "subject_id": "Q3368600",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Otto Graham",
+      "object": "quarterback",
+      "subject_id": "Q960594",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Albin Ekdal",
+      "object": "midfielder",
+      "subject_id": "Q371652",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Rich Ingold",
+      "object": "quarterback",
+      "subject_id": "Q7323305",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Troy Aikman",
+      "object": "quarterback",
+      "subject_id": "Q525002",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Bobby Garrett",
+      "object": "quarterback",
+      "subject_id": "Q4935023",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Kieran Millan",
+      "object": "goaltender",
+      "subject_id": "Q6379605",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Alexi Ogando",
+      "object": "pitcher",
+      "subject_id": "Q1045981",
+      "object_id": "Q1048902"
+    },
+    {
+      "subject": "Hank Bassen",
+      "object": "goaltender",
+      "subject_id": "Q3126791",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Ralph Milne",
+      "object": "midfielder",
+      "subject_id": "Q3929795",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Tom De Mul",
+      "object": "midfielder",
+      "subject_id": "Q350431",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Steve DeOssie",
+      "object": "linebacker",
+      "subject_id": "Q7612366",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Antonio Cabrini",
+      "object": "defender",
+      "subject_id": "Q68064",
+      "object_id": "Q336286"
+    },
+    {
+      "subject": "Robbie Earle",
+      "object": "midfielder",
+      "subject_id": "Q975790",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Ricky Stanzi",
+      "object": "quarterback",
+      "subject_id": "Q7332201",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Joao Plata",
+      "object": "forward",
+      "subject_id": "N/A",
+      "object_id": "Q280658"
+    },
+    {
+      "subject": "Kyle Farnsworth",
+      "object": "pitcher",
+      "subject_id": "Q3200917",
+      "object_id": "Q1048902"
+    },
+    {
+      "subject": "Joe Ferguson",
+      "object": "quarterback",
+      "subject_id": "Q100788011",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Randall Cunningham",
+      "object": "quarterback",
+      "subject_id": "Q142656",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Alex Smith",
+      "object": "quarterback",
+      "subject_id": "Q108438708",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Bert Jones",
+      "object": "quarterback",
+      "subject_id": "Q1984860",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Joe Pisarcik",
+      "object": "quarterback",
+      "subject_id": "Q11310921",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Archie Gemmill",
+      "object": "midfielder",
+      "subject_id": "Q606113",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Bettina Wiegmann",
+      "object": "midfielder",
+      "subject_id": "Q451901",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Marco Etcheverry",
+      "object": "midfielder",
+      "subject_id": "Q246243",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Toumani Diagouraga",
+      "object": "midfielder",
+      "subject_id": "Q7828898",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Chico Resch",
+      "object": "goaltender",
+      "subject_id": "Q726421",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Greg Maddux",
+      "object": "pitcher",
+      "subject_id": "Q709138",
+      "object_id": "Q1048902"
+    },
+    {
+      "subject": "Jonathan Lucroy",
+      "object": "catcher",
+      "subject_id": "Q3183415",
+      "object_id": "Q1050571"
+    },
+    {
+      "subject": "Jake Rudock",
+      "object": "quarterback",
+      "subject_id": "Q19665946",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Luis Tiant",
+      "object": "pitcher",
+      "subject_id": "Q3266840",
+      "object_id": "Q1048902"
+    },
+    {
+      "subject": "Philip Rivers",
+      "object": "quarterback",
+      "subject_id": "Q684145",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Frederik Andersen",
+      "object": "goaltender",
+      "subject_id": "Q984048",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Scott Darling",
+      "object": "goaltender",
+      "subject_id": "Q3476195",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Craig Monroe",
+      "object": "outfielder",
+      "subject_id": "Q3002044",
+      "object_id": "Q1142885"
+    },
+    {
+      "subject": "Greg Lloyd, Sr.",
+      "object": "linebacker",
+      "subject_id": "N/A",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Kevin Eakin",
+      "object": "quarterback",
+      "subject_id": "Q6396212",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Giovanni Stroppa",
+      "object": "midfielder",
+      "subject_id": "Q2656692",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Karim Abdul Razak",
+      "object": "midfielder",
+      "subject_id": "Q317439",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Paulo Henrique Ganso",
+      "object": "midfielder",
+      "subject_id": "Q313835",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Gary Gardner",
+      "object": "midfielder",
+      "subject_id": "Q921060",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Neil Redfearn",
+      "object": "midfielder",
+      "subject_id": "Q6065586",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Ivo Wortmann",
+      "object": "midfielder",
+      "subject_id": "Q2397845",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Vince Coleman",
+      "object": "outfielder",
+      "subject_id": "Q7931464",
+      "object_id": "Q1142885"
+    },
+    {
+      "subject": "Jorge Luis Pinto",
+      "object": "midfielder",
+      "subject_id": "Q2733919",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "John Grabow",
+      "object": "pitcher",
+      "subject_id": "Q726477",
+      "object_id": "Q1048902"
+    },
+    {
+      "subject": "Jacques Plante",
+      "object": "goaltender",
+      "subject_id": "Q3159783",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Bob Mason",
+      "object": "goaltender",
+      "subject_id": "Q950449",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Mohd Noor Ali",
+      "object": "midfielder",
+      "subject_id": "Q6893999",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Fabian Frei",
+      "object": "midfielder",
+      "subject_id": "Q675878",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Daniele De Rossi",
+      "object": "midfielder",
+      "subject_id": "Q168497",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Johnny Baldwin",
+      "object": "linebacker",
+      "subject_id": "Q1985406",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Dick Radatz",
+      "object": "pitcher",
+      "subject_id": "Q5273297",
+      "object_id": "Q1048902"
+    },
+    {
+      "subject": "Michel Plasse",
+      "object": "goaltender",
+      "subject_id": "Q1930872",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Jim Kelly",
+      "object": "quarterback",
+      "subject_id": "Q714870",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Al Dekdebrun",
+      "object": "quarterback",
+      "subject_id": "Q4703729",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "O'Brien Schofield",
+      "object": "linebacker",
+      "subject_id": "Q3347387",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Frank Pietrangelo",
+      "object": "goaltender",
+      "subject_id": "Q3082770",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Dallas Keuchel",
+      "object": "pitcher",
+      "subject_id": "Q401892",
+      "object_id": "Q1048902"
+    },
+    {
+      "subject": "Sebastian Rode",
+      "object": "midfielder",
+      "subject_id": "Q642850",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Marcus Randall",
+      "object": "quarterback",
+      "subject_id": "Q80958392",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Sean Salisbury",
+      "object": "quarterback",
+      "subject_id": "Q100919367",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Andrew Luck",
+      "object": "quarterback",
+      "subject_id": "Q506098",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Michael Laudrup",
+      "object": "midfielder",
+      "subject_id": "Q188720",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Angelo Crowell",
+      "object": "linebacker",
+      "subject_id": "Q4762860",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Anthony Obodai",
+      "object": "midfielder",
+      "subject_id": "Q2620335",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Connor Halliday",
+      "object": "quarterback",
+      "subject_id": "Q17182847",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Damon Allen",
+      "object": "quarterback",
+      "subject_id": "Q5212806",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Paulo Almeida",
+      "object": "midfielder",
+      "subject_id": "Q56530147",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Rodney Strasser",
+      "object": "midfielder",
+      "subject_id": "Q44663",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Eric Kresser",
+      "object": "quarterback",
+      "subject_id": "Q5386911",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Barry Bannan",
+      "object": "midfielder",
+      "subject_id": "Q442866",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Ryan Giggs",
+      "object": "midfielder",
+      "subject_id": "Q10524",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Emanuele Filippini",
+      "object": "midfielder",
+      "subject_id": "Q722994",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Renato Buso",
+      "object": "midfielder",
+      "subject_id": "Q427398",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Xavier Margairaz",
+      "object": "midfielder",
+      "subject_id": "Q450970",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Brian Cushing",
+      "object": "linebacker",
+      "subject_id": "Q532524",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Kiki Cuyler",
+      "object": "outfielder",
+      "subject_id": "Q6406252",
+      "object_id": "Q1142885"
+    },
+    {
+      "subject": "Schellas Hyndman",
+      "object": "midfielder",
+      "subject_id": "Q374537",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Aaron Murray",
+      "object": "quarterback",
+      "subject_id": "Q4662283",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Brent Johnson",
+      "object": "goaltender",
+      "subject_id": "Q102258871",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Eli Whiteside",
+      "object": "catcher",
+      "subject_id": "Q45573",
+      "object_id": "Q1050571"
+    },
+    {
+      "subject": "Dan LeFevour",
+      "object": "quarterback",
+      "subject_id": "Q3013127",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Abou Diaby",
+      "object": "midfielder",
+      "subject_id": "Q1943",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "John Smoltz",
+      "object": "pitcher",
+      "subject_id": "Q1145308",
+      "object_id": "Q1048902"
+    },
+    {
+      "subject": "Jacques Cloutier",
+      "object": "goaltender",
+      "subject_id": "Q452836",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Yasmani Grandal",
+      "object": "catcher",
+      "subject_id": "Q3571908",
+      "object_id": "Q1050571"
+    },
+    {
+      "subject": "Gilles Meloche",
+      "object": "goaltender",
+      "subject_id": "Q2749911",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Bob Lemon",
+      "object": "pitcher",
+      "subject_id": "Q290596",
+      "object_id": "Q1048902"
+    },
+    {
+      "subject": "Zach Mettenberger",
+      "object": "quarterback",
+      "subject_id": "Q8063821",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Kendrell Bell",
+      "object": "linebacker",
+      "subject_id": "Q2157400",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Gabriele Oriali",
+      "object": "midfielder",
+      "subject_id": "Q353482",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Clint Benedict",
+      "object": "goaltender",
+      "subject_id": "Q1101573",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Michael Leighton",
+      "object": "goaltender",
+      "subject_id": "Q6832182",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Elvis Grbac",
+      "object": "quarterback",
+      "subject_id": "Q1334309",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Pelle Lindbergh",
+      "object": "goaltender",
+      "subject_id": "Q948412",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Joel Obi",
+      "object": "midfielder",
+      "subject_id": "Q326480",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Juninho Paulista",
+      "object": "midfielder",
+      "subject_id": "Q318184",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Casey Weldon",
+      "object": "quarterback",
+      "subject_id": "Q2941000",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Mojtaba Jabbari",
+      "object": "midfielder",
+      "subject_id": "Q4116957",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Aleksandar Katai",
+      "object": "midfielder",
+      "subject_id": "Q6552144",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Jorge Luis Campos",
+      "object": "midfielder",
+      "subject_id": "N/A",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Charlie Conerly",
+      "object": "quarterback",
+      "subject_id": "Q2960844",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Thomas Pinault",
+      "object": "midfielder",
+      "subject_id": "Q7793171",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Flemming Nielsen",
+      "object": "midfielder",
+      "subject_id": "Q53469951",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Pietro Fanna",
+      "object": "midfielder",
+      "subject_id": "N/A",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Kevin Thomson",
+      "object": "midfielder",
+      "subject_id": "Q1556714",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Dan Bouchard",
+      "object": "goaltender",
+      "subject_id": "Q62608281",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Jim Druckenmiller",
+      "object": "quarterback",
+      "subject_id": "Q6194725",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Otis Wilson",
+      "object": "linebacker",
+      "subject_id": "Q2376650",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Henry Burris",
+      "object": "quarterback",
+      "subject_id": "Q12348830",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Dan Alexa",
+      "object": "midfielder",
+      "subject_id": "Q1158981",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Simon Rolfes",
+      "object": "midfielder",
+      "subject_id": "Q160791",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "David Batty",
+      "object": "midfielder",
+      "subject_id": "Q362555",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "James Laurinaitis",
+      "object": "linebacker",
+      "subject_id": "Q339711",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Chad Hutchinson",
+      "object": "quarterback",
+      "subject_id": "Q4496589",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Thomas Greiss",
+      "object": "goaltender",
+      "subject_id": "Q72467",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Dewey Selmon",
+      "object": "linebacker",
+      "subject_id": "Q5268212",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Kelly Hrudey",
+      "object": "goaltender",
+      "subject_id": "Q304395",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Fernando Torres",
+      "object": "forward",
+      "subject_id": "Q42731",
+      "object_id": "Q280658"
+    },
+    {
+      "subject": "Rodney Sneijder",
+      "object": "midfielder",
+      "subject_id": "Q1100431",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Jordan Gross",
+      "object": "tackle",
+      "subject_id": "Q60735885",
+      "object_id": "Q24976"
+    },
+    {
+      "subject": "Mike Pawlawski",
+      "object": "quarterback",
+      "subject_id": "Q6848345",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Jaroslav Janus",
+      "object": "goaltender",
+      "subject_id": "Q31725",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Ralph Guglielmi",
+      "object": "quarterback",
+      "subject_id": "Q7287573",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Sean Burke",
+      "object": "goaltender",
+      "subject_id": "Q44935534",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Logan Thomas",
+      "object": "quarterback",
+      "subject_id": "Q106805026",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Mike Veisor",
+      "object": "goaltender",
+      "subject_id": "Q6379566",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Jason Campbell",
+      "object": "quarterback",
+      "subject_id": "Q82118",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Daniel Berg Hestad",
+      "object": "midfielder",
+      "subject_id": "Q967613",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Pietro Maiellaro",
+      "object": "midfielder",
+      "subject_id": "Q3904025",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Ryan Shazier",
+      "object": "linebacker",
+      "subject_id": "Q14951001",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Georgios Fotakis",
+      "object": "midfielder",
+      "subject_id": "N/A",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Jelani Jenkins",
+      "object": "linebacker",
+      "subject_id": "Q6176617",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Bryan Robson",
+      "object": "midfielder",
+      "subject_id": "Q296583",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "EJ Manuel",
+      "object": "quarterback",
+      "subject_id": "Q5323233",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Todd Helton",
+      "object": "quarterback",
+      "subject_id": "Q1131278",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Jamie Storr",
+      "object": "goaltender",
+      "subject_id": "Q1681424",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Romuald Boco",
+      "object": "midfielder",
+      "subject_id": "Q1381554",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Dennis Shaw",
+      "object": "quarterback",
+      "subject_id": "Q93194472",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Carlos Alberto Alves Garcia",
+      "object": "midfielder",
+      "subject_id": "Q675836",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Hong-Chih Kuo",
+      "object": "pitcher",
+      "subject_id": "Q707802",
+      "object_id": "Q1048902"
+    },
+    {
+      "subject": "Kiko Alonso",
+      "object": "linebacker",
+      "subject_id": "Q6406325",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Landon Johnson",
+      "object": "linebacker",
+      "subject_id": "Q6484888",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Unai Emery",
+      "object": "midfielder",
+      "subject_id": "Q295610",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Suat Kaya",
+      "object": "midfielder",
+      "subject_id": "Q1372805",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Dean Furman",
+      "object": "midfielder",
+      "subject_id": "Q3655782",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Yannick Bapupa",
+      "object": "midfielder",
+      "subject_id": "Q426696",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Jocelyn Gourvennec",
+      "object": "midfielder",
+      "subject_id": "Q2702339",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "May Mahlangu",
+      "object": "midfielder",
+      "subject_id": "Q1355219",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Tim Raines",
+      "object": "outfielder",
+      "subject_id": "Q3025632",
+      "object_id": "Q1142885"
+    },
+    {
+      "subject": "Colin Kaepernick",
+      "object": "quarterback",
+      "subject_id": "Q82496",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Alex Teixeira",
+      "object": "midfielder",
+      "subject_id": "Q515938",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Ludovic Sylvestre",
+      "object": "midfielder",
+      "subject_id": "Q471193",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Erik Kramer",
+      "object": "quarterback",
+      "subject_id": "Q4243075",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Boof Bonser",
+      "object": "pitcher",
+      "subject_id": "Q764569",
+      "object_id": "Q1048902"
+    },
+    {
+      "subject": "Wolfram Wuttke",
+      "object": "midfielder",
+      "subject_id": "Q680258",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Philip Hellquist",
+      "object": "midfielder",
+      "subject_id": "Q913701",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Miralem Sulejmani",
+      "object": "midfielder",
+      "subject_id": "Q128992",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Blaine Lacher",
+      "object": "goaltender",
+      "subject_id": "Q604389",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Davide Fontolan",
+      "object": "midfielder",
+      "subject_id": "Q505376",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Jim Bagby, Sr.",
+      "object": "pitcher",
+      "subject_id": "Q3178729",
+      "object_id": "Q1048902"
+    },
+    {
+      "subject": "Yogi Berra",
+      "object": "catcher",
+      "subject_id": "Q367566",
+      "object_id": "Q1050571"
+    },
+    {
+      "subject": "Miguel Marcos Madera",
+      "object": "midfielder",
+      "subject_id": "Q561099",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Leung Tsz Chun",
+      "object": "midfielder",
+      "subject_id": "Q6534591",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Rick Monday",
+      "object": "outfielder",
+      "subject_id": "Q3431584",
+      "object_id": "Q1142885"
+    },
+    {
+      "subject": "Eugene Lockhart",
+      "object": "linebacker",
+      "subject_id": "Q5407455",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Chan Ho Park",
+      "object": "pitcher",
+      "subject_id": "Q87650494",
+      "object_id": "Q1048902"
+    },
+    {
+      "subject": "Roy Halladay",
+      "object": "pitcher",
+      "subject_id": "Q715571",
+      "object_id": "Q1048902"
+    },
+    {
+      "subject": "Steve Passmore",
+      "object": "goaltender",
+      "subject_id": "Q360999",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Lamberto Zauli",
+      "object": "midfielder",
+      "subject_id": "Q3826352",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Bruce Gradkowski",
+      "object": "quarterback",
+      "subject_id": "Q2926421",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Peter Tom Willis",
+      "object": "quarterback",
+      "subject_id": "Q4555148",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Paolo Sammarco",
+      "object": "midfielder",
+      "subject_id": "Q60726511",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Pirri",
+      "object": "midfielder",
+      "subject_id": "Q442441",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Doug Buffone",
+      "object": "linebacker",
+      "subject_id": "Q3714586",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Davide Biondini",
+      "object": "midfielder",
+      "subject_id": "Q96254221",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Charlie Gardiner",
+      "object": "goaltender",
+      "subject_id": "Q860294",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Anthony Maggiacomo",
+      "object": "linebacker",
+      "subject_id": "Q4772989",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Khaseem Greene",
+      "object": "linebacker",
+      "subject_id": "Q6400827",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Axel Witsel",
+      "object": "midfielder",
+      "subject_id": "Q151838",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Nelson Cruz",
+      "object": "outfielder",
+      "subject_id": "Q102833093",
+      "object_id": "Q1142885"
+    },
+    {
+      "subject": "Tom Flores",
+      "object": "quarterback",
+      "subject_id": "Q2439654",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Tyler Palko",
+      "object": "quarterback",
+      "subject_id": "Q7860107",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Vernon Wells",
+      "object": "outfielder",
+      "subject_id": "Q972991",
+      "object_id": "Q1142885"
+    },
+    {
+      "subject": "Jessie Tuggle",
+      "object": "linebacker",
+      "subject_id": "Q6187845",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Augustine Azuka Okocha",
+      "object": "midfielder",
+      "subject_id": "N/A",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Rickey Foggie",
+      "object": "quarterback",
+      "subject_id": "Q7331952",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Leon Day",
+      "object": "pitcher",
+      "subject_id": "Q6524607",
+      "object_id": "Q1048902"
+    },
+    {
+      "subject": "Giuseppe Furino",
+      "object": "midfielder",
+      "subject_id": "Q530590",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Martin Kuhl",
+      "object": "midfielder",
+      "subject_id": "Q6775931",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Don Meredith",
+      "object": "quarterback",
+      "subject_id": "Q5293139",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Jonathan Quick",
+      "object": "goaltender",
+      "subject_id": "Q631758",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Shawn Crable",
+      "object": "linebacker",
+      "subject_id": "Q7491325",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Manti Te'o",
+      "object": "linebacker",
+      "subject_id": "Q600083",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Juan Fernando Quintero",
+      "object": "midfielder",
+      "subject_id": "Q2092409",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Vince Young",
+      "object": "quarterback",
+      "subject_id": "Q1339239",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Ernie Whitt",
+      "object": "catcher",
+      "subject_id": "Q218572",
+      "object_id": "Q1050571"
+    },
+    {
+      "subject": "Bill Ranford",
+      "object": "goaltender",
+      "subject_id": "Q862403",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Sinuhe Wallinheimo",
+      "object": "goaltender",
+      "subject_id": "Q921096",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Thierry Omeyer",
+      "object": "goalkeeper",
+      "subject_id": "Q134709",
+      "object_id": "Q201330"
+    },
+    {
+      "subject": "Virgil Carter",
+      "object": "quarterback",
+      "subject_id": "Q7933754",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Francisco Lima",
+      "object": "midfielder",
+      "subject_id": "Q2706464",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Thomas McCollum",
+      "object": "goaltender",
+      "subject_id": "Q89517481",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Andrew Walter",
+      "object": "quarterback",
+      "subject_id": "Q6231678",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Todd Blackledge",
+      "object": "quarterback",
+      "subject_id": "Q7812273",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Renato Augusto",
+      "object": "midfielder",
+      "subject_id": "Q357844",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Matt Herges",
+      "object": "pitcher",
+      "subject_id": "Q3299473",
+      "object_id": "Q1048902"
+    },
+    {
+      "subject": "Marquis Cooper",
+      "object": "linebacker",
+      "subject_id": "Q3849816",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Logan Verrett",
+      "object": "pitcher",
+      "subject_id": "Q16573321",
+      "object_id": "Q1048902"
+    },
+    {
+      "subject": "Erik Komatsu",
+      "object": "outfielder",
+      "subject_id": "Q3056555",
+      "object_id": "Q1142885"
+    },
+    {
+      "subject": "Jonathan Santana",
+      "object": "midfielder",
+      "subject_id": "Q318795",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Vincent Laban",
+      "object": "midfielder",
+      "subject_id": "Q741953",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Garret Anderson",
+      "object": "outfielder",
+      "subject_id": "Q3098450",
+      "object_id": "Q1142885"
+    },
+    {
+      "subject": "Giuliano Victor de Paula",
+      "object": "midfielder",
+      "subject_id": "N/A",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Robert Esche",
+      "object": "goaltender",
+      "subject_id": "Q960482",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Darrin Fletcher",
+      "object": "catcher",
+      "subject_id": "Q24641137",
+      "object_id": "Q1050571"
+    },
+    {
+      "subject": "Gale Gilbert",
+      "object": "quarterback",
+      "subject_id": "Q3757538",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Jessica Vetter",
+      "object": "goaltender",
+      "subject_id": "Q6187537",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Roger Staubach",
+      "object": "quarterback",
+      "subject_id": "Q736932",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Brad Wilkerson",
+      "object": "outfielder",
+      "subject_id": "Q2923453",
+      "object_id": "Q1142885"
+    },
+    {
+      "subject": "Johan Arneng",
+      "object": "midfielder",
+      "subject_id": "Q1372938",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Rick Mirer",
+      "object": "quarterback",
+      "subject_id": "Q914311",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Felix Magath",
+      "object": "midfielder",
+      "subject_id": "Q153293",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Damien Plessis",
+      "object": "midfielder",
+      "subject_id": "Q316726",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Jean-Paul Kalala",
+      "object": "midfielder",
+      "subject_id": "Q3168556",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Shane Matthews",
+      "object": "quarterback",
+      "subject_id": "Q95370653",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Chin-hui Tsao",
+      "object": "pitcher",
+      "subject_id": "Q697082",
+      "object_id": "Q1048902"
+    },
+    {
+      "subject": "Gus Poyet",
+      "object": "midfielder",
+      "subject_id": "Q338595",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Diniyar Bilyaletdinov",
+      "object": "midfielder",
+      "subject_id": "Q192825",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Luke O'Brien",
+      "object": "defender",
+      "subject_id": "Q6702206",
+      "object_id": "Q336286"
+    },
+    {
+      "subject": "Santi Cazorla",
+      "object": "midfielder",
+      "subject_id": "Q185225",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Pat Haden",
+      "object": "quarterback",
+      "subject_id": "Q7143500",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Mark Bresciano",
+      "object": "midfielder",
+      "subject_id": "Q312510",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Duncan Edwards",
+      "object": "midfielder",
+      "subject_id": "Q276310",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Chip Banks",
+      "object": "linebacker",
+      "subject_id": "Q14950876",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Christoph Kramer",
+      "object": "midfielder",
+      "subject_id": "Q1085348",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Giancarlo Marocchi",
+      "object": "midfielder",
+      "subject_id": "Q608401",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Jone Samuelsen",
+      "object": "midfielder",
+      "subject_id": "Q1703350",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Manny Mota",
+      "object": "outfielder",
+      "subject_id": "Q3286087",
+      "object_id": "Q1142885"
+    },
+    {
+      "subject": "Benito Santiago",
+      "object": "catcher",
+      "subject_id": "Q2895955",
+      "object_id": "Q1050571"
+    },
+    {
+      "subject": "Hugh Millen",
+      "object": "quarterback",
+      "subject_id": "Q3142295",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Sergio Canales Madrazo",
+      "object": "midfielder",
+      "subject_id": "Q19422",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Collette McCallum",
+      "object": "midfielder",
+      "subject_id": "Q3683015",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Javid Imamverdiyev",
+      "object": "midfielder",
+      "subject_id": "Q3663985",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Giuseppe Dossena",
+      "object": "midfielder",
+      "subject_id": "Q726054",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Isaiah Osbourne",
+      "object": "midfielder",
+      "subject_id": "Q442860",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Koki Mizuno",
+      "object": "midfielder",
+      "subject_id": "Q467219",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Steve Castle",
+      "object": "midfielder",
+      "subject_id": "Q7612180",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Massimiliano Cappioli",
+      "object": "midfielder",
+      "subject_id": "Q1539223",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Karl Goehring",
+      "object": "goaltender",
+      "subject_id": "Q6371854",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Fred Thurston",
+      "object": "guard",
+      "subject_id": "Q4973890",
+      "object_id": "Q25113"
+    },
+    {
+      "subject": "Milt Plum",
+      "object": "quarterback",
+      "subject_id": "Q6860836",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Faris Haroun",
+      "object": "midfielder",
+      "subject_id": "Q2688242",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Francesco Parravicini",
+      "object": "midfielder",
+      "subject_id": "Q1117426",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Ross Verba",
+      "object": "guard",
+      "subject_id": "Q7369693",
+      "object_id": "Q25113"
+    },
+    {
+      "subject": "David Aebischer",
+      "object": "goaltender",
+      "subject_id": "Q106921499",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Charlie Robertson",
+      "object": "pitcher",
+      "subject_id": "Q3666678",
+      "object_id": "Q1048902"
+    },
+    {
+      "subject": "Gary Stills",
+      "object": "linebacker",
+      "subject_id": "Q5526006",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Murray Bannerman",
+      "object": "goaltender",
+      "subject_id": "Q6377642",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Brad Van Pelt",
+      "object": "linebacker",
+      "subject_id": "Q4954325",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Russell Bromage",
+      "object": "midfielder",
+      "subject_id": "Q7381384",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Darren Fletcher",
+      "object": "midfielder",
+      "subject_id": "Q172792",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Cullen Finnerty",
+      "object": "quarterback",
+      "subject_id": "Q5192992",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Tedy Bruschi",
+      "object": "linebacker",
+      "subject_id": "Q512013",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Jean-Pierre Roy",
+      "object": "pitcher",
+      "subject_id": "Q587070",
+      "object_id": "Q1048902"
+    },
+    {
+      "subject": "Curtis McElhinney",
+      "object": "goaltender",
+      "subject_id": "Q382160",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Cody Pickett",
+      "object": "quarterback",
+      "subject_id": "Q5140457",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Candy Cummings",
+      "object": "pitcher",
+      "subject_id": "Q1251998",
+      "object_id": "Q1048902"
+    },
+    {
+      "subject": "Brian Bosworth",
+      "object": "linebacker",
+      "subject_id": "Q911914",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Tommy Nobis",
+      "object": "linebacker",
+      "subject_id": "Q543544",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Jewel Raja",
+      "object": "midfielder",
+      "subject_id": "Q6189485",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Mark Kinsella",
+      "object": "midfielder",
+      "subject_id": "Q703653",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Nilton Fernandes",
+      "object": "midfielder",
+      "subject_id": "Q446236",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Jim Hart",
+      "object": "quarterback",
+      "subject_id": "Q1689108",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Junior Stanislas",
+      "object": "midfielder",
+      "subject_id": "Q1093695",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Wil Nieves",
+      "object": "catcher",
+      "subject_id": "Q3568083",
+      "object_id": "Q1050571"
+    },
+    {
+      "subject": "Matt Keetley",
+      "object": "goaltender",
+      "subject_id": "Q6379396",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Saleem Rasheed",
+      "object": "linebacker",
+      "subject_id": "Q7403858",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Ty Conklin",
+      "object": "goaltender",
+      "subject_id": "Q948802",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "George Best",
+      "object": "midfielder",
+      "subject_id": "Q164521",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Kevin Weekes",
+      "object": "goaltender",
+      "subject_id": "Q1740280",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Panagiotis Kone",
+      "object": "midfielder",
+      "subject_id": "Q923206",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "JD Closser",
+      "object": "catcher",
+      "subject_id": "Q3156889",
+      "object_id": "Q1050571"
+    },
+    {
+      "subject": "Bill Bergey",
+      "object": "linebacker",
+      "subject_id": "Q4908121",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Mike Teel",
+      "object": "quarterback",
+      "subject_id": "Q6849024",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Mike Scioscia",
+      "object": "catcher",
+      "subject_id": "Q1138109",
+      "object_id": "Q1050571"
+    },
+    {
+      "subject": "Carlos Lee",
+      "object": "outfielder",
+      "subject_id": "Q100875340",
+      "object_id": "Q1142885"
+    },
+    {
+      "subject": "Ronnie Ekelund",
+      "object": "midfielder",
+      "subject_id": "Q2415446",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Bobby Hebert",
+      "object": "quarterback",
+      "subject_id": "Q4935105",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Birkir Bjarnason",
+      "object": "midfielder",
+      "subject_id": "Q865680",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Florin Cernat",
+      "object": "midfielder",
+      "subject_id": "Q718830",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Vicente Engonga",
+      "object": "midfielder",
+      "subject_id": "Q2442188",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Jerod Mayo",
+      "object": "linebacker",
+      "subject_id": "Q920547",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Tommie Frazier",
+      "object": "quarterback",
+      "subject_id": "Q7819124",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Kurt Warner",
+      "object": "quarterback",
+      "subject_id": "Q945750",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Mike Vernon",
+      "object": "goaltender",
+      "subject_id": "Q456552",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Miguel Pérez Cuesta",
+      "object": "midfielder",
+      "subject_id": "Q350982",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Arnie Herber",
+      "object": "quarterback",
+      "subject_id": "Q693828",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Dick Wood",
+      "object": "quarterback",
+      "subject_id": "Q102142123",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Datsakorn Thonglao",
+      "object": "midfielder",
+      "subject_id": "Q725414",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Kenny Demens",
+      "object": "linebacker",
+      "subject_id": "Q6391027",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Geoff Bent",
+      "object": "defender",
+      "subject_id": "Q2324566",
+      "object_id": "Q336286"
+    },
+    {
+      "subject": "Carlos Humberto Paredes",
+      "object": "midfielder",
+      "subject_id": "N/A",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Jay Bruce",
+      "object": "outfielder",
+      "subject_id": "Q3163218",
+      "object_id": "Q1142885"
+    },
+    {
+      "subject": "Jerry Sisemore",
+      "object": "tackle",
+      "subject_id": "Q14951419",
+      "object_id": "Q24976"
+    },
+    {
+      "subject": "Johnny Vander Meer",
+      "object": "pitcher",
+      "subject_id": "Q6267823",
+      "object_id": "Q1048902"
+    },
+    {
+      "subject": "Steve Grogan",
+      "object": "quarterback",
+      "subject_id": "Q7612722",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Steve MacKenzie",
+      "object": "midfielder",
+      "subject_id": "Q3973367",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Angelo Bertelli",
+      "object": "quarterback",
+      "subject_id": "Q535640",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Jason Jennings",
+      "object": "pitcher",
+      "subject_id": "Q3807408",
+      "object_id": "Q1048902"
+    },
+    {
+      "subject": "Roy Sproson",
+      "object": "defender",
+      "subject_id": "Q7373396",
+      "object_id": "Q336286"
+    },
+    {
+      "subject": "Ryan Harley",
+      "object": "midfielder",
+      "subject_id": "Q7384123",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Diogo Ferreira",
+      "object": "midfielder",
+      "subject_id": "Q107279567",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Marty Schottenheimer",
+      "object": "linebacker",
+      "subject_id": "Q6777544",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Melanie Behringer",
+      "object": "midfielder",
+      "subject_id": "Q435538",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Kyle Boller",
+      "object": "quarterback",
+      "subject_id": "Q590146",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Arthur Milton",
+      "object": "midfielder",
+      "subject_id": "Q3531556",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Andrea Orlandi",
+      "object": "midfielder",
+      "subject_id": "Q1156625",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Mehdi Abeid",
+      "object": "midfielder",
+      "subject_id": "Q1059176",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Jon-Paul McGovern",
+      "object": "midfielder",
+      "subject_id": "Q6270263",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Mark Sanchez",
+      "object": "quarterback",
+      "subject_id": "Q946184",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Zac Robinson",
+      "object": "quarterback",
+      "subject_id": "Q8063722",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Jamie Winborn",
+      "object": "linebacker",
+      "subject_id": "Q6147636",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Esteban Vigo",
+      "object": "midfielder",
+      "subject_id": "Q3310722",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Don McPherson",
+      "object": "quarterback",
+      "subject_id": "Q5293127",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Marcelo Mattos",
+      "object": "midfielder",
+      "subject_id": "Q721017",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Rinku Singh",
+      "object": "pitcher",
+      "subject_id": "Q7335063",
+      "object_id": "Q1048902"
+    },
+    {
+      "subject": "Tony Gwynn",
+      "object": "outfielder",
+      "subject_id": "Q1145222",
+      "object_id": "Q1142885"
+    },
+    {
+      "subject": "Jason Puncheon",
+      "object": "midfielder",
+      "subject_id": "Q2463589",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Constantinos Makrides",
+      "object": "midfielder",
+      "subject_id": "Q1128086",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Garrett Gilbert",
+      "object": "quarterback",
+      "subject_id": "Q5523891",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Brian Steen Nielsen",
+      "object": "midfielder",
+      "subject_id": "Q2076659",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Jonathan Greening",
+      "object": "midfielder",
+      "subject_id": "Q355847",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Angelo Palombo",
+      "object": "midfielder",
+      "subject_id": "Q310671",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Dontrelle Willis",
+      "object": "pitcher",
+      "subject_id": "Q1062219",
+      "object_id": "Q1048902"
+    },
+    {
+      "subject": "Jim Sorgi",
+      "object": "quarterback",
+      "subject_id": "Q4429009",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Rick Ankiel",
+      "object": "pitcher",
+      "subject_id": "Q3431525",
+      "object_id": "Q1048902"
+    },
+    {
+      "subject": "Mikhail Shtalenkov",
+      "object": "goaltender",
+      "subject_id": "Q1374066",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Andrico Hines",
+      "object": "quarterback",
+      "subject_id": "Q18705266",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Cho Hyung-ik",
+      "object": "midfielder",
+      "subject_id": "Q5103353",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Kim Bokamper",
+      "object": "linebacker",
+      "subject_id": "Q14950883",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Owain Tudur Jones",
+      "object": "midfielder",
+      "subject_id": "Q533743",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Nordin Amrabat",
+      "object": "midfielder",
+      "subject_id": "Q374523",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Emiljano Vila",
+      "object": "midfielder",
+      "subject_id": "Q2711864",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Gaetano D'Agostino",
+      "object": "midfielder",
+      "subject_id": "Q393319",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Jesse Marsch",
+      "object": "midfielder",
+      "subject_id": "Q1336179",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Kim Vilfort",
+      "object": "midfielder",
+      "subject_id": "Q456100",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Johan Holmqvist",
+      "object": "goaltender",
+      "subject_id": "Q934186",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Amiran Mujiri",
+      "object": "midfielder",
+      "subject_id": "Q4746748",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Jonathan Urretaviscaya",
+      "object": "midfielder",
+      "subject_id": "Q717580",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Byron Dafoe",
+      "object": "goaltender",
+      "subject_id": "Q327662",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Gary Cuozzo",
+      "object": "quarterback",
+      "subject_id": "Q5524925",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Vegard Skogheim",
+      "object": "midfielder",
+      "subject_id": "Q2467184",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Ken Gunn",
+      "object": "midfielder",
+      "subject_id": "Q6387719",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Josip Skoko",
+      "object": "midfielder",
+      "subject_id": "Q221824",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Rufus Alexander",
+      "object": "linebacker",
+      "subject_id": "Q7377993",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Ioan Lupescu",
+      "object": "midfielder",
+      "subject_id": "Q765199",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Juan Cuadrado",
+      "object": "midfielder",
+      "subject_id": "Q509374",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Kingsley Coman",
+      "object": "midfielder",
+      "subject_id": "Q6413296",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Jon Casey",
+      "object": "goaltender",
+      "subject_id": "Q1101421",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Carlos Rodon",
+      "object": "pitcher",
+      "subject_id": "Q5042575",
+      "object_id": "Q1048902"
+    },
+    {
+      "subject": "Marco Tardelli",
+      "object": "midfielder",
+      "subject_id": "Q312626",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Brian Boucher",
+      "object": "goaltender",
+      "subject_id": "Q911928",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "David Whitehurst",
+      "object": "quarterback",
+      "subject_id": "Q100954676",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Sam Crawford",
+      "object": "outfielder",
+      "subject_id": "Q711745",
+      "object_id": "Q1142885"
+    },
+    {
+      "subject": "Tobias Grahn",
+      "object": "midfielder",
+      "subject_id": "Q748311",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Jeff Ulbrich",
+      "object": "linebacker",
+      "subject_id": "Q6175190",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Joe Montana",
+      "object": "quarterback",
+      "subject_id": "Q348011",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Joel Zumaya",
+      "object": "pitcher",
+      "subject_id": "Q1026942",
+      "object_id": "Q1048902"
+    },
+    {
+      "subject": "Libor Sionko",
+      "object": "midfielder",
+      "subject_id": "Q297595",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Lyndon Andrews",
+      "object": "midfielder",
+      "subject_id": "Q6708692",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Shane Ray",
+      "object": "linebacker",
+      "subject_id": "Q18357533",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "LaMarr Woodley",
+      "object": "linebacker",
+      "subject_id": "Q2700869",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Henrik Lundqvist",
+      "object": "goaltender",
+      "subject_id": "Q362157",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Rene Tosoni",
+      "object": "outfielder",
+      "subject_id": "Q3425312",
+      "object_id": "Q1142885"
+    },
+    {
+      "subject": "Jeff Reese",
+      "object": "goaltender",
+      "subject_id": "Q100910282",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Abdel Sattar Sabry",
+      "object": "midfielder",
+      "subject_id": "Q2062666",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Quentin Groves",
+      "object": "linebacker",
+      "subject_id": "Q1763206",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Giovanni Tedesco",
+      "object": "midfielder",
+      "subject_id": "Q736304",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Jocelyn Thibault",
+      "object": "goaltender",
+      "subject_id": "Q1359610",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Les Horvath",
+      "object": "quarterback",
+      "subject_id": "Q1129334",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Selim Benachour",
+      "object": "midfielder",
+      "subject_id": "Q724024",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Garba Lawal",
+      "object": "midfielder",
+      "subject_id": "Q268914",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Juan Rodrigo Rojas",
+      "object": "midfielder",
+      "subject_id": "Q2622625",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Don Cardwell",
+      "object": "pitcher",
+      "subject_id": "Q3035748",
+      "object_id": "Q1048902"
+    },
+    {
+      "subject": "Marc Cheverie",
+      "object": "goaltender",
+      "subject_id": "Q6379879",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Travis Blackley",
+      "object": "pitcher",
+      "subject_id": "Q495199",
+      "object_id": "Q1048902"
+    },
+    {
+      "subject": "Craig Erickson",
+      "object": "quarterback",
+      "subject_id": "Q5180936",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Ju Yingzhi",
+      "object": "midfielder",
+      "subject_id": "Q6298707",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Alfie Moore",
+      "object": "goaltender",
+      "subject_id": "Q2834793",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Yaghoub Karimi",
+      "object": "midfielder",
+      "subject_id": "Q8046711",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Marc Overmars",
+      "object": "midfielder",
+      "subject_id": "Q219248",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Joel Stave",
+      "object": "quarterback",
+      "subject_id": "Q14950771",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Rivaldo",
+      "object": "midfielder",
+      "subject_id": "Q483577",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Yannick Carter",
+      "object": "linebacker",
+      "subject_id": "Q8048873",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Seth Maness",
+      "object": "pitcher",
+      "subject_id": "Q7456547",
+      "object_id": "Q1048902"
+    },
+    {
+      "subject": "Mark Walters",
+      "object": "midfielder",
+      "subject_id": "Q762449",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Mike Trout",
+      "object": "outfielder",
+      "subject_id": "Q3090378",
+      "object_id": "Q1142885"
+    },
+    {
+      "subject": "Andre Tippett",
+      "object": "linebacker",
+      "subject_id": "Q493244",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Kevin Lalande",
+      "object": "goaltender",
+      "subject_id": "Q967936",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Michael Boley",
+      "object": "linebacker",
+      "subject_id": "Q3856115",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Ahmad Brooks",
+      "object": "linebacker",
+      "subject_id": "Q3606970",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Antonino D'Agostino",
+      "object": "midfielder",
+      "subject_id": "Q3619052",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Antonio Candreva",
+      "object": "midfielder",
+      "subject_id": "Q32556",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Garrincha",
+      "object": "midfielder",
+      "subject_id": "Q180642",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Curtis Sanford",
+      "object": "goaltender",
+      "subject_id": "Q927203",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Caleb TerBush",
+      "object": "quarterback",
+      "subject_id": "Q5019316",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Michel Larocque",
+      "object": "goaltender",
+      "subject_id": "Q362573",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Kelly Stouffer",
+      "object": "quarterback",
+      "subject_id": "Q6386309",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Fabian Ernst",
+      "object": "midfielder",
+      "subject_id": "Q160890",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Mason Foster",
+      "object": "linebacker",
+      "subject_id": "Q3850831",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Iago Falque",
+      "object": "midfielder",
+      "subject_id": "Q439282",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Marat Izmailov",
+      "object": "midfielder",
+      "subject_id": "Q309826",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Kyle Orton",
+      "object": "quarterback",
+      "subject_id": "Q2637233",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Oliver Makor",
+      "object": "midfielder",
+      "subject_id": "Q3181195",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Robert Prytz",
+      "object": "midfielder",
+      "subject_id": "Q1368641",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Pablo Cepellini",
+      "object": "midfielder",
+      "subject_id": "N/A",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Conan Byrne",
+      "object": "midfielder",
+      "subject_id": "Q5158107",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Mathieu Flamini",
+      "object": "midfielder",
+      "subject_id": "Q204848",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Kostas Katsouranis",
+      "object": "midfielder",
+      "subject_id": "Q211124",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Poon Yiu Cheuk",
+      "object": "defender",
+      "subject_id": "Q701944",
+      "object_id": "Q336286"
+    },
+    {
+      "subject": "McDonald Mariga",
+      "object": "midfielder",
+      "subject_id": "Q313893",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Don Trull",
+      "object": "quarterback",
+      "subject_id": "Q5293632",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Braden Looper",
+      "object": "pitcher",
+      "subject_id": "Q2923475",
+      "object_id": "Q1048902"
+    },
+    {
+      "subject": "Gilles Mayer",
+      "object": "goaltender",
+      "subject_id": "Q3105538",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Shamweel Qasim",
+      "object": "midfielder",
+      "subject_id": "Q7487810",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Patrick Roy",
+      "object": "goaltender",
+      "subject_id": "Q357502",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Marques Tuiasosopo",
+      "object": "quarterback",
+      "subject_id": "Q3294749",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Ilsinho",
+      "object": "midfielder",
+      "subject_id": "Q455804",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Juan Joseph",
+      "object": "quarterback",
+      "subject_id": "Q79606293",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Carlos Manuel",
+      "object": "midfielder",
+      "subject_id": "Q63035644",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Bob John",
+      "object": "midfielder",
+      "subject_id": "Q595372",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Karim El Ahmadi",
+      "object": "midfielder",
+      "subject_id": "Q113246",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Ichiro Suzuki",
+      "object": "outfielder",
+      "subject_id": "Q600",
+      "object_id": "Q1142885"
+    },
+    {
+      "subject": "Tommy John",
+      "object": "pitcher",
+      "subject_id": "Q103203139",
+      "object_id": "Q1048902"
+    },
+    {
+      "subject": "Domenico Morfeo",
+      "object": "midfielder",
+      "subject_id": "Q326497",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Steve Barber",
+      "object": "pitcher",
+      "subject_id": "Q3498848",
+      "object_id": "Q1048902"
+    },
+    {
+      "subject": "Brian Bogusevic",
+      "object": "outfielder",
+      "subject_id": "Q2924860",
+      "object_id": "Q1142885"
+    },
+    {
+      "subject": "Luke Vercollone",
+      "object": "midfielder",
+      "subject_id": "Q6702414",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Ricardo Gallego",
+      "object": "midfielder",
+      "subject_id": "Q461568",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Eddie Giacomin",
+      "object": "goaltender",
+      "subject_id": "Q731240",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Ahmad Hatifi",
+      "object": "midfielder",
+      "subject_id": "Q15634966",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Angelo Orlando",
+      "object": "midfielder",
+      "subject_id": "Q6423720",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Sam LoPresti",
+      "object": "goaltender",
+      "subject_id": "Q2216565",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Mika Noronen",
+      "object": "goaltender",
+      "subject_id": "Q1932959",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Lee Bell",
+      "object": "midfielder",
+      "subject_id": "Q6513054",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Juan Pablo Galavis",
+      "object": "midfielder",
+      "subject_id": "Q6300667",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Paul Harsley",
+      "object": "midfielder",
+      "subject_id": "Q7151162",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Michael Conforto",
+      "object": "outfielder",
+      "subject_id": "Q16235295",
+      "object_id": "Q1142885"
+    },
+    {
+      "subject": "CC Sabathia",
+      "object": "pitcher",
+      "subject_id": "Q926404",
+      "object_id": "Q1048902"
+    },
+    {
+      "subject": "Stefano Fiore",
+      "object": "midfielder",
+      "subject_id": "Q318226",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Rusney Castillo",
+      "object": "outfielder",
+      "subject_id": "Q11348944",
+      "object_id": "Q1142885"
+    },
+    {
+      "subject": "Vesa Toskala",
+      "object": "goaltender",
+      "subject_id": "Q1386101",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Eusebio Di Francesco",
+      "object": "midfielder",
+      "subject_id": "Q396154",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Joel Lindpere",
+      "object": "midfielder",
+      "subject_id": "Q370847",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Ben Roethlisberger",
+      "object": "quarterback",
+      "subject_id": "Q537679",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Brandon Jenkins (football player)",
+      "object": "linebacker",
+      "subject_id": "N/A",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Cornell Brown",
+      "object": "linebacker",
+      "subject_id": "Q4873332",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Jesper Olsen",
+      "object": "midfielder",
+      "subject_id": "Q453438",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Shane Boyd",
+      "object": "quarterback",
+      "subject_id": "Q7487992",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Scott Dreisbach",
+      "object": "quarterback",
+      "subject_id": "Q7436257",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Vern Law",
+      "object": "pitcher",
+      "subject_id": "Q2371660",
+      "object_id": "Q1048902"
+    },
+    {
+      "subject": "Alex Auld",
+      "object": "goaltender",
+      "subject_id": "Q954930",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Marcelo Nascimento da Costa",
+      "object": "midfielder",
+      "subject_id": "Q3445830",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Ali Karimi",
+      "object": "midfielder",
+      "subject_id": "Q217384",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Jack Balmer",
+      "object": "forward",
+      "subject_id": "Q587555",
+      "object_id": "Q280658"
+    },
+    {
+      "subject": "Moise Fokou",
+      "object": "linebacker",
+      "subject_id": "Q6894774",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Vladislav Tretiak",
+      "object": "goaltender",
+      "subject_id": "Q316864",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Alwyn George",
+      "object": "midfielder",
+      "subject_id": "Q4738514",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Frank Watkin",
+      "object": "forward",
+      "subject_id": "Q10467993",
+      "object_id": "Q280658"
+    },
+    {
+      "subject": "Colby Cameron",
+      "object": "quarterback",
+      "subject_id": "Q5142006",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Angelo Colombo",
+      "object": "midfielder",
+      "subject_id": "Q110228922",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Aaron Rodgers",
+      "object": "quarterback",
+      "subject_id": "Q302581",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Scott Milanovich",
+      "object": "quarterback",
+      "subject_id": "Q3476271",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Christy Mathewson",
+      "object": "pitcher",
+      "subject_id": "Q73086",
+      "object_id": "Q1048902"
+    },
+    {
+      "subject": "Geoffrey Kondogbia",
+      "object": "midfielder",
+      "subject_id": "Q724147",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Fabio Capello",
+      "object": "midfielder",
+      "subject_id": "Q183108",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Nate Robertson",
+      "object": "pitcher",
+      "subject_id": "Q3336514",
+      "object_id": "Q1048902"
+    },
+    {
+      "subject": "John Reaves",
+      "object": "quarterback",
+      "subject_id": "Q6254402",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Reinhard Divis",
+      "object": "goaltender",
+      "subject_id": "Q696863",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "John Parker Wilson",
+      "object": "quarterback",
+      "subject_id": "Q14950792",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Dany N'Guessan",
+      "object": "midfielder",
+      "subject_id": "Q2081418",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Joe Kapp",
+      "object": "quarterback",
+      "subject_id": "Q6210609",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Marc Crosas",
+      "object": "midfielder",
+      "subject_id": "N/A",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Graeme Souness",
+      "object": "midfielder",
+      "subject_id": "Q310352",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Faysal Shayesteh",
+      "object": "midfielder",
+      "subject_id": "Q10554064",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Javier Espinosa",
+      "object": "midfielder",
+      "subject_id": "Q103021500",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Archie Manning",
+      "object": "quarterback",
+      "subject_id": "Q611891",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Paulo Bento",
+      "object": "midfielder",
+      "subject_id": "Q316733",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Bob Griese",
+      "object": "quarterback",
+      "subject_id": "Q429424",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Frank Lampard",
+      "object": "midfielder",
+      "subject_id": "Q41533",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Jean Prouff",
+      "object": "midfielder",
+      "subject_id": "Q1685775",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Mike Holmgren",
+      "object": "quarterback",
+      "subject_id": "Q5247485",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Tiago Mendes",
+      "object": "midfielder",
+      "subject_id": "Q210944",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Kerry Collins",
+      "object": "quarterback",
+      "subject_id": "Q3195497",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Lavonte David",
+      "object": "linebacker",
+      "subject_id": "Q3828081",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Giuliano Giannichedda",
+      "object": "midfielder",
+      "subject_id": "Q709145",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Daniele Dessena",
+      "object": "midfielder",
+      "subject_id": "Q562195",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Beniamino Vignola",
+      "object": "midfielder",
+      "subject_id": "Q817291",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Matt Flynn",
+      "object": "quarterback",
+      "subject_id": "Q106136736",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Greg Buttle",
+      "object": "linebacker",
+      "subject_id": "Q5605378",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Von Miller",
+      "object": "linebacker",
+      "subject_id": "Q83384212",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Rasmus Lindgren",
+      "object": "midfielder",
+      "subject_id": "Q440904",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Trent Green",
+      "object": "quarterback",
+      "subject_id": "Q246458",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Alessio Cerci",
+      "object": "midfielder",
+      "subject_id": "Q456365",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Glenn Hall",
+      "object": "goaltender",
+      "subject_id": "Q92311574",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Stephone Anthony",
+      "object": "linebacker",
+      "subject_id": "Q14950871",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Carson Coffman",
+      "object": "quarterback",
+      "subject_id": "Q5046919",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Ryan Lindley",
+      "object": "quarterback",
+      "subject_id": "Q73591",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Joe Paterno",
+      "object": "quarterback",
+      "subject_id": "Q546591",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Ubaldo Righetti",
+      "object": "defender",
+      "subject_id": "Q200933",
+      "object_id": "Q336286"
+    },
+    {
+      "subject": "Blaine Gabbert",
+      "object": "quarterback",
+      "subject_id": "Q2483242",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Walter Johnson",
+      "object": "pitcher",
+      "subject_id": "Q722059",
+      "object_id": "Q1048902"
+    },
+    {
+      "subject": "Zeke Bratkowski",
+      "object": "quarterback",
+      "subject_id": "Q4792892",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Jacob Mellis",
+      "object": "midfielder",
+      "subject_id": "Q981830",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Wilber Marshall",
+      "object": "linebacker",
+      "subject_id": "Q4355379",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Luke Kuechly",
+      "object": "linebacker",
+      "subject_id": "Q3267090",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Massimiliano Esposito",
+      "object": "midfielder",
+      "subject_id": "Q46014433",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Simone Barone",
+      "object": "midfielder",
+      "subject_id": "Q299105",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Pedro Beato",
+      "object": "pitcher",
+      "subject_id": "Q3374013",
+      "object_id": "Q1048902"
+    },
+    {
+      "subject": "Jeff Francis",
+      "object": "pitcher",
+      "subject_id": "Q3176488",
+      "object_id": "Q1048902"
+    },
+    {
+      "subject": "Fernando Soriano",
+      "object": "midfielder",
+      "subject_id": "Q1332402",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Adilson dos Santos",
+      "object": "defender",
+      "subject_id": "Q16214819",
+      "object_id": "Q336286"
+    },
+    {
+      "subject": "Bill Kenney",
+      "object": "quarterback",
+      "subject_id": "Q16730726",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Tommy Docherty",
+      "object": "midfielder",
+      "subject_id": "Q735009",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Ray Houghton",
+      "object": "midfielder",
+      "subject_id": "Q703538",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Don Horn",
+      "object": "quarterback",
+      "subject_id": "Q4872482",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "John Brantley",
+      "object": "quarterback",
+      "subject_id": "Q100758903",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Pablo de Lucas",
+      "object": "midfielder",
+      "subject_id": "Q382530",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Tim Tebow",
+      "object": "quarterback",
+      "subject_id": "Q517467",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Tom Ramsey",
+      "object": "quarterback",
+      "subject_id": "Q110950430",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Daniel Caligiuri",
+      "object": "midfielder",
+      "subject_id": "Q128788",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Lee Cattermole",
+      "object": "midfielder",
+      "subject_id": "Q83494",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Johan Hedberg",
+      "object": "goaltender",
+      "subject_id": "Q100418433",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Ben Mauk",
+      "object": "quarterback",
+      "subject_id": "Q4886133",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Don Majkowski",
+      "object": "quarterback",
+      "subject_id": "Q5293053",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Jock Stein",
+      "object": "midfielder",
+      "subject_id": "Q355378",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Jair da Rosa Pinto",
+      "object": "midfielder",
+      "subject_id": "Q978042",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Steve McNair",
+      "object": "quarterback",
+      "subject_id": "Q167818",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Youssouf Mulumbu",
+      "object": "midfielder",
+      "subject_id": "Q556595",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Keith Rivers",
+      "object": "linebacker",
+      "subject_id": "Q3194769",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Tim Borowski",
+      "object": "midfielder",
+      "subject_id": "Q76753",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Shane Greene",
+      "object": "pitcher",
+      "subject_id": "Q16634735",
+      "object_id": "Q1048902"
+    },
+    {
+      "subject": "Dave Ragone",
+      "object": "quarterback",
+      "subject_id": "Q5229624",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Adam Weber",
+      "object": "quarterback",
+      "subject_id": "Q105632475",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Tarek Yehia",
+      "object": "midfielder",
+      "subject_id": "Q7685781",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Makoto Hasebe",
+      "object": "midfielder",
+      "subject_id": "Q164676",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Quinn Gray",
+      "object": "quarterback",
+      "subject_id": "Q75649782",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Mule Haas",
+      "object": "outfielder",
+      "subject_id": "Q6933882",
+      "object_id": "Q1142885"
+    },
+    {
+      "subject": "David Beckham",
+      "object": "midfielder",
+      "subject_id": "Q10520",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Mike Richter",
+      "object": "goaltender",
+      "subject_id": "Q1933497",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Jeff Rutledge",
+      "object": "quarterback",
+      "subject_id": "Q6174882",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Greg Stefan",
+      "object": "goaltender",
+      "subject_id": "Q1235052",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Warren Sapp",
+      "object": "tackle",
+      "subject_id": "Q180342",
+      "object_id": "Q24976"
+    },
+    {
+      "subject": "John Huarte",
+      "object": "quarterback",
+      "subject_id": "Q1700517",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Jean Luciano",
+      "object": "midfielder",
+      "subject_id": "Q957080",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Ray Emery",
+      "object": "goaltender",
+      "subject_id": "Q960507",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Gareth Barry",
+      "object": "midfielder",
+      "subject_id": "Q191855",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Hatem Ben Arfa",
+      "object": "midfielder",
+      "subject_id": "Q1928",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Fabio Celestini",
+      "object": "midfielder",
+      "subject_id": "Q443937",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Jay Cutler",
+      "object": "quarterback",
+      "subject_id": "Q312811",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Ricardo Villa",
+      "object": "midfielder",
+      "subject_id": "Q705946",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Craig Breslow",
+      "object": "pitcher",
+      "subject_id": "Q1059652",
+      "object_id": "Q1048902"
+    },
+    {
+      "subject": "Yutaka Enatsu",
+      "object": "pitcher",
+      "subject_id": "Q1042095",
+      "object_id": "Q1048902"
+    },
+    {
+      "subject": "Randall Azofeifa",
+      "object": "midfielder",
+      "subject_id": "Q706582",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Gary Danielson",
+      "object": "quarterback",
+      "subject_id": "Q5524941",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Dan Fouts",
+      "object": "quarterback",
+      "subject_id": "Q1159065",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Bryan Holaday",
+      "object": "catcher",
+      "subject_id": "Q2927157",
+      "object_id": "Q1050571"
+    },
+    {
+      "subject": "Mariano Rivera",
+      "object": "closer",
+      "subject_id": "Q382303",
+      "object_id": "Q212098"
+    },
+    {
+      "subject": "Rory Delap",
+      "object": "midfielder",
+      "subject_id": "Q316719",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Morgan Schneiderlin",
+      "object": "midfielder",
+      "subject_id": "Q1361462",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Serhiy Kovalets",
+      "object": "midfielder",
+      "subject_id": "Q2471950",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Kari Lehtonen",
+      "object": "goaltender",
+      "subject_id": "Q585152",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Carlos Valderrama",
+      "object": "midfielder",
+      "subject_id": "Q204089",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Diego Maradona",
+      "object": "midfielder",
+      "subject_id": "Q17515",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Massimiliano Allegri",
+      "object": "midfielder",
+      "subject_id": "Q354529",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Agostino Di Bartolomei",
+      "object": "midfielder",
+      "subject_id": "Q395648",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Zico",
+      "object": "midfielder",
+      "subject_id": "Q47526",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Tim Hasselbeck",
+      "object": "quarterback",
+      "subject_id": "Q7803625",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Frankie Albert",
+      "object": "quarterback",
+      "subject_id": "Q5490903",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Allan Bester",
+      "object": "goaltender",
+      "subject_id": "Q2647932",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Scott Sinclair",
+      "object": "midfielder",
+      "subject_id": "Q310402",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Pekka Rinne",
+      "object": "goaltender",
+      "subject_id": "Q959915",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Ted McMinn",
+      "object": "midfielder",
+      "subject_id": "Q7693509",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Adnan Januzaj",
+      "object": "midfielder",
+      "subject_id": "Q14558450",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Ryan Leaf",
+      "object": "quarterback",
+      "subject_id": "Q515870",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Gaizka Garitano Aguirre",
+      "object": "midfielder",
+      "subject_id": "Q742677",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Jeff George",
+      "object": "quarterback",
+      "subject_id": "Q108040116",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "DeWayne Wise",
+      "object": "outfielder",
+      "subject_id": "Q3025568",
+      "object_id": "Q1142885"
+    },
+    {
+      "subject": "Pascal Feindouno",
+      "object": "midfielder",
+      "subject_id": "Q350502",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Vincenzo Italiano",
+      "object": "midfielder",
+      "subject_id": "Q1091404",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Tyler Moss",
+      "object": "goaltender",
+      "subject_id": "Q2462701",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Luca Danilo Fusi",
+      "object": "midfielder",
+      "subject_id": "Q1120153",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Josh Gibson",
+      "object": "catcher",
+      "subject_id": "Q1040584",
+      "object_id": "Q1050571"
+    },
+    {
+      "subject": "Angelo Di Livio",
+      "object": "midfielder",
+      "subject_id": "Q122294",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Scott Fankhouser",
+      "object": "goaltender",
+      "subject_id": "Q174347",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Miguel Montero",
+      "object": "catcher",
+      "subject_id": "Q2092391",
+      "object_id": "Q1050571"
+    },
+    {
+      "subject": "Bakary Sako",
+      "object": "midfielder",
+      "subject_id": "Q401771",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Sean Glennon",
+      "object": "quarterback",
+      "subject_id": "Q7441035",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Damiano Tommasi",
+      "object": "midfielder",
+      "subject_id": "Q350271",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Francisco Cervelli",
+      "object": "catcher",
+      "subject_id": "Q1320678",
+      "object_id": "Q1050571"
+    },
+    {
+      "subject": "Scott Hatteberg",
+      "object": "catcher",
+      "subject_id": "Q5360645",
+      "object_id": "Q1050571"
+    },
+    {
+      "subject": "Ryan Mallett",
+      "object": "quarterback",
+      "subject_id": "Q3546506",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Willie McFaul",
+      "object": "goalkeeper",
+      "subject_id": "Q8021676",
+      "object_id": "Q201330"
+    },
+    {
+      "subject": "Mohd Amirul Hadi Zainal",
+      "object": "midfielder",
+      "subject_id": "Q4208089",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Darren Daulton",
+      "object": "catcher",
+      "subject_id": "Q3016497",
+      "object_id": "Q1050571"
+    },
+    {
+      "subject": "Viktor Fasth",
+      "object": "goaltender",
+      "subject_id": "Q927388",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Eusebio Castigliano",
+      "object": "midfielder",
+      "subject_id": "Q609055",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Nolan Ryan",
+      "object": "pitcher",
+      "subject_id": "Q721948",
+      "object_id": "Q1048902"
+    },
+    {
+      "subject": "Braden Holtby",
+      "object": "goaltender",
+      "subject_id": "Q896915",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Chuck Fusina",
+      "object": "quarterback",
+      "subject_id": "Q5115479",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Enos Slaughter",
+      "object": "outfielder",
+      "subject_id": "Q326235",
+      "object_id": "Q1142885"
+    },
+    {
+      "subject": "Atlee Hammaker",
+      "object": "pitcher",
+      "subject_id": "Q4816911",
+      "object_id": "Q1048902"
+    },
+    {
+      "subject": "Don Larsen",
+      "object": "pitcher",
+      "subject_id": "Q919907",
+      "object_id": "Q1048902"
+    },
+    {
+      "subject": "Oscar Albuquerque",
+      "object": "midfielder",
+      "subject_id": "Q7105851",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "David Carabott",
+      "object": "midfielder",
+      "subject_id": "Q717362",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Danny Trevathan",
+      "object": "linebacker",
+      "subject_id": "Q3702297",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Josh McCown",
+      "object": "quarterback",
+      "subject_id": "Q2778384",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Giuseppe Baresi",
+      "object": "midfielder",
+      "subject_id": "Q358926",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Éric Djemba-Djemba",
+      "object": "midfielder",
+      "subject_id": "Q314371",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Drake Britton",
+      "object": "pitcher",
+      "subject_id": "Q5305587",
+      "object_id": "Q1048902"
+    },
+    {
+      "subject": "Matt Chatham",
+      "object": "linebacker",
+      "subject_id": "Q4993726",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Marvin Mitchell",
+      "object": "linebacker",
+      "subject_id": "Q100885531",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Connor Cook",
+      "object": "quarterback",
+      "subject_id": "Q16235298",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Dan Conners",
+      "object": "linebacker",
+      "subject_id": "Q5213285",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Calum Chambers",
+      "object": "defender",
+      "subject_id": "Q46522",
+      "object_id": "Q336286"
+    },
+    {
+      "subject": "Sean Payton",
+      "object": "quarterback",
+      "subject_id": "Q2414784",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Steve Valiquette",
+      "object": "goaltender",
+      "subject_id": "Q911614",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Paulo Sousa",
+      "object": "midfielder",
+      "subject_id": "Q314440",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Junior Seau",
+      "object": "linebacker",
+      "subject_id": "Q1124532",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Matt Hasselbeck",
+      "object": "quarterback",
+      "subject_id": "Q1909219",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Stephen McGee",
+      "object": "quarterback",
+      "subject_id": "Q7609950",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Matt Holland",
+      "object": "midfielder",
+      "subject_id": "Q531183",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Ernesto Lazzatti",
+      "object": "midfielder",
+      "subject_id": "Q2778201",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Anderson Luís de Abreu Oliveira",
+      "object": "midfielder",
+      "subject_id": "N/A",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Mike Hampton",
+      "object": "pitcher",
+      "subject_id": "Q108051951",
+      "object_id": "Q1048902"
+    },
+    {
+      "subject": "Egil Olsen",
+      "object": "midfielder",
+      "subject_id": "Q524229",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Jordan Norberto",
+      "object": "pitcher",
+      "subject_id": "Q3120907",
+      "object_id": "Q1048902"
+    },
+    {
+      "subject": "Martin Coleman",
+      "object": "goalkeeper",
+      "subject_id": "Q108800965",
+      "object_id": "Q201330"
+    },
+    {
+      "subject": "Jim Zorn",
+      "object": "quarterback",
+      "subject_id": "Q3808391",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Luke Chadwick",
+      "object": "midfielder",
+      "subject_id": "Q1877042",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Nils Liedholm",
+      "object": "midfielder",
+      "subject_id": "Q312633",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Pat Corrales",
+      "object": "catcher",
+      "subject_id": "Q3368531",
+      "object_id": "Q1050571"
+    },
+    {
+      "subject": "Abner Dalrymple",
+      "object": "outfielder",
+      "subject_id": "Q1252010",
+      "object_id": "Q1142885"
+    },
+    {
+      "subject": "Cory Schneider",
+      "object": "goaltender",
+      "subject_id": "Q194028",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Darcy Kuemper",
+      "object": "goaltender",
+      "subject_id": "Q5222375",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Ryan Fraser",
+      "object": "midfielder",
+      "subject_id": "Q44527",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Brian Maisonneuve",
+      "object": "midfielder",
+      "subject_id": "Q912636",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Brian Labone",
+      "object": "defender",
+      "subject_id": "Q538322",
+      "object_id": "Q336286"
+    },
+    {
+      "subject": "Derrick Thomas",
+      "object": "linebacker",
+      "subject_id": "Q100934649",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Gary Hogeboom",
+      "object": "quarterback",
+      "subject_id": "Q3496012",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Chuck Howley",
+      "object": "linebacker",
+      "subject_id": "Q332255",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Francesco Bolzoni",
+      "object": "midfielder",
+      "subject_id": "Q57010396",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Jean Makoun",
+      "object": "midfielder",
+      "subject_id": "Q213119",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Carey Price",
+      "object": "goaltender",
+      "subject_id": "Q102611635",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Rudy Carpenter",
+      "object": "quarterback",
+      "subject_id": "Q7377585",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Mikel Alonso",
+      "object": "midfielder",
+      "subject_id": "Q356439",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Kirk Rueter",
+      "object": "pitcher",
+      "subject_id": "Q3197387",
+      "object_id": "Q1048902"
+    },
+    {
+      "subject": "Manny Ramirez",
+      "object": "outfielder",
+      "subject_id": "Q375648",
+      "object_id": "Q1142885"
+    },
+    {
+      "subject": "Henk ten Cate",
+      "object": "midfielder",
+      "subject_id": "Q380732",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Masaichi Kaneda",
+      "object": "pitcher",
+      "subject_id": "Q429401",
+      "object_id": "Q1048902"
+    },
+    {
+      "subject": "Ross Barkley",
+      "object": "midfielder",
+      "subject_id": "Q326240",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Daunte Culpepper",
+      "object": "quarterback",
+      "subject_id": "Q706014",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Lee Sharpe",
+      "object": "midfielder",
+      "subject_id": "Q706028",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Randy Gradishar",
+      "object": "linebacker",
+      "subject_id": "Q3418879",
+      "object_id": "Q528145"
+    },
+    {
+      "subject": "Pud Galvin",
+      "object": "pitcher",
+      "subject_id": "Q1183314",
+      "object_id": "Q1048902"
+    },
+    {
+      "subject": "Carlos Alberto Torres",
+      "object": "defender",
+      "subject_id": "Q295262",
+      "object_id": "Q336286"
+    },
+    {
+      "subject": "Woodrow Dantzler",
+      "object": "quarterback",
+      "subject_id": "Q8033171",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Drew Brees",
+      "object": "quarterback",
+      "subject_id": "Q38952",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Garry Unger",
+      "object": "centre",
+      "subject_id": "Q382569",
+      "object_id": "Q739951"
+    },
+    {
+      "subject": "Bobby Layne",
+      "object": "quarterback",
+      "subject_id": "Q888604",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Brad Thiessen",
+      "object": "goaltender",
+      "subject_id": "Q896871",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Brent Krahn",
+      "object": "goaltender",
+      "subject_id": "Q909764",
+      "object_id": "Q1317534"
+    },
+    {
+      "subject": "Joe Nuxhall",
+      "object": "pitcher",
+      "subject_id": "Q3467293",
+      "object_id": "Q1048902"
+    },
+    {
+      "subject": "Kalu Uche",
+      "object": "midfielder",
+      "subject_id": "Q215474",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Kevin Craft",
+      "object": "quarterback",
+      "subject_id": "Q6396084",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Martin Ericsson",
+      "object": "midfielder",
+      "subject_id": "Q602051",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Joe Theismann",
+      "object": "quarterback",
+      "subject_id": "Q175963",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "Bob Meusel",
+      "object": "outfielder",
+      "subject_id": "Q941868",
+      "object_id": "Q1142885"
+    },
+    {
+      "subject": "Ben Bennett",
+      "object": "quarterback",
+      "subject_id": "Q57080303",
+      "object_id": "Q622747"
+    },
+    {
+      "subject": "David Mendes da Silva",
+      "object": "midfielder",
+      "subject_id": "Q696440",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Andrea Pirlo",
+      "object": "midfielder",
+      "subject_id": "Q43926",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Kerry Zavagnin",
+      "object": "midfielder",
+      "subject_id": "Q327415",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Almen Abdi",
+      "object": "midfielder",
+      "subject_id": "Q10754",
+      "object_id": "Q193592"
+    },
+    {
+      "subject": "Corey Patterson",
+      "object": "outfielder",
+      "subject_id": "Q2997270",
+      "object_id": "Q1142885"
+    },
+    {
+      "subject": "Bong Jung-keun",
+      "object": "pitcher",
+      "subject_id": "Q50609",
+      "object_id": "Q1048902"
+    }
+  ]
+}

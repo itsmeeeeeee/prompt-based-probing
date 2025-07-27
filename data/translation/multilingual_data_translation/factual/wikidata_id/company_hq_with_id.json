@@ -1,0 +1,4065 @@
+{
+  "name": "company hq",
+  "prompt_templates": [
+    "{} is headquartered in the city of",
+    "The headquarters of {} are in the city of",
+    "{} has headquarters in",
+    "{} operates from"
+  ],
+  "prompt_templates_zs": [
+    "The headquarters of {} is in the city of",
+    "Where are the headquarters of {}? It is in the city of"
+  ],
+  "properties": {
+    "relation_type": "factual",
+    "domain_name": "company",
+    "range_name": "city",
+    "symmetric": false
+  },
+  "samples": [
+    {
+      "subject": "Monell Chemical Senses Center",
+      "object": "Philadelphia",
+      "subject_id": "Q6898934",
+      "object_id": "Q1345"
+    },
+    {
+      "subject": "Majorette",
+      "object": "Lyon",
+      "subject_id": "Q903218",
+      "object_id": "Q456"
+    },
+    {
+      "subject": "Ipsos MORI",
+      "object": "London",
+      "subject_id": "Q6065484",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "Newcomen Society",
+      "object": "London",
+      "subject_id": "Q7017639",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "Northeastern University",
+      "object": "Boston",
+      "subject_id": "Q37548",
+      "object_id": "Q100"
+    },
+    {
+      "subject": "Pappas Restaurants",
+      "object": "Houston",
+      "subject_id": "Q17065479",
+      "object_id": "Q16555"
+    },
+    {
+      "subject": "Veracode",
+      "object": "Burlington",
+      "subject_id": "Q7920857",
+      "object_id": "Q939025"
+    },
+    {
+      "subject": "British Tanker Company",
+      "object": "London",
+      "subject_id": "Q11854626",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "Heart Attack Grill",
+      "object": "Chandler",
+      "subject_id": "Q2068768",
+      "object_id": "Q49272"
+    },
+    {
+      "subject": "BSC Young Boys",
+      "object": "Bern",
+      "subject_id": "Q190526",
+      "object_id": "Q70"
+    },
+    {
+      "subject": "Caribbean Community Secretariat",
+      "object": "Georgetown",
+      "subject_id": "Q131852968",
+      "object_id": "Q990898"
+    },
+    {
+      "subject": "Irish Ferries",
+      "object": "Dublin",
+      "subject_id": "Q997355",
+      "object_id": "Q1761"
+    },
+    {
+      "subject": "Crown Airways",
+      "object": "Philadelphia",
+      "subject_id": "Q5189308",
+      "object_id": "Q1345"
+    },
+    {
+      "subject": "Tata Steel Europe",
+      "object": "London",
+      "subject_id": "Q105967436",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "Sporveien",
+      "object": "Oslo",
+      "subject_id": "Q287668",
+      "object_id": "Q585"
+    },
+    {
+      "subject": "Amirkabir University of Technology",
+      "object": "Tehran",
+      "subject_id": "Q4746780",
+      "object_id": "Q3616"
+    },
+    {
+      "subject": "Bajaj Electricals",
+      "object": "Mumbai",
+      "subject_id": "Q4848822",
+      "object_id": "Q1156"
+    },
+    {
+      "subject": "Chinese Skating Association",
+      "object": "Beijing",
+      "subject_id": "Q5100609",
+      "object_id": "Q956"
+    },
+    {
+      "subject": "Elsevier",
+      "object": "Philadelphia",
+      "subject_id": "Q746413",
+      "object_id": "Q1345"
+    },
+    {
+      "subject": "Microland",
+      "object": "Bengalur",
+      "subject_id": "Q6839605",
+      "object_id": "Q1355"
+    },
+    {
+      "subject": "Kemira",
+      "object": "Helsinki",
+      "subject_id": "Q905801",
+      "object_id": "Q1757"
+    },
+    {
+      "subject": "British Railways Board",
+      "object": "London",
+      "subject_id": "Q920016",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "Ministry of Foreign Affairs (Russian Empire)",
+      "object": "Moscow",
+      "subject_id": "Q3251811",
+      "object_id": "Q649"
+    },
+    {
+      "subject": "LG Chem",
+      "object": "Seoul",
+      "subject_id": "Q486976",
+      "object_id": "Q8684"
+    },
+    {
+      "subject": "Redpath Sugar",
+      "object": "Montreal",
+      "subject_id": "Q3502846",
+      "object_id": "Q340"
+    },
+    {
+      "subject": "Pagan Federation",
+      "object": "London",
+      "subject_id": "Q3490451",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "Artnet",
+      "object": "Berlin",
+      "subject_id": "Q266566",
+      "object_id": "Q64"
+    },
+    {
+      "subject": "Cinven",
+      "object": "London",
+      "subject_id": "Q1092600",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "Strait Shipping",
+      "object": "Wellington",
+      "subject_id": "Q7621149",
+      "object_id": "Q23661"
+    },
+    {
+      "subject": "Amalgamated Wireless",
+      "object": "Sydney",
+      "subject_id": "Q4739377",
+      "object_id": "Q3130"
+    },
+    {
+      "subject": "Brown University",
+      "object": "Providence",
+      "subject_id": "Q49114",
+      "object_id": "Q18383"
+    },
+    {
+      "subject": "Physikalisch-Technische Bundesanstalt",
+      "object": "Brunswick",
+      "subject_id": "Q470438",
+      "object_id": "Q2773"
+    },
+    {
+      "subject": "Beetham Organization",
+      "object": "Liverpool",
+      "subject_id": "Q4880173",
+      "object_id": "Q24826"
+    },
+    {
+      "subject": "Hellenic Army",
+      "object": "Athens",
+      "subject_id": "Q1546449",
+      "object_id": "Q1524"
+    },
+    {
+      "subject": "Co-operative Commonwealth Federation (Ontario Section)",
+      "object": "Toronto",
+      "subject_id": "Q5137462",
+      "object_id": "Q172"
+    },
+    {
+      "subject": "Digital Eel",
+      "object": "Seattle",
+      "subject_id": "Q5275848",
+      "object_id": "Q5083"
+    },
+    {
+      "subject": "Gazi University",
+      "object": "Ankara",
+      "subject_id": "Q1496662",
+      "object_id": "Q3640"
+    },
+    {
+      "subject": "Bank Mellat",
+      "object": "Tehran",
+      "subject_id": "Q4855944",
+      "object_id": "Q3616"
+    },
+    {
+      "subject": "Sciences Po",
+      "object": "Paris",
+      "subject_id": "Q859363",
+      "object_id": "Q90"
+    },
+    {
+      "subject": "RotorWay International",
+      "object": "Chandler",
+      "subject_id": "Q1557390",
+      "object_id": "Q49272"
+    },
+    {
+      "subject": "University of Oklahoma",
+      "object": "Norman",
+      "subject_id": "Q640652",
+      "object_id": "Q40347"
+    },
+    {
+      "subject": "Nordic Institute for Theoretical Physics",
+      "object": "Stockholm",
+      "subject_id": "Q950917",
+      "object_id": "Q1754"
+    },
+    {
+      "subject": "Long-Term Capital Management",
+      "object": "Greenwich",
+      "subject_id": "Q1140654",
+      "object_id": "Q179385"
+    },
+    {
+      "subject": "World Trade Organization",
+      "object": "Geneva",
+      "subject_id": "Q7825",
+      "object_id": "Q71"
+    },
+    {
+      "subject": "Vergo Retail",
+      "object": "Liverpool",
+      "subject_id": "Q7921280",
+      "object_id": "Q24826"
+    },
+    {
+      "subject": "Crawford Composites",
+      "object": "Denver",
+      "subject_id": "Q17511827",
+      "object_id": "Q16554"
+    },
+    {
+      "subject": "RoboCop",
+      "object": "Detroit",
+      "subject_id": "Q372514",
+      "object_id": "Q12439"
+    },
+    {
+      "subject": "OMRON",
+      "object": "Kyoto",
+      "subject_id": "Q501376",
+      "object_id": "Q34600"
+    },
+    {
+      "subject": "BBC Radio",
+      "object": "London",
+      "subject_id": "Q795598",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "Stroytransgaz",
+      "object": "Moscow",
+      "subject_id": "Q4444191",
+      "object_id": "Q649"
+    },
+    {
+      "subject": "University of Kentucky",
+      "object": "Lexington",
+      "subject_id": "Q1360303",
+      "object_id": "Q49241"
+    },
+    {
+      "subject": "TU Wien",
+      "object": "Vienna",
+      "subject_id": "Q689400",
+      "object_id": "Q577544"
+    },
+    {
+      "subject": "Ernst & Young",
+      "object": "London",
+      "subject_id": "Q489097",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "Northern & Shell",
+      "object": "London",
+      "subject_id": "Q321273",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "Samsung",
+      "object": "Seoul",
+      "subject_id": "Q124989916",
+      "object_id": "Q8684"
+    },
+    {
+      "subject": "The Imaginarium Studios",
+      "object": "London",
+      "subject_id": "Q124638734",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "Mater Health Services",
+      "object": "Brisbane",
+      "subject_id": "Q6786513",
+      "object_id": "Q34932"
+    },
+    {
+      "subject": "St Patrick's Athletic F.C.",
+      "object": "Dublin",
+      "subject_id": "Q394452",
+      "object_id": "Q1761"
+    },
+    {
+      "subject": "Trafigura Beheer B.V.",
+      "object": "Amsterdam",
+      "subject_id": "N/A",
+      "object_id": "Q727"
+    },
+    {
+      "subject": "Ericsson",
+      "object": "Stockholm",
+      "subject_id": "Q52618",
+      "object_id": "Q1754"
+    },
+    {
+      "subject": "EDP Renewables North America",
+      "object": "Houston",
+      "subject_id": "Q5322866",
+      "object_id": "Q16555"
+    },
+    {
+      "subject": "RPG Group",
+      "object": "Mumbai",
+      "subject_id": "Q7277463",
+      "object_id": "Q1156"
+    },
+    {
+      "subject": "Stop & Shop",
+      "object": "Quincy",
+      "subject_id": "Q3658429",
+      "object_id": "Q49143"
+    },
+    {
+      "subject": "Argo Tea",
+      "object": "Chicago",
+      "subject_id": "Q4789633",
+      "object_id": "Q1297"
+    },
+    {
+      "subject": "P&O Cruises Australia",
+      "object": "Southampton",
+      "subject_id": "Q2043447",
+      "object_id": "Q79848"
+    },
+    {
+      "subject": "Co-operative College",
+      "object": "Manchester",
+      "subject_id": "Q5137458",
+      "object_id": "Q18125"
+    },
+    {
+      "subject": "Center for Jewish–Christian Understanding and Cooperation",
+      "object": "Jerusalem",
+      "subject_id": "Q17269143",
+      "object_id": "Q1218"
+    },
+    {
+      "subject": "Reading Company",
+      "object": "Philadelphia",
+      "subject_id": "Q837860",
+      "object_id": "Q1345"
+    },
+    {
+      "subject": "Liquor Control Board of Ontario",
+      "object": "Toronto",
+      "subject_id": "Q845263",
+      "object_id": "Q172"
+    },
+    {
+      "subject": "Jim Beam",
+      "object": "Chicago",
+      "subject_id": "Q222787",
+      "object_id": "Q1297"
+    },
+    {
+      "subject": "Famous Players Film Company",
+      "object": "Hollywood",
+      "subject_id": "Q5433479",
+      "object_id": "Q234453"
+    },
+    {
+      "subject": "Diabetes UK",
+      "object": "London",
+      "subject_id": "Q5270118",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "American Indian Center",
+      "object": "Chicago",
+      "subject_id": "Q15430055",
+      "object_id": "Q1297"
+    },
+    {
+      "subject": "Schibsted",
+      "object": "Oslo",
+      "subject_id": "Q20112811",
+      "object_id": "Q585"
+    },
+    {
+      "subject": "Terra Firma Capital Partners",
+      "object": "London",
+      "subject_id": "Q2405098",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "Slightly Mad Studios",
+      "object": "London",
+      "subject_id": "Q1193145",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "Vanderbilt University",
+      "object": "Nashville",
+      "subject_id": "Q29052",
+      "object_id": "Q23197"
+    },
+    {
+      "subject": "Heilmann & Littmann",
+      "object": "Berlin",
+      "subject_id": "Q1595419",
+      "object_id": "Q64"
+    },
+    {
+      "subject": "Rauch and Lang",
+      "object": "Cleveland",
+      "subject_id": "Q7296105",
+      "object_id": "Q37320"
+    },
+    {
+      "subject": "Sullivan Bluth Studios",
+      "object": "Dublin",
+      "subject_id": "Q7636396",
+      "object_id": "Q1761"
+    },
+    {
+      "subject": "United Grain Growers",
+      "object": "Winnipeg",
+      "subject_id": "Q7887827",
+      "object_id": "Q2135"
+    },
+    {
+      "subject": "Amoco",
+      "object": "Chicago",
+      "subject_id": "Q465952",
+      "object_id": "Q1297"
+    },
+    {
+      "subject": "El Dorado Wrestling",
+      "object": "Tokyo",
+      "subject_id": "Q5351206",
+      "object_id": "Q1490"
+    },
+    {
+      "subject": "tronc, Inc.",
+      "object": "Chicago",
+      "subject_id": "N/A",
+      "object_id": "Q1297"
+    },
+    {
+      "subject": "University of Washington",
+      "object": "Seattle",
+      "subject_id": "Q219563",
+      "object_id": "Q5083"
+    },
+    {
+      "subject": "Northern Foods",
+      "object": "Leeds",
+      "subject_id": "Q7058350",
+      "object_id": "Q39121"
+    },
+    {
+      "subject": "Acid Jazz Records",
+      "object": "London",
+      "subject_id": "Q1002465",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "Czechoslovak Television",
+      "object": "Prague",
+      "subject_id": "Q340166",
+      "object_id": "Q1085"
+    },
+    {
+      "subject": "David McKay Publications",
+      "object": "Philadelphia",
+      "subject_id": "Q3018417",
+      "object_id": "Q1345"
+    },
+    {
+      "subject": "Brown, Shipley & Co.",
+      "object": "London",
+      "subject_id": "Q4975973",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "Asprey",
+      "object": "London",
+      "subject_id": "Q14516046",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "Glitch Mode Recordings",
+      "object": "Chicago",
+      "subject_id": "Q5569947",
+      "object_id": "Q1297"
+    },
+    {
+      "subject": "Hambros Bank",
+      "object": "London",
+      "subject_id": "Q3126360",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "TGV Cinemas",
+      "object": "Malaysia",
+      "subject_id": "Q7670188",
+      "object_id": "Q833"
+    },
+    {
+      "subject": "TV Magazine",
+      "object": "Paris",
+      "subject_id": "Q3512617",
+      "object_id": "Q90"
+    },
+    {
+      "subject": "Nintendo Software Planning & Development",
+      "object": "Kyoto",
+      "subject_id": "Q2054310",
+      "object_id": "Q34600"
+    },
+    {
+      "subject": "Nazi Party",
+      "object": "Munich",
+      "subject_id": "Q7320",
+      "object_id": "Q1726"
+    },
+    {
+      "subject": "Boston Market",
+      "object": "Golden",
+      "subject_id": "Q603617",
+      "object_id": "Q983543"
+    },
+    {
+      "subject": "Norwegian News Agency",
+      "object": "Oslo",
+      "subject_id": "Q1312586",
+      "object_id": "Q585"
+    },
+    {
+      "subject": "RioCan Real Estate Investment Trust",
+      "object": "Toronto",
+      "subject_id": "Q13529475",
+      "object_id": "Q172"
+    },
+    {
+      "subject": "Republic Airways Holdings",
+      "object": "Indianapolis",
+      "subject_id": "Q1536457",
+      "object_id": "Q6346"
+    },
+    {
+      "subject": "Scottish Handball Association",
+      "object": "Scotland",
+      "subject_id": "Q7437769",
+      "object_id": "Q22"
+    },
+    {
+      "subject": "Shelbourne F.C.",
+      "object": "Dublin",
+      "subject_id": "Q394474",
+      "object_id": "Q1761"
+    },
+    {
+      "subject": "Jewel-Osco",
+      "object": "Chicago",
+      "subject_id": "Q3178470",
+      "object_id": "Q1297"
+    },
+    {
+      "subject": "Double Helix Games",
+      "object": "Irvine",
+      "subject_id": "Q2665841",
+      "object_id": "Q49219"
+    },
+    {
+      "subject": "Nortel",
+      "object": "Toronto",
+      "subject_id": "Q464996",
+      "object_id": "Q172"
+    },
+    {
+      "subject": "Lokalbahn AG",
+      "object": "Munich",
+      "subject_id": "Q1868392",
+      "object_id": "Q1726"
+    },
+    {
+      "subject": "Gray Television",
+      "object": "Atlanta",
+      "subject_id": "Q5598232",
+      "object_id": "Q23556"
+    },
+    {
+      "subject": "Century 21 Real Estate",
+      "object": "Madison",
+      "subject_id": "Q1054480",
+      "object_id": "Q43788"
+    },
+    {
+      "subject": "Eros International",
+      "object": "Mumbai",
+      "subject_id": "Q5395348",
+      "object_id": "Q1156"
+    },
+    {
+      "subject": "McGill University",
+      "object": "Montreal",
+      "subject_id": "Q201492",
+      "object_id": "Q340"
+    },
+    {
+      "subject": "National City Corp.",
+      "object": "Cleveland",
+      "subject_id": "Q4045073",
+      "object_id": "Q37320"
+    },
+    {
+      "subject": "Alitalia-Linee Aeree Italiane",
+      "object": "Rome",
+      "subject_id": "Q1056100",
+      "object_id": "Q220"
+    },
+    {
+      "subject": "OneWest Bank",
+      "object": "Pasadena",
+      "subject_id": "Q153669",
+      "object_id": "Q485176"
+    },
+    {
+      "subject": "ACTIVE Network, LLC",
+      "object": "Dallas",
+      "subject_id": "Q18204835",
+      "object_id": "Q16557"
+    },
+    {
+      "subject": "Fantasy Studios",
+      "object": "Berkeley",
+      "subject_id": "Q5434334",
+      "object_id": "Q484678"
+    },
+    {
+      "subject": "Lion Air",
+      "object": "Jakarta",
+      "subject_id": "Q1056794",
+      "object_id": "Q3630"
+    },
+    {
+      "subject": "Deutsche Reichsbahn (GDR)",
+      "object": "Berlin",
+      "subject_id": "Q700563",
+      "object_id": "Q64"
+    },
+    {
+      "subject": "Prairie Mountain Publishing",
+      "object": "Boulder",
+      "subject_id": "Q7237936",
+      "object_id": "Q192517"
+    },
+    {
+      "subject": "State University of New York",
+      "object": "Albany",
+      "subject_id": "Q1140241",
+      "object_id": "Q24861"
+    },
+    {
+      "subject": "Norcem",
+      "object": "Oslo",
+      "subject_id": "Q11991697",
+      "object_id": "Q585"
+    },
+    {
+      "subject": "Umm Al-Qura University",
+      "object": "Mecca",
+      "subject_id": "Q3133606",
+      "object_id": "Q5806"
+    },
+    {
+      "subject": "CPP Investment Board",
+      "object": "Toronto",
+      "subject_id": "Q5013693",
+      "object_id": "Q172"
+    },
+    {
+      "subject": "Partick Thistle F.C.",
+      "object": "Glasgow",
+      "subject_id": "Q822722",
+      "object_id": "Q4093"
+    },
+    {
+      "subject": "Melodiya",
+      "object": "Moscow",
+      "subject_id": "Q1636655",
+      "object_id": "Q649"
+    },
+    {
+      "subject": "Crosley Broadcasting Corporation",
+      "object": "Cincinnati",
+      "subject_id": "Q5188071",
+      "object_id": "Q43196"
+    },
+    {
+      "subject": "Gerasimov Institute of Cinematography",
+      "object": "Moscow",
+      "subject_id": "Q1130457",
+      "object_id": "Q649"
+    },
+    {
+      "subject": "Palace Software",
+      "object": "London",
+      "subject_id": "Q2310496",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "PopLlama Records",
+      "object": "Seattle",
+      "subject_id": "Q7228960",
+      "object_id": "Q5083"
+    },
+    {
+      "subject": "Beykent University",
+      "object": "Istanbul",
+      "subject_id": "N/A",
+      "object_id": "Q406"
+    },
+    {
+      "subject": "BP",
+      "object": "London",
+      "subject_id": "Q152057",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "Red Star Line",
+      "object": "Philadelphia",
+      "subject_id": "Q282373",
+      "object_id": "Q1345"
+    },
+    {
+      "subject": "National Party of Australia",
+      "object": "Canberra",
+      "subject_id": "Q946040",
+      "object_id": "Q3114"
+    },
+    {
+      "subject": "FUN Technologies",
+      "object": "Toronto",
+      "subject_id": "Q5427283",
+      "object_id": "Q172"
+    },
+    {
+      "subject": "All India Anna Dravida Munnetra Kazhagam",
+      "object": "Chennai",
+      "subject_id": "Q651141",
+      "object_id": "Q1352"
+    },
+    {
+      "subject": "Rosbank",
+      "object": "Moscow",
+      "subject_id": "Q1119857",
+      "object_id": "Q649"
+    },
+    {
+      "subject": "Canada Life Financial",
+      "object": "Toronto",
+      "subject_id": "Q1031984",
+      "object_id": "Q172"
+    },
+    {
+      "subject": "Democratic Arab Socialist Union",
+      "object": "Paris",
+      "subject_id": "Q5255553",
+      "object_id": "Q90"
+    },
+    {
+      "subject": "Hellas Online",
+      "object": "Athens",
+      "subject_id": "Q2817279",
+      "object_id": "Q1524"
+    },
+    {
+      "subject": "UBM plc",
+      "object": "London",
+      "subject_id": "Q7863870",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "Coles Group",
+      "object": "Melbourne",
+      "subject_id": "Q1339055",
+      "object_id": "Q3141"
+    },
+    {
+      "subject": "Human Entertainment",
+      "object": "Japan",
+      "subject_id": "Q2408214",
+      "object_id": "Q17"
+    },
+    {
+      "subject": "ARM Holdings",
+      "object": "Cambridge",
+      "subject_id": "Q296782",
+      "object_id": "Q49111"
+    },
+    {
+      "subject": "Berenberg Bank",
+      "object": "Hamburg",
+      "subject_id": "Q670792",
+      "object_id": "Q1055"
+    },
+    {
+      "subject": "PGi",
+      "object": "Atlanta",
+      "subject_id": "N/A",
+      "object_id": "Q23556"
+    },
+    {
+      "subject": "East China Normal University",
+      "object": "Shanghai",
+      "subject_id": "Q2034790",
+      "object_id": "Q8686"
+    },
+    {
+      "subject": "Il Sole 24 Ore",
+      "object": "Milan",
+      "subject_id": "Q1658262",
+      "object_id": "Q490"
+    },
+    {
+      "subject": "Spendrups",
+      "object": "Sweden",
+      "subject_id": "Q3335289",
+      "object_id": "Q34"
+    },
+    {
+      "subject": "9 Story Media Group",
+      "object": "Toronto",
+      "subject_id": "Q4646438",
+      "object_id": "Q172"
+    },
+    {
+      "subject": "Osler, Hoskin & Harcourt",
+      "object": "Toronto",
+      "subject_id": "Q7106992",
+      "object_id": "Q172"
+    },
+    {
+      "subject": "Faygo",
+      "object": "Detroit",
+      "subject_id": "Q2580010",
+      "object_id": "Q12439"
+    },
+    {
+      "subject": "Tatts Group",
+      "object": "Queensland",
+      "subject_id": "Q7688473",
+      "object_id": "Q36074"
+    },
+    {
+      "subject": "Wimm-Bill-Dann Foods",
+      "object": "Moscow",
+      "subject_id": "Q1651553",
+      "object_id": "Q649"
+    },
+    {
+      "subject": "John B. Stetson Company",
+      "object": "Philadelphia",
+      "subject_id": "Q6220134",
+      "object_id": "Q1345"
+    },
+    {
+      "subject": "Telia Company",
+      "object": "Stockholm",
+      "subject_id": "Q100094013",
+      "object_id": "Q1754"
+    },
+    {
+      "subject": "Propellerhead Software",
+      "object": "Stockholm",
+      "subject_id": "N/A",
+      "object_id": "Q1754"
+    },
+    {
+      "subject": "FC Dynamo Kyiv",
+      "object": "Kiev",
+      "subject_id": "Q179075",
+      "object_id": "Q1899"
+    },
+    {
+      "subject": "Geo D. Whitcomb Company",
+      "object": "Chicago",
+      "subject_id": "Q1999438",
+      "object_id": "Q1297"
+    },
+    {
+      "subject": "Chivas Regal",
+      "object": "Aberdeen",
+      "subject_id": "Q1069502",
+      "object_id": "Q36405"
+    },
+    {
+      "subject": "Visy Industries",
+      "object": "Melbourne",
+      "subject_id": "Q7936675",
+      "object_id": "Q3141"
+    },
+    {
+      "subject": "Gianni Versace S.p.A.",
+      "object": "Milan",
+      "subject_id": "Q696376",
+      "object_id": "Q490"
+    },
+    {
+      "subject": "The Weather Channel",
+      "object": "Atlanta",
+      "subject_id": "Q2043935",
+      "object_id": "Q23556"
+    },
+    {
+      "subject": "TNK-BP",
+      "object": "Moscow",
+      "subject_id": "Q2298901",
+      "object_id": "Q649"
+    },
+    {
+      "subject": "Miran Pastourma",
+      "object": "Athens",
+      "subject_id": "Q6872766",
+      "object_id": "Q1524"
+    },
+    {
+      "subject": "True Value",
+      "object": "Chicago",
+      "subject_id": "Q7847545",
+      "object_id": "Q1297"
+    },
+    {
+      "subject": "Scottish Socialist Party",
+      "object": "Glasgow",
+      "subject_id": "Q891900",
+      "object_id": "Q4093"
+    },
+    {
+      "subject": "International Tea Co. Stores",
+      "object": "London",
+      "subject_id": "Q16987180",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "SunTrust Banks",
+      "object": "Atlanta",
+      "subject_id": "Q181507",
+      "object_id": "Q23556"
+    },
+    {
+      "subject": "Independent Newspapers",
+      "object": "Wellington",
+      "subject_id": "N/A",
+      "object_id": "Q23661"
+    },
+    {
+      "subject": "Danish Film Institute",
+      "object": "Copenhagen",
+      "subject_id": "Q1201043",
+      "object_id": "Q1748"
+    },
+    {
+      "subject": "International Trade Centre",
+      "object": "Geneva",
+      "subject_id": "Q1184878",
+      "object_id": "Q71"
+    },
+    {
+      "subject": "Grey Nuns",
+      "object": "Montreal",
+      "subject_id": "N/A",
+      "object_id": "Q340"
+    },
+    {
+      "subject": "Grattan plc",
+      "object": "Bradford",
+      "subject_id": "Q16993233",
+      "object_id": "Q22905"
+    },
+    {
+      "subject": "Alligator Records",
+      "object": "Chicago",
+      "subject_id": "Q2093233",
+      "object_id": "Q1297"
+    },
+    {
+      "subject": "Serono",
+      "object": "Geneva",
+      "subject_id": "Q669903",
+      "object_id": "Q71"
+    },
+    {
+      "subject": "Anadol",
+      "object": "Istanbul",
+      "subject_id": "Q4064709",
+      "object_id": "Q406"
+    },
+    {
+      "subject": "Vijaya Vauhini Studios",
+      "object": "Chennai",
+      "subject_id": "Q7929249",
+      "object_id": "Q1352"
+    },
+    {
+      "subject": "Norwegian Industrial Property Office",
+      "object": "Oslo",
+      "subject_id": "Q6514252",
+      "object_id": "Q585"
+    },
+    {
+      "subject": "Stronach Group",
+      "object": "Aurora",
+      "subject_id": "Q15788680",
+      "object_id": "Q1066178"
+    },
+    {
+      "subject": "United States Patent and Trademark Office",
+      "object": "Alexandria",
+      "subject_id": "Q1459541",
+      "object_id": "Q87"
+    },
+    {
+      "subject": "Uprok Records",
+      "object": "Seattle",
+      "subject_id": "Q7899222",
+      "object_id": "Q5083"
+    },
+    {
+      "subject": "Far East Organization",
+      "object": "Singapore",
+      "subject_id": "Q4676212",
+      "object_id": "Q334"
+    },
+    {
+      "subject": "Zillow",
+      "object": "Seattle",
+      "subject_id": "Q8071921",
+      "object_id": "Q5083"
+    },
+    {
+      "subject": "Institute of Chartered Secretaries and Administrators",
+      "object": "London",
+      "subject_id": "Q16994951",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "Popular Prakashan",
+      "object": "Mumbai",
+      "subject_id": "Q7229724",
+      "object_id": "Q1156"
+    },
+    {
+      "subject": "Annick Press",
+      "object": "Toronto",
+      "subject_id": "Q4769192",
+      "object_id": "Q172"
+    },
+    {
+      "subject": "Minerva Press",
+      "object": "London",
+      "subject_id": "Q18428142",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "Canada West Foundation",
+      "object": "Calgary",
+      "subject_id": "Q16955202",
+      "object_id": "Q36312"
+    },
+    {
+      "subject": "DFDS",
+      "object": "Copenhagen",
+      "subject_id": "Q1243964",
+      "object_id": "Q1748"
+    },
+    {
+      "subject": "HealthCap",
+      "object": "Stockholm",
+      "subject_id": "Q5690359",
+      "object_id": "Q1754"
+    },
+    {
+      "subject": "Keystone Bridge Company",
+      "object": "Pittsburgh",
+      "subject_id": "Q6398449",
+      "object_id": "Q1342"
+    },
+    {
+      "subject": "Associated British Foods",
+      "object": "London",
+      "subject_id": "Q117059",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "SKY Perfect Well Think",
+      "object": "Tokyo",
+      "subject_id": "Q3486431",
+      "object_id": "Q1490"
+    },
+    {
+      "subject": "Edda Media",
+      "object": "Oslo",
+      "subject_id": "Q1786254",
+      "object_id": "Q585"
+    },
+    {
+      "subject": "Iron Mountain Incorporated",
+      "object": "Boston",
+      "subject_id": "Q1673079",
+      "object_id": "Q100"
+    },
+    {
+      "subject": "Phaidon Press",
+      "object": "London",
+      "subject_id": "Q928675",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "CHUM Limited",
+      "object": "Toronto",
+      "subject_id": "Q2931475",
+      "object_id": "Q172"
+    },
+    {
+      "subject": "Iraqi Republic Railways",
+      "object": "Baghdad",
+      "subject_id": "Q907655",
+      "object_id": "Q1530"
+    },
+    {
+      "subject": "Track Record",
+      "object": "London",
+      "subject_id": "Q2142601",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "Atlantis FC",
+      "object": "Helsinki",
+      "subject_id": "Q756695",
+      "object_id": "Q1757"
+    },
+    {
+      "subject": "Polydor Records",
+      "object": "London",
+      "subject_id": "Q64626707",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "Lenovo",
+      "object": "Beijing",
+      "subject_id": "Q14799",
+      "object_id": "Q956"
+    },
+    {
+      "subject": "Zeneca",
+      "object": "London",
+      "subject_id": "Q8069048",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "EasyJet Switzerland",
+      "object": "Geneva",
+      "subject_id": "Q1050862",
+      "object_id": "Q71"
+    },
+    {
+      "subject": "LWRC International",
+      "object": "Cambridge",
+      "subject_id": "Q6460369",
+      "object_id": "Q49111"
+    },
+    {
+      "subject": "World Association of Girl Guides and Girl Scouts",
+      "object": "London",
+      "subject_id": "Q683524",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "Magen David Adom",
+      "object": "Israel",
+      "subject_id": "Q577902",
+      "object_id": "Q801"
+    },
+    {
+      "subject": "Ross Stores",
+      "object": "Dublin",
+      "subject_id": "Q3442791",
+      "object_id": "Q1761"
+    },
+    {
+      "subject": "Canadian Cancer Society",
+      "object": "Toronto",
+      "subject_id": "N/A",
+      "object_id": "Q172"
+    },
+    {
+      "subject": "Candover Investments",
+      "object": "London",
+      "subject_id": "Q5032031",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "Johnson Publishing Company",
+      "object": "Chicago",
+      "subject_id": "Q6268401",
+      "object_id": "Q1297"
+    },
+    {
+      "subject": "Royal Dramatic Theatre",
+      "object": "Stockholm",
+      "subject_id": "Q1140265",
+      "object_id": "Q1754"
+    },
+    {
+      "subject": "Big C",
+      "object": "Bangkok",
+      "subject_id": "Q858665",
+      "object_id": "Q1861"
+    },
+    {
+      "subject": "HAVELSAN",
+      "object": "Ankara",
+      "subject_id": "Q5628993",
+      "object_id": "Q3640"
+    },
+    {
+      "subject": "Sunoco",
+      "object": "Philadelphia",
+      "subject_id": "Q1423218",
+      "object_id": "Q1345"
+    },
+    {
+      "subject": "AIK Fotboll",
+      "object": "Stockholm",
+      "subject_id": "Q221602",
+      "object_id": "Q1754"
+    },
+    {
+      "subject": "Hang Seng Bank",
+      "object": "Central",
+      "subject_id": "Q1575470",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Rank Organisation",
+      "object": "London",
+      "subject_id": "Q1535788",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "Digital Chameleon",
+      "object": "Winnipeg",
+      "subject_id": "Q5275801",
+      "object_id": "Q2135"
+    },
+    {
+      "subject": "Healthways",
+      "object": "Franklin",
+      "subject_id": "Q5691372",
+      "object_id": "Q350001"
+    },
+    {
+      "subject": "Swedish Orphan Biovitrum",
+      "object": "Stockholm",
+      "subject_id": "Q7654795",
+      "object_id": "Q1754"
+    },
+    {
+      "subject": "Stelco",
+      "object": "Hamilton",
+      "subject_id": "Q1835079",
+      "object_id": "Q200028"
+    },
+    {
+      "subject": "Alinta Energy",
+      "object": "Sydney",
+      "subject_id": "Q4726783",
+      "object_id": "Q3130"
+    },
+    {
+      "subject": "Rudolph Wurlitzer Company",
+      "object": "Cincinnati",
+      "subject_id": "Q1078587",
+      "object_id": "Q43196"
+    },
+    {
+      "subject": "NTUC FairPrice",
+      "object": "Singapore",
+      "subject_id": "Q6955519",
+      "object_id": "Q334"
+    },
+    {
+      "subject": "Smurfit-Stone Container",
+      "object": "Chicago",
+      "subject_id": "Q763540",
+      "object_id": "Q1297"
+    },
+    {
+      "subject": "Supermarine",
+      "object": "Southampton",
+      "subject_id": "Q2061821",
+      "object_id": "Q79848"
+    },
+    {
+      "subject": "Vortex Comics",
+      "object": "Toronto",
+      "subject_id": "Q7941914",
+      "object_id": "Q172"
+    },
+    {
+      "subject": "Peroni Brewery",
+      "object": "Rome",
+      "subject_id": "Q865859",
+      "object_id": "Q220"
+    },
+    {
+      "subject": "BC Hydro",
+      "object": "Vancouver",
+      "subject_id": "Q795720",
+      "object_id": "Q24639"
+    },
+    {
+      "subject": "Sega Sports R&D",
+      "object": "Japan",
+      "subject_id": "Q24188",
+      "object_id": "Q17"
+    },
+    {
+      "subject": "Liberty Mutual",
+      "object": "Boston",
+      "subject_id": "N/A",
+      "object_id": "Q100"
+    },
+    {
+      "subject": "People's Democratic Party of Afghanistan",
+      "object": "Kabul",
+      "subject_id": "Q1186355",
+      "object_id": "Q5838"
+    },
+    {
+      "subject": "Cummins",
+      "object": "Columbus",
+      "subject_id": "Q16865944",
+      "object_id": "Q239870"
+    },
+    {
+      "subject": "Sherwin-Williams",
+      "object": "Cleveland",
+      "subject_id": "Q48881",
+      "object_id": "Q37320"
+    },
+    {
+      "subject": "MAMA & Company",
+      "object": "London",
+      "subject_id": "Q6714268",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "Overkill Software",
+      "object": "Stockholm",
+      "subject_id": "Q7113718",
+      "object_id": "Q1754"
+    },
+    {
+      "subject": "Sora Ltd.",
+      "object": "Tokyo",
+      "subject_id": "Q1317078",
+      "object_id": "Q1490"
+    },
+    {
+      "subject": "Irish Citizen Army",
+      "object": "Dublin",
+      "subject_id": "Q1190570",
+      "object_id": "Q1761"
+    },
+    {
+      "subject": "Heilmann & Littmann",
+      "object": "Munich",
+      "subject_id": "Q1595419",
+      "object_id": "Q1726"
+    },
+    {
+      "subject": "Sukhoi",
+      "object": "Moscow",
+      "subject_id": "Q193007",
+      "object_id": "Q649"
+    },
+    {
+      "subject": "John Thompson Productions",
+      "object": "Berlin",
+      "subject_id": "N/A",
+      "object_id": "Q64"
+    },
+    {
+      "subject": "Acne Studios",
+      "object": "Stockholm",
+      "subject_id": "Q3277165",
+      "object_id": "Q1754"
+    },
+    {
+      "subject": "Smith & Nephew",
+      "object": "London",
+      "subject_id": "Q502509",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "WWE",
+      "object": "Stamford",
+      "subject_id": "Q35339",
+      "object_id": "Q49169"
+    },
+    {
+      "subject": "Taft Broadcasting",
+      "object": "Cincinnati",
+      "subject_id": "Q7675027",
+      "object_id": "Q43196"
+    },
+    {
+      "subject": "Brooks Sports",
+      "object": "Seattle",
+      "subject_id": "Q670764",
+      "object_id": "Q5083"
+    },
+    {
+      "subject": "Partners HealthCare",
+      "object": "Boston",
+      "subject_id": "N/A",
+      "object_id": "Q100"
+    },
+    {
+      "subject": "Russian Post",
+      "object": "Moscow",
+      "subject_id": "Q1502763",
+      "object_id": "Q649"
+    },
+    {
+      "subject": "Royal Numismatic Society",
+      "object": "London",
+      "subject_id": "Q3942072",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "Polish Socialist Party",
+      "object": "Warsaw",
+      "subject_id": "Q210431",
+      "object_id": "Q270"
+    },
+    {
+      "subject": "CreativeLive",
+      "object": "Seattle",
+      "subject_id": "Q16952600",
+      "object_id": "Q5083"
+    },
+    {
+      "subject": "Cognos",
+      "object": "Ottawa",
+      "subject_id": "Q1107048",
+      "object_id": "Q1930"
+    },
+    {
+      "subject": "University of New Mexico",
+      "object": "Albuquerque",
+      "subject_id": "Q1190812",
+      "object_id": "Q34804"
+    },
+    {
+      "subject": "Jimdo",
+      "object": "Hamburg",
+      "subject_id": "Q2735411",
+      "object_id": "Q1055"
+    },
+    {
+      "subject": "IF Brommapojkarna",
+      "object": "Stockholm",
+      "subject_id": "Q754339",
+      "object_id": "Q1754"
+    },
+    {
+      "subject": "Chinese Academy of Sciences",
+      "object": "Beijing",
+      "subject_id": "Q530471",
+      "object_id": "Q956"
+    },
+    {
+      "subject": "Boulton Paul Aircraft",
+      "object": "Norwich",
+      "subject_id": "Q823360",
+      "object_id": "Q130191"
+    },
+    {
+      "subject": "Eos Press",
+      "object": "Seattle",
+      "subject_id": "Q16249839",
+      "object_id": "Q5083"
+    },
+    {
+      "subject": "Euromoney Institutional Investor",
+      "object": "London",
+      "subject_id": "N/A",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "Emily Carr University of Art and Design",
+      "object": "Vancouver",
+      "subject_id": "Q1337587",
+      "object_id": "Q24639"
+    },
+    {
+      "subject": "Reaktion Books",
+      "object": "London",
+      "subject_id": "Q7300763",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "Iranian reform movement",
+      "object": "Tehran",
+      "subject_id": "Q73509",
+      "object_id": "Q3616"
+    },
+    {
+      "subject": "Disneyland Resort",
+      "object": "Anaheim",
+      "subject_id": "Q1229066",
+      "object_id": "Q49247"
+    },
+    {
+      "subject": "Remstar",
+      "object": "Montreal",
+      "subject_id": "N/A",
+      "object_id": "Q340"
+    },
+    {
+      "subject": "Telespazio",
+      "object": "Rome",
+      "subject_id": "Q662824",
+      "object_id": "Q220"
+    },
+    {
+      "subject": "Graduate Institute of International and Development Studies",
+      "object": "Geneva",
+      "subject_id": "Q691686",
+      "object_id": "Q71"
+    },
+    {
+      "subject": "Cineflix",
+      "object": "Montreal",
+      "subject_id": "Q596060",
+      "object_id": "Q340"
+    },
+    {
+      "subject": "Henry Boot PLC",
+      "object": "Sheffield",
+      "subject_id": "Q5718375",
+      "object_id": "Q42448"
+    },
+    {
+      "subject": "Dickins & Jones",
+      "object": "London",
+      "subject_id": "Q5273711",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "ATA Airlines",
+      "object": "Indianapolis",
+      "subject_id": "Q298738",
+      "object_id": "Q6346"
+    },
+    {
+      "subject": "Schwan Food Company",
+      "object": "Marshall",
+      "subject_id": "Q1618830",
+      "object_id": "Q709"
+    },
+    {
+      "subject": "North British Locomotive Company",
+      "object": "Glasgow",
+      "subject_id": "Q751494",
+      "object_id": "Q4093"
+    },
+    {
+      "subject": "Historic New England",
+      "object": "Boston",
+      "subject_id": "Q12730014",
+      "object_id": "Q100"
+    },
+    {
+      "subject": "Christiania Bank",
+      "object": "Oslo",
+      "subject_id": "Q3355154",
+      "object_id": "Q585"
+    },
+    {
+      "subject": "Guinness World Records",
+      "object": "London",
+      "subject_id": "Q41675",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "Polistil",
+      "object": "Milan",
+      "subject_id": "Q3182693",
+      "object_id": "Q490"
+    },
+    {
+      "subject": "Assyrian Church of the East",
+      "object": "Chicago",
+      "subject_id": "Q203179",
+      "object_id": "Q1297"
+    },
+    {
+      "subject": "Tesch & Stabenow",
+      "object": "Hamburg",
+      "subject_id": "Q880703",
+      "object_id": "Q1055"
+    },
+    {
+      "subject": "Weta Digital",
+      "object": "Wellington",
+      "subject_id": "Q842482",
+      "object_id": "Q23661"
+    },
+    {
+      "subject": "Gerrit Rietveld Academie",
+      "object": "Amsterdam",
+      "subject_id": "Q1514799",
+      "object_id": "Q727"
+    },
+    {
+      "subject": "Green Party of England and Wales",
+      "object": "London",
+      "subject_id": "Q9669",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "Coffee Time",
+      "object": "Toronto",
+      "subject_id": "Q5140932",
+      "object_id": "Q172"
+    },
+    {
+      "subject": "Ladenburg Thalmann",
+      "object": "Miami",
+      "subject_id": "Q6469381",
+      "object_id": "Q8652"
+    },
+    {
+      "subject": "Delage",
+      "object": "Paris",
+      "subject_id": "Q27550",
+      "object_id": "Q90"
+    },
+    {
+      "subject": "Karolinska Institute",
+      "object": "Stockholm",
+      "subject_id": "Q30263131",
+      "object_id": "Q1754"
+    },
+    {
+      "subject": "Trussed Concrete Steel Company",
+      "object": "Detroit",
+      "subject_id": "Q17513524",
+      "object_id": "Q12439"
+    },
+    {
+      "subject": "TEAC Corporation",
+      "object": "Tokyo",
+      "subject_id": "Q1549408",
+      "object_id": "Q1490"
+    },
+    {
+      "subject": "North Carolina Central University",
+      "object": "Durham",
+      "subject_id": "Q1518804",
+      "object_id": "Q179815"
+    },
+    {
+      "subject": "Skinner & Eddy",
+      "object": "Seattle",
+      "subject_id": "Q7442086",
+      "object_id": "Q5083"
+    },
+    {
+      "subject": "ITC Entertainment",
+      "object": "London",
+      "subject_id": "Q3149951",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "Sandvine",
+      "object": "Waterloo",
+      "subject_id": "Q7417027",
+      "object_id": "Q639408"
+    },
+    {
+      "subject": "Micro Instrumentation and Telemetry Systems",
+      "object": "Albuquerque",
+      "subject_id": "Q1029222",
+      "object_id": "Q34804"
+    },
+    {
+      "subject": "Infogrames Entertainment",
+      "object": "Lyon",
+      "subject_id": "Q1782700",
+      "object_id": "Q456"
+    },
+    {
+      "subject": "World Class Championship Wrestling",
+      "object": "Dallas",
+      "subject_id": "Q1817448",
+      "object_id": "Q16557"
+    },
+    {
+      "subject": "Optomen",
+      "object": "London",
+      "subject_id": "Q7099056",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "GIC Private Limited",
+      "object": "Singapore",
+      "subject_id": "Q539627",
+      "object_id": "Q334"
+    },
+    {
+      "subject": "Centers for Disease Control and Prevention",
+      "object": "Atlanta",
+      "subject_id": "Q583725",
+      "object_id": "Q23556"
+    },
+    {
+      "subject": "American Eagle Outfitters",
+      "object": "Pittsburgh",
+      "subject_id": "Q2842931",
+      "object_id": "Q1342"
+    },
+    {
+      "subject": "Urban Outfitters",
+      "object": "Philadelphia",
+      "subject_id": "Q3552193",
+      "object_id": "Q1345"
+    },
+    {
+      "subject": "United Airlines",
+      "object": "Chicago",
+      "subject_id": "Q174769",
+      "object_id": "Q1297"
+    },
+    {
+      "subject": "Bank Polska Kasa Opieki",
+      "object": "Warsaw",
+      "subject_id": "Q806642",
+      "object_id": "Q270"
+    },
+    {
+      "subject": "Cogeco",
+      "object": "Montreal",
+      "subject_id": "Q7887664",
+      "object_id": "Q340"
+    },
+    {
+      "subject": "Germanwings",
+      "object": "Cologne",
+      "subject_id": "Q155038",
+      "object_id": "Q365"
+    },
+    {
+      "subject": "Autodesk Media and Entertainment",
+      "object": "Montreal",
+      "subject_id": "Q4826245",
+      "object_id": "Q340"
+    },
+    {
+      "subject": "Dynegy",
+      "object": "Houston",
+      "subject_id": "Q1269170",
+      "object_id": "Q16555"
+    },
+    {
+      "subject": "Rogers TV",
+      "object": "Ottawa",
+      "subject_id": "Q374767",
+      "object_id": "Q1930"
+    },
+    {
+      "subject": "Clover Studio",
+      "object": "Japan",
+      "subject_id": "Q1102774",
+      "object_id": "Q17"
+    },
+    {
+      "subject": "Crossroads Christian Communications",
+      "object": "Burlington",
+      "subject_id": "Q5188824",
+      "object_id": "Q939025"
+    },
+    {
+      "subject": "Ahlstrom-Munksjö",
+      "object": "Helsinki",
+      "subject_id": "Q400563",
+      "object_id": "Q1757"
+    },
+    {
+      "subject": "WaterAid",
+      "object": "London",
+      "subject_id": "Q830594",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "Nordic Museum",
+      "object": "Stockholm",
+      "subject_id": "Q1142142",
+      "object_id": "Q1754"
+    },
+    {
+      "subject": "Mimar Sinan Fine Arts University",
+      "object": "Istanbul",
+      "subject_id": "Q1936057",
+      "object_id": "Q406"
+    },
+    {
+      "subject": "King Chulalongkorn Memorial Hospital",
+      "object": "Bangkok",
+      "subject_id": "Q1588587",
+      "object_id": "Q1861"
+    },
+    {
+      "subject": "Union for the Mediterranean",
+      "object": "Barcelona",
+      "subject_id": "Q192177",
+      "object_id": "Q1492"
+    },
+    {
+      "subject": "Ayn Rand Institute",
+      "object": "Irvine",
+      "subject_id": "Q793157",
+      "object_id": "Q49219"
+    },
+    {
+      "subject": "Smyths",
+      "object": "Ireland",
+      "subject_id": "Q7546779",
+      "object_id": "Q27"
+    },
+    {
+      "subject": "BayernLB",
+      "object": "Munich",
+      "subject_id": "Q152106",
+      "object_id": "Q1726"
+    },
+    {
+      "subject": "Sun Life Financial",
+      "object": "Toronto",
+      "subject_id": "Q835456",
+      "object_id": "Q172"
+    },
+    {
+      "subject": "J. G. Brill Company",
+      "object": "Philadelphia",
+      "subject_id": "Q1676325",
+      "object_id": "Q1345"
+    },
+    {
+      "subject": "Seibu Kaihatsu",
+      "object": "Japan",
+      "subject_id": "Q2288948",
+      "object_id": "Q17"
+    },
+    {
+      "subject": "Turkish Radio and Television Corporation",
+      "object": "Ankara",
+      "subject_id": "Q83389",
+      "object_id": "Q3640"
+    },
+    {
+      "subject": "Jisc",
+      "object": "Bristol",
+      "subject_id": "Q6269240",
+      "object_id": "Q23154"
+    },
+    {
+      "subject": "Lyndon B. Johnson Space Center",
+      "object": "Houston",
+      "subject_id": "Q208371",
+      "object_id": "Q16555"
+    },
+    {
+      "subject": "STX Europe",
+      "object": "Oslo",
+      "subject_id": "Q30285247",
+      "object_id": "Q585"
+    },
+    {
+      "subject": "Aigle Azur",
+      "object": "Paris",
+      "subject_id": "Q212703",
+      "object_id": "Q90"
+    },
+    {
+      "subject": "Politics Can Be Different",
+      "object": "Budapest",
+      "subject_id": "Q54801",
+      "object_id": "Q1781"
+    },
+    {
+      "subject": "Case Western Reserve University",
+      "object": "Cleveland",
+      "subject_id": "Q1047060",
+      "object_id": "Q37320"
+    },
+    {
+      "subject": "Comintern",
+      "object": "Moscow",
+      "subject_id": "Q163931",
+      "object_id": "Q649"
+    },
+    {
+      "subject": "Crossley Motors",
+      "object": "Manchester",
+      "subject_id": "Q2602885",
+      "object_id": "Q18125"
+    },
+    {
+      "subject": "Austereo Radio Network",
+      "object": "Melbourne",
+      "subject_id": "Q4822905",
+      "object_id": "Q3141"
+    },
+    {
+      "subject": "Service Electric",
+      "object": "Bethlehem",
+      "subject_id": "Q7455684",
+      "object_id": "Q5776"
+    },
+    {
+      "subject": "Euro1080",
+      "object": "Belgium",
+      "subject_id": "Q639553",
+      "object_id": "Q31"
+    },
+    {
+      "subject": "Campari Group",
+      "object": "Milan",
+      "subject_id": "Q753685",
+      "object_id": "Q490"
+    },
+    {
+      "subject": "Harvard Medical School",
+      "object": "Boston",
+      "subject_id": "Q49121",
+      "object_id": "Q100"
+    },
+    {
+      "subject": "Obsidian Entertainment",
+      "object": "Irvine",
+      "subject_id": "Q629821",
+      "object_id": "Q49219"
+    },
+    {
+      "subject": "University of Western Australia",
+      "object": "Perth",
+      "subject_id": "Q1517021",
+      "object_id": "Q203000"
+    },
+    {
+      "subject": "Sysco",
+      "object": "Houston",
+      "subject_id": "Q2376711",
+      "object_id": "Q16555"
+    },
+    {
+      "subject": "Common Purpose UK",
+      "object": "London",
+      "subject_id": "Q5153458",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "German Football Association",
+      "object": "Frankfurt",
+      "subject_id": "Q154191",
+      "object_id": "Q4024"
+    },
+    {
+      "subject": "P2P Foundation",
+      "object": "Amsterdam",
+      "subject_id": "Q7117860",
+      "object_id": "Q727"
+    },
+    {
+      "subject": "American Wrestling Association",
+      "object": "Minneapolis",
+      "subject_id": "Q467330",
+      "object_id": "Q36091"
+    },
+    {
+      "subject": "SK Group",
+      "object": "Seoul",
+      "subject_id": "Q10213576",
+      "object_id": "Q8684"
+    },
+    {
+      "subject": "National Development and Reform Commission",
+      "object": "Beijing",
+      "subject_id": "Q1186190",
+      "object_id": "Q956"
+    },
+    {
+      "subject": "Interislander",
+      "object": "Wellington",
+      "subject_id": "Q1666118",
+      "object_id": "Q23661"
+    },
+    {
+      "subject": "Cray Wanderers F.C.",
+      "object": "London",
+      "subject_id": "Q3696729",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "Sega Wow",
+      "object": "Japan",
+      "subject_id": "Q339565",
+      "object_id": "Q17"
+    },
+    {
+      "subject": "AZLK",
+      "object": "Moscow",
+      "subject_id": "Q1473229",
+      "object_id": "Q649"
+    },
+    {
+      "subject": "Free Association Books",
+      "object": "London",
+      "subject_id": "Q5499747",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "HSH Nordbank",
+      "object": "Hamburg",
+      "subject_id": "Q464676",
+      "object_id": "Q1055"
+    },
+    {
+      "subject": "Midvale Steel",
+      "object": "Philadelphia",
+      "subject_id": "Q6843132",
+      "object_id": "Q1345"
+    },
+    {
+      "subject": "James Purdey & Sons",
+      "object": "London",
+      "subject_id": "Q877460",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "Hooters",
+      "object": "Atlanta",
+      "subject_id": "Q1257490",
+      "object_id": "Q23556"
+    },
+    {
+      "subject": "Musicland Studios",
+      "object": "Munich",
+      "subject_id": "Q551323",
+      "object_id": "Q1726"
+    },
+    {
+      "subject": "Club Med",
+      "object": "Paris",
+      "subject_id": "Q1076645",
+      "object_id": "Q90"
+    },
+    {
+      "subject": "Intransitive Recordings",
+      "object": "Cambridge",
+      "subject_id": "Q16997232",
+      "object_id": "Q49111"
+    },
+    {
+      "subject": "Orion Publishing Group",
+      "object": "London",
+      "subject_id": "Q861799",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "Northern Championship Wrestling",
+      "object": "Montreal",
+      "subject_id": "Q3344206",
+      "object_id": "Q340"
+    },
+    {
+      "subject": "Cirque du Soleil",
+      "object": "Montreal",
+      "subject_id": "Q504715",
+      "object_id": "Q340"
+    },
+    {
+      "subject": "E-CO Energi",
+      "object": "Oslo",
+      "subject_id": "Q5321386",
+      "object_id": "Q585"
+    },
+    {
+      "subject": "United Nations Economic Commission for Latin America and the Caribbean",
+      "object": "Santiago",
+      "subject_id": "Q32874",
+      "object_id": "Q2887"
+    },
+    {
+      "subject": "Golden Spike Company",
+      "object": "Colorado",
+      "subject_id": "Q5579800",
+      "object_id": "Q1261"
+    },
+    {
+      "subject": "Global Humanitarian Forum",
+      "object": "Geneva",
+      "subject_id": "Q16840240",
+      "object_id": "Q71"
+    },
+    {
+      "subject": "Krauss-Maffei",
+      "object": "Munich",
+      "subject_id": "Q819150",
+      "object_id": "Q1726"
+    },
+    {
+      "subject": "Carlton Communications",
+      "object": "London",
+      "subject_id": "Q5042977",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "Scotiabank",
+      "object": "Toronto",
+      "subject_id": "Q451476",
+      "object_id": "Q172"
+    },
+    {
+      "subject": "Holt Renfrew",
+      "object": "Toronto",
+      "subject_id": "Q3139527",
+      "object_id": "Q172"
+    },
+    {
+      "subject": "Hinkley Locomotive Works",
+      "object": "Boston",
+      "subject_id": "Q5767266",
+      "object_id": "Q100"
+    },
+    {
+      "subject": "Jacobs Engineering Group",
+      "object": "Pasadena",
+      "subject_id": "Q3157622",
+      "object_id": "Q485176"
+    },
+    {
+      "subject": "Mitre Corporation",
+      "object": "Bedford",
+      "subject_id": "Q627039",
+      "object_id": "Q1762823"
+    },
+    {
+      "subject": "University of Strathclyde",
+      "object": "Glasgow",
+      "subject_id": "Q1859178",
+      "object_id": "Q4093"
+    },
+    {
+      "subject": "American Bar Association",
+      "object": "Chicago",
+      "subject_id": "Q463465",
+      "object_id": "Q1297"
+    },
+    {
+      "subject": "Christian Salvesen",
+      "object": "Edinburgh",
+      "subject_id": "Q4566389",
+      "object_id": "Q23436"
+    },
+    {
+      "subject": "SNK European Democrats",
+      "object": "Prague",
+      "subject_id": "Q2165477",
+      "object_id": "Q1085"
+    },
+    {
+      "subject": "BlueSky Software",
+      "object": "California",
+      "subject_id": "Q1136254",
+      "object_id": "Q99"
+    },
+    {
+      "subject": "Euronext",
+      "object": "Amsterdam",
+      "subject_id": "Q1418",
+      "object_id": "Q727"
+    },
+    {
+      "subject": "Christian Democrats",
+      "object": "Stockholm",
+      "subject_id": "Q1138982",
+      "object_id": "Q1754"
+    },
+    {
+      "subject": "Takara",
+      "object": "Tokyo",
+      "subject_id": "Q3028965",
+      "object_id": "Q1490"
+    },
+    {
+      "subject": "Castlemaine Perkins",
+      "object": "Brisbane",
+      "subject_id": "Q5050537",
+      "object_id": "Q34932"
+    },
+    {
+      "subject": "Ace Hardware",
+      "object": "Chicago",
+      "subject_id": "Q96099931",
+      "object_id": "Q1297"
+    },
+    {
+      "subject": "Mercure de France",
+      "object": "Paris",
+      "subject_id": "Q186225",
+      "object_id": "Q90"
+    },
+    {
+      "subject": "International Socialist Tendency",
+      "object": "London",
+      "subject_id": "Q1196823",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "FIBA Africa",
+      "object": "Cairo",
+      "subject_id": "Q1347403",
+      "object_id": "Q85"
+    },
+    {
+      "subject": "Rushes Postproduction",
+      "object": "London",
+      "subject_id": "Q7380811",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "Aer Arann",
+      "object": "Dublin",
+      "subject_id": "Q381078",
+      "object_id": "Q1761"
+    },
+    {
+      "subject": "Middle East Forum",
+      "object": "Philadelphia",
+      "subject_id": "Q1931863",
+      "object_id": "Q1345"
+    },
+    {
+      "subject": "Sunbeam Television",
+      "object": "Miami",
+      "subject_id": "Q7638908",
+      "object_id": "Q8652"
+    },
+    {
+      "subject": "NI Railways",
+      "object": "Belfast",
+      "subject_id": "Q1937120",
+      "object_id": "Q10686"
+    },
+    {
+      "subject": "Grameen Bank",
+      "object": "Bangladesh",
+      "subject_id": "Q188567",
+      "object_id": "Q902"
+    },
+    {
+      "subject": "Nasdaq AB",
+      "object": "Stockholm",
+      "subject_id": "Q1132158",
+      "object_id": "Q1754"
+    },
+    {
+      "subject": "Lotte Hotels & Resorts",
+      "object": "Seoul",
+      "subject_id": "Q326720",
+      "object_id": "Q8684"
+    },
+    {
+      "subject": "Venoco",
+      "object": "Denver",
+      "subject_id": "Q7920159",
+      "object_id": "Q16554"
+    },
+    {
+      "subject": "CTV Television Network",
+      "object": "Toronto",
+      "subject_id": "Q767221",
+      "object_id": "Q172"
+    },
+    {
+      "subject": "Sharp, Stewart and Company",
+      "object": "Glasgow",
+      "subject_id": "Q476988",
+      "object_id": "Q4093"
+    },
+    {
+      "subject": "Green Ronin Publishing",
+      "object": "Seattle",
+      "subject_id": "Q5603155",
+      "object_id": "Q5083"
+    },
+    {
+      "subject": "Pennzoil",
+      "object": "Houston",
+      "subject_id": "Q2562491",
+      "object_id": "Q16555"
+    },
+    {
+      "subject": "Ewing family",
+      "object": "Dallas",
+      "subject_id": "Q1138580",
+      "object_id": "Q16557"
+    },
+    {
+      "subject": "Scott Free Productions",
+      "object": "London",
+      "subject_id": "Q3476213",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "Starwood Capital Group",
+      "object": "Greenwich",
+      "subject_id": "Q3497260",
+      "object_id": "Q693450"
+    },
+    {
+      "subject": "Miller Brewing Company",
+      "object": "Milwaukee",
+      "subject_id": "Q658637",
+      "object_id": "Q37836"
+    },
+    {
+      "subject": "DB Netz",
+      "object": "Frankfurt",
+      "subject_id": "Q1152043",
+      "object_id": "Q4024"
+    },
+    {
+      "subject": "Talbot",
+      "object": "Paris",
+      "subject_id": "Q13590682",
+      "object_id": "Q90"
+    },
+    {
+      "subject": "DCD Media",
+      "object": "London",
+      "subject_id": "Q5204488",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "Gamigo AG",
+      "object": "Hamburg",
+      "subject_id": "Q2698092",
+      "object_id": "Q1055"
+    },
+    {
+      "subject": "Destineer",
+      "object": "Minnesota",
+      "subject_id": "Q15070316",
+      "object_id": "Q1527"
+    },
+    {
+      "subject": "Communist Party of Indonesia",
+      "object": "Jakarta",
+      "subject_id": "Q157744",
+      "object_id": "Q3630"
+    },
+    {
+      "subject": "Syrian Arab Army",
+      "object": "Damascus",
+      "subject_id": "Q3068744",
+      "object_id": "Q3766"
+    },
+    {
+      "subject": "Wood Gundy",
+      "object": "Toronto",
+      "subject_id": "Q8032214",
+      "object_id": "Q172"
+    },
+    {
+      "subject": "Combatant Clergy Association",
+      "object": "Tehran",
+      "subject_id": "Q1817687",
+      "object_id": "Q3616"
+    },
+    {
+      "subject": "Fairfax Media",
+      "object": "Sydney",
+      "subject_id": "Q1393218",
+      "object_id": "Q3130"
+    },
+    {
+      "subject": "Fore River Shipyard",
+      "object": "Quincy",
+      "subject_id": "Q1323171",
+      "object_id": "Q49143"
+    },
+    {
+      "subject": "Schwartz Publishing",
+      "object": "Melbourne",
+      "subject_id": "Q7433164",
+      "object_id": "Q3141"
+    },
+    {
+      "subject": "Nahdlatul Ulama",
+      "object": "Jakarta",
+      "subject_id": "Q686441",
+      "object_id": "Q3630"
+    },
+    {
+      "subject": "Tundra Books",
+      "object": "Toronto",
+      "subject_id": "Q7852896",
+      "object_id": "Q172"
+    },
+    {
+      "subject": "Vosper & Company",
+      "object": "Portsmouth",
+      "subject_id": "Q7942030",
+      "object_id": "Q72259"
+    },
+    {
+      "subject": "Partisan Records",
+      "object": "Brooklyn",
+      "subject_id": "Q7140619",
+      "object_id": "Q18419"
+    },
+    {
+      "subject": "Halliburton",
+      "object": "Houston",
+      "subject_id": "Q656165",
+      "object_id": "Q16555"
+    },
+    {
+      "subject": "Fuji Kyuko",
+      "object": "Japan",
+      "subject_id": "Q842879",
+      "object_id": "Q17"
+    },
+    {
+      "subject": "Ocean Pacific",
+      "object": "Irvine",
+      "subject_id": "Q7076031",
+      "object_id": "Q49219"
+    },
+    {
+      "subject": "Pars Khodro",
+      "object": "Tehran",
+      "subject_id": "Q1315638",
+      "object_id": "Q3616"
+    },
+    {
+      "subject": "École des hautes études commerciales du nord",
+      "object": "Paris",
+      "subject_id": "Q769040",
+      "object_id": "Q90"
+    },
+    {
+      "subject": "Caproni",
+      "object": "Milan",
+      "subject_id": "Q2264354",
+      "object_id": "Q490"
+    },
+    {
+      "subject": "Lavalin",
+      "object": "Montreal",
+      "subject_id": "Q115676902",
+      "object_id": "Q340"
+    },
+    {
+      "subject": "Gillig Corporation",
+      "object": "Hayward",
+      "subject_id": "Q1524597",
+      "object_id": "Q491114"
+    },
+    {
+      "subject": "ESPN Plus",
+      "object": "Charlotte",
+      "subject_id": "Q613623",
+      "object_id": "Q16565"
+    },
+    {
+      "subject": "Norwegian Public Roads Administration",
+      "object": "Oslo",
+      "subject_id": "Q1468793",
+      "object_id": "Q585"
+    },
+    {
+      "subject": "Stephenson Blake",
+      "object": "Sheffield",
+      "subject_id": "Q2152637",
+      "object_id": "Q42448"
+    },
+    {
+      "subject": "Italian Social Movement",
+      "object": "Rome",
+      "subject_id": "Q1126102",
+      "object_id": "Q220"
+    },
+    {
+      "subject": "Six Shooter Records",
+      "object": "Toronto",
+      "subject_id": "Q7532877",
+      "object_id": "Q172"
+    },
+    {
+      "subject": "Sunrise Party",
+      "object": "Tokyo",
+      "subject_id": "Q17240149",
+      "object_id": "Q1490"
+    },
+    {
+      "subject": "University of South Florida",
+      "object": "Tampa",
+      "subject_id": "Q500606",
+      "object_id": "Q49255"
+    },
+    {
+      "subject": "Popular National Union",
+      "object": "Warsaw",
+      "subject_id": "Q94430",
+      "object_id": "Q270"
+    },
+    {
+      "subject": "Lippo Group",
+      "object": "Jakarta",
+      "subject_id": "Q4207988",
+      "object_id": "Q3630"
+    },
+    {
+      "subject": "Aviation Industry Corporation of China",
+      "object": "Beijing",
+      "subject_id": "Q2667719",
+      "object_id": "Q956"
+    },
+    {
+      "subject": "Bell TV",
+      "object": "Montreal",
+      "subject_id": "Q2894596",
+      "object_id": "Q340"
+    },
+    {
+      "subject": "Allen & Overy",
+      "object": "London",
+      "subject_id": "Q121622148",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "Bianet",
+      "object": "Istanbul",
+      "subject_id": "Q4902531",
+      "object_id": "Q406"
+    },
+    {
+      "subject": "Transwede Airways",
+      "object": "Stockholm",
+      "subject_id": "Q848881",
+      "object_id": "Q1754"
+    },
+    {
+      "subject": "Da Capo Press",
+      "object": "Boston",
+      "subject_id": "Q5207215",
+      "object_id": "Q100"
+    },
+    {
+      "subject": "French Academy of Sciences",
+      "object": "Paris",
+      "subject_id": "Q188771",
+      "object_id": "Q90"
+    },
+    {
+      "subject": "Spencer Stuart",
+      "object": "Chicago",
+      "subject_id": "Q7576188",
+      "object_id": "Q1297"
+    },
+    {
+      "subject": "China Poly Group Corporation",
+      "object": "Beijing",
+      "subject_id": "Q5099859",
+      "object_id": "Q956"
+    },
+    {
+      "subject": "Real Academia de Bellas Artes de San Fernando",
+      "object": "Madrid",
+      "subject_id": "Q1322403",
+      "object_id": "Q2807"
+    },
+    {
+      "subject": "Omni Hotels & Resorts",
+      "object": "Dallas",
+      "subject_id": "Q7090329",
+      "object_id": "Q16557"
+    },
+    {
+      "subject": "Eurocreme",
+      "object": "London",
+      "subject_id": "Q1374901",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "TransGaming Inc.",
+      "object": "Toronto",
+      "subject_id": "Q7833615",
+      "object_id": "Q172"
+    },
+    {
+      "subject": "Crazy Eddie",
+      "object": "Brooklyn",
+      "subject_id": "Q5183141",
+      "object_id": "Q18419"
+    },
+    {
+      "subject": "Alberta Liberal Party",
+      "object": "Edmonton",
+      "subject_id": "Q939248",
+      "object_id": "Q2096"
+    },
+    {
+      "subject": "American Licorice Company",
+      "object": "Bend",
+      "subject_id": "Q4744363",
+      "object_id": "Q671288"
+    },
+    {
+      "subject": "Telfort",
+      "object": "Netherlands",
+      "subject_id": "Q36967707",
+      "object_id": "Q55"
+    },
+    {
+      "subject": "J.M. Meulenhoff",
+      "object": "Amsterdam",
+      "subject_id": "Q1470320",
+      "object_id": "Q727"
+    },
+    {
+      "subject": "Dominican Order",
+      "object": "Rome",
+      "subject_id": "Q131479",
+      "object_id": "Q220"
+    },
+    {
+      "subject": "ChemAxon",
+      "object": "Budapest",
+      "subject_id": "Q5090292",
+      "object_id": "Q1781"
+    },
+    {
+      "subject": "Muse Entertainment",
+      "object": "Montreal",
+      "subject_id": "Q112156071",
+      "object_id": "Q340"
+    },
+    {
+      "subject": "European Aviation Safety Agency",
+      "object": "Cologne",
+      "subject_id": "Q276255",
+      "object_id": "Q365"
+    },
+    {
+      "subject": "OMERS",
+      "object": "Toronto",
+      "subject_id": "Q61862539",
+      "object_id": "Q172"
+    },
+    {
+      "subject": "Pontifical Catholic University of Chile",
+      "object": "Santiago",
+      "subject_id": "Q1129925",
+      "object_id": "Q2887"
+    },
+    {
+      "subject": "Qimonda",
+      "object": "Munich",
+      "subject_id": "Q682533",
+      "object_id": "Q1726"
+    },
+    {
+      "subject": "Bayerischer Rundfunk",
+      "object": "Munich",
+      "subject_id": "Q278637",
+      "object_id": "Q1726"
+    },
+    {
+      "subject": "Layar",
+      "object": "Amsterdam",
+      "subject_id": "Q1989205",
+      "object_id": "Q727"
+    },
+    {
+      "subject": "Viper Comics",
+      "object": "Dallas",
+      "subject_id": "Q7933451",
+      "object_id": "Q16557"
+    },
+    {
+      "subject": "Pepe Jeans",
+      "object": "London",
+      "subject_id": "Q426992",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "CenturyLink",
+      "object": "Monroe",
+      "subject_id": "Q5063092",
+      "object_id": "Q1019160"
+    },
+    {
+      "subject": "Citilink",
+      "object": "Jakarta",
+      "subject_id": "Q112006153",
+      "object_id": "Q3630"
+    },
+    {
+      "subject": "FIDE",
+      "object": "Athens",
+      "subject_id": "Q11256",
+      "object_id": "Q1524"
+    },
+    {
+      "subject": "Cassella",
+      "object": "Frankfurt",
+      "subject_id": "Q321312",
+      "object_id": "Q4024"
+    },
+    {
+      "subject": "Nintendo",
+      "object": "Kyoto",
+      "subject_id": "Q8093",
+      "object_id": "Q34600"
+    },
+    {
+      "subject": "AstraZeneca",
+      "object": "London",
+      "subject_id": "Q731938",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "Czech National Bank",
+      "object": "Prague",
+      "subject_id": "Q251062",
+      "object_id": "Q1085"
+    },
+    {
+      "subject": "Land Securities",
+      "object": "London",
+      "subject_id": "Q506160",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "IndusInd Bank",
+      "object": "Mumbai",
+      "subject_id": "Q2040323",
+      "object_id": "Q1156"
+    },
+    {
+      "subject": "Kewpee",
+      "object": "Lima",
+      "subject_id": "Q6397963",
+      "object_id": "Q2868"
+    },
+    {
+      "subject": "Matson, Inc.",
+      "object": "Hawaii",
+      "subject_id": "Q6787989",
+      "object_id": "Q782"
+    },
+    {
+      "subject": "Tube Investments of India Limited",
+      "object": "Chennai",
+      "subject_id": "Q7670473",
+      "object_id": "Q1352"
+    },
+    {
+      "subject": "Bristol Aerospace",
+      "object": "Winnipeg",
+      "subject_id": "Q917859",
+      "object_id": "Q2135"
+    },
+    {
+      "subject": "South Side Elevated Railroad",
+      "object": "Chicago",
+      "subject_id": "Q3492278",
+      "object_id": "Q1297"
+    },
+    {
+      "subject": "FTSE Group",
+      "object": "London",
+      "subject_id": "Q1355823",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "CEDADE",
+      "object": "Barcelona",
+      "subject_id": "Q1023309",
+      "object_id": "Q1492"
+    },
+    {
+      "subject": "Smirnoff",
+      "object": "Moscow",
+      "subject_id": "Q777721",
+      "object_id": "Q649"
+    },
+    {
+      "subject": "Renault Trucks",
+      "object": "Lyon",
+      "subject_id": "Q3425100",
+      "object_id": "Q456"
+    },
+    {
+      "subject": "Videocon",
+      "object": "Mumbai",
+      "subject_id": "Q7928014",
+      "object_id": "Q1156"
+    },
+    {
+      "subject": "Nippon Cultural Broadcasting",
+      "object": "Tokyo",
+      "subject_id": "Q917203",
+      "object_id": "Q1490"
+    },
+    {
+      "subject": "Pakistan Steel Mills",
+      "object": "Karachi",
+      "subject_id": "Q16821433",
+      "object_id": "Q8660"
+    },
+    {
+      "subject": "Politiken",
+      "object": "Copenhagen",
+      "subject_id": "Q373133",
+      "object_id": "Q1748"
+    },
+    {
+      "subject": "Getlink",
+      "object": "Paris",
+      "subject_id": "Q2274634",
+      "object_id": "Q90"
+    },
+    {
+      "subject": "Boldklubben Frem",
+      "object": "Copenhagen",
+      "subject_id": "Q780735",
+      "object_id": "Q1748"
+    },
+    {
+      "subject": "Army of the Guardians of the Islamic Revolution",
+      "object": "Tehran",
+      "subject_id": "Q271110",
+      "object_id": "Q3616"
+    },
+    {
+      "subject": "Packard",
+      "object": "Detroit",
+      "subject_id": "Q19836286",
+      "object_id": "Q12439"
+    },
+    {
+      "subject": "Chello Multicanal",
+      "object": "Madrid",
+      "subject_id": "Q9295735",
+      "object_id": "Q2807"
+    },
+    {
+      "subject": "Atletico Roma F.C.",
+      "object": "Rome",
+      "subject_id": "Q433529",
+      "object_id": "Q220"
+    },
+    {
+      "subject": "Soviet Air Defence Forces",
+      "object": "Moscow",
+      "subject_id": "Q631009",
+      "object_id": "Q649"
+    },
+    {
+      "subject": "Northlands",
+      "object": "Edmonton",
+      "subject_id": "Q7059549",
+      "object_id": "Q2096"
+    },
+    {
+      "subject": "MacMillan Bloedel",
+      "object": "Vancouver",
+      "subject_id": "Q6722042",
+      "object_id": "Q24639"
+    },
+    {
+      "subject": "Minerva",
+      "object": "London",
+      "subject_id": "Q1177472",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "Millennium & Copthorne Hotels",
+      "object": "London",
+      "subject_id": "Q6858774",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "Vision Research Phantom",
+      "object": "Wayne",
+      "subject_id": "Q15691089",
+      "object_id": "Q1423817"
+    },
+    {
+      "subject": "Burnham and Root",
+      "object": "Chicago",
+      "subject_id": "Q4999763",
+      "object_id": "Q1297"
+    },
+    {
+      "subject": "Astronomische Gesellschaft",
+      "object": "Hamburg",
+      "subject_id": "Q292365",
+      "object_id": "Q1055"
+    },
+    {
+      "subject": "Lakeshore Technical College",
+      "object": "Cleveland",
+      "subject_id": "Q12061082",
+      "object_id": "Q37320"
+    },
+    {
+      "subject": "Henry Ford Health System",
+      "object": "Detroit",
+      "subject_id": "Q5721418",
+      "object_id": "Q12439"
+    },
+    {
+      "subject": "Brentford F.C.",
+      "object": "London",
+      "subject_id": "Q19571",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "Matrix Software",
+      "object": "Tokyo",
+      "subject_id": "Q2985996",
+      "object_id": "Q1490"
+    },
+    {
+      "subject": "Morr Music",
+      "object": "Berlin",
+      "subject_id": "Q474113",
+      "object_id": "Q64"
+    },
+    {
+      "subject": "X5 Music Group",
+      "object": "Stockholm",
+      "subject_id": "Q14907316",
+      "object_id": "Q1754"
+    },
+    {
+      "subject": "Motosacoche",
+      "object": "Geneva",
+      "subject_id": "Q447853",
+      "object_id": "Q71"
+    },
+    {
+      "subject": "FFA Private Bank",
+      "object": "Beirut",
+      "subject_id": "Q5425415",
+      "object_id": "Q3820"
+    },
+    {
+      "subject": "Jan De Nul",
+      "object": "Luxembourg",
+      "subject_id": "Q1682405",
+      "object_id": "Q32"
+    },
+    {
+      "subject": "Black Sparrow Books",
+      "object": "Boston",
+      "subject_id": "Q2905471",
+      "object_id": "Q100"
+    },
+    {
+      "subject": "Piramal Enterprises Ltd",
+      "object": "Mumbai",
+      "subject_id": "Q7197697",
+      "object_id": "Q1156"
+    },
+    {
+      "subject": "Power Jets",
+      "object": "Rugby",
+      "subject_id": "Q2454299",
+      "object_id": "Q5849"
+    },
+    {
+      "subject": "Miracle Mart",
+      "object": "Montreal",
+      "subject_id": "Q6872412",
+      "object_id": "Q340"
+    },
+    {
+      "subject": "Kita-Osaka Kyuko Railway",
+      "object": "Japan",
+      "subject_id": "Q2323022",
+      "object_id": "Q17"
+    },
+    {
+      "subject": "United Nations High Commissioner for Human Rights",
+      "object": "Geneva",
+      "subject_id": "Q20727983",
+      "object_id": "Q71"
+    },
+    {
+      "subject": "IONIS Education Group",
+      "object": "Paris",
+      "subject_id": "Q392110",
+      "object_id": "Q90"
+    },
+    {
+      "subject": "Ganger Rolf ASA",
+      "object": "Oslo",
+      "subject_id": "Q5521109",
+      "object_id": "Q585"
+    },
+    {
+      "subject": "Kering",
+      "object": "Paris",
+      "subject_id": "Q931207",
+      "object_id": "Q90"
+    },
+    {
+      "subject": "Bergverlag Rother",
+      "object": "Munich",
+      "subject_id": "Q820391",
+      "object_id": "Q1726"
+    },
+    {
+      "subject": "Sun Shipbuilding & Drydock Co.",
+      "object": "Philadelphia",
+      "subject_id": "Q2365833",
+      "object_id": "Q1345"
+    },
+    {
+      "subject": "Pitchfork",
+      "object": "Chicago",
+      "subject_id": "Q721140",
+      "object_id": "Q1297"
+    },
+    {
+      "subject": "Rolex",
+      "object": "Geneva",
+      "subject_id": "Q62288",
+      "object_id": "Q71"
+    },
+    {
+      "subject": "La Caixa",
+      "object": "Barcelona",
+      "subject_id": "Q287753",
+      "object_id": "Q1492"
+    },
+    {
+      "subject": "Ontario Hydro",
+      "object": "Toronto",
+      "subject_id": "Q910426",
+      "object_id": "Q172"
+    },
+    {
+      "subject": "Vertigo Films",
+      "object": "London",
+      "subject_id": "Q4010298",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "game companies named Stern",
+      "object": "Chicago",
+      "subject_id": "N/A",
+      "object_id": "Q1297"
+    },
+    {
+      "subject": "Progressive Conservative Association of Alberta",
+      "object": "Edmonton",
+      "subject_id": "Q1518057",
+      "object_id": "Q2096"
+    },
+    {
+      "subject": "Virtue Party",
+      "object": "Ankara",
+      "subject_id": "Q1399162",
+      "object_id": "Q3640"
+    },
+    {
+      "subject": "IMRB International",
+      "object": "Mumbai",
+      "subject_id": "Q5972089",
+      "object_id": "Q1156"
+    },
+    {
+      "subject": "EMI",
+      "object": "London",
+      "subject_id": "Q183412",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "Lebedev Physical Institute",
+      "object": "Moscow",
+      "subject_id": "Q1810862",
+      "object_id": "Q649"
+    },
+    {
+      "subject": "Tonkam",
+      "object": "France",
+      "subject_id": "Q3278187",
+      "object_id": "Q142"
+    },
+    {
+      "subject": "Wagram Music",
+      "object": "Paris",
+      "subject_id": "Q3565108",
+      "object_id": "Q90"
+    },
+    {
+      "subject": "BMC Software",
+      "object": "Houston",
+      "subject_id": "Q796309",
+      "object_id": "Q16555"
+    },
+    {
+      "subject": "SBS Transit",
+      "object": "Singapore",
+      "subject_id": "Q2661305",
+      "object_id": "Q334"
+    },
+    {
+      "subject": "Kroger",
+      "object": "Cincinnati",
+      "subject_id": "Q153417",
+      "object_id": "Q43196"
+    },
+    {
+      "subject": "Brown Company",
+      "object": "Berlin",
+      "subject_id": "Q16954138",
+      "object_id": "Q64"
+    },
+    {
+      "subject": "Carnival Films",
+      "object": "London",
+      "subject_id": "Q2939795",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "Canadian Jewish Congress",
+      "object": "Ottawa",
+      "subject_id": "Q1032173",
+      "object_id": "Q1930"
+    },
+    {
+      "subject": "Frederick & Nelson",
+      "object": "Seattle",
+      "subject_id": "Q5497205",
+      "object_id": "Q5083"
+    },
+    {
+      "subject": "L&L Hawaiian Barbecue",
+      "object": "Honolulu",
+      "subject_id": "Q6455441",
+      "object_id": "Q18094"
+    },
+    {
+      "subject": "Black Mark Productions",
+      "object": "Stockholm",
+      "subject_id": "Q880388",
+      "object_id": "Q1754"
+    },
+    {
+      "subject": "Rundell and Bridge",
+      "object": "London",
+      "subject_id": "Q7379767",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "Oratory of Saint Philip Neri",
+      "object": "Rome",
+      "subject_id": "Q247132",
+      "object_id": "Q220"
+    },
+    {
+      "subject": "Second Bank of the United States",
+      "object": "Philadelphia",
+      "subject_id": "Q2263849",
+      "object_id": "Q1345"
+    },
+    {
+      "subject": "Wayne State University Press",
+      "object": "Detroit",
+      "subject_id": "Q7976644",
+      "object_id": "Q12439"
+    },
+    {
+      "subject": "Royal Mail Steam Packet Company",
+      "object": "London",
+      "subject_id": "Q20072157",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "World Championship Wrestling",
+      "object": "Atlanta",
+      "subject_id": "Q130171",
+      "object_id": "Q23556"
+    },
+    {
+      "subject": "Metroplex",
+      "object": "Detroit",
+      "subject_id": "Q1925796",
+      "object_id": "Q12439"
+    },
+    {
+      "subject": "Royal Australian Air Force",
+      "object": "Canberra",
+      "subject_id": "Q823635",
+      "object_id": "Q3114"
+    },
+    {
+      "subject": "MillerCoors",
+      "object": "Chicago",
+      "subject_id": "Q6859054",
+      "object_id": "Q1297"
+    },
+    {
+      "subject": "HHCL",
+      "object": "London",
+      "subject_id": "Q5921728",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "Modern Love Records",
+      "object": "Manchester",
+      "subject_id": "Q3317871",
+      "object_id": "Q18125"
+    },
+    {
+      "subject": "GTCR",
+      "object": "Chicago",
+      "subject_id": "Q5514670",
+      "object_id": "Q1297"
+    },
+    {
+      "subject": "Susquehanna Radio Corporation",
+      "object": "York",
+      "subject_id": "Q7649312",
+      "object_id": "Q42462"
+    },
+    {
+      "subject": "Velocette",
+      "object": "Birmingham",
+      "subject_id": "Q1150857",
+      "object_id": "Q2256"
+    },
+    {
+      "subject": "State Street Corporation",
+      "object": "Boston",
+      "subject_id": "Q2037125",
+      "object_id": "Q100"
+    },
+    {
+      "subject": "National Provincial Bank",
+      "object": "London",
+      "subject_id": "Q3336928",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "Northland Communications",
+      "object": "Seattle",
+      "subject_id": "Q7059513",
+      "object_id": "Q5083"
+    },
+    {
+      "subject": "Caudill Rowlett Scott",
+      "object": "Houston",
+      "subject_id": "Q5054396",
+      "object_id": "Q16555"
+    },
+    {
+      "subject": "Institution of Structural Engineers",
+      "object": "London",
+      "subject_id": "Q1113225",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "Tata Teleservices",
+      "object": "Mumbai",
+      "subject_id": "Q2151534",
+      "object_id": "Q1156"
+    },
+    {
+      "subject": "Electrolux",
+      "object": "Stockholm",
+      "subject_id": "Q58218446",
+      "object_id": "Q1754"
+    },
+    {
+      "subject": "United States Soccer Federation",
+      "object": "Chicago",
+      "subject_id": "Q222131",
+      "object_id": "Q1297"
+    },
+    {
+      "subject": "Smith & Wesson",
+      "object": "Springfield",
+      "subject_id": "Q463090",
+      "object_id": "Q28515"
+    },
+    {
+      "subject": "Egyptian Exchange",
+      "object": "Cairo",
+      "subject_id": "Q2509254",
+      "object_id": "Q85"
+    },
+    {
+      "subject": "TMF Nederland",
+      "object": "Amsterdam",
+      "subject_id": "Q2382500",
+      "object_id": "Q727"
+    },
+    {
+      "subject": "Fudan University",
+      "object": "Shanghai",
+      "subject_id": "Q495015",
+      "object_id": "Q8686"
+    },
+    {
+      "subject": "Environics",
+      "object": "Toronto",
+      "subject_id": "Q30254494",
+      "object_id": "Q172"
+    },
+    {
+      "subject": "Taito Corporation",
+      "object": "Tokyo",
+      "subject_id": "Q1054844",
+      "object_id": "Q1490"
+    },
+    {
+      "subject": "DQE",
+      "object": "Pittsburgh",
+      "subject_id": "Q5205985",
+      "object_id": "Q1342"
+    },
+    {
+      "subject": "Freud Communications",
+      "object": "London",
+      "subject_id": "Q5503246",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "Banque Misr",
+      "object": "Cairo",
+      "subject_id": "Q2060638",
+      "object_id": "Q85"
+    },
+    {
+      "subject": "GMR Group",
+      "object": "Bangalore",
+      "subject_id": "Q5513791",
+      "object_id": "Q1355"
+    },
+    {
+      "subject": "Tata Consultancy Services",
+      "object": "Mumbai",
+      "subject_id": "Q13227919",
+      "object_id": "Q1156"
+    },
+    {
+      "subject": "International Tennis Federation",
+      "object": "London",
+      "subject_id": "Q223041",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "Square Enix Europe",
+      "object": "London",
+      "subject_id": "Q1692707",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "Republic Pictures",
+      "object": "Hollywood",
+      "subject_id": "Q774682",
+      "object_id": "Q234453"
+    },
+    {
+      "subject": "Fraser Institute",
+      "object": "Vancouver",
+      "subject_id": "Q1451353",
+      "object_id": "Q24639"
+    },
+    {
+      "subject": "c2c",
+      "object": "London",
+      "subject_id": "Q286262",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "Baja Fresh",
+      "object": "Irvine",
+      "subject_id": "Q114547100",
+      "object_id": "Q49219"
+    },
+    {
+      "subject": "Colefax Group",
+      "object": "London",
+      "subject_id": "Q16949856",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "Jane Goodall Institute",
+      "object": "Vienna",
+      "subject_id": "Q958460",
+      "object_id": "Q577544"
+    },
+    {
+      "subject": "Cinevistaas Limited",
+      "object": "Mumbai",
+      "subject_id": "Q5120900",
+      "object_id": "Q1156"
+    },
+    {
+      "subject": "Sportskeeda",
+      "object": "Bangalore",
+      "subject_id": "Q17082888",
+      "object_id": "Q1355"
+    },
+    {
+      "subject": "Short Brothers",
+      "object": "Belfast",
+      "subject_id": "Q113466027",
+      "object_id": "Q10686"
+    },
+    {
+      "subject": "Narrative Science",
+      "object": "Chicago",
+      "subject_id": "Q17183195",
+      "object_id": "Q1297"
+    },
+    {
+      "subject": "David Suzuki Foundation",
+      "object": "Vancouver",
+      "subject_id": "Q1176784",
+      "object_id": "Q24639"
+    },
+    {
+      "subject": "Fat Cat Records",
+      "object": "Brighton",
+      "subject_id": "Q2589723",
+      "object_id": "Q131491"
+    },
+    {
+      "subject": "Dargaud",
+      "object": "Paris",
+      "subject_id": "Q3016068",
+      "object_id": "Q90"
+    },
+    {
+      "subject": "Warp Films",
+      "object": "Sheffield",
+      "subject_id": "Q7969872",
+      "object_id": "Q42448"
+    },
+    {
+      "subject": "Russian State Archive of Literature and Art",
+      "object": "Moscow",
+      "subject_id": "Q2860429",
+      "object_id": "Q649"
+    },
+    {
+      "subject": "Commerzbank",
+      "object": "Frankfurt",
+      "subject_id": "Q157617",
+      "object_id": "Q4024"
+    },
+    {
+      "subject": "Bauer Type Foundry",
+      "object": "Frankfurt",
+      "subject_id": "Q287627",
+      "object_id": "Q4024"
+    },
+    {
+      "subject": "Zulily",
+      "object": "Seattle",
+      "subject_id": "Q16968488",
+      "object_id": "Q5083"
+    },
+    {
+      "subject": "Robert Allan Ltd.",
+      "object": "Vancouver",
+      "subject_id": "Q7341451",
+      "object_id": "Q24639"
+    },
+    {
+      "subject": "Phoenix Group",
+      "object": "London",
+      "subject_id": "Q7186887",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "United Continental Holdings",
+      "object": "Chicago",
+      "subject_id": "Q871700",
+      "object_id": "Q1297"
+    },
+    {
+      "subject": "WeMade Entertainment",
+      "object": "Seoul",
+      "subject_id": "Q488510",
+      "object_id": "Q8684"
+    },
+    {
+      "subject": "B. Hick and Sons",
+      "object": "Bolton",
+      "subject_id": "Q4834017",
+      "object_id": "Q21396357"
+    },
+    {
+      "subject": "Cable & Wireless Communications",
+      "object": "London",
+      "subject_id": "Q5015620",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "Eurasian Natural Resources Corporation",
+      "object": "London",
+      "subject_id": "Q1374297",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "ISG Business School",
+      "object": "Paris",
+      "subject_id": "Q1659456",
+      "object_id": "Q90"
+    },
+    {
+      "subject": "Minnesota Strikers",
+      "object": "Minneapolis",
+      "subject_id": "Q13858732",
+      "object_id": "Q36091"
+    },
+    {
+      "subject": "Hitachi Consulting",
+      "object": "Dallas",
+      "subject_id": "Q1621108",
+      "object_id": "Q16557"
+    },
+    {
+      "subject": "Graphisoft SE",
+      "object": "Budapest",
+      "subject_id": "Q743588",
+      "object_id": "Q1781"
+    },
+    {
+      "subject": "Alberta Government Telephones",
+      "object": "Edmonton",
+      "subject_id": "Q4711641",
+      "object_id": "Q2096"
+    },
+    {
+      "subject": "Bisexual Resource Center",
+      "object": "Boston",
+      "subject_id": "Q4917301",
+      "object_id": "Q100"
+    },
+    {
+      "subject": "Sabrang Communications",
+      "object": "Mumbai",
+      "subject_id": "Q7396333",
+      "object_id": "Q1156"
+    },
+    {
+      "subject": "Playdead",
+      "object": "Copenhagen",
+      "subject_id": "Q3137798",
+      "object_id": "Q1748"
+    },
+    {
+      "subject": "Allied Command Transformation",
+      "object": "Norfolk",
+      "subject_id": "Q2001035",
+      "object_id": "Q959951"
+    },
+    {
+      "subject": "Staver",
+      "object": "Chicago",
+      "subject_id": "Q30131720",
+      "object_id": "Q1297"
+    },
+    {
+      "subject": "PACE Sports Management",
+      "object": "London",
+      "subject_id": "N/A",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "Ensco plc",
+      "object": "London",
+      "subject_id": "Q5379929",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "LaSalle Bank",
+      "object": "Chicago",
+      "subject_id": "Q1973445",
+      "object_id": "Q1297"
+    },
+    {
+      "subject": "DNB ASA",
+      "object": "Oslo",
+      "subject_id": "Q80788",
+      "object_id": "Q585"
+    },
+    {
+      "subject": "SoundCloud",
+      "object": "Berlin",
+      "subject_id": "Q568769",
+      "object_id": "Q64"
+    },
+    {
+      "subject": "UAL Corporation",
+      "object": "Chicago",
+      "subject_id": "Q871700",
+      "object_id": "Q1297"
+    },
+    {
+      "subject": "Library House",
+      "object": "Cambridge",
+      "subject_id": "Q6542506",
+      "object_id": "Q49111"
+    },
+    {
+      "subject": "Richer Sounds",
+      "object": "London",
+      "subject_id": "Q7330409",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "Hamilton Bradshaw",
+      "object": "London",
+      "subject_id": "Q5644856",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "Wien-Film",
+      "object": "Vienna",
+      "subject_id": "Q2568777",
+      "object_id": "Q577544"
+    },
+    {
+      "subject": "Aviastroitel",
+      "object": "Moscow",
+      "subject_id": "Q4055811",
+      "object_id": "Q649"
+    },
+    {
+      "subject": "Marilyn Agency",
+      "object": "Paris",
+      "subject_id": "Q3847969",
+      "object_id": "Q90"
+    },
+    {
+      "subject": "Beacon Press",
+      "object": "Boston",
+      "subject_id": "Q4875979",
+      "object_id": "Q100"
+    },
+    {
+      "subject": "Uranium One",
+      "object": "Toronto",
+      "subject_id": "Q2208825",
+      "object_id": "Q172"
+    },
+    {
+      "subject": "New Zealand Labour Party",
+      "object": "Wellington",
+      "subject_id": "Q1048192",
+      "object_id": "Q23661"
+    },
+    {
+      "subject": "Starz Inc.",
+      "object": "Meridian",
+      "subject_id": "Q977627",
+      "object_id": "Q973084"
+    },
+    {
+      "subject": "Mac Guff",
+      "object": "Paris",
+      "subject_id": "Q3273914",
+      "object_id": "Q90"
+    },
+    {
+      "subject": "Republican Left of Catalonia",
+      "object": "Barcelona",
+      "subject_id": "Q150068",
+      "object_id": "Q1492"
+    },
+    {
+      "subject": "Slip-n-Slide Records",
+      "object": "Miami",
+      "subject_id": "Q1081874",
+      "object_id": "Q8652"
+    },
+    {
+      "subject": "DataWind",
+      "object": "Montreal",
+      "subject_id": "Q5227135",
+      "object_id": "Q340"
+    },
+    {
+      "subject": "Wadia Group",
+      "object": "Mumbai",
+      "subject_id": "Q7959272",
+      "object_id": "Q1156"
+    },
+    {
+      "subject": "Telehouse Europe",
+      "object": "London",
+      "subject_id": "Q3517302",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "Wiener AC",
+      "object": "Vienna",
+      "subject_id": "Q581990",
+      "object_id": "Q577544"
+    },
+    {
+      "subject": "Canadian National Railway",
+      "object": "Montreal",
+      "subject_id": "Q624798",
+      "object_id": "Q340"
+    },
+    {
+      "subject": "Indian Space Research Organisation",
+      "object": "Bangalore",
+      "subject_id": "Q229058",
+      "object_id": "Q1355"
+    },
+    {
+      "subject": "Roger Dubuis",
+      "object": "Geneva",
+      "subject_id": "Q670160",
+      "object_id": "Q71"
+    },
+    {
+      "subject": "Seiyu Group",
+      "object": "Tokyo",
+      "subject_id": "Q850978",
+      "object_id": "Q1490"
+    },
+    {
+      "subject": "Transarc",
+      "object": "Pittsburgh",
+      "subject_id": "Q7833767",
+      "object_id": "Q1342"
+    },
+    {
+      "subject": "United Aircraft Corporation",
+      "object": "Moscow",
+      "subject_id": "Q1136226",
+      "object_id": "Q649"
+    },
+    {
+      "subject": "Arcadia Group",
+      "object": "London",
+      "subject_id": "Q4785140",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "Astaldi",
+      "object": "Rome",
+      "subject_id": "Q2271469",
+      "object_id": "Q220"
+    },
+    {
+      "subject": "The Royal Conservatory of Music",
+      "object": "Toronto",
+      "subject_id": "Q2979657",
+      "object_id": "Q172"
+    },
+    {
+      "subject": "FontShop International",
+      "object": "Berlin",
+      "subject_id": "Q1389575",
+      "object_id": "Q64"
+    },
+    {
+      "subject": "Cadillac",
+      "object": "Detroit",
+      "subject_id": "Q1025149",
+      "object_id": "Q12439"
+    },
+    {
+      "subject": "Keshavarz F.C.",
+      "object": "Tehran",
+      "subject_id": "Q6395001",
+      "object_id": "Q3616"
+    },
+    {
+      "subject": "Polson Iron Works Limited",
+      "object": "Toronto",
+      "subject_id": "Q7226025",
+      "object_id": "Q172"
+    },
+    {
+      "subject": "Adeline Software International",
+      "object": "Lyon",
+      "subject_id": "Q939808",
+      "object_id": "Q456"
+    },
+    {
+      "subject": "Dresdner SC",
+      "object": "Dresden",
+      "subject_id": "Q300355",
+      "object_id": "Q1731"
+    },
+    {
+      "subject": "Gyldendal",
+      "object": "Copenhagen",
+      "subject_id": "Q2188",
+      "object_id": "Q1748"
+    },
+    {
+      "subject": "Packt Publishing Ltd.",
+      "object": "Birmingham",
+      "subject_id": "Q623806",
+      "object_id": "Q2256"
+    },
+    {
+      "subject": "Tamarrod Movement",
+      "object": "Egypt",
+      "subject_id": "Q13406387",
+      "object_id": "Q79"
+    },
+    {
+      "subject": "Merisant",
+      "object": "Chicago",
+      "subject_id": "Q6819501",
+      "object_id": "Q1297"
+    },
+    {
+      "subject": "College Football News",
+      "object": "Chicago",
+      "subject_id": "Q5146381",
+      "object_id": "Q1297"
+    },
+    {
+      "subject": "Interpol",
+      "object": "Lyon",
+      "subject_id": "Q331790",
+      "object_id": "Q456"
+    },
+    {
+      "subject": "Source Cable",
+      "object": "Hamilton",
+      "subject_id": "Q7565119",
+      "object_id": "Q200028"
+    },
+    {
+      "subject": "International Airlines Group",
+      "object": "London",
+      "subject_id": "Q8774",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "Nymphenburg Porcelain Manufactory",
+      "object": "Munich",
+      "subject_id": "Q268878",
+      "object_id": "Q1726"
+    },
+    {
+      "subject": "Klipfolio Dashboard",
+      "object": "Ottawa",
+      "subject_id": "Q6421108",
+      "object_id": "Q1930"
+    },
+    {
+      "subject": "Boulton & Paul",
+      "object": "Norwich",
+      "subject_id": "Q15074506",
+      "object_id": "Q130191"
+    },
+    {
+      "subject": "Mitsubishi Corporation",
+      "object": "Tokyo",
+      "subject_id": "Q650745",
+      "object_id": "Q1490"
+    },
+    {
+      "subject": "Mumtaz Group",
+      "object": "Bradford",
+      "subject_id": "Q16931591",
+      "object_id": "Q22905"
+    },
+    {
+      "subject": "Mayo Clinic",
+      "object": "Rochester",
+      "subject_id": "Q1130172",
+      "object_id": "Q486479"
+    },
+    {
+      "subject": "Csepel SC",
+      "object": "Budapest",
+      "subject_id": "Q871743",
+      "object_id": "Q1781"
+    },
+    {
+      "subject": "Bloc populaire",
+      "object": "Montreal",
+      "subject_id": "Q2906769",
+      "object_id": "Q340"
+    },
+    {
+      "subject": "Socimi",
+      "object": "Italy",
+      "subject_id": "Q3459850",
+      "object_id": "Q38"
+    },
+    {
+      "subject": "Hibernian L.F.C.",
+      "object": "Edinburgh",
+      "subject_id": "Q3135153",
+      "object_id": "Q23436"
+    },
+    {
+      "subject": "Harlan and Hollingsworth",
+      "object": "Wilmington",
+      "subject_id": "Q5658399",
+      "object_id": "Q659400"
+    },
+    {
+      "subject": "TSAR Publications",
+      "object": "Toronto",
+      "subject_id": "Q7671555",
+      "object_id": "Q172"
+    },
+    {
+      "subject": "Centralwings",
+      "object": "Warsaw",
+      "subject_id": "Q1054124",
+      "object_id": "Q270"
+    },
+    {
+      "subject": "Alberta University of the Arts",
+      "object": "Calgary",
+      "subject_id": "Q4063387",
+      "object_id": "Q36312"
+    },
+    {
+      "subject": "Epitome Pictures",
+      "object": "Toronto",
+      "subject_id": "Q5383736",
+      "object_id": "Q172"
+    },
+    {
+      "subject": "Germanischer Lloyd SE",
+      "object": "Hamburg",
+      "subject_id": "Q452720",
+      "object_id": "Q1055"
+    },
+    {
+      "subject": "Swordfish Studios",
+      "object": "Birmingham",
+      "subject_id": "Q3506713",
+      "object_id": "Q2256"
+    },
+    {
+      "subject": "Kids Can Press",
+      "object": "Toronto",
+      "subject_id": "Q6404913",
+      "object_id": "Q172"
+    }
+  ]
+}

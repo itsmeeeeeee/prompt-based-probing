@@ -1,0 +1,280 @@
+{
+    "name": "adjective comparative_2shot_perm1",
+    "prompt_templates": [
+        "कुशल का तुलनात्मक रूप है और कुशल.\nमज़ेदार का तुलनात्मक रूप है और मज़ेदार.\n{} का तुलनात्मक रूप है"
+    ],
+    "samples": [
+        {
+            "subject": "बड़ा",
+            "object": "और बड़ा"
+        },
+        {
+            "subject": "छोटा",
+            "object": "और छोटा"
+        },
+        {
+            "subject": "लंबा",
+            "object": "और लंबा"
+        },
+        {
+            "subject": "छोटा",
+            "object": "और छोटा"
+        },
+        {
+            "subject": "लंबा",
+            "object": "और लंबा"
+        },
+        {
+            "subject": "तेज़",
+            "object": "और तेज़"
+        },
+        {
+            "subject": "धीमा",
+            "object": "और धीमा"
+        },
+        {
+            "subject": "मज़बूत",
+            "object": "और मज़बूत"
+        },
+        {
+            "subject": "कमज़ोर",
+            "object": "और कमज़ोर"
+        },
+        {
+            "subject": "भारी",
+            "object": "और भारी"
+        },
+        {
+            "subject": "हल्का",
+            "object": "और हल्का"
+        },
+        {
+            "subject": "पुराना",
+            "object": "और पुराना"
+        },
+        {
+            "subject": "युवा",
+            "object": "और युवा"
+        },
+        {
+            "subject": "ऊँचा",
+            "object": "और ऊँचा"
+        },
+        {
+            "subject": "नीचा",
+            "object": "और नीचा"
+        },
+        {
+            "subject": "गहरा",
+            "object": "और गहरा"
+        },
+        {
+            "subject": "उथला",
+            "object": "और उथला"
+        },
+        {
+            "subject": "चौड़ा",
+            "object": "और चौड़ा"
+        },
+        {
+            "subject": "तंग",
+            "object": "और तंग"
+        },
+        {
+            "subject": "मोटा",
+            "object": "और मोटा"
+        },
+        {
+            "subject": "पतला",
+            "object": "और पतला"
+        },
+        {
+            "subject": "गर्म",
+            "object": "और गर्म"
+        },
+        {
+            "subject": "ठंडा",
+            "object": "और ठंडा"
+        },
+        {
+            "subject": "चमकीला",
+            "object": "और चमकीला"
+        },
+        {
+            "subject": "गहरा",
+            "object": "और गहरा"
+        },
+        {
+            "subject": "ज़ोरदार",
+            "object": "और ज़ोरदार"
+        },
+        {
+            "subject": "शांत",
+            "object": "अधिक शांत"
+        },
+        {
+            "subject": "खुश",
+            "object": "अधिक खुश"
+        },
+        {
+            "subject": "दुखी",
+            "object": "और दुखी"
+        },
+        {
+            "subject": "अच्छा",
+            "object": "बेहतर"
+        },
+        {
+            "subject": "बुरा",
+            "object": "और बुरा"
+        },
+        {
+            "subject": "बदसूरत",
+            "object": "अधिक बदसूरत"
+        },
+        {
+            "subject": "स्वच्छ",
+            "object": "अधिक स्वच्छ"
+        },
+        {
+            "subject": "गंदा",
+            "object": "और गंदा"
+        },
+        {
+            "subject": "आसान",
+            "object": "अधिक आसान"
+        },
+        {
+            "subject": "सरल",
+            "object": "और सरल"
+        },
+        {
+            "subject": "दयालु",
+            "object": "और दयालु"
+        },
+        {
+            "subject": "मतलबी",
+            "object": "और मतलबी"
+        },
+        {
+            "subject": "बहादुर",
+            "object": "और बहादुर"
+        },
+        {
+            "subject": "चतुर",
+            "object": "और चतुर"
+        },
+        {
+            "subject": "मूर्ख",
+            "object": "और मूर्ख"
+        },
+        {
+            "subject": "बुद्धिमान",
+            "object": "और बुद्धिमान"
+        },
+        {
+            "subject": "खुश",
+            "object": "और खुश"
+        },
+        {
+            "subject": "अमीर",
+            "object": "और अमीर"
+        },
+        {
+            "subject": "गरीब",
+            "object": "और गरीब"
+        },
+        {
+            "subject": "गर्म",
+            "object": "और गर्म"
+        },
+        {
+            "subject": "ठंडा",
+            "object": "और ठंडा"
+        },
+        {
+            "subject": "मीठा",
+            "object": "और मीठा"
+        },
+        {
+            "subject": "खट्टा",
+            "object": "और खट्टा"
+        },
+        {
+            "subject": "ताज़ा",
+            "object": "और ताज़ा"
+        },
+        {
+            "subject": "बासी",
+            "object": "और बासी"
+        },
+        {
+            "subject": "सस्ता",
+            "object": "और सस्ता"
+        },
+        {
+            "subject": "सुरक्षित",
+            "object": "और सुरक्षित"
+        },
+        {
+            "subject": "चमकीला",
+            "object": "और चमकीला"
+        },
+        {
+            "subject": "नीरस",
+            "object": "और नीरस"
+        },
+        {
+            "subject": "खुश",
+            "object": "और खुश"
+        },
+        {
+            "subject": "दुखी",
+            "object": "और दुखी"
+        },
+        {
+            "subject": "सच्चा",
+            "object": "और सच्चा"
+        },
+        {
+            "subject": "झूठा",
+            "object": "और झूठा"
+        },
+        {
+            "subject": "असभ्य",
+            "object": "और असभ्य"
+        },
+        {
+            "subject": "शांत",
+            "object": "अधिक शांत"
+        },
+        {
+            "subject": "मज़बूत",
+            "object": "और मज़बूत"
+        },
+        {
+            "subject": "कमज़ोर",
+            "object": "और कमज़ोर"
+        },
+        {
+            "subject": "स्वस्थ",
+            "object": "और स्वस्थ"
+        },
+        {
+            "subject": "बीमार",
+            "object": "और बीमार"
+        },
+        {
+            "subject": "स्वच्छ",
+            "object": "और स्वच्छ"
+        },
+        {
+            "subject": "गंदा",
+            "object": "और गंदा"
+        },
+        {
+            "subject": "ताज़ा",
+            "object": "और ताज़ा"
+        }
+    ]
+}

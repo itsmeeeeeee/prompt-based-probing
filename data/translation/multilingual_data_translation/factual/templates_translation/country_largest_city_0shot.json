@@ -1,0 +1,138 @@
+{
+  "name": "country largest city",
+
+  "prompt_templates": [
+  {
+    "en": "The most populous city in {} is",
+    "de": "Die bevölkerungsreichste Stadt in {} ist",
+    "fr": "La ville la plus peuplée de {} est",
+    "it": "La città più popolosa di {} è",
+    "pt": "A cidade mais populosa de {} é",
+    "hi": "{} में सबसे अधिक आबादी वाला शहर है",
+    "es": "La ciudad más poblada de {} es",
+    "th": "เมืองที่มีประชากรมากที่สุดใน {} คือ"
+  }
+],
+
+
+  
+  "samples": [
+    {
+      "subject": "United States",
+      "object": "New York City"
+    },
+    {
+      "subject": "China",
+      "object": "Shanghai"
+    },
+    {
+      "subject": "Japan",
+      "object": "Tokyo"
+    },
+    {
+      "subject": "Russia",
+      "object": "Moscow"
+    },
+    {
+      "subject": "India",
+      "object": "Mumbai"
+    },
+    {
+      "subject": "Brazil",
+      "object": "São Paulo"
+    },
+    {
+      "subject": "Australia",
+      "object": "Sydney"
+    },
+    {
+      "subject": "Canada",
+      "object": "Toronto"
+    },
+    {
+      "subject": "United Kingdom",
+      "object": "London"
+    },
+    {
+      "subject": "France",
+      "object": "Paris"
+    },
+    {
+      "subject": "Germany",
+      "object": "Berlin"
+    },
+    {
+      "subject": "Italy",
+      "object": "Rome"
+    },
+    {
+      "subject": "Mexico",
+      "object": "Mexico City"
+    },
+    {
+      "subject": "South Korea",
+      "object": "Seoul"
+    },
+    {
+      "subject": "Turkey",
+      "object": "Istanbul"
+    },
+    {
+      "subject": "Spain",
+      "object": "Madrid"
+    },
+    {
+      "subject": "Argentina",
+      "object": "Buenos Aires"
+    },
+    {
+      "subject": "South Africa",
+      "object": "Johannesburg"
+    },
+    {
+      "subject": "Poland",
+      "object": "Warsaw"
+    },
+    {
+      "subject": "Nigeria",
+      "object": "Lagos"
+    },
+    {
+      "subject": "New Zealand",
+      "object": "Auckland"
+    },
+    {
+      "subject": "Switzerland",
+      "object": "Zurich"
+    },
+    {
+      "subject": "Netherlands",
+      "object": "Amsterdam"
+    },
+    {
+      "subject": "Pakistan",
+      "object": "Karachi"
+    }
+  ],
+  "prompt_templates_de": [
+    "Die bevölkerungsreichste Stadt in {} ist"
+  ],
+  "prompt_templates_fr": [
+    "La ville la plus peuplée de {} est"
+  ],
+  "prompt_templates_it": [
+    "La città più popolosa in {} è"
+  ],
+  "prompt_templates_pt": [
+    "A cidade mais populosa em {} é"
+  ],
+  "prompt_templates_hi": [
+    "{} में सबसे अधिक जनसंख्या वाला शहर है"
+  ],
+  "prompt_templates_es": [
+    "La ciudad más poblada en {} es"
+  ],
+  "prompt_templates_th": [
+    "เมืองที่มีประชากรมากที่สุดใน {} คือ"
+  ]
+}

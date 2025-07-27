@@ -1,0 +1,31 @@
+{
+  "relation": "company_hq",
+  "template_scores": {
+    "{} is headquartered in the city of": {
+      "average_first_token_prob": 0.17758640549656898,
+      "reliability": 0.25370919881305637,
+      "overall_score": 0.04505530465862507
+    },
+    "The headquarters of {} are in the city of": {
+      "average_first_token_prob": 0.2845969497273159,
+      "reliability": 0.37537091988130566,
+      "overall_score": 0.10682941881455628
+    },
+    "{} has headquarters in": {
+      "average_first_token_prob": 0.12646104037231082,
+      "reliability": 0.19881305637982197,
+      "overall_score": 0.02514210594939117
+    },
+    "{} operates from": {
+      "average_first_token_prob": 0.003039442113316024,
+      "reliability": 0.001483679525222552,
+      "overall_score": 4.509558031626149e-06
+    }
+  },
+  "best_template": "The headquarters of {} are in the city of",
+  "best_template_metrics": {
+    "average_first_token_prob": 0.2845969497273159,
+    "reliability": 0.37537091988130566,
+    "overall_score": 0.10682941881455628
+  }
+}

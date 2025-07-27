@@ -1,0 +1,3184 @@
+[
+  {
+    "prompt": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Vereinigte Staaten ist",
+    "generated_prefix": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Vereinigte Staaten ist",
+    "gold_token": " Washington",
+    "predicted_top1_token": " Washington",
+    "token_pos_in_answer": 0,
+    "gold_logit": 19.484375,
+    "gold_prob_percent": 96.0,
+    "first_token_prob": 0.9599609375,
+    "second_token_prob": 0.00335693359375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Washington",
+        "logit": 19.484375,
+        "probability_percent": 96.0
+      },
+      {
+        "rank": 1,
+        "token": " Was",
+        "logit": 13.828125,
+        "probability_percent": 0.34
+      },
+      {
+        "rank": 2,
+        "token": " New",
+        "logit": 13.7421875,
+        "probability_percent": 0.31
+      },
+      {
+        "rank": 3,
+        "token": ":",
+        "logit": 12.9921875,
+        "probability_percent": 0.15
+      },
+      {
+        "rank": 4,
+        "token": " die",
+        "logit": 12.6796875,
+        "probability_percent": 0.11
+      },
+      {
+        "rank": 5,
+        "token": " in",
+        "logit": 12.59375,
+        "probability_percent": 0.1
+      },
+      {
+        "rank": 6,
+        "token": " Wash",
+        "logit": 12.171875,
+        "probability_percent": 0.06
+      },
+      {
+        "rank": 7,
+        "token": " das",
+        "logit": 12.0546875,
+        "probability_percent": 0.06
+      },
+      {
+        "rank": 8,
+        "token": " W",
+        "logit": 11.9921875,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 9,
+        "token": " Philadelphia",
+        "logit": 11.9609375,
+        "probability_percent": 0.05
+      }
+    ]
+  },
+  {
+    "prompt": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Vereinigte Staaten ist",
+    "generated_prefix": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Vereinigte Staaten ist Washington",
+    "gold_token": ",",
+    "predicted_top1_token": ",",
+    "token_pos_in_answer": 1,
+    "gold_logit": 20.09375,
+    "gold_prob_percent": 39.5,
+    "first_token_prob": 0.9599609375,
+    "second_token_prob": 0.00335693359375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": ",",
+        "logit": 20.09375,
+        "probability_percent": 39.5
+      },
+      {
+        "rank": 1,
+        "token": " D",
+        "logit": 19.75,
+        "probability_percent": 28.0
+      },
+      {
+        "rank": 2,
+        "token": ".\n",
+        "logit": 19.6875,
+        "probability_percent": 26.32
+      },
+      {
+        "rank": 3,
+        "token": " DC",
+        "logit": 17.171875,
+        "probability_percent": 2.13
+      },
+      {
+        "rank": 4,
+        "token": ".",
+        "logit": 16.390625,
+        "probability_percent": 0.97
+      },
+      {
+        "rank": 5,
+        "token": " (",
+        "logit": 16.296875,
+        "probability_percent": 0.89
+      },
+      {
+        "rank": 6,
+        "token": ".\n\n",
+        "logit": 15.7578125,
+        "probability_percent": 0.52
+      },
+      {
+        "rank": 7,
+        "token": " .\n",
+        "logit": 15.0625,
+        "probability_percent": 0.26
+      },
+      {
+        "rank": 8,
+        "token": "\n",
+        "logit": 14.625,
+        "probability_percent": 0.17
+      },
+      {
+        "rank": 9,
+        "token": ".D",
+        "logit": 14.4453125,
+        "probability_percent": 0.14
+      }
+    ]
+  },
+  {
+    "prompt": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Vereinigte Staaten ist",
+    "generated_prefix": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Vereinigte Staaten ist Washington,",
+    "gold_token": " D",
+    "predicted_top1_token": " D",
+    "token_pos_in_answer": 2,
+    "gold_logit": 21.25,
+    "gold_prob_percent": 94.58,
+    "first_token_prob": 0.9599609375,
+    "second_token_prob": 0.00335693359375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " D",
+        "logit": 21.25,
+        "probability_percent": 94.58
+      },
+      {
+        "rank": 1,
+        "token": " DC",
+        "logit": 18.078125,
+        "probability_percent": 3.96
+      },
+      {
+        "rank": 2,
+        "token": " District",
+        "logit": 15.3515625,
+        "probability_percent": 0.26
+      },
+      {
+        "rank": 3,
+        "token": " Washington",
+        "logit": 14.890625,
+        "probability_percent": 0.16
+      },
+      {
+        "rank": 4,
+        "token": " Dist",
+        "logit": 14.2890625,
+        "probability_percent": 0.09
+      },
+      {
+        "rank": 5,
+        "token": " in",
+        "logit": 14.1875,
+        "probability_percent": 0.08
+      },
+      {
+        "rank": 6,
+        "token": " im",
+        "logit": 13.5859375,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 7,
+        "token": " die",
+        "logit": 13.53125,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 8,
+        "token": " aber",
+        "logit": 13.1015625,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 9,
+        "token": " D",
+        "logit": 13.1015625,
+        "probability_percent": 0.03
+      }
+    ]
+  },
+  {
+    "prompt": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Vereinigte Staaten ist",
+    "generated_prefix": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Vereinigte Staaten ist Washington, D",
+    "gold_token": ".C",
+    "predicted_top1_token": ".C",
+    "token_pos_in_answer": 3,
+    "gold_logit": 23.734375,
+    "gold_prob_percent": 98.0,
+    "first_token_prob": 0.9599609375,
+    "second_token_prob": 0.00335693359375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": ".C",
+        "logit": 23.734375,
+        "probability_percent": 98.0
+      },
+      {
+        "rank": 1,
+        "token": ".",
+        "logit": 19.6875,
+        "probability_percent": 1.71
+      },
+      {
+        "rank": 2,
+        "token": ".\n",
+        "logit": 17.40625,
+        "probability_percent": 0.17
+      },
+      {
+        "rank": 3,
+        "token": ".c",
+        "logit": 15.2890625,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 4,
+        "token": ".K",
+        "logit": 14.734375,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 5,
+        "token": "c",
+        "logit": 14.109375,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 6,
+        "token": " C",
+        "logit": 13.609375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": ".D",
+        "logit": 13.15625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": ".,",
+        "logit": 13.1328125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": ".\n\n",
+        "logit": 13.078125,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Vereinigte Staaten ist",
+    "generated_prefix": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Vereinigte Staaten ist Washington, D.C",
+    "gold_token": ".",
+    "predicted_top1_token": ".\n",
+    "token_pos_in_answer": 4,
+    "gold_logit": 22.125,
+    "gold_prob_percent": 10.59,
+    "first_token_prob": 0.9599609375,
+    "second_token_prob": 0.00335693359375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": ".\n",
+        "logit": 23.890625,
+        "probability_percent": 61.91
+      },
+      {
+        "rank": 1,
+        "token": "..\n",
+        "logit": 22.75,
+        "probability_percent": 19.79
+      },
+      {
+        "rank": 2,
+        "token": ".",
+        "logit": 22.125,
+        "probability_percent": 10.59
+      },
+      {
+        "rank": 3,
+        "token": "..",
+        "logit": 20.640625,
+        "probability_percent": 2.4
+      },
+      {
+        "rank": 4,
+        "token": ".\n\n",
+        "logit": 20.359375,
+        "probability_percent": 1.81
+      },
+      {
+        "rank": 5,
+        "token": ".,",
+        "logit": 20.359375,
+        "probability_percent": 1.81
+      },
+      {
+        "rank": 6,
+        "token": "..\n\n",
+        "logit": 19.734375,
+        "probability_percent": 0.97
+      },
+      {
+        "rank": 7,
+        "token": ".;",
+        "logit": 18.171875,
+        "probability_percent": 0.2
+      },
+      {
+        "rank": 8,
+        "token": "\n",
+        "logit": 17.640625,
+        "probability_percent": 0.12
+      },
+      {
+        "rank": 9,
+        "token": " .\n",
+        "logit": 16.9375,
+        "probability_percent": 0.06
+      }
+    ]
+  },
+  {
+    "prompt": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Kanada ist",
+    "generated_prefix": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Kanada ist",
+    "gold_token": " Ottawa",
+    "predicted_top1_token": " Ottawa",
+    "token_pos_in_answer": 0,
+    "gold_logit": 18.390625,
+    "gold_prob_percent": 82.47,
+    "first_token_prob": 0.82470703125,
+    "second_token_prob": 0.04302978515625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Ottawa",
+        "logit": 18.390625,
+        "probability_percent": 82.47
+      },
+      {
+        "rank": 1,
+        "token": " Ott",
+        "logit": 15.4375,
+        "probability_percent": 4.3
+      },
+      {
+        "rank": 2,
+        "token": " die",
+        "logit": 14.6015625,
+        "probability_percent": 1.86
+      },
+      {
+        "rank": 3,
+        "token": " Kan",
+        "logit": 14.2734375,
+        "probability_percent": 1.34
+      },
+      {
+        "rank": 4,
+        "token": " Toronto",
+        "logit": 14.265625,
+        "probability_percent": 1.33
+      },
+      {
+        "rank": 5,
+        "token": " Ontario",
+        "logit": 13.1953125,
+        "probability_percent": 0.46
+      },
+      {
+        "rank": 6,
+        "token": " Québec",
+        "logit": 13.078125,
+        "probability_percent": 0.41
+      },
+      {
+        "rank": 7,
+        "token": " Montreal",
+        "logit": 13.0625,
+        "probability_percent": 0.4
+      },
+      {
+        "rank": 8,
+        "token": " Winnipeg",
+        "logit": 12.984375,
+        "probability_percent": 0.37
+      },
+      {
+        "rank": 9,
+        "token": " der",
+        "logit": 12.921875,
+        "probability_percent": 0.35
+      }
+    ]
+  },
+  {
+    "prompt": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Mexiko ist",
+    "generated_prefix": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Mexiko ist",
+    "gold_token": " Mex",
+    "predicted_top1_token": " Mex",
+    "token_pos_in_answer": 0,
+    "gold_logit": 17.703125,
+    "gold_prob_percent": 69.73,
+    "first_token_prob": 0.697265625,
+    "second_token_prob": 0.219482421875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Mex",
+        "logit": 17.703125,
+        "probability_percent": 69.73
+      },
+      {
+        "rank": 1,
+        "token": " Mexico",
+        "logit": 16.546875,
+        "probability_percent": 21.95
+      },
+      {
+        "rank": 2,
+        "token": " Ciudad",
+        "logit": 14.0703125,
+        "probability_percent": 1.84
+      },
+      {
+        "rank": 3,
+        "token": " die",
+        "logit": 12.7578125,
+        "probability_percent": 0.5
+      },
+      {
+        "rank": 4,
+        "token": " México",
+        "logit": 12.265625,
+        "probability_percent": 0.3
+      },
+      {
+        "rank": 5,
+        "token": " Stadt",
+        "logit": 11.84375,
+        "probability_percent": 0.2
+      },
+      {
+        "rank": 6,
+        "token": " das",
+        "logit": 11.71875,
+        "probability_percent": 0.18
+      },
+      {
+        "rank": 7,
+        "token": "\n",
+        "logit": 11.6875,
+        "probability_percent": 0.17
+      },
+      {
+        "rank": 8,
+        "token": " der",
+        "logit": 11.65625,
+        "probability_percent": 0.16
+      },
+      {
+        "rank": 9,
+        "token": " St",
+        "logit": 11.625,
+        "probability_percent": 0.16
+      }
+    ]
+  },
+  {
+    "prompt": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Mexiko ist",
+    "generated_prefix": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Mexiko ist Mex",
+    "gold_token": "iko",
+    "predicted_top1_token": "iko",
+    "token_pos_in_answer": 1,
+    "gold_logit": 21.421875,
+    "gold_prob_percent": 99.51,
+    "first_token_prob": 0.697265625,
+    "second_token_prob": 0.219482421875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "iko",
+        "logit": 21.421875,
+        "probability_percent": 99.51
+      },
+      {
+        "rank": 1,
+        "token": "ik",
+        "logit": 15.1953125,
+        "probability_percent": 0.2
+      },
+      {
+        "rank": 2,
+        "token": "ico",
+        "logit": 13.2421875,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 3,
+        "token": "-St",
+        "logit": 13.234375,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 4,
+        "token": " City",
+        "logit": 12.8984375,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 5,
+        "token": "ic",
+        "logit": 12.8203125,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 6,
+        "token": "ist",
+        "logit": 12.765625,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 7,
+        "token": "isto",
+        "logit": 12.578125,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 8,
+        "token": "icity",
+        "logit": 12.3515625,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 9,
+        "token": "if",
+        "logit": 12.2734375,
+        "probability_percent": 0.01
+      }
+    ]
+  },
+  {
+    "prompt": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Mexiko ist",
+    "generated_prefix": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Mexiko ist Mexiko",
+    "gold_token": "-St",
+    "predicted_top1_token": "-St",
+    "token_pos_in_answer": 2,
+    "gold_logit": 21.875,
+    "gold_prob_percent": 95.7,
+    "first_token_prob": 0.697265625,
+    "second_token_prob": 0.219482421875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "-St",
+        "logit": 21.875,
+        "probability_percent": 95.7
+      },
+      {
+        "rank": 1,
+        "token": " Stadt",
+        "logit": 17.984375,
+        "probability_percent": 1.95
+      },
+      {
+        "rank": 2,
+        "token": " City",
+        "logit": 17.46875,
+        "probability_percent": 1.17
+      },
+      {
+        "rank": 3,
+        "token": ".\n",
+        "logit": 15.8515625,
+        "probability_percent": 0.23
+      },
+      {
+        "rank": 4,
+        "token": " St",
+        "logit": 15.7265625,
+        "probability_percent": 0.2
+      },
+      {
+        "rank": 5,
+        "token": ",",
+        "logit": 14.6953125,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 6,
+        "token": " Stad",
+        "logit": 14.6484375,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 7,
+        "token": "-S",
+        "logit": 14.5859375,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 8,
+        "token": "\n",
+        "logit": 14.4296875,
+        "probability_percent": 0.06
+      },
+      {
+        "rank": 9,
+        "token": "-st",
+        "logit": 14.3984375,
+        "probability_percent": 0.05
+      }
+    ]
+  },
+  {
+    "prompt": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Mexiko ist",
+    "generated_prefix": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Mexiko ist Mexiko-St",
+    "gold_token": "adt",
+    "predicted_top1_token": "adt",
+    "token_pos_in_answer": 3,
+    "gold_logit": 20.078125,
+    "gold_prob_percent": 97.41,
+    "first_token_prob": 0.697265625,
+    "second_token_prob": 0.219482421875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "adt",
+        "logit": 20.078125,
+        "probability_percent": 97.41
+      },
+      {
+        "rank": 1,
+        "token": "ad",
+        "logit": 16.328125,
+        "probability_percent": 2.29
+      },
+      {
+        "rank": 2,
+        "token": "a",
+        "logit": 12.71875,
+        "probability_percent": 0.06
+      },
+      {
+        "rank": 3,
+        "token": ".",
+        "logit": 12.59375,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 4,
+        "token": ".\n",
+        "logit": 12.0234375,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 5,
+        "token": "\n",
+        "logit": 11.390625,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 6,
+        "token": "äd",
+        "logit": 11.3828125,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 7,
+        "token": ".-",
+        "logit": 11.234375,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 8,
+        "token": "á",
+        "logit": 11.078125,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 9,
+        "token": "att",
+        "logit": 10.0625,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Argentinien ist",
+    "generated_prefix": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Argentinien ist",
+    "gold_token": " Buenos",
+    "predicted_top1_token": " Buenos",
+    "token_pos_in_answer": 0,
+    "gold_logit": 19.015625,
+    "gold_prob_percent": 95.75,
+    "first_token_prob": 0.95751953125,
+    "second_token_prob": 0.005222320556640625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Buenos",
+        "logit": 19.015625,
+        "probability_percent": 95.75
+      },
+      {
+        "rank": 1,
+        "token": " Buen",
+        "logit": 13.8046875,
+        "probability_percent": 0.52
+      },
+      {
+        "rank": 2,
+        "token": " La",
+        "logit": 13.5703125,
+        "probability_percent": 0.41
+      },
+      {
+        "rank": 3,
+        "token": " die",
+        "logit": 13.078125,
+        "probability_percent": 0.25
+      },
+      {
+        "rank": 4,
+        "token": " Arg",
+        "logit": 13.0625,
+        "probability_percent": 0.25
+      },
+      {
+        "rank": 5,
+        "token": " Ciudad",
+        "logit": 12.8828125,
+        "probability_percent": 0.21
+      },
+      {
+        "rank": 6,
+        "token": " Wien",
+        "logit": 12.5078125,
+        "probability_percent": 0.14
+      },
+      {
+        "rank": 7,
+        "token": " Bu",
+        "logit": 12.28125,
+        "probability_percent": 0.11
+      },
+      {
+        "rank": 8,
+        "token": " B",
+        "logit": 12.1875,
+        "probability_percent": 0.1
+      },
+      {
+        "rank": 9,
+        "token": " das",
+        "logit": 11.953125,
+        "probability_percent": 0.08
+      }
+    ]
+  },
+  {
+    "prompt": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Argentinien ist",
+    "generated_prefix": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Argentinien ist Buenos",
+    "gold_token": " Aires",
+    "predicted_top1_token": " Aires",
+    "token_pos_in_answer": 1,
+    "gold_logit": 24.734375,
+    "gold_prob_percent": 99.61,
+    "first_token_prob": 0.95751953125,
+    "second_token_prob": 0.005222320556640625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Aires",
+        "logit": 24.734375,
+        "probability_percent": 99.61
+      },
+      {
+        "rank": 1,
+        "token": "-A",
+        "logit": 18.828125,
+        "probability_percent": 0.27
+      },
+      {
+        "rank": 2,
+        "token": " A",
+        "logit": 17.515625,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 3,
+        "token": " a",
+        "logit": 15.5234375,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 4,
+        "token": " Ay",
+        "logit": 15.2265625,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 5,
+        "token": "\n",
+        "logit": 14.5546875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": " A",
+        "logit": 14.484375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": ".\n",
+        "logit": 14.28125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": " AI",
+        "logit": 13.9375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "A",
+        "logit": 13.8671875,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Chile ist",
+    "generated_prefix": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Chile ist",
+    "gold_token": " Santiago",
+    "predicted_top1_token": " Santiago",
+    "token_pos_in_answer": 0,
+    "gold_logit": 19.015625,
+    "gold_prob_percent": 95.07,
+    "first_token_prob": 0.95068359375,
+    "second_token_prob": 0.007259368896484375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Santiago",
+        "logit": 19.015625,
+        "probability_percent": 95.07
+      },
+      {
+        "rank": 1,
+        "token": " San",
+        "logit": 14.140625,
+        "probability_percent": 0.73
+      },
+      {
+        "rank": 2,
+        "token": " La",
+        "logit": 13.75,
+        "probability_percent": 0.49
+      },
+      {
+        "rank": 3,
+        "token": " die",
+        "logit": 13.2578125,
+        "probability_percent": 0.3
+      },
+      {
+        "rank": 4,
+        "token": " Santa",
+        "logit": 13.109375,
+        "probability_percent": 0.26
+      },
+      {
+        "rank": 5,
+        "token": " Val",
+        "logit": 13.0546875,
+        "probability_percent": 0.25
+      },
+      {
+        "rank": 6,
+        "token": " Lima",
+        "logit": 12.859375,
+        "probability_percent": 0.2
+      },
+      {
+        "rank": 7,
+        "token": " S",
+        "logit": 12.796875,
+        "probability_percent": 0.19
+      },
+      {
+        "rank": 8,
+        "token": " Santo",
+        "logit": 12.5859375,
+        "probability_percent": 0.15
+      },
+      {
+        "rank": 9,
+        "token": " São",
+        "logit": 12.3125,
+        "probability_percent": 0.12
+      }
+    ]
+  },
+  {
+    "prompt": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Chile ist",
+    "generated_prefix": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Chile ist Santiago",
+    "gold_token": " de",
+    "predicted_top1_token": ".\n",
+    "token_pos_in_answer": 1,
+    "gold_logit": 19.546875,
+    "gold_prob_percent": 13.1,
+    "first_token_prob": 0.95068359375,
+    "second_token_prob": 0.007259368896484375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": ".\n",
+        "logit": 21.25,
+        "probability_percent": 71.97
+      },
+      {
+        "rank": 1,
+        "token": " de",
+        "logit": 19.546875,
+        "probability_percent": 13.1
+      },
+      {
+        "rank": 2,
+        "token": ".\n\n",
+        "logit": 18.953125,
+        "probability_percent": 7.24
+      },
+      {
+        "rank": 3,
+        "token": ".",
+        "logit": 18.453125,
+        "probability_percent": 4.39
+      },
+      {
+        "rank": 4,
+        "token": "\n",
+        "logit": 16.59375,
+        "probability_percent": 0.68
+      },
+      {
+        "rank": 5,
+        "token": ",",
+        "logit": 16.578125,
+        "probability_percent": 0.67
+      },
+      {
+        "rank": 6,
+        "token": " .\n",
+        "logit": 16.171875,
+        "probability_percent": 0.45
+      },
+      {
+        "rank": 7,
+        "token": " (",
+        "logit": 15.6640625,
+        "probability_percent": 0.27
+      },
+      {
+        "rank": 8,
+        "token": " der",
+        "logit": 14.8359375,
+        "probability_percent": 0.12
+      },
+      {
+        "rank": 9,
+        "token": " und",
+        "logit": 14.7578125,
+        "probability_percent": 0.11
+      }
+    ]
+  },
+  {
+    "prompt": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Chile ist",
+    "generated_prefix": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Chile ist Santiago.\n",
+    "gold_token": " Chile",
+    "predicted_top1_token": "Die",
+    "token_pos_in_answer": 2,
+    "gold_logit": 6.15234375,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.95068359375,
+    "second_token_prob": 0.007259368896484375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "Die",
+        "logit": 18.375,
+        "probability_percent": 67.82
+      },
+      {
+        "rank": 1,
+        "token": "Der",
+        "logit": 15.1171875,
+        "probability_percent": 2.61
+      },
+      {
+        "rank": 2,
+        "token": "Das",
+        "logit": 14.90625,
+        "probability_percent": 2.11
+      },
+      {
+        "rank": 3,
+        "token": "In",
+        "logit": 14.1796875,
+        "probability_percent": 1.02
+      },
+      {
+        "rank": 4,
+        "token": "H",
+        "logit": 13.8359375,
+        "probability_percent": 0.72
+      },
+      {
+        "rank": 5,
+        "token": "The",
+        "logit": 13.828125,
+        "probability_percent": 0.72
+      },
+      {
+        "rank": 6,
+        "token": "B",
+        "logit": 13.6640625,
+        "probability_percent": 0.61
+      },
+      {
+        "rank": 7,
+        "token": "S",
+        "logit": 13.6328125,
+        "probability_percent": 0.59
+      },
+      {
+        "rank": 8,
+        "token": "K",
+        "logit": 13.5390625,
+        "probability_percent": 0.54
+      },
+      {
+        "rank": 9,
+        "token": "D",
+        "logit": 13.4140625,
+        "probability_percent": 0.47
+      }
+    ]
+  },
+  {
+    "prompt": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Peru ist",
+    "generated_prefix": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Peru ist",
+    "gold_token": " Lima",
+    "predicted_top1_token": " Lima",
+    "token_pos_in_answer": 0,
+    "gold_logit": 19.453125,
+    "gold_prob_percent": 97.85,
+    "first_token_prob": 0.978515625,
+    "second_token_prob": 0.00493621826171875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Lima",
+        "logit": 19.453125,
+        "probability_percent": 97.85
+      },
+      {
+        "rank": 1,
+        "token": " Lim",
+        "logit": 14.1640625,
+        "probability_percent": 0.49
+      },
+      {
+        "rank": 2,
+        "token": " L",
+        "logit": 14.0703125,
+        "probability_percent": 0.45
+      },
+      {
+        "rank": 3,
+        "token": " La",
+        "logit": 12.3671875,
+        "probability_percent": 0.08
+      },
+      {
+        "rank": 4,
+        "token": " das",
+        "logit": 12.0703125,
+        "probability_percent": 0.06
+      },
+      {
+        "rank": 5,
+        "token": " der",
+        "logit": 11.9921875,
+        "probability_percent": 0.06
+      },
+      {
+        "rank": 6,
+        "token": " Peru",
+        "logit": 11.890625,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 7,
+        "token": " in",
+        "logit": 11.296875,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 8,
+        "token": " Call",
+        "logit": 11.2578125,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 9,
+        "token": " Liz",
+        "logit": 11.25,
+        "probability_percent": 0.03
+      }
+    ]
+  },
+  {
+    "prompt": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Venezuela ist",
+    "generated_prefix": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Venezuela ist",
+    "gold_token": " Car",
+    "predicted_top1_token": " Car",
+    "token_pos_in_answer": 0,
+    "gold_logit": 18.828125,
+    "gold_prob_percent": 97.56,
+    "first_token_prob": 0.9755859375,
+    "second_token_prob": 0.004734039306640625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Car",
+        "logit": 18.828125,
+        "probability_percent": 97.56
+      },
+      {
+        "rank": 1,
+        "token": " Ciudad",
+        "logit": 13.5,
+        "probability_percent": 0.47
+      },
+      {
+        "rank": 2,
+        "token": " Kar",
+        "logit": 12.890625,
+        "probability_percent": 0.26
+      },
+      {
+        "rank": 3,
+        "token": " K",
+        "logit": 12.8203125,
+        "probability_percent": 0.24
+      },
+      {
+        "rank": 4,
+        "token": " La",
+        "logit": 12.3515625,
+        "probability_percent": 0.15
+      },
+      {
+        "rank": 5,
+        "token": " Mar",
+        "logit": 11.90625,
+        "probability_percent": 0.1
+      },
+      {
+        "rank": 6,
+        "token": ":",
+        "logit": 11.5703125,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 7,
+        "token": "\n",
+        "logit": 11.015625,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 8,
+        "token": " Puerto",
+        "logit": 10.9453125,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 9,
+        "token": " Carr",
+        "logit": 10.890625,
+        "probability_percent": 0.03
+      }
+    ]
+  },
+  {
+    "prompt": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Venezuela ist",
+    "generated_prefix": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Venezuela ist Car",
+    "gold_token": "acas",
+    "predicted_top1_token": "acas",
+    "token_pos_in_answer": 1,
+    "gold_logit": 24.125,
+    "gold_prob_percent": 99.76,
+    "first_token_prob": 0.9755859375,
+    "second_token_prob": 0.004734039306640625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "acas",
+        "logit": 24.125,
+        "probability_percent": 99.76
+      },
+      {
+        "rank": 1,
+        "token": "ac",
+        "logit": 17.046875,
+        "probability_percent": 0.08
+      },
+      {
+        "rank": 2,
+        "token": "acus",
+        "logit": 16.46875,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 3,
+        "token": "á",
+        "logit": 16.015625,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 4,
+        "token": "aca",
+        "logit": 15.421875,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 5,
+        "token": "ab",
+        "logit": 15.3515625,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 6,
+        "token": "cas",
+        "logit": 14.75,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 7,
+        "token": "aqu",
+        "logit": 14.75,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 8,
+        "token": "ak",
+        "logit": 14.03125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "acao",
+        "logit": 13.953125,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Spanien ist",
+    "generated_prefix": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Spanien ist",
+    "gold_token": " Madrid",
+    "predicted_top1_token": " Madrid",
+    "token_pos_in_answer": 0,
+    "gold_logit": 19.828125,
+    "gold_prob_percent": 97.61,
+    "first_token_prob": 0.97607421875,
+    "second_token_prob": 0.006679534912109375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Madrid",
+        "logit": 19.828125,
+        "probability_percent": 97.61
+      },
+      {
+        "rank": 1,
+        "token": " Span",
+        "logit": 14.84375,
+        "probability_percent": 0.67
+      },
+      {
+        "rank": 2,
+        "token": " Mad",
+        "logit": 14.5234375,
+        "probability_percent": 0.48
+      },
+      {
+        "rank": 3,
+        "token": " die",
+        "logit": 13.421875,
+        "probability_percent": 0.16
+      },
+      {
+        "rank": 4,
+        "token": " Barcelona",
+        "logit": 13.2265625,
+        "probability_percent": 0.13
+      },
+      {
+        "rank": 5,
+        "token": " das",
+        "logit": 12.921875,
+        "probability_percent": 0.1
+      },
+      {
+        "rank": 6,
+        "token": " Sevilla",
+        "logit": 11.8046875,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 7,
+        "token": " Pal",
+        "logit": 11.765625,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 8,
+        "token": ":",
+        "logit": 11.6171875,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 9,
+        "token": " in",
+        "logit": 11.609375,
+        "probability_percent": 0.03
+      }
+    ]
+  },
+  {
+    "prompt": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Frankreich ist",
+    "generated_prefix": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Frankreich ist",
+    "gold_token": " Paris",
+    "predicted_top1_token": " Paris",
+    "token_pos_in_answer": 0,
+    "gold_logit": 20.3125,
+    "gold_prob_percent": 98.58,
+    "first_token_prob": 0.98583984375,
+    "second_token_prob": 0.002140045166015625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Paris",
+        "logit": 20.3125,
+        "probability_percent": 98.58
+      },
+      {
+        "rank": 1,
+        "token": " Par",
+        "logit": 14.1796875,
+        "probability_percent": 0.21
+      },
+      {
+        "rank": 2,
+        "token": " P",
+        "logit": 13.7421875,
+        "probability_percent": 0.14
+      },
+      {
+        "rank": 3,
+        "token": " die",
+        "logit": 13.5078125,
+        "probability_percent": 0.11
+      },
+      {
+        "rank": 4,
+        "token": " das",
+        "logit": 12.921875,
+        "probability_percent": 0.06
+      },
+      {
+        "rank": 5,
+        "token": "\n",
+        "logit": 12.40625,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 6,
+        "token": " Stra",
+        "logit": 12.3203125,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 7,
+        "token": " auch",
+        "logit": 12.1796875,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 8,
+        "token": " Frank",
+        "logit": 12.1171875,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 9,
+        "token": ":",
+        "logit": 12.0390625,
+        "probability_percent": 0.03
+      }
+    ]
+  },
+  {
+    "prompt": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Deutschland ist",
+    "generated_prefix": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Deutschland ist",
+    "gold_token": " Berlin",
+    "predicted_top1_token": " Berlin",
+    "token_pos_in_answer": 0,
+    "gold_logit": 19.390625,
+    "gold_prob_percent": 90.67,
+    "first_token_prob": 0.90673828125,
+    "second_token_prob": 0.048797607421875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Berlin",
+        "logit": 19.390625,
+        "probability_percent": 90.67
+      },
+      {
+        "rank": 1,
+        "token": " Bon",
+        "logit": 16.46875,
+        "probability_percent": 4.88
+      },
+      {
+        "rank": 2,
+        "token": " Wien",
+        "logit": 13.8046875,
+        "probability_percent": 0.34
+      },
+      {
+        "rank": 3,
+        "token": " München",
+        "logit": 13.6796875,
+        "probability_percent": 0.3
+      },
+      {
+        "rank": 4,
+        "token": " Ber",
+        "logit": 13.671875,
+        "probability_percent": 0.3
+      },
+      {
+        "rank": 5,
+        "token": "\n",
+        "logit": 13.1484375,
+        "probability_percent": 0.18
+      },
+      {
+        "rank": 6,
+        "token": " die",
+        "logit": 13.1484375,
+        "probability_percent": 0.18
+      },
+      {
+        "rank": 7,
+        "token": " Kö",
+        "logit": 12.9296875,
+        "probability_percent": 0.14
+      },
+      {
+        "rank": 8,
+        "token": " Frankfurt",
+        "logit": 12.8671875,
+        "probability_percent": 0.13
+      },
+      {
+        "rank": 9,
+        "token": " das",
+        "logit": 12.796875,
+        "probability_percent": 0.12
+      }
+    ]
+  },
+  {
+    "prompt": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Italien ist",
+    "generated_prefix": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Italien ist",
+    "gold_token": " Rom",
+    "predicted_top1_token": " Rom",
+    "token_pos_in_answer": 0,
+    "gold_logit": 19.265625,
+    "gold_prob_percent": 97.56,
+    "first_token_prob": 0.9755859375,
+    "second_token_prob": 0.00608062744140625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Rom",
+        "logit": 19.265625,
+        "probability_percent": 97.56
+      },
+      {
+        "rank": 1,
+        "token": " Mail",
+        "logit": 14.1875,
+        "probability_percent": 0.61
+      },
+      {
+        "rank": 2,
+        "token": " V",
+        "logit": 13.171875,
+        "probability_percent": 0.22
+      },
+      {
+        "rank": 3,
+        "token": " Flo",
+        "logit": 13.015625,
+        "probability_percent": 0.19
+      },
+      {
+        "rank": 4,
+        "token": " Roma",
+        "logit": 12.9765625,
+        "probability_percent": 0.18
+      },
+      {
+        "rank": 5,
+        "token": " das",
+        "logit": 12.7578125,
+        "probability_percent": 0.15
+      },
+      {
+        "rank": 6,
+        "token": " Ne",
+        "logit": 12.4140625,
+        "probability_percent": 0.1
+      },
+      {
+        "rank": 7,
+        "token": " die",
+        "logit": 12.375,
+        "probability_percent": 0.1
+      },
+      {
+        "rank": 8,
+        "token": " R",
+        "logit": 11.953125,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 9,
+        "token": " It",
+        "logit": 11.6640625,
+        "probability_percent": 0.05
+      }
+    ]
+  },
+  {
+    "prompt": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Russland ist",
+    "generated_prefix": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Russland ist",
+    "gold_token": " Mos",
+    "predicted_top1_token": " Mos",
+    "token_pos_in_answer": 0,
+    "gold_logit": 18.234375,
+    "gold_prob_percent": 95.02,
+    "first_token_prob": 0.9501953125,
+    "second_token_prob": 0.0101470947265625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Mos",
+        "logit": 18.234375,
+        "probability_percent": 95.02
+      },
+      {
+        "rank": 1,
+        "token": " S",
+        "logit": 13.6953125,
+        "probability_percent": 1.01
+      },
+      {
+        "rank": 2,
+        "token": " St",
+        "logit": 13.296875,
+        "probability_percent": 0.68
+      },
+      {
+        "rank": 3,
+        "token": " das",
+        "logit": 12.3203125,
+        "probability_percent": 0.26
+      },
+      {
+        "rank": 4,
+        "token": " die",
+        "logit": 12.140625,
+        "probability_percent": 0.21
+      },
+      {
+        "rank": 5,
+        "token": " M",
+        "logit": 11.9765625,
+        "probability_percent": 0.18
+      },
+      {
+        "rank": 6,
+        "token": " Moscow",
+        "logit": 11.7265625,
+        "probability_percent": 0.14
+      },
+      {
+        "rank": 7,
+        "token": "\n",
+        "logit": 11.5,
+        "probability_percent": 0.11
+      },
+      {
+        "rank": 8,
+        "token": ":",
+        "logit": 11.15625,
+        "probability_percent": 0.08
+      },
+      {
+        "rank": 9,
+        "token": " Москва",
+        "logit": 11.15625,
+        "probability_percent": 0.08
+      }
+    ]
+  },
+  {
+    "prompt": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Russland ist",
+    "generated_prefix": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Russland ist Mos",
+    "gold_token": "k",
+    "predicted_top1_token": "k",
+    "token_pos_in_answer": 1,
+    "gold_logit": 23.65625,
+    "gold_prob_percent": 99.95,
+    "first_token_prob": 0.9501953125,
+    "second_token_prob": 0.0101470947265625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "k",
+        "logit": 23.65625,
+        "probability_percent": 99.95
+      },
+      {
+        "rank": 1,
+        "token": "ka",
+        "logit": 14.7890625,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 2,
+        "token": "kowski",
+        "logit": 13.4140625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 3,
+        "token": "ch",
+        "logit": 13.0,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 4,
+        "token": "kou",
+        "logit": 12.8671875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 5,
+        "token": "ca",
+        "logit": 12.78125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": "K",
+        "logit": 12.125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": "kw",
+        "logit": 12.1171875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "chk",
+        "logit": 12.0,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "amb",
+        "logit": 11.8125,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Russland ist",
+    "generated_prefix": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Russland ist Mosk",
+    "gold_token": "au",
+    "predicted_top1_token": "au",
+    "token_pos_in_answer": 2,
+    "gold_logit": 24.296875,
+    "gold_prob_percent": 99.61,
+    "first_token_prob": 0.9501953125,
+    "second_token_prob": 0.0101470947265625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "au",
+        "logit": 24.296875,
+        "probability_percent": 99.61
+      },
+      {
+        "rank": 1,
+        "token": "va",
+        "logit": 18.09375,
+        "probability_percent": 0.2
+      },
+      {
+        "rank": 2,
+        "token": "wa",
+        "logit": 17.53125,
+        "probability_percent": 0.11
+      },
+      {
+        "rank": 3,
+        "token": "auer",
+        "logit": 15.84375,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 4,
+        "token": "ua",
+        "logit": 15.2890625,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 5,
+        "token": "ow",
+        "logit": 15.1171875,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 6,
+        "token": "awa",
+        "logit": 13.625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": "aw",
+        "logit": 12.765625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "ows",
+        "logit": 12.6953125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "owa",
+        "logit": 12.5703125,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Volksrepublik China ist",
+    "generated_prefix": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Volksrepublik China ist",
+    "gold_token": " P",
+    "predicted_top1_token": " P",
+    "token_pos_in_answer": 0,
+    "gold_logit": 18.5,
+    "gold_prob_percent": 94.92,
+    "first_token_prob": 0.94921875,
+    "second_token_prob": 0.0180816650390625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " P",
+        "logit": 18.5,
+        "probability_percent": 94.92
+      },
+      {
+        "rank": 1,
+        "token": " Beijing",
+        "logit": 14.5390625,
+        "probability_percent": 1.81
+      },
+      {
+        "rank": 2,
+        "token": " Pek",
+        "logit": 13.1796875,
+        "probability_percent": 0.46
+      },
+      {
+        "rank": 3,
+        "token": " das",
+        "logit": 12.359375,
+        "probability_percent": 0.2
+      },
+      {
+        "rank": 4,
+        "token": " Pe",
+        "logit": 12.3515625,
+        "probability_percent": 0.2
+      },
+      {
+        "rank": 5,
+        "token": " Pé",
+        "logit": 12.1953125,
+        "probability_percent": 0.17
+      },
+      {
+        "rank": 6,
+        "token": " die",
+        "logit": 11.828125,
+        "probability_percent": 0.12
+      },
+      {
+        "rank": 7,
+        "token": "\n",
+        "logit": 11.6328125,
+        "probability_percent": 0.1
+      },
+      {
+        "rank": 8,
+        "token": " Shanghai",
+        "logit": 11.6171875,
+        "probability_percent": 0.1
+      },
+      {
+        "rank": 9,
+        "token": " Be",
+        "logit": 11.4140625,
+        "probability_percent": 0.08
+      }
+    ]
+  },
+  {
+    "prompt": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Volksrepublik China ist",
+    "generated_prefix": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Volksrepublik China ist P",
+    "gold_token": "eking",
+    "predicted_top1_token": "eking",
+    "token_pos_in_answer": 1,
+    "gold_logit": 21.921875,
+    "gold_prob_percent": 99.85,
+    "first_token_prob": 0.94921875,
+    "second_token_prob": 0.0180816650390625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "eking",
+        "logit": 21.921875,
+        "probability_percent": 99.85
+      },
+      {
+        "rank": 1,
+        "token": "ech",
+        "logit": 14.6796875,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 2,
+        "token": "j",
+        "logit": 13.625,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 3,
+        "token": "ud",
+        "logit": 11.7890625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 4,
+        "token": "ek",
+        "logit": 11.53125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 5,
+        "token": "ch",
+        "logit": 11.3671875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": "je",
+        "logit": 11.2578125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": "ек",
+        "logit": 10.890625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "jong",
+        "logit": 10.734375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "inyin",
+        "logit": 10.453125,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Japan ist",
+    "generated_prefix": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Japan ist",
+    "gold_token": " Tok",
+    "predicted_top1_token": " Tok",
+    "token_pos_in_answer": 0,
+    "gold_logit": 19.71875,
+    "gold_prob_percent": 89.99,
+    "first_token_prob": 0.89990234375,
+    "second_token_prob": 0.0811767578125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Tok",
+        "logit": 19.71875,
+        "probability_percent": 89.99
+      },
+      {
+        "rank": 1,
+        "token": " Tokyo",
+        "logit": 17.3125,
+        "probability_percent": 8.12
+      },
+      {
+        "rank": 2,
+        "token": " T",
+        "logit": 14.015625,
+        "probability_percent": 0.3
+      },
+      {
+        "rank": 3,
+        "token": " Osaka",
+        "logit": 12.9765625,
+        "probability_percent": 0.11
+      },
+      {
+        "rank": 4,
+        "token": "\n",
+        "logit": 12.4453125,
+        "probability_percent": 0.06
+      },
+      {
+        "rank": 5,
+        "token": ":",
+        "logit": 12.359375,
+        "probability_percent": 0.06
+      },
+      {
+        "rank": 6,
+        "token": " Berlin",
+        "logit": 12.3046875,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 7,
+        "token": " die",
+        "logit": 12.0546875,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 8,
+        "token": " To",
+        "logit": 11.9921875,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 9,
+        "token": " S",
+        "logit": 11.9609375,
+        "probability_percent": 0.04
+      }
+    ]
+  },
+  {
+    "prompt": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Japan ist",
+    "generated_prefix": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Japan ist Tok",
+    "gold_token": "io",
+    "predicted_top1_token": "io",
+    "token_pos_in_answer": 1,
+    "gold_logit": 24.421875,
+    "gold_prob_percent": 99.95,
+    "first_token_prob": 0.89990234375,
+    "second_token_prob": 0.0811767578125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "io",
+        "logit": 24.421875,
+        "probability_percent": 99.95
+      },
+      {
+        "rank": 1,
+        "token": "y",
+        "logit": 14.84375,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 2,
+        "token": "i",
+        "logit": 14.546875,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 3,
+        "token": "o",
+        "logit": 14.109375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 4,
+        "token": "ió",
+        "logit": 13.7265625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 5,
+        "token": "iot",
+        "logit": 13.546875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": "jo",
+        "logit": 13.5078125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": "ia",
+        "logit": 13.1953125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "iu",
+        "logit": 13.125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "ios",
+        "logit": 12.9921875,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Südkorea ist",
+    "generated_prefix": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Südkorea ist",
+    "gold_token": " Seoul",
+    "predicted_top1_token": " Seoul",
+    "token_pos_in_answer": 0,
+    "gold_logit": 19.921875,
+    "gold_prob_percent": 97.75,
+    "first_token_prob": 0.9775390625,
+    "second_token_prob": 0.01383209228515625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Seoul",
+        "logit": 19.921875,
+        "probability_percent": 97.75
+      },
+      {
+        "rank": 1,
+        "token": " Se",
+        "logit": 15.6640625,
+        "probability_percent": 1.38
+      },
+      {
+        "rank": 2,
+        "token": " Bus",
+        "logit": 13.09375,
+        "probability_percent": 0.11
+      },
+      {
+        "rank": 3,
+        "token": " S",
+        "logit": 12.671875,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 4,
+        "token": " Sü",
+        "logit": 12.3125,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 5,
+        "token": " Soul",
+        "logit": 12.1015625,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 6,
+        "token": " G",
+        "logit": 11.8125,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 7,
+        "token": " die",
+        "logit": 11.671875,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 8,
+        "token": " in",
+        "logit": 11.640625,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 9,
+        "token": " P",
+        "logit": 11.515625,
+        "probability_percent": 0.02
+      }
+    ]
+  },
+  {
+    "prompt": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Indien ist",
+    "generated_prefix": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Indien ist",
+    "gold_token": " Neu",
+    "predicted_top1_token": " Neu",
+    "token_pos_in_answer": 0,
+    "gold_logit": 17.875,
+    "gold_prob_percent": 44.68,
+    "first_token_prob": 0.44677734375,
+    "second_token_prob": 0.413330078125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Neu",
+        "logit": 17.875,
+        "probability_percent": 44.68
+      },
+      {
+        "rank": 1,
+        "token": " New",
+        "logit": 17.796875,
+        "probability_percent": 41.33
+      },
+      {
+        "rank": 2,
+        "token": " Delhi",
+        "logit": 16.125,
+        "probability_percent": 7.76
+      },
+      {
+        "rank": 3,
+        "token": " Ne",
+        "logit": 15.125,
+        "probability_percent": 2.86
+      },
+      {
+        "rank": 4,
+        "token": " die",
+        "logit": 12.6875,
+        "probability_percent": 0.25
+      },
+      {
+        "rank": 5,
+        "token": " Mumbai",
+        "logit": 12.1640625,
+        "probability_percent": 0.15
+      },
+      {
+        "rank": 6,
+        "token": " Ind",
+        "logit": 11.9296875,
+        "probability_percent": 0.12
+      },
+      {
+        "rank": 7,
+        "token": " neu",
+        "logit": 11.859375,
+        "probability_percent": 0.11
+      },
+      {
+        "rank": 8,
+        "token": " das",
+        "logit": 11.734375,
+        "probability_percent": 0.1
+      },
+      {
+        "rank": 9,
+        "token": "\n",
+        "logit": 11.65625,
+        "probability_percent": 0.09
+      }
+    ]
+  },
+  {
+    "prompt": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Indien ist",
+    "generated_prefix": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Indien ist Neu",
+    "gold_token": "-D",
+    "predicted_top1_token": "-D",
+    "token_pos_in_answer": 1,
+    "gold_logit": 18.875,
+    "gold_prob_percent": 89.89,
+    "first_token_prob": 0.44677734375,
+    "second_token_prob": 0.413330078125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "-D",
+        "logit": 18.875,
+        "probability_percent": 89.89
+      },
+      {
+        "rank": 1,
+        "token": " Delhi",
+        "logit": 16.546875,
+        "probability_percent": 8.76
+      },
+      {
+        "rank": 2,
+        "token": " D",
+        "logit": 13.65625,
+        "probability_percent": 0.49
+      },
+      {
+        "rank": 3,
+        "token": " Del",
+        "logit": 12.8671875,
+        "probability_percent": 0.22
+      },
+      {
+        "rank": 4,
+        "token": "Del",
+        "logit": 12.0859375,
+        "probability_percent": 0.1
+      },
+      {
+        "rank": 5,
+        "token": "-",
+        "logit": 11.5234375,
+        "probability_percent": 0.06
+      },
+      {
+        "rank": 6,
+        "token": " -",
+        "logit": 11.1171875,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 7,
+        "token": "-d",
+        "logit": 11.1171875,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 8,
+        "token": "/D",
+        "logit": 10.609375,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 9,
+        "token": "D",
+        "logit": 10.3671875,
+        "probability_percent": 0.02
+      }
+    ]
+  },
+  {
+    "prompt": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Indien ist",
+    "generated_prefix": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Indien ist Neu-D",
+    "gold_token": "el",
+    "predicted_top1_token": "el",
+    "token_pos_in_answer": 2,
+    "gold_logit": 22.546875,
+    "gold_prob_percent": 99.9,
+    "first_token_prob": 0.44677734375,
+    "second_token_prob": 0.413330078125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "el",
+        "logit": 22.546875,
+        "probability_percent": 99.9
+      },
+      {
+        "rank": 1,
+        "token": "ill",
+        "logit": 15.015625,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 2,
+        "token": "elik",
+        "logit": 13.9140625,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 3,
+        "token": "eli",
+        "logit": 13.1953125,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 4,
+        "token": "elf",
+        "logit": 12.6640625,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 5,
+        "token": "ell",
+        "logit": 12.484375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": "elite",
+        "logit": 12.0859375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": "ели",
+        "logit": 11.5859375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "il",
+        "logit": 11.5234375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "elu",
+        "logit": 11.4375,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Indien ist",
+    "generated_prefix": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Indien ist Neu-Del",
+    "gold_token": "hi",
+    "predicted_top1_token": "hi",
+    "token_pos_in_answer": 3,
+    "gold_logit": 23.0625,
+    "gold_prob_percent": 99.9,
+    "first_token_prob": 0.44677734375,
+    "second_token_prob": 0.413330078125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "hi",
+        "logit": 23.0625,
+        "probability_percent": 99.9
+      },
+      {
+        "rank": 1,
+        "token": "chi",
+        "logit": 15.1796875,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 2,
+        "token": "h",
+        "logit": 15.0546875,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 3,
+        "token": "hy",
+        "logit": 14.2109375,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 4,
+        "token": "phi",
+        "logit": 13.0859375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 5,
+        "token": "his",
+        "logit": 12.796875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": "bi",
+        "logit": 12.6796875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": "hip",
+        "logit": 12.2109375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": " hi",
+        "logit": 12.0390625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "hti",
+        "logit": 11.6328125,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Pakistan ist",
+    "generated_prefix": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Pakistan ist",
+    "gold_token": " Islamabad",
+    "predicted_top1_token": " Islamabad",
+    "token_pos_in_answer": 0,
+    "gold_logit": 19.125,
+    "gold_prob_percent": 96.63,
+    "first_token_prob": 0.96630859375,
+    "second_token_prob": 0.00737762451171875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Islamabad",
+        "logit": 19.125,
+        "probability_percent": 96.63
+      },
+      {
+        "rank": 1,
+        "token": " Islam",
+        "logit": 14.25,
+        "probability_percent": 0.74
+      },
+      {
+        "rank": 2,
+        "token": " Isl",
+        "logit": 13.6640625,
+        "probability_percent": 0.41
+      },
+      {
+        "rank": 3,
+        "token": " is",
+        "logit": 13.578125,
+        "probability_percent": 0.38
+      },
+      {
+        "rank": 4,
+        "token": " Karachi",
+        "logit": 12.84375,
+        "probability_percent": 0.18
+      },
+      {
+        "rank": 5,
+        "token": " Is",
+        "logit": 12.734375,
+        "probability_percent": 0.16
+      },
+      {
+        "rank": 6,
+        "token": " Lahore",
+        "logit": 12.4375,
+        "probability_percent": 0.12
+      },
+      {
+        "rank": 7,
+        "token": " Kabul",
+        "logit": 12.0703125,
+        "probability_percent": 0.08
+      },
+      {
+        "rank": 8,
+        "token": "Islam",
+        "logit": 12.0546875,
+        "probability_percent": 0.08
+      },
+      {
+        "rank": 9,
+        "token": " Ish",
+        "logit": 11.375,
+        "probability_percent": 0.04
+      }
+    ]
+  },
+  {
+    "prompt": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Nigeria ist",
+    "generated_prefix": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Nigeria ist",
+    "gold_token": " Abu",
+    "predicted_top1_token": " Abu",
+    "token_pos_in_answer": 0,
+    "gold_logit": 19.171875,
+    "gold_prob_percent": 90.92,
+    "first_token_prob": 0.9091796875,
+    "second_token_prob": 0.0452880859375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Abu",
+        "logit": 19.171875,
+        "probability_percent": 90.92
+      },
+      {
+        "rank": 1,
+        "token": " Lagos",
+        "logit": 16.171875,
+        "probability_percent": 4.53
+      },
+      {
+        "rank": 2,
+        "token": " Ab",
+        "logit": 15.609375,
+        "probability_percent": 2.58
+      },
+      {
+        "rank": 3,
+        "token": " Kad",
+        "logit": 13.5859375,
+        "probability_percent": 0.34
+      },
+      {
+        "rank": 4,
+        "token": " K",
+        "logit": 12.4765625,
+        "probability_percent": 0.11
+      },
+      {
+        "rank": 5,
+        "token": "\n",
+        "logit": 12.0390625,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 6,
+        "token": " Ni",
+        "logit": 11.875,
+        "probability_percent": 0.06
+      },
+      {
+        "rank": 7,
+        "token": " der",
+        "logit": 11.84375,
+        "probability_percent": 0.06
+      },
+      {
+        "rank": 8,
+        "token": " A",
+        "logit": 11.6875,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 9,
+        "token": " As",
+        "logit": 11.546875,
+        "probability_percent": 0.04
+      }
+    ]
+  },
+  {
+    "prompt": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Nigeria ist",
+    "generated_prefix": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Nigeria ist Abu",
+    "gold_token": "ja",
+    "predicted_top1_token": "ja",
+    "token_pos_in_answer": 1,
+    "gold_logit": 23.390625,
+    "gold_prob_percent": 100.0,
+    "first_token_prob": 0.9091796875,
+    "second_token_prob": 0.0452880859375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ja",
+        "logit": 23.390625,
+        "probability_percent": 100.0
+      },
+      {
+        "rank": 1,
+        "token": " Dhabi",
+        "logit": 12.6640625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 2,
+        "token": "\n",
+        "logit": 12.234375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 3,
+        "token": "JA",
+        "logit": 12.1171875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 4,
+        "token": " ja",
+        "logit": 11.78125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 5,
+        "token": ".\n",
+        "logit": 11.6328125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": "za",
+        "logit": 11.5234375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": "je",
+        "logit": 11.2890625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "ju",
+        "logit": 11.2734375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "-",
+        "logit": 10.8984375,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Ägypten ist",
+    "generated_prefix": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Ägypten ist",
+    "gold_token": " K",
+    "predicted_top1_token": " K",
+    "token_pos_in_answer": 0,
+    "gold_logit": 17.59375,
+    "gold_prob_percent": 96.48,
+    "first_token_prob": 0.96484375,
+    "second_token_prob": 0.00356292724609375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " K",
+        "logit": 17.59375,
+        "probability_percent": 96.48
+      },
+      {
+        "rank": 1,
+        "token": " das",
+        "logit": 11.9921875,
+        "probability_percent": 0.36
+      },
+      {
+        "rank": 2,
+        "token": " Ka",
+        "logit": 11.65625,
+        "probability_percent": 0.25
+      },
+      {
+        "rank": 3,
+        "token": " k",
+        "logit": 11.3125,
+        "probability_percent": 0.18
+      },
+      {
+        "rank": 4,
+        "token": " Kas",
+        "logit": 11.0234375,
+        "probability_percent": 0.14
+      },
+      {
+        "rank": 5,
+        "token": " der",
+        "logit": 10.9296875,
+        "probability_percent": 0.12
+      },
+      {
+        "rank": 6,
+        "token": " Alexandria",
+        "logit": 10.7890625,
+        "probability_percent": 0.11
+      },
+      {
+        "rank": 7,
+        "token": " Al",
+        "logit": 10.6328125,
+        "probability_percent": 0.09
+      },
+      {
+        "rank": 8,
+        "token": " K",
+        "logit": 10.5390625,
+        "probability_percent": 0.08
+      },
+      {
+        "rank": 9,
+        "token": " Dam",
+        "logit": 10.34375,
+        "probability_percent": 0.07
+      }
+    ]
+  },
+  {
+    "prompt": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Ägypten ist",
+    "generated_prefix": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Ägypten ist K",
+    "gold_token": "airo",
+    "predicted_top1_token": "airo",
+    "token_pos_in_answer": 1,
+    "gold_logit": 23.625,
+    "gold_prob_percent": 99.95,
+    "first_token_prob": 0.96484375,
+    "second_token_prob": 0.00356292724609375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "airo",
+        "logit": 23.625,
+        "probability_percent": 99.95
+      },
+      {
+        "rank": 1,
+        "token": "air",
+        "logit": 16.125,
+        "probability_percent": 0.06
+      },
+      {
+        "rank": 2,
+        "token": "aire",
+        "logit": 13.2421875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 3,
+        "token": "aser",
+        "logit": 13.171875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 4,
+        "token": "alk",
+        "logit": 12.09375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 5,
+        "token": "áh",
+        "logit": 11.8515625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": "openhagen",
+        "logit": 11.7734375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": "ahir",
+        "logit": 11.6328125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "á",
+        "logit": 11.375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "atar",
+        "logit": 11.2109375,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Saudi-Arabien ist",
+    "generated_prefix": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Saudi-Arabien ist",
+    "gold_token": " Ri",
+    "predicted_top1_token": " Ri",
+    "token_pos_in_answer": 0,
+    "gold_logit": 15.8671875,
+    "gold_prob_percent": 73.88,
+    "first_token_prob": 0.73876953125,
+    "second_token_prob": 0.046875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Ri",
+        "logit": 15.8671875,
+        "probability_percent": 73.88
+      },
+      {
+        "rank": 1,
+        "token": " Riyadh",
+        "logit": 13.109375,
+        "probability_percent": 4.69
+      },
+      {
+        "rank": 2,
+        "token": " R",
+        "logit": 12.4296875,
+        "probability_percent": 2.38
+      },
+      {
+        "rank": 3,
+        "token": " die",
+        "logit": 12.2265625,
+        "probability_percent": 1.94
+      },
+      {
+        "rank": 4,
+        "token": " J",
+        "logit": 12.203125,
+        "probability_percent": 1.89
+      },
+      {
+        "rank": 5,
+        "token": " Riy",
+        "logit": 11.7421875,
+        "probability_percent": 1.19
+      },
+      {
+        "rank": 6,
+        "token": " Dam",
+        "logit": 11.6171875,
+        "probability_percent": 1.05
+      },
+      {
+        "rank": 7,
+        "token": " Medina",
+        "logit": 11.1328125,
+        "probability_percent": 0.65
+      },
+      {
+        "rank": 8,
+        "token": " ar",
+        "logit": 10.96875,
+        "probability_percent": 0.55
+      },
+      {
+        "rank": 9,
+        "token": " Mek",
+        "logit": 10.90625,
+        "probability_percent": 0.52
+      }
+    ]
+  },
+  {
+    "prompt": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Saudi-Arabien ist",
+    "generated_prefix": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Saudi-Arabien ist Ri",
+    "gold_token": "ad",
+    "predicted_top1_token": "ad",
+    "token_pos_in_answer": 1,
+    "gold_logit": 19.296875,
+    "gold_prob_percent": 98.58,
+    "first_token_prob": 0.73876953125,
+    "second_token_prob": 0.046875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ad",
+        "logit": 19.296875,
+        "probability_percent": 98.58
+      },
+      {
+        "rank": 1,
+        "token": "adh",
+        "logit": 14.4453125,
+        "probability_percent": 0.77
+      },
+      {
+        "rank": 2,
+        "token": "ads",
+        "logit": 13.25,
+        "probability_percent": 0.23
+      },
+      {
+        "rank": 3,
+        "token": "yy",
+        "logit": 12.1328125,
+        "probability_percent": 0.08
+      },
+      {
+        "rank": 4,
+        "token": "ade",
+        "logit": 11.6328125,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 5,
+        "token": "ya",
+        "logit": 11.0859375,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 6,
+        "token": "ada",
+        "logit": 10.9765625,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 7,
+        "token": "�",
+        "logit": 10.953125,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 8,
+        "token": "adj",
+        "logit": 10.71875,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 9,
+        "token": "jad",
+        "logit": 10.5546875,
+        "probability_percent": 0.02
+      }
+    ]
+  },
+  {
+    "prompt": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Türkei ist",
+    "generated_prefix": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Türkei ist",
+    "gold_token": " Ankara",
+    "predicted_top1_token": " Ankara",
+    "token_pos_in_answer": 0,
+    "gold_logit": 18.421875,
+    "gold_prob_percent": 77.59,
+    "first_token_prob": 0.77587890625,
+    "second_token_prob": 0.181396484375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Ankara",
+        "logit": 18.421875,
+        "probability_percent": 77.59
+      },
+      {
+        "rank": 1,
+        "token": " Istanbul",
+        "logit": 16.96875,
+        "probability_percent": 18.14
+      },
+      {
+        "rank": 2,
+        "token": " An",
+        "logit": 14.4609375,
+        "probability_percent": 1.48
+      },
+      {
+        "rank": 3,
+        "token": " İstanbul",
+        "logit": 12.390625,
+        "probability_percent": 0.19
+      },
+      {
+        "rank": 4,
+        "token": " St",
+        "logit": 11.890625,
+        "probability_percent": 0.11
+      },
+      {
+        "rank": 5,
+        "token": " Ank",
+        "logit": 11.8671875,
+        "probability_percent": 0.11
+      },
+      {
+        "rank": 6,
+        "token": " Ant",
+        "logit": 11.75,
+        "probability_percent": 0.1
+      },
+      {
+        "rank": 7,
+        "token": " I",
+        "logit": 11.6875,
+        "probability_percent": 0.09
+      },
+      {
+        "rank": 8,
+        "token": " Kon",
+        "logit": 11.5078125,
+        "probability_percent": 0.08
+      },
+      {
+        "rank": 9,
+        "token": " ist",
+        "logit": 11.4140625,
+        "probability_percent": 0.07
+      }
+    ]
+  },
+  {
+    "prompt": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Australien ist",
+    "generated_prefix": "Die Hauptstadt von Norwegen ist Oslo.\nDie Hauptstadt von Australien ist",
+    "gold_token": " Canberra",
+    "predicted_top1_token": " Canberra",
+    "token_pos_in_answer": 0,
+    "gold_logit": 19.296875,
+    "gold_prob_percent": 92.48,
+    "first_token_prob": 0.9248046875,
+    "second_token_prob": 0.01448822021484375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Canberra",
+        "logit": 19.296875,
+        "probability_percent": 92.48
+      },
+      {
+        "rank": 1,
+        "token": " Sydney",
+        "logit": 15.140625,
+        "probability_percent": 1.45
+      },
+      {
+        "rank": 2,
+        "token": " Melbourne",
+        "logit": 14.875,
+        "probability_percent": 1.11
+      },
+      {
+        "rank": 3,
+        "token": " Can",
+        "logit": 14.4453125,
+        "probability_percent": 0.72
+      },
+      {
+        "rank": 4,
+        "token": " Kan",
+        "logit": 13.9453125,
+        "probability_percent": 0.44
+      },
+      {
+        "rank": 5,
+        "token": " Perth",
+        "logit": 13.828125,
+        "probability_percent": 0.39
+      },
+      {
+        "rank": 6,
+        "token": " Brisbane",
+        "logit": 13.640625,
+        "probability_percent": 0.32
+      },
+      {
+        "rank": 7,
+        "token": " die",
+        "logit": 13.328125,
+        "probability_percent": 0.24
+      },
+      {
+        "rank": 8,
+        "token": " Darwin",
+        "logit": 13.2890625,
+        "probability_percent": 0.23
+      },
+      {
+        "rank": 9,
+        "token": " K",
+        "logit": 13.2734375,
+        "probability_percent": 0.22
+      }
+    ]
+  }
+]

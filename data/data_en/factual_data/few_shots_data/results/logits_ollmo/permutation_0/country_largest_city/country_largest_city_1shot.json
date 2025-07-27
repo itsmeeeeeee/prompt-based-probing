@@ -1,0 +1,2444 @@
+[
+  {
+    "prompt": "The most populous city in Norway is Oslo.\nThe most populous city in United States is",
+    "generated_prefix": "The most populous city in Norway is Oslo.\nThe most populous city in United States is",
+    "gold_token": " New",
+    "predicted_top1_token": " New",
+    "token_pos_in_answer": 0,
+    "gold_logit": 16.6875,
+    "gold_prob_percent": 57.67,
+    "first_token_prob": 0.57666015625,
+    "second_token_prob": 0.081787109375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " New",
+        "logit": 16.6875,
+        "probability_percent": 57.67
+      },
+      {
+        "rank": 1,
+        "token": " Los",
+        "logit": 14.734375,
+        "probability_percent": 8.18
+      },
+      {
+        "rank": 2,
+        "token": " what",
+        "logit": 14.0625,
+        "probability_percent": 4.18
+      },
+      {
+        "rank": 3,
+        "token": "\n",
+        "logit": 13.84375,
+        "probability_percent": 3.36
+      },
+      {
+        "rank": 4,
+        "token": " Chicago",
+        "logit": 13.828125,
+        "probability_percent": 3.31
+      },
+      {
+        "rank": 5,
+        "token": " _____",
+        "logit": 13.7734375,
+        "probability_percent": 3.13
+      },
+      {
+        "rank": 6,
+        "token": " ",
+        "logit": 13.59375,
+        "probability_percent": 2.61
+      },
+      {
+        "rank": 7,
+        "token": " .",
+        "logit": 12.828125,
+        "probability_percent": 1.22
+      },
+      {
+        "rank": 8,
+        "token": " which",
+        "logit": 12.5,
+        "probability_percent": 0.88
+      },
+      {
+        "rank": 9,
+        "token": " _________",
+        "logit": 12.4921875,
+        "probability_percent": 0.87
+      }
+    ]
+  },
+  {
+    "prompt": "The most populous city in Norway is Oslo.\nThe most populous city in United States is",
+    "generated_prefix": "The most populous city in Norway is Oslo.\nThe most populous city in United States is New",
+    "gold_token": " York",
+    "predicted_top1_token": " York",
+    "token_pos_in_answer": 1,
+    "gold_logit": 20.765625,
+    "gold_prob_percent": 98.63,
+    "first_token_prob": 0.57666015625,
+    "second_token_prob": 0.081787109375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " York",
+        "logit": 20.765625,
+        "probability_percent": 98.63
+      },
+      {
+        "rank": 1,
+        "token": " y",
+        "logit": 14.875,
+        "probability_percent": 0.27
+      },
+      {
+        "rank": 2,
+        "token": " ",
+        "logit": 14.7421875,
+        "probability_percent": 0.24
+      },
+      {
+        "rank": 3,
+        "token": " Y",
+        "logit": 14.625,
+        "probability_percent": 0.21
+      },
+      {
+        "rank": 4,
+        "token": "\n",
+        "logit": 14.2265625,
+        "probability_percent": 0.14
+      },
+      {
+        "rank": 5,
+        "token": ".",
+        "logit": 14.0234375,
+        "probability_percent": 0.12
+      },
+      {
+        "rank": 6,
+        "token": " Orleans",
+        "logit": 13.2578125,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 7,
+        "token": "York",
+        "logit": 13.171875,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 8,
+        "token": " ",
+        "logit": 12.875,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 9,
+        "token": "-",
+        "logit": 12.640625,
+        "probability_percent": 0.03
+      }
+    ]
+  },
+  {
+    "prompt": "The most populous city in Norway is Oslo.\nThe most populous city in United States is",
+    "generated_prefix": "The most populous city in Norway is Oslo.\nThe most populous city in United States is New York",
+    "gold_token": " City",
+    "predicted_top1_token": " City",
+    "token_pos_in_answer": 2,
+    "gold_logit": 19.890625,
+    "gold_prob_percent": 54.93,
+    "first_token_prob": 0.57666015625,
+    "second_token_prob": 0.081787109375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " City",
+        "logit": 19.890625,
+        "probability_percent": 54.93
+      },
+      {
+        "rank": 1,
+        "token": ".",
+        "logit": 19.625,
+        "probability_percent": 42.11
+      },
+      {
+        "rank": 2,
+        "token": ",",
+        "logit": 16.078125,
+        "probability_percent": 1.21
+      },
+      {
+        "rank": 3,
+        "token": " city",
+        "logit": 14.5703125,
+        "probability_percent": 0.27
+      },
+      {
+        "rank": 4,
+        "token": "\n",
+        "logit": 14.3515625,
+        "probability_percent": 0.22
+      },
+      {
+        "rank": 5,
+        "token": " and",
+        "logit": 14.296875,
+        "probability_percent": 0.2
+      },
+      {
+        "rank": 6,
+        "token": " (",
+        "logit": 14.2421875,
+        "probability_percent": 0.19
+      },
+      {
+        "rank": 7,
+        "token": " or",
+        "logit": 13.9765625,
+        "probability_percent": 0.15
+      },
+      {
+        "rank": 8,
+        "token": " with",
+        "logit": 13.6796875,
+        "probability_percent": 0.11
+      },
+      {
+        "rank": 9,
+        "token": " .",
+        "logit": 13.375,
+        "probability_percent": 0.08
+      }
+    ]
+  },
+  {
+    "prompt": "The most populous city in Norway is Oslo.\nThe most populous city in China is",
+    "generated_prefix": "The most populous city in Norway is Oslo.\nThe most populous city in China is",
+    "gold_token": " Shanghai",
+    "predicted_top1_token": " Beijing",
+    "token_pos_in_answer": 0,
+    "gold_logit": 14.890625,
+    "gold_prob_percent": 25.98,
+    "first_token_prob": 0.27880859375,
+    "second_token_prob": 0.259765625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Beijing",
+        "logit": 14.9609375,
+        "probability_percent": 27.88
+      },
+      {
+        "rank": 1,
+        "token": " Shanghai",
+        "logit": 14.890625,
+        "probability_percent": 25.98
+      },
+      {
+        "rank": 2,
+        "token": " Nan",
+        "logit": 12.875,
+        "probability_percent": 3.46
+      },
+      {
+        "rank": 3,
+        "token": " ",
+        "logit": 12.8046875,
+        "probability_percent": 3.23
+      },
+      {
+        "rank": 4,
+        "token": " what",
+        "logit": 12.7265625,
+        "probability_percent": 2.98
+      },
+      {
+        "rank": 5,
+        "token": "\n",
+        "logit": 12.5,
+        "probability_percent": 2.38
+      },
+      {
+        "rank": 6,
+        "token": " Guang",
+        "logit": 12.4140625,
+        "probability_percent": 2.18
+      },
+      {
+        "rank": 7,
+        "token": " _____",
+        "logit": 12.25,
+        "probability_percent": 1.85
+      },
+      {
+        "rank": 8,
+        "token": " .",
+        "logit": 12.03125,
+        "probability_percent": 1.49
+      },
+      {
+        "rank": 9,
+        "token": " Shen",
+        "logit": 11.875,
+        "probability_percent": 1.27
+      }
+    ]
+  },
+  {
+    "prompt": "The most populous city in Norway is Oslo.\nThe most populous city in Japan is",
+    "generated_prefix": "The most populous city in Norway is Oslo.\nThe most populous city in Japan is",
+    "gold_token": " Tokyo",
+    "predicted_top1_token": " Tokyo",
+    "token_pos_in_answer": 0,
+    "gold_logit": 16.71875,
+    "gold_prob_percent": 67.09,
+    "first_token_prob": 0.6708984375,
+    "second_token_prob": 0.043243408203125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Tokyo",
+        "logit": 16.71875,
+        "probability_percent": 67.09
+      },
+      {
+        "rank": 1,
+        "token": " Os",
+        "logit": 13.9765625,
+        "probability_percent": 4.32
+      },
+      {
+        "rank": 2,
+        "token": ".",
+        "logit": 13.671875,
+        "probability_percent": 3.19
+      },
+      {
+        "rank": 3,
+        "token": " what",
+        "logit": 13.40625,
+        "probability_percent": 2.44
+      },
+      {
+        "rank": 4,
+        "token": " ",
+        "logit": 13.2734375,
+        "probability_percent": 2.14
+      },
+      {
+        "rank": 5,
+        "token": " which",
+        "logit": 13.21875,
+        "probability_percent": 2.03
+      },
+      {
+        "rank": 6,
+        "token": " ?",
+        "logit": 12.6796875,
+        "probability_percent": 1.18
+      },
+      {
+        "rank": 7,
+        "token": " .",
+        "logit": 12.640625,
+        "probability_percent": 1.14
+      },
+      {
+        "rank": 8,
+        "token": "\n",
+        "logit": 12.6171875,
+        "probability_percent": 1.11
+      },
+      {
+        "rank": 9,
+        "token": "?",
+        "logit": 12.515625,
+        "probability_percent": 1.0
+      }
+    ]
+  },
+  {
+    "prompt": "The most populous city in Norway is Oslo.\nThe most populous city in Russia is",
+    "generated_prefix": "The most populous city in Norway is Oslo.\nThe most populous city in Russia is",
+    "gold_token": " Moscow",
+    "predicted_top1_token": " Moscow",
+    "token_pos_in_answer": 0,
+    "gold_logit": 16.03125,
+    "gold_prob_percent": 60.01,
+    "first_token_prob": 0.60009765625,
+    "second_token_prob": 0.07110595703125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Moscow",
+        "logit": 16.03125,
+        "probability_percent": 60.01
+      },
+      {
+        "rank": 1,
+        "token": " what",
+        "logit": 13.8984375,
+        "probability_percent": 7.11
+      },
+      {
+        "rank": 2,
+        "token": " Saint",
+        "logit": 13.5625,
+        "probability_percent": 5.08
+      },
+      {
+        "rank": 3,
+        "token": " St",
+        "logit": 13.25,
+        "probability_percent": 3.72
+      },
+      {
+        "rank": 4,
+        "token": " ",
+        "logit": 12.765625,
+        "probability_percent": 2.29
+      },
+      {
+        "rank": 5,
+        "token": "\n",
+        "logit": 12.6796875,
+        "probability_percent": 2.1
+      },
+      {
+        "rank": 6,
+        "token": " which",
+        "logit": 12.5703125,
+        "probability_percent": 1.88
+      },
+      {
+        "rank": 7,
+        "token": ".",
+        "logit": 12.1640625,
+        "probability_percent": 1.26
+      },
+      {
+        "rank": 8,
+        "token": " .",
+        "logit": 12.125,
+        "probability_percent": 1.21
+      },
+      {
+        "rank": 9,
+        "token": " _____",
+        "logit": 11.921875,
+        "probability_percent": 0.98
+      }
+    ]
+  },
+  {
+    "prompt": "The most populous city in Norway is Oslo.\nThe most populous city in India is",
+    "generated_prefix": "The most populous city in Norway is Oslo.\nThe most populous city in India is",
+    "gold_token": " Mumbai",
+    "predicted_top1_token": " Mumbai",
+    "token_pos_in_answer": 0,
+    "gold_logit": 15.578125,
+    "gold_prob_percent": 35.55,
+    "first_token_prob": 0.35546875,
+    "second_token_prob": 0.136962890625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Mumbai",
+        "logit": 15.578125,
+        "probability_percent": 35.55
+      },
+      {
+        "rank": 1,
+        "token": " New",
+        "logit": 14.625,
+        "probability_percent": 13.7
+      },
+      {
+        "rank": 2,
+        "token": " Delhi",
+        "logit": 14.3984375,
+        "probability_percent": 10.93
+      },
+      {
+        "rank": 3,
+        "token": " K",
+        "logit": 14.1015625,
+        "probability_percent": 8.12
+      },
+      {
+        "rank": 4,
+        "token": " which",
+        "logit": 12.953125,
+        "probability_percent": 2.57
+      },
+      {
+        "rank": 5,
+        "token": " what",
+        "logit": 12.921875,
+        "probability_percent": 2.49
+      },
+      {
+        "rank": 6,
+        "token": "\n",
+        "logit": 12.6640625,
+        "probability_percent": 1.93
+      },
+      {
+        "rank": 7,
+        "token": " ",
+        "logit": 12.6328125,
+        "probability_percent": 1.87
+      },
+      {
+        "rank": 8,
+        "token": " _____",
+        "logit": 12.296875,
+        "probability_percent": 1.34
+      },
+      {
+        "rank": 9,
+        "token": ".",
+        "logit": 12.234375,
+        "probability_percent": 1.26
+      }
+    ]
+  },
+  {
+    "prompt": "The most populous city in Norway is Oslo.\nThe most populous city in Brazil is",
+    "generated_prefix": "The most populous city in Norway is Oslo.\nThe most populous city in Brazil is",
+    "gold_token": " São",
+    "predicted_top1_token": " São",
+    "token_pos_in_answer": 0,
+    "gold_logit": 16.0625,
+    "gold_prob_percent": 58.64,
+    "first_token_prob": 0.58642578125,
+    "second_token_prob": 0.1248779296875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " São",
+        "logit": 16.0625,
+        "probability_percent": 58.64
+      },
+      {
+        "rank": 1,
+        "token": " S",
+        "logit": 14.515625,
+        "probability_percent": 12.49
+      },
+      {
+        "rank": 2,
+        "token": " Rio",
+        "logit": 14.0078125,
+        "probability_percent": 7.51
+      },
+      {
+        "rank": 3,
+        "token": " what",
+        "logit": 13.0390625,
+        "probability_percent": 2.85
+      },
+      {
+        "rank": 4,
+        "token": " which",
+        "logit": 12.90625,
+        "probability_percent": 2.5
+      },
+      {
+        "rank": 5,
+        "token": " Bras",
+        "logit": 12.4296875,
+        "probability_percent": 1.55
+      },
+      {
+        "rank": 6,
+        "token": "\n",
+        "logit": 11.9765625,
+        "probability_percent": 0.99
+      },
+      {
+        "rank": 7,
+        "token": " ",
+        "logit": 11.90625,
+        "probability_percent": 0.92
+      },
+      {
+        "rank": 8,
+        "token": " the",
+        "logit": 11.7421875,
+        "probability_percent": 0.78
+      },
+      {
+        "rank": 9,
+        "token": " ",
+        "logit": 11.7109375,
+        "probability_percent": 0.76
+      }
+    ]
+  },
+  {
+    "prompt": "The most populous city in Norway is Oslo.\nThe most populous city in Brazil is",
+    "generated_prefix": "The most populous city in Norway is Oslo.\nThe most populous city in Brazil is São",
+    "gold_token": " Paulo",
+    "predicted_top1_token": " Paulo",
+    "token_pos_in_answer": 1,
+    "gold_logit": 20.046875,
+    "gold_prob_percent": 98.58,
+    "first_token_prob": 0.58642578125,
+    "second_token_prob": 0.1248779296875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Paulo",
+        "logit": 20.046875,
+        "probability_percent": 98.58
+      },
+      {
+        "rank": 1,
+        "token": " Pa",
+        "logit": 14.78125,
+        "probability_percent": 0.51
+      },
+      {
+        "rank": 2,
+        "token": " ",
+        "logit": 13.625,
+        "probability_percent": 0.16
+      },
+      {
+        "rank": 3,
+        "token": ".",
+        "logit": 13.546875,
+        "probability_percent": 0.15
+      },
+      {
+        "rank": 4,
+        "token": " Paul",
+        "logit": 13.2109375,
+        "probability_percent": 0.11
+      },
+      {
+        "rank": 5,
+        "token": "\n",
+        "logit": 12.6171875,
+        "probability_percent": 0.06
+      },
+      {
+        "rank": 6,
+        "token": " José",
+        "logit": 12.3671875,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 7,
+        "token": " Bern",
+        "logit": 12.3359375,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 8,
+        "token": " Lu",
+        "logit": 12.1875,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 9,
+        "token": " Salvador",
+        "logit": 11.7421875,
+        "probability_percent": 0.02
+      }
+    ]
+  },
+  {
+    "prompt": "The most populous city in Norway is Oslo.\nThe most populous city in Australia is",
+    "generated_prefix": "The most populous city in Norway is Oslo.\nThe most populous city in Australia is",
+    "gold_token": " Sydney",
+    "predicted_top1_token": " Sydney",
+    "token_pos_in_answer": 0,
+    "gold_logit": 16.71875,
+    "gold_prob_percent": 64.36,
+    "first_token_prob": 0.6435546875,
+    "second_token_prob": 0.10186767578125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Sydney",
+        "logit": 16.71875,
+        "probability_percent": 64.36
+      },
+      {
+        "rank": 1,
+        "token": " Melbourne",
+        "logit": 14.875,
+        "probability_percent": 10.19
+      },
+      {
+        "rank": 2,
+        "token": " what",
+        "logit": 13.53125,
+        "probability_percent": 2.66
+      },
+      {
+        "rank": 3,
+        "token": " .",
+        "logit": 13.4765625,
+        "probability_percent": 2.52
+      },
+      {
+        "rank": 4,
+        "token": " Brisbane",
+        "logit": 13.34375,
+        "probability_percent": 2.2
+      },
+      {
+        "rank": 5,
+        "token": " ",
+        "logit": 13.1640625,
+        "probability_percent": 1.84
+      },
+      {
+        "rank": 6,
+        "token": " which",
+        "logit": 13.0859375,
+        "probability_percent": 1.7
+      },
+      {
+        "rank": 7,
+        "token": "\n",
+        "logit": 13.078125,
+        "probability_percent": 1.69
+      },
+      {
+        "rank": 8,
+        "token": " Perth",
+        "logit": 12.859375,
+        "probability_percent": 1.36
+      },
+      {
+        "rank": 9,
+        "token": " ?",
+        "logit": 12.515625,
+        "probability_percent": 0.96
+      }
+    ]
+  },
+  {
+    "prompt": "The most populous city in Norway is Oslo.\nThe most populous city in Canada is",
+    "generated_prefix": "The most populous city in Norway is Oslo.\nThe most populous city in Canada is",
+    "gold_token": " Toronto",
+    "predicted_top1_token": " Toronto",
+    "token_pos_in_answer": 0,
+    "gold_logit": 16.765625,
+    "gold_prob_percent": 71.39,
+    "first_token_prob": 0.7138671875,
+    "second_token_prob": 0.036102294921875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Toronto",
+        "logit": 16.765625,
+        "probability_percent": 71.39
+      },
+      {
+        "rank": 1,
+        "token": " Vancouver",
+        "logit": 13.78125,
+        "probability_percent": 3.61
+      },
+      {
+        "rank": 2,
+        "token": " Montreal",
+        "logit": 13.640625,
+        "probability_percent": 3.14
+      },
+      {
+        "rank": 3,
+        "token": " what",
+        "logit": 13.3125,
+        "probability_percent": 2.26
+      },
+      {
+        "rank": 4,
+        "token": " _____",
+        "logit": 12.9609375,
+        "probability_percent": 1.59
+      },
+      {
+        "rank": 5,
+        "token": " ",
+        "logit": 12.890625,
+        "probability_percent": 1.48
+      },
+      {
+        "rank": 6,
+        "token": "\n",
+        "logit": 12.8359375,
+        "probability_percent": 1.4
+      },
+      {
+        "rank": 7,
+        "token": ".",
+        "logit": 12.421875,
+        "probability_percent": 0.93
+      },
+      {
+        "rank": 8,
+        "token": " Ottawa",
+        "logit": 12.3671875,
+        "probability_percent": 0.88
+      },
+      {
+        "rank": 9,
+        "token": "?",
+        "logit": 12.15625,
+        "probability_percent": 0.71
+      }
+    ]
+  },
+  {
+    "prompt": "The most populous city in Norway is Oslo.\nThe most populous city in United Kingdom is",
+    "generated_prefix": "The most populous city in Norway is Oslo.\nThe most populous city in United Kingdom is",
+    "gold_token": " London",
+    "predicted_top1_token": " London",
+    "token_pos_in_answer": 0,
+    "gold_logit": 17.34375,
+    "gold_prob_percent": 76.12,
+    "first_token_prob": 0.76123046875,
+    "second_token_prob": 0.049835205078125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " London",
+        "logit": 17.34375,
+        "probability_percent": 76.12
+      },
+      {
+        "rank": 1,
+        "token": " what",
+        "logit": 14.6171875,
+        "probability_percent": 4.98
+      },
+      {
+        "rank": 2,
+        "token": "\n",
+        "logit": 13.4296875,
+        "probability_percent": 1.52
+      },
+      {
+        "rank": 3,
+        "token": " ",
+        "logit": 13.390625,
+        "probability_percent": 1.46
+      },
+      {
+        "rank": 4,
+        "token": " .",
+        "logit": 13.3828125,
+        "probability_percent": 1.45
+      },
+      {
+        "rank": 5,
+        "token": ".",
+        "logit": 13.3671875,
+        "probability_percent": 1.43
+      },
+      {
+        "rank": 6,
+        "token": " which",
+        "logit": 13.0546875,
+        "probability_percent": 1.04
+      },
+      {
+        "rank": 7,
+        "token": " Birmingham",
+        "logit": 12.8984375,
+        "probability_percent": 0.89
+      },
+      {
+        "rank": 8,
+        "token": " Greater",
+        "logit": 12.8984375,
+        "probability_percent": 0.89
+      },
+      {
+        "rank": 9,
+        "token": " _____",
+        "logit": 12.734375,
+        "probability_percent": 0.76
+      }
+    ]
+  },
+  {
+    "prompt": "The most populous city in Norway is Oslo.\nThe most populous city in France is",
+    "generated_prefix": "The most populous city in Norway is Oslo.\nThe most populous city in France is",
+    "gold_token": " Paris",
+    "predicted_top1_token": " Paris",
+    "token_pos_in_answer": 0,
+    "gold_logit": 16.359375,
+    "gold_prob_percent": 66.36,
+    "first_token_prob": 0.66357421875,
+    "second_token_prob": 0.079833984375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Paris",
+        "logit": 16.359375,
+        "probability_percent": 66.36
+      },
+      {
+        "rank": 1,
+        "token": " what",
+        "logit": 14.2421875,
+        "probability_percent": 7.98
+      },
+      {
+        "rank": 2,
+        "token": " which",
+        "logit": 13.3203125,
+        "probability_percent": 3.18
+      },
+      {
+        "rank": 3,
+        "token": " Mar",
+        "logit": 13.296875,
+        "probability_percent": 3.1
+      },
+      {
+        "rank": 4,
+        "token": "\n",
+        "logit": 12.6171875,
+        "probability_percent": 1.57
+      },
+      {
+        "rank": 5,
+        "token": " Lyon",
+        "logit": 12.296875,
+        "probability_percent": 1.14
+      },
+      {
+        "rank": 6,
+        "token": " the",
+        "logit": 12.21875,
+        "probability_percent": 1.06
+      },
+      {
+        "rank": 7,
+        "token": " ?",
+        "logit": 12.0,
+        "probability_percent": 0.85
+      },
+      {
+        "rank": 8,
+        "token": "?",
+        "logit": 11.8828125,
+        "probability_percent": 0.75
+      },
+      {
+        "rank": 9,
+        "token": ".",
+        "logit": 11.8671875,
+        "probability_percent": 0.74
+      }
+    ]
+  },
+  {
+    "prompt": "The most populous city in Norway is Oslo.\nThe most populous city in Germany is",
+    "generated_prefix": "The most populous city in Norway is Oslo.\nThe most populous city in Germany is",
+    "gold_token": " Berlin",
+    "predicted_top1_token": " Berlin",
+    "token_pos_in_answer": 0,
+    "gold_logit": 15.921875,
+    "gold_prob_percent": 47.0,
+    "first_token_prob": 0.469970703125,
+    "second_token_prob": 0.0836181640625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Berlin",
+        "logit": 15.921875,
+        "probability_percent": 47.0
+      },
+      {
+        "rank": 1,
+        "token": " Hamburg",
+        "logit": 14.1953125,
+        "probability_percent": 8.36
+      },
+      {
+        "rank": 2,
+        "token": " what",
+        "logit": 13.75,
+        "probability_percent": 5.36
+      },
+      {
+        "rank": 3,
+        "token": " ",
+        "logit": 13.3125,
+        "probability_percent": 3.46
+      },
+      {
+        "rank": 4,
+        "token": " which",
+        "logit": 13.296875,
+        "probability_percent": 3.41
+      },
+      {
+        "rank": 5,
+        "token": "\n",
+        "logit": 13.28125,
+        "probability_percent": 3.35
+      },
+      {
+        "rank": 6,
+        "token": " Frankfurt",
+        "logit": 13.0390625,
+        "probability_percent": 2.63
+      },
+      {
+        "rank": 7,
+        "token": " ?",
+        "logit": 12.8359375,
+        "probability_percent": 2.15
+      },
+      {
+        "rank": 8,
+        "token": " _____",
+        "logit": 12.6328125,
+        "probability_percent": 1.75
+      },
+      {
+        "rank": 9,
+        "token": " Munich",
+        "logit": 12.59375,
+        "probability_percent": 1.69
+      }
+    ]
+  },
+  {
+    "prompt": "The most populous city in Norway is Oslo.\nThe most populous city in Italy is",
+    "generated_prefix": "The most populous city in Norway is Oslo.\nThe most populous city in Italy is",
+    "gold_token": " Rome",
+    "predicted_top1_token": " Rome",
+    "token_pos_in_answer": 0,
+    "gold_logit": 16.59375,
+    "gold_prob_percent": 59.13,
+    "first_token_prob": 0.59130859375,
+    "second_token_prob": 0.13818359375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Rome",
+        "logit": 16.59375,
+        "probability_percent": 59.13
+      },
+      {
+        "rank": 1,
+        "token": " Milan",
+        "logit": 15.140625,
+        "probability_percent": 13.82
+      },
+      {
+        "rank": 2,
+        "token": " which",
+        "logit": 13.921875,
+        "probability_percent": 4.09
+      },
+      {
+        "rank": 3,
+        "token": " _____",
+        "logit": 13.5234375,
+        "probability_percent": 2.74
+      },
+      {
+        "rank": 4,
+        "token": " ",
+        "logit": 13.359375,
+        "probability_percent": 2.33
+      },
+      {
+        "rank": 5,
+        "token": " what",
+        "logit": 13.328125,
+        "probability_percent": 2.26
+      },
+      {
+        "rank": 6,
+        "token": "\n",
+        "logit": 12.8671875,
+        "probability_percent": 1.42
+      },
+      {
+        "rank": 7,
+        "token": " Naples",
+        "logit": 12.8671875,
+        "probability_percent": 1.42
+      },
+      {
+        "rank": 8,
+        "token": " Mil",
+        "logit": 12.3828125,
+        "probability_percent": 0.88
+      },
+      {
+        "rank": 9,
+        "token": " ?",
+        "logit": 12.2578125,
+        "probability_percent": 0.77
+      }
+    ]
+  },
+  {
+    "prompt": "The most populous city in Norway is Oslo.\nThe most populous city in Mexico is",
+    "generated_prefix": "The most populous city in Norway is Oslo.\nThe most populous city in Mexico is",
+    "gold_token": " Mexico",
+    "predicted_top1_token": " Mexico",
+    "token_pos_in_answer": 0,
+    "gold_logit": 15.8046875,
+    "gold_prob_percent": 59.67,
+    "first_token_prob": 0.5966796875,
+    "second_token_prob": 0.04425048828125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Mexico",
+        "logit": 15.8046875,
+        "probability_percent": 59.67
+      },
+      {
+        "rank": 1,
+        "token": " what",
+        "logit": 13.203125,
+        "probability_percent": 4.43
+      },
+      {
+        "rank": 2,
+        "token": " which",
+        "logit": 13.09375,
+        "probability_percent": 3.97
+      },
+      {
+        "rank": 3,
+        "token": " Gu",
+        "logit": 12.734375,
+        "probability_percent": 2.77
+      },
+      {
+        "rank": 4,
+        "token": "\n",
+        "logit": 12.59375,
+        "probability_percent": 2.41
+      },
+      {
+        "rank": 5,
+        "token": " _____",
+        "logit": 12.5,
+        "probability_percent": 2.19
+      },
+      {
+        "rank": 6,
+        "token": " ",
+        "logit": 12.375,
+        "probability_percent": 1.93
+      },
+      {
+        "rank": 7,
+        "token": " .",
+        "logit": 12.359375,
+        "probability_percent": 1.9
+      },
+      {
+        "rank": 8,
+        "token": " ",
+        "logit": 12.0,
+        "probability_percent": 1.33
+      },
+      {
+        "rank": 9,
+        "token": ".",
+        "logit": 11.90625,
+        "probability_percent": 1.21
+      }
+    ]
+  },
+  {
+    "prompt": "The most populous city in Norway is Oslo.\nThe most populous city in Mexico is",
+    "generated_prefix": "The most populous city in Norway is Oslo.\nThe most populous city in Mexico is Mexico",
+    "gold_token": " City",
+    "predicted_top1_token": " City",
+    "token_pos_in_answer": 1,
+    "gold_logit": 20.0,
+    "gold_prob_percent": 96.09,
+    "first_token_prob": 0.5966796875,
+    "second_token_prob": 0.04425048828125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " City",
+        "logit": 20.0,
+        "probability_percent": 96.09
+      },
+      {
+        "rank": 1,
+        "token": ".",
+        "logit": 16.328125,
+        "probability_percent": 2.44
+      },
+      {
+        "rank": 2,
+        "token": " ",
+        "logit": 14.5,
+        "probability_percent": 0.39
+      },
+      {
+        "rank": 3,
+        "token": " city",
+        "logit": 13.9765625,
+        "probability_percent": 0.23
+      },
+      {
+        "rank": 4,
+        "token": ",",
+        "logit": 13.796875,
+        "probability_percent": 0.19
+      },
+      {
+        "rank": 5,
+        "token": " .",
+        "logit": 12.7421875,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 6,
+        "token": "\n",
+        "logit": 12.6015625,
+        "probability_percent": 0.06
+      },
+      {
+        "rank": 7,
+        "token": " D",
+        "logit": 12.28125,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 8,
+        "token": " (",
+        "logit": 12.1640625,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 9,
+        "token": " DF",
+        "logit": 11.9609375,
+        "probability_percent": 0.03
+      }
+    ]
+  },
+  {
+    "prompt": "The most populous city in Norway is Oslo.\nThe most populous city in South Korea is",
+    "generated_prefix": "The most populous city in Norway is Oslo.\nThe most populous city in South Korea is",
+    "gold_token": " Seoul",
+    "predicted_top1_token": " Seoul",
+    "token_pos_in_answer": 0,
+    "gold_logit": 17.140625,
+    "gold_prob_percent": 79.15,
+    "first_token_prob": 0.79150390625,
+    "second_token_prob": 0.08209228515625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Seoul",
+        "logit": 17.140625,
+        "probability_percent": 79.15
+      },
+      {
+        "rank": 1,
+        "token": " Bus",
+        "logit": 14.875,
+        "probability_percent": 8.21
+      },
+      {
+        "rank": 2,
+        "token": "\n",
+        "logit": 12.828125,
+        "probability_percent": 1.06
+      },
+      {
+        "rank": 3,
+        "token": " ",
+        "logit": 12.78125,
+        "probability_percent": 1.01
+      },
+      {
+        "rank": 4,
+        "token": " which",
+        "logit": 12.6796875,
+        "probability_percent": 0.91
+      },
+      {
+        "rank": 5,
+        "token": " Se",
+        "logit": 12.515625,
+        "probability_percent": 0.78
+      },
+      {
+        "rank": 6,
+        "token": ".",
+        "logit": 12.421875,
+        "probability_percent": 0.71
+      },
+      {
+        "rank": 7,
+        "token": " what",
+        "logit": 12.2890625,
+        "probability_percent": 0.62
+      },
+      {
+        "rank": 8,
+        "token": " In",
+        "logit": 11.921875,
+        "probability_percent": 0.43
+      },
+      {
+        "rank": 9,
+        "token": " ?",
+        "logit": 11.7734375,
+        "probability_percent": 0.37
+      }
+    ]
+  },
+  {
+    "prompt": "The most populous city in Norway is Oslo.\nThe most populous city in Turkey is",
+    "generated_prefix": "The most populous city in Norway is Oslo.\nThe most populous city in Turkey is",
+    "gold_token": " Istanbul",
+    "predicted_top1_token": " Istanbul",
+    "token_pos_in_answer": 0,
+    "gold_logit": 16.828125,
+    "gold_prob_percent": 68.16,
+    "first_token_prob": 0.681640625,
+    "second_token_prob": 0.07891845703125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Istanbul",
+        "logit": 16.828125,
+        "probability_percent": 68.16
+      },
+      {
+        "rank": 1,
+        "token": " �",
+        "logit": 14.671875,
+        "probability_percent": 7.89
+      },
+      {
+        "rank": 2,
+        "token": " Ank",
+        "logit": 14.4375,
+        "probability_percent": 6.24
+      },
+      {
+        "rank": 3,
+        "token": " ?",
+        "logit": 13.3828125,
+        "probability_percent": 2.17
+      },
+      {
+        "rank": 4,
+        "token": " what",
+        "logit": 13.2578125,
+        "probability_percent": 1.92
+      },
+      {
+        "rank": 5,
+        "token": " which",
+        "logit": 13.03125,
+        "probability_percent": 1.53
+      },
+      {
+        "rank": 6,
+        "token": ".",
+        "logit": 12.828125,
+        "probability_percent": 1.25
+      },
+      {
+        "rank": 7,
+        "token": " ",
+        "logit": 12.3984375,
+        "probability_percent": 0.81
+      },
+      {
+        "rank": 8,
+        "token": " Iz",
+        "logit": 12.3203125,
+        "probability_percent": 0.75
+      },
+      {
+        "rank": 9,
+        "token": "\n",
+        "logit": 12.2578125,
+        "probability_percent": 0.71
+      }
+    ]
+  },
+  {
+    "prompt": "The most populous city in Norway is Oslo.\nThe most populous city in Spain is",
+    "generated_prefix": "The most populous city in Norway is Oslo.\nThe most populous city in Spain is",
+    "gold_token": " Madrid",
+    "predicted_top1_token": " Madrid",
+    "token_pos_in_answer": 0,
+    "gold_logit": 16.078125,
+    "gold_prob_percent": 56.2,
+    "first_token_prob": 0.56201171875,
+    "second_token_prob": 0.0946044921875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Madrid",
+        "logit": 16.078125,
+        "probability_percent": 56.2
+      },
+      {
+        "rank": 1,
+        "token": " Barcelona",
+        "logit": 14.296875,
+        "probability_percent": 9.46
+      },
+      {
+        "rank": 2,
+        "token": " which",
+        "logit": 13.4921875,
+        "probability_percent": 4.23
+      },
+      {
+        "rank": 3,
+        "token": " what",
+        "logit": 13.2734375,
+        "probability_percent": 3.4
+      },
+      {
+        "rank": 4,
+        "token": "\n",
+        "logit": 12.8671875,
+        "probability_percent": 2.27
+      },
+      {
+        "rank": 5,
+        "token": " .",
+        "logit": 12.796875,
+        "probability_percent": 2.11
+      },
+      {
+        "rank": 6,
+        "token": " ",
+        "logit": 12.765625,
+        "probability_percent": 2.05
+      },
+      {
+        "rank": 7,
+        "token": " _____",
+        "logit": 12.390625,
+        "probability_percent": 1.41
+      },
+      {
+        "rank": 8,
+        "token": ".",
+        "logit": 12.3828125,
+        "probability_percent": 1.4
+      },
+      {
+        "rank": 9,
+        "token": " Valencia",
+        "logit": 12.2421875,
+        "probability_percent": 1.21
+      }
+    ]
+  },
+  {
+    "prompt": "The most populous city in Norway is Oslo.\nThe most populous city in Argentina is",
+    "generated_prefix": "The most populous city in Norway is Oslo.\nThe most populous city in Argentina is",
+    "gold_token": " Buenos",
+    "predicted_top1_token": " Buenos",
+    "token_pos_in_answer": 0,
+    "gold_logit": 16.859375,
+    "gold_prob_percent": 80.62,
+    "first_token_prob": 0.80615234375,
+    "second_token_prob": 0.0271453857421875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Buenos",
+        "logit": 16.859375,
+        "probability_percent": 80.62
+      },
+      {
+        "rank": 1,
+        "token": " which",
+        "logit": 13.46875,
+        "probability_percent": 2.71
+      },
+      {
+        "rank": 2,
+        "token": " .",
+        "logit": 12.921875,
+        "probability_percent": 1.57
+      },
+      {
+        "rank": 3,
+        "token": "\n",
+        "logit": 12.6953125,
+        "probability_percent": 1.25
+      },
+      {
+        "rank": 4,
+        "token": " what",
+        "logit": 12.6171875,
+        "probability_percent": 1.16
+      },
+      {
+        "rank": 5,
+        "token": " ",
+        "logit": 12.40625,
+        "probability_percent": 0.94
+      },
+      {
+        "rank": 6,
+        "token": " ?",
+        "logit": 12.390625,
+        "probability_percent": 0.92
+      },
+      {
+        "rank": 7,
+        "token": ".",
+        "logit": 12.265625,
+        "probability_percent": 0.81
+      },
+      {
+        "rank": 8,
+        "token": " the",
+        "logit": 12.2578125,
+        "probability_percent": 0.81
+      },
+      {
+        "rank": 9,
+        "token": " ",
+        "logit": 12.21875,
+        "probability_percent": 0.78
+      }
+    ]
+  },
+  {
+    "prompt": "The most populous city in Norway is Oslo.\nThe most populous city in Argentina is",
+    "generated_prefix": "The most populous city in Norway is Oslo.\nThe most populous city in Argentina is Buenos",
+    "gold_token": " Aires",
+    "predicted_top1_token": " Aires",
+    "token_pos_in_answer": 1,
+    "gold_logit": 18.984375,
+    "gold_prob_percent": 99.07,
+    "first_token_prob": 0.80615234375,
+    "second_token_prob": 0.0271453857421875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Aires",
+        "logit": 18.984375,
+        "probability_percent": 99.07
+      },
+      {
+        "rank": 1,
+        "token": " A",
+        "logit": 13.0390625,
+        "probability_percent": 0.26
+      },
+      {
+        "rank": 2,
+        "token": ".",
+        "logit": 12.7109375,
+        "probability_percent": 0.19
+      },
+      {
+        "rank": 3,
+        "token": " a",
+        "logit": 11.9296875,
+        "probability_percent": 0.09
+      },
+      {
+        "rank": 4,
+        "token": " ",
+        "logit": 11.421875,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 5,
+        "token": "\n",
+        "logit": 11.0859375,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 6,
+        "token": " Ay",
+        "logit": 10.703125,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 7,
+        "token": ",",
+        "logit": 10.015625,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 8,
+        "token": "aires",
+        "logit": 10.015625,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 9,
+        "token": " Air",
+        "logit": 10.0,
+        "probability_percent": 0.01
+      }
+    ]
+  },
+  {
+    "prompt": "The most populous city in Norway is Oslo.\nThe most populous city in South Africa is",
+    "generated_prefix": "The most populous city in Norway is Oslo.\nThe most populous city in South Africa is",
+    "gold_token": " Johannes",
+    "predicted_top1_token": " Johannes",
+    "token_pos_in_answer": 0,
+    "gold_logit": 16.171875,
+    "gold_prob_percent": 57.91,
+    "first_token_prob": 0.5791015625,
+    "second_token_prob": 0.1954345703125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Johannes",
+        "logit": 16.171875,
+        "probability_percent": 57.91
+      },
+      {
+        "rank": 1,
+        "token": " Cape",
+        "logit": 15.0859375,
+        "probability_percent": 19.54
+      },
+      {
+        "rank": 2,
+        "token": " Pret",
+        "logit": 13.703125,
+        "probability_percent": 4.9
+      },
+      {
+        "rank": 3,
+        "token": " D",
+        "logit": 12.90625,
+        "probability_percent": 2.21
+      },
+      {
+        "rank": 4,
+        "token": " which",
+        "logit": 12.7890625,
+        "probability_percent": 1.97
+      },
+      {
+        "rank": 5,
+        "token": " .",
+        "logit": 11.96875,
+        "probability_percent": 0.87
+      },
+      {
+        "rank": 6,
+        "token": " Cap",
+        "logit": 11.96875,
+        "probability_percent": 0.87
+      },
+      {
+        "rank": 7,
+        "token": " what",
+        "logit": 11.953125,
+        "probability_percent": 0.85
+      },
+      {
+        "rank": 8,
+        "token": "\n",
+        "logit": 11.90625,
+        "probability_percent": 0.81
+      },
+      {
+        "rank": 9,
+        "token": " ",
+        "logit": 11.8671875,
+        "probability_percent": 0.78
+      }
+    ]
+  },
+  {
+    "prompt": "The most populous city in Norway is Oslo.\nThe most populous city in South Africa is",
+    "generated_prefix": "The most populous city in Norway is Oslo.\nThe most populous city in South Africa is Johannes",
+    "gold_token": "burg",
+    "predicted_top1_token": "burg",
+    "token_pos_in_answer": 1,
+    "gold_logit": 22.390625,
+    "gold_prob_percent": 99.9,
+    "first_token_prob": 0.5791015625,
+    "second_token_prob": 0.1954345703125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "burg",
+        "logit": 22.390625,
+        "probability_percent": 99.9
+      },
+      {
+        "rank": 1,
+        "token": "berg",
+        "logit": 14.71875,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 2,
+        "token": "bur",
+        "logit": 13.3515625,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 3,
+        "token": ".",
+        "logit": 13.3046875,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 4,
+        "token": "burgh",
+        "logit": 13.109375,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 5,
+        "token": "bourg",
+        "logit": 12.828125,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 6,
+        "token": "urg",
+        "logit": 11.96875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": "bug",
+        "logit": 11.59375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "b",
+        "logit": 11.484375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "bu",
+        "logit": 11.34375,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "The most populous city in Norway is Oslo.\nThe most populous city in Poland is",
+    "generated_prefix": "The most populous city in Norway is Oslo.\nThe most populous city in Poland is",
+    "gold_token": " Warsaw",
+    "predicted_top1_token": " Warsaw",
+    "token_pos_in_answer": 0,
+    "gold_logit": 16.640625,
+    "gold_prob_percent": 70.46,
+    "first_token_prob": 0.70458984375,
+    "second_token_prob": 0.037933349609375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Warsaw",
+        "logit": 16.640625,
+        "probability_percent": 70.46
+      },
+      {
+        "rank": 1,
+        "token": " K",
+        "logit": 13.71875,
+        "probability_percent": 3.79
+      },
+      {
+        "rank": 2,
+        "token": " W",
+        "logit": 13.546875,
+        "probability_percent": 3.19
+      },
+      {
+        "rank": 3,
+        "token": " what",
+        "logit": 12.921875,
+        "probability_percent": 1.71
+      },
+      {
+        "rank": 4,
+        "token": "\n",
+        "logit": 12.7890625,
+        "probability_percent": 1.5
+      },
+      {
+        "rank": 5,
+        "token": " ?",
+        "logit": 12.7265625,
+        "probability_percent": 1.41
+      },
+      {
+        "rank": 6,
+        "token": " which",
+        "logit": 12.71875,
+        "probability_percent": 1.39
+      },
+      {
+        "rank": 7,
+        "token": " _____",
+        "logit": 12.7109375,
+        "probability_percent": 1.38
+      },
+      {
+        "rank": 8,
+        "token": " .",
+        "logit": 12.703125,
+        "probability_percent": 1.37
+      },
+      {
+        "rank": 9,
+        "token": " Wars",
+        "logit": 12.578125,
+        "probability_percent": 1.21
+      }
+    ]
+  },
+  {
+    "prompt": "The most populous city in Norway is Oslo.\nThe most populous city in Nigeria is",
+    "generated_prefix": "The most populous city in Norway is Oslo.\nThe most populous city in Nigeria is",
+    "gold_token": " Lag",
+    "predicted_top1_token": " Lag",
+    "token_pos_in_answer": 0,
+    "gold_logit": 16.59375,
+    "gold_prob_percent": 70.41,
+    "first_token_prob": 0.7041015625,
+    "second_token_prob": 0.048675537109375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Lag",
+        "logit": 16.59375,
+        "probability_percent": 70.41
+      },
+      {
+        "rank": 1,
+        "token": " Abu",
+        "logit": 13.921875,
+        "probability_percent": 4.87
+      },
+      {
+        "rank": 2,
+        "token": " K",
+        "logit": 13.890625,
+        "probability_percent": 4.72
+      },
+      {
+        "rank": 3,
+        "token": " what",
+        "logit": 13.2734375,
+        "probability_percent": 2.55
+      },
+      {
+        "rank": 4,
+        "token": "\n",
+        "logit": 12.9140625,
+        "probability_percent": 1.78
+      },
+      {
+        "rank": 5,
+        "token": " the",
+        "logit": 12.625,
+        "probability_percent": 1.33
+      },
+      {
+        "rank": 6,
+        "token": " which",
+        "logit": 12.609375,
+        "probability_percent": 1.31
+      },
+      {
+        "rank": 7,
+        "token": " ",
+        "logit": 12.0390625,
+        "probability_percent": 0.74
+      },
+      {
+        "rank": 8,
+        "token": ".",
+        "logit": 11.953125,
+        "probability_percent": 0.68
+      },
+      {
+        "rank": 9,
+        "token": " I",
+        "logit": 11.9296875,
+        "probability_percent": 0.66
+      }
+    ]
+  },
+  {
+    "prompt": "The most populous city in Norway is Oslo.\nThe most populous city in Nigeria is",
+    "generated_prefix": "The most populous city in Norway is Oslo.\nThe most populous city in Nigeria is Lag",
+    "gold_token": "os",
+    "predicted_top1_token": "os",
+    "token_pos_in_answer": 1,
+    "gold_logit": 21.875,
+    "gold_prob_percent": 99.95,
+    "first_token_prob": 0.7041015625,
+    "second_token_prob": 0.048675537109375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "os",
+        "logit": 21.875,
+        "probability_percent": 99.95
+      },
+      {
+        "rank": 1,
+        "token": ".",
+        "logit": 13.2421875,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 2,
+        "token": "\n",
+        "logit": 12.2265625,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 3,
+        "token": "<|endoftext|>",
+        "logit": 12.0546875,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 4,
+        "token": " Os",
+        "logit": 10.71875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 5,
+        "token": "...",
+        "logit": 10.671875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": " os",
+        "logit": 10.65625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": ",",
+        "logit": 10.4140625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "oon",
+        "logit": 10.28125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": " ",
+        "logit": 9.9921875,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "The most populous city in Norway is Oslo.\nThe most populous city in New Zealand is",
+    "generated_prefix": "The most populous city in Norway is Oslo.\nThe most populous city in New Zealand is",
+    "gold_token": " Auckland",
+    "predicted_top1_token": " Auckland",
+    "token_pos_in_answer": 0,
+    "gold_logit": 16.453125,
+    "gold_prob_percent": 61.77,
+    "first_token_prob": 0.61767578125,
+    "second_token_prob": 0.11248779296875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Auckland",
+        "logit": 16.453125,
+        "probability_percent": 61.77
+      },
+      {
+        "rank": 1,
+        "token": " Wellington",
+        "logit": 14.75,
+        "probability_percent": 11.25
+      },
+      {
+        "rank": 2,
+        "token": " which",
+        "logit": 13.4296875,
+        "probability_percent": 3.0
+      },
+      {
+        "rank": 3,
+        "token": ".",
+        "logit": 13.3125,
+        "probability_percent": 2.67
+      },
+      {
+        "rank": 4,
+        "token": " .",
+        "logit": 13.03125,
+        "probability_percent": 2.02
+      },
+      {
+        "rank": 5,
+        "token": "\n",
+        "logit": 13.0234375,
+        "probability_percent": 2.0
+      },
+      {
+        "rank": 6,
+        "token": " what",
+        "logit": 12.8203125,
+        "probability_percent": 1.63
+      },
+      {
+        "rank": 7,
+        "token": " New",
+        "logit": 12.421875,
+        "probability_percent": 1.1
+      },
+      {
+        "rank": 8,
+        "token": " ",
+        "logit": 12.3984375,
+        "probability_percent": 1.07
+      },
+      {
+        "rank": 9,
+        "token": " Christ",
+        "logit": 12.3125,
+        "probability_percent": 0.98
+      }
+    ]
+  },
+  {
+    "prompt": "The most populous city in Norway is Oslo.\nThe most populous city in Switzerland is",
+    "generated_prefix": "The most populous city in Norway is Oslo.\nThe most populous city in Switzerland is",
+    "gold_token": " Zur",
+    "predicted_top1_token": " Zur",
+    "token_pos_in_answer": 0,
+    "gold_logit": 15.984375,
+    "gold_prob_percent": 37.23,
+    "first_token_prob": 0.372314453125,
+    "second_token_prob": 0.225830078125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Zur",
+        "logit": 15.984375,
+        "probability_percent": 37.23
+      },
+      {
+        "rank": 1,
+        "token": " Geneva",
+        "logit": 15.484375,
+        "probability_percent": 22.58
+      },
+      {
+        "rank": 2,
+        "token": " Z",
+        "logit": 14.9453125,
+        "probability_percent": 13.17
+      },
+      {
+        "rank": 3,
+        "token": " Bern",
+        "logit": 14.109375,
+        "probability_percent": 5.71
+      },
+      {
+        "rank": 4,
+        "token": " which",
+        "logit": 13.859375,
+        "probability_percent": 4.45
+      },
+      {
+        "rank": 5,
+        "token": " what",
+        "logit": 13.3203125,
+        "probability_percent": 2.59
+      },
+      {
+        "rank": 6,
+        "token": "\n",
+        "logit": 12.4375,
+        "probability_percent": 1.07
+      },
+      {
+        "rank": 7,
+        "token": " Bas",
+        "logit": 12.4375,
+        "probability_percent": 1.07
+      },
+      {
+        "rank": 8,
+        "token": " where",
+        "logit": 12.234375,
+        "probability_percent": 0.88
+      },
+      {
+        "rank": 9,
+        "token": " Ber",
+        "logit": 11.96875,
+        "probability_percent": 0.67
+      }
+    ]
+  },
+  {
+    "prompt": "The most populous city in Norway is Oslo.\nThe most populous city in Switzerland is",
+    "generated_prefix": "The most populous city in Norway is Oslo.\nThe most populous city in Switzerland is Zur",
+    "gold_token": "ich",
+    "predicted_top1_token": "ich",
+    "token_pos_in_answer": 1,
+    "gold_logit": 22.8125,
+    "gold_prob_percent": 99.95,
+    "first_token_prob": 0.372314453125,
+    "second_token_prob": 0.225830078125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ich",
+        "logit": 22.8125,
+        "probability_percent": 99.95
+      },
+      {
+        "rank": 1,
+        "token": ".",
+        "logit": 13.7578125,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 2,
+        "token": "z",
+        "logit": 12.703125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 3,
+        "token": "ih",
+        "logit": 12.4375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 4,
+        "token": "ick",
+        "logit": 11.3125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 5,
+        "token": "icht",
+        "logit": 11.21875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": "ICH",
+        "logit": 11.046875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": ",",
+        "logit": 10.7890625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "\n",
+        "logit": 10.765625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "ik",
+        "logit": 10.65625,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "The most populous city in Norway is Oslo.\nThe most populous city in Netherlands is",
+    "generated_prefix": "The most populous city in Norway is Oslo.\nThe most populous city in Netherlands is",
+    "gold_token": " Amsterdam",
+    "predicted_top1_token": " Amsterdam",
+    "token_pos_in_answer": 0,
+    "gold_logit": 16.328125,
+    "gold_prob_percent": 68.65,
+    "first_token_prob": 0.6865234375,
+    "second_token_prob": 0.0521240234375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Amsterdam",
+        "logit": 16.328125,
+        "probability_percent": 68.65
+      },
+      {
+        "rank": 1,
+        "token": " Rot",
+        "logit": 13.75,
+        "probability_percent": 5.21
+      },
+      {
+        "rank": 2,
+        "token": " which",
+        "logit": 13.0546875,
+        "probability_percent": 2.6
+      },
+      {
+        "rank": 3,
+        "token": " what",
+        "logit": 12.890625,
+        "probability_percent": 2.21
+      },
+      {
+        "rank": 4,
+        "token": "\n",
+        "logit": 12.5234375,
+        "probability_percent": 1.53
+      },
+      {
+        "rank": 5,
+        "token": ".",
+        "logit": 12.390625,
+        "probability_percent": 1.34
+      },
+      {
+        "rank": 6,
+        "token": " ?",
+        "logit": 12.21875,
+        "probability_percent": 1.13
+      },
+      {
+        "rank": 7,
+        "token": " _____",
+        "logit": 12.1953125,
+        "probability_percent": 1.1
+      },
+      {
+        "rank": 8,
+        "token": " The",
+        "logit": 12.1875,
+        "probability_percent": 1.09
+      },
+      {
+        "rank": 9,
+        "token": " ",
+        "logit": 12.15625,
+        "probability_percent": 1.06
+      }
+    ]
+  },
+  {
+    "prompt": "The most populous city in Norway is Oslo.\nThe most populous city in Pakistan is",
+    "generated_prefix": "The most populous city in Norway is Oslo.\nThe most populous city in Pakistan is",
+    "gold_token": " Kar",
+    "predicted_top1_token": " Kar",
+    "token_pos_in_answer": 0,
+    "gold_logit": 16.203125,
+    "gold_prob_percent": 58.3,
+    "first_token_prob": 0.5830078125,
+    "second_token_prob": 0.10455322265625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Kar",
+        "logit": 16.203125,
+        "probability_percent": 58.3
+      },
+      {
+        "rank": 1,
+        "token": " Lah",
+        "logit": 14.484375,
+        "probability_percent": 10.46
+      },
+      {
+        "rank": 2,
+        "token": " what",
+        "logit": 13.578125,
+        "probability_percent": 4.22
+      },
+      {
+        "rank": 3,
+        "token": " Islam",
+        "logit": 13.3984375,
+        "probability_percent": 3.53
+      },
+      {
+        "rank": 4,
+        "token": " which",
+        "logit": 13.1015625,
+        "probability_percent": 2.62
+      },
+      {
+        "rank": 5,
+        "token": "\n",
+        "logit": 12.65625,
+        "probability_percent": 1.68
+      },
+      {
+        "rank": 6,
+        "token": "?",
+        "logit": 12.4296875,
+        "probability_percent": 1.34
+      },
+      {
+        "rank": 7,
+        "token": " the",
+        "logit": 12.421875,
+        "probability_percent": 1.33
+      },
+      {
+        "rank": 8,
+        "token": " ?",
+        "logit": 12.34375,
+        "probability_percent": 1.23
+      },
+      {
+        "rank": 9,
+        "token": ".",
+        "logit": 12.28125,
+        "probability_percent": 1.15
+      }
+    ]
+  },
+  {
+    "prompt": "The most populous city in Norway is Oslo.\nThe most populous city in Pakistan is",
+    "generated_prefix": "The most populous city in Norway is Oslo.\nThe most populous city in Pakistan is Kar",
+    "gold_token": "achi",
+    "predicted_top1_token": "achi",
+    "token_pos_in_answer": 1,
+    "gold_logit": 22.203125,
+    "gold_prob_percent": 99.95,
+    "first_token_prob": 0.5830078125,
+    "second_token_prob": 0.10455322265625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "achi",
+        "logit": 22.203125,
+        "probability_percent": 99.95
+      },
+      {
+        "rank": 1,
+        "token": "ach",
+        "logit": 13.21875,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 2,
+        "token": ".",
+        "logit": 12.953125,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 3,
+        "token": "ak",
+        "logit": 12.5234375,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 4,
+        "token": "acha",
+        "logit": 12.203125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 5,
+        "token": "ā",
+        "logit": 11.984375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": "ala",
+        "logit": 11.2578125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": "<|endoftext|>",
+        "logit": 11.1640625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "im",
+        "logit": 11.1484375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "aj",
+        "logit": 10.8046875,
+        "probability_percent": 0.0
+      }
+    ]
+  }
+]

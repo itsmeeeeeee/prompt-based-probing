@@ -1,0 +1,328 @@
+{
+    "name": "adjective superlative_2shot_perm1",
+    "prompt_templates": [
+        "Die Superlativform von effizient ist am effizientesten.\nDie Superlativform von antik ist am antiksten.\nDie Superlativform von {} ist"
+    ],
+    "samples": [
+        {
+            "subject": "wütend",
+            "object": "am wütendsten"
+        },
+        {
+            "subject": "schlecht",
+            "object": "am schlechtesten"
+        },
+        {
+            "subject": "groß",
+            "object": "am größten"
+        },
+        {
+            "subject": "tapfer",
+            "object": "am tapfersten"
+        },
+        {
+            "subject": "hell",
+            "object": "am hellsten"
+        },
+        {
+            "subject": "ruhig",
+            "object": "am ruhigsten"
+        },
+        {
+            "subject": "billig",
+            "object": "am billigsten"
+        },
+        {
+            "subject": "sauber",
+            "object": "am saubersten"
+        },
+        {
+            "subject": "kalt",
+            "object": "am kältesten"
+        },
+        {
+            "subject": "verrückt",
+            "object": "am verrücktesten"
+        },
+        {
+            "subject": "grausam",
+            "object": "am grausamsten"
+        },
+        {
+            "subject": "dunkel",
+            "object": "am dunkelsten"
+        },
+        {
+            "subject": "tief",
+            "object": "am tiefsten"
+        },
+        {
+            "subject": "schmutzig",
+            "object": "am schmutzigsten"
+        },
+        {
+            "subject": "trocken",
+            "object": "am trockensten"
+        },
+        {
+            "subject": "langweilig",
+            "object": "am langweiligsten"
+        },
+        {
+            "subject": "einfach",
+            "object": "am einfachsten"
+        },
+        {
+            "subject": "schnell",
+            "object": "am schnellsten"
+        },
+        {
+            "subject": "heftig",
+            "object": "am heftigsten"
+        },
+        {
+            "subject": "frisch",
+            "object": "am frischesten"
+        },
+        {
+            "subject": "freundlich",
+            "object": "am freundlichsten"
+        },
+        {
+            "subject": "voll",
+            "object": "am vollsten"
+        },
+        {
+            "subject": "lustig",
+            "object": "am lustigsten"
+        },
+        {
+            "subject": "sanft",
+            "object": "am sanftesten"
+        },
+        {
+            "subject": "gut",
+            "object": "am besten"
+        },
+        {
+            "subject": "groß",
+            "object": "am größten"
+        },
+        {
+            "subject": "glücklich",
+            "object": "am glücklichsten"
+        },
+        {
+            "subject": "hart",
+            "object": "am härtesten"
+        },
+        {
+            "subject": "gesund",
+            "object": "am gesündesten"
+        },
+        {
+            "subject": "schwer",
+            "object": "am schwersten"
+        },
+        {
+            "subject": "hoch",
+            "object": "am höchsten"
+        },
+        {
+            "subject": "heiß",
+            "object": "am heißesten"
+        },
+        {
+            "subject": "hungrig",
+            "object": "am hungrigsten"
+        },
+        {
+            "subject": "freundlich",
+            "object": "am freundlichsten"
+        },
+        {
+            "subject": "groß",
+            "object": "am größten"
+        },
+        {
+            "subject": "faul",
+            "object": "am faulsten"
+        },
+        {
+            "subject": "leicht",
+            "object": "am leichtesten"
+        },
+        {
+            "subject": "klein",
+            "object": "am kleinsten"
+        },
+        {
+            "subject": "lang",
+            "object": "am längsten"
+        },
+        {
+            "subject": "laut",
+            "object": "am lautesten"
+        },
+        {
+            "subject": "niedrig",
+            "object": "am niedrigsten"
+        },
+        {
+            "subject": "verrückt",
+            "object": "am verrücktesten"
+        },
+        {
+            "subject": "gemein",
+            "object": "am gemeinsten"
+        },
+        {
+            "subject": "unordentlich",
+            "object": "am unordentlichsten"
+        },
+        {
+            "subject": "eng",
+            "object": "am engsten"
+        },
+        {
+            "subject": "nah",
+            "object": "am nächsten"
+        },
+        {
+            "subject": "neu",
+            "object": "am neuesten"
+        },
+        {
+            "subject": "alt",
+            "object": "am ältesten"
+        },
+        {
+            "subject": "höflich",
+            "object": "am höflichsten"
+        },
+        {
+            "subject": "arm",
+            "object": "am ärmsten"
+        },
+        {
+            "subject": "schnell",
+            "object": "am schnellsten"
+        },
+        {
+            "subject": "leise",
+            "object": "am leisesten"
+        },
+        {
+            "subject": "reich",
+            "object": "am reichsten"
+        },
+        {
+            "subject": "traurig",
+            "object": "am traurigsten"
+        },
+        {
+            "subject": "sicher",
+            "object": "am sichersten"
+        },
+        {
+            "subject": "kurz",
+            "object": "am kürzesten"
+        },
+        {
+            "subject": "schüchtern",
+            "object": "am schüchternsten"
+        },
+        {
+            "subject": "einfach",
+            "object": "am einfachsten"
+        },
+        {
+            "subject": "langsam",
+            "object": "am langsamsten"
+        },
+        {
+            "subject": "klein",
+            "object": "am kleinsten"
+        },
+        {
+            "subject": "klug",
+            "object": "am klügsten"
+        },
+        {
+            "subject": "glatt",
+            "object": "am glattesten"
+        },
+        {
+            "subject": "stark",
+            "object": "am stärksten"
+        },
+        {
+            "subject": "süß",
+            "object": "am süßesten"
+        },
+        {
+            "subject": "groß",
+            "object": "am größten"
+        },
+        {
+            "subject": "dick",
+            "object": "am dicksten"
+        },
+        {
+            "subject": "dünn",
+            "object": "am dünnsten"
+        },
+        {
+            "subject": "winzig",
+            "object": "am winzigsten"
+        },
+        {
+            "subject": "hart",
+            "object": "am härtesten"
+        },
+        {
+            "subject": "wahr",
+            "object": "am wahrsten"
+        },
+        {
+            "subject": "hässlich",
+            "object": "am hässlichsten"
+        },
+        {
+            "subject": "schwach",
+            "object": "am schwächsten"
+        },
+        {
+            "subject": "nass",
+            "object": "am nassesten"
+        },
+        {
+            "subject": "weit",
+            "object": "am weitesten"
+        },
+        {
+            "subject": "wild",
+            "object": "am wildesten"
+        },
+        {
+            "subject": "weise",
+            "object": "am weisesten"
+        },
+        {
+            "subject": "witzig",
+            "object": "am witzigsten"
+        },
+        {
+            "subject": "falsch",
+            "object": "am falschesten"
+        },
+        {
+            "subject": "jung",
+            "object": "am jüngsten"
+        },
+        {
+            "subject": "spritzig",
+            "object": "am spritzigsten"
+        }
+    ]
+}

@@ -1,0 +1,828 @@
+{
+    "name": "landmark_in_country",
+    "prompt_templates": [
+        "{} is in the country of"
+    ],
+    "samples": [
+        {
+            "subject": "Autonomous University of Madrid",
+            "object": "Spain"
+        },
+        {
+            "subject": "Kuala Langat",
+            "object": "Malaysia"
+        },
+        {
+            "subject": "Wanne-Eickel Central Station",
+            "object": "Germany"
+        },
+        {
+            "subject": "Valdemarsvik",
+            "object": "Sweden"
+        },
+        {
+            "subject": "Darmstadt",
+            "object": "Germany"
+        },
+        {
+            "subject": "Knockmealdown Mountains",
+            "object": "Ireland"
+        },
+        {
+            "subject": "Eibenstock",
+            "object": "Germany"
+        },
+        {
+            "subject": "Kyoto University",
+            "object": "Japan"
+        },
+        {
+            "subject": "Vijayawada Junction railway station",
+            "object": "India"
+        },
+        {
+            "subject": "Hultsfred Municipality",
+            "object": "Sweden"
+        },
+        {
+            "subject": "Hattfjelldal",
+            "object": "Norway"
+        },
+        {
+            "subject": "Nova Friburgo",
+            "object": "Brazil"
+        },
+        {
+            "subject": "Sarpsborg 08 FF",
+            "object": "Norway"
+        },
+        {
+            "subject": "Yokohama International School",
+            "object": "Japan"
+        },
+        {
+            "subject": "Ballydehob",
+            "object": "Ireland"
+        },
+        {
+            "subject": "Capolago",
+            "object": "Switzerland"
+        },
+        {
+            "subject": "Ateneo de Madrid",
+            "object": "Spain"
+        },
+        {
+            "subject": "Bad Vilbel",
+            "object": "Germany"
+        },
+        {
+            "subject": "Barnhartvale, Kamloops",
+            "object": "Canada"
+        },
+        {
+            "subject": "Sakarya Province",
+            "object": "Turkey"
+        },
+        {
+            "subject": "Inami, Toyama",
+            "object": "Japan"
+        },
+        {
+            "subject": "Reiherstieg Schiffswerfte & Maschinenfabrik",
+            "object": "Germany"
+        },
+        {
+            "subject": "Etobicoke North",
+            "object": "Canada"
+        },
+        {
+            "subject": "Lund Municipality",
+            "object": "Sweden"
+        },
+        {
+            "subject": "Sydney Hospital",
+            "object": "Australia"
+        },
+        {
+            "subject": "Menangle Park",
+            "object": "Australia"
+        },
+        {
+            "subject": "Kungliga Svenska Segels\u00e4llskapet",
+            "object": "Sweden"
+        },
+        {
+            "subject": "Markham District High School",
+            "object": "Canada"
+        },
+        {
+            "subject": "Palais de l'Industrie",
+            "object": "France"
+        },
+        {
+            "subject": "Le Puy Foot 43 Auvergne",
+            "object": "France"
+        },
+        {
+            "subject": "Pesisir Selatan",
+            "object": "Indonesia"
+        },
+        {
+            "subject": "Alfred Wegener Institute for Polar and Marine Research",
+            "object": "Germany"
+        },
+        {
+            "subject": "Kanchanaburi",
+            "object": "Thailand"
+        },
+        {
+            "subject": "Kaniv Reservoir",
+            "object": "Ukraine"
+        },
+        {
+            "subject": "Sommariva del Bosco",
+            "object": "Italy"
+        },
+        {
+            "subject": "Grobbendonk",
+            "object": "Belgium"
+        },
+        {
+            "subject": "Ust-Katav",
+            "object": "Russia"
+        },
+        {
+            "subject": "Stara Zagora",
+            "object": "Bulgaria"
+        },
+        {
+            "subject": "Polish Football Association",
+            "object": "Poland"
+        },
+        {
+            "subject": "Cayeux-sur-Mer",
+            "object": "France"
+        },
+        {
+            "subject": "Gmina Bodzentyn",
+            "object": "Poland"
+        },
+        {
+            "subject": "Papantla",
+            "object": "Mexico"
+        },
+        {
+            "subject": "Kottarakkara",
+            "object": "India"
+        },
+        {
+            "subject": "Helsinki City Hall",
+            "object": "Finland"
+        },
+        {
+            "subject": "Circuito da Boavista",
+            "object": "Portugal"
+        },
+        {
+            "subject": "Bhamdoun",
+            "object": "Lebanon"
+        },
+        {
+            "subject": "FC Gorodeya",
+            "object": "Belarus"
+        },
+        {
+            "subject": "Tarn-et-Garonne",
+            "object": "France"
+        },
+        {
+            "subject": "Bangarapet",
+            "object": "India"
+        },
+        {
+            "subject": "Roman Catholic Archdiocese of Ljubljana",
+            "object": "Slovenia"
+        },
+        {
+            "subject": "Zbuczyn",
+            "object": "Poland"
+        },
+        {
+            "subject": "Roman Catholic Archdiocese of Lucca",
+            "object": "Italy"
+        },
+        {
+            "subject": "Bannu",
+            "object": "Pakistan"
+        },
+        {
+            "subject": "Art Gallery of Ontario",
+            "object": "Canada"
+        },
+        {
+            "subject": "Taksim Military Barracks",
+            "object": "Turkey"
+        },
+        {
+            "subject": "Kaunas Cathedral Basilica",
+            "object": "Lithuania"
+        },
+        {
+            "subject": "Al-Hasakah Governorate",
+            "object": "Syria"
+        },
+        {
+            "subject": "Gmina Stara Kornica",
+            "object": "Poland"
+        },
+        {
+            "subject": "Annweiler am Trifels",
+            "object": "Germany"
+        },
+        {
+            "subject": "Gmina Kalinowo",
+            "object": "Poland"
+        },
+        {
+            "subject": "E.ON Sverige",
+            "object": "Sweden"
+        },
+        {
+            "subject": "Pindamonhangaba",
+            "object": "Brazil"
+        },
+        {
+            "subject": "Colegio Nacional de Buenos Aires",
+            "object": "Argentina"
+        },
+        {
+            "subject": "Ikaalinen",
+            "object": "Finland"
+        },
+        {
+            "subject": "Rio Quente",
+            "object": "Brazil"
+        },
+        {
+            "subject": "Wismar",
+            "object": "Germany"
+        },
+        {
+            "subject": "Sadr City",
+            "object": "Iraq"
+        },
+        {
+            "subject": "FC Anker Wismar",
+            "object": "Germany"
+        },
+        {
+            "subject": "Nagoya University",
+            "object": "Japan"
+        },
+        {
+            "subject": "Minamishitara District, Aichi",
+            "object": "Japan"
+        },
+        {
+            "subject": "Gmina Leszno",
+            "object": "Poland"
+        },
+        {
+            "subject": "Langarud County",
+            "object": "Iran"
+        },
+        {
+            "subject": "Ufa",
+            "object": "Russia"
+        },
+        {
+            "subject": "SooToday.com",
+            "object": "Canada"
+        },
+        {
+            "subject": "Namba Station",
+            "object": "Japan"
+        },
+        {
+            "subject": "Sands of Beirut",
+            "object": "Lebanon"
+        },
+        {
+            "subject": "Shoranur",
+            "object": "India"
+        },
+        {
+            "subject": "Tarnobrzeg Voivodeship",
+            "object": "Poland"
+        },
+        {
+            "subject": "Lahti",
+            "object": "Finland"
+        },
+        {
+            "subject": "Vaujany",
+            "object": "France"
+        },
+        {
+            "subject": "University of Zaragoza",
+            "object": "Spain"
+        },
+        {
+            "subject": "Saint-Louis-de-Kent, New Brunswick",
+            "object": "Canada"
+        },
+        {
+            "subject": "Geelong Ring Road",
+            "object": "Australia"
+        },
+        {
+            "subject": "Kharga Oasis",
+            "object": "Egypt"
+        },
+        {
+            "subject": "Gmina Pokrzywnica",
+            "object": "Poland"
+        },
+        {
+            "subject": "Didymoteicho",
+            "object": "Greece"
+        },
+        {
+            "subject": "Gmina Warlubie",
+            "object": "Poland"
+        },
+        {
+            "subject": "Istanbul Airport",
+            "object": "Turkey"
+        },
+        {
+            "subject": "Warsaw Uprising Museum",
+            "object": "Poland"
+        },
+        {
+            "subject": "Ginza Line",
+            "object": "Japan"
+        },
+        {
+            "subject": "Landskrona BoIS",
+            "object": "Sweden"
+        },
+        {
+            "subject": "Queens Gardens, Brisbane",
+            "object": "Australia"
+        },
+        {
+            "subject": "Perpignan",
+            "object": "France"
+        },
+        {
+            "subject": "Atromitos Piraeus F.C.",
+            "object": "Greece"
+        },
+        {
+            "subject": "Bilecik Province",
+            "object": "Turkey"
+        },
+        {
+            "subject": "Jiul de Vest River",
+            "object": "Romania"
+        },
+        {
+            "subject": "Toulouges",
+            "object": "France"
+        },
+        {
+            "subject": "Puerto Maldonado",
+            "object": "Peru"
+        },
+        {
+            "subject": "Novokuybyshevsk",
+            "object": "Russia"
+        },
+        {
+            "subject": "North Middlesex, Ontario",
+            "object": "Canada"
+        },
+        {
+            "subject": "Santa Cruz de Mompox",
+            "object": "Colombia"
+        },
+        {
+            "subject": "Teatro Comunale Florence",
+            "object": "Italy"
+        },
+        {
+            "subject": "Danish Sign Language",
+            "object": "Denmark"
+        },
+        {
+            "subject": "Eriksbergs Mekaniska Verkstad",
+            "object": "Sweden"
+        },
+        {
+            "subject": "Waldshut-Tiengen",
+            "object": "Germany"
+        },
+        {
+            "subject": "Askola",
+            "object": "Finland"
+        },
+        {
+            "subject": "Tampere Cathedral",
+            "object": "Finland"
+        },
+        {
+            "subject": "Argentine National Anthem",
+            "object": "Argentina"
+        },
+        {
+            "subject": "Santa Maria da Feira Municipality",
+            "object": "Portugal"
+        },
+        {
+            "subject": "Canton of Schaffhausen",
+            "object": "Switzerland"
+        },
+        {
+            "subject": "Taronga Western Plains Zoo",
+            "object": "Australia"
+        },
+        {
+            "subject": "Iraklis F.C.",
+            "object": "Greece"
+        },
+        {
+            "subject": "Frosinone",
+            "object": "Italy"
+        },
+        {
+            "subject": "Simcoe Composite School",
+            "object": "Canada"
+        },
+        {
+            "subject": "Chol Kiri District",
+            "object": "Cambodia"
+        },
+        {
+            "subject": "Plougonven",
+            "object": "France"
+        },
+        {
+            "subject": "Piedecuesta",
+            "object": "Colombia"
+        },
+        {
+            "subject": "Khorramdarreh Rural District",
+            "object": "Iran"
+        },
+        {
+            "subject": "Gjerpen",
+            "object": "Norway"
+        },
+        {
+            "subject": "Erbil SC",
+            "object": "Iraq"
+        },
+        {
+            "subject": "Guelma Province",
+            "object": "Algeria"
+        },
+        {
+            "subject": "Ogrodzieniec",
+            "object": "Poland"
+        },
+        {
+            "subject": "Teshie",
+            "object": "Ghana"
+        },
+        {
+            "subject": "Holmenkollen National Arena",
+            "object": "Norway"
+        },
+        {
+            "subject": "Singarapettai",
+            "object": "India"
+        },
+        {
+            "subject": "Gmina Sorkwity",
+            "object": "Poland"
+        },
+        {
+            "subject": "Sulaimaniyah International Airport",
+            "object": "Iraq"
+        },
+        {
+            "subject": "Shibganj Upazila, Bogra District",
+            "object": "Bangladesh"
+        },
+        {
+            "subject": "Castellamonte",
+            "object": "Italy"
+        },
+        {
+            "subject": "Iruma Air Base",
+            "object": "Japan"
+        },
+        {
+            "subject": "Sialkot district",
+            "object": "Pakistan"
+        },
+        {
+            "subject": "Baron de Hirsch Cemetery, Halifax",
+            "object": "Canada"
+        },
+        {
+            "subject": "Brandon University",
+            "object": "Canada"
+        },
+        {
+            "subject": "Windischeschenbach",
+            "object": "Germany"
+        },
+        {
+            "subject": "Langtang National Park",
+            "object": "Nepal"
+        },
+        {
+            "subject": "Jonava District Municipality",
+            "object": "Lithuania"
+        },
+        {
+            "subject": "Thamshavn Line",
+            "object": "Norway"
+        },
+        {
+            "subject": "Autonomous District Lok Sabha constituency",
+            "object": "India"
+        },
+        {
+            "subject": "Staatliche Antikensammlungen",
+            "object": "Germany"
+        },
+        {
+            "subject": "Gmina Morawica",
+            "object": "Poland"
+        },
+        {
+            "subject": "Pamukkale",
+            "object": "Turkey"
+        },
+        {
+            "subject": "Prachin Buri River",
+            "object": "Thailand"
+        },
+        {
+            "subject": "2010 Belgian federal election",
+            "object": "Belgium"
+        },
+        {
+            "subject": "Temples of Abu Simbel",
+            "object": "Egypt"
+        },
+        {
+            "subject": "Croom, County Limerick",
+            "object": "Ireland"
+        },
+        {
+            "subject": "Hammarby IF DFF",
+            "object": "Sweden"
+        },
+        {
+            "subject": "Beckingen",
+            "object": "Germany"
+        },
+        {
+            "subject": "Nyeri County",
+            "object": "Kenya"
+        },
+        {
+            "subject": "Tovuz District",
+            "object": "Azerbaijan"
+        },
+        {
+            "subject": "Bispebjerg",
+            "object": "Denmark"
+        },
+        {
+            "subject": "Lauterecken-Wolfstein",
+            "object": "Germany"
+        },
+        {
+            "subject": "Naumburg (Saale)",
+            "object": "Germany"
+        },
+        {
+            "subject": "Gurudwara Bangla Sahib",
+            "object": "India"
+        },
+        {
+            "subject": "Isola Dovarese",
+            "object": "Italy"
+        },
+        {
+            "subject": "Mandailing language",
+            "object": "Indonesia"
+        },
+        {
+            "subject": "Nesodden IF",
+            "object": "Norway"
+        },
+        {
+            "subject": "Persegres Gresik United",
+            "object": "Indonesia"
+        },
+        {
+            "subject": "Orikhiv",
+            "object": "Ukraine"
+        },
+        {
+            "subject": "Cairo American College",
+            "object": "Egypt"
+        },
+        {
+            "subject": "West Royalty, Prince Edward Island",
+            "object": "Canada"
+        },
+        {
+            "subject": "Northern Territory",
+            "object": "Australia"
+        },
+        {
+            "subject": "Monarcas Morelia",
+            "object": "Mexico"
+        },
+        {
+            "subject": "Leiria",
+            "object": "Portugal"
+        },
+        {
+            "subject": "Jemappes",
+            "object": "Belgium"
+        },
+        {
+            "subject": "Gmina Olsztyn",
+            "object": "Poland"
+        },
+        {
+            "subject": "2009 Speedway Ekstraliga",
+            "object": "Poland"
+        },
+        {
+            "subject": "Mannheim City Airport",
+            "object": "Germany"
+        },
+        {
+            "subject": "Fukuno, Toyama",
+            "object": "Japan"
+        },
+        {
+            "subject": "Isfahan International Airport",
+            "object": "Iran"
+        },
+        {
+            "subject": "Treuchtlingen",
+            "object": "Germany"
+        },
+        {
+            "subject": "West Darfur",
+            "object": "Sudan"
+        },
+        {
+            "subject": "Rottendorf",
+            "object": "Germany"
+        },
+        {
+            "subject": "Sydney Sports Ground",
+            "object": "Australia"
+        },
+        {
+            "subject": "Gmina Konarzyny",
+            "object": "Poland"
+        },
+        {
+            "subject": "plaza de Cibeles",
+            "object": "Spain"
+        },
+        {
+            "subject": "Fluminense F.C.",
+            "object": "Brazil"
+        },
+        {
+            "subject": "Hantsavichy",
+            "object": "Belarus"
+        },
+        {
+            "subject": "Dornbirn",
+            "object": "Austria"
+        },
+        {
+            "subject": "Berhala Island, Sabah",
+            "object": "Malaysia"
+        },
+        {
+            "subject": "Oshawa",
+            "object": "Canada"
+        },
+        {
+            "subject": "Tampines Expressway",
+            "object": "Singapore"
+        },
+        {
+            "subject": "Fryderyk Chopin University of Music",
+            "object": "Poland"
+        },
+        {
+            "subject": "Ikuno-ku",
+            "object": "Japan"
+        },
+        {
+            "subject": "SV Ried",
+            "object": "Austria"
+        },
+        {
+            "subject": "Greater Rio de Janeiro",
+            "object": "Brazil"
+        },
+        {
+            "subject": "Haut Atlas",
+            "object": "Morocco"
+        },
+        {
+            "subject": "Khmilnyk",
+            "object": "Ukraine"
+        },
+        {
+            "subject": "Indira Gandhi International Airport",
+            "object": "India"
+        },
+        {
+            "subject": "Sana'a International Airport",
+            "object": "Yemen"
+        },
+        {
+            "subject": "Enghien-les-Bains",
+            "object": "France"
+        },
+        {
+            "subject": "Halton County, Ontario",
+            "object": "Canada"
+        },
+        {
+            "subject": "St James' Church, Sydney",
+            "object": "Australia"
+        },
+        {
+            "subject": "Oder-Spree District",
+            "object": "Germany"
+        },
+        {
+            "subject": "Kretinga",
+            "object": "Lithuania"
+        },
+        {
+            "subject": "Wiener Singakademie",
+            "object": "Austria"
+        },
+        {
+            "subject": "Grand Mosque of Paris",
+            "object": "France"
+        },
+        {
+            "subject": "Llanquihue Province",
+            "object": "Chile"
+        },
+        {
+            "subject": "Legnica County",
+            "object": "Poland"
+        },
+        {
+            "subject": "Gmina Kleczew",
+            "object": "Poland"
+        },
+        {
+            "subject": "Bukit Panjang Single Member Constituency",
+            "object": "Singapore"
+        },
+        {
+            "subject": "University of Bern",
+            "object": "Switzerland"
+        },
+        {
+            "subject": "Bzura",
+            "object": "Poland"
+        },
+        {
+            "subject": "Bintulu Division",
+            "object": "Malaysia"
+        },
+        {
+            "subject": "Siemiatycze",
+            "object": "Poland"
+        },
+        {
+            "subject": "Ostermundigen",
+            "object": "Switzerland"
+        }
+    ]
+}

@@ -1,0 +1,408 @@
+{
+    "name": "adjective antonym_10shot_perm5",
+    "prompt_templates": [
+        "O oposto de moderno é antigo.\nO oposto de doce é amargo.\nO oposto de cedo é tarde.\nO oposto de hojny é samolubny.\nO oposto de visível é ambíguo.\nO oposto de arrumado é descuidado.\nO oposto de afiado é sem corte.\nO oposto de brilhante é escuro.\nO oposto de forte é frágil.\nO oposto de pacífico é barulhento.\nO oposto de {} é"
+    ],
+    "samples": [
+        {
+            "subject": "amoroso",
+            "object": "odioso"
+        },
+        {
+            "subject": "criador",
+            "object": "destruidor"
+        },
+        {
+            "subject": "feliz",
+            "object": "triste"
+        },
+        {
+            "subject": "cheio",
+            "object": "vazio"
+        },
+        {
+            "subject": "corajoso",
+            "object": "covarde"
+        },
+        {
+            "subject": "aberto",
+            "object": "fechado"
+        },
+        {
+            "subject": "seguro",
+            "object": "perigoso"
+        },
+        {
+            "subject": "belo",
+            "object": "feio"
+        },
+        {
+            "subject": "amigo",
+            "object": "inimigo"
+        },
+        {
+            "subject": "diurno",
+            "object": "noturno"
+        },
+        {
+            "subject": "comprador",
+            "object": "vendedor"
+        },
+        {
+            "subject": "grande",
+            "object": "pequeno"
+        },
+        {
+            "subject": "velho",
+            "object": "jovem"
+        },
+        {
+            "subject": "silencioso",
+            "object": "barulhento"
+        },
+        {
+            "subject": "verdadeiro",
+            "object": "falso"
+        },
+        {
+            "subject": "rápido",
+            "object": "devagar"
+        },
+        {
+            "subject": "quente",
+            "object": "frio"
+        },
+        {
+            "subject": "bom",
+            "object": "mau"
+        },
+        {
+            "subject": "inicial",
+            "object": "final"
+        },
+        {
+            "subject": "interno",
+            "object": "externo"
+        },
+        {
+            "subject": "vitorioso",
+            "object": "perdedor"
+        },
+        {
+            "subject": "generoso",
+            "object": "egoísta"
+        },
+        {
+            "subject": "claro",
+            "object": "escuro"
+        },
+        {
+            "subject": "saudável",
+            "object": "doente"
+        },
+        {
+            "subject": "limpo",
+            "object": "sujo"
+        },
+        {
+            "subject": "certo",
+            "object": "errado"
+        },
+        {
+            "subject": "acima",
+            "object": "abaixo"
+        },
+        {
+            "subject": "forte",
+            "object": "fraco"
+        },
+        {
+            "subject": "zangado",
+            "object": "irado"
+        },
+        {
+            "subject": "alto",
+            "object": "baixo"
+        },
+        {
+            "subject": "sábio",
+            "object": "tolo"
+        },
+        {
+            "subject": "conectado",
+            "object": "desconectado"
+        },
+        {
+            "subject": "macio",
+            "object": "duro"
+        },
+        {
+            "subject": "sim",
+            "object": "não"
+        },
+        {
+            "subject": "liso",
+            "object": "áspero"
+        },
+        {
+            "subject": "frontal",
+            "object": "posterior"
+        },
+        {
+            "subject": "indulgente",
+            "object": "culpador"
+        },
+        {
+            "subject": "simples",
+            "object": "complexo"
+        },
+        {
+            "subject": "aberto",
+            "object": "fechado"
+        },
+        {
+            "subject": "raso",
+            "object": "profundo"
+        },
+        {
+            "subject": "sorridente",
+            "object": "carrancudo"
+        },
+        {
+            "subject": "risonho",
+            "object": "choroso"
+        },
+        {
+            "subject": "rápido",
+            "object": "devagar"
+        },
+        {
+            "subject": "acima",
+            "object": "abaixo"
+        },
+        {
+            "subject": "positivo",
+            "object": "negativo"
+        },
+        {
+            "subject": "honesto",
+            "object": "desonesto"
+        },
+        {
+            "subject": "empurrando",
+            "object": "puxando"
+        },
+        {
+            "subject": "molhado",
+            "object": "seco"
+        },
+        {
+            "subject": "acima",
+            "object": "fora"
+        },
+        {
+            "subject": "estreito",
+            "object": "amplo"
+        },
+        {
+            "subject": "ligado",
+            "object": "desligado"
+        },
+        {
+            "subject": "reto",
+            "object": "curvo"
+        },
+        {
+            "subject": "aceitável",
+            "object": "recusável"
+        },
+        {
+            "subject": "construir",
+            "object": "demolir"
+        },
+        {
+            "subject": "suave",
+            "object": "áspero"
+        },
+        {
+            "subject": "incluído",
+            "object": "excluído"
+        },
+        {
+            "subject": "passado",
+            "object": "futuro"
+        },
+        {
+            "subject": "chegado",
+            "object": "partido"
+        },
+        {
+            "subject": "inspirar",
+            "object": "expirar"
+        },
+        {
+            "subject": "disperso",
+            "object": "reunido"
+        },
+        {
+            "subject": "tomado emprestado",
+            "object": "emprestado"
+        },
+        {
+            "subject": "separado",
+            "object": "unido"
+        },
+        {
+            "subject": "chegado",
+            "object": "partido"
+        },
+        {
+            "subject": "aberto",
+            "object": "fechado"
+        },
+        {
+            "subject": "flutuante",
+            "object": "afundante"
+        },
+        {
+            "subject": "curvo",
+            "object": "reto"
+        },
+        {
+            "subject": "disperso",
+            "object": "coletor"
+        },
+        {
+            "subject": "ascendente",
+            "object": "decrescente"
+        },
+        {
+            "subject": "elogioso",
+            "object": "crítico"
+        },
+        {
+            "subject": "invisível",
+            "object": "visível"
+        },
+        {
+            "subject": "inicial",
+            "object": "final"
+        },
+        {
+            "subject": "entrada",
+            "object": "saída"
+        },
+        {
+            "subject": "atraente",
+            "object": "repulsivo"
+        },
+        {
+            "subject": "generoso",
+            "object": "receptivo"
+        },
+        {
+            "subject": "achado",
+            "object": "perdido"
+        },
+        {
+            "subject": "inicial",
+            "object": "final"
+        },
+        {
+            "subject": "puxando",
+            "object": "empurrando"
+        },
+        {
+            "subject": "crescente",
+            "object": "decrescente"
+        },
+        {
+            "subject": "vitorioso",
+            "object": "derrotado"
+        },
+        {
+            "subject": "calmo",
+            "object": "agitado"
+        },
+        {
+            "subject": "expansivo",
+            "object": "contrátil"
+        },
+        {
+            "subject": "ofensivo",
+            "object": "defensivo"
+        },
+        {
+            "subject": "econômico",
+            "object": "esbanjador"
+        },
+        {
+            "subject": "lembrado",
+            "object": "esquecido"
+        },
+        {
+            "subject": "emprestador",
+            "object": "emprestado"
+        },
+        {
+            "subject": "junto",
+            "object": "separado"
+        },
+        {
+            "subject": "questionável",
+            "object": "respondível"
+        },
+        {
+            "subject": "fechado",
+            "object": "aberto"
+        },
+        {
+            "subject": "horário",
+            "object": "anti-horário"
+        },
+        {
+            "subject": "posto",
+            "object": "removido"
+        },
+        {
+            "subject": "risonho",
+            "object": "choroso"
+        },
+        {
+            "subject": "lúdico",
+            "object": "laboral"
+        },
+        {
+            "subject": "acima",
+            "object": "abaixo"
+        },
+        {
+            "subject": "bem-sucedido",
+            "object": "fracassado"
+        },
+        {
+            "subject": "expansivo",
+            "object": "encolhido"
+        },
+        {
+            "subject": "inspirador",
+            "object": "expirador"
+        },
+        {
+            "subject": "abençoado",
+            "object": "amaldiçoado"
+        },
+        {
+            "subject": "rápido",
+            "object": "lerdo"
+        },
+        {
+            "subject": "aplaudir",
+            "object": "vaiar"
+        },
+        {
+            "subject": "sussurrante",
+            "object": "gritante"
+        }
+    ]
+}

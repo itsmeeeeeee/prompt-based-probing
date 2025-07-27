@@ -1,0 +1,3098 @@
+{
+  "name": "person plays instrument",
+  "prompt_templates": [
+    "{} plays the",
+    "{} is an instrumentalist on the",
+    "{} performs with the"
+  ],
+  "prompt_templates_zs": [
+    "What instrument does {} play? They play the",
+    "The instrument that {} plays is called the"
+  ],
+  "properties": {
+    "relation_type": "factual",
+    "domain_name": "person",
+    "range_name": "instrument",
+    "symmetric": false
+  },
+  "samples": [
+    {
+      "subject": "Toko Yasuda",
+      "object": "guitar",
+      "subject_id": "Q7813654",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Tom Fletcher",
+      "object": "guitar",
+      "subject_id": "Q1051540",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Mark Isham",
+      "object": "trumpet",
+      "subject_id": "Q528663",
+      "object_id": "Q8338"
+    },
+    {
+      "subject": "Alain Lanty",
+      "object": "piano",
+      "subject_id": "Q2829978",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Victor Merzhanov",
+      "object": "piano",
+      "subject_id": "Q2628478",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Tom Waits",
+      "object": "piano",
+      "subject_id": "Q184805",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Micko Larkin",
+      "object": "guitar",
+      "subject_id": "Q6838881",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Keith Emerson",
+      "object": "piano",
+      "subject_id": "Q319751",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Glen Ballard",
+      "object": "guitar",
+      "subject_id": "Q920983",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Terry Trotter",
+      "object": "piano",
+      "subject_id": "Q2405797",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Roy Paci",
+      "object": "trumpet",
+      "subject_id": "Q1894660",
+      "object_id": "Q8338"
+    },
+    {
+      "subject": "Vitaly Margulis",
+      "object": "piano",
+      "subject_id": "Q91547338",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Josephine Wiggs",
+      "object": "guitar",
+      "subject_id": "Q3185915",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Johan De Farfalla",
+      "object": "guitar",
+      "subject_id": "Q1638986",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Mike Scaccia",
+      "object": "guitar",
+      "subject_id": "Q6848705",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Arthur Grumiaux",
+      "object": "piano",
+      "subject_id": "Q441112",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Larry Knechtel",
+      "object": "guitar",
+      "subject_id": "Q1446674",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Andor Toth",
+      "object": "violin",
+      "subject_id": "Q4754548",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "John Cipollina",
+      "object": "guitar",
+      "subject_id": "Q1699618",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Robert Fripp",
+      "object": "guitar",
+      "subject_id": "Q203185",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Gidon Kremer",
+      "object": "violin",
+      "subject_id": "Q159915",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Kye Palmer",
+      "object": "trumpet",
+      "subject_id": "Q6450882",
+      "object_id": "Q8338"
+    },
+    {
+      "subject": "Heather Trost",
+      "object": "violin",
+      "subject_id": "Q4497518",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Nick Didkovsky",
+      "object": "guitar",
+      "subject_id": "Q2012259",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Herbie Nichols",
+      "object": "piano",
+      "subject_id": "Q540332",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Jean-Jacques Goldman",
+      "object": "piano",
+      "subject_id": "Q44709",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "John Fogerty",
+      "object": "guitar",
+      "subject_id": "Q326538",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Matthieu Chedid",
+      "object": "guitar",
+      "subject_id": "Q2365459",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Roger Ingram",
+      "object": "trumpet",
+      "subject_id": "Q7358388",
+      "object_id": "Q8338"
+    },
+    {
+      "subject": "Brad Delson",
+      "object": "guitar",
+      "subject_id": "Q19199",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Pepeu Gomes",
+      "object": "guitar",
+      "subject_id": "Q3899371",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Hilary Hahn",
+      "object": "violin",
+      "subject_id": "Q235406",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Chris Daughtry",
+      "object": "guitar",
+      "subject_id": "Q877858",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Lil Hardin Armstrong",
+      "object": "piano",
+      "subject_id": "Q462562",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Dizzy Reed",
+      "object": "piano",
+      "subject_id": "Q313502",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Mark O'Connor",
+      "object": "violin",
+      "subject_id": "Q6769067",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Meshell Ndegeocello",
+      "object": "guitar",
+      "subject_id": "Q72720",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Chris Thile",
+      "object": "guitar",
+      "subject_id": "Q596779",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Tadd Dameron",
+      "object": "piano",
+      "subject_id": "Q498736",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Drew Shirley",
+      "object": "guitar",
+      "subject_id": "Q4524298",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Charlie Palmieri",
+      "object": "piano",
+      "subject_id": "Q921588",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "James Honeyman-Scott",
+      "object": "guitar",
+      "subject_id": "Q708007",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Sarah Cahill",
+      "object": "piano",
+      "subject_id": "Q7422159",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Luigi Dallapiccola",
+      "object": "piano",
+      "subject_id": "Q17575",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Darol Anger",
+      "object": "violin",
+      "subject_id": "Q3016430",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Pete Johnson",
+      "object": "piano",
+      "subject_id": "Q100848538",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Bert Joris",
+      "object": "trumpet",
+      "subject_id": "Q359361",
+      "object_id": "Q8338"
+    },
+    {
+      "subject": "Raimonds Pauls",
+      "object": "piano",
+      "subject_id": "Q178708",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "David Gates",
+      "object": "violin",
+      "subject_id": "Q932959",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "The Edge",
+      "object": "guitar",
+      "subject_id": "Q714845",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "George Gershwin",
+      "object": "piano",
+      "subject_id": "Q123829",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Manos Hatzidakis",
+      "object": "piano",
+      "subject_id": "Q447433",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Gina Birch",
+      "object": "guitar",
+      "subject_id": "Q5562842",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Cheyenne Kimball",
+      "object": "guitar",
+      "subject_id": "Q289423",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Peter Head",
+      "object": "piano",
+      "subject_id": "Q7174600",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Alberto Nepomuceno",
+      "object": "piano",
+      "subject_id": "Q1391980",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Idrees Sulieman",
+      "object": "trumpet",
+      "subject_id": "Q1656883",
+      "object_id": "Q8338"
+    },
+    {
+      "subject": "Steve Marriott",
+      "object": "guitar",
+      "subject_id": "Q506950",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Harold Craxton",
+      "object": "piano",
+      "subject_id": "Q1585793",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Martin Gordon",
+      "object": "piano",
+      "subject_id": "Q6775548",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Jeanne Lamon",
+      "object": "violin",
+      "subject_id": "Q539291",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "George Martin",
+      "object": "piano",
+      "subject_id": "Q191819",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Michael Mantler",
+      "object": "trumpet",
+      "subject_id": "Q510651",
+      "object_id": "Q8338"
+    },
+    {
+      "subject": "Yuriy Oliynyk",
+      "object": "piano",
+      "subject_id": "Q8061724",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Nita Strauss",
+      "object": "guitar",
+      "subject_id": "Q16231562",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Ma Sicong",
+      "object": "violin",
+      "subject_id": "Q330201",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Ted Dwane",
+      "object": "guitar",
+      "subject_id": "Q16223106",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Pete Lesperance",
+      "object": "guitar",
+      "subject_id": "Q7172100",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Melvyn Gale",
+      "object": "piano",
+      "subject_id": "Q3296561",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Rick Braun",
+      "object": "trumpet",
+      "subject_id": "Q509242",
+      "object_id": "Q8338"
+    },
+    {
+      "subject": "Franz Liszt",
+      "object": "piano",
+      "subject_id": "Q41309",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Bud Scott",
+      "object": "guitar",
+      "subject_id": "Q112628281",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Itzhak Perlman",
+      "object": "violin",
+      "subject_id": "Q215905",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Alice Coltrane",
+      "object": "piano",
+      "subject_id": "Q238243",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Maud Powell",
+      "object": "violin",
+      "subject_id": "Q1772440",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Elvis Presley",
+      "object": "guitar",
+      "subject_id": "Q303",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Geirr Tveitt",
+      "object": "piano",
+      "subject_id": "Q727821",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Mercer Ellington",
+      "object": "trumpet",
+      "subject_id": "Q492677",
+      "object_id": "Q8338"
+    },
+    {
+      "subject": "Clifford Curzon",
+      "object": "piano",
+      "subject_id": "Q961193",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Russell Gunn",
+      "object": "trumpet",
+      "subject_id": "Q366286",
+      "object_id": "Q8338"
+    },
+    {
+      "subject": "Brian May",
+      "object": "guitar",
+      "subject_id": "Q15873",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Yfrah Neaman",
+      "object": "violin",
+      "subject_id": "Q1981603",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Vlatko Stefanovski",
+      "object": "guitar",
+      "subject_id": "Q3131452",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Yvonne Hubert",
+      "object": "piano",
+      "subject_id": "Q274865",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Friedrich Gulda",
+      "object": "piano",
+      "subject_id": "Q345922",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Dave Hernandez",
+      "object": "guitar",
+      "subject_id": "Q5228943",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Wolfgang Sawallisch",
+      "object": "piano",
+      "subject_id": "Q61205",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Sheryl Crow",
+      "object": "guitar",
+      "subject_id": "Q200586",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Cat Stevens",
+      "object": "guitar",
+      "subject_id": "Q154216",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Toshiko Akiyoshi",
+      "object": "piano",
+      "subject_id": "Q437117",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Curley Weaver",
+      "object": "guitar",
+      "subject_id": "Q715336",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Cyril Scott",
+      "object": "piano",
+      "subject_id": "Q367717",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Al Haig",
+      "object": "piano",
+      "subject_id": "Q174161",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Britney Spears",
+      "object": "singing",
+      "subject_id": "Q11975",
+      "object_id": "Q27939"
+    },
+    {
+      "subject": "Millard Powers",
+      "object": "piano",
+      "subject_id": "Q6858519",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Ingrid Jensen",
+      "object": "trumpet",
+      "subject_id": "Q533935",
+      "object_id": "Q8338"
+    },
+    {
+      "subject": "Anna Yesipova",
+      "object": "piano",
+      "subject_id": "Q521740",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Julian Lennon",
+      "object": "guitar",
+      "subject_id": "Q357974",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Noel Mewton-Wood",
+      "object": "piano",
+      "subject_id": "Q3064862",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Shmuel Ashkenasi",
+      "object": "violin",
+      "subject_id": "Q321539",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Soozie Tyrell",
+      "object": "violin",
+      "subject_id": "Q272270",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Liam Gallagher",
+      "object": "guitar",
+      "subject_id": "Q216708",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "George Duke",
+      "object": "piano",
+      "subject_id": "Q536322",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Tony Ashton",
+      "object": "piano",
+      "subject_id": "Q2143473",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Ludovico Einaudi",
+      "object": "piano",
+      "subject_id": "Q83182",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Skylar Grey",
+      "object": "piano",
+      "subject_id": "Q233750",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Yves Nat",
+      "object": "piano",
+      "subject_id": "Q958538",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Edvard Grieg",
+      "object": "piano",
+      "subject_id": "Q80621",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Anthony Plog",
+      "object": "trumpet",
+      "subject_id": "Q2498692",
+      "object_id": "Q8338"
+    },
+    {
+      "subject": "Gunnar Andreas Berg",
+      "object": "guitar",
+      "subject_id": "Q5618934",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Melissa Etheridge",
+      "object": "guitar",
+      "subject_id": "Q270669",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Ray Charles",
+      "object": "piano",
+      "subject_id": "Q544387",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Mike Shinoda",
+      "object": "piano",
+      "subject_id": "Q19201",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Hank Jones",
+      "object": "piano",
+      "subject_id": "Q447907",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Anson Funderburgh",
+      "object": "guitar",
+      "subject_id": "Q569970",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Jack Sheldon",
+      "object": "trumpet",
+      "subject_id": "Q1677210",
+      "object_id": "Q8338"
+    },
+    {
+      "subject": "Georgie Fame",
+      "object": "piano",
+      "subject_id": "Q588315",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Christopher O'Riley",
+      "object": "piano",
+      "subject_id": "Q5112988",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Norman Petty",
+      "object": "piano",
+      "subject_id": "Q1432130",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Buster Harding",
+      "object": "piano",
+      "subject_id": "Q5002155",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Guy Picciotto",
+      "object": "guitar",
+      "subject_id": "Q2640127",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Speckled Red",
+      "object": "piano",
+      "subject_id": "Q1364266",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Corky Siegel",
+      "object": "piano",
+      "subject_id": "Q1133030",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Thomas Dybdahl",
+      "object": "guitar",
+      "subject_id": "Q1350475",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Lubka Kolessa",
+      "object": "piano",
+      "subject_id": "Q274423",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Bernhard Sekles",
+      "object": "piano",
+      "subject_id": "Q317523",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Doc Severinsen",
+      "object": "trumpet",
+      "subject_id": "Q711921",
+      "object_id": "Q8338"
+    },
+    {
+      "subject": "Edward MacDowell",
+      "object": "piano",
+      "subject_id": "Q450467",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Bix Beiderbecke",
+      "object": "trumpet",
+      "subject_id": "Q225131",
+      "object_id": "Q8338"
+    },
+    {
+      "subject": "Howlin' Wolf",
+      "object": "guitar",
+      "subject_id": "Q44780",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Frank London",
+      "object": "trumpet",
+      "subject_id": "Q505370",
+      "object_id": "Q8338"
+    },
+    {
+      "subject": "Leonard Cohen",
+      "object": "guitar",
+      "subject_id": "Q1276",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Ernest Chausson",
+      "object": "piano",
+      "subject_id": "Q312368",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Bella Davidovich",
+      "object": "piano",
+      "subject_id": "Q288768",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Bennie Moten",
+      "object": "piano",
+      "subject_id": "Q672295",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Baaba Maal",
+      "object": "guitar",
+      "subject_id": "Q684021",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Matthew Tuck",
+      "object": "guitar",
+      "subject_id": "Q855207",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Sunnyland Slim",
+      "object": "piano",
+      "subject_id": "Q477783",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Nigel Pulsford",
+      "object": "guitar",
+      "subject_id": "Q7032604",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Don Grolnick",
+      "object": "piano",
+      "subject_id": "Q1239185",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Sean O'Hagan",
+      "object": "guitar",
+      "subject_id": "Q9075304",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Cezar Florin Ouatu",
+      "object": "piano",
+      "subject_id": "Q6659747",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Fred Mascherino",
+      "object": "guitar",
+      "subject_id": "Q3752644",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Franz Anton Ries",
+      "object": "violin",
+      "subject_id": "Q215087",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Arthur Rubinstein",
+      "object": "piano",
+      "subject_id": "Q183182",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Al Schnier",
+      "object": "guitar",
+      "subject_id": "Q4704782",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Henry Schradieck",
+      "object": "violin",
+      "subject_id": "Q89800",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Bradley Joseph",
+      "object": "piano",
+      "subject_id": "Q362168",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Eric Clapton",
+      "object": "violin",
+      "subject_id": "Q48187",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Amund Maarud",
+      "object": "guitar",
+      "subject_id": "Q29875",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Jack Nitzsche",
+      "object": "piano",
+      "subject_id": "Q709857",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Georges Mathias",
+      "object": "piano",
+      "subject_id": "Q1995898",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Eddie Harvey",
+      "object": "piano",
+      "subject_id": "Q63461",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Carmell Jones",
+      "object": "trumpet",
+      "subject_id": "Q1043549",
+      "object_id": "Q8338"
+    },
+    {
+      "subject": "George Enescu",
+      "object": "violin",
+      "subject_id": "Q77177",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Antonio Agri",
+      "object": "violin",
+      "subject_id": "Q542573",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Johannes Brahms",
+      "object": "piano",
+      "subject_id": "Q7294",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Cornelius Jakhelln",
+      "object": "guitar",
+      "subject_id": "Q2525913",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Linda Brava",
+      "object": "violin",
+      "subject_id": "Q541180",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Henning Kraggerud",
+      "object": "violin",
+      "subject_id": "Q5715017",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Alan Rubin",
+      "object": "trumpet",
+      "subject_id": "Q1374127",
+      "object_id": "Q8338"
+    },
+    {
+      "subject": "Marian McPartland",
+      "object": "piano",
+      "subject_id": "Q275616",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Pinchas Zukerman",
+      "object": "violin",
+      "subject_id": "Q346204",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Jean-Joseph de Mondonville",
+      "object": "violin",
+      "subject_id": "Q371862",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Christopher Elton",
+      "object": "piano",
+      "subject_id": "Q5112276",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Ethelbert Nevin",
+      "object": "piano",
+      "subject_id": "Q1271100",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Sterling Morrison",
+      "object": "guitar",
+      "subject_id": "Q503886",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Raoul Pugno",
+      "object": "piano",
+      "subject_id": "Q1333281",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Martin McCarrick",
+      "object": "violin",
+      "subject_id": "Q324577",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Pete Jolly",
+      "object": "piano",
+      "subject_id": "Q330844",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "David Isberg",
+      "object": "guitar",
+      "subject_id": "Q4411488",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Earl Klugh",
+      "object": "guitar",
+      "subject_id": "Q1071840",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Kaikhosru Shapurji Sorabji",
+      "object": "piano",
+      "subject_id": "Q527936",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Kunnakudi Vaidyanathan",
+      "object": "violin",
+      "subject_id": "Q3533862",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Kris Allen",
+      "object": "piano",
+      "subject_id": "Q216927",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Theodor Leschetizky",
+      "object": "piano",
+      "subject_id": "Q362340",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Carl Flesch",
+      "object": "violin",
+      "subject_id": "Q215739",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Clare Fischer",
+      "object": "piano",
+      "subject_id": "Q729139",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Adam Deibert",
+      "object": "trumpet",
+      "subject_id": "Q4678959",
+      "object_id": "Q8338"
+    },
+    {
+      "subject": "Ralph Alessi",
+      "object": "trumpet",
+      "subject_id": "Q957350",
+      "object_id": "Q8338"
+    },
+    {
+      "subject": "Count Basie",
+      "object": "piano",
+      "subject_id": "Q107008",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Al Kooper",
+      "object": "piano",
+      "subject_id": "Q455605",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Eric Clapton",
+      "object": "guitar",
+      "subject_id": "Q48187",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Maynard Ferguson",
+      "object": "trumpet",
+      "subject_id": "Q353822",
+      "object_id": "Q8338"
+    },
+    {
+      "subject": "Ry Cooder",
+      "object": "guitar",
+      "subject_id": "Q318374",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Shlomo Mintz",
+      "object": "violin",
+      "subject_id": "Q470457",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Johann Stamitz",
+      "object": "violin",
+      "subject_id": "Q156033",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Edmund Neupert",
+      "object": "piano",
+      "subject_id": "Q2981182",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "John Wesley",
+      "object": "guitar",
+      "subject_id": "Q1425302",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Bob Gaudio",
+      "object": "piano",
+      "subject_id": "Q887941",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Graham Parker",
+      "object": "guitar",
+      "subject_id": "Q1377134",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Gerard Presencer",
+      "object": "trumpet",
+      "subject_id": "Q1510173",
+      "object_id": "Q8338"
+    },
+    {
+      "subject": "Felix Weingartner",
+      "object": "piano",
+      "subject_id": "Q316920",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Lady Gaga",
+      "object": "piano",
+      "subject_id": "Q19848",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Malcolm Goldstein",
+      "object": "violin",
+      "subject_id": "Q364700",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Cipriani Potter",
+      "object": "piano",
+      "subject_id": "Q1092737",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Rodrigo Prats",
+      "object": "violin",
+      "subject_id": "Q7357398",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Gideon Klein",
+      "object": "piano",
+      "subject_id": "Q653614",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Friedrich Wieck",
+      "object": "piano",
+      "subject_id": "Q440809",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Aaron Lee Tasjan",
+      "object": "guitar",
+      "subject_id": "Q17380069",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Sergiu Luca",
+      "object": "violin",
+      "subject_id": "Q7454484",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Frode Fjellheim",
+      "object": "piano",
+      "subject_id": "Q4592336",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Cor Fuhler",
+      "object": "piano",
+      "subject_id": "Q1131725",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Donald Tovey",
+      "object": "piano",
+      "subject_id": "Q724969",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Jimmy Webb",
+      "object": "piano",
+      "subject_id": "Q1287983",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Lewis Kaplan",
+      "object": "violin",
+      "subject_id": "Q81929410",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Alvino Rey",
+      "object": "guitar",
+      "subject_id": "Q432562",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Frederick Grinke",
+      "object": "violin",
+      "subject_id": "Q5497894",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Bert Lown",
+      "object": "violin",
+      "subject_id": "Q827409",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Allen Toussaint",
+      "object": "piano",
+      "subject_id": "Q963044",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Derek Paravicini",
+      "object": "piano",
+      "subject_id": "Q3023778",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Cary Hudson",
+      "object": "guitar",
+      "subject_id": "Q5047626",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Tim Vesely",
+      "object": "guitar",
+      "subject_id": "Q7804424",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Romero Lubambo",
+      "object": "guitar",
+      "subject_id": "Q4516533",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Ignaz Schuppanzigh",
+      "object": "violin",
+      "subject_id": "Q522907",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Daniel Kobialka",
+      "object": "violin",
+      "subject_id": "Q5217822",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Jimmy Page",
+      "object": "violin",
+      "subject_id": "Q165467",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Eddie Palmieri",
+      "object": "piano",
+      "subject_id": "Q1282931",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Otis Spann",
+      "object": "piano",
+      "subject_id": "Q1349079",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Kerry King",
+      "object": "guitar",
+      "subject_id": "Q297210",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Lars Frederiksen",
+      "object": "guitar",
+      "subject_id": "Q956081",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Gerry Beckley",
+      "object": "piano",
+      "subject_id": "Q2153698",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Andranik Madadian",
+      "object": "guitar",
+      "subject_id": "Q2421754",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Guto Pryce",
+      "object": "guitar",
+      "subject_id": "Q5621838",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Hal Russell",
+      "object": "trumpet",
+      "subject_id": "Q686640",
+      "object_id": "Q8338"
+    },
+    {
+      "subject": "Kid Thomas Valentine",
+      "object": "trumpet",
+      "subject_id": "Q3196381",
+      "object_id": "Q8338"
+    },
+    {
+      "subject": "Nicke Andersson",
+      "object": "guitar",
+      "subject_id": "Q1736370",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "John Petrucci",
+      "object": "guitar",
+      "subject_id": "Q211976",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Marcel Ciampi",
+      "object": "piano",
+      "subject_id": "Q1637999",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Mel Schacher",
+      "object": "guitar",
+      "subject_id": "Q3294541",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Abdullah Ibrahim",
+      "object": "piano",
+      "subject_id": "Q317677",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Eddie Jobson",
+      "object": "violin",
+      "subject_id": "Q706756",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Ken Lane",
+      "object": "piano",
+      "subject_id": "Q6387997",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Kathryn Selby",
+      "object": "piano",
+      "subject_id": "Q58666679",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Carla Kihlstedt",
+      "object": "violin",
+      "subject_id": "Q437819",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Frank Mills",
+      "object": "piano",
+      "subject_id": "Q5488455",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Rex Stewart",
+      "object": "trumpet",
+      "subject_id": "Q765531",
+      "object_id": "Q8338"
+    },
+    {
+      "subject": "Matt Riddle",
+      "object": "guitar",
+      "subject_id": "Q3867244",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Lee Jong-hyun",
+      "object": "guitar",
+      "subject_id": "Q488057",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Michael Nyman",
+      "object": "piano",
+      "subject_id": "Q313639",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Henri Gagnon",
+      "object": "piano",
+      "subject_id": "Q784771",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Garth Brooks",
+      "object": "piano",
+      "subject_id": "Q216288",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Emanuel Ax",
+      "object": "piano",
+      "subject_id": "Q505563",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Lev Naumov",
+      "object": "piano",
+      "subject_id": "Q1187114",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Ed O'Brien",
+      "object": "guitar",
+      "subject_id": "Q842850",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Owen Bradley",
+      "object": "piano",
+      "subject_id": "Q2042598",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Freddie Hubbard",
+      "object": "trumpet",
+      "subject_id": "Q346762",
+      "object_id": "Q8338"
+    },
+    {
+      "subject": "Guy Barker",
+      "object": "trumpet",
+      "subject_id": "Q1557440",
+      "object_id": "Q8338"
+    },
+    {
+      "subject": "Hamish Milne",
+      "object": "piano",
+      "subject_id": "Q2037989",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Les Claypool",
+      "object": "guitar",
+      "subject_id": "Q514985",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Leroy Jones",
+      "object": "trumpet",
+      "subject_id": "Q73404229",
+      "object_id": "Q8338"
+    },
+    {
+      "subject": "Grant Kirkhope",
+      "object": "trumpet",
+      "subject_id": "Q1818767",
+      "object_id": "Q8338"
+    },
+    {
+      "subject": "Andrew Pendlebury",
+      "object": "guitar",
+      "subject_id": "Q4758233",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Floor Jansen",
+      "object": "violin",
+      "subject_id": "Q253259",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Henry Litolff",
+      "object": "piano",
+      "subject_id": "Q383853",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Henri Herz",
+      "object": "piano",
+      "subject_id": "Q572547",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Emmanuel Chabrier",
+      "object": "piano",
+      "subject_id": "Q313374",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Ruggiero Ricci",
+      "object": "violin",
+      "subject_id": "Q718368",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Charlie Banacos",
+      "object": "piano",
+      "subject_id": "Q1066804",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Ashley Hutchings",
+      "object": "violin",
+      "subject_id": "Q725884",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Millard Powers",
+      "object": "guitar",
+      "subject_id": "Q6858519",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Nikki Iles",
+      "object": "piano",
+      "subject_id": "Q1990366",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Erich Gruenberg",
+      "object": "violin",
+      "subject_id": "Q4151035",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Ricky Skaggs",
+      "object": "guitar",
+      "subject_id": "Q1347095",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Jack Kilcoyne",
+      "object": "guitar",
+      "subject_id": "Q10304740",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Bi Ribeiro",
+      "object": "guitar",
+      "subject_id": "Q4902388",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Tyshawn Sorey",
+      "object": "piano",
+      "subject_id": "Q2463431",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Dan Lukacinsky",
+      "object": "guitar",
+      "subject_id": "Q5213901",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Claus Schall",
+      "object": "violin",
+      "subject_id": "Q328831",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Jill Tracy",
+      "object": "piano",
+      "subject_id": "Q235349",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Scarlet Rivera",
+      "object": "violin",
+      "subject_id": "Q6928842",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Marvin Stamm",
+      "object": "trumpet",
+      "subject_id": "Q886416",
+      "object_id": "Q8338"
+    },
+    {
+      "subject": "Herbert Fryer",
+      "object": "piano",
+      "subject_id": "Q5734131",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Boris Berman",
+      "object": "piano",
+      "subject_id": "Q2599508",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Antonio Vivaldi",
+      "object": "violin",
+      "subject_id": "Q1340",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Alberto Semprini",
+      "object": "piano",
+      "subject_id": "Q3608576",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Ruth Laredo",
+      "object": "piano",
+      "subject_id": "Q437058",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Freddie Webster",
+      "object": "trumpet",
+      "subject_id": "Q371982",
+      "object_id": "Q8338"
+    },
+    {
+      "subject": "Jim Weider",
+      "object": "guitar",
+      "subject_id": "Q6198854",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Teddy Wilson",
+      "object": "piano",
+      "subject_id": "Q506052",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Jaap Spaanderman",
+      "object": "piano",
+      "subject_id": "Q2168781",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Harry Nilsson",
+      "object": "piano",
+      "subject_id": "Q281034",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Lee Mavers",
+      "object": "guitar",
+      "subject_id": "Q3829378",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Keith Tippett",
+      "object": "piano",
+      "subject_id": "Q1351019",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Stephin Merritt",
+      "object": "guitar",
+      "subject_id": "Q2395308",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Henry Busse",
+      "object": "trumpet",
+      "subject_id": "Q1026959",
+      "object_id": "Q8338"
+    },
+    {
+      "subject": "Nikolai Kapustin",
+      "object": "piano",
+      "subject_id": "Q704175",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Finbarr Clancy",
+      "object": "guitar",
+      "subject_id": "Q16274790",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Ray Bryant",
+      "object": "piano",
+      "subject_id": "Q492143",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Ottmar Liebert",
+      "object": "guitar",
+      "subject_id": "Q66212",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Pino Palladino",
+      "object": "guitar",
+      "subject_id": "Q922252",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Hughie Thomasson",
+      "object": "guitar",
+      "subject_id": "Q721521",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Valery Sigalevitch",
+      "object": "piano",
+      "subject_id": "Q3553746",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Geoff Eales",
+      "object": "piano",
+      "subject_id": "Q5534120",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Bill Anschell",
+      "object": "piano",
+      "subject_id": "Q730695",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Pietro Locatelli",
+      "object": "violin",
+      "subject_id": "Q124772",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "John Mayall",
+      "object": "guitar",
+      "subject_id": "Q316282",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Sammy Price",
+      "object": "piano",
+      "subject_id": "Q725312",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Anthony Burger",
+      "object": "piano",
+      "subject_id": "Q572933",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Michael Denner",
+      "object": "guitar",
+      "subject_id": "Q3179120",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Deborah Conway",
+      "object": "guitar",
+      "subject_id": "Q5248211",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Marcelo Camelo",
+      "object": "guitar",
+      "subject_id": "Q6756517",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Snakefinger",
+      "object": "violin",
+      "subject_id": "Q2086125",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Charles-Valentin Alkan",
+      "object": "piano",
+      "subject_id": "Q217068",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Aretha Franklin",
+      "object": "piano",
+      "subject_id": "Q125121",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Fred Van Hove",
+      "object": "piano",
+      "subject_id": "Q332197",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Peter Rainer",
+      "object": "violin",
+      "subject_id": "Q56383045",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Toots Thielemans",
+      "object": "guitar",
+      "subject_id": "Q365567",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Hugh Laurie",
+      "object": "piano",
+      "subject_id": "Q49017",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Darrell Leonard",
+      "object": "trumpet",
+      "subject_id": "Q5224667",
+      "object_id": "Q8338"
+    },
+    {
+      "subject": "Karl Engel",
+      "object": "piano",
+      "subject_id": "Q5711903",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Tomoyasu Hotei",
+      "object": "guitar",
+      "subject_id": "Q699757",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Percy Grainger",
+      "object": "piano",
+      "subject_id": "Q318354",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Clara Haskil",
+      "object": "piano",
+      "subject_id": "Q123463",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Boris Belkin",
+      "object": "violin",
+      "subject_id": "Q893646",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Thad Jones",
+      "object": "trumpet",
+      "subject_id": "Q539883",
+      "object_id": "Q8338"
+    },
+    {
+      "subject": "Jimmy Rogers",
+      "object": "guitar",
+      "subject_id": "Q100985532",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Marv Tarplin",
+      "object": "guitar",
+      "subject_id": "Q3366973",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Tony Levin",
+      "object": "guitar",
+      "subject_id": "Q216986",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Robert Schumann",
+      "object": "piano",
+      "subject_id": "Q7351",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Arthur Loesser",
+      "object": "piano",
+      "subject_id": "Q710443",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Henryk Wieniawski",
+      "object": "violin",
+      "subject_id": "Q272184",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Bradford Cox",
+      "object": "guitar",
+      "subject_id": "Q2552873",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Dave Sinclair",
+      "object": "piano",
+      "subject_id": "Q778289",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Stephen Hough",
+      "object": "piano",
+      "subject_id": "Q1243635",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Robert Riefling",
+      "object": "piano",
+      "subject_id": "Q7349303",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Claude Delvincourt",
+      "object": "piano",
+      "subject_id": "Q1096647",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Kumbakonam Rajamanickam Pillai",
+      "object": "violin",
+      "subject_id": "Q15922205",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Isaac Stern",
+      "object": "violin",
+      "subject_id": "Q311317",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Carolyn Franklin",
+      "object": "piano",
+      "subject_id": "Q5045362",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Mark Feldman",
+      "object": "violin",
+      "subject_id": "Q356089",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Dennis Coffey",
+      "object": "guitar",
+      "subject_id": "Q1189042",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Horace Parlan",
+      "object": "piano",
+      "subject_id": "Q1627905",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Morten Harket",
+      "object": "guitar",
+      "subject_id": "Q319773",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Amelia Fletcher",
+      "object": "guitar",
+      "subject_id": "Q4742257",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Tommy Cogbill",
+      "object": "guitar",
+      "subject_id": "Q7819313",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Jamie Cook",
+      "object": "guitar",
+      "subject_id": "Q6146754",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "William Bolcom",
+      "object": "piano",
+      "subject_id": "Q710714",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Thelonious Monk",
+      "object": "piano",
+      "subject_id": "Q109612",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Dwaram Venkataswamy Naidu",
+      "object": "violin",
+      "subject_id": "Q5317881",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Tania Maria",
+      "object": "piano",
+      "subject_id": "Q469539",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "John Mehegan",
+      "object": "piano",
+      "subject_id": "Q646958",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Christine Ohlman",
+      "object": "guitar",
+      "subject_id": "Q5111139",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Roy Hargrove",
+      "object": "trumpet",
+      "subject_id": "Q648750",
+      "object_id": "Q8338"
+    },
+    {
+      "subject": "Gwilym Simcock",
+      "object": "piano",
+      "subject_id": "Q919013",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Ray Reach",
+      "object": "piano",
+      "subject_id": "Q7298008",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Roland Orzabal",
+      "object": "guitar",
+      "subject_id": "Q554025",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Billy Grammer",
+      "object": "guitar",
+      "subject_id": "Q4912633",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Lee Loughnane",
+      "object": "trumpet",
+      "subject_id": "Q5963972",
+      "object_id": "Q8338"
+    },
+    {
+      "subject": "Franz Schmidt",
+      "object": "piano",
+      "subject_id": "Q434601",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Artur Balsam",
+      "object": "piano",
+      "subject_id": "Q4077081",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Bob Ralston",
+      "object": "piano",
+      "subject_id": "Q4933722",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Rod Argent",
+      "object": "piano",
+      "subject_id": "Q1895317",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Roy Shepherd",
+      "object": "piano",
+      "subject_id": "Q7373356",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Jane Getz",
+      "object": "piano",
+      "subject_id": "Q165692",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Wynton Marsalis",
+      "object": "trumpet",
+      "subject_id": "Q273076",
+      "object_id": "Q8338"
+    },
+    {
+      "subject": "Jerry Donahue",
+      "object": "guitar",
+      "subject_id": "Q1773500",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Albert Chamberland",
+      "object": "violin",
+      "subject_id": "Q573776",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Homero Francesch",
+      "object": "piano",
+      "subject_id": "Q120568",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Louis Moreau Gottschalk",
+      "object": "piano",
+      "subject_id": "Q550701",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Svend Asmussen",
+      "object": "violin",
+      "subject_id": "Q1338273",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Ernesto Lecuona",
+      "object": "piano",
+      "subject_id": "Q345446",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Compay Segundo",
+      "object": "guitar",
+      "subject_id": "Q316102",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Van Cliburn",
+      "object": "piano",
+      "subject_id": "Q366355",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Tomaso Albinoni",
+      "object": "violin",
+      "subject_id": "Q174606",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Cow Cow Davenport",
+      "object": "piano",
+      "subject_id": "Q358619",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Beck",
+      "object": "guitar",
+      "subject_id": "Q2659856",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Chris Hillman",
+      "object": "guitar",
+      "subject_id": "Q770668",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Henry Halstead",
+      "object": "violin",
+      "subject_id": "Q2236955",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Friedrich Kalkbrenner",
+      "object": "piano",
+      "subject_id": "Q170270",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Alicia de Larrocha",
+      "object": "piano",
+      "subject_id": "Q232255",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Jonas Berggren",
+      "object": "guitar",
+      "subject_id": "Q981785",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Paz Lenchantin",
+      "object": "violin",
+      "subject_id": "Q266006",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Doug Raney",
+      "object": "guitar",
+      "subject_id": "Q366122",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Frantz Jehin-Prume",
+      "object": "violin",
+      "subject_id": "Q1166918",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Dan Sealey",
+      "object": "guitar",
+      "subject_id": "Q5214361",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Paul McCartney",
+      "object": "piano",
+      "subject_id": "Q2599",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Rick Wakeman",
+      "object": "piano",
+      "subject_id": "Q312053",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Len Tuckey",
+      "object": "guitar",
+      "subject_id": "Q18720292",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Beppe Gambetta",
+      "object": "guitar",
+      "subject_id": "Q3638440",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Lester Bowie",
+      "object": "trumpet",
+      "subject_id": "Q558118",
+      "object_id": "Q8338"
+    },
+    {
+      "subject": "Meade Lux Lewis",
+      "object": "piano",
+      "subject_id": "Q1399605",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Terence Blanchard",
+      "object": "trumpet",
+      "subject_id": "Q967230",
+      "object_id": "Q8338"
+    },
+    {
+      "subject": "Diblo Dibala",
+      "object": "guitar",
+      "subject_id": "Q4161091",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Rob Zombie",
+      "object": "guitar",
+      "subject_id": "Q298255",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Jared Leto",
+      "object": "violin",
+      "subject_id": "Q484523",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Jean-Jacques Kantorow",
+      "object": "violin",
+      "subject_id": "Q1365551",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Mikhail Kopelman",
+      "object": "violin",
+      "subject_id": "Q4232297",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Philip Glass",
+      "object": "piano",
+      "subject_id": "Q189729",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Peter Laughner",
+      "object": "guitar",
+      "subject_id": "Q3376712",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Aloys and Alfons Kontarsky",
+      "object": "piano",
+      "subject_id": "Q49907",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Suna Kan",
+      "object": "violin",
+      "subject_id": "Q7638741",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Jan Ladislav Dussek",
+      "object": "piano",
+      "subject_id": "Q357172",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Red Nichols",
+      "object": "trumpet",
+      "subject_id": "Q495464",
+      "object_id": "Q8338"
+    },
+    {
+      "subject": "Dmitry Sitkovetsky",
+      "object": "violin",
+      "subject_id": "Q344063",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Neil Hagerty",
+      "object": "guitar",
+      "subject_id": "Q6988676",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "John Hiatt",
+      "object": "guitar",
+      "subject_id": "Q108149107",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Merl Saunders",
+      "object": "piano",
+      "subject_id": "Q1921889",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Sylvie Courvoisier",
+      "object": "piano",
+      "subject_id": "Q117067",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Serge Gainsbourg",
+      "object": "guitar",
+      "subject_id": "Q16040585",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Alexandre Lagoya",
+      "object": "guitar",
+      "subject_id": "Q1851201",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Nat King Cole",
+      "object": "piano",
+      "subject_id": "Q137042",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Sid Page",
+      "object": "violin",
+      "subject_id": "Q7507867",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Giuseppe Torelli",
+      "object": "violin",
+      "subject_id": "Q207532",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Joe Walsh",
+      "object": "guitar",
+      "subject_id": "Q354033",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Ola Kvernberg",
+      "object": "violin",
+      "subject_id": "Q4120851",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Peter Mandrup Lem",
+      "object": "violin",
+      "subject_id": "Q7175634",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Willie Dixon",
+      "object": "guitar",
+      "subject_id": "Q204092",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Blind Willie McTell",
+      "object": "guitar",
+      "subject_id": "Q181689",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Anton Nel",
+      "object": "piano",
+      "subject_id": "Q4775923",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Pyotr Stolyarsky",
+      "object": "violin",
+      "subject_id": "Q440716",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Antonio Rolla",
+      "object": "violin",
+      "subject_id": "Q604683",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Oscar Levant",
+      "object": "piano",
+      "subject_id": "Q945042",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Samuil Feinberg",
+      "object": "piano",
+      "subject_id": "Q1971227",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Duncan Druce",
+      "object": "violin",
+      "subject_id": "Q5314334",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Johann Strauss I",
+      "object": "violin",
+      "subject_id": "Q184178",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Edin Karamazov",
+      "object": "guitar",
+      "subject_id": "Q738163",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Wes Montgomery",
+      "object": "guitar",
+      "subject_id": "Q298601",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Harry Sacksioni",
+      "object": "guitar",
+      "subject_id": "Q363516",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Giovanni Battista Viotti",
+      "object": "violin",
+      "subject_id": "Q313188",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Tom Barman",
+      "object": "violin",
+      "subject_id": "Q538160",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Leopold Godowsky",
+      "object": "piano",
+      "subject_id": "Q434328",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Keith Sterling",
+      "object": "piano",
+      "subject_id": "Q6385068",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Marc Ribot",
+      "object": "guitar",
+      "subject_id": "Q539506",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Julian Rachlin",
+      "object": "violin",
+      "subject_id": "Q78796",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Fats Waller",
+      "object": "singing",
+      "subject_id": "Q310476",
+      "object_id": "Q27939"
+    },
+    {
+      "subject": "Trev Thoms",
+      "object": "guitar",
+      "subject_id": "Q3499370",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Al Hirt",
+      "object": "trumpet",
+      "subject_id": "Q658636",
+      "object_id": "Q8338"
+    },
+    {
+      "subject": "John Haggerty",
+      "object": "guitar",
+      "subject_id": "Q3809306",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Phranc",
+      "object": "guitar",
+      "subject_id": "Q3901709",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Franz Benda",
+      "object": "violin",
+      "subject_id": "Q161328",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Yehudi Menuhin",
+      "object": "violin",
+      "subject_id": "Q156814",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Norbert Brainin",
+      "object": "violin",
+      "subject_id": "Q215654",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Hamilton Harty",
+      "object": "piano",
+      "subject_id": "Q287259",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "John D'earth",
+      "object": "trumpet",
+      "subject_id": "Q1520800",
+      "object_id": "Q8338"
+    },
+    {
+      "subject": "Ronnie Drew",
+      "object": "guitar",
+      "subject_id": "Q362406",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Francis Poulenc",
+      "object": "piano",
+      "subject_id": "Q191408",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Jason Rebello",
+      "object": "piano",
+      "subject_id": "Q962357",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Rob Barrett",
+      "object": "guitar",
+      "subject_id": "Q302475",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Fanny Davies",
+      "object": "piano",
+      "subject_id": "Q5434026",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Marco Benevento",
+      "object": "piano",
+      "subject_id": "Q4098423",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Romain-Octave Pelletier I",
+      "object": "piano",
+      "subject_id": "Q1283499",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Joe Pass",
+      "object": "guitar",
+      "subject_id": "Q320883",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Gene Pitney",
+      "object": "piano",
+      "subject_id": "Q175238",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Tim Gaines",
+      "object": "guitar",
+      "subject_id": "Q962563",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Cat Power",
+      "object": "piano",
+      "subject_id": "Q232348",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Ryszard Bakst",
+      "object": "piano",
+      "subject_id": "Q578233",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Wolfgang Dauner",
+      "object": "piano",
+      "subject_id": "Q459190",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Derek Trucks",
+      "object": "slide",
+      "subject_id": "Q370726",
+      "object_id": "Q3026325"
+    },
+    {
+      "subject": "Bob Alcivar",
+      "object": "piano",
+      "subject_id": "Q4931643",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Pat Sansone",
+      "object": "guitar",
+      "subject_id": "Q6093810",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Alberto Guerrero",
+      "object": "piano",
+      "subject_id": "Q109288823",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Céline Dion",
+      "object": "piano",
+      "subject_id": "Q5105",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Daniel Mongrain",
+      "object": "guitar",
+      "subject_id": "Q901523",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Nat Gonella",
+      "object": "trumpet",
+      "subject_id": "Q923409",
+      "object_id": "Q8338"
+    },
+    {
+      "subject": "Jimi Hendrix",
+      "object": "guitar",
+      "subject_id": "Q5928",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Tony Sales",
+      "object": "guitar",
+      "subject_id": "Q3531877",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Mark Knopfler",
+      "object": "violin",
+      "subject_id": "Q185343",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Erik Truffaz",
+      "object": "trumpet",
+      "subject_id": "Q981213",
+      "object_id": "Q8338"
+    },
+    {
+      "subject": "Rubin Goldmark",
+      "object": "piano",
+      "subject_id": "Q713765",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Ian Carr",
+      "object": "trumpet",
+      "subject_id": "Q43472673",
+      "object_id": "Q8338"
+    },
+    {
+      "subject": "Billy Taylor",
+      "object": "piano",
+      "subject_id": "Q4913371",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Gustavo Laureano",
+      "object": "guitar",
+      "subject_id": "Q15306943",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Dean Friedman",
+      "object": "piano",
+      "subject_id": "Q5246158",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Marin Alsop",
+      "object": "violin",
+      "subject_id": "Q242931",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Steve Kuhn",
+      "object": "piano",
+      "subject_id": "Q100873255",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Lonnie Brooks",
+      "object": "violin",
+      "subject_id": "Q1869627",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Jon Eardley",
+      "object": "trumpet",
+      "subject_id": "Q727518",
+      "object_id": "Q8338"
+    },
+    {
+      "subject": "Kenneth Leighton",
+      "object": "piano",
+      "subject_id": "Q1569624",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Narciso Yepes",
+      "object": "guitar",
+      "subject_id": "Q436169",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Jared Leto",
+      "object": "guitar",
+      "subject_id": "Q484523",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Adam Devlin",
+      "object": "guitar",
+      "subject_id": "Q4678966",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Francisco Canaro",
+      "object": "violin",
+      "subject_id": "Q526424",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Giuseppe Tartini",
+      "object": "violin",
+      "subject_id": "Q108555",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Don Fagerquist",
+      "object": "trumpet",
+      "subject_id": "Q355572",
+      "object_id": "Q8338"
+    },
+    {
+      "subject": "Karol Szymanowski",
+      "object": "piano",
+      "subject_id": "Q295400",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Paul Anka",
+      "object": "piano",
+      "subject_id": "Q216563",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Karl Klindworth",
+      "object": "piano",
+      "subject_id": "Q703406",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "J. B. Hutto",
+      "object": "guitar",
+      "subject_id": "Q1352371",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Tony Bevilacqua",
+      "object": "guitar",
+      "subject_id": "Q1771817",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Carl Czerny",
+      "object": "piano",
+      "subject_id": "Q215333",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Ivar Antonsen",
+      "object": "piano",
+      "subject_id": "Q1107044",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Leonard Bernstein",
+      "object": "piano",
+      "subject_id": "Q152505",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Theodor Kullak",
+      "object": "piano",
+      "subject_id": "Q706082",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Tom Fletcher",
+      "object": "piano",
+      "subject_id": "Q1051540",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Randy Newman",
+      "object": "piano",
+      "subject_id": "Q318475",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Sidney De Paris",
+      "object": "trumpet",
+      "subject_id": "Q349797",
+      "object_id": "Q8338"
+    },
+    {
+      "subject": "Ivor McMahon",
+      "object": "violin",
+      "subject_id": "Q6099459",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Louis Plaidy",
+      "object": "piano",
+      "subject_id": "Q1995021",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Wild Bill Davis",
+      "object": "piano",
+      "subject_id": "Q2570294",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Philip Fowke",
+      "object": "piano",
+      "subject_id": "Q7183552",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Henry Flynt",
+      "object": "violin",
+      "subject_id": "Q971582",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Ralph Towner",
+      "object": "guitar",
+      "subject_id": "Q532053",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Derek Trucks",
+      "object": "guitar",
+      "subject_id": "Q370726",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Arve Henriksen",
+      "object": "trumpet",
+      "subject_id": "Q711785",
+      "object_id": "Q8338"
+    },
+    {
+      "subject": "Jimmy McCracklin",
+      "object": "piano",
+      "subject_id": "Q743642",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Andy Metcalfe",
+      "object": "guitar",
+      "subject_id": "Q4761034",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Chris McGregor",
+      "object": "piano",
+      "subject_id": "Q241496",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Nigel Butterley",
+      "object": "piano",
+      "subject_id": "Q7032278",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Emilio Pujol",
+      "object": "guitar",
+      "subject_id": "Q957563",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Henri Verbrugghen",
+      "object": "violin",
+      "subject_id": "Q1289034",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Nadia Reisenberg",
+      "object": "piano",
+      "subject_id": "Q4392604",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Liz Phair",
+      "object": "guitar",
+      "subject_id": "Q258761",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Tomaso Antonio Vitali",
+      "object": "violin",
+      "subject_id": "Q966026",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Louis Prima",
+      "object": "trumpet",
+      "subject_id": "Q367447",
+      "object_id": "Q8338"
+    },
+    {
+      "subject": "Seth Lakeman",
+      "object": "violin",
+      "subject_id": "Q1131249",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Max Rostal",
+      "object": "violin",
+      "subject_id": "Q215652",
+      "object_id": "Q8355"
+    },
+    {
+      "subject": "Scott Klopfenstein",
+      "object": "trumpet",
+      "subject_id": "Q1409731",
+      "object_id": "Q8338"
+    },
+    {
+      "subject": "Isadar",
+      "object": "piano",
+      "subject_id": "Q6078342",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Carla Bley",
+      "object": "piano",
+      "subject_id": "Q233721",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Mike Shinoda",
+      "object": "guitar",
+      "subject_id": "Q19201",
+      "object_id": "Q6607"
+    },
+    {
+      "subject": "Terry Gibbs",
+      "object": "piano",
+      "subject_id": "Q1749360",
+      "object_id": "Q5994"
+    },
+    {
+      "subject": "Gamal Abdel-Rahim",
+      "object": "piano",
+      "subject_id": "Q4119361",
+      "object_id": "Q5994"
+    }
+  ]
+}

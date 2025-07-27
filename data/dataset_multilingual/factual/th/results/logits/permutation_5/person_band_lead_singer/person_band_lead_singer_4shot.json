@@ -1,0 +1,5552 @@
+[
+  {
+    "prompt": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nคริส มาร์ติน เป็นนักร้องนำของ",
+    "generated_prefix": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nคริส มาร์ติน เป็นนักร้องนำของ",
+    "gold_token": " โ",
+    "predicted_top1_token": " เด",
+    "token_pos_in_answer": 0,
+    "gold_logit": 11.2265625,
+    "gold_prob_percent": 2.41,
+    "first_token_prob": 0.228759765625,
+    "second_token_prob": 0.077880859375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " เด",
+        "logit": 13.4765625,
+        "probability_percent": 22.88
+      },
+      {
+        "rank": 1,
+        "token": " แ",
+        "logit": 12.3984375,
+        "probability_percent": 7.79
+      },
+      {
+        "rank": 2,
+        "token": " อ",
+        "logit": 12.015625,
+        "probability_percent": 5.31
+      },
+      {
+        "rank": 3,
+        "token": " พ",
+        "logit": 11.953125,
+        "probability_percent": 4.99
+      },
+      {
+        "rank": 4,
+        "token": " บ",
+        "logit": 11.7109375,
+        "probability_percent": 3.92
+      },
+      {
+        "rank": 5,
+        "token": " ว",
+        "logit": 11.6484375,
+        "probability_percent": 3.68
+      },
+      {
+        "rank": 6,
+        "token": " ส",
+        "logit": 11.5625,
+        "probability_percent": 3.38
+      },
+      {
+        "rank": 7,
+        "token": " ม",
+        "logit": 11.5546875,
+        "probability_percent": 3.35
+      },
+      {
+        "rank": 8,
+        "token": " ด",
+        "logit": 11.2890625,
+        "probability_percent": 2.57
+      },
+      {
+        "rank": 9,
+        "token": " ท",
+        "logit": 11.25,
+        "probability_percent": 2.47
+      }
+    ]
+  },
+  {
+    "prompt": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nคริส มาร์ติน เป็นนักร้องนำของ",
+    "generated_prefix": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nคริส มาร์ติน เป็นนักร้องนำของ เด",
+    "gold_token": "คล",
+    "predicted_top1_token": "อะ",
+    "token_pos_in_answer": 1,
+    "gold_logit": 7.44921875,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.228759765625,
+    "second_token_prob": 0.077880859375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "อะ",
+        "logit": 19.6875,
+        "probability_percent": 96.78
+      },
+      {
+        "rank": 1,
+        "token": "ฟ",
+        "logit": 14.2734375,
+        "probability_percent": 0.43
+      },
+      {
+        "rank": 2,
+        "token": "ย",
+        "logit": 13.6640625,
+        "probability_percent": 0.23
+      },
+      {
+        "rank": 3,
+        "token": "ส",
+        "logit": 13.53125,
+        "probability_percent": 0.21
+      },
+      {
+        "rank": 4,
+        "token": "น",
+        "logit": 13.3671875,
+        "probability_percent": 0.17
+      },
+      {
+        "rank": 5,
+        "token": "อ",
+        "logit": 13.2265625,
+        "probability_percent": 0.15
+      },
+      {
+        "rank": 6,
+        "token": "ท",
+        "logit": 12.9765625,
+        "probability_percent": 0.12
+      },
+      {
+        "rank": 7,
+        "token": "ว",
+        "logit": 12.84375,
+        "probability_percent": 0.1
+      },
+      {
+        "rank": 8,
+        "token": "ล",
+        "logit": 12.8359375,
+        "probability_percent": 0.1
+      },
+      {
+        "rank": 9,
+        "token": "อร",
+        "logit": 12.6328125,
+        "probability_percent": 0.08
+      }
+    ]
+  },
+  {
+    "prompt": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nคริส มาร์ติน เป็นนักร้องนำของ",
+    "generated_prefix": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nคริส มาร์ติน เป็นนักร้องนำของ เดอะ",
+    "gold_token": "ด",
+    "predicted_top1_token": "ค",
+    "token_pos_in_answer": 2,
+    "gold_logit": 12.0546875,
+    "gold_prob_percent": 2.69,
+    "first_token_prob": 0.228759765625,
+    "second_token_prob": 0.077880859375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ค",
+        "logit": 13.2578125,
+        "probability_percent": 8.97
+      },
+      {
+        "rank": 1,
+        "token": "บ",
+        "logit": 12.953125,
+        "probability_percent": 6.62
+      },
+      {
+        "rank": 2,
+        "token": "ว",
+        "logit": 12.7890625,
+        "probability_percent": 5.62
+      },
+      {
+        "rank": 3,
+        "token": "ม",
+        "logit": 12.6875,
+        "probability_percent": 5.07
+      },
+      {
+        "rank": 4,
+        "token": "เอ",
+        "logit": 12.6875,
+        "probability_percent": 5.07
+      },
+      {
+        "rank": 5,
+        "token": "อ",
+        "logit": 12.546875,
+        "probability_percent": 4.41
+      },
+      {
+        "rank": 6,
+        "token": "แ",
+        "logit": 12.40625,
+        "probability_percent": 3.83
+      },
+      {
+        "rank": 7,
+        "token": "ซ",
+        "logit": 12.2421875,
+        "probability_percent": 3.25
+      },
+      {
+        "rank": 8,
+        "token": "พ",
+        "logit": 12.1953125,
+        "probability_percent": 3.1
+      },
+      {
+        "rank": 9,
+        "token": "ด",
+        "logit": 12.0546875,
+        "probability_percent": 2.69
+      }
+    ]
+  },
+  {
+    "prompt": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nคริส มาร์ติน เป็นนักร้องนำของ",
+    "generated_prefix": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nคริส มาร์ติน เป็นนักร้องนำของ เดอะค",
+    "gold_token": "์",
+    "predicted_top1_token": "าร",
+    "token_pos_in_answer": 3,
+    "gold_logit": 11.3828125,
+    "gold_prob_percent": 0.04,
+    "first_token_prob": 0.228759765625,
+    "second_token_prob": 0.077880859375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "าร",
+        "logit": 17.234375,
+        "probability_percent": 12.57
+      },
+      {
+        "rank": 1,
+        "token": "อร",
+        "logit": 17.1875,
+        "probability_percent": 12.0
+      },
+      {
+        "rank": 2,
+        "token": "ิง",
+        "logit": 16.6875,
+        "probability_percent": 7.28
+      },
+      {
+        "rank": 3,
+        "token": "ิล",
+        "logit": 16.171875,
+        "probability_percent": 4.35
+      },
+      {
+        "rank": 4,
+        "token": "ิว",
+        "logit": 16.125,
+        "probability_percent": 4.15
+      },
+      {
+        "rank": 5,
+        "token": "ิก",
+        "logit": 15.9140625,
+        "probability_percent": 3.36
+      },
+      {
+        "rank": 6,
+        "token": "ัม",
+        "logit": 15.90625,
+        "probability_percent": 3.33
+      },
+      {
+        "rank": 7,
+        "token": "อน",
+        "logit": 15.7265625,
+        "probability_percent": 2.78
+      },
+      {
+        "rank": 8,
+        "token": "ิต",
+        "logit": 15.7265625,
+        "probability_percent": 2.78
+      },
+      {
+        "rank": 9,
+        "token": "ูล",
+        "logit": 15.6796875,
+        "probability_percent": 2.66
+      }
+    ]
+  },
+  {
+    "prompt": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nคริส มาร์ติน เป็นนักร้องนำของ",
+    "generated_prefix": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nคริส มาร์ติน เป็นนักร้องนำของ เดอะคาร",
+    "gold_token": "เพล",
+    "predicted_top1_token": "์",
+    "token_pos_in_answer": 4,
+    "gold_logit": 8.8828125,
+    "gold_prob_percent": 0.02,
+    "first_token_prob": 0.228759765625,
+    "second_token_prob": 0.077880859375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "์",
+        "logit": 16.09375,
+        "probability_percent": 24.49
+      },
+      {
+        "rank": 1,
+        "token": "์ด",
+        "logit": 16.015625,
+        "probability_percent": 22.64
+      },
+      {
+        "rank": 2,
+        "token": "า",
+        "logit": 14.546875,
+        "probability_percent": 5.21
+      },
+      {
+        "rank": 3,
+        "token": "์ส",
+        "logit": 13.96875,
+        "probability_percent": 2.93
+      },
+      {
+        "rank": 4,
+        "token": "าบ",
+        "logit": 13.6875,
+        "probability_percent": 2.21
+      },
+      {
+        "rank": 5,
+        "token": "์ท",
+        "logit": 13.671875,
+        "probability_percent": 2.17
+      },
+      {
+        "rank": 6,
+        "token": "์เพ",
+        "logit": 13.65625,
+        "probability_percent": 2.14
+      },
+      {
+        "rank": 7,
+        "token": "์บ",
+        "logit": 13.6171875,
+        "probability_percent": 2.06
+      },
+      {
+        "rank": 8,
+        "token": "์น",
+        "logit": 13.4296875,
+        "probability_percent": 1.71
+      },
+      {
+        "rank": 9,
+        "token": "์ม",
+        "logit": 13.34375,
+        "probability_percent": 1.57
+      }
+    ]
+  },
+  {
+    "prompt": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nคริส มาร์ติน เป็นนักร้องนำของ",
+    "generated_prefix": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nคริส มาร์ติน เป็นนักร้องนำของ เดอะคาร์",
+    "gold_token": "ย",
+    "predicted_top1_token": "ป",
+    "token_pos_in_answer": 5,
+    "gold_logit": 7.546875,
+    "gold_prob_percent": 0.06,
+    "first_token_prob": 0.228759765625,
+    "second_token_prob": 0.077880859375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ป",
+        "logit": 13.984375,
+        "probability_percent": 39.01
+      },
+      {
+        "rank": 1,
+        "token": "เด",
+        "logit": 12.9140625,
+        "probability_percent": 13.38
+      },
+      {
+        "rank": 2,
+        "token": "เม",
+        "logit": 12.4765625,
+        "probability_percent": 8.64
+      },
+      {
+        "rank": 3,
+        "token": "เตอร",
+        "logit": 11.53125,
+        "probability_percent": 3.36
+      },
+      {
+        "rank": 4,
+        "token": ".\n",
+        "logit": 11.3671875,
+        "probability_percent": 2.85
+      },
+      {
+        "rank": 5,
+        "token": "เท",
+        "logit": 11.2734375,
+        "probability_percent": 2.59
+      },
+      {
+        "rank": 6,
+        "token": "เล",
+        "logit": 11.2109375,
+        "probability_percent": 2.44
+      },
+      {
+        "rank": 7,
+        "token": "เต",
+        "logit": 10.78125,
+        "probability_percent": 1.59
+      },
+      {
+        "rank": 8,
+        "token": "เป",
+        "logit": 10.7421875,
+        "probability_percent": 1.52
+      },
+      {
+        "rank": 9,
+        "token": "ไล",
+        "logit": 10.6171875,
+        "probability_percent": 1.35
+      }
+    ]
+  },
+  {
+    "prompt": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nคริส มาร์ติน เป็นนักร้องนำของ",
+    "generated_prefix": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nคริส มาร์ติน เป็นนักร้องนำของ เดอะคาร์ป",
+    "gold_token": "์",
+    "predicted_top1_token": "ส",
+    "token_pos_in_answer": 6,
+    "gold_logit": 9.265625,
+    "gold_prob_percent": 0.67,
+    "first_token_prob": 0.228759765625,
+    "second_token_prob": 0.077880859375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ส",
+        "logit": 12.25,
+        "probability_percent": 13.21
+      },
+      {
+        "rank": 1,
+        "token": "ี",
+        "logit": 12.03125,
+        "probability_percent": 10.61
+      },
+      {
+        "rank": 2,
+        "token": "ิส",
+        "logit": 10.9609375,
+        "probability_percent": 3.64
+      },
+      {
+        "rank": 3,
+        "token": "า",
+        "logit": 10.8125,
+        "probability_percent": 3.14
+      },
+      {
+        "rank": 4,
+        "token": "ิ",
+        "logit": 10.390625,
+        "probability_percent": 2.06
+      },
+      {
+        "rank": 5,
+        "token": "อต",
+        "logit": 10.3125,
+        "probability_percent": 1.9
+      },
+      {
+        "rank": 6,
+        "token": "าส",
+        "logit": 10.2890625,
+        "probability_percent": 1.86
+      },
+      {
+        "rank": 7,
+        "token": "็",
+        "logit": 10.2265625,
+        "probability_percent": 1.75
+      },
+      {
+        "rank": 8,
+        "token": "ετ",
+        "logit": 10.203125,
+        "probability_percent": 1.71
+      },
+      {
+        "rank": 9,
+        "token": "ेट",
+        "logit": 9.96875,
+        "probability_percent": 1.35
+      }
+    ]
+  },
+  {
+    "prompt": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nเดฟ โกรล เป็นนักร้องนำของ",
+    "generated_prefix": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nเดฟ โกรล เป็นนักร้องนำของ",
+    "gold_token": " ฟ",
+    "predicted_top1_token": " เด",
+    "token_pos_in_answer": 0,
+    "gold_logit": 11.171875,
+    "gold_prob_percent": 2.26,
+    "first_token_prob": 0.2296142578125,
+    "second_token_prob": 0.087158203125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " เด",
+        "logit": 13.4921875,
+        "probability_percent": 22.96
+      },
+      {
+        "rank": 1,
+        "token": " แ",
+        "logit": 12.5234375,
+        "probability_percent": 8.72
+      },
+      {
+        "rank": 2,
+        "token": " พ",
+        "logit": 11.9140625,
+        "probability_percent": 4.74
+      },
+      {
+        "rank": 3,
+        "token": " อ",
+        "logit": 11.875,
+        "probability_percent": 4.56
+      },
+      {
+        "rank": 4,
+        "token": " บ",
+        "logit": 11.796875,
+        "probability_percent": 4.21
+      },
+      {
+        "rank": 5,
+        "token": " ส",
+        "logit": 11.734375,
+        "probability_percent": 3.96
+      },
+      {
+        "rank": 6,
+        "token": " ว",
+        "logit": 11.546875,
+        "probability_percent": 3.28
+      },
+      {
+        "rank": 7,
+        "token": " ด",
+        "logit": 11.4765625,
+        "probability_percent": 3.06
+      },
+      {
+        "rank": 8,
+        "token": " โ",
+        "logit": 11.3984375,
+        "probability_percent": 2.83
+      },
+      {
+        "rank": 9,
+        "token": " ท",
+        "logit": 11.25,
+        "probability_percent": 2.44
+      }
+    ]
+  },
+  {
+    "prompt": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nเดฟ โกรล เป็นนักร้องนำของ",
+    "generated_prefix": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nเดฟ โกรล เป็นนักร้องนำของ เด",
+    "gold_token": "ู",
+    "predicted_top1_token": "อะ",
+    "token_pos_in_answer": 1,
+    "gold_logit": 6.390625,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.2296142578125,
+    "second_token_prob": 0.087158203125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "อะ",
+        "logit": 19.109375,
+        "probability_percent": 93.26
+      },
+      {
+        "rank": 1,
+        "token": "ฟ",
+        "logit": 15.1953125,
+        "probability_percent": 1.86
+      },
+      {
+        "rank": 2,
+        "token": "ส",
+        "logit": 13.5234375,
+        "probability_percent": 0.35
+      },
+      {
+        "rank": 3,
+        "token": "ย",
+        "logit": 13.453125,
+        "probability_percent": 0.33
+      },
+      {
+        "rank": 4,
+        "token": "ท",
+        "logit": 13.3828125,
+        "probability_percent": 0.3
+      },
+      {
+        "rank": 5,
+        "token": "น",
+        "logit": 13.3046875,
+        "probability_percent": 0.28
+      },
+      {
+        "rank": 6,
+        "token": "อ",
+        "logit": 13.171875,
+        "probability_percent": 0.25
+      },
+      {
+        "rank": 7,
+        "token": "ธ",
+        "logit": 12.8671875,
+        "probability_percent": 0.18
+      },
+      {
+        "rank": 8,
+        "token": "ว",
+        "logit": 12.8515625,
+        "probability_percent": 0.18
+      },
+      {
+        "rank": 9,
+        "token": "ล",
+        "logit": 12.6484375,
+        "probability_percent": 0.15
+      }
+    ]
+  },
+  {
+    "prompt": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nเดฟ โกรล เป็นนักร้องนำของ",
+    "generated_prefix": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nเดฟ โกรล เป็นนักร้องนำของ เดอะ",
+    "gold_token": "ไฟ",
+    "predicted_top1_token": "ค",
+    "token_pos_in_answer": 2,
+    "gold_logit": 9.4296875,
+    "gold_prob_percent": 0.18,
+    "first_token_prob": 0.2296142578125,
+    "second_token_prob": 0.087158203125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ค",
+        "logit": 12.9921875,
+        "probability_percent": 6.32
+      },
+      {
+        "rank": 1,
+        "token": "บ",
+        "logit": 12.75,
+        "probability_percent": 4.97
+      },
+      {
+        "rank": 2,
+        "token": "ว",
+        "logit": 12.6875,
+        "probability_percent": 4.66
+      },
+      {
+        "rank": 3,
+        "token": "ม",
+        "logit": 12.609375,
+        "probability_percent": 4.32
+      },
+      {
+        "rank": 4,
+        "token": "พ",
+        "logit": 12.609375,
+        "probability_percent": 4.32
+      },
+      {
+        "rank": 5,
+        "token": "เอ",
+        "logit": 12.578125,
+        "probability_percent": 4.18
+      },
+      {
+        "rank": 6,
+        "token": "ซ",
+        "logit": 12.5703125,
+        "probability_percent": 4.15
+      },
+      {
+        "rank": 7,
+        "token": "แ",
+        "logit": 12.4765625,
+        "probability_percent": 3.78
+      },
+      {
+        "rank": 8,
+        "token": "อ",
+        "logit": 12.4375,
+        "probability_percent": 3.63
+      },
+      {
+        "rank": 9,
+        "token": "ฟ",
+        "logit": 12.359375,
+        "probability_percent": 3.36
+      }
+    ]
+  },
+  {
+    "prompt": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nเดฟ โกรล เป็นนักร้องนำของ",
+    "generated_prefix": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nเดฟ โกรล เป็นนักร้องนำของ เดอะค",
+    "gold_token": "เตอร",
+    "predicted_top1_token": "อร",
+    "token_pos_in_answer": 3,
+    "gold_logit": 8.359375,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.2296142578125,
+    "second_token_prob": 0.087158203125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "อร",
+        "logit": 17.59375,
+        "probability_percent": 14.48
+      },
+      {
+        "rank": 1,
+        "token": "าร",
+        "logit": 17.109375,
+        "probability_percent": 8.92
+      },
+      {
+        "rank": 2,
+        "token": "ิล",
+        "logit": 17.046875,
+        "probability_percent": 8.38
+      },
+      {
+        "rank": 3,
+        "token": "ิง",
+        "logit": 16.65625,
+        "probability_percent": 5.67
+      },
+      {
+        "rank": 4,
+        "token": "ิว",
+        "logit": 16.421875,
+        "probability_percent": 4.49
+      },
+      {
+        "rank": 5,
+        "token": "ูล",
+        "logit": 16.25,
+        "probability_percent": 3.78
+      },
+      {
+        "rank": 6,
+        "token": "ิก",
+        "logit": 16.078125,
+        "probability_percent": 3.18
+      },
+      {
+        "rank": 7,
+        "token": "า",
+        "logit": 15.84375,
+        "probability_percent": 2.52
+      },
+      {
+        "rank": 8,
+        "token": "ิลล",
+        "logit": 15.84375,
+        "probability_percent": 2.52
+      },
+      {
+        "rank": 9,
+        "token": "อน",
+        "logit": 15.796875,
+        "probability_percent": 2.4
+      }
+    ]
+  },
+  {
+    "prompt": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nเดฟ โกรล เป็นนักร้องนำของ",
+    "generated_prefix": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nเดฟ โกรล เป็นนักร้องนำของ เดอะคอร",
+    "gold_token": "์ส",
+    "predicted_top1_token": "์",
+    "token_pos_in_answer": 4,
+    "gold_logit": 12.6953125,
+    "gold_prob_percent": 2.83,
+    "first_token_prob": 0.2296142578125,
+    "second_token_prob": 0.087158203125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "์",
+        "logit": 15.015625,
+        "probability_percent": 28.76
+      },
+      {
+        "rank": 1,
+        "token": "์น",
+        "logit": 14.078125,
+        "probability_percent": 11.26
+      },
+      {
+        "rank": 2,
+        "token": "ัล",
+        "logit": 13.203125,
+        "probability_percent": 4.69
+      },
+      {
+        "rank": 3,
+        "token": "์ด",
+        "logit": 13.15625,
+        "probability_percent": 4.48
+      },
+      {
+        "rank": 4,
+        "token": "์เน",
+        "logit": 12.96875,
+        "probability_percent": 3.71
+      },
+      {
+        "rank": 5,
+        "token": "์ท",
+        "logit": 12.9296875,
+        "probability_percent": 3.57
+      },
+      {
+        "rank": 6,
+        "token": "์ร",
+        "logit": 12.84375,
+        "probability_percent": 3.28
+      },
+      {
+        "rank": 7,
+        "token": "์ส",
+        "logit": 12.6953125,
+        "probability_percent": 2.83
+      },
+      {
+        "rank": 8,
+        "token": "์ต",
+        "logit": 12.3359375,
+        "probability_percent": 1.97
+      },
+      {
+        "rank": 9,
+        "token": "์ว",
+        "logit": 12.3125,
+        "probability_percent": 1.93
+      }
+    ]
+  },
+  {
+    "prompt": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nโรเบิร์ต แพลนต์ เป็นนักร้องนำของ",
+    "generated_prefix": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nโรเบิร์ต แพลนต์ เป็นนักร้องนำของ",
+    "gold_token": " เล",
+    "predicted_top1_token": " เด",
+    "token_pos_in_answer": 0,
+    "gold_logit": 9.296875,
+    "gold_prob_percent": 0.36,
+    "first_token_prob": 0.1778564453125,
+    "second_token_prob": 0.0966796875,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " เด",
+        "logit": 13.1875,
+        "probability_percent": 17.79
+      },
+      {
+        "rank": 1,
+        "token": " แ",
+        "logit": 12.578125,
+        "probability_percent": 9.67
+      },
+      {
+        "rank": 2,
+        "token": " พ",
+        "logit": 11.9921875,
+        "probability_percent": 5.38
+      },
+      {
+        "rank": 3,
+        "token": " อ",
+        "logit": 11.9765625,
+        "probability_percent": 5.3
+      },
+      {
+        "rank": 4,
+        "token": " บ",
+        "logit": 11.8671875,
+        "probability_percent": 4.75
+      },
+      {
+        "rank": 5,
+        "token": " ส",
+        "logit": 11.765625,
+        "probability_percent": 4.29
+      },
+      {
+        "rank": 6,
+        "token": " ว",
+        "logit": 11.7265625,
+        "probability_percent": 4.13
+      },
+      {
+        "rank": 7,
+        "token": " โ",
+        "logit": 11.375,
+        "probability_percent": 2.9
+      },
+      {
+        "rank": 8,
+        "token": " ไ",
+        "logit": 11.28125,
+        "probability_percent": 2.64
+      },
+      {
+        "rank": 9,
+        "token": " ท",
+        "logit": 11.2578125,
+        "probability_percent": 2.58
+      }
+    ]
+  },
+  {
+    "prompt": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nโรเบิร์ต แพลนต์ เป็นนักร้องนำของ",
+    "generated_prefix": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nโรเบิร์ต แพลนต์ เป็นนักร้องนำของ เด",
+    "gold_token": "ด",
+    "predicted_top1_token": "อะ",
+    "token_pos_in_answer": 1,
+    "gold_logit": 12.5078125,
+    "gold_prob_percent": 0.07,
+    "first_token_prob": 0.1778564453125,
+    "second_token_prob": 0.0966796875,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "อะ",
+        "logit": 19.78125,
+        "probability_percent": 96.68
+      },
+      {
+        "rank": 1,
+        "token": "ฟ",
+        "logit": 14.3203125,
+        "probability_percent": 0.41
+      },
+      {
+        "rank": 2,
+        "token": "ย",
+        "logit": 13.6875,
+        "probability_percent": 0.22
+      },
+      {
+        "rank": 3,
+        "token": "น",
+        "logit": 13.5703125,
+        "probability_percent": 0.19
+      },
+      {
+        "rank": 4,
+        "token": "ส",
+        "logit": 13.5625,
+        "probability_percent": 0.19
+      },
+      {
+        "rank": 5,
+        "token": "อ",
+        "logit": 13.4296875,
+        "probability_percent": 0.17
+      },
+      {
+        "rank": 6,
+        "token": "ท",
+        "logit": 13.125,
+        "probability_percent": 0.12
+      },
+      {
+        "rank": 7,
+        "token": "ล",
+        "logit": 13.1171875,
+        "probability_percent": 0.12
+      },
+      {
+        "rank": 8,
+        "token": "ว",
+        "logit": 13.03125,
+        "probability_percent": 0.11
+      },
+      {
+        "rank": 9,
+        "token": "อร",
+        "logit": 12.828125,
+        "probability_percent": 0.09
+      }
+    ]
+  },
+  {
+    "prompt": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nโรเบิร์ต แพลนต์ เป็นนักร้องนำของ",
+    "generated_prefix": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nโรเบิร์ต แพลนต์ เป็นนักร้องนำของ เดอะ",
+    "gold_token": " เซ",
+    "predicted_top1_token": "ค",
+    "token_pos_in_answer": 2,
+    "gold_logit": 7.42578125,
+    "gold_prob_percent": 0.03,
+    "first_token_prob": 0.1778564453125,
+    "second_token_prob": 0.0966796875,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ค",
+        "logit": 12.8984375,
+        "probability_percent": 7.2
+      },
+      {
+        "rank": 1,
+        "token": "แ",
+        "logit": 12.6796875,
+        "probability_percent": 5.78
+      },
+      {
+        "rank": 2,
+        "token": "ว",
+        "logit": 12.6328125,
+        "probability_percent": 5.51
+      },
+      {
+        "rank": 3,
+        "token": "บ",
+        "logit": 12.625,
+        "probability_percent": 5.47
+      },
+      {
+        "rank": 4,
+        "token": "เอ",
+        "logit": 12.3828125,
+        "probability_percent": 4.3
+      },
+      {
+        "rank": 5,
+        "token": "พ",
+        "logit": 12.2890625,
+        "probability_percent": 3.91
+      },
+      {
+        "rank": 6,
+        "token": "อ",
+        "logit": 12.171875,
+        "probability_percent": 3.48
+      },
+      {
+        "rank": 7,
+        "token": "ซ",
+        "logit": 12.1640625,
+        "probability_percent": 3.45
+      },
+      {
+        "rank": 8,
+        "token": "ม",
+        "logit": 12.140625,
+        "probability_percent": 3.37
+      },
+      {
+        "rank": 9,
+        "token": "ฟ",
+        "logit": 11.921875,
+        "probability_percent": 2.71
+      }
+    ]
+  },
+  {
+    "prompt": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nโรเบิร์ต แพลนต์ เป็นนักร้องนำของ",
+    "generated_prefix": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nโรเบิร์ต แพลนต์ เป็นนักร้องนำของ เดอะค",
+    "gold_token": "พ",
+    "predicted_top1_token": "อร",
+    "token_pos_in_answer": 3,
+    "gold_logit": 11.0234375,
+    "gold_prob_percent": 0.02,
+    "first_token_prob": 0.1778564453125,
+    "second_token_prob": 0.0966796875,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "อร",
+        "logit": 17.359375,
+        "probability_percent": 12.36
+      },
+      {
+        "rank": 1,
+        "token": "าร",
+        "logit": 17.34375,
+        "probability_percent": 12.16
+      },
+      {
+        "rank": 2,
+        "token": "ิง",
+        "logit": 16.78125,
+        "probability_percent": 6.93
+      },
+      {
+        "rank": 3,
+        "token": "ิล",
+        "logit": 16.703125,
+        "probability_percent": 6.41
+      },
+      {
+        "rank": 4,
+        "token": "ิว",
+        "logit": 16.125,
+        "probability_percent": 3.59
+      },
+      {
+        "rank": 5,
+        "token": "า",
+        "logit": 15.9296875,
+        "probability_percent": 2.96
+      },
+      {
+        "rank": 6,
+        "token": "าว",
+        "logit": 15.8671875,
+        "probability_percent": 2.78
+      },
+      {
+        "rank": 7,
+        "token": "ูล",
+        "logit": 15.8515625,
+        "probability_percent": 2.74
+      },
+      {
+        "rank": 8,
+        "token": "ิก",
+        "logit": 15.8046875,
+        "probability_percent": 2.61
+      },
+      {
+        "rank": 9,
+        "token": "อน",
+        "logit": 15.78125,
+        "probability_percent": 2.55
+      }
+    ]
+  },
+  {
+    "prompt": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nโรเบิร์ต แพลนต์ เป็นนักร้องนำของ",
+    "generated_prefix": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nโรเบิร์ต แพลนต์ เป็นนักร้องนำของ เดอะคอร",
+    "gold_token": "เพล",
+    "predicted_top1_token": "์",
+    "token_pos_in_answer": 4,
+    "gold_logit": 5.8125,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.1778564453125,
+    "second_token_prob": 0.0966796875,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "์",
+        "logit": 14.9765625,
+        "probability_percent": 28.61
+      },
+      {
+        "rank": 1,
+        "token": "์น",
+        "logit": 13.96875,
+        "probability_percent": 10.45
+      },
+      {
+        "rank": 2,
+        "token": "ัล",
+        "logit": 13.359375,
+        "probability_percent": 5.68
+      },
+      {
+        "rank": 3,
+        "token": "์ด",
+        "logit": 13.234375,
+        "probability_percent": 5.01
+      },
+      {
+        "rank": 4,
+        "token": "์ท",
+        "logit": 13.03125,
+        "probability_percent": 4.09
+      },
+      {
+        "rank": 5,
+        "token": "์เน",
+        "logit": 12.8046875,
+        "probability_percent": 3.26
+      },
+      {
+        "rank": 6,
+        "token": "์ร",
+        "logit": 12.71875,
+        "probability_percent": 2.99
+      },
+      {
+        "rank": 7,
+        "token": "์ส",
+        "logit": 12.671875,
+        "probability_percent": 2.86
+      },
+      {
+        "rank": 8,
+        "token": "์ต",
+        "logit": 12.4765625,
+        "probability_percent": 2.35
+      },
+      {
+        "rank": 9,
+        "token": "์ก",
+        "logit": 12.1484375,
+        "probability_percent": 1.69
+      }
+    ]
+  },
+  {
+    "prompt": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nโรเบิร์ต แพลนต์ เป็นนักร้องนำของ",
+    "generated_prefix": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nโรเบิร์ต แพลนต์ เป็นนักร้องนำของ เดอะคอร์",
+    "gold_token": "ิน",
+    "predicted_top1_token": ".\n",
+    "token_pos_in_answer": 5,
+    "gold_logit": 5.40625,
+    "gold_prob_percent": 0.01,
+    "first_token_prob": 0.1778564453125,
+    "second_token_prob": 0.0966796875,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": ".\n",
+        "logit": 14.1875,
+        "probability_percent": 69.38
+      },
+      {
+        "rank": 1,
+        "token": "ป",
+        "logit": 10.921875,
+        "probability_percent": 2.65
+      },
+      {
+        "rank": 2,
+        "token": "เด",
+        "logit": 10.859375,
+        "probability_percent": 2.49
+      },
+      {
+        "rank": 3,
+        "token": "เล",
+        "logit": 10.15625,
+        "probability_percent": 1.23
+      },
+      {
+        "rank": 4,
+        "token": ".\n\n",
+        "logit": 10.0859375,
+        "probability_percent": 1.15
+      },
+      {
+        "rank": 5,
+        "token": "เท",
+        "logit": 10.0078125,
+        "probability_percent": 1.06
+      },
+      {
+        "rank": 6,
+        "token": "แน",
+        "logit": 9.8203125,
+        "probability_percent": 0.88
+      },
+      {
+        "rank": 7,
+        "token": "เม",
+        "logit": 9.7421875,
+        "probability_percent": 0.81
+      },
+      {
+        "rank": 8,
+        "token": "เว",
+        "logit": 9.5625,
+        "probability_percent": 0.68
+      },
+      {
+        "rank": 9,
+        "token": "เร",
+        "logit": 9.3984375,
+        "probability_percent": 0.58
+      }
+    ]
+  },
+  {
+    "prompt": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nเจมส์ เฮทฟิลด์ เป็นนักร้องนำของ",
+    "generated_prefix": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nเจมส์ เฮทฟิลด์ เป็นนักร้องนำของ",
+    "gold_token": " เม",
+    "predicted_top1_token": " เด",
+    "token_pos_in_answer": 0,
+    "gold_logit": 10.4453125,
+    "gold_prob_percent": 1.1,
+    "first_token_prob": 0.1905517578125,
+    "second_token_prob": 0.07879638671875,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " เด",
+        "logit": 13.296875,
+        "probability_percent": 19.06
+      },
+      {
+        "rank": 1,
+        "token": " แ",
+        "logit": 12.4140625,
+        "probability_percent": 7.88
+      },
+      {
+        "rank": 2,
+        "token": " อ",
+        "logit": 12.0703125,
+        "probability_percent": 5.59
+      },
+      {
+        "rank": 3,
+        "token": " พ",
+        "logit": 11.9609375,
+        "probability_percent": 5.01
+      },
+      {
+        "rank": 4,
+        "token": " ส",
+        "logit": 11.9296875,
+        "probability_percent": 4.86
+      },
+      {
+        "rank": 5,
+        "token": " บ",
+        "logit": 11.765625,
+        "probability_percent": 4.12
+      },
+      {
+        "rank": 6,
+        "token": " ว",
+        "logit": 11.65625,
+        "probability_percent": 3.7
+      },
+      {
+        "rank": 7,
+        "token": " ท",
+        "logit": 11.34375,
+        "probability_percent": 2.7
+      },
+      {
+        "rank": 8,
+        "token": " ไ",
+        "logit": 11.34375,
+        "probability_percent": 2.7
+      },
+      {
+        "rank": 9,
+        "token": " ด",
+        "logit": 11.2578125,
+        "probability_percent": 2.48
+      }
+    ]
+  },
+  {
+    "prompt": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nเจมส์ เฮทฟิลด์ เป็นนักร้องนำของ",
+    "generated_prefix": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nเจมส์ เฮทฟิลด์ เป็นนักร้องนำของ เด",
+    "gold_token": "ท",
+    "predicted_top1_token": "อะ",
+    "token_pos_in_answer": 1,
+    "gold_logit": 13.09375,
+    "gold_prob_percent": 0.12,
+    "first_token_prob": 0.1905517578125,
+    "second_token_prob": 0.07879638671875,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "อะ",
+        "logit": 19.828125,
+        "probability_percent": 96.78
+      },
+      {
+        "rank": 1,
+        "token": "ฟ",
+        "logit": 14.4375,
+        "probability_percent": 0.44
+      },
+      {
+        "rank": 2,
+        "token": "ย",
+        "logit": 13.8203125,
+        "probability_percent": 0.24
+      },
+      {
+        "rank": 3,
+        "token": "ส",
+        "logit": 13.609375,
+        "probability_percent": 0.19
+      },
+      {
+        "rank": 4,
+        "token": "น",
+        "logit": 13.5078125,
+        "probability_percent": 0.17
+      },
+      {
+        "rank": 5,
+        "token": "อ",
+        "logit": 13.3046875,
+        "probability_percent": 0.14
+      },
+      {
+        "rank": 6,
+        "token": "ว",
+        "logit": 13.1796875,
+        "probability_percent": 0.13
+      },
+      {
+        "rank": 7,
+        "token": "ท",
+        "logit": 13.09375,
+        "probability_percent": 0.12
+      },
+      {
+        "rank": 8,
+        "token": "ล",
+        "logit": 12.984375,
+        "probability_percent": 0.1
+      },
+      {
+        "rank": 9,
+        "token": "ร",
+        "logit": 12.6640625,
+        "probability_percent": 0.07
+      }
+    ]
+  },
+  {
+    "prompt": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nเจมส์ เฮทฟิลด์ เป็นนักร้องนำของ",
+    "generated_prefix": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nเจมส์ เฮทฟิลด์ เป็นนักร้องนำของ เดอะ",
+    "gold_token": "ัล",
+    "predicted_top1_token": "ค",
+    "token_pos_in_answer": 2,
+    "gold_logit": 7.6484375,
+    "gold_prob_percent": 0.04,
+    "first_token_prob": 0.1905517578125,
+    "second_token_prob": 0.07879638671875,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ค",
+        "logit": 12.859375,
+        "probability_percent": 7.2
+      },
+      {
+        "rank": 1,
+        "token": "เอ",
+        "logit": 12.6484375,
+        "probability_percent": 5.83
+      },
+      {
+        "rank": 2,
+        "token": "บ",
+        "logit": 12.5546875,
+        "probability_percent": 5.31
+      },
+      {
+        "rank": 3,
+        "token": "ว",
+        "logit": 12.546875,
+        "probability_percent": 5.27
+      },
+      {
+        "rank": 4,
+        "token": "ม",
+        "logit": 12.390625,
+        "probability_percent": 4.51
+      },
+      {
+        "rank": 5,
+        "token": "อ",
+        "logit": 12.3125,
+        "probability_percent": 4.17
+      },
+      {
+        "rank": 6,
+        "token": "พ",
+        "logit": 12.2265625,
+        "probability_percent": 3.83
+      },
+      {
+        "rank": 7,
+        "token": "แ",
+        "logit": 12.203125,
+        "probability_percent": 3.74
+      },
+      {
+        "rank": 8,
+        "token": "ฟ",
+        "logit": 11.953125,
+        "probability_percent": 2.91
+      },
+      {
+        "rank": 9,
+        "token": "ซ",
+        "logit": 11.9375,
+        "probability_percent": 2.87
+      }
+    ]
+  },
+  {
+    "prompt": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nเจมส์ เฮทฟิลด์ เป็นนักร้องนำของ",
+    "generated_prefix": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nเจมส์ เฮทฟิลด์ เป็นนักร้องนำของ เดอะค",
+    "gold_token": "ล",
+    "predicted_top1_token": "อร",
+    "token_pos_in_answer": 3,
+    "gold_logit": 10.78125,
+    "gold_prob_percent": 0.02,
+    "first_token_prob": 0.1905517578125,
+    "second_token_prob": 0.07879638671875,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "อร",
+        "logit": 17.25,
+        "probability_percent": 11.82
+      },
+      {
+        "rank": 1,
+        "token": "าร",
+        "logit": 17.171875,
+        "probability_percent": 10.94
+      },
+      {
+        "rank": 2,
+        "token": "ิง",
+        "logit": 16.84375,
+        "probability_percent": 7.87
+      },
+      {
+        "rank": 3,
+        "token": "ิล",
+        "logit": 16.5,
+        "probability_percent": 5.58
+      },
+      {
+        "rank": 4,
+        "token": "ิว",
+        "logit": 16.109375,
+        "probability_percent": 3.78
+      },
+      {
+        "rank": 5,
+        "token": "ูล",
+        "logit": 15.9375,
+        "probability_percent": 3.18
+      },
+      {
+        "rank": 6,
+        "token": "อน",
+        "logit": 15.890625,
+        "probability_percent": 3.04
+      },
+      {
+        "rank": 7,
+        "token": "า",
+        "logit": 15.875,
+        "probability_percent": 2.99
+      },
+      {
+        "rank": 8,
+        "token": "ัม",
+        "logit": 15.8046875,
+        "probability_percent": 2.79
+      },
+      {
+        "rank": 9,
+        "token": "ิก",
+        "logit": 15.7578125,
+        "probability_percent": 2.66
+      }
+    ]
+  },
+  {
+    "prompt": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nเจมส์ เฮทฟิลด์ เป็นนักร้องนำของ",
+    "generated_prefix": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nเจมส์ เฮทฟิลด์ เป็นนักร้องนำของ เดอะคอร",
+    "gold_token": "ิกา",
+    "predicted_top1_token": "์",
+    "token_pos_in_answer": 4,
+    "gold_logit": 7.5234375,
+    "gold_prob_percent": 0.02,
+    "first_token_prob": 0.1905517578125,
+    "second_token_prob": 0.07879638671875,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "์",
+        "logit": 14.9296875,
+        "probability_percent": 26.95
+      },
+      {
+        "rank": 1,
+        "token": "์น",
+        "logit": 14.0859375,
+        "probability_percent": 11.6
+      },
+      {
+        "rank": 2,
+        "token": "ัล",
+        "logit": 13.25,
+        "probability_percent": 5.03
+      },
+      {
+        "rank": 3,
+        "token": "์ด",
+        "logit": 13.140625,
+        "probability_percent": 4.51
+      },
+      {
+        "rank": 4,
+        "token": "์ท",
+        "logit": 13.0546875,
+        "probability_percent": 4.14
+      },
+      {
+        "rank": 5,
+        "token": "์เน",
+        "logit": 12.90625,
+        "probability_percent": 3.56
+      },
+      {
+        "rank": 6,
+        "token": "์ส",
+        "logit": 12.75,
+        "probability_percent": 3.05
+      },
+      {
+        "rank": 7,
+        "token": "์ร",
+        "logit": 12.7265625,
+        "probability_percent": 2.98
+      },
+      {
+        "rank": 8,
+        "token": "์ต",
+        "logit": 12.5234375,
+        "probability_percent": 2.43
+      },
+      {
+        "rank": 9,
+        "token": "์ก",
+        "logit": 12.234375,
+        "probability_percent": 1.82
+      }
+    ]
+  },
+  {
+    "prompt": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nเฟรดดี เมอร์คูรี เป็นนักร้องนำของ",
+    "generated_prefix": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nเฟรดดี เมอร์คูรี เป็นนักร้องนำของ",
+    "gold_token": " ค",
+    "predicted_top1_token": " เด",
+    "token_pos_in_answer": 0,
+    "gold_logit": 10.78125,
+    "gold_prob_percent": 1.56,
+    "first_token_prob": 0.22802734375,
+    "second_token_prob": 0.08258056640625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " เด",
+        "logit": 13.4609375,
+        "probability_percent": 22.8
+      },
+      {
+        "rank": 1,
+        "token": " แ",
+        "logit": 12.4453125,
+        "probability_percent": 8.26
+      },
+      {
+        "rank": 2,
+        "token": " พ",
+        "logit": 12.1171875,
+        "probability_percent": 5.95
+      },
+      {
+        "rank": 3,
+        "token": " อ",
+        "logit": 11.8359375,
+        "probability_percent": 4.49
+      },
+      {
+        "rank": 4,
+        "token": " บ",
+        "logit": 11.6796875,
+        "probability_percent": 3.84
+      },
+      {
+        "rank": 5,
+        "token": " ว",
+        "logit": 11.5390625,
+        "probability_percent": 3.34
+      },
+      {
+        "rank": 6,
+        "token": " ฟ",
+        "logit": 11.5234375,
+        "probability_percent": 3.28
+      },
+      {
+        "rank": 7,
+        "token": " ส",
+        "logit": 11.4609375,
+        "probability_percent": 3.09
+      },
+      {
+        "rank": 8,
+        "token": " ม",
+        "logit": 11.3203125,
+        "probability_percent": 2.68
+      },
+      {
+        "rank": 9,
+        "token": " ด",
+        "logit": 11.25,
+        "probability_percent": 2.5
+      }
+    ]
+  },
+  {
+    "prompt": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nเฟรดดี เมอร์คูรี เป็นนักร้องนำของ",
+    "generated_prefix": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nเฟรดดี เมอร์คูรี เป็นนักร้องนำของ เด",
+    "gold_token": "ว",
+    "predicted_top1_token": "อะ",
+    "token_pos_in_answer": 1,
+    "gold_logit": 13.0859375,
+    "gold_prob_percent": 0.1,
+    "first_token_prob": 0.22802734375,
+    "second_token_prob": 0.08258056640625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "อะ",
+        "logit": 19.9375,
+        "probability_percent": 97.17
+      },
+      {
+        "rank": 1,
+        "token": "ฟ",
+        "logit": 14.421875,
+        "probability_percent": 0.39
+      },
+      {
+        "rank": 2,
+        "token": "ย",
+        "logit": 13.625,
+        "probability_percent": 0.18
+      },
+      {
+        "rank": 3,
+        "token": "ส",
+        "logit": 13.5703125,
+        "probability_percent": 0.17
+      },
+      {
+        "rank": 4,
+        "token": "น",
+        "logit": 13.4609375,
+        "probability_percent": 0.15
+      },
+      {
+        "rank": 5,
+        "token": "อ",
+        "logit": 13.4296875,
+        "probability_percent": 0.14
+      },
+      {
+        "rank": 6,
+        "token": "ท",
+        "logit": 13.1171875,
+        "probability_percent": 0.11
+      },
+      {
+        "rank": 7,
+        "token": "ว",
+        "logit": 13.0859375,
+        "probability_percent": 0.1
+      },
+      {
+        "rank": 8,
+        "token": "อร",
+        "logit": 12.8203125,
+        "probability_percent": 0.08
+      },
+      {
+        "rank": 9,
+        "token": "ล",
+        "logit": 12.8125,
+        "probability_percent": 0.08
+      }
+    ]
+  },
+  {
+    "prompt": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nเฟรดดี เมอร์คูรี เป็นนักร้องนำของ",
+    "generated_prefix": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nเฟรดดี เมอร์คูรี เป็นนักร้องนำของ เดอะ",
+    "gold_token": "ีน",
+    "predicted_top1_token": "ค",
+    "token_pos_in_answer": 2,
+    "gold_logit": 5.71484375,
+    "gold_prob_percent": 0.01,
+    "first_token_prob": 0.22802734375,
+    "second_token_prob": 0.08258056640625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ค",
+        "logit": 12.796875,
+        "probability_percent": 6.86
+      },
+      {
+        "rank": 1,
+        "token": "ว",
+        "logit": 12.578125,
+        "probability_percent": 5.51
+      },
+      {
+        "rank": 2,
+        "token": "ฟ",
+        "logit": 12.4921875,
+        "probability_percent": 5.06
+      },
+      {
+        "rank": 3,
+        "token": "บ",
+        "logit": 12.484375,
+        "probability_percent": 5.02
+      },
+      {
+        "rank": 4,
+        "token": "ม",
+        "logit": 12.4453125,
+        "probability_percent": 4.83
+      },
+      {
+        "rank": 5,
+        "token": "เอ",
+        "logit": 12.2734375,
+        "probability_percent": 4.06
+      },
+      {
+        "rank": 6,
+        "token": "ซ",
+        "logit": 12.125,
+        "probability_percent": 3.5
+      },
+      {
+        "rank": 7,
+        "token": "แ",
+        "logit": 12.1171875,
+        "probability_percent": 3.48
+      },
+      {
+        "rank": 8,
+        "token": "พ",
+        "logit": 12.09375,
+        "probability_percent": 3.4
+      },
+      {
+        "rank": 9,
+        "token": "อ",
+        "logit": 12.0078125,
+        "probability_percent": 3.12
+      }
+    ]
+  },
+  {
+    "prompt": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nมิก แจ็กเกอร์ เป็นนักร้องนำของ",
+    "generated_prefix": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nมิก แจ็กเกอร์ เป็นนักร้องนำของ",
+    "gold_token": " เด",
+    "predicted_top1_token": " เด",
+    "token_pos_in_answer": 0,
+    "gold_logit": 13.28125,
+    "gold_prob_percent": 19.07,
+    "first_token_prob": 0.190673828125,
+    "second_token_prob": 0.10125732421875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " เด",
+        "logit": 13.28125,
+        "probability_percent": 19.07
+      },
+      {
+        "rank": 1,
+        "token": " แ",
+        "logit": 12.6484375,
+        "probability_percent": 10.13
+      },
+      {
+        "rank": 2,
+        "token": " พ",
+        "logit": 11.9609375,
+        "probability_percent": 5.09
+      },
+      {
+        "rank": 3,
+        "token": " อ",
+        "logit": 11.8984375,
+        "probability_percent": 4.78
+      },
+      {
+        "rank": 4,
+        "token": " ส",
+        "logit": 11.8515625,
+        "probability_percent": 4.56
+      },
+      {
+        "rank": 5,
+        "token": " บ",
+        "logit": 11.7890625,
+        "probability_percent": 4.29
+      },
+      {
+        "rank": 6,
+        "token": " ม",
+        "logit": 11.5703125,
+        "probability_percent": 3.45
+      },
+      {
+        "rank": 7,
+        "token": " ว",
+        "logit": 11.5625,
+        "probability_percent": 3.42
+      },
+      {
+        "rank": 8,
+        "token": " ด",
+        "logit": 11.359375,
+        "probability_percent": 2.79
+      },
+      {
+        "rank": 9,
+        "token": " ท",
+        "logit": 11.25,
+        "probability_percent": 2.5
+      }
+    ]
+  },
+  {
+    "prompt": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nมิก แจ็กเกอร์ เป็นนักร้องนำของ",
+    "generated_prefix": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nมิก แจ็กเกอร์ เป็นนักร้องนำของ เด",
+    "gold_token": "อะ",
+    "predicted_top1_token": "อะ",
+    "token_pos_in_answer": 1,
+    "gold_logit": 19.8125,
+    "gold_prob_percent": 96.92,
+    "first_token_prob": 0.190673828125,
+    "second_token_prob": 0.10125732421875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "อะ",
+        "logit": 19.8125,
+        "probability_percent": 96.92
+      },
+      {
+        "rank": 1,
+        "token": "ฟ",
+        "logit": 14.3515625,
+        "probability_percent": 0.41
+      },
+      {
+        "rank": 2,
+        "token": "ย",
+        "logit": 13.71875,
+        "probability_percent": 0.22
+      },
+      {
+        "rank": 3,
+        "token": "ส",
+        "logit": 13.53125,
+        "probability_percent": 0.18
+      },
+      {
+        "rank": 4,
+        "token": "น",
+        "logit": 13.4296875,
+        "probability_percent": 0.16
+      },
+      {
+        "rank": 5,
+        "token": "อ",
+        "logit": 13.3359375,
+        "probability_percent": 0.15
+      },
+      {
+        "rank": 6,
+        "token": "ท",
+        "logit": 13.2109375,
+        "probability_percent": 0.13
+      },
+      {
+        "rank": 7,
+        "token": "ว",
+        "logit": 12.8359375,
+        "probability_percent": 0.09
+      },
+      {
+        "rank": 8,
+        "token": "ล",
+        "logit": 12.75,
+        "probability_percent": 0.08
+      },
+      {
+        "rank": 9,
+        "token": "ธ",
+        "logit": 12.671875,
+        "probability_percent": 0.08
+      }
+    ]
+  },
+  {
+    "prompt": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nมิก แจ็กเกอร์ เป็นนักร้องนำของ",
+    "generated_prefix": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nมิก แจ็กเกอร์ เป็นนักร้องนำของ เดอะ",
+    "gold_token": "โร",
+    "predicted_top1_token": "ค",
+    "token_pos_in_answer": 2,
+    "gold_logit": 9.375,
+    "gold_prob_percent": 0.21,
+    "first_token_prob": 0.190673828125,
+    "second_token_prob": 0.10125732421875,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ค",
+        "logit": 12.8515625,
+        "probability_percent": 6.89
+      },
+      {
+        "rank": 1,
+        "token": "บ",
+        "logit": 12.7109375,
+        "probability_percent": 5.99
+      },
+      {
+        "rank": 2,
+        "token": "ว",
+        "logit": 12.6328125,
+        "probability_percent": 5.54
+      },
+      {
+        "rank": 3,
+        "token": "ม",
+        "logit": 12.453125,
+        "probability_percent": 4.63
+      },
+      {
+        "rank": 4,
+        "token": "แ",
+        "logit": 12.4375,
+        "probability_percent": 4.56
+      },
+      {
+        "rank": 5,
+        "token": "พ",
+        "logit": 12.40625,
+        "probability_percent": 4.42
+      },
+      {
+        "rank": 6,
+        "token": "เอ",
+        "logit": 12.3359375,
+        "probability_percent": 4.11
+      },
+      {
+        "rank": 7,
+        "token": "อ",
+        "logit": 12.1484375,
+        "probability_percent": 3.41
+      },
+      {
+        "rank": 8,
+        "token": "ซ",
+        "logit": 12.125,
+        "probability_percent": 3.33
+      },
+      {
+        "rank": 9,
+        "token": "ส",
+        "logit": 11.8359375,
+        "probability_percent": 2.5
+      }
+    ]
+  },
+  {
+    "prompt": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nมิก แจ็กเกอร์ เป็นนักร้องนำของ",
+    "generated_prefix": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nมิก แจ็กเกอร์ เป็นนักร้องนำของ เดอะค",
+    "gold_token": "ลล",
+    "predicted_top1_token": "อร",
+    "token_pos_in_answer": 3,
+    "gold_logit": 8.828125,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.190673828125,
+    "second_token_prob": 0.10125732421875,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "อร",
+        "logit": 17.109375,
+        "probability_percent": 11.71
+      },
+      {
+        "rank": 1,
+        "token": "าร",
+        "logit": 16.953125,
+        "probability_percent": 10.02
+      },
+      {
+        "rank": 2,
+        "token": "ิล",
+        "logit": 16.84375,
+        "probability_percent": 8.98
+      },
+      {
+        "rank": 3,
+        "token": "ิง",
+        "logit": 16.40625,
+        "probability_percent": 5.8
+      },
+      {
+        "rank": 4,
+        "token": "ิว",
+        "logit": 15.96875,
+        "probability_percent": 3.74
+      },
+      {
+        "rank": 5,
+        "token": "ูล",
+        "logit": 15.9140625,
+        "probability_percent": 3.54
+      },
+      {
+        "rank": 6,
+        "token": "ิก",
+        "logit": 15.84375,
+        "probability_percent": 3.3
+      },
+      {
+        "rank": 7,
+        "token": "า",
+        "logit": 15.734375,
+        "probability_percent": 2.96
+      },
+      {
+        "rank": 8,
+        "token": "ิลล",
+        "logit": 15.671875,
+        "probability_percent": 2.78
+      },
+      {
+        "rank": 9,
+        "token": "ิด",
+        "logit": 15.6171875,
+        "probability_percent": 2.63
+      }
+    ]
+  },
+  {
+    "prompt": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nมิก แจ็กเกอร์ เป็นนักร้องนำของ",
+    "generated_prefix": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nมิก แจ็กเกอร์ เป็นนักร้องนำของ เดอะคอร",
+    "gold_token": "ิง",
+    "predicted_top1_token": "์",
+    "token_pos_in_answer": 4,
+    "gold_logit": 10.3515625,
+    "gold_prob_percent": 0.28,
+    "first_token_prob": 0.190673828125,
+    "second_token_prob": 0.10125732421875,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "์",
+        "logit": 14.96875,
+        "probability_percent": 27.88
+      },
+      {
+        "rank": 1,
+        "token": "์น",
+        "logit": 13.9765625,
+        "probability_percent": 10.34
+      },
+      {
+        "rank": 2,
+        "token": "ัล",
+        "logit": 13.5546875,
+        "probability_percent": 6.78
+      },
+      {
+        "rank": 3,
+        "token": "์ด",
+        "logit": 13.1953125,
+        "probability_percent": 4.73
+      },
+      {
+        "rank": 4,
+        "token": "์ท",
+        "logit": 12.9921875,
+        "probability_percent": 3.86
+      },
+      {
+        "rank": 5,
+        "token": "์ร",
+        "logit": 12.796875,
+        "probability_percent": 3.18
+      },
+      {
+        "rank": 6,
+        "token": "์เน",
+        "logit": 12.7421875,
+        "probability_percent": 3.01
+      },
+      {
+        "rank": 7,
+        "token": "์ส",
+        "logit": 12.6640625,
+        "probability_percent": 2.78
+      },
+      {
+        "rank": 8,
+        "token": "์ต",
+        "logit": 12.453125,
+        "probability_percent": 2.25
+      },
+      {
+        "rank": 9,
+        "token": "์ว",
+        "logit": 12.234375,
+        "probability_percent": 1.81
+      }
+    ]
+  },
+  {
+    "prompt": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nมิก แจ็กเกอร์ เป็นนักร้องนำของ",
+    "generated_prefix": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nมิก แจ็กเกอร์ เป็นนักร้องนำของ เดอะคอร์",
+    "gold_token": "ส",
+    "predicted_top1_token": ".\n",
+    "token_pos_in_answer": 5,
+    "gold_logit": 4.40625,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.190673828125,
+    "second_token_prob": 0.10125732421875,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": ".\n",
+        "logit": 14.078125,
+        "probability_percent": 67.53
+      },
+      {
+        "rank": 1,
+        "token": "ป",
+        "logit": 10.9375,
+        "probability_percent": 2.92
+      },
+      {
+        "rank": 2,
+        "token": "เด",
+        "logit": 10.796875,
+        "probability_percent": 2.54
+      },
+      {
+        "rank": 3,
+        "token": "เล",
+        "logit": 10.265625,
+        "probability_percent": 1.49
+      },
+      {
+        "rank": 4,
+        "token": "เท",
+        "logit": 9.953125,
+        "probability_percent": 1.09
+      },
+      {
+        "rank": 5,
+        "token": ".\n\n",
+        "logit": 9.9296875,
+        "probability_percent": 1.07
+      },
+      {
+        "rank": 6,
+        "token": "เม",
+        "logit": 9.8046875,
+        "probability_percent": 0.94
+      },
+      {
+        "rank": 7,
+        "token": "แน",
+        "logit": 9.7265625,
+        "probability_percent": 0.87
+      },
+      {
+        "rank": 8,
+        "token": "เว",
+        "logit": 9.484375,
+        "probability_percent": 0.68
+      },
+      {
+        "rank": 9,
+        "token": "ไร",
+        "logit": 9.359375,
+        "probability_percent": 0.6
+      }
+    ]
+  },
+  {
+    "prompt": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nมิก แจ็กเกอร์ เป็นนักร้องนำของ",
+    "generated_prefix": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nมิก แจ็กเกอร์ เป็นนักร้องนำของ เดอะคอร์.\n",
+    "gold_token": "โต",
+    "predicted_top1_token": "แ",
+    "token_pos_in_answer": 6,
+    "gold_logit": 7.12109375,
+    "gold_prob_percent": 0.02,
+    "first_token_prob": 0.190673828125,
+    "second_token_prob": 0.10125732421875,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "แ",
+        "logit": 13.34375,
+        "probability_percent": 9.41
+      },
+      {
+        "rank": 1,
+        "token": "เด",
+        "logit": 12.625,
+        "probability_percent": 4.59
+      },
+      {
+        "rank": 2,
+        "token": "ด",
+        "logit": 12.3671875,
+        "probability_percent": 3.54
+      },
+      {
+        "rank": 3,
+        "token": "จ",
+        "logit": 12.3359375,
+        "probability_percent": 3.44
+      },
+      {
+        "rank": 4,
+        "token": "บ",
+        "logit": 12.3203125,
+        "probability_percent": 3.38
+      },
+      {
+        "rank": 5,
+        "token": "ร",
+        "logit": 12.3125,
+        "probability_percent": 3.36
+      },
+      {
+        "rank": 6,
+        "token": "น",
+        "logit": 12.3046875,
+        "probability_percent": 3.33
+      },
+      {
+        "rank": 7,
+        "token": "เบ",
+        "logit": 12.2421875,
+        "probability_percent": 3.13
+      },
+      {
+        "rank": 8,
+        "token": "ล",
+        "logit": 12.1484375,
+        "probability_percent": 2.85
+      },
+      {
+        "rank": 9,
+        "token": "อ",
+        "logit": 12.03125,
+        "probability_percent": 2.53
+      }
+    ]
+  },
+  {
+    "prompt": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nมิก แจ็กเกอร์ เป็นนักร้องนำของ",
+    "generated_prefix": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nมิก แจ็กเกอร์ เป็นนักร้องนำของ เดอะคอร์.\nแ",
+    "gold_token": "นส",
+    "predicted_top1_token": "ด",
+    "token_pos_in_answer": 7,
+    "gold_logit": 12.671875,
+    "gold_prob_percent": 0.06,
+    "first_token_prob": 0.190673828125,
+    "second_token_prob": 0.10125732421875,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ด",
+        "logit": 17.90625,
+        "probability_percent": 10.88
+      },
+      {
+        "rank": 1,
+        "token": "บร",
+        "logit": 17.828125,
+        "probability_percent": 10.06
+      },
+      {
+        "rank": 2,
+        "token": "อน",
+        "logit": 17.8125,
+        "probability_percent": 9.91
+      },
+      {
+        "rank": 3,
+        "token": "ซ",
+        "logit": 17.421875,
+        "probability_percent": 6.71
+      },
+      {
+        "rank": 4,
+        "token": "อนด",
+        "logit": 17.328125,
+        "probability_percent": 6.11
+      },
+      {
+        "rank": 5,
+        "token": "ฮ",
+        "logit": 17.109375,
+        "probability_percent": 4.9
+      },
+      {
+        "rank": 6,
+        "token": "อล",
+        "logit": 17.03125,
+        "probability_percent": 4.54
+      },
+      {
+        "rank": 7,
+        "token": "กร",
+        "logit": 16.890625,
+        "probability_percent": 3.94
+      },
+      {
+        "rank": 8,
+        "token": "ดน",
+        "logit": 16.734375,
+        "probability_percent": 3.37
+      },
+      {
+        "rank": 9,
+        "token": "ร",
+        "logit": 16.703125,
+        "probability_percent": 3.27
+      }
+    ]
+  },
+  {
+    "prompt": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nมิก แจ็กเกอร์ เป็นนักร้องนำของ",
+    "generated_prefix": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nมิก แจ็กเกอร์ เป็นนักร้องนำของ เดอะคอร์.\nแด",
+    "gold_token": "์",
+    "predicted_top1_token": "เน",
+    "token_pos_in_answer": 8,
+    "gold_logit": 8.6328125,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.190673828125,
+    "second_token_prob": 0.10125732421875,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "เน",
+        "logit": 18.09375,
+        "probability_percent": 58.3
+      },
+      {
+        "rank": 1,
+        "token": "นน",
+        "logit": 17.078125,
+        "probability_percent": 21.11
+      },
+      {
+        "rank": 2,
+        "token": "น",
+        "logit": 14.9296875,
+        "probability_percent": 2.46
+      },
+      {
+        "rank": 3,
+        "token": "ม",
+        "logit": 14.5546875,
+        "probability_percent": 1.69
+      },
+      {
+        "rank": 4,
+        "token": "ด",
+        "logit": 14.359375,
+        "probability_percent": 1.39
+      },
+      {
+        "rank": 5,
+        "token": "ฟ",
+        "logit": 14.15625,
+        "probability_percent": 1.14
+      },
+      {
+        "rank": 6,
+        "token": "ซ",
+        "logit": 14.0859375,
+        "probability_percent": 1.06
+      },
+      {
+        "rank": 7,
+        "token": "ส",
+        "logit": 13.953125,
+        "probability_percent": 0.93
+      },
+      {
+        "rank": 8,
+        "token": "ร",
+        "logit": 13.7890625,
+        "probability_percent": 0.79
+      },
+      {
+        "rank": 9,
+        "token": "ช",
+        "logit": 13.5390625,
+        "probability_percent": 0.61
+      }
+    ]
+  },
+  {
+    "prompt": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nจอห์น เลนนอน เป็นนักร้องนำของ",
+    "generated_prefix": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nจอห์น เลนนอน เป็นนักร้องนำของ",
+    "gold_token": " เด",
+    "predicted_top1_token": " เด",
+    "token_pos_in_answer": 0,
+    "gold_logit": 14.0390625,
+    "gold_prob_percent": 46.73,
+    "first_token_prob": 0.46728515625,
+    "second_token_prob": 0.0469970703125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " เด",
+        "logit": 14.0390625,
+        "probability_percent": 46.73
+      },
+      {
+        "rank": 1,
+        "token": " พ",
+        "logit": 11.7421875,
+        "probability_percent": 4.7
+      },
+      {
+        "rank": 2,
+        "token": " บ",
+        "logit": 11.671875,
+        "probability_percent": 4.38
+      },
+      {
+        "rank": 3,
+        "token": " ส",
+        "logit": 11.4453125,
+        "probability_percent": 3.49
+      },
+      {
+        "rank": 4,
+        "token": " แ",
+        "logit": 11.3046875,
+        "probability_percent": 3.03
+      },
+      {
+        "rank": 5,
+        "token": " ด",
+        "logit": 11.03125,
+        "probability_percent": 2.31
+      },
+      {
+        "rank": 6,
+        "token": "เด",
+        "logit": 10.9765625,
+        "probability_percent": 2.19
+      },
+      {
+        "rank": 7,
+        "token": " ว",
+        "logit": 10.84375,
+        "probability_percent": 1.91
+      },
+      {
+        "rank": 8,
+        "token": " ล",
+        "logit": 10.734375,
+        "probability_percent": 1.72
+      },
+      {
+        "rank": 9,
+        "token": " เล",
+        "logit": 10.6640625,
+        "probability_percent": 1.6
+      }
+    ]
+  },
+  {
+    "prompt": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nจอห์น เลนนอน เป็นนักร้องนำของ",
+    "generated_prefix": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nจอห์น เลนนอน เป็นนักร้องนำของ เด",
+    "gold_token": "อะ",
+    "predicted_top1_token": "อะ",
+    "token_pos_in_answer": 1,
+    "gold_logit": 20.265625,
+    "gold_prob_percent": 96.97,
+    "first_token_prob": 0.46728515625,
+    "second_token_prob": 0.0469970703125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "อะ",
+        "logit": 20.265625,
+        "probability_percent": 96.97
+      },
+      {
+        "rank": 1,
+        "token": "ฟ",
+        "logit": 15.25,
+        "probability_percent": 0.64
+      },
+      {
+        "rank": 2,
+        "token": "อร",
+        "logit": 13.75,
+        "probability_percent": 0.14
+      },
+      {
+        "rank": 3,
+        "token": "ล",
+        "logit": 13.59375,
+        "probability_percent": 0.12
+      },
+      {
+        "rank": 4,
+        "token": "ียร",
+        "logit": 13.4609375,
+        "probability_percent": 0.11
+      },
+      {
+        "rank": 5,
+        "token": "ว",
+        "logit": 13.359375,
+        "probability_percent": 0.1
+      },
+      {
+        "rank": 6,
+        "token": "ย",
+        "logit": 13.3515625,
+        "probability_percent": 0.1
+      },
+      {
+        "rank": 7,
+        "token": "ด",
+        "logit": 13.28125,
+        "probability_percent": 0.09
+      },
+      {
+        "rank": 8,
+        "token": "ท",
+        "logit": 13.25,
+        "probability_percent": 0.09
+      },
+      {
+        "rank": 9,
+        "token": "ธ",
+        "logit": 13.2421875,
+        "probability_percent": 0.09
+      }
+    ]
+  },
+  {
+    "prompt": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nจอห์น เลนนอน เป็นนักร้องนำของ",
+    "generated_prefix": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nจอห์น เลนนอน เป็นนักร้องนำของ เดอะ",
+    "gold_token": "บ",
+    "predicted_top1_token": "บ",
+    "token_pos_in_answer": 2,
+    "gold_logit": 16.15625,
+    "gold_prob_percent": 43.99,
+    "first_token_prob": 0.46728515625,
+    "second_token_prob": 0.0469970703125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "บ",
+        "logit": 16.15625,
+        "probability_percent": 43.99
+      },
+      {
+        "rank": 1,
+        "token": "เบ",
+        "logit": 14.7734375,
+        "probability_percent": 11.04
+      },
+      {
+        "rank": 2,
+        "token": "แ",
+        "logit": 14.0078125,
+        "probability_percent": 5.13
+      },
+      {
+        "rank": 3,
+        "token": "พ",
+        "logit": 13.5,
+        "probability_percent": 3.09
+      },
+      {
+        "rank": 4,
+        "token": "ค",
+        "logit": 13.0625,
+        "probability_percent": 1.99
+      },
+      {
+        "rank": 5,
+        "token": "ซ",
+        "logit": 13.015625,
+        "probability_percent": 1.9
+      },
+      {
+        "rank": 6,
+        "token": "ส",
+        "logit": 12.9296875,
+        "probability_percent": 1.75
+      },
+      {
+        "rank": 7,
+        "token": "ฟ",
+        "logit": 12.828125,
+        "probability_percent": 1.58
+      },
+      {
+        "rank": 8,
+        "token": "โ",
+        "logit": 12.8125,
+        "probability_percent": 1.55
+      },
+      {
+        "rank": 9,
+        "token": "ล",
+        "logit": 12.671875,
+        "probability_percent": 1.35
+      }
+    ]
+  },
+  {
+    "prompt": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nจอห์น เลนนอน เป็นนักร้องนำของ",
+    "generated_prefix": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nจอห์น เลนนอน เป็นนักร้องนำของ เดอะบ",
+    "gold_token": "ี",
+    "predicted_top1_token": "ี",
+    "token_pos_in_answer": 3,
+    "gold_logit": 18.25,
+    "gold_prob_percent": 21.36,
+    "first_token_prob": 0.46728515625,
+    "second_token_prob": 0.0469970703125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ี",
+        "logit": 18.25,
+        "probability_percent": 21.36
+      },
+      {
+        "rank": 1,
+        "token": "ีท",
+        "logit": 18.203125,
+        "probability_percent": 20.39
+      },
+      {
+        "rank": 2,
+        "token": "ีต",
+        "logit": 18.0,
+        "probability_percent": 16.64
+      },
+      {
+        "rank": 3,
+        "token": "อย",
+        "logit": 16.40625,
+        "probability_percent": 3.38
+      },
+      {
+        "rank": 4,
+        "token": "ิท",
+        "logit": 16.40625,
+        "probability_percent": 3.38
+      },
+      {
+        "rank": 5,
+        "token": "ีช",
+        "logit": 16.34375,
+        "probability_percent": 3.17
+      },
+      {
+        "rank": 6,
+        "token": "ิต",
+        "logit": 16.296875,
+        "probability_percent": 3.03
+      },
+      {
+        "rank": 7,
+        "token": "ीट",
+        "logit": 16.28125,
+        "probability_percent": 2.98
+      },
+      {
+        "rank": 8,
+        "token": "ิ",
+        "logit": 15.8671875,
+        "probability_percent": 1.97
+      },
+      {
+        "rank": 9,
+        "token": "ีด",
+        "logit": 15.8203125,
+        "probability_percent": 1.88
+      }
+    ]
+  },
+  {
+    "prompt": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nจอห์น เลนนอน เป็นนักร้องนำของ",
+    "generated_prefix": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nจอห์น เลนนอน เป็นนักร้องนำของ เดอะบี",
+    "gold_token": "เท",
+    "predicted_top1_token": "จ",
+    "token_pos_in_answer": 4,
+    "gold_logit": 11.1328125,
+    "gold_prob_percent": 15.19,
+    "first_token_prob": 0.46728515625,
+    "second_token_prob": 0.0469970703125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "จ",
+        "logit": 11.3359375,
+        "probability_percent": 18.62
+      },
+      {
+        "rank": 1,
+        "token": "เท",
+        "logit": 11.1328125,
+        "probability_percent": 15.19
+      },
+      {
+        "rank": 2,
+        "token": "-",
+        "logit": 10.1484375,
+        "probability_percent": 5.68
+      },
+      {
+        "rank": 3,
+        "token": "เจ",
+        "logit": 10.078125,
+        "probability_percent": 5.29
+      },
+      {
+        "rank": 4,
+        "token": "ทร",
+        "logit": 9.8125,
+        "probability_percent": 4.06
+      },
+      {
+        "rank": 5,
+        "token": "๊",
+        "logit": 9.7578125,
+        "probability_percent": 3.84
+      },
+      {
+        "rank": 6,
+        "token": "แ",
+        "logit": 9.5546875,
+        "probability_percent": 3.13
+      },
+      {
+        "rank": 7,
+        "token": "ไ",
+        "logit": 9.40625,
+        "probability_percent": 2.7
+      },
+      {
+        "rank": 8,
+        "token": "เต",
+        "logit": 9.3671875,
+        "probability_percent": 2.6
+      },
+      {
+        "rank": 9,
+        "token": ".",
+        "logit": 8.8359375,
+        "probability_percent": 1.53
+      }
+    ]
+  },
+  {
+    "prompt": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nจอห์น เลนนอน เป็นนักร้องนำของ",
+    "generated_prefix": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nจอห์น เลนนอน เป็นนักร้องนำของ เดอะบีจ",
+    "gold_token": "ิล",
+    "predicted_top1_token": "ี",
+    "token_pos_in_answer": 5,
+    "gold_logit": 9.015625,
+    "gold_prob_percent": 0.03,
+    "first_token_prob": 0.46728515625,
+    "second_token_prob": 0.0469970703125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ี",
+        "logit": 16.1875,
+        "probability_percent": 38.99
+      },
+      {
+        "rank": 1,
+        "token": "ีส",
+        "logit": 15.953125,
+        "probability_percent": 30.86
+      },
+      {
+        "rank": 2,
+        "token": "ี\n",
+        "logit": 13.4375,
+        "probability_percent": 2.49
+      },
+      {
+        "rank": 3,
+        "token": "ีย",
+        "logit": 13.1640625,
+        "probability_percent": 1.9
+      },
+      {
+        "rank": 4,
+        "token": "ี่",
+        "logit": 13.078125,
+        "probability_percent": 1.74
+      },
+      {
+        "rank": 5,
+        "token": "ิ",
+        "logit": 12.96875,
+        "probability_percent": 1.56
+      },
+      {
+        "rank": 6,
+        "token": "ีท",
+        "logit": 12.9609375,
+        "probability_percent": 1.55
+      },
+      {
+        "rank": 7,
+        "token": "ีด",
+        "logit": 12.890625,
+        "probability_percent": 1.44
+      },
+      {
+        "rank": 8,
+        "token": "ี้",
+        "logit": 12.859375,
+        "probability_percent": 1.4
+      },
+      {
+        "rank": 9,
+        "token": "ิ้",
+        "logit": 12.78125,
+        "probability_percent": 1.29
+      }
+    ]
+  },
+  {
+    "prompt": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nจอห์น เลนนอน เป็นนักร้องนำของ",
+    "generated_prefix": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nจอห์น เลนนอน เป็นนักร้องนำของ เดอะบีจี",
+    "gold_token": "ส",
+    "predicted_top1_token": ".\n",
+    "token_pos_in_answer": 6,
+    "gold_logit": 7.41796875,
+    "gold_prob_percent": 0.19,
+    "first_token_prob": 0.46728515625,
+    "second_token_prob": 0.0469970703125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": ".\n",
+        "logit": 13.375,
+        "probability_percent": 73.0
+      },
+      {
+        "rank": 1,
+        "token": ".\n\n",
+        "logit": 10.2265625,
+        "probability_percent": 3.13
+      },
+      {
+        "rank": 2,
+        "token": ".",
+        "logit": 9.7734375,
+        "probability_percent": 1.99
+      },
+      {
+        "rank": 3,
+        "token": "\n",
+        "logit": 9.2578125,
+        "probability_percent": 1.19
+      },
+      {
+        "rank": 4,
+        "token": "แ",
+        "logit": 8.9453125,
+        "probability_percent": 0.87
+      },
+      {
+        "rank": 5,
+        "token": "เซ",
+        "logit": 8.796875,
+        "probability_percent": 0.75
+      },
+      {
+        "rank": 6,
+        "token": "และ",
+        "logit": 8.59375,
+        "probability_percent": 0.61
+      },
+      {
+        "rank": 7,
+        "token": " และ",
+        "logit": 8.578125,
+        "probability_percent": 0.6
+      },
+      {
+        "rank": 8,
+        "token": "จ",
+        "logit": 8.4296875,
+        "probability_percent": 0.52
+      },
+      {
+        "rank": 9,
+        "token": "๊",
+        "logit": 8.359375,
+        "probability_percent": 0.48
+      }
+    ]
+  },
+  {
+    "prompt": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nจอห์น เลนนอน เป็นนักร้องนำของ",
+    "generated_prefix": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nจอห์น เลนนอน เป็นนักร้องนำของ เดอะบีจี.\n",
+    "gold_token": "์",
+    "predicted_top1_token": "จ",
+    "token_pos_in_answer": 7,
+    "gold_logit": 4.7890625,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.46728515625,
+    "second_token_prob": 0.0469970703125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "จ",
+        "logit": 13.5859375,
+        "probability_percent": 8.47
+      },
+      {
+        "rank": 1,
+        "token": "แ",
+        "logit": 13.578125,
+        "probability_percent": 8.4
+      },
+      {
+        "rank": 2,
+        "token": "ร",
+        "logit": 13.15625,
+        "probability_percent": 5.51
+      },
+      {
+        "rank": 3,
+        "token": "ด",
+        "logit": 13.140625,
+        "probability_percent": 5.42
+      },
+      {
+        "rank": 4,
+        "token": "พ",
+        "logit": 12.9921875,
+        "probability_percent": 4.68
+      },
+      {
+        "rank": 5,
+        "token": "บ",
+        "logit": 12.8046875,
+        "probability_percent": 3.88
+      },
+      {
+        "rank": 6,
+        "token": "เด",
+        "logit": 12.796875,
+        "probability_percent": 3.85
+      },
+      {
+        "rank": 7,
+        "token": "เบ",
+        "logit": 12.703125,
+        "probability_percent": 3.5
+      },
+      {
+        "rank": 8,
+        "token": "น",
+        "logit": 12.3515625,
+        "probability_percent": 2.46
+      },
+      {
+        "rank": 9,
+        "token": "เจ",
+        "logit": 12.2890625,
+        "probability_percent": 2.31
+      }
+    ]
+  },
+  {
+    "prompt": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nจิม มอร์ริสัน เป็นนักร้องนำของ",
+    "generated_prefix": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nจิม มอร์ริสัน เป็นนักร้องนำของ",
+    "gold_token": " เด",
+    "predicted_top1_token": " เด",
+    "token_pos_in_answer": 0,
+    "gold_logit": 14.0,
+    "gold_prob_percent": 32.23,
+    "first_token_prob": 0.322265625,
+    "second_token_prob": 0.051788330078125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " เด",
+        "logit": 14.0,
+        "probability_percent": 32.23
+      },
+      {
+        "rank": 1,
+        "token": " แ",
+        "logit": 12.171875,
+        "probability_percent": 5.18
+      },
+      {
+        "rank": 2,
+        "token": " ส",
+        "logit": 12.1171875,
+        "probability_percent": 4.9
+      },
+      {
+        "rank": 3,
+        "token": " พ",
+        "logit": 12.0859375,
+        "probability_percent": 4.75
+      },
+      {
+        "rank": 4,
+        "token": " บ",
+        "logit": 11.9140625,
+        "probability_percent": 4.0
+      },
+      {
+        "rank": 5,
+        "token": " อ",
+        "logit": 11.8828125,
+        "probability_percent": 3.88
+      },
+      {
+        "rank": 6,
+        "token": " ด",
+        "logit": 11.75,
+        "probability_percent": 3.4
+      },
+      {
+        "rank": 7,
+        "token": " ม",
+        "logit": 11.453125,
+        "probability_percent": 2.52
+      },
+      {
+        "rank": 8,
+        "token": " ท",
+        "logit": 11.4453125,
+        "probability_percent": 2.5
+      },
+      {
+        "rank": 9,
+        "token": " ว",
+        "logit": 11.421875,
+        "probability_percent": 2.45
+      }
+    ]
+  },
+  {
+    "prompt": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nจิม มอร์ริสัน เป็นนักร้องนำของ",
+    "generated_prefix": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nจิม มอร์ริสัน เป็นนักร้องนำของ เด",
+    "gold_token": "อะ",
+    "predicted_top1_token": "อะ",
+    "token_pos_in_answer": 1,
+    "gold_logit": 19.953125,
+    "gold_prob_percent": 96.88,
+    "first_token_prob": 0.322265625,
+    "second_token_prob": 0.051788330078125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "อะ",
+        "logit": 19.953125,
+        "probability_percent": 96.88
+      },
+      {
+        "rank": 1,
+        "token": "ฟ",
+        "logit": 14.8203125,
+        "probability_percent": 0.57
+      },
+      {
+        "rank": 2,
+        "token": "ย",
+        "logit": 13.640625,
+        "probability_percent": 0.18
+      },
+      {
+        "rank": 3,
+        "token": "ส",
+        "logit": 13.578125,
+        "probability_percent": 0.16
+      },
+      {
+        "rank": 4,
+        "token": "น",
+        "logit": 13.4765625,
+        "probability_percent": 0.15
+      },
+      {
+        "rank": 5,
+        "token": "อ",
+        "logit": 13.3828125,
+        "probability_percent": 0.14
+      },
+      {
+        "rank": 6,
+        "token": "ว",
+        "logit": 13.234375,
+        "probability_percent": 0.12
+      },
+      {
+        "rank": 7,
+        "token": "ท",
+        "logit": 13.1640625,
+        "probability_percent": 0.11
+      },
+      {
+        "rank": 8,
+        "token": "อร",
+        "logit": 12.90625,
+        "probability_percent": 0.08
+      },
+      {
+        "rank": 9,
+        "token": "ล",
+        "logit": 12.8203125,
+        "probability_percent": 0.08
+      }
+    ]
+  },
+  {
+    "prompt": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nจิม มอร์ริสัน เป็นนักร้องนำของ",
+    "generated_prefix": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nจิม มอร์ริสัน เป็นนักร้องนำของ เดอะ",
+    "gold_token": "ด",
+    "predicted_top1_token": "ค",
+    "token_pos_in_answer": 2,
+    "gold_logit": 12.15625,
+    "gold_prob_percent": 2.72,
+    "first_token_prob": 0.322265625,
+    "second_token_prob": 0.051788330078125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ค",
+        "logit": 13.4765625,
+        "probability_percent": 10.19
+      },
+      {
+        "rank": 1,
+        "token": "บ",
+        "logit": 13.1953125,
+        "probability_percent": 7.69
+      },
+      {
+        "rank": 2,
+        "token": "ซ",
+        "logit": 12.796875,
+        "probability_percent": 5.16
+      },
+      {
+        "rank": 3,
+        "token": "เอ",
+        "logit": 12.75,
+        "probability_percent": 4.93
+      },
+      {
+        "rank": 4,
+        "token": "ม",
+        "logit": 12.6640625,
+        "probability_percent": 4.52
+      },
+      {
+        "rank": 5,
+        "token": "แ",
+        "logit": 12.484375,
+        "probability_percent": 3.78
+      },
+      {
+        "rank": 6,
+        "token": "อ",
+        "logit": 12.2578125,
+        "probability_percent": 3.01
+      },
+      {
+        "rank": 7,
+        "token": "พ",
+        "logit": 12.2265625,
+        "probability_percent": 2.92
+      },
+      {
+        "rank": 8,
+        "token": "โ",
+        "logit": 12.2109375,
+        "probability_percent": 2.87
+      },
+      {
+        "rank": 9,
+        "token": "สต",
+        "logit": 12.1875,
+        "probability_percent": 2.81
+      }
+    ]
+  },
+  {
+    "prompt": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nจิม มอร์ริสัน เป็นนักร้องนำของ",
+    "generated_prefix": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nจิม มอร์ริสัน เป็นนักร้องนำของ เดอะค",
+    "gold_token": "อร",
+    "predicted_top1_token": "าร",
+    "token_pos_in_answer": 3,
+    "gold_logit": 17.578125,
+    "gold_prob_percent": 13.57,
+    "first_token_prob": 0.322265625,
+    "second_token_prob": 0.051788330078125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "าร",
+        "logit": 17.640625,
+        "probability_percent": 14.45
+      },
+      {
+        "rank": 1,
+        "token": "อร",
+        "logit": 17.578125,
+        "probability_percent": 13.57
+      },
+      {
+        "rank": 2,
+        "token": "ิล",
+        "logit": 17.046875,
+        "probability_percent": 7.98
+      },
+      {
+        "rank": 3,
+        "token": "ิง",
+        "logit": 16.984375,
+        "probability_percent": 7.5
+      },
+      {
+        "rank": 4,
+        "token": "ิก",
+        "logit": 16.203125,
+        "probability_percent": 3.43
+      },
+      {
+        "rank": 5,
+        "token": "า",
+        "logit": 16.046875,
+        "probability_percent": 2.94
+      },
+      {
+        "rank": 6,
+        "token": "ูล",
+        "logit": 16.015625,
+        "probability_percent": 2.85
+      },
+      {
+        "rank": 7,
+        "token": "ัม",
+        "logit": 15.8828125,
+        "probability_percent": 2.49
+      },
+      {
+        "rank": 8,
+        "token": "ิว",
+        "logit": 15.8671875,
+        "probability_percent": 2.45
+      },
+      {
+        "rank": 9,
+        "token": "ิด",
+        "logit": 15.8046875,
+        "probability_percent": 2.3
+      }
+    ]
+  },
+  {
+    "prompt": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nจิม มอร์ริสัน เป็นนักร้องนำของ",
+    "generated_prefix": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nจิม มอร์ริสัน เป็นนักร้องนำของ เดอะคาร",
+    "gold_token": "์ส",
+    "predicted_top1_token": "์",
+    "token_pos_in_answer": 4,
+    "gold_logit": 13.546875,
+    "gold_prob_percent": 1.89,
+    "first_token_prob": 0.322265625,
+    "second_token_prob": 0.051788330078125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "์",
+        "logit": 16.40625,
+        "probability_percent": 33.01
+      },
+      {
+        "rank": 1,
+        "token": "์ด",
+        "logit": 15.796875,
+        "probability_percent": 17.94
+      },
+      {
+        "rank": 2,
+        "token": "า",
+        "logit": 14.65625,
+        "probability_percent": 5.73
+      },
+      {
+        "rank": 3,
+        "token": "์เพ",
+        "logit": 14.0234375,
+        "probability_percent": 3.05
+      },
+      {
+        "rank": 4,
+        "token": "พ",
+        "logit": 13.625,
+        "probability_percent": 2.04
+      },
+      {
+        "rank": 5,
+        "token": "์พ",
+        "logit": 13.5703125,
+        "probability_percent": 1.94
+      },
+      {
+        "rank": 6,
+        "token": "์ท",
+        "logit": 13.546875,
+        "probability_percent": 1.89
+      },
+      {
+        "rank": 7,
+        "token": "์ส",
+        "logit": 13.546875,
+        "probability_percent": 1.89
+      },
+      {
+        "rank": 8,
+        "token": "์น",
+        "logit": 13.2890625,
+        "probability_percent": 1.46
+      },
+      {
+        "rank": 9,
+        "token": "์บ",
+        "logit": 13.234375,
+        "probability_percent": 1.38
+      }
+    ]
+  },
+  {
+    "prompt": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nโบโน เป็นนักร้องนำของ",
+    "generated_prefix": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nโบโน เป็นนักร้องนำของ",
+    "gold_token": " ย",
+    "predicted_top1_token": " เด",
+    "token_pos_in_answer": 0,
+    "gold_logit": 9.0234375,
+    "gold_prob_percent": 0.27,
+    "first_token_prob": 0.158447265625,
+    "second_token_prob": 0.1273193359375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " เด",
+        "logit": 13.1015625,
+        "probability_percent": 15.84
+      },
+      {
+        "rank": 1,
+        "token": " บ",
+        "logit": 12.8828125,
+        "probability_percent": 12.73
+      },
+      {
+        "rank": 2,
+        "token": " พ",
+        "logit": 12.1328125,
+        "probability_percent": 6.02
+      },
+      {
+        "rank": 3,
+        "token": " โ",
+        "logit": 12.109375,
+        "probability_percent": 5.87
+      },
+      {
+        "rank": 4,
+        "token": " อ",
+        "logit": 11.9453125,
+        "probability_percent": 4.99
+      },
+      {
+        "rank": 5,
+        "token": " แ",
+        "logit": 11.8671875,
+        "probability_percent": 4.61
+      },
+      {
+        "rank": 6,
+        "token": " ส",
+        "logit": 11.53125,
+        "probability_percent": 3.3
+      },
+      {
+        "rank": 7,
+        "token": " ว",
+        "logit": 11.484375,
+        "probability_percent": 3.14
+      },
+      {
+        "rank": 8,
+        "token": " ม",
+        "logit": 11.3203125,
+        "probability_percent": 2.67
+      },
+      {
+        "rank": 9,
+        "token": " ไ",
+        "logit": 11.3046875,
+        "probability_percent": 2.63
+      }
+    ]
+  },
+  {
+    "prompt": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nโบโน เป็นนักร้องนำของ",
+    "generated_prefix": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nโบโน เป็นนักร้องนำของ เด",
+    "gold_token": "ูท",
+    "predicted_top1_token": "อะ",
+    "token_pos_in_answer": 1,
+    "gold_logit": 1.607421875,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.158447265625,
+    "second_token_prob": 0.1273193359375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "อะ",
+        "logit": 19.453125,
+        "probability_percent": 96.04
+      },
+      {
+        "rank": 1,
+        "token": "ฟ",
+        "logit": 14.3125,
+        "probability_percent": 0.56
+      },
+      {
+        "rank": 2,
+        "token": "ย",
+        "logit": 13.6640625,
+        "probability_percent": 0.29
+      },
+      {
+        "rank": 3,
+        "token": "อ",
+        "logit": 13.4453125,
+        "probability_percent": 0.24
+      },
+      {
+        "rank": 4,
+        "token": "น",
+        "logit": 13.3984375,
+        "probability_percent": 0.23
+      },
+      {
+        "rank": 5,
+        "token": "ส",
+        "logit": 13.2734375,
+        "probability_percent": 0.2
+      },
+      {
+        "rank": 6,
+        "token": "ว",
+        "logit": 13.03125,
+        "probability_percent": 0.16
+      },
+      {
+        "rank": 7,
+        "token": "ล",
+        "logit": 12.8671875,
+        "probability_percent": 0.13
+      },
+      {
+        "rank": 8,
+        "token": "ท",
+        "logit": 12.828125,
+        "probability_percent": 0.13
+      },
+      {
+        "rank": 9,
+        "token": "ร",
+        "logit": 12.578125,
+        "probability_percent": 0.1
+      }
+    ]
+  },
+  {
+    "prompt": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nโบโน เป็นนักร้องนำของ",
+    "generated_prefix": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nโบโน เป็นนักร้องนำของ เดอะ",
+    "gold_token": "ู",
+    "predicted_top1_token": "บ",
+    "token_pos_in_answer": 2,
+    "gold_logit": 8.21875,
+    "gold_prob_percent": 0.07,
+    "first_token_prob": 0.158447265625,
+    "second_token_prob": 0.1273193359375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "บ",
+        "logit": 13.1875,
+        "probability_percent": 9.4
+      },
+      {
+        "rank": 1,
+        "token": "ค",
+        "logit": 13.09375,
+        "probability_percent": 8.56
+      },
+      {
+        "rank": 2,
+        "token": "เอ",
+        "logit": 13.0390625,
+        "probability_percent": 8.11
+      },
+      {
+        "rank": 3,
+        "token": "โ",
+        "logit": 12.5390625,
+        "probability_percent": 4.92
+      },
+      {
+        "rank": 4,
+        "token": "ว",
+        "logit": 12.5,
+        "probability_percent": 4.73
+      },
+      {
+        "rank": 5,
+        "token": "แ",
+        "logit": 12.234375,
+        "probability_percent": 3.63
+      },
+      {
+        "rank": 6,
+        "token": "อ",
+        "logit": 12.140625,
+        "probability_percent": 3.3
+      },
+      {
+        "rank": 7,
+        "token": "ม",
+        "logit": 12.0703125,
+        "probability_percent": 3.08
+      },
+      {
+        "rank": 8,
+        "token": "ซ",
+        "logit": 12.0234375,
+        "probability_percent": 2.93
+      },
+      {
+        "rank": 9,
+        "token": "ด",
+        "logit": 11.96875,
+        "probability_percent": 2.78
+      }
+    ]
+  },
+  {
+    "prompt": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nออซซี ออสบอร์น เป็นนักร้องนำของ",
+    "generated_prefix": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nออซซี ออสบอร์น เป็นนักร้องนำของ",
+    "gold_token": " แ",
+    "predicted_top1_token": " เด",
+    "token_pos_in_answer": 0,
+    "gold_logit": 12.265625,
+    "gold_prob_percent": 7.43,
+    "first_token_prob": 0.1512451171875,
+    "second_token_prob": 0.09918212890625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " เด",
+        "logit": 12.9765625,
+        "probability_percent": 15.12
+      },
+      {
+        "rank": 1,
+        "token": " อ",
+        "logit": 12.5546875,
+        "probability_percent": 9.92
+      },
+      {
+        "rank": 2,
+        "token": " แ",
+        "logit": 12.265625,
+        "probability_percent": 7.43
+      },
+      {
+        "rank": 3,
+        "token": " พ",
+        "logit": 12.0,
+        "probability_percent": 5.69
+      },
+      {
+        "rank": 4,
+        "token": " บ",
+        "logit": 11.8125,
+        "probability_percent": 4.72
+      },
+      {
+        "rank": 5,
+        "token": " ว",
+        "logit": 11.71875,
+        "probability_percent": 4.3
+      },
+      {
+        "rank": 6,
+        "token": " ส",
+        "logit": 11.7109375,
+        "probability_percent": 4.27
+      },
+      {
+        "rank": 7,
+        "token": " โ",
+        "logit": 11.671875,
+        "probability_percent": 4.1
+      },
+      {
+        "rank": 8,
+        "token": " ด",
+        "logit": 11.203125,
+        "probability_percent": 2.57
+      },
+      {
+        "rank": 9,
+        "token": " เ",
+        "logit": 11.1796875,
+        "probability_percent": 2.51
+      }
+    ]
+  },
+  {
+    "prompt": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nออซซี ออสบอร์น เป็นนักร้องนำของ",
+    "generated_prefix": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nออซซี ออสบอร์น เป็นนักร้องนำของ เด",
+    "gold_token": "บล",
+    "predicted_top1_token": "อะ",
+    "token_pos_in_answer": 1,
+    "gold_logit": 6.6640625,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.1512451171875,
+    "second_token_prob": 0.09918212890625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "อะ",
+        "logit": 19.953125,
+        "probability_percent": 97.02
+      },
+      {
+        "rank": 1,
+        "token": "ฟ",
+        "logit": 14.3671875,
+        "probability_percent": 0.36
+      },
+      {
+        "rank": 2,
+        "token": "ย",
+        "logit": 13.8046875,
+        "probability_percent": 0.21
+      },
+      {
+        "rank": 3,
+        "token": "ส",
+        "logit": 13.671875,
+        "probability_percent": 0.18
+      },
+      {
+        "rank": 4,
+        "token": "อ",
+        "logit": 13.515625,
+        "probability_percent": 0.16
+      },
+      {
+        "rank": 5,
+        "token": "น",
+        "logit": 13.4765625,
+        "probability_percent": 0.15
+      },
+      {
+        "rank": 6,
+        "token": "ท",
+        "logit": 13.25,
+        "probability_percent": 0.12
+      },
+      {
+        "rank": 7,
+        "token": "ว",
+        "logit": 13.015625,
+        "probability_percent": 0.09
+      },
+      {
+        "rank": 8,
+        "token": "ล",
+        "logit": 12.984375,
+        "probability_percent": 0.09
+      },
+      {
+        "rank": 9,
+        "token": "ซ",
+        "logit": 12.875,
+        "probability_percent": 0.08
+      }
+    ]
+  },
+  {
+    "prompt": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nออซซี ออสบอร์น เป็นนักร้องนำของ",
+    "generated_prefix": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nออซซี ออสบอร์น เป็นนักร้องนำของ เดอะ",
+    "gold_token": "็ก",
+    "predicted_top1_token": "ว",
+    "token_pos_in_answer": 2,
+    "gold_logit": 5.375,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.1512451171875,
+    "second_token_prob": 0.09918212890625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ว",
+        "logit": 12.7890625,
+        "probability_percent": 6.78
+      },
+      {
+        "rank": 1,
+        "token": "บ",
+        "logit": 12.65625,
+        "probability_percent": 5.94
+      },
+      {
+        "rank": 2,
+        "token": "อ",
+        "logit": 12.578125,
+        "probability_percent": 5.49
+      },
+      {
+        "rank": 3,
+        "token": "ค",
+        "logit": 12.4921875,
+        "probability_percent": 5.04
+      },
+      {
+        "rank": 4,
+        "token": "ซ",
+        "logit": 12.3046875,
+        "probability_percent": 4.18
+      },
+      {
+        "rank": 5,
+        "token": "เอ",
+        "logit": 12.2890625,
+        "probability_percent": 4.11
+      },
+      {
+        "rank": 6,
+        "token": "พ",
+        "logit": 12.2421875,
+        "probability_percent": 3.92
+      },
+      {
+        "rank": 7,
+        "token": "ม",
+        "logit": 12.21875,
+        "probability_percent": 3.84
+      },
+      {
+        "rank": 8,
+        "token": "แ",
+        "logit": 12.1875,
+        "probability_percent": 3.72
+      },
+      {
+        "rank": 9,
+        "token": "ฟ",
+        "logit": 12.078125,
+        "probability_percent": 3.33
+      }
+    ]
+  },
+  {
+    "prompt": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nออซซี ออสบอร์น เป็นนักร้องนำของ",
+    "generated_prefix": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nออซซี ออสบอร์น เป็นนักร้องนำของ เดอะว",
+    "gold_token": "แ",
+    "predicted_top1_token": "ัน",
+    "token_pos_in_answer": 3,
+    "gold_logit": 9.5234375,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.1512451171875,
+    "second_token_prob": 0.09918212890625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ัน",
+        "logit": 17.59375,
+        "probability_percent": 11.1
+      },
+      {
+        "rank": 1,
+        "token": "อร",
+        "logit": 17.25,
+        "probability_percent": 7.87
+      },
+      {
+        "rank": 2,
+        "token": "ิก",
+        "logit": 17.09375,
+        "probability_percent": 6.73
+      },
+      {
+        "rank": 3,
+        "token": "ิ",
+        "logit": 17.0,
+        "probability_percent": 6.13
+      },
+      {
+        "rank": 4,
+        "token": "ิน",
+        "logit": 16.9375,
+        "probability_percent": 5.76
+      },
+      {
+        "rank": 5,
+        "token": "ิล",
+        "logit": 16.84375,
+        "probability_percent": 5.24
+      },
+      {
+        "rank": 6,
+        "token": "ูล",
+        "logit": 16.53125,
+        "probability_percent": 3.84
+      },
+      {
+        "rank": 7,
+        "token": "ู",
+        "logit": 16.515625,
+        "probability_percent": 3.78
+      },
+      {
+        "rank": 8,
+        "token": "ี",
+        "logit": 16.46875,
+        "probability_percent": 3.6
+      },
+      {
+        "rank": 9,
+        "token": "อล",
+        "logit": 16.109375,
+        "probability_percent": 2.52
+      }
+    ]
+  },
+  {
+    "prompt": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nออซซี ออสบอร์น เป็นนักร้องนำของ",
+    "generated_prefix": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nออซซี ออสบอร์น เป็นนักร้องนำของ เดอะวัน",
+    "gold_token": "ซ",
+    "predicted_top1_token": ".\n",
+    "token_pos_in_answer": 4,
+    "gold_logit": 10.2421875,
+    "gold_prob_percent": 3.83,
+    "first_token_prob": 0.1512451171875,
+    "second_token_prob": 0.09918212890625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": ".\n",
+        "logit": 11.5859375,
+        "probability_percent": 14.67
+      },
+      {
+        "rank": 1,
+        "token": "ส",
+        "logit": 11.3359375,
+        "probability_percent": 11.43
+      },
+      {
+        "rank": 2,
+        "token": "เท",
+        "logit": 11.125,
+        "probability_percent": 9.25
+      },
+      {
+        "rank": 3,
+        "token": "เด",
+        "logit": 10.65625,
+        "probability_percent": 5.79
+      },
+      {
+        "rank": 4,
+        "token": "ซ",
+        "logit": 10.2421875,
+        "probability_percent": 3.83
+      },
+      {
+        "rank": 5,
+        "token": "ช",
+        "logit": 10.0703125,
+        "probability_percent": 3.22
+      },
+      {
+        "rank": 6,
+        "token": "เตอร",
+        "logit": 10.0,
+        "probability_percent": 3.0
+      },
+      {
+        "rank": 7,
+        "token": "เน",
+        "logit": 9.859375,
+        "probability_percent": 2.61
+      },
+      {
+        "rank": 8,
+        "token": "เดอร",
+        "logit": 9.6640625,
+        "probability_percent": 2.15
+      },
+      {
+        "rank": 9,
+        "token": "แ",
+        "logit": 9.6171875,
+        "probability_percent": 2.05
+      }
+    ]
+  },
+  {
+    "prompt": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nออซซี ออสบอร์น เป็นนักร้องนำของ",
+    "generated_prefix": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nออซซี ออสบอร์น เป็นนักร้องนำของ เดอะวัน.\n",
+    "gold_token": "็",
+    "predicted_top1_token": "แ",
+    "token_pos_in_answer": 5,
+    "gold_logit": 5.70703125,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.1512451171875,
+    "second_token_prob": 0.09918212890625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "แ",
+        "logit": 13.4296875,
+        "probability_percent": 8.67
+      },
+      {
+        "rank": 1,
+        "token": "เด",
+        "logit": 12.828125,
+        "probability_percent": 4.75
+      },
+      {
+        "rank": 2,
+        "token": "ด",
+        "logit": 12.515625,
+        "probability_percent": 3.48
+      },
+      {
+        "rank": 3,
+        "token": "จ",
+        "logit": 12.5078125,
+        "probability_percent": 3.45
+      },
+      {
+        "rank": 4,
+        "token": "ร",
+        "logit": 12.4921875,
+        "probability_percent": 3.4
+      },
+      {
+        "rank": 5,
+        "token": "บ",
+        "logit": 12.4765625,
+        "probability_percent": 3.34
+      },
+      {
+        "rank": 6,
+        "token": "ล",
+        "logit": 12.4296875,
+        "probability_percent": 3.19
+      },
+      {
+        "rank": 7,
+        "token": "น",
+        "logit": 12.421875,
+        "probability_percent": 3.17
+      },
+      {
+        "rank": 8,
+        "token": "เบ",
+        "logit": 12.328125,
+        "probability_percent": 2.88
+      },
+      {
+        "rank": 9,
+        "token": "ซ",
+        "logit": 12.25,
+        "probability_percent": 2.67
+      }
+    ]
+  },
+  {
+    "prompt": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nออซซี ออสบอร์น เป็นนักร้องนำของ",
+    "generated_prefix": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nออซซี ออสบอร์น เป็นนักร้องนำของ เดอะวัน.\nแ",
+    "gold_token": "บบ",
+    "predicted_top1_token": "ด",
+    "token_pos_in_answer": 6,
+    "gold_logit": 11.0859375,
+    "gold_prob_percent": 0.01,
+    "first_token_prob": 0.1512451171875,
+    "second_token_prob": 0.09918212890625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ด",
+        "logit": 17.78125,
+        "probability_percent": 9.98
+      },
+      {
+        "rank": 1,
+        "token": "บร",
+        "logit": 17.6875,
+        "probability_percent": 9.08
+      },
+      {
+        "rank": 2,
+        "token": "อน",
+        "logit": 17.640625,
+        "probability_percent": 8.67
+      },
+      {
+        "rank": 3,
+        "token": "ซ",
+        "logit": 17.359375,
+        "probability_percent": 6.54
+      },
+      {
+        "rank": 4,
+        "token": "อนด",
+        "logit": 17.21875,
+        "probability_percent": 5.69
+      },
+      {
+        "rank": 5,
+        "token": "ฮ",
+        "logit": 17.15625,
+        "probability_percent": 5.34
+      },
+      {
+        "rank": 6,
+        "token": "อล",
+        "logit": 17.140625,
+        "probability_percent": 5.26
+      },
+      {
+        "rank": 7,
+        "token": "คล",
+        "logit": 16.75,
+        "probability_percent": 3.56
+      },
+      {
+        "rank": 8,
+        "token": "กร",
+        "logit": 16.71875,
+        "probability_percent": 3.45
+      },
+      {
+        "rank": 9,
+        "token": "ร",
+        "logit": 16.703125,
+        "probability_percent": 3.39
+      }
+    ]
+  },
+  {
+    "prompt": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nออซซี ออสบอร์น เป็นนักร้องนำของ",
+    "generated_prefix": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nออซซี ออสบอร์น เป็นนักร้องนำของ เดอะวัน.\nแด",
+    "gold_token": "าธ",
+    "predicted_top1_token": "เน",
+    "token_pos_in_answer": 7,
+    "gold_logit": 5.2578125,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.1512451171875,
+    "second_token_prob": 0.09918212890625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "เน",
+        "logit": 18.28125,
+        "probability_percent": 59.62
+      },
+      {
+        "rank": 1,
+        "token": "นน",
+        "logit": 17.1875,
+        "probability_percent": 19.97
+      },
+      {
+        "rank": 2,
+        "token": "น",
+        "logit": 14.9765625,
+        "probability_percent": 2.19
+      },
+      {
+        "rank": 3,
+        "token": "ม",
+        "logit": 14.7109375,
+        "probability_percent": 1.68
+      },
+      {
+        "rank": 4,
+        "token": "ด",
+        "logit": 14.6015625,
+        "probability_percent": 1.5
+      },
+      {
+        "rank": 5,
+        "token": "ซ",
+        "logit": 14.3671875,
+        "probability_percent": 1.19
+      },
+      {
+        "rank": 6,
+        "token": "ฟ",
+        "logit": 14.2265625,
+        "probability_percent": 1.03
+      },
+      {
+        "rank": 7,
+        "token": "ส",
+        "logit": 14.046875,
+        "probability_percent": 0.86
+      },
+      {
+        "rank": 8,
+        "token": "ร",
+        "logit": 14.015625,
+        "probability_percent": 0.84
+      },
+      {
+        "rank": 9,
+        "token": "ช",
+        "logit": 13.796875,
+        "probability_percent": 0.67
+      }
+    ]
+  },
+  {
+    "prompt": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nบิลลี โจ อาร์มสตรอง เป็นนักร้องนำของ",
+    "generated_prefix": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nบิลลี โจ อาร์มสตรอง เป็นนักร้องนำของ",
+    "gold_token": " กร",
+    "predicted_top1_token": " เด",
+    "token_pos_in_answer": 0,
+    "gold_logit": 8.0390625,
+    "gold_prob_percent": 0.11,
+    "first_token_prob": 0.20703125,
+    "second_token_prob": 0.07916259765625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " เด",
+        "logit": 13.3203125,
+        "probability_percent": 20.7
+      },
+      {
+        "rank": 1,
+        "token": " บ",
+        "logit": 12.359375,
+        "probability_percent": 7.92
+      },
+      {
+        "rank": 2,
+        "token": " แ",
+        "logit": 12.28125,
+        "probability_percent": 7.32
+      },
+      {
+        "rank": 3,
+        "token": " อ",
+        "logit": 12.046875,
+        "probability_percent": 5.79
+      },
+      {
+        "rank": 4,
+        "token": " พ",
+        "logit": 11.7890625,
+        "probability_percent": 4.48
+      },
+      {
+        "rank": 5,
+        "token": " ส",
+        "logit": 11.7421875,
+        "probability_percent": 4.27
+      },
+      {
+        "rank": 6,
+        "token": " ว",
+        "logit": 11.5859375,
+        "probability_percent": 3.65
+      },
+      {
+        "rank": 7,
+        "token": " โ",
+        "logit": 11.2265625,
+        "probability_percent": 2.55
+      },
+      {
+        "rank": 8,
+        "token": " ไ",
+        "logit": 11.2265625,
+        "probability_percent": 2.55
+      },
+      {
+        "rank": 9,
+        "token": " ด",
+        "logit": 11.203125,
+        "probability_percent": 2.49
+      }
+    ]
+  },
+  {
+    "prompt": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nบิลลี โจ อาร์มสตรอง เป็นนักร้องนำของ",
+    "generated_prefix": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nบิลลี โจ อาร์มสตรอง เป็นนักร้องนำของ เด",
+    "gold_token": "ีน",
+    "predicted_top1_token": "อะ",
+    "token_pos_in_answer": 1,
+    "gold_logit": 6.9765625,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.20703125,
+    "second_token_prob": 0.07916259765625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "อะ",
+        "logit": 19.875,
+        "probability_percent": 97.17
+      },
+      {
+        "rank": 1,
+        "token": "ฟ",
+        "logit": 14.3515625,
+        "probability_percent": 0.39
+      },
+      {
+        "rank": 2,
+        "token": "ย",
+        "logit": 13.6484375,
+        "probability_percent": 0.19
+      },
+      {
+        "rank": 3,
+        "token": "ส",
+        "logit": 13.46875,
+        "probability_percent": 0.16
+      },
+      {
+        "rank": 4,
+        "token": "น",
+        "logit": 13.3515625,
+        "probability_percent": 0.14
+      },
+      {
+        "rank": 5,
+        "token": "อ",
+        "logit": 13.234375,
+        "probability_percent": 0.13
+      },
+      {
+        "rank": 6,
+        "token": "ท",
+        "logit": 13.171875,
+        "probability_percent": 0.12
+      },
+      {
+        "rank": 7,
+        "token": "ว",
+        "logit": 13.109375,
+        "probability_percent": 0.11
+      },
+      {
+        "rank": 8,
+        "token": "ล",
+        "logit": 12.84375,
+        "probability_percent": 0.09
+      },
+      {
+        "rank": 9,
+        "token": "อร",
+        "logit": 12.75,
+        "probability_percent": 0.08
+      }
+    ]
+  },
+  {
+    "prompt": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nบิลลี โจ อาร์มสตรอง เป็นนักร้องนำของ",
+    "generated_prefix": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nบิลลี โจ อาร์มสตรอง เป็นนักร้องนำของ เดอะ",
+    "gold_token": "เด",
+    "predicted_top1_token": "บ",
+    "token_pos_in_answer": 2,
+    "gold_logit": 11.0859375,
+    "gold_prob_percent": 1.11,
+    "first_token_prob": 0.20703125,
+    "second_token_prob": 0.07916259765625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "บ",
+        "logit": 13.078125,
+        "probability_percent": 8.14
+      },
+      {
+        "rank": 1,
+        "token": "ค",
+        "logit": 12.765625,
+        "probability_percent": 5.95
+      },
+      {
+        "rank": 2,
+        "token": "เอ",
+        "logit": 12.53125,
+        "probability_percent": 4.71
+      },
+      {
+        "rank": 3,
+        "token": "ว",
+        "logit": 12.5,
+        "probability_percent": 4.56
+      },
+      {
+        "rank": 4,
+        "token": "แ",
+        "logit": 12.3671875,
+        "probability_percent": 3.99
+      },
+      {
+        "rank": 5,
+        "token": "พ",
+        "logit": 12.3359375,
+        "probability_percent": 3.87
+      },
+      {
+        "rank": 6,
+        "token": "ม",
+        "logit": 12.234375,
+        "probability_percent": 3.5
+      },
+      {
+        "rank": 7,
+        "token": "อ",
+        "logit": 12.1953125,
+        "probability_percent": 3.36
+      },
+      {
+        "rank": 8,
+        "token": "โ",
+        "logit": 12.1953125,
+        "probability_percent": 3.36
+      },
+      {
+        "rank": 9,
+        "token": "ซ",
+        "logit": 12.1953125,
+        "probability_percent": 3.36
+      }
+    ]
+  },
+  {
+    "prompt": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nบิลลี โจ อาร์มสตรอง เป็นนักร้องนำของ",
+    "generated_prefix": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nบิลลี โจ อาร์มสตรอง เป็นนักร้องนำของ เดอะบ",
+    "gold_token": "ย",
+    "predicted_top1_token": "อย",
+    "token_pos_in_answer": 3,
+    "gold_logit": 12.8203125,
+    "gold_prob_percent": 0.12,
+    "first_token_prob": 0.20703125,
+    "second_token_prob": 0.07916259765625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "อย",
+        "logit": 18.03125,
+        "probability_percent": 21.23
+      },
+      {
+        "rank": 1,
+        "token": "ิ",
+        "logit": 16.78125,
+        "probability_percent": 6.08
+      },
+      {
+        "rank": 2,
+        "token": "ี",
+        "logit": 16.734375,
+        "probability_percent": 5.8
+      },
+      {
+        "rank": 3,
+        "token": "ีท",
+        "logit": 16.46875,
+        "probability_percent": 4.45
+      },
+      {
+        "rank": 4,
+        "token": "ู",
+        "logit": 16.265625,
+        "probability_percent": 3.63
+      },
+      {
+        "rank": 5,
+        "token": "ิก",
+        "logit": 15.9453125,
+        "probability_percent": 2.64
+      },
+      {
+        "rank": 6,
+        "token": "ิล",
+        "logit": 15.8828125,
+        "probability_percent": 2.48
+      },
+      {
+        "rank": 7,
+        "token": "ิว",
+        "logit": 15.859375,
+        "probability_percent": 2.42
+      },
+      {
+        "rank": 8,
+        "token": "ูล",
+        "logit": 15.7890625,
+        "probability_percent": 2.26
+      },
+      {
+        "rank": 9,
+        "token": "อด",
+        "logit": 15.6640625,
+        "probability_percent": 1.99
+      }
+    ]
+  },
+  {
+    "prompt": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nบิลลี โจ อาร์มสตรอง เป็นนักร้องนำของ",
+    "generated_prefix": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nบิลลี โจ อาร์มสตรอง เป็นนักร้องนำของ เดอะบอย",
+    "gold_token": "์",
+    "predicted_top1_token": "ส",
+    "token_pos_in_answer": 4,
+    "gold_logit": 10.578125,
+    "gold_prob_percent": 0.7,
+    "first_token_prob": 0.20703125,
+    "second_token_prob": 0.07916259765625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ส",
+        "logit": 14.515625,
+        "probability_percent": 36.06
+      },
+      {
+        "rank": 1,
+        "token": "ด",
+        "logit": 14.5,
+        "probability_percent": 35.5
+      },
+      {
+        "rank": 2,
+        "token": "ซ",
+        "logit": 12.1328125,
+        "probability_percent": 3.33
+      },
+      {
+        "rank": 3,
+        "token": "เด",
+        "logit": 11.578125,
+        "probability_percent": 1.91
+      },
+      {
+        "rank": 4,
+        "token": "โซ",
+        "logit": 11.5,
+        "probability_percent": 1.77
+      },
+      {
+        "rank": 5,
+        "token": "เซ",
+        "logit": 11.2734375,
+        "probability_percent": 1.41
+      },
+      {
+        "rank": 6,
+        "token": "แ",
+        "logit": 11.0625,
+        "probability_percent": 1.14
+      },
+      {
+        "rank": 7,
+        "token": "ล",
+        "logit": 10.765625,
+        "probability_percent": 0.85
+      },
+      {
+        "rank": 8,
+        "token": "์",
+        "logit": 10.578125,
+        "probability_percent": 0.7
+      },
+      {
+        "rank": 9,
+        "token": "ช",
+        "logit": 10.484375,
+        "probability_percent": 0.64
+      }
+    ]
+  },
+  {
+    "prompt": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nจอน บอน โจวี เป็นนักร้องนำของ",
+    "generated_prefix": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nจอน บอน โจวี เป็นนักร้องนำของ",
+    "gold_token": " บ",
+    "predicted_top1_token": " เด",
+    "token_pos_in_answer": 0,
+    "gold_logit": 12.0859375,
+    "gold_prob_percent": 5.73,
+    "first_token_prob": 0.1807861328125,
+    "second_token_prob": 0.082763671875,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " เด",
+        "logit": 13.234375,
+        "probability_percent": 18.08
+      },
+      {
+        "rank": 1,
+        "token": " แ",
+        "logit": 12.453125,
+        "probability_percent": 8.28
+      },
+      {
+        "rank": 2,
+        "token": " บ",
+        "logit": 12.0859375,
+        "probability_percent": 5.73
+      },
+      {
+        "rank": 3,
+        "token": " อ",
+        "logit": 11.90625,
+        "probability_percent": 4.79
+      },
+      {
+        "rank": 4,
+        "token": " พ",
+        "logit": 11.8671875,
+        "probability_percent": 4.61
+      },
+      {
+        "rank": 5,
+        "token": " ส",
+        "logit": 11.75,
+        "probability_percent": 4.1
+      },
+      {
+        "rank": 6,
+        "token": " ว",
+        "logit": 11.625,
+        "probability_percent": 3.62
+      },
+      {
+        "rank": 7,
+        "token": " โ",
+        "logit": 11.5390625,
+        "probability_percent": 3.32
+      },
+      {
+        "rank": 8,
+        "token": " ด",
+        "logit": 11.40625,
+        "probability_percent": 2.91
+      },
+      {
+        "rank": 9,
+        "token": " ท",
+        "logit": 11.21875,
+        "probability_percent": 2.41
+      }
+    ]
+  },
+  {
+    "prompt": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nจอน บอน โจวี เป็นนักร้องนำของ",
+    "generated_prefix": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nจอน บอน โจวี เป็นนักร้องนำของ เด",
+    "gold_token": "อน",
+    "predicted_top1_token": "อะ",
+    "token_pos_in_answer": 1,
+    "gold_logit": 10.25,
+    "gold_prob_percent": 0.01,
+    "first_token_prob": 0.1807861328125,
+    "second_token_prob": 0.082763671875,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "อะ",
+        "logit": 19.671875,
+        "probability_percent": 96.58
+      },
+      {
+        "rank": 1,
+        "token": "ฟ",
+        "logit": 14.375,
+        "probability_percent": 0.48
+      },
+      {
+        "rank": 2,
+        "token": "ย",
+        "logit": 13.640625,
+        "probability_percent": 0.23
+      },
+      {
+        "rank": 3,
+        "token": "ส",
+        "logit": 13.4921875,
+        "probability_percent": 0.2
+      },
+      {
+        "rank": 4,
+        "token": "น",
+        "logit": 13.4296875,
+        "probability_percent": 0.19
+      },
+      {
+        "rank": 5,
+        "token": "อ",
+        "logit": 13.2421875,
+        "probability_percent": 0.16
+      },
+      {
+        "rank": 6,
+        "token": "ท",
+        "logit": 13.109375,
+        "probability_percent": 0.14
+      },
+      {
+        "rank": 7,
+        "token": "ว",
+        "logit": 12.9921875,
+        "probability_percent": 0.12
+      },
+      {
+        "rank": 8,
+        "token": "ล",
+        "logit": 12.78125,
+        "probability_percent": 0.1
+      },
+      {
+        "rank": 9,
+        "token": "ธ",
+        "logit": 12.6484375,
+        "probability_percent": 0.09
+      }
+    ]
+  },
+  {
+    "prompt": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nจอน บอน โจวี เป็นนักร้องนำของ",
+    "generated_prefix": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nจอน บอน โจวี เป็นนักร้องนำของ เดอะ",
+    "gold_token": " โ",
+    "predicted_top1_token": "บ",
+    "token_pos_in_answer": 2,
+    "gold_logit": 9.140625,
+    "gold_prob_percent": 0.15,
+    "first_token_prob": 0.1807861328125,
+    "second_token_prob": 0.082763671875,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "บ",
+        "logit": 13.03125,
+        "probability_percent": 7.56
+      },
+      {
+        "rank": 1,
+        "token": "ค",
+        "logit": 12.7890625,
+        "probability_percent": 5.93
+      },
+      {
+        "rank": 2,
+        "token": "เอ",
+        "logit": 12.6640625,
+        "probability_percent": 5.23
+      },
+      {
+        "rank": 3,
+        "token": "ว",
+        "logit": 12.5234375,
+        "probability_percent": 4.55
+      },
+      {
+        "rank": 4,
+        "token": "แ",
+        "logit": 12.421875,
+        "probability_percent": 4.11
+      },
+      {
+        "rank": 5,
+        "token": "ม",
+        "logit": 12.3984375,
+        "probability_percent": 4.01
+      },
+      {
+        "rank": 6,
+        "token": "ซ",
+        "logit": 12.3125,
+        "probability_percent": 3.68
+      },
+      {
+        "rank": 7,
+        "token": "พ",
+        "logit": 12.2421875,
+        "probability_percent": 3.43
+      },
+      {
+        "rank": 8,
+        "token": "อ",
+        "logit": 12.234375,
+        "probability_percent": 3.41
+      },
+      {
+        "rank": 9,
+        "token": "โ",
+        "logit": 12.140625,
+        "probability_percent": 3.1
+      }
+    ]
+  },
+  {
+    "prompt": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nจอน บอน โจวี เป็นนักร้องนำของ",
+    "generated_prefix": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nจอน บอน โจวี เป็นนักร้องนำของ เดอะบ",
+    "gold_token": "จ",
+    "predicted_top1_token": "อย",
+    "token_pos_in_answer": 3,
+    "gold_logit": 11.2265625,
+    "gold_prob_percent": 0.02,
+    "first_token_prob": 0.1807861328125,
+    "second_token_prob": 0.082763671875,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "อย",
+        "logit": 18.140625,
+        "probability_percent": 21.46
+      },
+      {
+        "rank": 1,
+        "token": "ิ",
+        "logit": 16.8125,
+        "probability_percent": 5.69
+      },
+      {
+        "rank": 2,
+        "token": "ี",
+        "logit": 16.6875,
+        "probability_percent": 5.02
+      },
+      {
+        "rank": 3,
+        "token": "ู",
+        "logit": 16.46875,
+        "probability_percent": 4.03
+      },
+      {
+        "rank": 4,
+        "token": "ีท",
+        "logit": 16.421875,
+        "probability_percent": 3.85
+      },
+      {
+        "rank": 5,
+        "token": "อด",
+        "logit": 16.0625,
+        "probability_percent": 2.69
+      },
+      {
+        "rank": 6,
+        "token": "ิก",
+        "logit": 15.9921875,
+        "probability_percent": 2.5
+      },
+      {
+        "rank": 7,
+        "token": "ิว",
+        "logit": 15.8828125,
+        "probability_percent": 2.24
+      },
+      {
+        "rank": 8,
+        "token": "ูล",
+        "logit": 15.84375,
+        "probability_percent": 2.16
+      },
+      {
+        "rank": 9,
+        "token": "็",
+        "logit": 15.6484375,
+        "probability_percent": 1.78
+      }
+    ]
+  },
+  {
+    "prompt": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nจอน บอน โจวี เป็นนักร้องนำของ",
+    "generated_prefix": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nจอน บอน โจวี เป็นนักร้องนำของ เดอะบอย",
+    "gold_token": "ว",
+    "predicted_top1_token": "ด",
+    "token_pos_in_answer": 4,
+    "gold_logit": 8.7109375,
+    "gold_prob_percent": 0.11,
+    "first_token_prob": 0.1807861328125,
+    "second_token_prob": 0.082763671875,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ด",
+        "logit": 14.484375,
+        "probability_percent": 36.18
+      },
+      {
+        "rank": 1,
+        "token": "ส",
+        "logit": 14.421875,
+        "probability_percent": 34.01
+      },
+      {
+        "rank": 2,
+        "token": "ซ",
+        "logit": 12.078125,
+        "probability_percent": 3.26
+      },
+      {
+        "rank": 3,
+        "token": "โซ",
+        "logit": 11.6328125,
+        "probability_percent": 2.09
+      },
+      {
+        "rank": 4,
+        "token": "เด",
+        "logit": 11.453125,
+        "probability_percent": 1.75
+      },
+      {
+        "rank": 5,
+        "token": "เซ",
+        "logit": 11.0859375,
+        "probability_percent": 1.21
+      },
+      {
+        "rank": 6,
+        "token": "แ",
+        "logit": 10.9453125,
+        "probability_percent": 1.05
+      },
+      {
+        "rank": 7,
+        "token": "ล",
+        "logit": 10.7734375,
+        "probability_percent": 0.89
+      },
+      {
+        "rank": 8,
+        "token": "์",
+        "logit": 10.6328125,
+        "probability_percent": 0.77
+      },
+      {
+        "rank": 9,
+        "token": "ช",
+        "logit": 10.5859375,
+        "probability_percent": 0.73
+      }
+    ]
+  },
+  {
+    "prompt": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nจอน บอน โจวี เป็นนักร้องนำของ",
+    "generated_prefix": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nจอน บอน โจวี เป็นนักร้องนำของ เดอะบอยด",
+    "gold_token": "ี",
+    "predicted_top1_token": "์",
+    "token_pos_in_answer": 5,
+    "gold_logit": 12.015625,
+    "gold_prob_percent": 1.57,
+    "first_token_prob": 0.1807861328125,
+    "second_token_prob": 0.082763671875,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "์",
+        "logit": 14.703125,
+        "probability_percent": 23.08
+      },
+      {
+        "rank": 1,
+        "token": "ิส",
+        "logit": 14.328125,
+        "probability_percent": 15.87
+      },
+      {
+        "rank": 2,
+        "token": "์ส",
+        "logit": 14.28125,
+        "probability_percent": 15.14
+      },
+      {
+        "rank": 3,
+        "token": "ส",
+        "logit": 13.3125,
+        "probability_percent": 5.75
+      },
+      {
+        "rank": 4,
+        "token": "ีส",
+        "logit": 12.40625,
+        "probability_percent": 2.32
+      },
+      {
+        "rank": 5,
+        "token": "อว",
+        "logit": 12.3046875,
+        "probability_percent": 2.1
+      },
+      {
+        "rank": 6,
+        "token": "์\n",
+        "logit": 12.1796875,
+        "probability_percent": 1.85
+      },
+      {
+        "rank": 7,
+        "token": "ี",
+        "logit": 12.015625,
+        "probability_percent": 1.57
+      },
+      {
+        "rank": 8,
+        "token": "ิ",
+        "logit": 11.9921875,
+        "probability_percent": 1.53
+      },
+      {
+        "rank": 9,
+        "token": "ู",
+        "logit": 11.7578125,
+        "probability_percent": 1.21
+      }
+    ]
+  },
+  {
+    "prompt": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nเลียม แกลลาเกอร์ เป็นนักร้องนำของ",
+    "generated_prefix": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nเลียม แกลลาเกอร์ เป็นนักร้องนำของ",
+    "gold_token": " โ",
+    "predicted_top1_token": " เด",
+    "token_pos_in_answer": 0,
+    "gold_logit": 11.3359375,
+    "gold_prob_percent": 2.65,
+    "first_token_prob": 0.193115234375,
+    "second_token_prob": 0.08172607421875,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " เด",
+        "logit": 13.3203125,
+        "probability_percent": 19.31
+      },
+      {
+        "rank": 1,
+        "token": " แ",
+        "logit": 12.4609375,
+        "probability_percent": 8.17
+      },
+      {
+        "rank": 2,
+        "token": " อ",
+        "logit": 12.09375,
+        "probability_percent": 5.66
+      },
+      {
+        "rank": 3,
+        "token": " พ",
+        "logit": 11.8984375,
+        "probability_percent": 4.66
+      },
+      {
+        "rank": 4,
+        "token": " ว",
+        "logit": 11.7890625,
+        "probability_percent": 4.17
+      },
+      {
+        "rank": 5,
+        "token": " ส",
+        "logit": 11.75,
+        "probability_percent": 4.02
+      },
+      {
+        "rank": 6,
+        "token": " บ",
+        "logit": 11.671875,
+        "probability_percent": 3.71
+      },
+      {
+        "rank": 7,
+        "token": " ไ",
+        "logit": 11.390625,
+        "probability_percent": 2.8
+      },
+      {
+        "rank": 8,
+        "token": " โ",
+        "logit": 11.3359375,
+        "probability_percent": 2.65
+      },
+      {
+        "rank": 9,
+        "token": " ด",
+        "logit": 11.3359375,
+        "probability_percent": 2.65
+      }
+    ]
+  },
+  {
+    "prompt": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nเลียม แกลลาเกอร์ เป็นนักร้องนำของ",
+    "generated_prefix": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nเลียม แกลลาเกอร์ เป็นนักร้องนำของ เด",
+    "gold_token": "อ",
+    "predicted_top1_token": "อะ",
+    "token_pos_in_answer": 1,
+    "gold_logit": 13.296875,
+    "gold_prob_percent": 0.16,
+    "first_token_prob": 0.193115234375,
+    "second_token_prob": 0.08172607421875,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "อะ",
+        "logit": 19.703125,
+        "probability_percent": 96.39
+      },
+      {
+        "rank": 1,
+        "token": "ฟ",
+        "logit": 14.390625,
+        "probability_percent": 0.48
+      },
+      {
+        "rank": 2,
+        "token": "ย",
+        "logit": 13.875,
+        "probability_percent": 0.28
+      },
+      {
+        "rank": 3,
+        "token": "น",
+        "logit": 13.5390625,
+        "probability_percent": 0.2
+      },
+      {
+        "rank": 4,
+        "token": "ส",
+        "logit": 13.5234375,
+        "probability_percent": 0.2
+      },
+      {
+        "rank": 5,
+        "token": "อ",
+        "logit": 13.296875,
+        "probability_percent": 0.16
+      },
+      {
+        "rank": 6,
+        "token": "ล",
+        "logit": 13.125,
+        "probability_percent": 0.13
+      },
+      {
+        "rank": 7,
+        "token": "ว",
+        "logit": 13.0859375,
+        "probability_percent": 0.13
+      },
+      {
+        "rank": 8,
+        "token": "ท",
+        "logit": 13.0546875,
+        "probability_percent": 0.12
+      },
+      {
+        "rank": 9,
+        "token": "ร",
+        "logit": 12.6953125,
+        "probability_percent": 0.09
+      }
+    ]
+  },
+  {
+    "prompt": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nเลียม แกลลาเกอร์ เป็นนักร้องนำของ",
+    "generated_prefix": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nเลียม แกลลาเกอร์ เป็นนักร้องนำของ เดอะ",
+    "gold_token": "เอ",
+    "predicted_top1_token": "ค",
+    "token_pos_in_answer": 2,
+    "gold_logit": 12.671875,
+    "gold_prob_percent": 5.76,
+    "first_token_prob": 0.193115234375,
+    "second_token_prob": 0.08172607421875,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ค",
+        "logit": 13.1796875,
+        "probability_percent": 9.57
+      },
+      {
+        "rank": 1,
+        "token": "เอ",
+        "logit": 12.671875,
+        "probability_percent": 5.76
+      },
+      {
+        "rank": 2,
+        "token": "ว",
+        "logit": 12.6328125,
+        "probability_percent": 5.54
+      },
+      {
+        "rank": 3,
+        "token": "บ",
+        "logit": 12.5546875,
+        "probability_percent": 5.12
+      },
+      {
+        "rank": 4,
+        "token": "แ",
+        "logit": 12.421875,
+        "probability_percent": 4.48
+      },
+      {
+        "rank": 5,
+        "token": "อ",
+        "logit": 12.4140625,
+        "probability_percent": 4.45
+      },
+      {
+        "rank": 6,
+        "token": "ม",
+        "logit": 12.328125,
+        "probability_percent": 4.08
+      },
+      {
+        "rank": 7,
+        "token": "พ",
+        "logit": 12.1796875,
+        "probability_percent": 3.52
+      },
+      {
+        "rank": 8,
+        "token": "ซ",
+        "logit": 12.046875,
+        "probability_percent": 3.08
+      },
+      {
+        "rank": 9,
+        "token": "ด",
+        "logit": 11.8359375,
+        "probability_percent": 2.5
+      }
+    ]
+  },
+  {
+    "prompt": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nเลียม แกลลาเกอร์ เป็นนักร้องนำของ",
+    "generated_prefix": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nเลียม แกลลาเกอร์ เป็นนักร้องนำของ เดอะค",
+    "gold_token": "ซ",
+    "predicted_top1_token": "อร",
+    "token_pos_in_answer": 3,
+    "gold_logit": 10.2109375,
+    "gold_prob_percent": 0.01,
+    "first_token_prob": 0.193115234375,
+    "second_token_prob": 0.08172607421875,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "อร",
+        "logit": 17.515625,
+        "probability_percent": 12.43
+      },
+      {
+        "rank": 1,
+        "token": "าร",
+        "logit": 17.40625,
+        "probability_percent": 11.14
+      },
+      {
+        "rank": 2,
+        "token": "ิล",
+        "logit": 17.0,
+        "probability_percent": 7.42
+      },
+      {
+        "rank": 3,
+        "token": "ิง",
+        "logit": 16.84375,
+        "probability_percent": 6.35
+      },
+      {
+        "rank": 4,
+        "token": "ิว",
+        "logit": 16.46875,
+        "probability_percent": 4.36
+      },
+      {
+        "rank": 5,
+        "token": "ูล",
+        "logit": 16.234375,
+        "probability_percent": 3.45
+      },
+      {
+        "rank": 6,
+        "token": "าว",
+        "logit": 16.125,
+        "probability_percent": 3.09
+      },
+      {
+        "rank": 7,
+        "token": "ิก",
+        "logit": 16.09375,
+        "probability_percent": 3.0
+      },
+      {
+        "rank": 8,
+        "token": "า",
+        "logit": 15.984375,
+        "probability_percent": 2.69
+      },
+      {
+        "rank": 9,
+        "token": "ัม",
+        "logit": 15.953125,
+        "probability_percent": 2.6
+      }
+    ]
+  },
+  {
+    "prompt": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nเลียม แกลลาเกอร์ เป็นนักร้องนำของ",
+    "generated_prefix": "เด็บบี แฮร์รี เป็นนักร้องนำของ บลอนดี.\nทอม ยอร์ก เป็นนักร้องนำของ เรดิโอเฮด.\nแบรนดอน ฟลาวเวอร์ส เป็นนักร้องนำของ เดอะคิลเลอส์.\nเฮย์ลีย์ วิลเลียมส์ เป็นนักร้องนำของ พารามอร์.\nเลียม แกลลาเกอร์ เป็นนักร้องนำของ เดอะคอร",
+    "gold_token": "ิส",
+    "predicted_top1_token": "์",
+    "token_pos_in_answer": 4,
+    "gold_logit": 10.7421875,
+    "gold_prob_percent": 0.43,
+    "first_token_prob": 0.193115234375,
+    "second_token_prob": 0.08172607421875,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "์",
+        "logit": 14.9375,
+        "probability_percent": 28.86
+      },
+      {
+        "rank": 1,
+        "token": "์น",
+        "logit": 14.109375,
+        "probability_percent": 12.6
+      },
+      {
+        "rank": 2,
+        "token": "ัล",
+        "logit": 13.1640625,
+        "probability_percent": 4.9
+      },
+      {
+        "rank": 3,
+        "token": "์ด",
+        "logit": 13.078125,
+        "probability_percent": 4.5
+      },
+      {
+        "rank": 4,
+        "token": "์ท",
+        "logit": 12.90625,
+        "probability_percent": 3.78
+      },
+      {
+        "rank": 5,
+        "token": "์เน",
+        "logit": 12.859375,
+        "probability_percent": 3.61
+      },
+      {
+        "rank": 6,
+        "token": "์ร",
+        "logit": 12.640625,
+        "probability_percent": 2.9
+      },
+      {
+        "rank": 7,
+        "token": "์ส",
+        "logit": 12.5625,
+        "probability_percent": 2.68
+      },
+      {
+        "rank": 8,
+        "token": "์ต",
+        "logit": 12.359375,
+        "probability_percent": 2.19
+      },
+      {
+        "rank": 9,
+        "token": "์ม",
+        "logit": 12.125,
+        "probability_percent": 1.73
+      }
+    ]
+  }
+]

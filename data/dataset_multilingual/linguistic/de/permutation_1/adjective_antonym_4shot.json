@@ -1,0 +1,408 @@
+{
+    "name": "adjective antonym_4shot_perm1",
+    "prompt_templates": [
+        "Das Gegenteil von sichtbar ist unsichtbar.\nDas Gegenteil von süß ist bitter.\nDas Gegenteil von ordentlich ist nachlässig.\nDas Gegenteil von friedlich ist laut.\nDas Gegenteil von {} ist"
+    ],
+    "samples": [
+        {
+            "subject": "liebevoll",
+            "object": "verhasst"
+        },
+        {
+            "subject": "kreativ",
+            "object": "zerstörerisch"
+        },
+        {
+            "subject": "glücklich",
+            "object": "traurig"
+        },
+        {
+            "subject": "voll",
+            "object": "leer"
+        },
+        {
+            "subject": "tapfer",
+            "object": "feige"
+        },
+        {
+            "subject": "offen",
+            "object": "geschlossen"
+        },
+        {
+            "subject": "sicher",
+            "object": "gefährlich"
+        },
+        {
+            "subject": "schön",
+            "object": "hässlich"
+        },
+        {
+            "subject": "Freund",
+            "object": "Feind"
+        },
+        {
+            "subject": "täglich",
+            "object": "nächtlich"
+        },
+        {
+            "subject": "käuflich",
+            "object": "verkäuflich"
+        },
+        {
+            "subject": "groß",
+            "object": "klein"
+        },
+        {
+            "subject": "alt",
+            "object": "jung"
+        },
+        {
+            "subject": "leise",
+            "object": "laut"
+        },
+        {
+            "subject": "wahr",
+            "object": "falsch"
+        },
+        {
+            "subject": "schnell",
+            "object": "langsam"
+        },
+        {
+            "subject": "heiß",
+            "object": "kalt"
+        },
+        {
+            "subject": "gut",
+            "object": "schlecht"
+        },
+        {
+            "subject": "anfänglich",
+            "object": "beendet"
+        },
+        {
+            "subject": "innen",
+            "object": "außen"
+        },
+        {
+            "subject": "gewinnend",
+            "object": "verlierend"
+        },
+        {
+            "subject": "gebend",
+            "object": "nehmend"
+        },
+        {
+            "subject": "hell",
+            "object": "dunkel"
+        },
+        {
+            "subject": "gesund",
+            "object": "krank"
+        },
+        {
+            "subject": "sauber",
+            "object": "schmutzig"
+        },
+        {
+            "subject": "richtig",
+            "object": "falsch"
+        },
+        {
+            "subject": "oben",
+            "object": "unten"
+        },
+        {
+            "subject": "stark",
+            "object": "schwach"
+        },
+        {
+            "subject": "glücklich",
+            "object": "wütend"
+        },
+        {
+            "subject": "groß",
+            "object": "klein"
+        },
+        {
+            "subject": "weise",
+            "object": "töricht"
+        },
+        {
+            "subject": "verbunden",
+            "object": "unverbunden"
+        },
+        {
+            "subject": "weich",
+            "object": "hart"
+        },
+        {
+            "subject": "ja",
+            "object": "nein"
+        },
+        {
+            "subject": "glatt",
+            "object": "rau"
+        },
+        {
+            "subject": "vorn",
+            "object": "hinten"
+        },
+        {
+            "subject": "verzeihend",
+            "object": "anklagend"
+        },
+        {
+            "subject": "einfach",
+            "object": "komplex"
+        },
+        {
+            "subject": "offen",
+            "object": "geschlossen"
+        },
+        {
+            "subject": "flach",
+            "object": "tief"
+        },
+        {
+            "subject": "lächelnd",
+            "object": "missmutig"
+        },
+        {
+            "subject": "lustig",
+            "object": "traurig"
+        },
+        {
+            "subject": "schnell",
+            "object": "langsam"
+        },
+        {
+            "subject": "oben",
+            "object": "unten"
+        },
+        {
+            "subject": "positiv",
+            "object": "negativ"
+        },
+        {
+            "subject": "ehrlich",
+            "object": "unehrlich"
+        },
+        {
+            "subject": "drückend",
+            "object": "ziehend"
+        },
+        {
+            "subject": "nass",
+            "object": "trocken"
+        },
+        {
+            "subject": "hoch",
+            "object": "heraus"
+        },
+        {
+            "subject": "eng",
+            "object": "weit"
+        },
+        {
+            "subject": "hoch",
+            "object": "ab"
+        },
+        {
+            "subject": "gerade",
+            "object": "gebogen"
+        },
+        {
+            "subject": "akzeptiert",
+            "object": "abgelehnt"
+        },
+        {
+            "subject": "bauen",
+            "object": "abreißen"
+        },
+        {
+            "subject": "sanft",
+            "object": "rau"
+        },
+        {
+            "subject": "einschließlich",
+            "object": "ausgenommen"
+        },
+        {
+            "subject": "vergangen",
+            "object": "zukünftig"
+        },
+        {
+            "subject": "ankommend",
+            "object": "abfahrend"
+        },
+        {
+            "subject": "einatmend",
+            "object": "ausatmend"
+        },
+        {
+            "subject": "zerstreut",
+            "object": "gesammelt"
+        },
+        {
+            "subject": "geliehen",
+            "object": "verliehen"
+        },
+        {
+            "subject": "getrennt",
+            "object": "vereint"
+        },
+        {
+            "subject": "ankommend",
+            "object": "abreisend"
+        },
+        {
+            "subject": "offen",
+            "object": "verschlossen"
+        },
+        {
+            "subject": "schwimmen",
+            "object": "sinken"
+        },
+        {
+            "subject": "gebogen",
+            "object": "gerade"
+        },
+        {
+            "subject": "zerstreut",
+            "object": "gesammelt"
+        },
+        {
+            "subject": "aufsteigend",
+            "object": "fallend"
+        },
+        {
+            "subject": "lobend",
+            "object": "kritisch"
+        },
+        {
+            "subject": "unsichtbar",
+            "object": "sichtbar"
+        },
+        {
+            "subject": "anfänglich",
+            "object": "abschließend"
+        },
+        {
+            "subject": "eingehend",
+            "object": "ausgehend"
+        },
+        {
+            "subject": "anziehend",
+            "object": "abstoßend"
+        },
+        {
+            "subject": "gebend",
+            "object": "empfangend"
+        },
+        {
+            "subject": "auffindbar",
+            "object": "verloren"
+        },
+        {
+            "subject": "anfänglich",
+            "object": "abschließend"
+        },
+        {
+            "subject": "ziehend",
+            "object": "drückend"
+        },
+        {
+            "subject": "zunehmend",
+            "object": "abnehmend"
+        },
+        {
+            "subject": "siegreich",
+            "object": "aufgebend"
+        },
+        {
+            "subject": "ruhig",
+            "object": "aufgeregt"
+        },
+        {
+            "subject": "expandierend",
+            "object": "kontrahierend"
+        },
+        {
+            "subject": "angreifend",
+            "object": "verteidigend"
+        },
+        {
+            "subject": "sparsam",
+            "object": "verschwenderisch"
+        },
+        {
+            "subject": "erinnerlich",
+            "object": "vergesslich"
+        },
+        {
+            "subject": "verleihend",
+            "object": "leihend"
+        },
+        {
+            "subject": "zusammen",
+            "object": "auseinander"
+        },
+        {
+            "subject": "fraglich",
+            "object": "beantwortet"
+        },
+        {
+            "subject": "geschlossen",
+            "object": "offen"
+        },
+        {
+            "subject": "im Uhrzeigersinn",
+            "object": "gegen den Uhrzeigersinn"
+        },
+        {
+            "subject": "einfügend",
+            "object": "entfernend"
+        },
+        {
+            "subject": "lachend",
+            "object": "weinend"
+        },
+        {
+            "subject": "spielerisch",
+            "object": "arbeitend"
+        },
+        {
+            "subject": "oben",
+            "object": "unten"
+        },
+        {
+            "subject": "erfolgreich",
+            "object": "erfolglos"
+        },
+        {
+            "subject": "expandieren",
+            "object": "schrumpfen"
+        },
+        {
+            "subject": "einatmend",
+            "object": "ausatmend"
+        },
+        {
+            "subject": "gesegnet",
+            "object": "verflucht"
+        },
+        {
+            "subject": "schnell",
+            "object": "langsam"
+        },
+        {
+            "subject": "bejubeln",
+            "object": "ausbuhen"
+        },
+        {
+            "subject": "flüsternd",
+            "object": "schreiend"
+        }
+    ]
+}

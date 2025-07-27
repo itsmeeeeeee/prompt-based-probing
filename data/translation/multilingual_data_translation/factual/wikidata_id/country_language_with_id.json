@@ -1,0 +1,167 @@
+{
+  "name": "country language",
+  "prompt_templates": [
+    "People in {} speak",
+    "The language used in {} is",
+    "In {}, the primary language is",
+    "The official language of {} is",
+    "{}'s main language is"
+  ],
+  "prompt_templates_zs": [
+    "{}, where most people speak",
+    "In {}, people speak the language of",
+    "People in {} speak the language of"
+  ],
+  "properties": {
+    "relation_type": "factual",
+    "domain_name": "country",
+    "range_name": "language",
+    "symmetric": false
+  },
+  "samples": [
+    {
+      "subject": "United States",
+      "object": "English",
+      "subject_id": "Q30",
+      "object_id": "Q1860"
+    },
+    {
+      "subject": "Canada",
+      "object": "English",
+      "subject_id": "Q16",
+      "object_id": "Q1860"
+    },
+    {
+      "subject": "Mexico",
+      "object": "Spanish",
+      "subject_id": "Q96",
+      "object_id": "Q1321"
+    },
+    {
+      "subject": "Brazil",
+      "object": "Portuguese",
+      "subject_id": "Q155",
+      "object_id": "Q5146"
+    },
+    {
+      "subject": "Argentina",
+      "object": "Spanish",
+      "subject_id": "Q414",
+      "object_id": "Q1321"
+    },
+    {
+      "subject": "Chile",
+      "object": "Spanish",
+      "subject_id": "Q298",
+      "object_id": "Q1321"
+    },
+    {
+      "subject": "Peru",
+      "object": "Spanish",
+      "subject_id": "Q419",
+      "object_id": "Q1321"
+    },
+    {
+      "subject": "Colombia",
+      "object": "Spanish",
+      "subject_id": "Q739",
+      "object_id": "Q1321"
+    },
+    {
+      "subject": "Venezuela",
+      "object": "Spanish",
+      "subject_id": "Q717",
+      "object_id": "Q1321"
+    },
+    {
+      "subject": "Spain",
+      "object": "Spanish",
+      "subject_id": "Q29",
+      "object_id": "Q1321"
+    },
+    {
+      "subject": "France",
+      "object": "French",
+      "subject_id": "Q142",
+      "object_id": "Q150"
+    },
+    {
+      "subject": "Germany",
+      "object": "German",
+      "subject_id": "Q183",
+      "object_id": "Q188"
+    },
+    {
+      "subject": "Italy",
+      "object": "Italian",
+      "subject_id": "Q38",
+      "object_id": "Q652"
+    },
+    {
+      "subject": "Russia",
+      "object": "Russian",
+      "subject_id": "Q159",
+      "object_id": "Q7737"
+    },
+    {
+      "subject": "China",
+      "object": "Mandarin Chinese",
+      "subject_id": "Q29520",
+      "object_id": "Q9192"
+    },
+    {
+      "subject": "Japan",
+      "object": "Japanese",
+      "subject_id": "Q17",
+      "object_id": "Q5287"
+    },
+    {
+      "subject": "South Korea",
+      "object": "Korean",
+      "subject_id": "Q884",
+      "object_id": "Q9176"
+    },
+    {
+      "subject": "India",
+      "object": "Hindi",
+      "subject_id": "Q668",
+      "object_id": "Q1568"
+    },
+    {
+      "subject": "Pakistan",
+      "object": "Urdu",
+      "subject_id": "Q843",
+      "object_id": "Q1617"
+    },
+    {
+      "subject": "Nigeria",
+      "object": "English",
+      "subject_id": "Q33655",
+      "object_id": "Q1860"
+    },
+    {
+      "subject": "Egypt",
+      "object": "Arabic",
+      "subject_id": "Q79",
+      "object_id": "Q13955"
+    },
+    {
+      "subject": "Saudi Arabia",
+      "object": "Arabic",
+      "subject_id": "Q851",
+      "object_id": "Q13955"
+    },
+    {
+      "subject": "Turkey",
+      "object": "Turkish",
+      "subject_id": "Q43",
+      "object_id": "Q256"
+    },
+    {
+      "subject": "Australia",
+      "object": "English",
+      "subject_id": "Q408",
+      "object_id": "Q1860"
+    }
+  ]
+}

@@ -1,0 +1,408 @@
+{
+    "name": "adjective antonym_3shot_perm4",
+    "prompt_templates": [
+        "दृश्यमान का विपरीत अस्पष्ट.\nशांतिपूर्ण का विपरीत शोरगुल.\nसाफ़-सुथरा का विपरीत लापरवाह.\n{} का विपरीत"
+    ],
+    "samples": [
+        {
+            "subject": "प्रेमपूर्ण",
+            "object": "घृणास्पद"
+        },
+        {
+            "subject": "रचनात्मक",
+            "object": "विनाशकार"
+        },
+        {
+            "subject": "खुश",
+            "object": "उदास"
+        },
+        {
+            "subject": "पूर्ण",
+            "object": "खाल"
+        },
+        {
+            "subject": "साहसी",
+            "object": "कायर"
+        },
+        {
+            "subject": "खुल",
+            "object": "बंद"
+        },
+        {
+            "subject": "सुरक्षित",
+            "object": "खतरनाक"
+        },
+        {
+            "subject": "सुंदर",
+            "object": "कुरूप"
+        },
+        {
+            "subject": "मित्र",
+            "object": "शत्रु"
+        },
+        {
+            "subject": "दिवसीय",
+            "object": "रात्रिकालीन"
+        },
+        {
+            "subject": "खरीदनेवाल",
+            "object": "बेचनेवाल"
+        },
+        {
+            "subject": "बड़ा",
+            "object": "छोटा"
+        },
+        {
+            "subject": "पुराना",
+            "object": "नया"
+        },
+        {
+            "subject": "शांत",
+            "object": "शोरगुलपूर्ण"
+        },
+        {
+            "subject": "सत्य",
+            "object": "असत्य"
+        },
+        {
+            "subject": "तेज",
+            "object": "धीमा"
+        },
+        {
+            "subject": "गर्म",
+            "object": "ठंडा"
+        },
+        {
+            "subject": "अच्छा",
+            "object": "बुरा"
+        },
+        {
+            "subject": "प्रारंभिक",
+            "object": "अवरुद्ध"
+        },
+        {
+            "subject": "भीतर",
+            "object": "बाहर"
+        },
+        {
+            "subject": "विजयी",
+            "object": "पराजित"
+        },
+        {
+            "subject": "दान",
+            "object": "लोभ"
+        },
+        {
+            "subject": "उजाला",
+            "object": "अंधेरा"
+        },
+        {
+            "subject": "स्वस्थ",
+            "object": "बीमार"
+        },
+        {
+            "subject": "साफ",
+            "object": "गंदा"
+        },
+        {
+            "subject": "सही",
+            "object": "गलत"
+        },
+        {
+            "subject": "ऊपर",
+            "object": "नीचे"
+        },
+        {
+            "subject": "मज़बूत",
+            "object": "कमज़ोर"
+        },
+        {
+            "subject": "खुश",
+            "object": "क्रोधित"
+        },
+        {
+            "subject": "लंब",
+            "object": "छोट"
+        },
+        {
+            "subject": "लंबा",
+            "object": "छोटा"
+        },
+        {
+            "subject": "जुड़ा",
+            "object": "अलग"
+        },
+        {
+            "subject": "मुलायम",
+            "object": "कठिन"
+        },
+        {
+            "subject": "हाँ",
+            "object": "नहीं"
+        },
+        {
+            "subject": "मुलायम",
+            "object": "खुरदरा"
+        },
+        {
+            "subject": "आगे",
+            "object": "पीछे"
+        },
+        {
+            "subject": "क्षमाशील",
+            "object": "आरोपित"
+        },
+        {
+            "subject": "सरल",
+            "object": "जटिल"
+        },
+        {
+            "subject": "खुल",
+            "object": "बंद"
+        },
+        {
+            "subject": "उथला",
+            "object": "गहरा"
+        },
+        {
+            "subject": "मुस्कुराता",
+            "object": "भौंहें सिकुड़ा"
+        },
+        {
+            "subject": "प्रसन्न",
+            "object": "उदास"
+        },
+        {
+            "subject": "तेज",
+            "object": "धीमा"
+        },
+        {
+            "subject": "ऊपर",
+            "object": "नीचे"
+        },
+        {
+            "subject": "सकारात्मक",
+            "object": "नकारात्मक"
+        },
+        {
+            "subject": "ईमानदार",
+            "object": "बेईमान"
+        },
+        {
+            "subject": "धक्क",
+            "object": "खींच"
+        },
+        {
+            "subject": "गीला",
+            "object": "सूखा"
+        },
+        {
+            "subject": "ऊपर",
+            "object": "बाहर"
+        },
+        {
+            "subject": "संकीर्ण",
+            "object": "विस्तृत"
+        },
+        {
+            "subject": "ऊपर",
+            "object": "बंद"
+        },
+        {
+            "subject": "सीधा",
+            "object": "मुड़ा"
+        },
+        {
+            "subject": "स्वीकृत",
+            "object": "अस्वीकृत"
+        },
+        {
+            "subject": "निर्माण",
+            "object": "ध्वस्त"
+        },
+        {
+            "subject": "नरम",
+            "object": "खुरदर"
+        },
+        {
+            "subject": "शामिल",
+            "object": "बहिष्कृत"
+        },
+        {
+            "subject": "भूत",
+            "object": "भविष्य"
+        },
+        {
+            "subject": "आगमन",
+            "object": "प्रस्थान"
+        },
+        {
+            "subject": "सांस लेना",
+            "object": "सांस छोड़ना"
+        },
+        {
+            "subject": "बिखेरना",
+            "object": "एकत्र करना"
+        },
+        {
+            "subject": "उधार लेना",
+            "object": "उधार देना"
+        },
+        {
+            "subject": "अलग करना",
+            "object": "एकजुट करना"
+        },
+        {
+            "subject": "आगमन",
+            "object": "प्रस्थान"
+        },
+        {
+            "subject": "खुल",
+            "object": "बंद"
+        },
+        {
+            "subject": "तैरत",
+            "object": "डूबत"
+        },
+        {
+            "subject": "मुड",
+            "object": "सीधा किया"
+        },
+        {
+            "subject": "बिखर",
+            "object": "संग्रहित"
+        },
+        {
+            "subject": "उदय",
+            "object": "पतन"
+        },
+        {
+            "subject": "सराहनीय",
+            "object": "आलोचनात्मक"
+        },
+        {
+            "subject": "गायब",
+            "object": "प्रकट"
+        },
+        {
+            "subject": "प्रारंभिक",
+            "object": "अंतिम"
+        },
+        {
+            "subject": "प्रवेश",
+            "object": "निर्गमन"
+        },
+        {
+            "subject": "आकर्षक",
+            "object": "विकर्षक"
+        },
+        {
+            "subject": "दान",
+            "object": "प्राप्तकर्ता"
+        },
+        {
+            "subject": "मिला",
+            "object": "खोया"
+        },
+        {
+            "subject": "प्रारंभ",
+            "object": "समाप्ति"
+        },
+        {
+            "subject": "खींचना",
+            "object": "धक्का देना"
+        },
+        {
+            "subject": "बढ़ना",
+            "object": "घटना"
+        },
+        {
+            "subject": "विजय",
+            "object": "समर्पित"
+        },
+        {
+            "subject": "शांत",
+            "object": "व्याकुल"
+        },
+        {
+            "subject": "विस्तृत",
+            "object": "संकुचित"
+        },
+        {
+            "subject": "आक्रामक",
+            "object": "रक्षात्मक"
+        },
+        {
+            "subject": "बचतशील",
+            "object": "खर्चील"
+        },
+        {
+            "subject": "स्मरणशील",
+            "object": "विस्मरणशील"
+        },
+        {
+            "subject": "उधार देना",
+            "object": "उधार लेना"
+        },
+        {
+            "subject": "साथ",
+            "object": "अलग"
+        },
+        {
+            "subject": "प्रश्न",
+            "object": "उत्तर"
+        },
+        {
+            "subject": "बंद",
+            "object": "खुल"
+        },
+        {
+            "subject": "घड़ीवार",
+            "object": "विपरीत"
+        },
+        {
+            "subject": "लगाना",
+            "object": "हटाना"
+        },
+        {
+            "subject": "हँसमुख",
+            "object": "रोदनशील"
+        },
+        {
+            "subject": "खेलना",
+            "object": "काम करना"
+        },
+        {
+            "subject": "ऊपर",
+            "object": "नीचे"
+        },
+        {
+            "subject": "सफल",
+            "object": "असफल"
+        },
+        {
+            "subject": "विस्तृत",
+            "object": "संकीर्ण"
+        },
+        {
+            "subject": "अंतर्गाम",
+            "object": "बहिर्गाम"
+        },
+        {
+            "subject": "आशीर्वाद देना",
+            "object": "शाप देना"
+        },
+        {
+            "subject": "तेज",
+            "object": "रेंगना"
+        },
+        {
+            "subject": "वाहवाही",
+            "object": "ऊँह"
+        },
+        {
+            "subject": "फुसफुसाना",
+            "object": "चिल्लाना"
+        }
+    ]
+}

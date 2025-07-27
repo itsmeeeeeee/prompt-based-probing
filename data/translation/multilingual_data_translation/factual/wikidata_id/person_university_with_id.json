@@ -1,0 +1,567 @@
+{
+  "name": "person university",
+  "prompt_templates": [
+    "For university, {} attended",
+    "{} went to university at",
+    "{} completed studies at",
+    "{} graduated from"
+  ],
+  "prompt_templates_zs": [
+    "Which university did {} attend? They attended",
+    "What is the university that {} went to? They went to"
+  ],
+  "properties": {
+    "relation_type": "factual",
+    "domain_name": "person",
+    "range_name": "university",
+    "symmetric": false
+  },
+  "samples": [
+    {
+      "subject": "Michelle Obama",
+      "object": "Princeton University",
+      "subject_id": "Q13133",
+      "object_id": "Q21578"
+    },
+    {
+      "subject": "Bill Gates",
+      "object": "Harvard University",
+      "subject_id": "Q5284",
+      "object_id": "Q13371"
+    },
+    {
+      "subject": "Mark Zuckerberg",
+      "object": "Harvard University",
+      "subject_id": "Q36215",
+      "object_id": "Q13371"
+    },
+    {
+      "subject": "Oprah Winfrey",
+      "object": "Tennessee State University",
+      "subject_id": "Q55800",
+      "object_id": "Q1782948"
+    },
+    {
+      "subject": "Emma Watson",
+      "object": "Brown University",
+      "subject_id": "Q39476",
+      "object_id": "Q49114"
+    },
+    {
+      "subject": "Natalie Portman",
+      "object": "Harvard University",
+      "subject_id": "Q37876",
+      "object_id": "Q13371"
+    },
+    {
+      "subject": "George W. Bush",
+      "object": "Yale University",
+      "subject_id": "Q207",
+      "object_id": "Q49112"
+    },
+    {
+      "subject": "Hillary Clinton",
+      "object": "Wellesley College",
+      "subject_id": "Q6294",
+      "object_id": "Q49205"
+    },
+    {
+      "subject": "Neil Armstrong",
+      "object": "Purdue University",
+      "subject_id": "Q1615",
+      "object_id": "Q217741"
+    },
+    {
+      "subject": "James Franco",
+      "object": "UCLA",
+      "subject_id": "Q306403",
+      "object_id": "Q174710"
+    },
+    {
+      "subject": "Cindy Crawford",
+      "object": "Northwestern University",
+      "subject_id": "Q199801",
+      "object_id": "Q309350"
+    },
+    {
+      "subject": "Matt Damon",
+      "object": "Harvard University",
+      "subject_id": "Q175535",
+      "object_id": "Q13371"
+    },
+    {
+      "subject": "Conan O'Brien",
+      "object": "Harvard University",
+      "subject_id": "Q486740",
+      "object_id": "Q13371"
+    },
+    {
+      "subject": "Leonardo DiCaprio",
+      "object": "UCLA",
+      "subject_id": "Q38111",
+      "object_id": "Q174710"
+    },
+    {
+      "subject": "Winston Churchill",
+      "object": "Royal Military Academy Sandhurst",
+      "subject_id": "Q8016",
+      "object_id": "Q575618"
+    },
+    {
+      "subject": "Sandra Bullock",
+      "object": "East Carolina University",
+      "subject_id": "Q40791",
+      "object_id": "Q1277776"
+    },
+    {
+      "subject": "Tom Hanks",
+      "object": "California State University, Sacramento",
+      "subject_id": "Q2263",
+      "object_id": "Q1026941"
+    },
+    {
+      "subject": "Peter Paul Rubens",
+      "object": "Old University of Leuven",
+      "subject_id": "Q5599",
+      "object_id": "Q693380"
+    },
+    {
+      "subject": "Madonna",
+      "object": "University of Michigan School of Music, Theatre & Dance",
+      "subject_id": "Q1744",
+      "object_id": "Q7895775"
+    },
+    {
+      "subject": "Lady Gaga",
+      "object": "New York University Tisch School of the Arts",
+      "subject_id": "Q19848",
+      "object_id": "Q797078"
+    },
+    {
+      "subject": "Rembrandt",
+      "object": "Leiden University",
+      "subject_id": "Q5598",
+      "object_id": "Q156598"
+    },
+    {
+      "subject": "Vladimir Putin",
+      "object": "Faculty of Law, Saint Petersburg State University",
+      "subject_id": "Q7747",
+      "object_id": "Q4534839"
+    },
+    {
+      "subject": "Albert Einstein",
+      "object": "University of Zurich",
+      "subject_id": "Q937",
+      "object_id": "Q206702"
+    },
+    {
+      "subject": "Johann Wolfgang von Goethe",
+      "object": "University of Strasbourg",
+      "subject_id": "Q5879",
+      "object_id": "Q157575"
+    },
+    {
+      "subject": "Leo Tolstoy",
+      "object": "Kazan Imperial University",
+      "subject_id": "Q7243",
+      "object_id": "Q28482293"
+    },
+    {
+      "subject": "Shakira",
+      "object": "University of California, Los Angeles",
+      "subject_id": "Q34424",
+      "object_id": "Q174710"
+    },
+    {
+      "subject": "Donald Trump",
+      "object": "Fordham University",
+      "subject_id": "Q22686",
+      "object_id": "Q130965"
+    },
+    {
+      "subject": "Victor Hugo",
+      "object": "University of Paris",
+      "subject_id": "Q535",
+      "object_id": "Q209842"
+    },
+    {
+      "subject": "Britney Spears",
+      "object": "University of Nebraska High School",
+      "subject_id": "Q11975",
+      "object_id": "Q7895891"
+    },
+    {
+      "subject": "Barack Obama",
+      "object": "University of Chicago Law School",
+      "subject_id": "Q76",
+      "object_id": "Q1036763"
+    },
+    {
+      "subject": "Henry Moore",
+      "object": "Leeds Arts University",
+      "subject_id": "Q151097",
+      "object_id": "Q3228965"
+    },
+    {
+      "subject": "Michelangelo",
+      "object": "University of Florence",
+      "subject_id": "Q5592",
+      "object_id": "Q820887"
+    },
+    {
+      "subject": "Marilyn Monroe",
+      "object": "University High School",
+      "subject_id": "Q4616",
+      "object_id": "Q4005855"
+    },
+    {
+      "subject": "Charles Darwin",
+      "object": "University of Edinburgh Medical School",
+      "subject_id": "Q1035",
+      "object_id": "Q2635089"
+    },
+    {
+      "subject": "Paul Cézanne",
+      "object": "Aix-Marseille University",
+      "subject_id": "Q35548",
+      "object_id": "Q2302586"
+    },
+    {
+      "subject": "Friedrich Nietzsche",
+      "object": "Leipzig University",
+      "subject_id": "Q9358",
+      "object_id": "Q154804"
+    },
+    {
+      "subject": "Andy Warhol",
+      "object": "Carnegie Mellon University",
+      "subject_id": "Q5603",
+      "object_id": "Q190080"
+    },
+    {
+      "subject": "Lewis Carroll",
+      "object": "University of Oxford",
+      "subject_id": "Q38082",
+      "object_id": "Q34433"
+    },
+    {
+      "subject": "Edgar Allan Poe",
+      "object": "University of Virginia",
+      "subject_id": "Q16867",
+      "object_id": "Q213439"
+    },
+    {
+      "subject": "Angelina Jolie",
+      "object": "New York University",
+      "subject_id": "Q13909",
+      "object_id": "Q49210"
+    },
+    {
+      "subject": "David Bowie",
+      "object": "Ravensbourne University London",
+      "subject_id": "Q5383",
+      "object_id": "Q7296496"
+    },
+    {
+      "subject": "Bob Dylan",
+      "object": "University of Minnesota system",
+      "subject_id": "Q392",
+      "object_id": "Q14552696"
+    },
+    {
+      "subject": "Vladimir Lenin",
+      "object": "Kazan Imperial University",
+      "subject_id": "Q1394",
+      "object_id": "Q28482293"
+    },
+    {
+      "subject": "Ursula K. Le Guin",
+      "object": "Columbia University",
+      "subject_id": "Q181659",
+      "object_id": "Q49088"
+    },
+    {
+      "subject": "Stephen Hawking",
+      "object": "University College, Oxford",
+      "subject_id": "Q17714",
+      "object_id": "Q81087"
+    },
+    {
+      "subject": "Alicia Keys",
+      "object": "Columbia University",
+      "subject_id": "Q121507",
+      "object_id": "Q49088"
+    },
+    {
+      "subject": "Martin Luther",
+      "object": "University of Erfurt",
+      "subject_id": "Q9554",
+      "object_id": "Q702524"
+    },
+    {
+      "subject": "Gottfried Wilhelm Leibniz",
+      "object": "University of Altdorf",
+      "subject_id": "Q9047",
+      "object_id": "Q880228"
+    },
+    {
+      "subject": "Arthur Conan Doyle",
+      "object": "University of Edinburgh Medical School",
+      "subject_id": "Q35610",
+      "object_id": "Q2635089"
+    },
+    {
+      "subject": "Wassily Kandinsky",
+      "object": "Moscow State University, Faculty of Law",
+      "subject_id": "Q61064",
+      "object_id": "Q3890936"
+    },
+    {
+      "subject": "Hans Christian Andersen",
+      "object": "University of Copenhagen",
+      "subject_id": "Q5673",
+      "object_id": "Q186285"
+    },
+    {
+      "subject": "J. K. Rowling",
+      "object": "University of Exeter",
+      "subject_id": "Q34660",
+      "object_id": "Q1414861"
+    },
+    {
+      "subject": "Garry Kasparov",
+      "object": "Azerbaijan University of Languages",
+      "subject_id": "Q28614",
+      "object_id": "Q3701492"
+    },
+    {
+      "subject": "Noam Chomsky",
+      "object": "University of Pennsylvania",
+      "subject_id": "Q9049",
+      "object_id": "Q49117"
+    },
+    {
+      "subject": "Angela Merkel",
+      "object": "Leipzig University",
+      "subject_id": "Q567",
+      "object_id": "Q154804"
+    },
+    {
+      "subject": "Woody Allen",
+      "object": "New York University Tisch School of the Arts",
+      "subject_id": "Q25089",
+      "object_id": "Q797078"
+    },
+    {
+      "subject": "John Paul II",
+      "object": "Theology faculty of the Jagiellonian University",
+      "subject_id": "Q989",
+      "object_id": "Q9379710"
+    },
+    {
+      "subject": "Benedict XVI",
+      "object": "Ludwig Maximilian University of Munich",
+      "subject_id": "Q2494",
+      "object_id": "Q55044"
+    },
+    {
+      "subject": "Fyodor Dostoyevsky",
+      "object": "Military Engineering-Technical University",
+      "subject_id": "Q991",
+      "object_id": "Q1141929"
+    },
+    {
+      "subject": "John F. Kennedy",
+      "object": "Princeton University",
+      "subject_id": "Q9696",
+      "object_id": "Q21578"
+    },
+    {
+      "subject": "René Descartes",
+      "object": "Utrecht University",
+      "subject_id": "Q9191",
+      "object_id": "Q221653"
+    },
+    {
+      "subject": "Benito Mussolini",
+      "object": "University of Lausanne",
+      "subject_id": "Q23559",
+      "object_id": "Q658975"
+    },
+    {
+      "subject": "Richard Wagner",
+      "object": "Leipzig University",
+      "subject_id": "Q1511",
+      "object_id": "Q154804"
+    },
+    {
+      "subject": "Václav Havel",
+      "object": "Czech Technical University in Prague",
+      "subject_id": "Q36233",
+      "object_id": "Q1329478"
+    },
+    {
+      "subject": "Karl Marx",
+      "object": "University of Jena",
+      "subject_id": "Q9061",
+      "object_id": "Q154561"
+    },
+    {
+      "subject": "Max Ernst",
+      "object": "University of Bonn",
+      "subject_id": "Q154842",
+      "object_id": "Q152171"
+    },
+    {
+      "subject": "J. R. R. Tolkien",
+      "object": "University of Oxford",
+      "subject_id": "Q892",
+      "object_id": "Q34433"
+    },
+    {
+      "subject": "Thomas Mann",
+      "object": "Technical University of Munich",
+      "subject_id": "Q37030",
+      "object_id": "Q157808"
+    },
+    {
+      "subject": "Frédéric Chopin",
+      "object": "Chopin University of Music",
+      "subject_id": "Q1268",
+      "object_id": "Q1340262"
+    },
+    {
+      "subject": "Lord Byron",
+      "object": "University of Cambridge",
+      "subject_id": "Q5679",
+      "object_id": "Q35794"
+    },
+    {
+      "subject": "Franz Liszt",
+      "object": "University of Music and Performing Arts Vienna",
+      "subject_id": "Q41309",
+      "object_id": "Q686522"
+    },
+    {
+      "subject": "Meryl Streep",
+      "object": "Yale University",
+      "subject_id": "Q873",
+      "object_id": "Q49112"
+    },
+    {
+      "subject": "Olivia Newton-John",
+      "object": "University High School",
+      "subject_id": "Q185165",
+      "object_id": "Q4005855"
+    },
+    {
+      "subject": "Sigmund Freud",
+      "object": "University of Vienna",
+      "subject_id": "Q9215",
+      "object_id": "Q165980"
+    },
+    {
+      "subject": "Batman",
+      "object": "University of Paris",
+      "subject_id": "Q80370",
+      "object_id": "Q209842"
+    },
+    {
+      "subject": "Paul Klee",
+      "object": "State University of Music and Performing Arts Stuttgart",
+      "subject_id": "Q44007",
+      "object_id": "Q568692"
+    },
+    {
+      "subject": "Franz Kafka",
+      "object": "Faculty of Law, German University in Prague",
+      "subject_id": "Q905",
+      "object_id": "Q102398197"
+    },
+    {
+      "subject": "Alexander von Humboldt",
+      "object": "Freiberg University of Mining and Technology",
+      "subject_id": "Q6694",
+      "object_id": "Q689854"
+    },
+    {
+      "subject": "Yukio Mishima",
+      "object": "University of Tokyo Graduate School for Law and Politics",
+      "subject_id": "Q134456",
+      "object_id": "Q125102205"
+    },
+    {
+      "subject": "Isaac Newton",
+      "object": "University of Cambridge",
+      "subject_id": "Q935",
+      "object_id": "Q35794"
+    },
+    {
+      "subject": "August Strindberg",
+      "object": "Uppsala University",
+      "subject_id": "Q7724",
+      "object_id": "Q185246"
+    },
+    {
+      "subject": "Honoré de Balzac",
+      "object": "University of Paris",
+      "subject_id": "Q9711",
+      "object_id": "Q209842"
+    },
+    {
+      "subject": "Charles III",
+      "object": "Aberystwyth University",
+      "subject_id": "Q36234",
+      "object_id": "Q319761"
+    },
+    {
+      "subject": "Thomas Aquinas",
+      "object": "University of Paris",
+      "subject_id": "Q9438",
+      "object_id": "Q209842"
+    },
+    {
+      "subject": "Rabindranath Tagore",
+      "object": "University College London",
+      "subject_id": "Q7241",
+      "object_id": "Q193196"
+    },
+    {
+      "subject": "George Frideric Handel",
+      "object": "University of Halle-Wittenberg",
+      "subject_id": "Q7302",
+      "object_id": "Q32120"
+    },
+    {
+      "subject": "Friedrich Schiller",
+      "object": "University of Jena",
+      "subject_id": "Q22670",
+      "object_id": "Q154561"
+    },
+    {
+      "subject": "Bertrand Russell",
+      "object": "University of Cambridge",
+      "subject_id": "Q33760",
+      "object_id": "Q35794"
+    },
+    {
+      "subject": "Mahatma Gandhi",
+      "object": "University College London",
+      "subject_id": "Q1001",
+      "object_id": "Q193196"
+    },
+    {
+      "subject": "Albert Camus",
+      "object": "Algiers 1 University",
+      "subject_id": "Q34670",
+      "object_id": "Q1190852"
+    },
+    {
+      "subject": "Carl Linnaeus",
+      "object": "University of Harderwijk",
+      "subject_id": "Q1043",
+      "object_id": "Q1816221"
+    }
+  ]
+}

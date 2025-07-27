@@ -1,0 +1,31 @@
+{
+  "relation": "country_largest_city",
+  "template_scores": {
+    "The largest city in {} is": {
+      "average_first_token_prob": 0.6740519205729166,
+      "reliability": 0.7083333333333334,
+      "overall_score": 0.47745344373914933
+    },
+    "The biggest city in {} is": {
+      "average_first_token_prob": 0.6490478515625,
+      "reliability": 0.75,
+      "overall_score": 0.486785888671875
+    },
+    "The most populous city in {} is": {
+      "average_first_token_prob": 0.6872965494791666,
+      "reliability": 0.75,
+      "overall_score": 0.515472412109375
+    },
+    "The most well-known city in {} is": {
+      "average_first_token_prob": 0.4363606770833333,
+      "reliability": 0.2916666666666667,
+      "overall_score": 0.12727186414930555
+    }
+  },
+  "best_template": "The most populous city in {} is",
+  "best_template_metrics": {
+    "average_first_token_prob": 0.6872965494791666,
+    "reliability": 0.75,
+    "overall_score": 0.515472412109375
+  }
+}

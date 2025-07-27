@@ -1,0 +1,972 @@
+{
+    "name": "word last letter_7shot_perm3",
+    "prompt_templates": [
+        "ลูกแกะ ลงท้ายด้วยตัวอักษร ะ.\nเยลลี่ ลงท้ายด้วยตัวอักษร ี่.\nไฟ ลงท้ายด้วยตัวอักษร ย.\nกลางคืน ลงท้ายด้วยตัวอักษร น.\nเนินเขา ลงท้ายด้วยตัวอักษร า.\nมีด ลงท้ายด้วยตัวอักษร ด.\nกระจก ลงท้ายด้วยตัวอักษร ก.\n{} ลงท้ายด้วยตัวอักษร"
+    ],
+    "samples": [
+        {
+            "subject": "โค้ง",
+            "object": "ง"
+        },
+        {
+            "subject": "หนัก",
+            "object": "ก"
+        },
+        {
+            "subject": "สวย",
+            "object": "ย"
+        },
+        {
+            "subject": "ถาม",
+            "object": "ม"
+        },
+        {
+            "subject": "ขยาย",
+            "object": "ย"
+        },
+        {
+            "subject": "ด้านหน้า",
+            "object": "า"
+        },
+        {
+            "subject": "ยาก",
+            "object": "ก"
+        },
+        {
+            "subject": "กรุณา",
+            "object": "า"
+        },
+        {
+            "subject": "ไป",
+            "object": "ป"
+        },
+        {
+            "subject": "การผ่าตัด",
+            "object": "ด"
+        },
+        {
+            "subject": "อดีต",
+            "object": "ต"
+        },
+        {
+            "subject": "ข้างใน",
+            "object": "น"
+        },
+        {
+            "subject": "เข้า",
+            "object": "า"
+        },
+        {
+            "subject": "เริ่มต้น",
+            "object": "น"
+        },
+        {
+            "subject": "หายไป",
+            "object": "ป"
+        },
+        {
+            "subject": "ฤดูใบไม้ร่วง",
+            "object": "ง"
+        },
+        {
+            "subject": "บ้า",
+            "object": "า"
+        },
+        {
+            "subject": "ลืม",
+            "object": "ม"
+        },
+        {
+            "subject": "ขมวดคิ้ว",
+            "object": "ว"
+        },
+        {
+            "subject": "ยอดเยี่ยม",
+            "object": "ม"
+        },
+        {
+            "subject": "เรียนร",
+            "object": "ร"
+        },
+        {
+            "subject": "ราบรื่น",
+            "object": "น"
+        },
+        {
+            "subject": "กว้าง",
+            "object": "ง"
+        },
+        {
+            "subject": "เครื่องบิน",
+            "object": "น"
+        },
+        {
+            "subject": "ผิด",
+            "object": "ด"
+        },
+        {
+            "subject": "เต้นรำ",
+            "object": "ำ"
+        },
+        {
+            "subject": "ชนะ",
+            "object": "ะ"
+        },
+        {
+            "subject": "เชื่อ",
+            "object": "อ"
+        },
+        {
+            "subject": "คอนเสิร์ต",
+            "object": "ต"
+        },
+        {
+            "subject": "จักรยาน",
+            "object": "น"
+        },
+        {
+            "subject": "เหม็นอับ",
+            "object": "บ"
+        },
+        {
+            "subject": "ห้องสมุด",
+            "object": "ด"
+        },
+        {
+            "subject": "โทร",
+            "object": "ร"
+        },
+        {
+            "subject": "ให",
+            "object": "ห"
+        },
+        {
+            "subject": "ร",
+            "object": "ร"
+        },
+        {
+            "subject": "ปีน",
+            "object": "น"
+        },
+        {
+            "subject": "สด",
+            "object": "ด"
+        },
+        {
+            "subject": "ด",
+            "object": "ด"
+        },
+        {
+            "subject": "เก่า",
+            "object": "า"
+        },
+        {
+            "subject": "ยิม",
+            "object": "ม"
+        },
+        {
+            "subject": "สูง",
+            "object": "ง"
+        },
+        {
+            "subject": "ตัดสินใจ",
+            "object": "จ"
+        },
+        {
+            "subject": "เลือก",
+            "object": "ก"
+        },
+        {
+            "subject": "ต้องการ",
+            "object": "ร"
+        },
+        {
+            "subject": "ดัง",
+            "object": "ง"
+        },
+        {
+            "subject": "เดิน",
+            "object": "น"
+        },
+        {
+            "subject": "กล่อง",
+            "object": "ง"
+        },
+        {
+            "subject": "หยาบคาย",
+            "object": "ย"
+        },
+        {
+            "subject": "เครื่องจักร",
+            "object": "ร"
+        },
+        {
+            "subject": "สงบ",
+            "object": "บ"
+        },
+        {
+            "subject": "ขวา",
+            "object": "า"
+        },
+        {
+            "subject": "รวม",
+            "object": "ม"
+        },
+        {
+            "subject": "เท็จ",
+            "object": "จ"
+        },
+        {
+            "subject": "กระซิบ",
+            "object": "บ"
+        },
+        {
+            "subject": "ลึก",
+            "object": "ก"
+        },
+        {
+            "subject": "ภาพยนตร",
+            "object": "ร"
+        },
+        {
+            "subject": "หัวเราะ",
+            "object": "ะ"
+        },
+        {
+            "subject": "เปรี้ยว",
+            "object": "ว"
+        },
+        {
+            "subject": "อวยพร",
+            "object": "ร"
+        },
+        {
+            "subject": "สกปรก",
+            "object": "ก"
+        },
+        {
+            "subject": "เล็ก",
+            "object": "ก"
+        },
+        {
+            "subject": "สร้าง",
+            "object": "ง"
+        },
+        {
+            "subject": "การศึกษา",
+            "object": "า"
+        },
+        {
+            "subject": "ชอบ",
+            "object": "บ"
+        },
+        {
+            "subject": "ต้องการ",
+            "object": "ร"
+        },
+        {
+            "subject": "ยาก",
+            "object": "ก"
+        },
+        {
+            "subject": "สิ้นสุด",
+            "object": "ด"
+        },
+        {
+            "subject": "นำ",
+            "object": "ำ"
+        },
+        {
+            "subject": "เศร้า",
+            "object": "า"
+        },
+        {
+            "subject": "แย",
+            "object": "ย"
+        },
+        {
+            "subject": "ขี้เกียจ",
+            "object": "จ"
+        },
+        {
+            "subject": "ด้วยกัน",
+            "object": "น"
+        },
+        {
+            "subject": "สั้น",
+            "object": "น"
+        },
+        {
+            "subject": "กระโดด",
+            "object": "ด"
+        },
+        {
+            "subject": "ซอฟต์แวร",
+            "object": "ร"
+        },
+        {
+            "subject": "เปียก",
+            "object": "ก"
+        },
+        {
+            "subject": "จริง",
+            "object": "ง"
+        },
+        {
+            "subject": "การต่อส",
+            "object": "ส"
+        },
+        {
+            "subject": "เชียร",
+            "object": "ร"
+        },
+        {
+            "subject": "ง่าย",
+            "object": "ย"
+        },
+        {
+            "subject": "ช้า",
+            "object": "า"
+        },
+        {
+            "subject": "เต็ม",
+            "object": "ม"
+        },
+        {
+            "subject": "แสง",
+            "object": "ง"
+        },
+        {
+            "subject": "เปียโน",
+            "object": "น"
+        },
+        {
+            "subject": "เขียน",
+            "object": "น"
+        },
+        {
+            "subject": "กิน",
+            "object": "น"
+        },
+        {
+            "subject": "ติดตาม",
+            "object": "ม"
+        },
+        {
+            "subject": "อ่อนโยน",
+            "object": "น"
+        },
+        {
+            "subject": "คิด",
+            "object": "ด"
+        },
+        {
+            "subject": "ละคร",
+            "object": "ร"
+        },
+        {
+            "subject": "เข้าใจ",
+            "object": "จ"
+        },
+        {
+            "subject": "ซื้อ",
+            "object": "อ"
+        },
+        {
+            "subject": "ผลัก",
+            "object": "ก"
+        },
+        {
+            "subject": "หนาว",
+            "object": "ว"
+        },
+        {
+            "subject": "ใช",
+            "object": "ช"
+        },
+        {
+            "subject": "แห้ง",
+            "object": "ง"
+        },
+        {
+            "subject": "เป็นมิตร",
+            "object": "ร"
+        },
+        {
+            "subject": "เขย่า",
+            "object": "า"
+        },
+        {
+            "subject": "สุข",
+            "object": "ข"
+        },
+        {
+            "subject": "จำ",
+            "object": "ำ"
+        },
+        {
+            "subject": "ดื่ม",
+            "object": "ม"
+        },
+        {
+            "subject": "เอา",
+            "object": "า"
+        },
+        {
+            "subject": "ป่วย",
+            "object": "ย"
+        },
+        {
+            "subject": "ดึง",
+            "object": "ง"
+        },
+        {
+            "subject": "ว่ายน้ำ",
+            "object": "ำ"
+        },
+        {
+            "subject": "เร็ว",
+            "object": "ว"
+        },
+        {
+            "subject": "รัก",
+            "object": "ก"
+        },
+        {
+            "subject": "สุภาพ",
+            "object": "พ"
+        },
+        {
+            "subject": "มา",
+            "object": "า"
+        },
+        {
+            "subject": "น่าเกลียด",
+            "object": "ด"
+        },
+        {
+            "subject": "สรรเสริญ",
+            "object": "ญ"
+        },
+        {
+            "subject": "แข็งแรง",
+            "object": "ง"
+        },
+        {
+            "subject": "โหดร้าย",
+            "object": "ย"
+        },
+        {
+            "subject": "ดึงดูด",
+            "object": "ด"
+        },
+        {
+            "subject": "บวก",
+            "object": "ก"
+        },
+        {
+            "subject": "ยาว",
+            "object": "ว"
+        },
+        {
+            "subject": "ยืม",
+            "object": "ม"
+        },
+        {
+            "subject": "บันทึก",
+            "object": "ก"
+        },
+        {
+            "subject": "บ้า",
+            "object": "า"
+        },
+        {
+            "subject": "ยา",
+            "object": "า"
+        },
+        {
+            "subject": "พบ",
+            "object": "บ"
+        },
+        {
+            "subject": "งาน",
+            "object": "น"
+        },
+        {
+            "subject": "ขึ้น",
+            "object": "น"
+        },
+        {
+            "subject": "หวาน",
+            "object": "น"
+        },
+        {
+            "subject": "พูด",
+            "object": "ด"
+        },
+        {
+            "subject": "ผลิต",
+            "object": "ต"
+        },
+        {
+            "subject": "โจมต",
+            "object": "ต"
+        },
+        {
+            "subject": "สูง",
+            "object": "ง"
+        },
+        {
+            "subject": "สูดดม",
+            "object": "ม"
+        },
+        {
+            "subject": "ปลอดภัย",
+            "object": "ย"
+        },
+        {
+            "subject": "เปิด",
+            "object": "ด"
+        },
+        {
+            "subject": "เพิ่มขึ้น",
+            "object": "น"
+        },
+        {
+            "subject": "กระจาย",
+            "object": "ย"
+        },
+        {
+            "subject": "มาถึง",
+            "object": "ง"
+        },
+        {
+            "subject": "ช่วยเหลือ",
+            "object": "อ"
+        },
+        {
+            "subject": "ออกจาก",
+            "object": "ก"
+        },
+        {
+            "subject": "นั่ง",
+            "object": "ง"
+        },
+        {
+            "subject": "ถูก",
+            "object": "ก"
+        },
+        {
+            "subject": "คำถาม",
+            "object": "ม"
+        },
+        {
+            "subject": "แยก",
+            "object": "ก"
+        },
+        {
+            "subject": "ง่าย",
+            "object": "ย"
+        },
+        {
+            "subject": "เร็ว",
+            "object": "ว"
+        },
+        {
+            "subject": "ตัด",
+            "object": "ด"
+        },
+        {
+            "subject": "เกม",
+            "object": "ม"
+        },
+        {
+            "subject": "เงียบ",
+            "object": "บ"
+        },
+        {
+            "subject": "เพื่อน",
+            "object": "น"
+        },
+        {
+            "subject": "จน",
+            "object": "น"
+        },
+        {
+            "subject": "ม",
+            "object": "ม"
+        },
+        {
+            "subject": "พูด",
+            "object": "ด"
+        },
+        {
+            "subject": "หนุ่ม",
+            "object": "ม"
+        },
+        {
+            "subject": "เล่น",
+            "object": "น"
+        },
+        {
+            "subject": "สดใส",
+            "object": "ส"
+        },
+        {
+            "subject": "แพ",
+            "object": "พ"
+        },
+        {
+            "subject": "เริ่มต้น",
+            "object": "น"
+        },
+        {
+            "subject": "พัก",
+            "object": "ก"
+        },
+        {
+            "subject": "กฎหมาย",
+            "object": "ย"
+        },
+        {
+            "subject": "ด",
+            "object": "ด"
+        },
+        {
+            "subject": "ซื่อสัตย",
+            "object": "ย"
+        },
+        {
+            "subject": "โง",
+            "object": "ง"
+        },
+        {
+            "subject": "ฉลาด",
+            "object": "ด"
+        },
+        {
+            "subject": "ฉลาด",
+            "object": "ด"
+        },
+        {
+            "subject": "ปิด",
+            "object": "ด"
+        },
+        {
+            "subject": "อ่าน",
+            "object": "น"
+        },
+        {
+            "subject": "น่าเบื่อ",
+            "object": "อ"
+        },
+        {
+            "subject": "ขี้อาย",
+            "object": "ย"
+        },
+        {
+            "subject": "มืด",
+            "object": "ด"
+        },
+        {
+            "subject": "บาง",
+            "object": "ง"
+        },
+        {
+            "subject": "เผ็ดร้อน",
+            "object": "น"
+        },
+        {
+            "subject": "ใหม",
+            "object": "ม"
+        },
+        {
+            "subject": "จับ",
+            "object": "บ"
+        },
+        {
+            "subject": "เกลียด",
+            "object": "ด"
+        },
+        {
+            "subject": "สร้าง",
+            "object": "ง"
+        },
+        {
+            "subject": "ลอง",
+            "object": "ง"
+        },
+        {
+            "subject": "ฟาร์ม",
+            "object": "ม"
+        },
+        {
+            "subject": "ใหญ",
+            "object": "ญ"
+        },
+        {
+            "subject": "เล็ก",
+            "object": "ก"
+        },
+        {
+            "subject": "ลอย",
+            "object": "ย"
+        },
+        {
+            "subject": "ยืน",
+            "object": "น"
+        },
+        {
+            "subject": "ใหญ",
+            "object": "ญ"
+        },
+        {
+            "subject": "เล็ก",
+            "object": "ก"
+        },
+        {
+            "subject": "เว็บไซต",
+            "object": "ต"
+        },
+        {
+            "subject": "ประสบความสำเร็จ",
+            "object": "จ"
+        },
+        {
+            "subject": "หนา",
+            "object": "า"
+        },
+        {
+            "subject": "โกรธ",
+            "object": "ธ"
+        },
+        {
+            "subject": "ตามเข็มนาฬิกา",
+            "object": "า"
+        },
+        {
+            "subject": "เปลี่ยนแปลง",
+            "object": "ง"
+        },
+        {
+            "subject": "ลุกขึ้น",
+            "object": "น"
+        },
+        {
+            "subject": "ทำ",
+            "object": "ำ"
+        },
+        {
+            "subject": "ต่ำ",
+            "object": "ำ"
+        },
+        {
+            "subject": "สวมใส",
+            "object": "ส"
+        },
+        {
+            "subject": "ทำ",
+            "object": "ำ"
+        },
+        {
+            "subject": "โค้ด",
+            "object": "ด"
+        },
+        {
+            "subject": "ด",
+            "object": "ด"
+        },
+        {
+            "subject": "สะอาด",
+            "object": "ด"
+        },
+        {
+            "subject": "ขุด",
+            "object": "ด"
+        },
+        {
+            "subject": "ศึกษา",
+            "object": "า"
+        },
+        {
+            "subject": "ขับ",
+            "object": "บ"
+        },
+        {
+            "subject": "ต",
+            "object": "ต"
+        },
+        {
+            "subject": "ร้องไห",
+            "object": "ห"
+        },
+        {
+            "subject": "ให้ยืม",
+            "object": "ม"
+        },
+        {
+            "subject": "วิ่ง",
+            "object": "ง"
+        },
+        {
+            "subject": "หิว",
+            "object": "ว"
+        },
+        {
+            "subject": "ตรง",
+            "object": "ง"
+        },
+        {
+            "subject": "หนังสือ",
+            "object": "อ"
+        },
+        {
+            "subject": "เรือ",
+            "object": "อ"
+        },
+        {
+            "subject": "รับ",
+            "object": "บ"
+        },
+        {
+            "subject": "มีชีวิต",
+            "object": "ต"
+        },
+        {
+            "subject": "ยุ่งเหยิง",
+            "object": "ง"
+        },
+        {
+            "subject": "ป่าเถื่อน",
+            "object": "น"
+        },
+        {
+            "subject": "บริหาร",
+            "object": "ร"
+        },
+        {
+            "subject": "ยอมรับ",
+            "object": "บ"
+        },
+        {
+            "subject": "สุขภาพด",
+            "object": "ด"
+        },
+        {
+            "subject": "ได้ยิน",
+            "object": "น"
+        },
+        {
+            "subject": "ค้นหา",
+            "object": "า"
+        },
+        {
+            "subject": "บิน",
+            "object": "น"
+        },
+        {
+            "subject": "แคบ",
+            "object": "บ"
+        },
+        {
+            "subject": "ตื้น",
+            "object": "น"
+        },
+        {
+            "subject": "เครื่องยนต",
+            "object": "ต"
+        },
+        {
+            "subject": "วิทยาศาสตร",
+            "object": "ร"
+        },
+        {
+            "subject": "เชื่อมต่อ",
+            "object": "อ"
+        },
+        {
+            "subject": "จาน",
+            "object": "น"
+        },
+        {
+            "subject": "วาง",
+            "object": "ง"
+        },
+        {
+            "subject": "รถ",
+            "object": "ถ"
+        },
+        {
+            "subject": "วัน",
+            "object": "น"
+        },
+        {
+            "subject": "การก่อสร้าง",
+            "object": "ง"
+        },
+        {
+            "subject": "เห็น",
+            "object": "น"
+        },
+        {
+            "subject": "ออกแบบ",
+            "object": "บ"
+        },
+        {
+            "subject": "ตลก",
+            "object": "ก"
+        },
+        {
+            "subject": "นุ่ม",
+            "object": "ม"
+        },
+        {
+            "subject": "ยิ้ม",
+            "object": "ม"
+        },
+        {
+            "subject": "รวย",
+            "object": "ย"
+        },
+        {
+            "subject": "พูด",
+            "object": "ด"
+        },
+        {
+            "subject": "ร้อน",
+            "object": "น"
+        },
+        {
+            "subject": "ใกล",
+            "object": "ล"
+        },
+        {
+            "subject": "มีไหวพริบ",
+            "object": "บ"
+        },
+        {
+            "subject": "นอนหลับ",
+            "object": "บ"
+        },
+        {
+            "subject": "การวาดภาพ",
+            "object": "พ"
+        },
+        {
+            "subject": "อ่อนแอ",
+            "object": "อ"
+        },
+        {
+            "subject": "ให้อภัย",
+            "object": "ย"
+        },
+        {
+            "subject": "หมายถึง",
+            "object": "ง"
+        },
+        {
+            "subject": "กล้า",
+            "object": "า"
+        }
+    ]
+}

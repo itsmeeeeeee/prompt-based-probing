@@ -1,0 +1,4947 @@
+{
+  "name": "person occupation",
+  "prompt_templates": [
+    "{} works as a",
+    "By profession, {} is a",
+    "{} works in the profession of ",
+    "{} is employed as a"
+  ],
+  "prompt_templates_zs": [
+    "By profession, {} is a",
+    "{} works professionally as a"
+  ],
+  "properties": {
+    "relation_type": "factual",
+    "domain_name": "person",
+    "range_name": "occupation",
+    "symmetric": false
+  },
+  "samples": [
+    {
+      "subject": "Billy Roche",
+      "object": "actor",
+      "subject_id": "Q863206",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Arun Nehru",
+      "object": "politician",
+      "subject_id": "Q4802123",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Gregg Edelman",
+      "object": "actor",
+      "subject_id": "Q5626983",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Pat Crowley",
+      "object": "actor",
+      "subject_id": "Q2589401",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Luana Walters",
+      "object": "actor",
+      "subject_id": "Q3264599",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Mary Collinson",
+      "object": "actor",
+      "subject_id": "Q16151672",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Patrick Manson",
+      "object": "physician",
+      "subject_id": "Q2057791",
+      "object_id": "Q39631"
+    },
+    {
+      "subject": "Shreela Ghosh",
+      "object": "actor",
+      "subject_id": "Q7503555",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "M. S. Viswanathan",
+      "object": "composer",
+      "subject_id": "Q3115598",
+      "object_id": "Q36834"
+    },
+    {
+      "subject": "Noon Meem Rashid",
+      "object": "poet",
+      "subject_id": "Q3846082",
+      "object_id": "Q49757"
+    },
+    {
+      "subject": "Sepala Attygalle",
+      "object": "diplomat",
+      "subject_id": "Q7451746",
+      "object_id": "Q193391"
+    },
+    {
+      "subject": "John Cygan",
+      "object": "actor",
+      "subject_id": "Q2639476",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Donald McCaig",
+      "object": "poet",
+      "subject_id": "Q5294819",
+      "object_id": "Q49757"
+    },
+    {
+      "subject": "David Yost",
+      "object": "actor",
+      "subject_id": "Q102353959",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Ethyl Eichelberger",
+      "object": "actor",
+      "subject_id": "Q15527336",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Jane Leeves",
+      "object": "actor",
+      "subject_id": "Q239558",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Raoul Trujillo",
+      "object": "actor",
+      "subject_id": "Q1319846",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Dolly Wells",
+      "object": "actor",
+      "subject_id": "Q5289370",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Georges Altman",
+      "object": "journalist",
+      "subject_id": "Q3102176",
+      "object_id": "Q1930187"
+    },
+    {
+      "subject": "Eduardo De Filippo",
+      "object": "poet",
+      "subject_id": "Q332632",
+      "object_id": "Q49757"
+    },
+    {
+      "subject": "Emmanuelle Devos",
+      "object": "actor",
+      "subject_id": "Q241043",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "John Ashburnham, 1st Baron Ashburnham",
+      "object": "politician",
+      "subject_id": "Q6219553",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Johann von Rist",
+      "object": "poet",
+      "subject_id": "Q66615",
+      "object_id": "Q49757"
+    },
+    {
+      "subject": "Li Yining",
+      "object": "economist",
+      "subject_id": "Q8460642",
+      "object_id": "Q188094"
+    },
+    {
+      "subject": "Pierre Paradis",
+      "object": "politician",
+      "subject_id": "Q101500023",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Kurt Furgler",
+      "object": "politician",
+      "subject_id": "Q115600",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Earl Zindars",
+      "object": "composer",
+      "subject_id": "Q685214",
+      "object_id": "Q36834"
+    },
+    {
+      "subject": "David Tree",
+      "object": "actor",
+      "subject_id": "Q3703355",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Malcolm Arthur Smith",
+      "object": "physician",
+      "subject_id": "Q3281665",
+      "object_id": "Q39631"
+    },
+    {
+      "subject": "Robert David Hall",
+      "object": "actor",
+      "subject_id": "Q712704",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "George Thalben-Ball",
+      "object": "composer",
+      "subject_id": "Q5545127",
+      "object_id": "Q36834"
+    },
+    {
+      "subject": "Jeff Bova",
+      "object": "composer",
+      "subject_id": "Q6173385",
+      "object_id": "Q36834"
+    },
+    {
+      "subject": "Murli Deora",
+      "object": "politician",
+      "subject_id": "Q6938775",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Ilia Chavchavadze",
+      "object": "poet",
+      "subject_id": "Q333411",
+      "object_id": "Q49757"
+    },
+    {
+      "subject": "Rolf Thommessen",
+      "object": "politician",
+      "subject_id": "Q3704965",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Esther Ralston",
+      "object": "actor",
+      "subject_id": "Q448594",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Hugh Bonneville",
+      "object": "actor",
+      "subject_id": "Q155775",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Giovanni Battista Vitali",
+      "object": "composer",
+      "subject_id": "Q919789",
+      "object_id": "Q36834"
+    },
+    {
+      "subject": "Junsang Bahk",
+      "object": "composer",
+      "subject_id": "Q6314321",
+      "object_id": "Q36834"
+    },
+    {
+      "subject": "Trevor Dunn",
+      "object": "composer",
+      "subject_id": "Q517818",
+      "object_id": "Q36834"
+    },
+    {
+      "subject": "Guy Pratt",
+      "object": "actor",
+      "subject_id": "Q524114",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Arno Allan Penzias",
+      "object": "astronomer",
+      "subject_id": "Q172877",
+      "object_id": "Q11063"
+    },
+    {
+      "subject": "Jeffrey Carlson",
+      "object": "actor",
+      "subject_id": "Q6175894",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Erle Cox",
+      "object": "journalist",
+      "subject_id": "Q864327",
+      "object_id": "Q1930187"
+    },
+    {
+      "subject": "Ranjitha",
+      "object": "actor",
+      "subject_id": "Q7293190",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "George Buza",
+      "object": "actor",
+      "subject_id": "Q5537509",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Nicholas John Hannen",
+      "object": "diplomat",
+      "subject_id": "Q6318082",
+      "object_id": "Q193391"
+    },
+    {
+      "subject": "Debra Jo Rupp",
+      "object": "actor",
+      "subject_id": "Q256144",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Lark Voorhies",
+      "object": "actor",
+      "subject_id": "Q440070",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Niyi Osundare",
+      "object": "poet",
+      "subject_id": "Q3362899",
+      "object_id": "Q49757"
+    },
+    {
+      "subject": "Hugo Eberlein",
+      "object": "politician",
+      "subject_id": "Q77901",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Jean Titelouze",
+      "object": "composer",
+      "subject_id": "Q643537",
+      "object_id": "Q36834"
+    },
+    {
+      "subject": "Edy Ganem",
+      "object": "actor",
+      "subject_id": "Q13560453",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Charles FitzGerald, 1st Baron Lecale",
+      "object": "politician",
+      "subject_id": "Q5077685",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "John Horgan",
+      "object": "journalist",
+      "subject_id": "Q6239861",
+      "object_id": "Q1930187"
+    },
+    {
+      "subject": "Lisa Haydon",
+      "object": "actor",
+      "subject_id": "Q6558075",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Juan Blanco",
+      "object": "composer",
+      "subject_id": "Q43262480",
+      "object_id": "Q36834"
+    },
+    {
+      "subject": "William Hardy Wilson",
+      "object": "architect",
+      "subject_id": "Q8010867",
+      "object_id": "Q42973"
+    },
+    {
+      "subject": "Gregory Scott",
+      "object": "actor",
+      "subject_id": "Q5607156",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Paolo Casati",
+      "object": "mathematician",
+      "subject_id": "Q673468",
+      "object_id": "Q170790"
+    },
+    {
+      "subject": "Mark Andrew Green",
+      "object": "politician",
+      "subject_id": "Q1602312",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Krister Henriksson",
+      "object": "actor",
+      "subject_id": "Q712961",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Kiersten Warren",
+      "object": "actor",
+      "subject_id": "Q434731",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "George Ward Hunt",
+      "object": "politician",
+      "subject_id": "Q334272",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Michael Romanoff",
+      "object": "actor",
+      "subject_id": "Q3371512",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Ethan Wayne",
+      "object": "actor",
+      "subject_id": "Q354056",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Guruprasad",
+      "object": "actor",
+      "subject_id": "Q5620533",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Giuseppe Saracco",
+      "object": "politician",
+      "subject_id": "Q739031",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Edmond Leung",
+      "object": "actor",
+      "subject_id": "Q3270144",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Bibb Graves",
+      "object": "politician",
+      "subject_id": "Q533931",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Stefano Vagnini",
+      "object": "poet",
+      "subject_id": "Q3972768",
+      "object_id": "Q49757"
+    },
+    {
+      "subject": "Sondra Gotlieb",
+      "object": "journalist",
+      "subject_id": "Q7560899",
+      "object_id": "Q1930187"
+    },
+    {
+      "subject": "Sairam Shankar",
+      "object": "actor",
+      "subject_id": "Q7402509",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Akshaye Khanna",
+      "object": "actor",
+      "subject_id": "Q421581",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Subagio Sastrowardoyo",
+      "object": "poet",
+      "subject_id": "Q7630722",
+      "object_id": "Q49757"
+    },
+    {
+      "subject": "James Broughton",
+      "object": "poet",
+      "subject_id": "Q2402538",
+      "object_id": "Q49757"
+    },
+    {
+      "subject": "Georg Joseph Kamel",
+      "object": "missionary",
+      "subject_id": "Q552049",
+      "object_id": "Q219477"
+    },
+    {
+      "subject": "Ross Garnaut",
+      "object": "economist",
+      "subject_id": "Q7369349",
+      "object_id": "Q188094"
+    },
+    {
+      "subject": "Cyril Wong",
+      "object": "poet",
+      "subject_id": "N/A",
+      "object_id": "Q49757"
+    },
+    {
+      "subject": "Ellar Coltrane",
+      "object": "actor",
+      "subject_id": "Q16728806",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Candace Kita",
+      "object": "actor",
+      "subject_id": "Q2936231",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "John Gawsworth",
+      "object": "poet",
+      "subject_id": "Q3743178",
+      "object_id": "Q49757"
+    },
+    {
+      "subject": "Daeg Faerch",
+      "object": "actor",
+      "subject_id": "Q929146",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Douglas Fowley",
+      "object": "actor",
+      "subject_id": "Q1252302",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Malcolm MacDonald",
+      "object": "politician",
+      "subject_id": "Q333507",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Ledisi",
+      "object": "actor",
+      "subject_id": "Q1811634",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Resham Tipnis",
+      "object": "actor",
+      "subject_id": "Q16214589",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Joan Marion",
+      "object": "actor",
+      "subject_id": "Q388181",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Doro Merande",
+      "object": "actor",
+      "subject_id": "Q5298146",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Chandan Mitra",
+      "object": "journalist",
+      "subject_id": "Q5070939",
+      "object_id": "Q1930187"
+    },
+    {
+      "subject": "Marie Versini",
+      "object": "actor",
+      "subject_id": "Q547742",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Milt Kogan",
+      "object": "actor",
+      "subject_id": "Q6860813",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Trevor Sargent",
+      "object": "politician",
+      "subject_id": "Q12849",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Kate Garven",
+      "object": "actor",
+      "subject_id": "Q2012422",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "John Vivyan",
+      "object": "actor",
+      "subject_id": "Q6262050",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Raj Kapoor",
+      "object": "actor",
+      "subject_id": "Q55407",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Ernst Jaakson",
+      "object": "diplomat",
+      "subject_id": "Q1358852",
+      "object_id": "Q193391"
+    },
+    {
+      "subject": "Gregory Chamitoff",
+      "object": "astronaut",
+      "subject_id": "Q461872",
+      "object_id": "Q11631"
+    },
+    {
+      "subject": "Jill Hyem",
+      "object": "actor",
+      "subject_id": "Q6192874",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Eduardo Fajardo",
+      "object": "actor",
+      "subject_id": "Q668759",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Halle Berry",
+      "object": "model",
+      "subject_id": "Q1033016",
+      "object_id": "Q4610556"
+    },
+    {
+      "subject": "Carl Hatch",
+      "object": "politician",
+      "subject_id": "Q1038627",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Johnathon Schaech",
+      "object": "actor",
+      "subject_id": "Q266179",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Rudolf Maister",
+      "object": "poet",
+      "subject_id": "Q697765",
+      "object_id": "Q49757"
+    },
+    {
+      "subject": "Poojappura Ravi",
+      "object": "actor",
+      "subject_id": "Q7228534",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Jon Rose",
+      "object": "composer",
+      "subject_id": "Q1702838",
+      "object_id": "Q36834"
+    },
+    {
+      "subject": "Gian-Carlo Wick",
+      "object": "physicist",
+      "subject_id": "N/A",
+      "object_id": "Q169470"
+    },
+    {
+      "subject": "Elaine Yiu",
+      "object": "actor",
+      "subject_id": "Q5353320",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Leo Fong",
+      "object": "actor",
+      "subject_id": "Q6523730",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "William John Gruffydd",
+      "object": "poet",
+      "subject_id": "N/A",
+      "object_id": "Q49757"
+    },
+    {
+      "subject": "Bernard de Marigny",
+      "object": "politician",
+      "subject_id": "Q2898761",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Charles Herbert Allen",
+      "object": "politician",
+      "subject_id": "Q139364",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Laura Antoniou",
+      "object": "novelist",
+      "subject_id": "Q6498635",
+      "object_id": "Q6625963"
+    },
+    {
+      "subject": "Troy Donahue",
+      "object": "actor",
+      "subject_id": "Q516035",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Gustave Le Gray",
+      "object": "photographer",
+      "subject_id": "Q982549",
+      "object_id": "Q33231"
+    },
+    {
+      "subject": "Renato Ruggiero",
+      "object": "diplomat",
+      "subject_id": "Q956652",
+      "object_id": "Q193391"
+    },
+    {
+      "subject": "Paulo Pires",
+      "object": "model",
+      "subject_id": "Q42810898",
+      "object_id": "Q4610556"
+    },
+    {
+      "subject": "Alfred Hickman",
+      "object": "actor",
+      "subject_id": "Q75971574",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Avi Wigderson",
+      "object": "mathematician",
+      "subject_id": "Q92957",
+      "object_id": "Q170790"
+    },
+    {
+      "subject": "Ernest Armstrong",
+      "object": "politician",
+      "subject_id": "Q106890084",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "KevJumba",
+      "object": "actor",
+      "subject_id": "Q717527",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Dino Saluzzi",
+      "object": "composer",
+      "subject_id": "Q1226650",
+      "object_id": "Q36834"
+    },
+    {
+      "subject": "Lori Singer",
+      "object": "actor",
+      "subject_id": "Q255720",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Shibdas Ghosh",
+      "object": "politician",
+      "subject_id": "Q1522455",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Klemens von Metternich",
+      "object": "diplomat",
+      "subject_id": "Q45662",
+      "object_id": "Q193391"
+    },
+    {
+      "subject": "Caradog Roberts",
+      "object": "composer",
+      "subject_id": "Q5037600",
+      "object_id": "Q36834"
+    },
+    {
+      "subject": "Serhiy Taruta",
+      "object": "politician",
+      "subject_id": "Q538204",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Zvika Hadar",
+      "object": "actor",
+      "subject_id": "Q4026164",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Judah Loew ben Bezalel",
+      "object": "rabbi",
+      "subject_id": "Q363513",
+      "object_id": "Q133485"
+    },
+    {
+      "subject": "Peter Arnett",
+      "object": "journalist",
+      "subject_id": "Q142025",
+      "object_id": "Q1930187"
+    },
+    {
+      "subject": "Juan Hidalgo Codorniu",
+      "object": "composer",
+      "subject_id": "Q6299988",
+      "object_id": "Q36834"
+    },
+    {
+      "subject": "J. Gwyn Griffiths",
+      "object": "poet",
+      "subject_id": "Q6105857",
+      "object_id": "Q49757"
+    },
+    {
+      "subject": "David Wagoner",
+      "object": "poet",
+      "subject_id": "Q5240765",
+      "object_id": "Q49757"
+    },
+    {
+      "subject": "Steve Swallow",
+      "object": "composer",
+      "subject_id": "Q708266",
+      "object_id": "Q36834"
+    },
+    {
+      "subject": "Henry Chaplin, 1st Viscount Chaplin",
+      "object": "politician",
+      "subject_id": "Q5719311",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Jon Jerde",
+      "object": "architect",
+      "subject_id": "Q3097878",
+      "object_id": "Q42973"
+    },
+    {
+      "subject": "Mandy Rain",
+      "object": "actor",
+      "subject_id": "Q6748318",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Adam Carolla",
+      "object": "journalist",
+      "subject_id": "Q4119",
+      "object_id": "Q1930187"
+    },
+    {
+      "subject": "Amy Stoch",
+      "object": "actor",
+      "subject_id": "Q16192949",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Robert Stout",
+      "object": "politician",
+      "subject_id": "Q945390",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Johnny Yune",
+      "object": "comedian",
+      "subject_id": "Q6267954",
+      "object_id": "Q245068"
+    },
+    {
+      "subject": "Gordon Scott",
+      "object": "actor",
+      "subject_id": "Q1394787",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Laurie Anderson",
+      "object": "poet",
+      "subject_id": "Q235066",
+      "object_id": "Q49757"
+    },
+    {
+      "subject": "Malcolm Keen",
+      "object": "actor",
+      "subject_id": "Q629955",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Giovanni Francesco Sagredo",
+      "object": "mathematician",
+      "subject_id": "Q5563846",
+      "object_id": "Q170790"
+    },
+    {
+      "subject": "Carl Barron",
+      "object": "comedian",
+      "subject_id": "Q5039870",
+      "object_id": "Q245068"
+    },
+    {
+      "subject": "Daniel Abineri",
+      "object": "actor",
+      "subject_id": "Q5216345",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Thomas Hailes Lacy",
+      "object": "actor",
+      "subject_id": "Q7790337",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Sophia Elisabet Brenner",
+      "object": "poet",
+      "subject_id": "N/A",
+      "object_id": "Q49757"
+    },
+    {
+      "subject": "Hugh Manning",
+      "object": "actor",
+      "subject_id": "Q3142279",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Arthur Creech Jones",
+      "object": "politician",
+      "subject_id": "Q4798366",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "William Shiels",
+      "object": "politician",
+      "subject_id": "Q18880371",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Peter Abelard",
+      "object": "philosopher",
+      "subject_id": "Q4295",
+      "object_id": "Q4964182"
+    },
+    {
+      "subject": "Gu Seung-hyeon",
+      "object": "actor",
+      "subject_id": "Q12585485",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Iliana Fox",
+      "object": "actor",
+      "subject_id": "Q3546093",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Ronan Hardiman",
+      "object": "composer",
+      "subject_id": "Q1336157",
+      "object_id": "Q36834"
+    },
+    {
+      "subject": "Raoul Walsh",
+      "object": "actor",
+      "subject_id": "Q72756",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Henry Pottinger Stephens",
+      "object": "journalist",
+      "subject_id": "Q13580338",
+      "object_id": "Q1930187"
+    },
+    {
+      "subject": "Barbara Tyson",
+      "object": "actor",
+      "subject_id": "Q2884044",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Kazuo Ishiguro",
+      "object": "novelist",
+      "subject_id": "Q272855",
+      "object_id": "Q6625963"
+    },
+    {
+      "subject": "Mary Renault",
+      "object": "novelist",
+      "subject_id": "Q235354",
+      "object_id": "Q6625963"
+    },
+    {
+      "subject": "Trevor Wright",
+      "object": "actor",
+      "subject_id": "Q1189306",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Jack Buetel",
+      "object": "actor",
+      "subject_id": "Q524266",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Gabriel Horn",
+      "object": "biologist",
+      "subject_id": "Q5515685",
+      "object_id": "Q864503"
+    },
+    {
+      "subject": "James Fenimore Cooper",
+      "object": "novelist",
+      "subject_id": "Q167856",
+      "object_id": "Q6625963"
+    },
+    {
+      "subject": "Robert Lepage",
+      "object": "actor",
+      "subject_id": "Q1341481",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Marcus Manilius",
+      "object": "poet",
+      "subject_id": "Q352684",
+      "object_id": "Q49757"
+    },
+    {
+      "subject": "Julius Shulman",
+      "object": "architect",
+      "subject_id": "Q1352701",
+      "object_id": "Q42973"
+    },
+    {
+      "subject": "George Waggner",
+      "object": "actor",
+      "subject_id": "Q3101978",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Wolfe Morris",
+      "object": "actor",
+      "subject_id": "Q3569672",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Yang Wanli",
+      "object": "poet",
+      "subject_id": "Q2900054",
+      "object_id": "Q49757"
+    },
+    {
+      "subject": "Johan Herman Wessel",
+      "object": "poet",
+      "subject_id": "Q649747",
+      "object_id": "Q49757"
+    },
+    {
+      "subject": "Julian Beck",
+      "object": "poet",
+      "subject_id": "Q1332885",
+      "object_id": "Q49757"
+    },
+    {
+      "subject": "Michel Mossessian",
+      "object": "architect",
+      "subject_id": "Q4409910",
+      "object_id": "Q42973"
+    },
+    {
+      "subject": "Cristina Peri Rossi",
+      "object": "novelist",
+      "subject_id": "Q290502",
+      "object_id": "Q6625963"
+    },
+    {
+      "subject": "J. Anthony Lukas",
+      "object": "journalist",
+      "subject_id": "Q6104622",
+      "object_id": "Q1930187"
+    },
+    {
+      "subject": "Susanna Haavisto",
+      "object": "actor",
+      "subject_id": "Q3505636",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Juan Rulfo",
+      "object": "novelist",
+      "subject_id": "Q200661",
+      "object_id": "Q6625963"
+    },
+    {
+      "subject": "Joyce Quin, Baroness Quin",
+      "object": "politician",
+      "subject_id": "Q137911",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Marco Minnemann",
+      "object": "composer",
+      "subject_id": "Q72295",
+      "object_id": "Q36834"
+    },
+    {
+      "subject": "Danny Dayton",
+      "object": "actor",
+      "subject_id": "Q3461875",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Jim Griffiths",
+      "object": "politician",
+      "subject_id": "Q333834",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Rashida Jones",
+      "object": "actor",
+      "subject_id": "Q540608",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Barbara Britton",
+      "object": "actor",
+      "subject_id": "Q2883923",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Tico Wells",
+      "object": "actor",
+      "subject_id": "Q2087464",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Mary-Kate Olsen",
+      "object": "actor",
+      "subject_id": "Q1151944",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Sunny Hundal",
+      "object": "journalist",
+      "subject_id": "Q7640701",
+      "object_id": "Q1930187"
+    },
+    {
+      "subject": "Gary Waldhorn",
+      "object": "actor",
+      "subject_id": "Q3098635",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Yaël Abecassis",
+      "object": "actor",
+      "subject_id": "Q460358",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Nan Wood Honeyman",
+      "object": "politician",
+      "subject_id": "Q375826",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Rayner Taylor",
+      "object": "composer",
+      "subject_id": "Q2134323",
+      "object_id": "Q36834"
+    },
+    {
+      "subject": "Riky Rick",
+      "object": "actor",
+      "subject_id": "Q19662092",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Eva Longoria",
+      "object": "actor",
+      "subject_id": "N/A",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "David Rivett",
+      "object": "chemist",
+      "subject_id": "Q5239090",
+      "object_id": "Q593644"
+    },
+    {
+      "subject": "Martin Kosleck",
+      "object": "actor",
+      "subject_id": "Q114683",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Augustin-Jean Fresnel",
+      "object": "physicist",
+      "subject_id": "Q187241",
+      "object_id": "Q169470"
+    },
+    {
+      "subject": "Ruth Marshall",
+      "object": "actor",
+      "subject_id": "Q7383111",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Andreas Embirikos",
+      "object": "poet",
+      "subject_id": "Q497035",
+      "object_id": "Q49757"
+    },
+    {
+      "subject": "Hans Magnus Enzensberger",
+      "object": "poet",
+      "subject_id": "Q44584",
+      "object_id": "Q49757"
+    },
+    {
+      "subject": "Pierre Alcover",
+      "object": "actor",
+      "subject_id": "Q3383670",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Brian McNamara",
+      "object": "actor",
+      "subject_id": "Q371495",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Hilaire Belloc",
+      "object": "journalist",
+      "subject_id": "Q333106",
+      "object_id": "Q1930187"
+    },
+    {
+      "subject": "Michael Denis",
+      "object": "poet",
+      "subject_id": "Q494586",
+      "object_id": "Q49757"
+    },
+    {
+      "subject": "Jesse McCartney",
+      "object": "actor",
+      "subject_id": "Q191842",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Billy Aaron Brown",
+      "object": "actor",
+      "subject_id": "Q4912090",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Andrew Ross Sorkin",
+      "object": "journalist",
+      "subject_id": "Q506972",
+      "object_id": "Q1930187"
+    },
+    {
+      "subject": "Morris Carnovsky",
+      "object": "actor",
+      "subject_id": "Q3324402",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Said Mohamed Djohar",
+      "object": "politician",
+      "subject_id": "Q888465",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Bryant Butler Brooks",
+      "object": "politician",
+      "subject_id": "Q881971",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Enrique Granados",
+      "object": "composer",
+      "subject_id": "Q294225",
+      "object_id": "Q36834"
+    },
+    {
+      "subject": "Alfred Easton Poor",
+      "object": "architect",
+      "subject_id": "Q4722604",
+      "object_id": "Q42973"
+    },
+    {
+      "subject": "Wes Bentley",
+      "object": "actor",
+      "subject_id": "Q368037",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Nathaniel Bright Emerson",
+      "object": "physician",
+      "subject_id": "Q6969525",
+      "object_id": "Q39631"
+    },
+    {
+      "subject": "Sumanth",
+      "object": "actor",
+      "subject_id": "Q7636956",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Menachem Mendel Schneerson",
+      "object": "rabbi",
+      "subject_id": "Q381397",
+      "object_id": "Q133485"
+    },
+    {
+      "subject": "Keen Johnson",
+      "object": "journalist",
+      "subject_id": "Q889516",
+      "object_id": "Q1930187"
+    },
+    {
+      "subject": "Dov Ber of Mezeritch",
+      "object": "rabbi",
+      "subject_id": "Q1253011",
+      "object_id": "Q133485"
+    },
+    {
+      "subject": "Manuel Sadosky",
+      "object": "mathematician",
+      "subject_id": "Q1164744",
+      "object_id": "Q170790"
+    },
+    {
+      "subject": "Juliet Aubrey",
+      "object": "actor",
+      "subject_id": "Q292584",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "David Monrad Johansen",
+      "object": "composer",
+      "subject_id": "Q3268879",
+      "object_id": "Q36834"
+    },
+    {
+      "subject": "Lane Smith",
+      "object": "actor",
+      "subject_id": "Q740939",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Linda Kaye Henning",
+      "object": "actor",
+      "subject_id": "Q3241349",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Werner Heisenberg",
+      "object": "physicist",
+      "subject_id": "Q40904",
+      "object_id": "Q169470"
+    },
+    {
+      "subject": "Patrick Joseph Sullivan",
+      "object": "politician",
+      "subject_id": "Q2057723",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "W. Arundel Orchard",
+      "object": "composer",
+      "subject_id": "Q7945328",
+      "object_id": "Q36834"
+    },
+    {
+      "subject": "Rebecca Pidgeon",
+      "object": "actor",
+      "subject_id": "Q287572",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Ysanne Churchman",
+      "object": "actor",
+      "subject_id": "Q8059689",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Alston G. Dayton",
+      "object": "politician",
+      "subject_id": "Q432793",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Bruno Lawrence",
+      "object": "actor",
+      "subject_id": "Q993459",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Dianne Kay",
+      "object": "actor",
+      "subject_id": "Q3026290",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Yuvraj Hans",
+      "object": "actor",
+      "subject_id": "Q8062173",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Grace Williams",
+      "object": "composer",
+      "subject_id": "Q1130431",
+      "object_id": "Q36834"
+    },
+    {
+      "subject": "Albert Sharpe",
+      "object": "actor",
+      "subject_id": "Q731046",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Paolo Soleri",
+      "object": "architect",
+      "subject_id": "Q447351",
+      "object_id": "Q42973"
+    },
+    {
+      "subject": "Shelby Foote",
+      "object": "novelist",
+      "subject_id": "Q714250",
+      "object_id": "Q6625963"
+    },
+    {
+      "subject": "Reginald Cooray",
+      "object": "politician",
+      "subject_id": "Q7308650",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Frederick Volpe",
+      "object": "actor",
+      "subject_id": "Q16029392",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Lisa Ryder",
+      "object": "actor",
+      "subject_id": "Q272296",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Judy Davis",
+      "object": "actor",
+      "subject_id": "Q307882",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Olive Blakeney",
+      "object": "actor",
+      "subject_id": "Q3350627",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "John Mainwaring",
+      "object": "composer",
+      "subject_id": "Q1235228",
+      "object_id": "Q36834"
+    },
+    {
+      "subject": "Bryshere Y. Gray",
+      "object": "actor",
+      "subject_id": "Q19666804",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Rico Yan",
+      "object": "actor",
+      "subject_id": "Q7332293",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Mircea Diaconu",
+      "object": "actor",
+      "subject_id": "Q1177587",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Thunder",
+      "object": "actor",
+      "subject_id": "Q37130935",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Spencer Treat Clark",
+      "object": "actor",
+      "subject_id": "Q2165590",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Mayuko Fukuda",
+      "object": "actor",
+      "subject_id": "Q1204543",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Johann Moriaen",
+      "object": "chemist",
+      "subject_id": "Q2183113",
+      "object_id": "Q593644"
+    },
+    {
+      "subject": "Jean Gabriel Marchand",
+      "object": "lawyer",
+      "subject_id": "Q2499629",
+      "object_id": "Q40348"
+    },
+    {
+      "subject": "Micachu",
+      "object": "composer",
+      "subject_id": "N/A",
+      "object_id": "Q36834"
+    },
+    {
+      "subject": "Harry Ham",
+      "object": "actor",
+      "subject_id": "Q15996092",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Rowland Hill",
+      "object": "politician",
+      "subject_id": "Q370241",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Paul Baxendale-Walker",
+      "object": "actor",
+      "subject_id": "Q7149270",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Franco Albini",
+      "object": "architect",
+      "subject_id": "Q388683",
+      "object_id": "Q42973"
+    },
+    {
+      "subject": "Stewart Alexander",
+      "object": "politician",
+      "subject_id": "Q3499339",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Kenneth Koch",
+      "object": "poet",
+      "subject_id": "Q2708628",
+      "object_id": "Q49757"
+    },
+    {
+      "subject": "Arthur Drews",
+      "object": "philosopher",
+      "subject_id": "Q63408",
+      "object_id": "Q4964182"
+    },
+    {
+      "subject": "Samuel Jackson Pratt",
+      "object": "novelist",
+      "subject_id": "Q6118146",
+      "object_id": "Q6625963"
+    },
+    {
+      "subject": "Robert Grudin",
+      "object": "philosopher",
+      "subject_id": "Q7344990",
+      "object_id": "Q4964182"
+    },
+    {
+      "subject": "Lusia Strus",
+      "object": "actor",
+      "subject_id": "Q528856",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "David Gascoyne",
+      "object": "poet",
+      "subject_id": "Q176372",
+      "object_id": "Q49757"
+    },
+    {
+      "subject": "Vic Chou",
+      "object": "model",
+      "subject_id": "Q558981",
+      "object_id": "Q4610556"
+    },
+    {
+      "subject": "Dumitru Prunariu",
+      "object": "astronaut",
+      "subject_id": "Q446692",
+      "object_id": "Q11631"
+    },
+    {
+      "subject": "Michael Kidd",
+      "object": "actor",
+      "subject_id": "Q1928195",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Fiona Russell Powell",
+      "object": "journalist",
+      "subject_id": "Q5451106",
+      "object_id": "Q1930187"
+    },
+    {
+      "subject": "Adam Rapacki",
+      "object": "diplomat",
+      "subject_id": "Q350681",
+      "object_id": "Q193391"
+    },
+    {
+      "subject": "Johannes Nucius",
+      "object": "composer",
+      "subject_id": "Q4328208",
+      "object_id": "Q36834"
+    },
+    {
+      "subject": "Giovanni Poleni",
+      "object": "mathematician",
+      "subject_id": "Q1230528",
+      "object_id": "Q170790"
+    },
+    {
+      "subject": "John Jacob Niles",
+      "object": "composer",
+      "subject_id": "Q4312433",
+      "object_id": "Q36834"
+    },
+    {
+      "subject": "Nils Strindberg",
+      "object": "photographer",
+      "subject_id": "Q1385654",
+      "object_id": "Q33231"
+    },
+    {
+      "subject": "Claude Corea",
+      "object": "diplomat",
+      "subject_id": "Q5128774",
+      "object_id": "Q193391"
+    },
+    {
+      "subject": "Obaidullah Aleem",
+      "object": "poet",
+      "subject_id": "Q7074588",
+      "object_id": "Q49757"
+    },
+    {
+      "subject": "Harris Allan",
+      "object": "actor",
+      "subject_id": "Q5042495",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Roland Pertwee",
+      "object": "actor",
+      "subject_id": "Q7360382",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Darius McCrary",
+      "object": "actor",
+      "subject_id": "Q712964",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Mathira",
+      "object": "actor",
+      "subject_id": "Q16211242",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "George Santayana",
+      "object": "novelist",
+      "subject_id": "Q237833",
+      "object_id": "Q6625963"
+    },
+    {
+      "subject": "Leonard Wood",
+      "object": "politician",
+      "subject_id": "Q887716",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Herb Greene",
+      "object": "photographer",
+      "subject_id": "Q5732965",
+      "object_id": "Q33231"
+    },
+    {
+      "subject": "Isabel Bassett",
+      "object": "politician",
+      "subject_id": "Q6077558",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Sean Nelson",
+      "object": "journalist",
+      "subject_id": "Q1637954",
+      "object_id": "Q1930187"
+    },
+    {
+      "subject": "Akira Emoto",
+      "object": "actor",
+      "subject_id": "Q873921",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Kether Donohue",
+      "object": "actor",
+      "subject_id": "Q6395392",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Frederick W. Seward",
+      "object": "politician",
+      "subject_id": "Q3087186",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "John Koethe",
+      "object": "poet",
+      "subject_id": "Q6243383",
+      "object_id": "Q49757"
+    },
+    {
+      "subject": "Stanley Lebowsky",
+      "object": "composer",
+      "subject_id": "Q7599745",
+      "object_id": "Q36834"
+    },
+    {
+      "subject": "Peter Early",
+      "object": "politician",
+      "subject_id": "Q2074623",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Raimundo Pereira",
+      "object": "politician",
+      "subject_id": "Q314538",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Carl Herold",
+      "object": "politician",
+      "subject_id": "Q1038805",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Jinpachi Nezu",
+      "object": "actor",
+      "subject_id": "Q6202728",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Erin Murphy",
+      "object": "actor",
+      "subject_id": "Q5389200",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "David Crockett",
+      "object": "politician",
+      "subject_id": "Q102896786",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Joel Barlow",
+      "object": "poet",
+      "subject_id": "Q723604",
+      "object_id": "Q49757"
+    },
+    {
+      "subject": "Noon Meem Danish",
+      "object": "poet",
+      "subject_id": "Q7049739",
+      "object_id": "Q49757"
+    },
+    {
+      "subject": "Biagio Marini",
+      "object": "composer",
+      "subject_id": "Q369787",
+      "object_id": "Q36834"
+    },
+    {
+      "subject": "Haim Corfu",
+      "object": "politician",
+      "subject_id": "N/A",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Ron Rash",
+      "object": "poet",
+      "subject_id": "Q2491621",
+      "object_id": "Q49757"
+    },
+    {
+      "subject": "Kamaal Khan",
+      "object": "actor",
+      "subject_id": "Q6355198",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Georgy Lvov",
+      "object": "politician",
+      "subject_id": "Q297032",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Lawrence Scott",
+      "object": "novelist",
+      "subject_id": "Q107980091",
+      "object_id": "Q6625963"
+    },
+    {
+      "subject": "Heinz Salfner",
+      "object": "actor",
+      "subject_id": "Q1600865",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Jacobo Zabludovsky",
+      "object": "journalist",
+      "subject_id": "Q1677736",
+      "object_id": "Q1930187"
+    },
+    {
+      "subject": "Ian Hanomansing",
+      "object": "journalist",
+      "subject_id": "Q3147274",
+      "object_id": "Q1930187"
+    },
+    {
+      "subject": "Giovanni Battista Guarini",
+      "object": "poet",
+      "subject_id": "Q108049348",
+      "object_id": "Q49757"
+    },
+    {
+      "subject": "Nikolai Myaskovsky",
+      "object": "composer",
+      "subject_id": "Q312778",
+      "object_id": "Q36834"
+    },
+    {
+      "subject": "Agostinho Neto",
+      "object": "poet",
+      "subject_id": "Q181665",
+      "object_id": "Q49757"
+    },
+    {
+      "subject": "Yoo So-young",
+      "object": "actor",
+      "subject_id": "Q621380",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Anna Neagle",
+      "object": "actor",
+      "subject_id": "Q433044",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Benedict Calvert, 4th Baron Baltimore",
+      "object": "politician",
+      "subject_id": "Q4887254",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Maxine Miller",
+      "object": "actor",
+      "subject_id": "Q6795988",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Gustave Kahn",
+      "object": "poet",
+      "subject_id": "Q462364",
+      "object_id": "Q49757"
+    },
+    {
+      "subject": "John Clayton Allen",
+      "object": "politician",
+      "subject_id": "Q6226301",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Christiane Noll",
+      "object": "actor",
+      "subject_id": "Q5110448",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Herbert Romulus O'Conor",
+      "object": "lawyer",
+      "subject_id": "N/A",
+      "object_id": "Q40348"
+    },
+    {
+      "subject": "Ron Grainer",
+      "object": "composer",
+      "subject_id": "Q320816",
+      "object_id": "Q36834"
+    },
+    {
+      "subject": "Karen Gillan",
+      "object": "actor",
+      "subject_id": "Q231237",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Paul Hedqvist",
+      "object": "architect",
+      "subject_id": "Q621197",
+      "object_id": "Q42973"
+    },
+    {
+      "subject": "Anna Louisa Karsch",
+      "object": "poet",
+      "subject_id": "Q469571",
+      "object_id": "Q49757"
+    },
+    {
+      "subject": "Gianfranco Terenzi",
+      "object": "politician",
+      "subject_id": "Q878336",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Peter Macdissi",
+      "object": "actor",
+      "subject_id": "Q7175583",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Erika Toda",
+      "object": "actor",
+      "subject_id": "Q1154775",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Michael William Balfe",
+      "object": "composer",
+      "subject_id": "Q434171",
+      "object_id": "Q36834"
+    },
+    {
+      "subject": "Roger Bowen",
+      "object": "actor",
+      "subject_id": "Q3438745",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Rodolfo Gambini",
+      "object": "physicist",
+      "subject_id": "Q1281950",
+      "object_id": "Q169470"
+    },
+    {
+      "subject": "Takuya Ōnishi",
+      "object": "astronaut",
+      "subject_id": "Q5975593",
+      "object_id": "Q11631"
+    },
+    {
+      "subject": "Fritzi Brunette",
+      "object": "actor",
+      "subject_id": "Q5505056",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Giovanni Maria Nanino",
+      "object": "composer",
+      "subject_id": "Q706287",
+      "object_id": "Q36834"
+    },
+    {
+      "subject": "Aristotle",
+      "object": "mathematician",
+      "subject_id": "Q84473023",
+      "object_id": "Q170790"
+    },
+    {
+      "subject": "Anders Fogh Rasmussen",
+      "object": "politician",
+      "subject_id": "Q46052",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "William Bowen Rowlands",
+      "object": "politician",
+      "subject_id": "Q14945676",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "James Craig Annan",
+      "object": "photographer",
+      "subject_id": "Q2138560",
+      "object_id": "Q33231"
+    },
+    {
+      "subject": "Teala Dunn",
+      "object": "actor",
+      "subject_id": "Q3404088",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "William Pember Reeves",
+      "object": "politician",
+      "subject_id": "Q2580230",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Shawn Fanning",
+      "object": "programmer",
+      "subject_id": "Q92633",
+      "object_id": "Q5482740"
+    },
+    {
+      "subject": "Bernard Vonnegut",
+      "object": "chemist",
+      "subject_id": "Q4124918",
+      "object_id": "Q593644"
+    },
+    {
+      "subject": "Jason Paige",
+      "object": "actor",
+      "subject_id": "Q6163217",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Simon Gosejohann",
+      "object": "actor",
+      "subject_id": "Q99064",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Naomi Shihab Nye",
+      "object": "poet",
+      "subject_id": "Q2896906",
+      "object_id": "Q49757"
+    },
+    {
+      "subject": "Nick Nolte",
+      "object": "actor",
+      "subject_id": "Q188018",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Cledwyn Hughes, Baron Cledwyn of Penrhos",
+      "object": "politician",
+      "subject_id": "Q333652",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "David Scarboro",
+      "object": "actor",
+      "subject_id": "Q5239519",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "John Adams Whipple",
+      "object": "photographer",
+      "subject_id": "Q1351738",
+      "object_id": "Q33231"
+    },
+    {
+      "subject": "Mayra Alejandra",
+      "object": "actor",
+      "subject_id": "Q3302600",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Michel Corrette",
+      "object": "composer",
+      "subject_id": "Q982378",
+      "object_id": "Q36834"
+    },
+    {
+      "subject": "Ctesias",
+      "object": "physician",
+      "subject_id": "Q296325",
+      "object_id": "Q39631"
+    },
+    {
+      "subject": "Andrei Bely",
+      "object": "poet",
+      "subject_id": "Q212632",
+      "object_id": "Q49757"
+    },
+    {
+      "subject": "Walter Dinsdale",
+      "object": "politician",
+      "subject_id": "Q14949554",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "John Boyle O'Reilly",
+      "object": "poet",
+      "subject_id": "Q12064924",
+      "object_id": "Q49757"
+    },
+    {
+      "subject": "Lucha Villa",
+      "object": "actor",
+      "subject_id": "Q6696561",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Barry Sobel",
+      "object": "actor",
+      "subject_id": "Q4864765",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Matthew Sharpe",
+      "object": "novelist",
+      "subject_id": "Q16741846",
+      "object_id": "Q6625963"
+    },
+    {
+      "subject": "Cigoli",
+      "object": "architect",
+      "subject_id": "Q928350",
+      "object_id": "Q42973"
+    },
+    {
+      "subject": "Maynard Sonntag",
+      "object": "politician",
+      "subject_id": "Q16244614",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Humberto Lay",
+      "object": "politician",
+      "subject_id": "Q3143212",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Paruyr Sevak",
+      "object": "poet",
+      "subject_id": "Q2395053",
+      "object_id": "Q49757"
+    },
+    {
+      "subject": "Robin Padilla",
+      "object": "actor",
+      "subject_id": "Q3543654",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Grace Chan",
+      "object": "actor",
+      "subject_id": "Q14941573",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Tracey Ross",
+      "object": "actor",
+      "subject_id": "Q7831266",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Howard Sounes",
+      "object": "journalist",
+      "subject_id": "Q3787242",
+      "object_id": "Q1930187"
+    },
+    {
+      "subject": "Ellen Dubin",
+      "object": "actor",
+      "subject_id": "Q527402",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Lawrence Hargrave",
+      "object": "astronomer",
+      "subject_id": "Q522744",
+      "object_id": "Q11063"
+    },
+    {
+      "subject": "Agnes Miegel",
+      "object": "journalist",
+      "subject_id": "Q67013",
+      "object_id": "Q1930187"
+    },
+    {
+      "subject": "Konrad Ekhof",
+      "object": "actor",
+      "subject_id": "Q215783",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Yanis Varoufakis",
+      "object": "economist",
+      "subject_id": "Q40688",
+      "object_id": "Q188094"
+    },
+    {
+      "subject": "Dudley R. Herschbach",
+      "object": "chemist",
+      "subject_id": "Q243196",
+      "object_id": "Q593644"
+    },
+    {
+      "subject": "Robert I. Soare",
+      "object": "mathematician",
+      "subject_id": "Q7345768",
+      "object_id": "Q170790"
+    },
+    {
+      "subject": "Evan Bayh",
+      "object": "politician",
+      "subject_id": "Q344930",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Henry Maudsley",
+      "object": "psychiatrist",
+      "subject_id": "Q2436868",
+      "object_id": "Q211346"
+    },
+    {
+      "subject": "Georgina Leonidas",
+      "object": "actor",
+      "subject_id": "Q271132",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Geoffrey Lehmann",
+      "object": "poet",
+      "subject_id": "Q5534740",
+      "object_id": "Q49757"
+    },
+    {
+      "subject": "Mikey North",
+      "object": "actor",
+      "subject_id": "Q6849466",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Daiki Arioka",
+      "object": "actor",
+      "subject_id": "Q26780",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Kim Sun-a",
+      "object": "actor",
+      "subject_id": "Q488864",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "David Weigel",
+      "object": "journalist",
+      "subject_id": "Q5240915",
+      "object_id": "Q1930187"
+    },
+    {
+      "subject": "Polina Gagarina",
+      "object": "actor",
+      "subject_id": "Q4131386",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Anu Choudhury",
+      "object": "actor",
+      "subject_id": "Q4777685",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "William S. Hart",
+      "object": "actor",
+      "subject_id": "Q636680",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Vanessa Ray",
+      "object": "actor",
+      "subject_id": "Q3554552",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Henri Dutrochet",
+      "object": "physician",
+      "subject_id": "Q1191107",
+      "object_id": "Q39631"
+    },
+    {
+      "subject": "Edmond Panariti",
+      "object": "politician",
+      "subject_id": "Q2783028",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Barbara Farrell Vucanovich",
+      "object": "politician",
+      "subject_id": "Q525363",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "George Bennard",
+      "object": "composer",
+      "subject_id": "Q5536895",
+      "object_id": "Q36834"
+    },
+    {
+      "subject": "Jessica Harper",
+      "object": "actor",
+      "subject_id": "Q469866",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Carolyn Conwell",
+      "object": "actor",
+      "subject_id": "Q3043519",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Theodor Rosetti",
+      "object": "politician",
+      "subject_id": "Q928939",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Daniel D. Tompkins",
+      "object": "politician",
+      "subject_id": "Q223545",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Giacinto Andrea Cicognini",
+      "object": "poet",
+      "subject_id": "Q653588",
+      "object_id": "Q49757"
+    },
+    {
+      "subject": "Maurice Duverger",
+      "object": "politician",
+      "subject_id": "Q380297",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Philip Warren Anderson",
+      "object": "physicist",
+      "subject_id": "N/A",
+      "object_id": "Q169470"
+    },
+    {
+      "subject": "Joseph Shivers",
+      "object": "chemist",
+      "subject_id": "Q6286978",
+      "object_id": "Q593644"
+    },
+    {
+      "subject": "J. B. Priestley",
+      "object": "novelist",
+      "subject_id": "Q443528",
+      "object_id": "Q6625963"
+    },
+    {
+      "subject": "Alberto Prebisch",
+      "object": "architect",
+      "subject_id": "Q960240",
+      "object_id": "Q42973"
+    },
+    {
+      "subject": "Graham Linehan",
+      "object": "actor",
+      "subject_id": "Q947387",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Paul Hellyer",
+      "object": "politician",
+      "subject_id": "Q107109437",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Bob Uecker",
+      "object": "actor",
+      "subject_id": "Q888295",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Conchita Montenegro",
+      "object": "actor",
+      "subject_id": "Q2991961",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Shlomo Hillel",
+      "object": "diplomat",
+      "subject_id": "Q1719051",
+      "object_id": "Q193391"
+    },
+    {
+      "subject": "Mary Carlisle",
+      "object": "actor",
+      "subject_id": "Q718786",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Anne Simpson",
+      "object": "novelist",
+      "subject_id": "Q109797993",
+      "object_id": "Q6625963"
+    },
+    {
+      "subject": "Herbert Leon",
+      "object": "politician",
+      "subject_id": "Q11800672",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "William Jennings Bryan",
+      "object": "politician",
+      "subject_id": "Q205282",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Pearse Doherty",
+      "object": "politician",
+      "subject_id": "Q248784",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Yitzhak Levy",
+      "object": "rabbi",
+      "subject_id": "N/A",
+      "object_id": "Q133485"
+    },
+    {
+      "subject": "Gargi Roychowdhury",
+      "object": "actor",
+      "subject_id": "Q17332332",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Juliet Ibrahim",
+      "object": "actor",
+      "subject_id": "Q6308875",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Haruko Sugimura",
+      "object": "actor",
+      "subject_id": "N/A",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Henny Moan",
+      "object": "actor",
+      "subject_id": "Q4967637",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Moses ben Joshua",
+      "object": "philosopher",
+      "subject_id": "Q1852000",
+      "object_id": "Q4964182"
+    },
+    {
+      "subject": "Carlo Lizzani",
+      "object": "actor",
+      "subject_id": "Q26208",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Guy Doleman",
+      "object": "actor",
+      "subject_id": "Q1557469",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Alfonso Fontanelli",
+      "object": "diplomat",
+      "subject_id": "Q2062267",
+      "object_id": "Q193391"
+    },
+    {
+      "subject": "Tariq Saleh",
+      "object": "journalist",
+      "subject_id": "Q7686185",
+      "object_id": "Q1930187"
+    },
+    {
+      "subject": "Charles H. Goode",
+      "object": "politician",
+      "subject_id": "N/A",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Mia Freedman",
+      "object": "journalist",
+      "subject_id": "Q4139958",
+      "object_id": "Q1930187"
+    },
+    {
+      "subject": "John Rentoul",
+      "object": "journalist",
+      "subject_id": "Q6254629",
+      "object_id": "Q1930187"
+    },
+    {
+      "subject": "Sir William Hart Dyke, 7th Baronet",
+      "object": "politician",
+      "subject_id": "Q13529930",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Thomas W. Knox",
+      "object": "journalist",
+      "subject_id": "Q7794762",
+      "object_id": "Q1930187"
+    },
+    {
+      "subject": "Nureddin Pasha",
+      "object": "politician",
+      "subject_id": "Q982721",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Heath Ledger",
+      "object": "actor",
+      "subject_id": "Q40572",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Virginia Wetherell",
+      "object": "actor",
+      "subject_id": "Q7934660",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Mori Arinori",
+      "object": "diplomat",
+      "subject_id": "Q1194472",
+      "object_id": "Q193391"
+    },
+    {
+      "subject": "Pirkka-Pekka Petelius",
+      "object": "actor",
+      "subject_id": "Q7198031",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Marti Emerald",
+      "object": "journalist",
+      "subject_id": "Q6774672",
+      "object_id": "Q1930187"
+    },
+    {
+      "subject": "Carla Camurati",
+      "object": "actor",
+      "subject_id": "Q1789937",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Rob Owen",
+      "object": "journalist",
+      "subject_id": "Q107106793",
+      "object_id": "Q1930187"
+    },
+    {
+      "subject": "John McCririck",
+      "object": "journalist",
+      "subject_id": "Q7069458",
+      "object_id": "Q1930187"
+    },
+    {
+      "subject": "Jean Henri van Swinden",
+      "object": "mathematician",
+      "subject_id": "Q513159",
+      "object_id": "Q170790"
+    },
+    {
+      "subject": "Sekhar Menon",
+      "object": "actor",
+      "subject_id": "Q7447162",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Sue Lyon",
+      "object": "actor",
+      "subject_id": "Q436722",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "James E. Ferguson",
+      "object": "politician",
+      "subject_id": "Q887077",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Henry Jackman",
+      "object": "composer",
+      "subject_id": "Q1356888",
+      "object_id": "Q36834"
+    },
+    {
+      "subject": "Varsha Bhosle",
+      "object": "journalist",
+      "subject_id": "Q2216799",
+      "object_id": "Q1930187"
+    },
+    {
+      "subject": "Margarete Schlegel",
+      "object": "actor",
+      "subject_id": "Q104699",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Hans Driesch",
+      "object": "philosopher",
+      "subject_id": "N/A",
+      "object_id": "Q4964182"
+    },
+    {
+      "subject": "Lucio Fulci",
+      "object": "actor",
+      "subject_id": "Q345217",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Nolan Gerard Funk",
+      "object": "actor",
+      "subject_id": "Q763546",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Hermann Hagedorn",
+      "object": "poet",
+      "subject_id": "Q1611358",
+      "object_id": "Q49757"
+    },
+    {
+      "subject": "Leopold Gratz",
+      "object": "politician",
+      "subject_id": "Q78999",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Michael Penn",
+      "object": "actor",
+      "subject_id": "Q102380557",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Jacobo Ficher",
+      "object": "composer",
+      "subject_id": "Q776756",
+      "object_id": "Q36834"
+    },
+    {
+      "subject": "Murad Velshi",
+      "object": "politician",
+      "subject_id": "Q6937211",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Francis Stuart",
+      "object": "novelist",
+      "subject_id": "Q5482528",
+      "object_id": "Q6625963"
+    },
+    {
+      "subject": "Grigore Gafencu",
+      "object": "diplomat",
+      "subject_id": "Q521249",
+      "object_id": "Q193391"
+    },
+    {
+      "subject": "Hamdeen Sabahi",
+      "object": "politician",
+      "subject_id": "Q1400040",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Harlan Carey Brewster",
+      "object": "politician",
+      "subject_id": "Q1473329",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Jef Gaitan",
+      "object": "actor",
+      "subject_id": "Q12965224",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Augusto Boal",
+      "object": "politician",
+      "subject_id": "Q434805",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Roger Pigaut",
+      "object": "actor",
+      "subject_id": "Q2499406",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Emmanuel Chabrier",
+      "object": "composer",
+      "subject_id": "Q313374",
+      "object_id": "Q36834"
+    },
+    {
+      "subject": "Anya Lahiri",
+      "object": "actor",
+      "subject_id": "Q517576",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Leila Schneps",
+      "object": "mathematician",
+      "subject_id": "Q15915722",
+      "object_id": "Q170790"
+    },
+    {
+      "subject": "Mullanezhi",
+      "object": "actor",
+      "subject_id": "Q6934146",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Bertold Hummel",
+      "object": "composer",
+      "subject_id": "Q561080",
+      "object_id": "Q36834"
+    },
+    {
+      "subject": "Bombay Jayashri",
+      "object": "composer",
+      "subject_id": "Q3519929",
+      "object_id": "Q36834"
+    },
+    {
+      "subject": "Beth Ostrosky Stern",
+      "object": "actor",
+      "subject_id": "Q4897608",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Michelangelo",
+      "object": "poet",
+      "subject_id": "Q5592",
+      "object_id": "Q49757"
+    },
+    {
+      "subject": "Reginald Fox",
+      "object": "actor",
+      "subject_id": "Q7308701",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Geraldine McNulty",
+      "object": "actor",
+      "subject_id": "Q5549771",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Adelaide Crapsey",
+      "object": "poet",
+      "subject_id": "Q4681702",
+      "object_id": "Q49757"
+    },
+    {
+      "subject": "Clive Granger",
+      "object": "economist",
+      "subject_id": "Q312575",
+      "object_id": "Q188094"
+    },
+    {
+      "subject": "Patricia Idlette",
+      "object": "actor",
+      "subject_id": "Q3897700",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Anne Watanabe",
+      "object": "actor",
+      "subject_id": "Q1055604",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Rory O'Hanlon",
+      "object": "politician",
+      "subject_id": "Q1802106",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Ervin Marton",
+      "object": "photographer",
+      "subject_id": "Q5396042",
+      "object_id": "Q33231"
+    },
+    {
+      "subject": "Madhuri Dixit",
+      "object": "actor",
+      "subject_id": "Q232451",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Noriyuki Higashiyama",
+      "object": "actor",
+      "subject_id": "Q1036665",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Viktor Uspaskich",
+      "object": "politician",
+      "subject_id": "Q1361333",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Alisa Reyes",
+      "object": "actor",
+      "subject_id": "Q3543736",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Tom Terriss",
+      "object": "actor",
+      "subject_id": "Q720612",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Femi Jacobs",
+      "object": "actor",
+      "subject_id": "Q16879447",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Maurice Nicoll",
+      "object": "psychiatrist",
+      "subject_id": "Q3301207",
+      "object_id": "Q211346"
+    },
+    {
+      "subject": "Ruggero Settimo",
+      "object": "politician",
+      "subject_id": "Q332756",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Louis Racine",
+      "object": "poet",
+      "subject_id": "Q1227748",
+      "object_id": "Q49757"
+    },
+    {
+      "subject": "Michael Healy-Rae",
+      "object": "politician",
+      "subject_id": "Q6831036",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Tony Pua",
+      "object": "politician",
+      "subject_id": "Q7823217",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Lou Reed",
+      "object": "photographer",
+      "subject_id": "Q189080",
+      "object_id": "Q33231"
+    },
+    {
+      "subject": "Whitney Houston",
+      "object": "composer",
+      "subject_id": "Q34389",
+      "object_id": "Q36834"
+    },
+    {
+      "subject": "Mat Fraser",
+      "object": "actor",
+      "subject_id": "Q21621317",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Kazys Lozoraitis",
+      "object": "diplomat",
+      "subject_id": "Q2334430",
+      "object_id": "Q193391"
+    },
+    {
+      "subject": "Emily Barton",
+      "object": "novelist",
+      "subject_id": "Q76317641",
+      "object_id": "Q6625963"
+    },
+    {
+      "subject": "Nida Blanca",
+      "object": "actor",
+      "subject_id": "Q1834571",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Edward Frankland",
+      "object": "chemist",
+      "subject_id": "Q361386",
+      "object_id": "Q593644"
+    },
+    {
+      "subject": "Dr. Rajasekhar",
+      "object": "actor",
+      "subject_id": "Q5304338",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Chris Brochu",
+      "object": "actor",
+      "subject_id": "Q980662",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Sivaramakrishna Chandrasekhar",
+      "object": "physicist",
+      "subject_id": "Q205782",
+      "object_id": "Q169470"
+    },
+    {
+      "subject": "George Washington Julian",
+      "object": "politician",
+      "subject_id": "Q1508542",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Cheryl Tiegs",
+      "object": "actor",
+      "subject_id": "Q2408009",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Shungicu Uchida",
+      "object": "novelist",
+      "subject_id": "Q3081347",
+      "object_id": "Q6625963"
+    },
+    {
+      "subject": "Ian Khama",
+      "object": "politician",
+      "subject_id": "Q57449",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Charles Kaiser",
+      "object": "journalist",
+      "subject_id": "Q5079668",
+      "object_id": "Q1930187"
+    },
+    {
+      "subject": "Rannvijay Singh",
+      "object": "actor",
+      "subject_id": "Q7293410",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Felix Salmon",
+      "object": "journalist",
+      "subject_id": "Q5442323",
+      "object_id": "Q1930187"
+    },
+    {
+      "subject": "Adrian Lewis Morgan",
+      "object": "actor",
+      "subject_id": "Q4685181",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Jonathan Kwitny",
+      "object": "journalist",
+      "subject_id": "Q6273613",
+      "object_id": "Q1930187"
+    },
+    {
+      "subject": "Morris McGregor",
+      "object": "politician",
+      "subject_id": "Q6913807",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Patricia Haines",
+      "object": "actor",
+      "subject_id": "Q7145614",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Giorgio Tuinfort",
+      "object": "composer",
+      "subject_id": "Q15501035",
+      "object_id": "Q36834"
+    },
+    {
+      "subject": "Sarah Vandenbergh",
+      "object": "actor",
+      "subject_id": "Q7422859",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Oswald Ottendorfer",
+      "object": "journalist",
+      "subject_id": "Q2119617",
+      "object_id": "Q1930187"
+    },
+    {
+      "subject": "Gerald Kyd",
+      "object": "actor",
+      "subject_id": "Q5549308",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Robert Rusler",
+      "object": "actor",
+      "subject_id": "Q687218",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Jack Huston",
+      "object": "actor",
+      "subject_id": "Q1190693",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Aleksandr Solzhenitsyn",
+      "object": "poet",
+      "subject_id": "Q34474",
+      "object_id": "Q49757"
+    },
+    {
+      "subject": "Jeanne Coyne",
+      "object": "actor",
+      "subject_id": "Q6172052",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Tomomi Inada",
+      "object": "politician",
+      "subject_id": "Q1654408",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Anton Walter",
+      "object": "composer",
+      "subject_id": "Q85633",
+      "object_id": "Q36834"
+    },
+    {
+      "subject": "David McIlwraith",
+      "object": "actor",
+      "subject_id": "Q5237377",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Thomas de Waal",
+      "object": "journalist",
+      "subject_id": "Q1031880",
+      "object_id": "Q1930187"
+    },
+    {
+      "subject": "Jeremy Allen White",
+      "object": "actor",
+      "subject_id": "Q1411012",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Benjamin Fondane",
+      "object": "philosopher",
+      "subject_id": "Q817484",
+      "object_id": "Q4964182"
+    },
+    {
+      "subject": "Henry Brassey",
+      "object": "politician",
+      "subject_id": "Q5718544",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Ignaz Paul Vital Troxler",
+      "object": "politician",
+      "subject_id": "Q686050",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Claudine Clark",
+      "object": "composer",
+      "subject_id": "Q1097945",
+      "object_id": "Q36834"
+    },
+    {
+      "subject": "Karl Taylor Compton",
+      "object": "physicist",
+      "subject_id": "Q1349042",
+      "object_id": "Q169470"
+    },
+    {
+      "subject": "Jean-Joseph Rabéarivelo",
+      "object": "poet",
+      "subject_id": "Q671601",
+      "object_id": "Q49757"
+    },
+    {
+      "subject": "Edward Braddon",
+      "object": "politician",
+      "subject_id": "Q5341989",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Amber Gurung",
+      "object": "composer",
+      "subject_id": "Q4741248",
+      "object_id": "Q36834"
+    },
+    {
+      "subject": "Desi Arnaz, Jr.",
+      "object": "actor",
+      "subject_id": "Q324882",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Guy Babylon",
+      "object": "composer",
+      "subject_id": "Q1203911",
+      "object_id": "Q36834"
+    },
+    {
+      "subject": "H. P. Lovecraft",
+      "object": "journalist",
+      "subject_id": "Q169566",
+      "object_id": "Q1930187"
+    },
+    {
+      "subject": "Janet Jackson",
+      "object": "model",
+      "subject_id": "Q131324",
+      "object_id": "Q4610556"
+    },
+    {
+      "subject": "John Fortune",
+      "object": "comedian",
+      "subject_id": "Q6233721",
+      "object_id": "Q245068"
+    },
+    {
+      "subject": "Jean-Louis Tixier-Vignancour",
+      "object": "politician",
+      "subject_id": "Q364377",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Abrar Alvi",
+      "object": "actor",
+      "subject_id": "Q331172",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Danielle Winits",
+      "object": "actor",
+      "subject_id": "Q3015074",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Leyla Saz",
+      "object": "poet",
+      "subject_id": "Q545441",
+      "object_id": "Q49757"
+    },
+    {
+      "subject": "Lupita Tovar",
+      "object": "actor",
+      "subject_id": "Q464479",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Andrea Byrne",
+      "object": "journalist",
+      "subject_id": "Q4754994",
+      "object_id": "Q1930187"
+    },
+    {
+      "subject": "Peret",
+      "object": "composer",
+      "subject_id": "Q1388730",
+      "object_id": "Q36834"
+    },
+    {
+      "subject": "Boris Tchaikovsky",
+      "object": "composer",
+      "subject_id": "Q893609",
+      "object_id": "Q36834"
+    },
+    {
+      "subject": "Marion Post Wolcott",
+      "object": "photographer",
+      "subject_id": "Q436687",
+      "object_id": "Q33231"
+    },
+    {
+      "subject": "Alexander Wittek",
+      "object": "architect",
+      "subject_id": "Q113113",
+      "object_id": "Q42973"
+    },
+    {
+      "subject": "Montserrat Lombard",
+      "object": "actor",
+      "subject_id": "Q617450",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Claude Antoine Dacosta",
+      "object": "politician",
+      "subject_id": "Q1096417",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Nikolaj Frederik Severin Grundtvig",
+      "object": "poet",
+      "subject_id": "Q331893",
+      "object_id": "Q49757"
+    },
+    {
+      "subject": "Rick Genest",
+      "object": "actor",
+      "subject_id": "Q965951",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Raymond Radiguet",
+      "object": "novelist",
+      "subject_id": "Q333615",
+      "object_id": "Q6625963"
+    },
+    {
+      "subject": "Francis Conyngham, 2nd Marquess Conyngham",
+      "object": "politician",
+      "subject_id": "Q5480600",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Jourdan Miller",
+      "object": "model",
+      "subject_id": "Q15214868",
+      "object_id": "Q4610556"
+    },
+    {
+      "subject": "Melinda Kinnaman",
+      "object": "actor",
+      "subject_id": "Q4958871",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Bobby Andrews",
+      "object": "actor",
+      "subject_id": "Q3544731",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Mitr Chaibancha",
+      "object": "actor",
+      "subject_id": "Q4922841",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Carlo Rosselli",
+      "object": "journalist",
+      "subject_id": "Q611927",
+      "object_id": "Q1930187"
+    },
+    {
+      "subject": "Charles James Mathews",
+      "object": "actor",
+      "subject_id": "Q5079446",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Karl Hampton",
+      "object": "politician",
+      "subject_id": "Q6371886",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Kim Kye-gwan",
+      "object": "diplomat",
+      "subject_id": "Q705194",
+      "object_id": "Q193391"
+    },
+    {
+      "subject": "Sabahattin Ali",
+      "object": "novelist",
+      "subject_id": "Q982838",
+      "object_id": "Q6625963"
+    },
+    {
+      "subject": "Moammar Rana",
+      "object": "actor",
+      "subject_id": "Q6886381",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Steven Mercurio",
+      "object": "composer",
+      "subject_id": "Q7615051",
+      "object_id": "Q36834"
+    },
+    {
+      "subject": "Audrey Wise",
+      "object": "politician",
+      "subject_id": "Q4820193",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Christian Darnton",
+      "object": "composer",
+      "subject_id": "Q1079243",
+      "object_id": "Q36834"
+    },
+    {
+      "subject": "Hjalmar Welhaven",
+      "object": "architect",
+      "subject_id": "Q5873195",
+      "object_id": "Q42973"
+    },
+    {
+      "subject": "William Averell Harriman",
+      "object": "politician",
+      "subject_id": "N/A",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Shruti Sharma",
+      "object": "actor",
+      "subject_id": "Q65584746",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Michie Mee",
+      "object": "actor",
+      "subject_id": "Q3856888",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Don Hannah",
+      "object": "novelist",
+      "subject_id": "Q5292737",
+      "object_id": "Q6625963"
+    },
+    {
+      "subject": "Annie Proulx",
+      "object": "novelist",
+      "subject_id": "Q229840",
+      "object_id": "Q6625963"
+    },
+    {
+      "subject": "Martha Nussbaum",
+      "object": "philosopher",
+      "subject_id": "Q235470",
+      "object_id": "Q4964182"
+    },
+    {
+      "subject": "John Crewe, 1st Baron Crewe",
+      "object": "politician",
+      "subject_id": "Q6227616",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Rob Gifford",
+      "object": "journalist",
+      "subject_id": "Q7340152",
+      "object_id": "Q1930187"
+    },
+    {
+      "subject": "A. Edward Sutherland",
+      "object": "actor",
+      "subject_id": "Q278657",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Marpessa Dawn",
+      "object": "actor",
+      "subject_id": "Q535841",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Crawford Williamson Long",
+      "object": "surgeon",
+      "subject_id": "Q248037",
+      "object_id": "Q774306"
+    },
+    {
+      "subject": "Kikunae Ikeda",
+      "object": "chemist",
+      "subject_id": "Q380575",
+      "object_id": "Q593644"
+    },
+    {
+      "subject": "Oskar Lafontaine",
+      "object": "politician",
+      "subject_id": "Q110719",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Nicolle Dickson",
+      "object": "actor",
+      "subject_id": "Q597350",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Joe Malloori",
+      "object": "actor",
+      "subject_id": "Q16731883",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Philip Ahn",
+      "object": "actor",
+      "subject_id": "Q1321739",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Huo Guang",
+      "object": "politician",
+      "subject_id": "Q1193185",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Michael Dorn",
+      "object": "actor",
+      "subject_id": "Q316955",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Ennio Girolami",
+      "object": "actor",
+      "subject_id": "Q3725484",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Jung Ryeo-won",
+      "object": "actor",
+      "subject_id": "Q487861",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Emad Hamdy",
+      "object": "actor",
+      "subject_id": "Q4164786",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Richard Brauer",
+      "object": "mathematician",
+      "subject_id": "Q65201",
+      "object_id": "Q170790"
+    },
+    {
+      "subject": "Dhanush",
+      "object": "actor",
+      "subject_id": "Q331050",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Ken Murray",
+      "object": "actor",
+      "subject_id": "Q122335",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Peter Jason",
+      "object": "actor",
+      "subject_id": "Q2076016",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Ryu Hyeon-kyeong",
+      "object": "actor",
+      "subject_id": "N/A",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Wilhelm Marx",
+      "object": "politician",
+      "subject_id": "Q77183",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Colleen Zenk Pinter",
+      "object": "actor",
+      "subject_id": "Q5034036",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Maheswari",
+      "object": "actor",
+      "subject_id": "Q123608280",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Egon Brunswik",
+      "object": "psychologist",
+      "subject_id": "Q875629",
+      "object_id": "Q212980"
+    },
+    {
+      "subject": "Hauk Aabel",
+      "object": "actor",
+      "subject_id": "Q3354983",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Charles Gwathmey",
+      "object": "architect",
+      "subject_id": "Q177256",
+      "object_id": "Q42973"
+    },
+    {
+      "subject": "Steve Hughes",
+      "object": "comedian",
+      "subject_id": "Q2128025",
+      "object_id": "Q245068"
+    },
+    {
+      "subject": "Ciara",
+      "object": "actor",
+      "subject_id": "Q203223",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Roberto Gerhard",
+      "object": "composer",
+      "subject_id": "N/A",
+      "object_id": "Q36834"
+    },
+    {
+      "subject": "Karle Warren",
+      "object": "actor",
+      "subject_id": "Q546408",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Miltos Sachtouris",
+      "object": "poet",
+      "subject_id": "Q472514",
+      "object_id": "Q49757"
+    },
+    {
+      "subject": "Reza Baraheni",
+      "object": "novelist",
+      "subject_id": "Q3098537",
+      "object_id": "Q6625963"
+    },
+    {
+      "subject": "Janet Gunn",
+      "object": "actor",
+      "subject_id": "Q4133319",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Rosie Malek-Yonan",
+      "object": "actor",
+      "subject_id": "Q2672932",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "James Reese Europe",
+      "object": "composer",
+      "subject_id": "Q1280917",
+      "object_id": "Q36834"
+    },
+    {
+      "subject": "Thomas Troelsen",
+      "object": "composer",
+      "subject_id": "Q3121425",
+      "object_id": "Q36834"
+    },
+    {
+      "subject": "Nuri as-Said",
+      "object": "politician",
+      "subject_id": "Q381150",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Isidore de Lara",
+      "object": "composer",
+      "subject_id": "Q971436",
+      "object_id": "Q36834"
+    },
+    {
+      "subject": "Paul Kehoe",
+      "object": "politician",
+      "subject_id": "Q107156995",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Gedeon Burkhard",
+      "object": "actor",
+      "subject_id": "Q57686",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Aldo Fiorelli",
+      "object": "actor",
+      "subject_id": "Q3609210",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Craig Charles",
+      "object": "comedian",
+      "subject_id": "Q3395392",
+      "object_id": "Q245068"
+    },
+    {
+      "subject": "Ernst von Possart",
+      "object": "actor",
+      "subject_id": "Q214930",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Anthony Cannella",
+      "object": "politician",
+      "subject_id": "Q4772211",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Rajakokila",
+      "object": "actor",
+      "subject_id": "Q17581446",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Walter Hines Page",
+      "object": "journalist",
+      "subject_id": "Q1428445",
+      "object_id": "Q1930187"
+    },
+    {
+      "subject": "Vic Sotto",
+      "object": "comedian",
+      "subject_id": "Q3543507",
+      "object_id": "Q245068"
+    },
+    {
+      "subject": "Harshika Poonacha",
+      "object": "actor",
+      "subject_id": "Q5673877",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Yakubu Gowon",
+      "object": "politician",
+      "subject_id": "Q354695",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Dude Harlino",
+      "object": "actor",
+      "subject_id": "Q5311699",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Lillian Leighton",
+      "object": "actor",
+      "subject_id": "Q3240904",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Helen Lederer",
+      "object": "comedian",
+      "subject_id": "Q5702657",
+      "object_id": "Q245068"
+    },
+    {
+      "subject": "Frank Knox",
+      "object": "politician",
+      "subject_id": "Q526220",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Hiroshi Hase",
+      "object": "politician",
+      "subject_id": "Q3136350",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Kinuyo Tanaka",
+      "object": "actor",
+      "subject_id": "Q263104",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Dimitris Horn",
+      "object": "actor",
+      "subject_id": "Q1226025",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Charmaine Sheh",
+      "object": "actor",
+      "subject_id": "Q2316321",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Steven Hartley",
+      "object": "actor",
+      "subject_id": "Q2677094",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Anwan Glover",
+      "object": "actor",
+      "subject_id": "Q4778001",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Louis Moreau Gottschalk",
+      "object": "composer",
+      "subject_id": "Q550701",
+      "object_id": "Q36834"
+    },
+    {
+      "subject": "Diablo Cody",
+      "object": "journalist",
+      "subject_id": "Q230795",
+      "object_id": "Q1930187"
+    },
+    {
+      "subject": "Suzanne Roberts",
+      "object": "photographer",
+      "subject_id": "Q89471684",
+      "object_id": "Q33231"
+    },
+    {
+      "subject": "Akshay Kumar Boral",
+      "object": "poet",
+      "subject_id": "Q4701812",
+      "object_id": "Q49757"
+    },
+    {
+      "subject": "Valentino Bucchi",
+      "object": "composer",
+      "subject_id": "Q368071",
+      "object_id": "Q36834"
+    },
+    {
+      "subject": "Lynne Carol",
+      "object": "actor",
+      "subject_id": "Q6709334",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Joseph Evans Sperry",
+      "object": "architect",
+      "subject_id": "Q16030105",
+      "object_id": "Q42973"
+    },
+    {
+      "subject": "Bec Hewitt",
+      "object": "actor",
+      "subject_id": "Q436546",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Linda Marlowe",
+      "object": "actor",
+      "subject_id": "Q6551796",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Laurent Lafforgue",
+      "object": "mathematician",
+      "subject_id": "Q315396",
+      "object_id": "Q170790"
+    },
+    {
+      "subject": "Michael Kimball",
+      "object": "novelist",
+      "subject_id": "Q113825838",
+      "object_id": "Q6625963"
+    },
+    {
+      "subject": "Daniel Showalter",
+      "object": "politician",
+      "subject_id": "Q102653850",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "George Pitt, 1st Baron Rivers",
+      "object": "diplomat",
+      "subject_id": "Q5543447",
+      "object_id": "Q193391"
+    },
+    {
+      "subject": "Antonio Negri",
+      "object": "economist",
+      "subject_id": "Q310341",
+      "object_id": "Q188094"
+    },
+    {
+      "subject": "Philoxenus of Cythera",
+      "object": "poet",
+      "subject_id": "Q138664",
+      "object_id": "Q49757"
+    },
+    {
+      "subject": "Berry Berenson",
+      "object": "actor",
+      "subject_id": "Q1288128",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Peter Bergman",
+      "object": "actor",
+      "subject_id": "Q7172792",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Steve Edge",
+      "object": "actor",
+      "subject_id": "Q7612456",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Josephine Mitchell",
+      "object": "actor",
+      "subject_id": "Q72801165",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Anton Fier",
+      "object": "composer",
+      "subject_id": "Q589313",
+      "object_id": "Q36834"
+    },
+    {
+      "subject": "Christopher Guest",
+      "object": "comedian",
+      "subject_id": "Q336074",
+      "object_id": "Q245068"
+    },
+    {
+      "subject": "Stephen Colbert",
+      "object": "journalist",
+      "subject_id": "Q212886",
+      "object_id": "Q1930187"
+    },
+    {
+      "subject": "Jancee Dunn",
+      "object": "journalist",
+      "subject_id": "Q13473716",
+      "object_id": "Q1930187"
+    },
+    {
+      "subject": "Barbara Leigh",
+      "object": "actor",
+      "subject_id": "Q4859089",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Karl-Theodor zu Guttenberg",
+      "object": "politician",
+      "subject_id": "Q76924",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Habakkuk",
+      "object": "prophet",
+      "subject_id": "Q135106",
+      "object_id": "Q37565187"
+    },
+    {
+      "subject": "Stafford Cripps",
+      "object": "politician",
+      "subject_id": "Q332405",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Davey Lee",
+      "object": "actor",
+      "subject_id": "Q1173432",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Ulf Lundell",
+      "object": "composer",
+      "subject_id": "Q713270",
+      "object_id": "Q36834"
+    },
+    {
+      "subject": "Willem de Sitter",
+      "object": "physicist",
+      "subject_id": "Q313059",
+      "object_id": "Q169470"
+    },
+    {
+      "subject": "Kevin Norton",
+      "object": "composer",
+      "subject_id": "Q58973935",
+      "object_id": "Q36834"
+    },
+    {
+      "subject": "Hilary Putnam",
+      "object": "philosopher",
+      "subject_id": "Q221697",
+      "object_id": "Q4964182"
+    },
+    {
+      "subject": "Beatrice Hutton",
+      "object": "architect",
+      "subject_id": "Q100326033",
+      "object_id": "Q42973"
+    },
+    {
+      "subject": "David L. Lawrence",
+      "object": "politician",
+      "subject_id": "Q203275",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Robert C. Frasure",
+      "object": "diplomat",
+      "subject_id": "Q3435150",
+      "object_id": "Q193391"
+    },
+    {
+      "subject": "Suzanne Virdee",
+      "object": "journalist",
+      "subject_id": "Q7650986",
+      "object_id": "Q1930187"
+    },
+    {
+      "subject": "Lee Hyori",
+      "object": "actor",
+      "subject_id": "Q232491",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Martin Burrell",
+      "object": "politician",
+      "subject_id": "Q6775090",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Joseph Cowen",
+      "object": "politician",
+      "subject_id": "Q5612667",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Joyce Steele",
+      "object": "politician",
+      "subject_id": "Q6297633",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Georges Aperghis",
+      "object": "composer",
+      "subject_id": "Q1355279",
+      "object_id": "Q36834"
+    },
+    {
+      "subject": "Robert d'Escourt Atkinson",
+      "object": "astronomer",
+      "subject_id": "Q581084",
+      "object_id": "Q11063"
+    },
+    {
+      "subject": "Edward Burtynsky",
+      "object": "photographer",
+      "subject_id": "Q967163",
+      "object_id": "Q33231"
+    },
+    {
+      "subject": "Hugo Stiglitz",
+      "object": "actor",
+      "subject_id": "Q952730",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Philip Wharton, 4th Baron Wharton",
+      "object": "diplomat",
+      "subject_id": "Q303401",
+      "object_id": "Q193391"
+    },
+    {
+      "subject": "Peter McCardle",
+      "object": "politician",
+      "subject_id": "Q7175745",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Jan Tennant",
+      "object": "journalist",
+      "subject_id": "Q6150056",
+      "object_id": "Q1930187"
+    },
+    {
+      "subject": "Jeff Beal",
+      "object": "composer",
+      "subject_id": "Q454188",
+      "object_id": "Q36834"
+    },
+    {
+      "subject": "Susannah Harker",
+      "object": "actor",
+      "subject_id": "Q265452",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Michel Houellebecq",
+      "object": "poet",
+      "subject_id": "Q103114",
+      "object_id": "Q49757"
+    },
+    {
+      "subject": "Wan Azizah Wan Ismail",
+      "object": "politician",
+      "subject_id": "Q468579",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Samuel Fessenden",
+      "object": "politician",
+      "subject_id": "Q7411372",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Dave Darling",
+      "object": "composer",
+      "subject_id": "Q5228638",
+      "object_id": "Q36834"
+    },
+    {
+      "subject": "Li Zhaoxing",
+      "object": "diplomat",
+      "subject_id": "Q463697",
+      "object_id": "Q193391"
+    },
+    {
+      "subject": "Moshe Levinger",
+      "object": "rabbi",
+      "subject_id": "Q328515",
+      "object_id": "Q133485"
+    },
+    {
+      "subject": "Jay Mohr",
+      "object": "actor",
+      "subject_id": "Q492321",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Michael McKell",
+      "object": "actor",
+      "subject_id": "Q6832732",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Jim Grimsley",
+      "object": "novelist",
+      "subject_id": "Q595717",
+      "object_id": "Q6625963"
+    },
+    {
+      "subject": "John Danvers",
+      "object": "politician",
+      "subject_id": "Q6228548",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Sadhu Kokila",
+      "object": "actor",
+      "subject_id": "Q7397871",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Wang Lequan",
+      "object": "politician",
+      "subject_id": "Q715990",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Ann Bell",
+      "object": "actor",
+      "subject_id": "Q4766268",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Phong Bui",
+      "object": "curator",
+      "subject_id": "Q7187235",
+      "object_id": "Q674426"
+    },
+    {
+      "subject": "Pallavi Kulkarni",
+      "object": "actor",
+      "subject_id": "Q7127775",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Friedrich Akel",
+      "object": "politician",
+      "subject_id": "Q571670",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Paul Mercurio",
+      "object": "actor",
+      "subject_id": "Q325406",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Taku Iwasaki",
+      "object": "composer",
+      "subject_id": "Q1341491",
+      "object_id": "Q36834"
+    },
+    {
+      "subject": "Robin Phillips",
+      "object": "actor",
+      "subject_id": "Q7352716",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Carmelita Geraghty",
+      "object": "actor",
+      "subject_id": "Q2939563",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Luisella Boni",
+      "object": "actor",
+      "subject_id": "Q3840482",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Paul McGann",
+      "object": "actor",
+      "subject_id": "Q335863",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Dipankar Bhattacharya",
+      "object": "politician",
+      "subject_id": "Q56489287",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Vauro Senesi",
+      "object": "journalist",
+      "subject_id": "Q4009034",
+      "object_id": "Q1930187"
+    },
+    {
+      "subject": "Carlo Allioni",
+      "object": "physician",
+      "subject_id": "Q161420",
+      "object_id": "Q39631"
+    },
+    {
+      "subject": "Samuel Medary",
+      "object": "journalist",
+      "subject_id": "Q364544",
+      "object_id": "Q1930187"
+    },
+    {
+      "subject": "Gunnar Birkerts",
+      "object": "architect",
+      "subject_id": "Q1554720",
+      "object_id": "Q42973"
+    },
+    {
+      "subject": "Giannina Braschi",
+      "object": "poet",
+      "subject_id": "Q452761",
+      "object_id": "Q49757"
+    },
+    {
+      "subject": "Kathleen Nolan",
+      "object": "actor",
+      "subject_id": "Q6376861",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Clancy Cooper",
+      "object": "actor",
+      "subject_id": "Q5125741",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Boethius",
+      "object": "philosopher",
+      "subject_id": "Q102851",
+      "object_id": "Q4964182"
+    },
+    {
+      "subject": "Saskia Mulder",
+      "object": "actor",
+      "subject_id": "Q293057",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Chris Barrie",
+      "object": "comedian",
+      "subject_id": "Q2740822",
+      "object_id": "Q245068"
+    },
+    {
+      "subject": "Muhammad Iqbal",
+      "object": "poet",
+      "subject_id": "Q103096977",
+      "object_id": "Q49757"
+    },
+    {
+      "subject": "Walter Noll",
+      "object": "mathematician",
+      "subject_id": "Q1403491",
+      "object_id": "Q170790"
+    },
+    {
+      "subject": "Vondell Darr",
+      "object": "actor",
+      "subject_id": "Q2744537",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Edward Dodsley Barrow",
+      "object": "politician",
+      "subject_id": "Q5342609",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Elfriede Jelinek",
+      "object": "poet",
+      "subject_id": "Q47243",
+      "object_id": "Q49757"
+    },
+    {
+      "subject": "Andrew Salkey",
+      "object": "poet",
+      "subject_id": "Q4758495",
+      "object_id": "Q49757"
+    },
+    {
+      "subject": "Jack Boucher",
+      "object": "photographer",
+      "subject_id": "Q6111338",
+      "object_id": "Q33231"
+    },
+    {
+      "subject": "Phil Coulter",
+      "object": "composer",
+      "subject_id": "Q715859",
+      "object_id": "Q36834"
+    },
+    {
+      "subject": "Nicolai Abildgaard",
+      "object": "architect",
+      "subject_id": "Q319854",
+      "object_id": "Q42973"
+    },
+    {
+      "subject": "Andrew Oliver",
+      "object": "politician",
+      "subject_id": "Q4758159",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Sy Smith",
+      "object": "actor",
+      "subject_id": "Q7659423",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Bellina Logan",
+      "object": "actor",
+      "subject_id": "Q4884009",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Jude Wanniski",
+      "object": "journalist",
+      "subject_id": "Q710988",
+      "object_id": "Q1930187"
+    },
+    {
+      "subject": "Bruce Mahler",
+      "object": "actor",
+      "subject_id": "Q991708",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Horatio Nelson Lay",
+      "object": "diplomat",
+      "subject_id": "Q3140507",
+      "object_id": "Q193391"
+    },
+    {
+      "subject": "Franco Sacchetti",
+      "object": "poet",
+      "subject_id": "Q1029676",
+      "object_id": "Q49757"
+    },
+    {
+      "subject": "Pip Carter",
+      "object": "actor",
+      "subject_id": "Q7197175",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Sabina Spielrein",
+      "object": "psychologist",
+      "subject_id": "Q232336",
+      "object_id": "Q212980"
+    },
+    {
+      "subject": "Choi Myeong-gil",
+      "object": "actor",
+      "subject_id": "N/A",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Don Durant",
+      "object": "actor",
+      "subject_id": "Q1563866",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Wang Yaping",
+      "object": "astronaut",
+      "subject_id": "Q109651948",
+      "object_id": "Q11631"
+    },
+    {
+      "subject": "James Whitney Dunn",
+      "object": "politician",
+      "subject_id": "Q1681294",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Martin Klebba",
+      "object": "actor",
+      "subject_id": "Q151168",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Johann Wolfgang von Goethe",
+      "object": "politician",
+      "subject_id": "Q5879",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Genki Sudo",
+      "object": "actor",
+      "subject_id": "Q1336512",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Edward Gregson",
+      "object": "composer",
+      "subject_id": "Q706212",
+      "object_id": "Q36834"
+    },
+    {
+      "subject": "Julien Carette",
+      "object": "actor",
+      "subject_id": "Q1712227",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Maliha Lodhi",
+      "object": "diplomat",
+      "subject_id": "N/A",
+      "object_id": "Q193391"
+    },
+    {
+      "subject": "Justin I",
+      "object": "politician",
+      "subject_id": "Q183445",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Boris Barnet",
+      "object": "actor",
+      "subject_id": "Q203519",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "John Munch",
+      "object": "detective",
+      "subject_id": "Q2027579",
+      "object_id": "Q842782"
+    },
+    {
+      "subject": "Ashok Mitra",
+      "object": "economist",
+      "subject_id": "Q4805770",
+      "object_id": "Q188094"
+    },
+    {
+      "subject": "William Burnside",
+      "object": "mathematician",
+      "subject_id": "Q442983",
+      "object_id": "Q170790"
+    },
+    {
+      "subject": "Linda Ulvaeus",
+      "object": "actor",
+      "subject_id": "Q449255",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Tom Leopold",
+      "object": "novelist",
+      "subject_id": "Q7816567",
+      "object_id": "Q6625963"
+    },
+    {
+      "subject": "Kurt Kreuger",
+      "object": "actor",
+      "subject_id": "Q100122",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Beata Tyszkiewicz",
+      "object": "actor",
+      "subject_id": "Q435732",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Margherita Missoni",
+      "object": "actor",
+      "subject_id": "Q1520505",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Drew Droege",
+      "object": "actor",
+      "subject_id": "Q5307169",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Mircea Florian",
+      "object": "philosopher",
+      "subject_id": "Q255665",
+      "object_id": "Q4964182"
+    },
+    {
+      "subject": "Wilhelm Magnus",
+      "object": "mathematician",
+      "subject_id": "Q73012",
+      "object_id": "Q170790"
+    },
+    {
+      "subject": "James Elroy Flecker",
+      "object": "poet",
+      "subject_id": "Q1680343",
+      "object_id": "Q49757"
+    },
+    {
+      "subject": "Mark Weiss",
+      "object": "photographer",
+      "subject_id": "Q6770277",
+      "object_id": "Q33231"
+    },
+    {
+      "subject": "George Osborne",
+      "object": "politician",
+      "subject_id": "Q332493",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Antoine Augustin Cournot",
+      "object": "mathematician",
+      "subject_id": "Q323245",
+      "object_id": "Q170790"
+    },
+    {
+      "subject": "Kazimierz Kuratowski",
+      "object": "mathematician",
+      "subject_id": "Q161846",
+      "object_id": "Q170790"
+    },
+    {
+      "subject": "Lim Chin Siong",
+      "object": "politician",
+      "subject_id": "Q6548664",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Nikki Giovanni",
+      "object": "poet",
+      "subject_id": "Q3876879",
+      "object_id": "Q49757"
+    },
+    {
+      "subject": "Maurice Joly",
+      "object": "lawyer",
+      "subject_id": "Q1349289",
+      "object_id": "Q40348"
+    },
+    {
+      "subject": "Rie Miyazawa",
+      "object": "model",
+      "subject_id": "Q289729",
+      "object_id": "Q4610556"
+    },
+    {
+      "subject": "Eric Etebari",
+      "object": "actor",
+      "subject_id": "Q1351239",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Santiago Segura",
+      "object": "actor",
+      "subject_id": "Q509900",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Rudolf Lipschitz",
+      "object": "mathematician",
+      "subject_id": "Q77322",
+      "object_id": "Q170790"
+    },
+    {
+      "subject": "Horatio Bottomley",
+      "object": "politician",
+      "subject_id": "Q334459",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Lupus of Sens",
+      "object": "priest",
+      "subject_id": "Q1495753",
+      "object_id": "Q42603"
+    },
+    {
+      "subject": "Nadja Tiller",
+      "object": "actor",
+      "subject_id": "Q288970",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Frank Comerford Walker",
+      "object": "politician",
+      "subject_id": "Q1443042",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Bob Shacochis",
+      "object": "novelist",
+      "subject_id": "Q4933931",
+      "object_id": "Q6625963"
+    },
+    {
+      "subject": "James Arness",
+      "object": "actor",
+      "subject_id": "Q470190",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Sahir Ali Bagga",
+      "object": "composer",
+      "subject_id": "Q15983486",
+      "object_id": "Q36834"
+    },
+    {
+      "subject": "R. H. Bruce Lockhart",
+      "object": "journalist",
+      "subject_id": "Q1888972",
+      "object_id": "Q1930187"
+    },
+    {
+      "subject": "Rita Bahuguna",
+      "object": "politician",
+      "subject_id": "N/A",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Harald Gram",
+      "object": "politician",
+      "subject_id": "Q5653779",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Lisa Nicole Carson",
+      "object": "actor",
+      "subject_id": "Q256613",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Hassan ibn Thabit",
+      "object": "poet",
+      "subject_id": "Q2315457",
+      "object_id": "Q49757"
+    },
+    {
+      "subject": "Torey Hayden",
+      "object": "psychologist",
+      "subject_id": "Q438134",
+      "object_id": "Q212980"
+    },
+    {
+      "subject": "Henri Hauser",
+      "object": "economist",
+      "subject_id": "Q1605871",
+      "object_id": "Q188094"
+    },
+    {
+      "subject": "Claude Louis Hector de Villars",
+      "object": "diplomat",
+      "subject_id": "Q158654",
+      "object_id": "Q193391"
+    },
+    {
+      "subject": "Constand Viljoen",
+      "object": "politician",
+      "subject_id": "Q2568741",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Dhananjay Singh",
+      "object": "actor",
+      "subject_id": "Q5268911",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Nao Takasugi",
+      "object": "politician",
+      "subject_id": "Q6964507",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Alleppey Vincent",
+      "object": "actor",
+      "subject_id": "Q17495656",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Arturo Jauretche",
+      "object": "politician",
+      "subject_id": "Q715315",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Ignazio Silone",
+      "object": "politician",
+      "subject_id": "Q168431",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Fifi D'Orsay",
+      "object": "actor",
+      "subject_id": "Q3071582",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Yun Chi-ho",
+      "object": "politician",
+      "subject_id": "N/A",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Adolf Dymsza",
+      "object": "actor",
+      "subject_id": "Q2337623",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Bowie Lam",
+      "object": "actor",
+      "subject_id": "Q712121",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Samuel Hill-Wood",
+      "object": "politician",
+      "subject_id": "Q683907",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Ermanno Wolf-Ferrari",
+      "object": "composer",
+      "subject_id": "Q57275",
+      "object_id": "Q36834"
+    },
+    {
+      "subject": "Lionel Rogg",
+      "object": "composer",
+      "subject_id": "Q674740",
+      "object_id": "Q36834"
+    },
+    {
+      "subject": "Madeleine Peyroux",
+      "object": "composer",
+      "subject_id": "Q285444",
+      "object_id": "Q36834"
+    },
+    {
+      "subject": "Eja",
+      "object": "actor",
+      "subject_id": "Q994652",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Simon Dallow",
+      "object": "journalist",
+      "subject_id": "Q7518564",
+      "object_id": "Q1930187"
+    },
+    {
+      "subject": "Tom Verica",
+      "object": "actor",
+      "subject_id": "Q929634",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Ari Telch",
+      "object": "actor",
+      "subject_id": "Q4790130",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Peter Florin",
+      "object": "diplomat",
+      "subject_id": "Q96962",
+      "object_id": "Q193391"
+    },
+    {
+      "subject": "Arun Kumar Ahuja",
+      "object": "actor",
+      "subject_id": "Q18354507",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Colin Kenny",
+      "object": "actor",
+      "subject_id": "Q2982621",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Five Star Krishna",
+      "object": "actor",
+      "subject_id": "Q15246610",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Masato Wada",
+      "object": "actor",
+      "subject_id": "Q3551324",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Mustafa Khalil",
+      "object": "politician",
+      "subject_id": "Q403740",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Corinne Luchaire",
+      "object": "actor",
+      "subject_id": "Q2294413",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Alonzo Bodden",
+      "object": "actor",
+      "subject_id": "Q590062",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Kimika Yoshino",
+      "object": "actor",
+      "subject_id": "Q180554",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Cal Lampley",
+      "object": "composer",
+      "subject_id": "Q5018152",
+      "object_id": "Q36834"
+    },
+    {
+      "subject": "Dietrich Eckart",
+      "object": "politician",
+      "subject_id": "Q60259",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Alfred Francis Russell",
+      "object": "politician",
+      "subject_id": "Q727178",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Aruna Irani",
+      "object": "actor",
+      "subject_id": "Q158225",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Eoin Ryan, Jnr",
+      "object": "politician",
+      "subject_id": "Q1346309",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Manuel Aznar Zubigaray",
+      "object": "diplomat",
+      "subject_id": "Q3040538",
+      "object_id": "Q193391"
+    },
+    {
+      "subject": "Te Ata Fisher",
+      "object": "actor",
+      "subject_id": "Q7690776",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Ben Joseph Green",
+      "object": "mathematician",
+      "subject_id": "Q792628",
+      "object_id": "Q170790"
+    },
+    {
+      "subject": "Josefina Pla",
+      "object": "journalist",
+      "subject_id": "N/A",
+      "object_id": "Q1930187"
+    },
+    {
+      "subject": "Suzanne Crouch",
+      "object": "politician",
+      "subject_id": "Q7650809",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Jenny Powers",
+      "object": "actor",
+      "subject_id": "Q6179435",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Michelan Sisti",
+      "object": "actor",
+      "subject_id": "Q1930982",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Elmore Leonard",
+      "object": "novelist",
+      "subject_id": "Q336519",
+      "object_id": "Q6625963"
+    },
+    {
+      "subject": "Paul Abraham",
+      "object": "composer",
+      "subject_id": "Q102162549",
+      "object_id": "Q36834"
+    },
+    {
+      "subject": "Frits Helmuth",
+      "object": "actor",
+      "subject_id": "Q1797707",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Callixtus II",
+      "object": "diplomat",
+      "subject_id": "Q170654",
+      "object_id": "Q193391"
+    },
+    {
+      "subject": "Pierfrancesco Favino",
+      "object": "actor",
+      "subject_id": "Q555241",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Ann Cusack",
+      "object": "actor",
+      "subject_id": "Q432686",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Trond Kirkvaag",
+      "object": "actor",
+      "subject_id": "Q3099462",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Max Volmer",
+      "object": "chemist",
+      "subject_id": "Q65226",
+      "object_id": "Q593644"
+    },
+    {
+      "subject": "Jack Wild",
+      "object": "actor",
+      "subject_id": "Q338177",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Perrin Beatty",
+      "object": "politician",
+      "subject_id": "Q7169629",
+      "object_id": "Q82955"
+    },
+    {
+      "subject": "Carlo Porta",
+      "object": "poet",
+      "subject_id": "Q1248697",
+      "object_id": "Q49757"
+    },
+    {
+      "subject": "Dominic Dierkes",
+      "object": "actor",
+      "subject_id": "Q5290518",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Joan Leslie",
+      "object": "actor",
+      "subject_id": "Q260318",
+      "object_id": "Q33999"
+    },
+    {
+      "subject": "Ludvig Holberg",
+      "object": "philosopher",
+      "subject_id": "Q216692",
+      "object_id": "Q4964182"
+    },
+    {
+      "subject": "Subair",
+      "object": "actor",
+      "subject_id": "Q7630724",
+      "object_id": "Q33999"
+    }
+  ]
+}

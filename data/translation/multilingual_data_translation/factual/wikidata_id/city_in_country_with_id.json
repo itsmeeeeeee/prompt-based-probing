@@ -1,0 +1,183 @@
+{
+  "name": "city in country",
+  "prompt_templates": [
+    "{} is part of",
+    "{} is in the country of",
+    "{} exists within the country of",
+    "{} is part of the nation called"
+  ],
+  "prompt_templates_zs": [
+    "{} is part of the country of",
+    "{} is located in the country of"
+  ],
+  "properties": {
+    "relation_type": "factual",
+    "domain_name": "city",
+    "range_name": "country",
+    "symmetric": false
+  },
+  "samples": [
+    {
+      "subject": "New York City",
+      "object": "United States",
+      "subject_id": "Q60",
+      "object_id": "Q30"
+    },
+    {
+      "subject": "Rio de Janeiro",
+      "object": "Brazil",
+      "subject_id": "Q41428",
+      "object_id": "Q155"
+    },
+    {
+      "subject": "Buenos Aires",
+      "object": "Argentina",
+      "subject_id": "Q1486",
+      "object_id": "Q414"
+    },
+    {
+      "subject": "Mexico City",
+      "object": "Mexico",
+      "subject_id": "Q1489",
+      "object_id": "Q96"
+    },
+    {
+      "subject": "São Paulo",
+      "object": "Brazil",
+      "subject_id": "Q175",
+      "object_id": "Q155"
+    },
+    {
+      "subject": "Los Angeles",
+      "object": "United States",
+      "subject_id": "Q65",
+      "object_id": "Q30"
+    },
+    {
+      "subject": "Saint Petersburg",
+      "object": "Russia",
+      "subject_id": "Q656",
+      "object_id": "Q159"
+    },
+    {
+      "subject": "San Francisco",
+      "object": "United States",
+      "subject_id": "Q62",
+      "object_id": "Q30"
+    },
+    {
+      "subject": "Ho Chi Minh City",
+      "object": "Vietnam",
+      "subject_id": "Q1854",
+      "object_id": "Q881"
+    },
+    {
+      "subject": "Kuala Lumpur",
+      "object": "Malaysia",
+      "subject_id": "Q1865",
+      "object_id": "Q833"
+    },
+    {
+      "subject": "Abu Dhabi",
+      "object": "United Arab Emirates",
+      "subject_id": "Q1519",
+      "object_id": "Q878"
+    },
+    {
+      "subject": "Cape Town",
+      "object": "South Africa",
+      "subject_id": "Q5465",
+      "object_id": "Q258"
+    },
+    {
+      "subject": "New Delhi",
+      "object": "India",
+      "subject_id": "Q987",
+      "object_id": "Q668"
+    },
+    {
+      "subject": "Las Vegas",
+      "object": "United States",
+      "subject_id": "Q23768",
+      "object_id": "Q30"
+    },
+    {
+      "subject": "Hong Kong",
+      "object": "China",
+      "subject_id": "Q8646",
+      "object_id": "Q29520"
+    },
+    {
+      "subject": "Tel Aviv",
+      "object": "Israel",
+      "subject_id": "Q33935",
+      "object_id": "Q801"
+    },
+    {
+      "subject": "Johannesburg",
+      "object": "South Africa",
+      "subject_id": "Q34647",
+      "object_id": "Q258"
+    },
+    {
+      "subject": "Santo Domingo",
+      "object": "Dominican Republic",
+      "subject_id": "Q34820",
+      "object_id": "Q786"
+    },
+    {
+      "subject": "Port-au-Prince",
+      "object": "Haiti",
+      "subject_id": "Q34261",
+      "object_id": "Q790"
+    },
+    {
+      "subject": "Santiago de Chile",
+      "object": "Chile",
+      "subject_id": "Q81804043",
+      "object_id": "Q298"
+    },
+    {
+      "subject": "Panama City",
+      "object": "Panama",
+      "subject_id": "Q3306",
+      "object_id": "Q804"
+    },
+    {
+      "subject": "Siem Reap",
+      "object": "Cambodia",
+      "subject_id": "Q11711",
+      "object_id": "Q424"
+    },
+    {
+      "subject": "Casablanca",
+      "object": "Morocco",
+      "subject_id": "Q7903",
+      "object_id": "Q1028"
+    },
+    {
+      "subject": "San Juan",
+      "object": "Puerto Rico",
+      "subject_id": "Q749283",
+      "object_id": "Q1183"
+    },
+    {
+      "subject": "Costa Rica",
+      "object": "San José",
+      "subject_id": "Q800",
+      "object_id": "Q3070"
+    },
+    {
+      "subject": "Addis Ababa",
+      "object": "Ethiopia",
+      "subject_id": "Q3624",
+      "object_id": "Q115"
+    },
+    {
+      "subject": "Punta Cana",
+      "object": "Dominican Republic",
+      "subject_id": "Q1568095",
+      "object_id": "Q786"
+    }
+  ]
+}

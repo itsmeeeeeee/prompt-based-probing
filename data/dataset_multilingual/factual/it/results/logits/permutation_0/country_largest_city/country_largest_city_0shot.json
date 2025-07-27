@@ -1,0 +1,3036 @@
+[
+  {
+    "prompt": "La città più popolosa di Stati Uniti d'America è",
+    "generated_prefix": "La città più popolosa di Stati Uniti d'America è",
+    "gold_token": " New",
+    "predicted_top1_token": " la",
+    "token_pos_in_answer": 0,
+    "gold_logit": 13.796875,
+    "gold_prob_percent": 15.55,
+    "first_token_prob": 0.1722412109375,
+    "second_token_prob": 0.155517578125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " la",
+        "logit": 13.8984375,
+        "probability_percent": 17.22
+      },
+      {
+        "rank": 1,
+        "token": " New",
+        "logit": 13.796875,
+        "probability_percent": 15.55
+      },
+      {
+        "rank": 2,
+        "token": " Los",
+        "logit": 12.6953125,
+        "probability_percent": 5.17
+      },
+      {
+        "rank": 3,
+        "token": " l",
+        "logit": 12.546875,
+        "probability_percent": 4.46
+      },
+      {
+        "rank": 4,
+        "token": " quella",
+        "logit": 12.4140625,
+        "probability_percent": 3.9
+      },
+      {
+        "rank": 5,
+        "token": " il",
+        "logit": 12.359375,
+        "probability_percent": 3.7
+      },
+      {
+        "rank": 6,
+        "token": " Chicago",
+        "logit": 12.2734375,
+        "probability_percent": 3.39
+      },
+      {
+        "rank": 7,
+        "token": " anche",
+        "logit": 12.140625,
+        "probability_percent": 2.97
+      },
+      {
+        "rank": 8,
+        "token": " Houston",
+        "logit": 12.0,
+        "probability_percent": 2.58
+      },
+      {
+        "rank": 9,
+        "token": ",",
+        "logit": 11.6328125,
+        "probability_percent": 1.79
+      }
+    ]
+  },
+  {
+    "prompt": "La città più popolosa di Stati Uniti d'America è",
+    "generated_prefix": "La città più popolosa di Stati Uniti d'America è la",
+    "gold_token": " York",
+    "predicted_top1_token": " città",
+    "token_pos_in_answer": 1,
+    "gold_logit": 6.1484375,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.1722412109375,
+    "second_token_prob": 0.155517578125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " città",
+        "logit": 15.375,
+        "probability_percent": 41.48
+      },
+      {
+        "rank": 1,
+        "token": " New",
+        "logit": 13.875,
+        "probability_percent": 9.25
+      },
+      {
+        "rank": 2,
+        "token": " Los",
+        "logit": 13.796875,
+        "probability_percent": 8.56
+      },
+      {
+        "rank": 3,
+        "token": " met",
+        "logit": 12.609375,
+        "probability_percent": 2.61
+      },
+      {
+        "rank": 4,
+        "token": " Grande",
+        "logit": 12.59375,
+        "probability_percent": 2.57
+      },
+      {
+        "rank": 5,
+        "token": " grande",
+        "logit": 12.453125,
+        "probability_percent": 2.23
+      },
+      {
+        "rank": 6,
+        "token": " C",
+        "logit": 12.4140625,
+        "probability_percent": 2.15
+      },
+      {
+        "rank": 7,
+        "token": " conte",
+        "logit": 12.25,
+        "probability_percent": 1.82
+      },
+      {
+        "rank": 8,
+        "token": " California",
+        "logit": 11.8984375,
+        "probability_percent": 1.28
+      },
+      {
+        "rank": 9,
+        "token": " Miami",
+        "logit": 11.8984375,
+        "probability_percent": 1.28
+      }
+    ]
+  },
+  {
+    "prompt": "La città più popolosa di Cina è",
+    "generated_prefix": "La città più popolosa di Cina è",
+    "gold_token": " Shanghai",
+    "predicted_top1_token": " Shanghai",
+    "token_pos_in_answer": 0,
+    "gold_logit": 13.7890625,
+    "gold_prob_percent": 20.1,
+    "first_token_prob": 0.2010498046875,
+    "second_token_prob": 0.1414794921875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Shanghai",
+        "logit": 13.7890625,
+        "probability_percent": 20.1
+      },
+      {
+        "rank": 1,
+        "token": " Sh",
+        "logit": 13.4375,
+        "probability_percent": 14.15
+      },
+      {
+        "rank": 2,
+        "token": " la",
+        "logit": 13.25,
+        "probability_percent": 11.73
+      },
+      {
+        "rank": 3,
+        "token": " P",
+        "logit": 13.234375,
+        "probability_percent": 11.55
+      },
+      {
+        "rank": 4,
+        "token": " Ch",
+        "logit": 11.265625,
+        "probability_percent": 1.61
+      },
+      {
+        "rank": 5,
+        "token": " il",
+        "logit": 11.1875,
+        "probability_percent": 1.49
+      },
+      {
+        "rank": 6,
+        "token": " Hong",
+        "logit": 11.1484375,
+        "probability_percent": 1.43
+      },
+      {
+        "rank": 7,
+        "token": " Guang",
+        "logit": 11.125,
+        "probability_percent": 1.4
+      },
+      {
+        "rank": 8,
+        "token": " Wu",
+        "logit": 11.015625,
+        "probability_percent": 1.26
+      },
+      {
+        "rank": 9,
+        "token": " anche",
+        "logit": 10.8984375,
+        "probability_percent": 1.12
+      }
+    ]
+  },
+  {
+    "prompt": "La città più popolosa di Giappone è",
+    "generated_prefix": "La città più popolosa di Giappone è",
+    "gold_token": " Tokyo",
+    "predicted_top1_token": " Tokyo",
+    "token_pos_in_answer": 0,
+    "gold_logit": 15.9765625,
+    "gold_prob_percent": 58.35,
+    "first_token_prob": 0.58349609375,
+    "second_token_prob": 0.06964111328125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Tokyo",
+        "logit": 15.9765625,
+        "probability_percent": 58.35
+      },
+      {
+        "rank": 1,
+        "token": " la",
+        "logit": 13.8515625,
+        "probability_percent": 6.96
+      },
+      {
+        "rank": 2,
+        "token": " Osaka",
+        "logit": 13.65625,
+        "probability_percent": 5.73
+      },
+      {
+        "rank": 3,
+        "token": " Yok",
+        "logit": 12.6171875,
+        "probability_percent": 2.03
+      },
+      {
+        "rank": 4,
+        "token": " Tok",
+        "logit": 12.4765625,
+        "probability_percent": 1.76
+      },
+      {
+        "rank": 5,
+        "token": " Kyoto",
+        "logit": 12.359375,
+        "probability_percent": 1.57
+      },
+      {
+        "rank": 6,
+        "token": " il",
+        "logit": 12.3515625,
+        "probability_percent": 1.55
+      },
+      {
+        "rank": 7,
+        "token": " l",
+        "logit": 12.1328125,
+        "probability_percent": 1.25
+      },
+      {
+        "rank": 8,
+        "token": " quella",
+        "logit": 11.8671875,
+        "probability_percent": 0.96
+      },
+      {
+        "rank": 9,
+        "token": ",",
+        "logit": 11.8359375,
+        "probability_percent": 0.93
+      }
+    ]
+  },
+  {
+    "prompt": "La città più popolosa di Russia è",
+    "generated_prefix": "La città più popolosa di Russia è",
+    "gold_token": " Mos",
+    "predicted_top1_token": " Mos",
+    "token_pos_in_answer": 0,
+    "gold_logit": 16.3125,
+    "gold_prob_percent": 76.17,
+    "first_token_prob": 0.76171875,
+    "second_token_prob": 0.06658935546875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Mos",
+        "logit": 16.3125,
+        "probability_percent": 76.17
+      },
+      {
+        "rank": 1,
+        "token": " San",
+        "logit": 13.875,
+        "probability_percent": 6.66
+      },
+      {
+        "rank": 2,
+        "token": " la",
+        "logit": 12.796875,
+        "probability_percent": 2.26
+      },
+      {
+        "rank": 3,
+        "token": " quella",
+        "logit": 11.3984375,
+        "probability_percent": 0.56
+      },
+      {
+        "rank": 4,
+        "token": " St",
+        "logit": 11.2734375,
+        "probability_percent": 0.49
+      },
+      {
+        "rank": 5,
+        "token": " l",
+        "logit": 11.234375,
+        "probability_percent": 0.47
+      },
+      {
+        "rank": 6,
+        "token": ",",
+        "logit": 11.21875,
+        "probability_percent": 0.47
+      },
+      {
+        "rank": 7,
+        "token": " Piet",
+        "logit": 11.0625,
+        "probability_percent": 0.4
+      },
+      {
+        "rank": 8,
+        "token": " in",
+        "logit": 11.046875,
+        "probability_percent": 0.39
+      },
+      {
+        "rank": 9,
+        "token": " il",
+        "logit": 10.9140625,
+        "probability_percent": 0.34
+      }
+    ]
+  },
+  {
+    "prompt": "La città più popolosa di Russia è",
+    "generated_prefix": "La città più popolosa di Russia è Mos",
+    "gold_token": "ca",
+    "predicted_top1_token": "ca",
+    "token_pos_in_answer": 1,
+    "gold_logit": 23.28125,
+    "gold_prob_percent": 99.9,
+    "first_token_prob": 0.76171875,
+    "second_token_prob": 0.06658935546875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ca",
+        "logit": 23.28125,
+        "probability_percent": 99.9
+      },
+      {
+        "rank": 1,
+        "token": "co",
+        "logit": 14.78125,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 2,
+        "token": "cov",
+        "logit": 14.6953125,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 3,
+        "token": "k",
+        "logit": 14.6796875,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 4,
+        "token": "c",
+        "logit": 13.5546875,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 5,
+        "token": "cu",
+        "logit": 13.40625,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 6,
+        "token": "ka",
+        "logit": 12.9375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": "so",
+        "logit": 12.1640625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "cou",
+        "logit": 12.09375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "cow",
+        "logit": 12.0625,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "La città più popolosa di India è",
+    "generated_prefix": "La città più popolosa di India è",
+    "gold_token": " Mumbai",
+    "predicted_top1_token": " Mumbai",
+    "token_pos_in_answer": 0,
+    "gold_logit": 14.8125,
+    "gold_prob_percent": 30.74,
+    "first_token_prob": 0.307373046875,
+    "second_token_prob": 0.08013916015625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Mumbai",
+        "logit": 14.8125,
+        "probability_percent": 30.74
+      },
+      {
+        "rank": 1,
+        "token": " Delhi",
+        "logit": 13.46875,
+        "probability_percent": 8.01
+      },
+      {
+        "rank": 2,
+        "token": " il",
+        "logit": 13.2734375,
+        "probability_percent": 6.59
+      },
+      {
+        "rank": 3,
+        "token": " la",
+        "logit": 13.1484375,
+        "probability_percent": 5.82
+      },
+      {
+        "rank": 4,
+        "token": " Bangalore",
+        "logit": 12.640625,
+        "probability_percent": 3.5
+      },
+      {
+        "rank": 5,
+        "token": " Hyderabad",
+        "logit": 12.296875,
+        "probability_percent": 2.48
+      },
+      {
+        "rank": 6,
+        "token": " New",
+        "logit": 12.2734375,
+        "probability_percent": 2.43
+      },
+      {
+        "rank": 7,
+        "token": " l",
+        "logit": 12.2578125,
+        "probability_percent": 2.39
+      },
+      {
+        "rank": 8,
+        "token": " quella",
+        "logit": 11.96875,
+        "probability_percent": 1.79
+      },
+      {
+        "rank": 9,
+        "token": " Bombay",
+        "logit": 11.9375,
+        "probability_percent": 1.73
+      }
+    ]
+  },
+  {
+    "prompt": "La città più popolosa di Brasile è",
+    "generated_prefix": "La città più popolosa di Brasile è",
+    "gold_token": " San",
+    "predicted_top1_token": " Bras",
+    "token_pos_in_answer": 0,
+    "gold_logit": 13.7734375,
+    "gold_prob_percent": 8.65,
+    "first_token_prob": 0.1920166015625,
+    "second_token_prob": 0.166748046875,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Bras",
+        "logit": 14.5703125,
+        "probability_percent": 19.2
+      },
+      {
+        "rank": 1,
+        "token": " Rio",
+        "logit": 14.4296875,
+        "probability_percent": 16.67
+      },
+      {
+        "rank": 2,
+        "token": " il",
+        "logit": 13.8515625,
+        "probability_percent": 9.36
+      },
+      {
+        "rank": 3,
+        "token": " San",
+        "logit": 13.7734375,
+        "probability_percent": 8.65
+      },
+      {
+        "rank": 4,
+        "token": " la",
+        "logit": 13.734375,
+        "probability_percent": 8.32
+      },
+      {
+        "rank": 5,
+        "token": " São",
+        "logit": 13.0625,
+        "probability_percent": 4.25
+      },
+      {
+        "rank": 6,
+        "token": " l",
+        "logit": 12.421875,
+        "probability_percent": 2.24
+      },
+      {
+        "rank": 7,
+        "token": " quella",
+        "logit": 12.4140625,
+        "probability_percent": 2.22
+      },
+      {
+        "rank": 8,
+        "token": " stata",
+        "logit": 12.234375,
+        "probability_percent": 1.86
+      },
+      {
+        "rank": 9,
+        "token": ",",
+        "logit": 11.8359375,
+        "probability_percent": 1.25
+      }
+    ]
+  },
+  {
+    "prompt": "La città più popolosa di Brasile è",
+    "generated_prefix": "La città più popolosa di Brasile è Bras",
+    "gold_token": " Paolo",
+    "predicted_top1_token": "ilia",
+    "token_pos_in_answer": 1,
+    "gold_logit": 1.1865234375,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.1920166015625,
+    "second_token_prob": 0.166748046875,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ilia",
+        "logit": 19.359375,
+        "probability_percent": 65.82
+      },
+      {
+        "rank": 1,
+        "token": "ília",
+        "logit": 18.53125,
+        "probability_percent": 28.76
+      },
+      {
+        "rank": 2,
+        "token": "ile",
+        "logit": 16.171875,
+        "probability_percent": 2.72
+      },
+      {
+        "rank": 3,
+        "token": "í",
+        "logit": 15.1796875,
+        "probability_percent": 1.01
+      },
+      {
+        "rank": 4,
+        "token": "ì",
+        "logit": 15.03125,
+        "probability_percent": 0.87
+      },
+      {
+        "rank": 5,
+        "token": "ili",
+        "logit": 13.4140625,
+        "probability_percent": 0.17
+      },
+      {
+        "rank": 6,
+        "token": "iglia",
+        "logit": 12.7578125,
+        "probability_percent": 0.09
+      },
+      {
+        "rank": 7,
+        "token": "î",
+        "logit": 12.4375,
+        "probability_percent": 0.06
+      },
+      {
+        "rank": 8,
+        "token": "ī",
+        "logit": 11.71875,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 9,
+        "token": "ylvania",
+        "logit": 11.3828125,
+        "probability_percent": 0.02
+      }
+    ]
+  },
+  {
+    "prompt": "La città più popolosa di Australia è",
+    "generated_prefix": "La città più popolosa di Australia è",
+    "gold_token": " Sydney",
+    "predicted_top1_token": " Sydney",
+    "token_pos_in_answer": 0,
+    "gold_logit": 16.46875,
+    "gold_prob_percent": 52.34,
+    "first_token_prob": 0.5234375,
+    "second_token_prob": 0.21826171875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Sydney",
+        "logit": 16.46875,
+        "probability_percent": 52.34
+      },
+      {
+        "rank": 1,
+        "token": " Melbourne",
+        "logit": 15.59375,
+        "probability_percent": 21.83
+      },
+      {
+        "rank": 2,
+        "token": " la",
+        "logit": 13.4453125,
+        "probability_percent": 2.55
+      },
+      {
+        "rank": 3,
+        "token": " Brisbane",
+        "logit": 13.125,
+        "probability_percent": 1.85
+      },
+      {
+        "rank": 4,
+        "token": " il",
+        "logit": 12.96875,
+        "probability_percent": 1.58
+      },
+      {
+        "rank": 5,
+        "token": " Sidney",
+        "logit": 12.90625,
+        "probability_percent": 1.48
+      },
+      {
+        "rank": 6,
+        "token": " Perth",
+        "logit": 12.7734375,
+        "probability_percent": 1.3
+      },
+      {
+        "rank": 7,
+        "token": " Canberra",
+        "logit": 12.71875,
+        "probability_percent": 1.23
+      },
+      {
+        "rank": 8,
+        "token": " Adelaide",
+        "logit": 12.640625,
+        "probability_percent": 1.14
+      },
+      {
+        "rank": 9,
+        "token": " l",
+        "logit": 12.6015625,
+        "probability_percent": 1.09
+      }
+    ]
+  },
+  {
+    "prompt": "La città più popolosa di Canada è",
+    "generated_prefix": "La città più popolosa di Canada è",
+    "gold_token": " Toronto",
+    "predicted_top1_token": " Toronto",
+    "token_pos_in_answer": 0,
+    "gold_logit": 15.703125,
+    "gold_prob_percent": 24.26,
+    "first_token_prob": 0.2425537109375,
+    "second_token_prob": 0.1541748046875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Toronto",
+        "logit": 15.703125,
+        "probability_percent": 24.26
+      },
+      {
+        "rank": 1,
+        "token": " la",
+        "logit": 15.25,
+        "probability_percent": 15.42
+      },
+      {
+        "rank": 2,
+        "token": " Vancouver",
+        "logit": 15.0,
+        "probability_percent": 12.01
+      },
+      {
+        "rank": 3,
+        "token": " Mon",
+        "logit": 14.9765625,
+        "probability_percent": 11.73
+      },
+      {
+        "rank": 4,
+        "token": " il",
+        "logit": 13.8671875,
+        "probability_percent": 3.87
+      },
+      {
+        "rank": 5,
+        "token": " l",
+        "logit": 13.578125,
+        "probability_percent": 2.9
+      },
+      {
+        "rank": 6,
+        "token": " Ottawa",
+        "logit": 13.5625,
+        "probability_percent": 2.85
+      },
+      {
+        "rank": 7,
+        "token": " Tor",
+        "logit": 13.4140625,
+        "probability_percent": 2.46
+      },
+      {
+        "rank": 8,
+        "token": " anche",
+        "logit": 12.78125,
+        "probability_percent": 1.31
+      },
+      {
+        "rank": 9,
+        "token": " Montreal",
+        "logit": 12.78125,
+        "probability_percent": 1.31
+      }
+    ]
+  },
+  {
+    "prompt": "La città più popolosa di Regno Unito è",
+    "generated_prefix": "La città più popolosa di Regno Unito è",
+    "gold_token": " Lond",
+    "predicted_top1_token": " Lond",
+    "token_pos_in_answer": 0,
+    "gold_logit": 17.140625,
+    "gold_prob_percent": 78.66,
+    "first_token_prob": 0.78662109375,
+    "second_token_prob": 0.0364990234375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Lond",
+        "logit": 17.140625,
+        "probability_percent": 78.66
+      },
+      {
+        "rank": 1,
+        "token": " l",
+        "logit": 14.0703125,
+        "probability_percent": 3.65
+      },
+      {
+        "rank": 2,
+        "token": " la",
+        "logit": 13.9296875,
+        "probability_percent": 3.17
+      },
+      {
+        "rank": 3,
+        "token": " il",
+        "logit": 12.734375,
+        "probability_percent": 0.96
+      },
+      {
+        "rank": 4,
+        "token": " Manchester",
+        "logit": 12.21875,
+        "probability_percent": 0.57
+      },
+      {
+        "rank": 5,
+        "token": " Birmingham",
+        "logit": 12.0703125,
+        "probability_percent": 0.49
+      },
+      {
+        "rank": 6,
+        "token": " London",
+        "logit": 12.0234375,
+        "probability_percent": 0.47
+      },
+      {
+        "rank": 7,
+        "token": " In",
+        "logit": 11.9453125,
+        "probability_percent": 0.44
+      },
+      {
+        "rank": 8,
+        "token": ",",
+        "logit": 11.8125,
+        "probability_percent": 0.38
+      },
+      {
+        "rank": 9,
+        "token": " Glasgow",
+        "logit": 11.7734375,
+        "probability_percent": 0.37
+      }
+    ]
+  },
+  {
+    "prompt": "La città più popolosa di Regno Unito è",
+    "generated_prefix": "La città più popolosa di Regno Unito è Lond",
+    "gold_token": "ra",
+    "predicted_top1_token": "ra",
+    "token_pos_in_answer": 1,
+    "gold_logit": 24.0625,
+    "gold_prob_percent": 100.0,
+    "first_token_prob": 0.78662109375,
+    "second_token_prob": 0.0364990234375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ra",
+        "logit": 24.0625,
+        "probability_percent": 100.0
+      },
+      {
+        "rank": 1,
+        "token": "res",
+        "logit": 13.7890625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 2,
+        "token": "ino",
+        "logit": 13.0546875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 3,
+        "token": "r",
+        "logit": 12.8828125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 4,
+        "token": "ont",
+        "logit": 12.75,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 5,
+        "token": "ines",
+        "logit": 12.6484375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": "rone",
+        "logit": 12.515625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": "rina",
+        "logit": 12.40625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "ro",
+        "logit": 12.296875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "ina",
+        "logit": 11.9140625,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "La città più popolosa di Francia è",
+    "generated_prefix": "La città più popolosa di Francia è",
+    "gold_token": " Par",
+    "predicted_top1_token": " Par",
+    "token_pos_in_answer": 0,
+    "gold_logit": 15.75,
+    "gold_prob_percent": 40.53,
+    "first_token_prob": 0.4052734375,
+    "second_token_prob": 0.11981201171875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Par",
+        "logit": 15.75,
+        "probability_percent": 40.53
+      },
+      {
+        "rank": 1,
+        "token": " la",
+        "logit": 14.53125,
+        "probability_percent": 11.98
+      },
+      {
+        "rank": 2,
+        "token": " l",
+        "logit": 13.7265625,
+        "probability_percent": 5.36
+      },
+      {
+        "rank": 3,
+        "token": " quella",
+        "logit": 13.4921875,
+        "probability_percent": 4.24
+      },
+      {
+        "rank": 4,
+        "token": " il",
+        "logit": 13.4375,
+        "probability_percent": 4.01
+      },
+      {
+        "rank": 5,
+        "token": " anche",
+        "logit": 13.203125,
+        "probability_percent": 3.17
+      },
+      {
+        "rank": 6,
+        "token": " situ",
+        "logit": 12.8203125,
+        "probability_percent": 2.17
+      },
+      {
+        "rank": 7,
+        "token": " L",
+        "logit": 12.1953125,
+        "probability_percent": 1.16
+      },
+      {
+        "rank": 8,
+        "token": " Paris",
+        "logit": 12.1171875,
+        "probability_percent": 1.07
+      },
+      {
+        "rank": 9,
+        "token": ",",
+        "logit": 12.109375,
+        "probability_percent": 1.06
+      }
+    ]
+  },
+  {
+    "prompt": "La città più popolosa di Francia è",
+    "generated_prefix": "La città più popolosa di Francia è Par",
+    "gold_token": "igi",
+    "predicted_top1_token": "igi",
+    "token_pos_in_answer": 1,
+    "gold_logit": 24.46875,
+    "gold_prob_percent": 99.95,
+    "first_token_prob": 0.4052734375,
+    "second_token_prob": 0.11981201171875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "igi",
+        "logit": 24.46875,
+        "probability_percent": 99.95
+      },
+      {
+        "rank": 1,
+        "token": "ig",
+        "logit": 16.96875,
+        "probability_percent": 0.06
+      },
+      {
+        "rank": 2,
+        "token": "ís",
+        "logit": 13.7734375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 3,
+        "token": "ige",
+        "logit": 13.4609375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 4,
+        "token": "igh",
+        "logit": 12.8828125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 5,
+        "token": "ì",
+        "logit": 12.8828125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": "ione",
+        "logit": 12.7109375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": "ma",
+        "logit": 11.9375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "iga",
+        "logit": 11.8984375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "í",
+        "logit": 11.25,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "La città più popolosa di Germania è",
+    "generated_prefix": "La città più popolosa di Germania è",
+    "gold_token": " Ber",
+    "predicted_top1_token": " Ber",
+    "token_pos_in_answer": 0,
+    "gold_logit": 14.5078125,
+    "gold_prob_percent": 39.18,
+    "first_token_prob": 0.391845703125,
+    "second_token_prob": 0.09307861328125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Ber",
+        "logit": 14.5078125,
+        "probability_percent": 39.18
+      },
+      {
+        "rank": 1,
+        "token": " la",
+        "logit": 13.0703125,
+        "probability_percent": 9.31
+      },
+      {
+        "rank": 2,
+        "token": " il",
+        "logit": 12.0703125,
+        "probability_percent": 3.42
+      },
+      {
+        "rank": 3,
+        "token": " Monaco",
+        "logit": 12.0625,
+        "probability_percent": 3.4
+      },
+      {
+        "rank": 4,
+        "token": " quella",
+        "logit": 11.8359375,
+        "probability_percent": 2.71
+      },
+      {
+        "rank": 5,
+        "token": " col",
+        "logit": 11.515625,
+        "probability_percent": 1.97
+      },
+      {
+        "rank": 6,
+        "token": " Col",
+        "logit": 11.359375,
+        "probability_percent": 1.68
+      },
+      {
+        "rank": 7,
+        "token": " l",
+        "logit": 11.3046875,
+        "probability_percent": 1.59
+      },
+      {
+        "rank": 8,
+        "token": " anche",
+        "logit": 10.984375,
+        "probability_percent": 1.16
+      },
+      {
+        "rank": 9,
+        "token": ",",
+        "logit": 10.7890625,
+        "probability_percent": 0.95
+      }
+    ]
+  },
+  {
+    "prompt": "La città più popolosa di Germania è",
+    "generated_prefix": "La città più popolosa di Germania è Ber",
+    "gold_token": "l",
+    "predicted_top1_token": "l",
+    "token_pos_in_answer": 1,
+    "gold_logit": 23.359375,
+    "gold_prob_percent": 100.0,
+    "first_token_prob": 0.391845703125,
+    "second_token_prob": 0.09307861328125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "l",
+        "logit": 23.359375,
+        "probability_percent": 100.0
+      },
+      {
+        "rank": 1,
+        "token": "lim",
+        "logit": 12.890625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 2,
+        "token": " l",
+        "logit": 12.828125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 3,
+        "token": "li",
+        "logit": 11.453125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 4,
+        "token": "ling",
+        "logit": 11.296875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 5,
+        "token": "gh",
+        "logit": 11.1328125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": "-l",
+        "logit": 10.921875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": "lus",
+        "logit": 10.421875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "lint",
+        "logit": 10.3828125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "lam",
+        "logit": 10.390625,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "La città più popolosa di Germania è",
+    "generated_prefix": "La città più popolosa di Germania è Berl",
+    "gold_token": "ino",
+    "predicted_top1_token": "ino",
+    "token_pos_in_answer": 2,
+    "gold_logit": 22.421875,
+    "gold_prob_percent": 99.95,
+    "first_token_prob": 0.391845703125,
+    "second_token_prob": 0.09307861328125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ino",
+        "logit": 22.421875,
+        "probability_percent": 99.95
+      },
+      {
+        "rank": 1,
+        "token": "inese",
+        "logit": 13.2109375,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 2,
+        "token": "ina",
+        "logit": 12.921875,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 3,
+        "token": "into",
+        "logit": 12.3515625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 4,
+        "token": "ione",
+        "logit": 11.0703125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 5,
+        "token": "inoa",
+        "logit": 10.8828125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": "...",
+        "logit": 10.2578125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": "ì",
+        "logit": 10.1796875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "...\n",
+        "logit": 10.0859375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "INO",
+        "logit": 10.0390625,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "La città più popolosa di Italia è",
+    "generated_prefix": "La città più popolosa di Italia è",
+    "gold_token": " Roma",
+    "predicted_top1_token": " Roma",
+    "token_pos_in_answer": 0,
+    "gold_logit": 14.8828125,
+    "gold_prob_percent": 22.05,
+    "first_token_prob": 0.220458984375,
+    "second_token_prob": 0.142333984375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Roma",
+        "logit": 14.8828125,
+        "probability_percent": 22.05
+      },
+      {
+        "rank": 1,
+        "token": " Milano",
+        "logit": 14.4453125,
+        "probability_percent": 14.23
+      },
+      {
+        "rank": 2,
+        "token": " la",
+        "logit": 14.046875,
+        "probability_percent": 9.56
+      },
+      {
+        "rank": 3,
+        "token": " quella",
+        "logit": 13.3203125,
+        "probability_percent": 4.62
+      },
+      {
+        "rank": 4,
+        "token": " Tor",
+        "logit": 13.109375,
+        "probability_percent": 3.74
+      },
+      {
+        "rank": 5,
+        "token": " l",
+        "logit": 12.9609375,
+        "probability_percent": 3.23
+      },
+      {
+        "rank": 6,
+        "token": " il",
+        "logit": 12.8671875,
+        "probability_percent": 2.94
+      },
+      {
+        "rank": 7,
+        "token": ",",
+        "logit": 12.3984375,
+        "probability_percent": 1.84
+      },
+      {
+        "rank": 8,
+        "token": ":",
+        "logit": 12.0703125,
+        "probability_percent": 1.32
+      },
+      {
+        "rank": 9,
+        "token": " Napoli",
+        "logit": 12.0703125,
+        "probability_percent": 1.32
+      }
+    ]
+  },
+  {
+    "prompt": "La città più popolosa di Messico è",
+    "generated_prefix": "La città più popolosa di Messico è",
+    "gold_token": " C",
+    "predicted_top1_token": " la",
+    "token_pos_in_answer": 0,
+    "gold_logit": 14.765625,
+    "gold_prob_percent": 20.86,
+    "first_token_prob": 0.2119140625,
+    "second_token_prob": 0.2086181640625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " la",
+        "logit": 14.78125,
+        "probability_percent": 21.19
+      },
+      {
+        "rank": 1,
+        "token": " C",
+        "logit": 14.765625,
+        "probability_percent": 20.86
+      },
+      {
+        "rank": 2,
+        "token": " il",
+        "logit": 14.3125,
+        "probability_percent": 13.26
+      },
+      {
+        "rank": 3,
+        "token": " Ciudad",
+        "logit": 12.96875,
+        "probability_percent": 3.46
+      },
+      {
+        "rank": 4,
+        "token": " Gu",
+        "logit": 12.6796875,
+        "probability_percent": 2.59
+      },
+      {
+        "rank": 5,
+        "token": ",",
+        "logit": 12.375,
+        "probability_percent": 1.91
+      },
+      {
+        "rank": 6,
+        "token": " lo",
+        "logit": 12.359375,
+        "probability_percent": 1.88
+      },
+      {
+        "rank": 7,
+        "token": " quella",
+        "logit": 12.234375,
+        "probability_percent": 1.66
+      },
+      {
+        "rank": 8,
+        "token": " l",
+        "logit": 12.0625,
+        "probability_percent": 1.4
+      },
+      {
+        "rank": 9,
+        "token": " Mess",
+        "logit": 12.046875,
+        "probability_percent": 1.38
+      }
+    ]
+  },
+  {
+    "prompt": "La città più popolosa di Messico è",
+    "generated_prefix": "La città più popolosa di Messico è la",
+    "gold_token": "itt",
+    "predicted_top1_token": " capit",
+    "token_pos_in_answer": 1,
+    "gold_logit": 3.05859375,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.2119140625,
+    "second_token_prob": 0.2086181640625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " capit",
+        "logit": 15.8984375,
+        "probability_percent": 31.45
+      },
+      {
+        "rank": 1,
+        "token": " città",
+        "logit": 15.5625,
+        "probability_percent": 22.47
+      },
+      {
+        "rank": 2,
+        "token": " C",
+        "logit": 15.0390625,
+        "probability_percent": 13.31
+      },
+      {
+        "rank": 3,
+        "token": " grande",
+        "logit": 13.2421875,
+        "probability_percent": 2.21
+      },
+      {
+        "rank": 4,
+        "token": " più",
+        "logit": 13.125,
+        "probability_percent": 1.96
+      },
+      {
+        "rank": 5,
+        "token": " sua",
+        "logit": 13.078125,
+        "probability_percent": 1.87
+      },
+      {
+        "rank": 6,
+        "token": " met",
+        "logit": 13.03125,
+        "probability_percent": 1.79
+      },
+      {
+        "rank": 7,
+        "token": " Ciudad",
+        "logit": 12.8125,
+        "probability_percent": 1.44
+      },
+      {
+        "rank": 8,
+        "token": " vic",
+        "logit": 12.40625,
+        "probability_percent": 0.96
+      },
+      {
+        "rank": 9,
+        "token": " Grande",
+        "logit": 12.3203125,
+        "probability_percent": 0.88
+      }
+    ]
+  },
+  {
+    "prompt": "La città più popolosa di Messico è",
+    "generated_prefix": "La città più popolosa di Messico è la capit",
+    "gold_token": "à",
+    "predicted_top1_token": "ale",
+    "token_pos_in_answer": 2,
+    "gold_logit": 11.9140625,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.2119140625,
+    "second_token_prob": 0.2086181640625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ale",
+        "logit": 25.140625,
+        "probability_percent": 100.0
+      },
+      {
+        "rank": 1,
+        "token": "rale",
+        "logit": 13.140625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 2,
+        "token": "ola",
+        "logit": 12.84375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 3,
+        "token": "olo",
+        "logit": 12.828125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 4,
+        "token": "olt",
+        "logit": 12.8046875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 5,
+        "token": "iale",
+        "logit": 12.7578125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": "azione",
+        "logit": 12.421875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": "ais",
+        "logit": 12.0390625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "olare",
+        "logit": 11.9609375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "à",
+        "logit": 11.9140625,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "La città più popolosa di Messico è",
+    "generated_prefix": "La città più popolosa di Messico è la capitale",
+    "gold_token": " del",
+    "predicted_top1_token": ",",
+    "token_pos_in_answer": 3,
+    "gold_logit": 14.75,
+    "gold_prob_percent": 14.47,
+    "first_token_prob": 0.2119140625,
+    "second_token_prob": 0.2086181640625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": ",",
+        "logit": 15.8203125,
+        "probability_percent": 42.16
+      },
+      {
+        "rank": 1,
+        "token": " del",
+        "logit": 14.75,
+        "probability_percent": 14.47
+      },
+      {
+        "rank": 2,
+        "token": " C",
+        "logit": 14.0859375,
+        "probability_percent": 7.45
+      },
+      {
+        "rank": 3,
+        "token": " e",
+        "logit": 13.5390625,
+        "probability_percent": 4.31
+      },
+      {
+        "rank": 4,
+        "token": " della",
+        "logit": 13.25,
+        "probability_percent": 3.23
+      },
+      {
+        "rank": 5,
+        "token": " Mexico",
+        "logit": 12.9921875,
+        "probability_percent": 2.49
+      },
+      {
+        "rank": 6,
+        "token": ".",
+        "logit": 12.9296875,
+        "probability_percent": 2.34
+      },
+      {
+        "rank": 7,
+        "token": " Ciudad",
+        "logit": 12.8671875,
+        "probability_percent": 2.2
+      },
+      {
+        "rank": 8,
+        "token": " Mess",
+        "logit": 12.390625,
+        "probability_percent": 1.37
+      },
+      {
+        "rank": 9,
+        "token": " di",
+        "logit": 12.1640625,
+        "probability_percent": 1.09
+      }
+    ]
+  },
+  {
+    "prompt": "La città più popolosa di Messico è",
+    "generated_prefix": "La città più popolosa di Messico è la capitale,",
+    "gold_token": " Mess",
+    "predicted_top1_token": " C",
+    "token_pos_in_answer": 4,
+    "gold_logit": 14.9375,
+    "gold_prob_percent": 4.66,
+    "first_token_prob": 0.2119140625,
+    "second_token_prob": 0.2086181640625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " C",
+        "logit": 17.6875,
+        "probability_percent": 72.85
+      },
+      {
+        "rank": 1,
+        "token": " Mess",
+        "logit": 14.9375,
+        "probability_percent": 4.66
+      },
+      {
+        "rank": 2,
+        "token": " la",
+        "logit": 14.90625,
+        "probability_percent": 4.51
+      },
+      {
+        "rank": 3,
+        "token": " il",
+        "logit": 14.546875,
+        "probability_percent": 3.15
+      },
+      {
+        "rank": 4,
+        "token": " Mexico",
+        "logit": 14.453125,
+        "probability_percent": 2.87
+      },
+      {
+        "rank": 5,
+        "token": " che",
+        "logit": 14.140625,
+        "probability_percent": 2.1
+      },
+      {
+        "rank": 6,
+        "token": " Ciudad",
+        "logit": 13.71875,
+        "probability_percent": 1.38
+      },
+      {
+        "rank": 7,
+        "token": " città",
+        "logit": 13.3828125,
+        "probability_percent": 0.98
+      },
+      {
+        "rank": 8,
+        "token": " Ci",
+        "logit": 12.7421875,
+        "probability_percent": 0.52
+      },
+      {
+        "rank": 9,
+        "token": " con",
+        "logit": 12.7265625,
+        "probability_percent": 0.51
+      }
+    ]
+  },
+  {
+    "prompt": "La città più popolosa di Messico è",
+    "generated_prefix": "La città più popolosa di Messico è la capitale, C",
+    "gold_token": "ico",
+    "predicted_top1_token": "itt",
+    "token_pos_in_answer": 5,
+    "gold_logit": 1.4130859375,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.2119140625,
+    "second_token_prob": 0.2086181640625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "itt",
+        "logit": 22.984375,
+        "probability_percent": 99.95
+      },
+      {
+        "rank": 1,
+        "token": "itta",
+        "logit": 13.7578125,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 2,
+        "token": "ITT",
+        "logit": 12.8515625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 3,
+        "token": "us",
+        "logit": 12.125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 4,
+        "token": "idade",
+        "logit": 12.0546875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 5,
+        "token": "ui",
+        "logit": 12.03125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": "DM",
+        "logit": 11.546875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": "oyo",
+        "logit": 11.375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "uz",
+        "logit": 10.5546875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "itti",
+        "logit": 10.1640625,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "La città più popolosa di Corea del Sud è",
+    "generated_prefix": "La città più popolosa di Corea del Sud è",
+    "gold_token": " Se",
+    "predicted_top1_token": " la",
+    "token_pos_in_answer": 0,
+    "gold_logit": 14.578125,
+    "gold_prob_percent": 19.42,
+    "first_token_prob": 0.296142578125,
+    "second_token_prob": 0.1942138671875,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " la",
+        "logit": 15.0,
+        "probability_percent": 29.61
+      },
+      {
+        "rank": 1,
+        "token": " Se",
+        "logit": 14.578125,
+        "probability_percent": 19.42
+      },
+      {
+        "rank": 2,
+        "token": " Seoul",
+        "logit": 14.4296875,
+        "probability_percent": 16.74
+      },
+      {
+        "rank": 3,
+        "token": " l",
+        "logit": 12.9765625,
+        "probability_percent": 3.92
+      },
+      {
+        "rank": 4,
+        "token": " In",
+        "logit": 12.5859375,
+        "probability_percent": 2.65
+      },
+      {
+        "rank": 5,
+        "token": " P",
+        "logit": 12.1015625,
+        "probability_percent": 1.63
+      },
+      {
+        "rank": 6,
+        "token": " il",
+        "logit": 11.8359375,
+        "probability_percent": 1.25
+      },
+      {
+        "rank": 7,
+        "token": " quella",
+        "logit": 11.8203125,
+        "probability_percent": 1.23
+      },
+      {
+        "rank": 8,
+        "token": " se",
+        "logit": 11.75,
+        "probability_percent": 1.15
+      },
+      {
+        "rank": 9,
+        "token": " Sé",
+        "logit": 11.71875,
+        "probability_percent": 1.11
+      }
+    ]
+  },
+  {
+    "prompt": "La città più popolosa di Corea del Sud è",
+    "generated_prefix": "La città più popolosa di Corea del Sud è la",
+    "gold_token": "ul",
+    "predicted_top1_token": " capit",
+    "token_pos_in_answer": 1,
+    "gold_logit": 3.6796875,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.296142578125,
+    "second_token_prob": 0.1942138671875,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " capit",
+        "logit": 16.3125,
+        "probability_percent": 46.07
+      },
+      {
+        "rank": 1,
+        "token": " città",
+        "logit": 15.390625,
+        "probability_percent": 18.32
+      },
+      {
+        "rank": 2,
+        "token": " met",
+        "logit": 14.578125,
+        "probability_percent": 8.13
+      },
+      {
+        "rank": 3,
+        "token": " grande",
+        "logit": 13.8515625,
+        "probability_percent": 3.93
+      },
+      {
+        "rank": 4,
+        "token": " provincia",
+        "logit": 13.3359375,
+        "probability_percent": 2.35
+      },
+      {
+        "rank": 5,
+        "token": " per",
+        "logit": 12.9453125,
+        "probability_percent": 1.59
+      },
+      {
+        "rank": 6,
+        "token": " cap",
+        "logit": 12.75,
+        "probability_percent": 1.31
+      },
+      {
+        "rank": 7,
+        "token": " C",
+        "logit": 12.7421875,
+        "probability_percent": 1.3
+      },
+      {
+        "rank": 8,
+        "token": " Se",
+        "logit": 12.515625,
+        "probability_percent": 1.03
+      },
+      {
+        "rank": 9,
+        "token": " Grande",
+        "logit": 12.4453125,
+        "probability_percent": 0.96
+      }
+    ]
+  },
+  {
+    "prompt": "La città più popolosa di Turchia è",
+    "generated_prefix": "La città più popolosa di Turchia è",
+    "gold_token": " Istanbul",
+    "predicted_top1_token": " Istanbul",
+    "token_pos_in_answer": 0,
+    "gold_logit": 15.765625,
+    "gold_prob_percent": 70.85,
+    "first_token_prob": 0.70849609375,
+    "second_token_prob": 0.0478515625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Istanbul",
+        "logit": 15.765625,
+        "probability_percent": 70.85
+      },
+      {
+        "rank": 1,
+        "token": " Ankara",
+        "logit": 13.0703125,
+        "probability_percent": 4.79
+      },
+      {
+        "rank": 2,
+        "token": " la",
+        "logit": 12.40625,
+        "probability_percent": 2.46
+      },
+      {
+        "rank": 3,
+        "token": " l",
+        "logit": 11.6328125,
+        "probability_percent": 1.14
+      },
+      {
+        "rank": 4,
+        "token": " cost",
+        "logit": 11.5390625,
+        "probability_percent": 1.03
+      },
+      {
+        "rank": 5,
+        "token": " quella",
+        "logit": 11.4921875,
+        "probability_percent": 0.99
+      },
+      {
+        "rank": 6,
+        "token": " Cost",
+        "logit": 11.4765625,
+        "probability_percent": 0.97
+      },
+      {
+        "rank": 7,
+        "token": " İstanbul",
+        "logit": 11.296875,
+        "probability_percent": 0.81
+      },
+      {
+        "rank": 8,
+        "token": " anche",
+        "logit": 11.265625,
+        "probability_percent": 0.79
+      },
+      {
+        "rank": 9,
+        "token": " I",
+        "logit": 11.234375,
+        "probability_percent": 0.76
+      }
+    ]
+  },
+  {
+    "prompt": "La città più popolosa di Spagna è",
+    "generated_prefix": "La città più popolosa di Spagna è",
+    "gold_token": " Madrid",
+    "predicted_top1_token": " Madrid",
+    "token_pos_in_answer": 0,
+    "gold_logit": 16.640625,
+    "gold_prob_percent": 59.47,
+    "first_token_prob": 0.5947265625,
+    "second_token_prob": 0.09783935546875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Madrid",
+        "logit": 16.640625,
+        "probability_percent": 59.47
+      },
+      {
+        "rank": 1,
+        "token": " Bar",
+        "logit": 14.8359375,
+        "probability_percent": 9.78
+      },
+      {
+        "rank": 2,
+        "token": " la",
+        "logit": 14.40625,
+        "probability_percent": 6.37
+      },
+      {
+        "rank": 3,
+        "token": " Valencia",
+        "logit": 13.5,
+        "probability_percent": 2.57
+      },
+      {
+        "rank": 4,
+        "token": " quella",
+        "logit": 13.1796875,
+        "probability_percent": 1.87
+      },
+      {
+        "rank": 5,
+        "token": " il",
+        "logit": 13.109375,
+        "probability_percent": 1.74
+      },
+      {
+        "rank": 6,
+        "token": " l",
+        "logit": 12.84375,
+        "probability_percent": 1.33
+      },
+      {
+        "rank": 7,
+        "token": ",",
+        "logit": 12.5,
+        "probability_percent": 0.95
+      },
+      {
+        "rank": 8,
+        "token": " Barcelona",
+        "logit": 12.3828125,
+        "probability_percent": 0.84
+      },
+      {
+        "rank": 9,
+        "token": " anche",
+        "logit": 12.21875,
+        "probability_percent": 0.71
+      }
+    ]
+  },
+  {
+    "prompt": "La città più popolosa di Argentina è",
+    "generated_prefix": "La città più popolosa di Argentina è",
+    "gold_token": " Buenos",
+    "predicted_top1_token": " Buenos",
+    "token_pos_in_answer": 0,
+    "gold_logit": 17.296875,
+    "gold_prob_percent": 75.44,
+    "first_token_prob": 0.75439453125,
+    "second_token_prob": 0.053375244140625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Buenos",
+        "logit": 17.296875,
+        "probability_percent": 75.44
+      },
+      {
+        "rank": 1,
+        "token": " la",
+        "logit": 14.6484375,
+        "probability_percent": 5.34
+      },
+      {
+        "rank": 2,
+        "token": " quella",
+        "logit": 13.578125,
+        "probability_percent": 1.83
+      },
+      {
+        "rank": 3,
+        "token": " l",
+        "logit": 13.4609375,
+        "probability_percent": 1.63
+      },
+      {
+        "rank": 4,
+        "token": " il",
+        "logit": 13.1796875,
+        "probability_percent": 1.23
+      },
+      {
+        "rank": 5,
+        "token": ",",
+        "logit": 13.15625,
+        "probability_percent": 1.2
+      },
+      {
+        "rank": 6,
+        "token": " con",
+        "logit": 12.3828125,
+        "probability_percent": 0.55
+      },
+      {
+        "rank": 7,
+        "token": " Ciudad",
+        "logit": 12.2890625,
+        "probability_percent": 0.5
+      },
+      {
+        "rank": 8,
+        "token": " La",
+        "logit": 11.9765625,
+        "probability_percent": 0.37
+      },
+      {
+        "rank": 9,
+        "token": " in",
+        "logit": 11.921875,
+        "probability_percent": 0.35
+      }
+    ]
+  },
+  {
+    "prompt": "La città più popolosa di Argentina è",
+    "generated_prefix": "La città più popolosa di Argentina è Buenos",
+    "gold_token": " Aires",
+    "predicted_top1_token": " Aires",
+    "token_pos_in_answer": 1,
+    "gold_logit": 22.671875,
+    "gold_prob_percent": 99.66,
+    "first_token_prob": 0.75439453125,
+    "second_token_prob": 0.053375244140625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Aires",
+        "logit": 22.671875,
+        "probability_percent": 99.66
+      },
+      {
+        "rank": 1,
+        "token": " A",
+        "logit": 15.703125,
+        "probability_percent": 0.09
+      },
+      {
+        "rank": 2,
+        "token": "-A",
+        "logit": 14.8125,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 3,
+        "token": " Ay",
+        "logit": 14.34375,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 4,
+        "token": " a",
+        "logit": 14.2890625,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 5,
+        "token": "\n",
+        "logit": 14.203125,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 6,
+        "token": "A",
+        "logit": 13.7109375,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 7,
+        "token": " Ai",
+        "logit": 13.6328125,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 8,
+        "token": " AI",
+        "logit": 13.6015625,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 9,
+        "token": " Air",
+        "logit": 13.234375,
+        "probability_percent": 0.01
+      }
+    ]
+  },
+  {
+    "prompt": "La città più popolosa di Sudafrica è",
+    "generated_prefix": "La città più popolosa di Sudafrica è",
+    "gold_token": " Johannesburg",
+    "predicted_top1_token": " Johannesburg",
+    "token_pos_in_answer": 0,
+    "gold_logit": 15.1171875,
+    "gold_prob_percent": 38.23,
+    "first_token_prob": 0.38232421875,
+    "second_token_prob": 0.08734130859375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Johannesburg",
+        "logit": 15.1171875,
+        "probability_percent": 38.23
+      },
+      {
+        "rank": 1,
+        "token": " il",
+        "logit": 13.640625,
+        "probability_percent": 8.73
+      },
+      {
+        "rank": 2,
+        "token": " la",
+        "logit": 13.4609375,
+        "probability_percent": 7.3
+      },
+      {
+        "rank": 3,
+        "token": " Cape",
+        "logit": 13.2578125,
+        "probability_percent": 5.96
+      },
+      {
+        "rank": 4,
+        "token": " Pret",
+        "logit": 12.59375,
+        "probability_percent": 3.07
+      },
+      {
+        "rank": 5,
+        "token": " l",
+        "logit": 12.2109375,
+        "probability_percent": 2.09
+      },
+      {
+        "rank": 6,
+        "token": " quella",
+        "logit": 12.2109375,
+        "probability_percent": 2.09
+      },
+      {
+        "rank": 7,
+        "token": " Gi",
+        "logit": 12.1953125,
+        "probability_percent": 2.06
+      },
+      {
+        "rank": 8,
+        "token": " anche",
+        "logit": 11.90625,
+        "probability_percent": 1.54
+      },
+      {
+        "rank": 9,
+        "token": " Gaut",
+        "logit": 11.90625,
+        "probability_percent": 1.54
+      }
+    ]
+  },
+  {
+    "prompt": "La città più popolosa di Polonia è",
+    "generated_prefix": "La città più popolosa di Polonia è",
+    "gold_token": " V",
+    "predicted_top1_token": " la",
+    "token_pos_in_answer": 0,
+    "gold_logit": 13.671875,
+    "gold_prob_percent": 16.44,
+    "first_token_prob": 0.1671142578125,
+    "second_token_prob": 0.1644287109375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " la",
+        "logit": 13.6875,
+        "probability_percent": 16.71
+      },
+      {
+        "rank": 1,
+        "token": " V",
+        "logit": 13.671875,
+        "probability_percent": 16.44
+      },
+      {
+        "rank": 2,
+        "token": " Cr",
+        "logit": 12.828125,
+        "probability_percent": 7.07
+      },
+      {
+        "rank": 3,
+        "token": " il",
+        "logit": 12.609375,
+        "probability_percent": 5.69
+      },
+      {
+        "rank": 4,
+        "token": " quella",
+        "logit": 12.1875,
+        "probability_percent": 3.73
+      },
+      {
+        "rank": 5,
+        "token": " anche",
+        "logit": 11.7109375,
+        "probability_percent": 2.31
+      },
+      {
+        "rank": 6,
+        "token": " Poz",
+        "logit": 11.6015625,
+        "probability_percent": 2.08
+      },
+      {
+        "rank": 7,
+        "token": " l",
+        "logit": 11.359375,
+        "probability_percent": 1.63
+      },
+      {
+        "rank": 8,
+        "token": " Lub",
+        "logit": 11.1796875,
+        "probability_percent": 1.36
+      },
+      {
+        "rank": 9,
+        "token": ",",
+        "logit": 11.171875,
+        "probability_percent": 1.35
+      }
+    ]
+  },
+  {
+    "prompt": "La città più popolosa di Polonia è",
+    "generated_prefix": "La città più popolosa di Polonia è la",
+    "gold_token": "ars",
+    "predicted_top1_token": " capit",
+    "token_pos_in_answer": 1,
+    "gold_logit": 1.97265625,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.1671142578125,
+    "second_token_prob": 0.1644287109375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " capit",
+        "logit": 17.265625,
+        "probability_percent": 73.05
+      },
+      {
+        "rank": 1,
+        "token": " città",
+        "logit": 15.078125,
+        "probability_percent": 8.2
+      },
+      {
+        "rank": 2,
+        "token": " Pol",
+        "logit": 13.5703125,
+        "probability_percent": 1.81
+      },
+      {
+        "rank": 3,
+        "token": " second",
+        "logit": 13.4453125,
+        "probability_percent": 1.6
+      },
+      {
+        "rank": 4,
+        "token": " cap",
+        "logit": 13.3125,
+        "probability_percent": 1.4
+      },
+      {
+        "rank": 5,
+        "token": " sua",
+        "logit": 13.3125,
+        "probability_percent": 1.4
+      },
+      {
+        "rank": 6,
+        "token": " st",
+        "logit": 12.828125,
+        "probability_percent": 0.86
+      },
+      {
+        "rank": 7,
+        "token": " pol",
+        "logit": 12.71875,
+        "probability_percent": 0.77
+      },
+      {
+        "rank": 8,
+        "token": " grande",
+        "logit": 12.34375,
+        "probability_percent": 0.53
+      },
+      {
+        "rank": 9,
+        "token": " Cap",
+        "logit": 12.21875,
+        "probability_percent": 0.47
+      }
+    ]
+  },
+  {
+    "prompt": "La città più popolosa di Polonia è",
+    "generated_prefix": "La città più popolosa di Polonia è la capit",
+    "gold_token": "avia",
+    "predicted_top1_token": "ale",
+    "token_pos_in_answer": 2,
+    "gold_logit": 7.2421875,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.1671142578125,
+    "second_token_prob": 0.1644287109375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ale",
+        "logit": 25.5,
+        "probability_percent": 100.0
+      },
+      {
+        "rank": 1,
+        "token": "ola",
+        "logit": 15.8125,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 2,
+        "token": "olo",
+        "logit": 15.375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 3,
+        "token": "olt",
+        "logit": 14.7421875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 4,
+        "token": "ole",
+        "logit": 14.5234375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 5,
+        "token": "rale",
+        "logit": 14.0234375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": "olare",
+        "logit": 13.796875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": "à",
+        "logit": 13.4921875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "iale",
+        "logit": 13.4765625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "azione",
+        "logit": 13.234375,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "La città più popolosa di Nigeria è",
+    "generated_prefix": "La città più popolosa di Nigeria è",
+    "gold_token": " Lagos",
+    "predicted_top1_token": " Lagos",
+    "token_pos_in_answer": 0,
+    "gold_logit": 15.046875,
+    "gold_prob_percent": 32.74,
+    "first_token_prob": 0.327392578125,
+    "second_token_prob": 0.1353759765625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Lagos",
+        "logit": 15.046875,
+        "probability_percent": 32.74
+      },
+      {
+        "rank": 1,
+        "token": " il",
+        "logit": 14.1640625,
+        "probability_percent": 13.54
+      },
+      {
+        "rank": 2,
+        "token": " l",
+        "logit": 13.6015625,
+        "probability_percent": 7.71
+      },
+      {
+        "rank": 3,
+        "token": " la",
+        "logit": 12.828125,
+        "probability_percent": 3.56
+      },
+      {
+        "rank": 4,
+        "token": " Il",
+        "logit": 12.5703125,
+        "probability_percent": 2.75
+      },
+      {
+        "rank": 5,
+        "token": " K",
+        "logit": 12.5546875,
+        "probability_percent": 2.71
+      },
+      {
+        "rank": 6,
+        "token": " Ab",
+        "logit": 12.296875,
+        "probability_percent": 2.09
+      },
+      {
+        "rank": 7,
+        "token": " L",
+        "logit": 12.265625,
+        "probability_percent": 2.03
+      },
+      {
+        "rank": 8,
+        "token": ",",
+        "logit": 12.140625,
+        "probability_percent": 1.79
+      },
+      {
+        "rank": 9,
+        "token": " anche",
+        "logit": 12.046875,
+        "probability_percent": 1.63
+      }
+    ]
+  },
+  {
+    "prompt": "La città più popolosa di Nuova Zelanda è",
+    "generated_prefix": "La città più popolosa di Nuova Zelanda è",
+    "gold_token": " Auckland",
+    "predicted_top1_token": " Auckland",
+    "token_pos_in_answer": 0,
+    "gold_logit": 17.484375,
+    "gold_prob_percent": 81.05,
+    "first_token_prob": 0.810546875,
+    "second_token_prob": 0.03912353515625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Auckland",
+        "logit": 17.484375,
+        "probability_percent": 81.05
+      },
+      {
+        "rank": 1,
+        "token": " la",
+        "logit": 14.453125,
+        "probability_percent": 3.91
+      },
+      {
+        "rank": 2,
+        "token": " Wellington",
+        "logit": 14.4296875,
+        "probability_percent": 3.82
+      },
+      {
+        "rank": 3,
+        "token": " l",
+        "logit": 13.6953125,
+        "probability_percent": 1.83
+      },
+      {
+        "rank": 4,
+        "token": " Christ",
+        "logit": 12.8125,
+        "probability_percent": 0.76
+      },
+      {
+        "rank": 5,
+        "token": " quella",
+        "logit": 12.7890625,
+        "probability_percent": 0.74
+      },
+      {
+        "rank": 6,
+        "token": " Sydney",
+        "logit": 12.328125,
+        "probability_percent": 0.47
+      },
+      {
+        "rank": 7,
+        "token": " anche",
+        "logit": 12.203125,
+        "probability_percent": 0.41
+      },
+      {
+        "rank": 8,
+        "token": " Melbourne",
+        "logit": 11.8984375,
+        "probability_percent": 0.3
+      },
+      {
+        "rank": 9,
+        "token": " In",
+        "logit": 11.734375,
+        "probability_percent": 0.26
+      }
+    ]
+  },
+  {
+    "prompt": "La città più popolosa di Svizzera è",
+    "generated_prefix": "La città più popolosa di Svizzera è",
+    "gold_token": " Zur",
+    "predicted_top1_token": " la",
+    "token_pos_in_answer": 0,
+    "gold_logit": 13.8203125,
+    "gold_prob_percent": 17.05,
+    "first_token_prob": 0.1732177734375,
+    "second_token_prob": 0.1705322265625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " la",
+        "logit": 13.8359375,
+        "probability_percent": 17.32
+      },
+      {
+        "rank": 1,
+        "token": " Zur",
+        "logit": 13.8203125,
+        "probability_percent": 17.05
+      },
+      {
+        "rank": 2,
+        "token": " Bas",
+        "logit": 12.953125,
+        "probability_percent": 7.17
+      },
+      {
+        "rank": 3,
+        "token": " Bern",
+        "logit": 12.7421875,
+        "probability_percent": 5.8
+      },
+      {
+        "rank": 4,
+        "token": " il",
+        "logit": 12.5703125,
+        "probability_percent": 4.89
+      },
+      {
+        "rank": 5,
+        "token": " G",
+        "logit": 12.3828125,
+        "probability_percent": 4.05
+      },
+      {
+        "rank": 6,
+        "token": " l",
+        "logit": 12.265625,
+        "probability_percent": 3.6
+      },
+      {
+        "rank": 7,
+        "token": " quella",
+        "logit": 11.546875,
+        "probability_percent": 1.76
+      },
+      {
+        "rank": 8,
+        "token": " Z",
+        "logit": 11.1953125,
+        "probability_percent": 1.24
+      },
+      {
+        "rank": 9,
+        "token": " La",
+        "logit": 11.15625,
+        "probability_percent": 1.19
+      }
+    ]
+  },
+  {
+    "prompt": "La città più popolosa di Svizzera è",
+    "generated_prefix": "La città più popolosa di Svizzera è la",
+    "gold_token": "igo",
+    "predicted_top1_token": " città",
+    "token_pos_in_answer": 1,
+    "gold_logit": -1.5595703125,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.1732177734375,
+    "second_token_prob": 0.1705322265625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " città",
+        "logit": 14.359375,
+        "probability_percent": 26.37
+      },
+      {
+        "rank": 1,
+        "token": " capit",
+        "logit": 13.7421875,
+        "probability_percent": 14.22
+      },
+      {
+        "rank": 2,
+        "token": " st",
+        "logit": 12.4921875,
+        "probability_percent": 4.07
+      },
+      {
+        "rank": 3,
+        "token": " grande",
+        "logit": 12.1484375,
+        "probability_percent": 2.89
+      },
+      {
+        "rank": 4,
+        "token": " Sv",
+        "logit": 11.90625,
+        "probability_percent": 2.27
+      },
+      {
+        "rank": 5,
+        "token": " cap",
+        "logit": 11.8046875,
+        "probability_percent": 2.05
+      },
+      {
+        "rank": 6,
+        "token": " ling",
+        "logit": 11.6171875,
+        "probability_percent": 1.7
+      },
+      {
+        "rank": 7,
+        "token": " vic",
+        "logit": 11.5234375,
+        "probability_percent": 1.55
+      },
+      {
+        "rank": 8,
+        "token": " sua",
+        "logit": 11.5,
+        "probability_percent": 1.51
+      },
+      {
+        "rank": 9,
+        "token": " zona",
+        "logit": 11.40625,
+        "probability_percent": 1.38
+      }
+    ]
+  },
+  {
+    "prompt": "La città più popolosa di Paesi Bassi è",
+    "generated_prefix": "La città più popolosa di Paesi Bassi è",
+    "gold_token": " Amsterdam",
+    "predicted_top1_token": " Amsterdam",
+    "token_pos_in_answer": 0,
+    "gold_logit": 14.78125,
+    "gold_prob_percent": 22.64,
+    "first_token_prob": 0.2264404296875,
+    "second_token_prob": 0.1112060546875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Amsterdam",
+        "logit": 14.78125,
+        "probability_percent": 22.64
+      },
+      {
+        "rank": 1,
+        "token": " la",
+        "logit": 14.0703125,
+        "probability_percent": 11.12
+      },
+      {
+        "rank": 2,
+        "token": " quella",
+        "logit": 13.5625,
+        "probability_percent": 6.7
+      },
+      {
+        "rank": 3,
+        "token": " Rotterdam",
+        "logit": 13.53125,
+        "probability_percent": 6.49
+      },
+      {
+        "rank": 4,
+        "token": " l",
+        "logit": 13.3828125,
+        "probability_percent": 5.59
+      },
+      {
+        "rank": 5,
+        "token": " Am",
+        "logit": 12.8359375,
+        "probability_percent": 3.24
+      },
+      {
+        "rank": 6,
+        "token": " U",
+        "logit": 12.6015625,
+        "probability_percent": 2.56
+      },
+      {
+        "rank": 7,
+        "token": " anche",
+        "logit": 12.546875,
+        "probability_percent": 2.42
+      },
+      {
+        "rank": 8,
+        "token": " in",
+        "logit": 11.8515625,
+        "probability_percent": 1.21
+      },
+      {
+        "rank": 9,
+        "token": ":",
+        "logit": 11.8203125,
+        "probability_percent": 1.17
+      }
+    ]
+  },
+  {
+    "prompt": "La città più popolosa di Pakistan è",
+    "generated_prefix": "La città più popolosa di Pakistan è",
+    "gold_token": " Karachi",
+    "predicted_top1_token": " Karachi",
+    "token_pos_in_answer": 0,
+    "gold_logit": 16.09375,
+    "gold_prob_percent": 60.79,
+    "first_token_prob": 0.60791015625,
+    "second_token_prob": 0.056976318359375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Karachi",
+        "logit": 16.09375,
+        "probability_percent": 60.79
+      },
+      {
+        "rank": 1,
+        "token": " Islamabad",
+        "logit": 13.7265625,
+        "probability_percent": 5.7
+      },
+      {
+        "rank": 2,
+        "token": " Lahore",
+        "logit": 13.6640625,
+        "probability_percent": 5.35
+      },
+      {
+        "rank": 3,
+        "token": " la",
+        "logit": 13.6015625,
+        "probability_percent": 5.03
+      },
+      {
+        "rank": 4,
+        "token": " il",
+        "logit": 12.765625,
+        "probability_percent": 2.18
+      },
+      {
+        "rank": 5,
+        "token": " quella",
+        "logit": 12.453125,
+        "probability_percent": 1.59
+      },
+      {
+        "rank": 6,
+        "token": " Kar",
+        "logit": 12.34375,
+        "probability_percent": 1.43
+      },
+      {
+        "rank": 7,
+        "token": " Hyderabad",
+        "logit": 12.078125,
+        "probability_percent": 1.1
+      },
+      {
+        "rank": 8,
+        "token": " l",
+        "logit": 12.046875,
+        "probability_percent": 1.06
+      },
+      {
+        "rank": 9,
+        "token": ",",
+        "logit": 11.46875,
+        "probability_percent": 0.6
+      }
+    ]
+  }
+]

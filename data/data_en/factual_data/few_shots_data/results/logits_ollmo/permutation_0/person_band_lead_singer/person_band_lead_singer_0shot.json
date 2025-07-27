@@ -1,0 +1,4812 @@
+[
+  {
+    "prompt": "Brian Johnson performs as the lead singer of",
+    "generated_prefix": "Brian Johnson performs as the lead singer of",
+    "gold_token": " AC",
+    "predicted_top1_token": " the",
+    "token_pos_in_answer": 0,
+    "gold_logit": 14.5,
+    "gold_prob_percent": 22.27,
+    "first_token_prob": 0.323974609375,
+    "second_token_prob": 0.22265625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " the",
+        "logit": 14.875,
+        "probability_percent": 32.4
+      },
+      {
+        "rank": 1,
+        "token": " AC",
+        "logit": 14.5,
+        "probability_percent": 22.27
+      },
+      {
+        "rank": 2,
+        "token": " A",
+        "logit": 13.3359375,
+        "probability_percent": 6.95
+      },
+      {
+        "rank": 3,
+        "token": " The",
+        "logit": 12.25,
+        "probability_percent": 2.35
+      },
+      {
+        "rank": 4,
+        "token": " rock",
+        "logit": 12.0234375,
+        "probability_percent": 1.87
+      },
+      {
+        "rank": 5,
+        "token": " AB",
+        "logit": 11.796875,
+        "probability_percent": 1.49
+      },
+      {
+        "rank": 6,
+        "token": " hard",
+        "logit": 11.734375,
+        "probability_percent": 1.4
+      },
+      {
+        "rank": 7,
+        "token": " \"",
+        "logit": 11.6875,
+        "probability_percent": 1.34
+      },
+      {
+        "rank": 8,
+        "token": " British",
+        "logit": 11.671875,
+        "probability_percent": 1.32
+      },
+      {
+        "rank": 9,
+        "token": " a",
+        "logit": 11.5625,
+        "probability_percent": 1.18
+      }
+    ]
+  },
+  {
+    "prompt": "Brian Johnson performs as the lead singer of",
+    "generated_prefix": "Brian Johnson performs as the lead singer of the",
+    "gold_token": "/",
+    "predicted_top1_token": " band",
+    "token_pos_in_answer": 1,
+    "gold_logit": 4.96875,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.323974609375,
+    "second_token_prob": 0.22265625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " band",
+        "logit": 14.6953125,
+        "probability_percent": 28.49
+      },
+      {
+        "rank": 1,
+        "token": " rock",
+        "logit": 14.4765625,
+        "probability_percent": 22.89
+      },
+      {
+        "rank": 2,
+        "token": " British",
+        "logit": 13.140625,
+        "probability_percent": 6.02
+      },
+      {
+        "rank": 3,
+        "token": " English",
+        "logit": 13.046875,
+        "probability_percent": 5.48
+      },
+      {
+        "rank": 4,
+        "token": " hard",
+        "logit": 12.59375,
+        "probability_percent": 3.48
+      },
+      {
+        "rank": 5,
+        "token": " group",
+        "logit": 12.4765625,
+        "probability_percent": 3.1
+      },
+      {
+        "rank": 6,
+        "token": " American",
+        "logit": 12.046875,
+        "probability_percent": 2.02
+      },
+      {
+        "rank": 7,
+        "token": " classic",
+        "logit": 11.6171875,
+        "probability_percent": 1.31
+      },
+      {
+        "rank": 8,
+        "token": " popular",
+        "logit": 11.296875,
+        "probability_percent": 0.95
+      },
+      {
+        "rank": 9,
+        "token": " legendary",
+        "logit": 10.8203125,
+        "probability_percent": 0.59
+      }
+    ]
+  },
+  {
+    "prompt": "Brian Johnson performs as the lead singer of",
+    "generated_prefix": "Brian Johnson performs as the lead singer of the band",
+    "gold_token": "DC",
+    "predicted_top1_token": " AC",
+    "token_pos_in_answer": 2,
+    "gold_logit": 1.3056640625,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.323974609375,
+    "second_token_prob": 0.22265625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " AC",
+        "logit": 14.0859375,
+        "probability_percent": 26.56
+      },
+      {
+        "rank": 1,
+        "token": " A",
+        "logit": 13.515625,
+        "probability_percent": 15.01
+      },
+      {
+        "rank": 2,
+        "token": ".",
+        "logit": 12.8828125,
+        "probability_percent": 7.98
+      },
+      {
+        "rank": 3,
+        "token": ",",
+        "logit": 12.4453125,
+        "probability_percent": 5.15
+      },
+      {
+        "rank": 4,
+        "token": " \"",
+        "logit": 11.8984375,
+        "probability_percent": 2.98
+      },
+      {
+        "rank": 5,
+        "token": " T",
+        "logit": 11.703125,
+        "probability_percent": 2.45
+      },
+      {
+        "rank": 6,
+        "token": " The",
+        "logit": 11.3046875,
+        "probability_percent": 1.64
+      },
+      {
+        "rank": 7,
+        "token": " Th",
+        "logit": 11.296875,
+        "probability_percent": 1.63
+      },
+      {
+        "rank": 8,
+        "token": " Bad",
+        "logit": 11.2734375,
+        "probability_percent": 1.59
+      },
+      {
+        "rank": 9,
+        "token": " Foreign",
+        "logit": 11.25,
+        "probability_percent": 1.56
+      }
+    ]
+  },
+  {
+    "prompt": "Steven Tyler performs as the lead singer of",
+    "generated_prefix": "Steven Tyler performs as the lead singer of",
+    "gold_token": " A",
+    "predicted_top1_token": " the",
+    "token_pos_in_answer": 0,
+    "gold_logit": 11.125,
+    "gold_prob_percent": 0.5,
+    "first_token_prob": 0.3955078125,
+    "second_token_prob": 0.07666015625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " the",
+        "logit": 15.4921875,
+        "probability_percent": 39.55
+      },
+      {
+        "rank": 1,
+        "token": " a",
+        "logit": 13.8515625,
+        "probability_percent": 7.67
+      },
+      {
+        "rank": 2,
+        "token": " The",
+        "logit": 13.21875,
+        "probability_percent": 4.07
+      },
+      {
+        "rank": 3,
+        "token": " his",
+        "logit": 13.203125,
+        "probability_percent": 4.01
+      },
+      {
+        "rank": 4,
+        "token": " \"",
+        "logit": 12.6484375,
+        "probability_percent": 2.3
+      },
+      {
+        "rank": 5,
+        "token": " an",
+        "logit": 12.2890625,
+        "probability_percent": 1.61
+      },
+      {
+        "rank": 6,
+        "token": " rock",
+        "logit": 11.8125,
+        "probability_percent": 1.0
+      },
+      {
+        "rank": 7,
+        "token": " alternative",
+        "logit": 11.3515625,
+        "probability_percent": 0.63
+      },
+      {
+        "rank": 8,
+        "token": " T",
+        "logit": 11.3359375,
+        "probability_percent": 0.62
+      },
+      {
+        "rank": 9,
+        "token": " American",
+        "logit": 11.234375,
+        "probability_percent": 0.56
+      }
+    ]
+  },
+  {
+    "prompt": "Steven Tyler performs as the lead singer of",
+    "generated_prefix": "Steven Tyler performs as the lead singer of the",
+    "gold_token": "eros",
+    "predicted_top1_token": " band",
+    "token_pos_in_answer": 1,
+    "gold_logit": -0.6328125,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.3955078125,
+    "second_token_prob": 0.07666015625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " band",
+        "logit": 15.4609375,
+        "probability_percent": 41.09
+      },
+      {
+        "rank": 1,
+        "token": " rock",
+        "logit": 13.640625,
+        "probability_percent": 6.65
+      },
+      {
+        "rank": 2,
+        "token": " group",
+        "logit": 12.421875,
+        "probability_percent": 1.97
+      },
+      {
+        "rank": 3,
+        "token": " American",
+        "logit": 11.890625,
+        "probability_percent": 1.16
+      },
+      {
+        "rank": 4,
+        "token": " house",
+        "logit": 11.65625,
+        "probability_percent": 0.91
+      },
+      {
+        "rank": 5,
+        "token": " punk",
+        "logit": 11.6484375,
+        "probability_percent": 0.91
+      },
+      {
+        "rank": 6,
+        "token": " country",
+        "logit": 11.5625,
+        "probability_percent": 0.83
+      },
+      {
+        "rank": 7,
+        "token": " \"",
+        "logit": 11.4453125,
+        "probability_percent": 0.74
+      },
+      {
+        "rank": 8,
+        "token": " alternative",
+        "logit": 11.40625,
+        "probability_percent": 0.71
+      },
+      {
+        "rank": 9,
+        "token": " British",
+        "logit": 11.3515625,
+        "probability_percent": 0.67
+      }
+    ]
+  },
+  {
+    "prompt": "Steven Tyler performs as the lead singer of",
+    "generated_prefix": "Steven Tyler performs as the lead singer of the band",
+    "gold_token": "mith",
+    "predicted_top1_token": ",",
+    "token_pos_in_answer": 2,
+    "gold_logit": -0.271484375,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.3955078125,
+    "second_token_prob": 0.07666015625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": ",",
+        "logit": 14.0390625,
+        "probability_percent": 13.49
+      },
+      {
+        "rank": 1,
+        "token": ".",
+        "logit": 13.8828125,
+        "probability_percent": 11.54
+      },
+      {
+        "rank": 2,
+        "token": " \"",
+        "logit": 13.234375,
+        "probability_percent": 6.03
+      },
+      {
+        "rank": 3,
+        "token": " The",
+        "logit": 13.125,
+        "probability_percent": 5.41
+      },
+      {
+        "rank": 4,
+        "token": " and",
+        "logit": 12.71875,
+        "probability_percent": 3.6
+      },
+      {
+        "rank": 5,
+        "token": " on",
+        "logit": 12.0546875,
+        "probability_percent": 1.86
+      },
+      {
+        "rank": 6,
+        "token": " in",
+        "logit": 12.0078125,
+        "probability_percent": 1.77
+      },
+      {
+        "rank": 7,
+        "token": " the",
+        "logit": 11.734375,
+        "probability_percent": 1.35
+      },
+      {
+        "rank": 8,
+        "token": " with",
+        "logit": 11.2734375,
+        "probability_percent": 0.85
+      },
+      {
+        "rank": 9,
+        "token": " T",
+        "logit": 11.1015625,
+        "probability_percent": 0.72
+      }
+    ]
+  },
+  {
+    "prompt": "Chris Martin performs as the lead singer of",
+    "generated_prefix": "Chris Martin performs as the lead singer of",
+    "gold_token": " Cold",
+    "predicted_top1_token": " Cold",
+    "token_pos_in_answer": 0,
+    "gold_logit": 16.796875,
+    "gold_prob_percent": 71.04,
+    "first_token_prob": 0.71044921875,
+    "second_token_prob": 0.1673583984375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Cold",
+        "logit": 16.796875,
+        "probability_percent": 71.04
+      },
+      {
+        "rank": 1,
+        "token": " the",
+        "logit": 15.3515625,
+        "probability_percent": 16.74
+      },
+      {
+        "rank": 2,
+        "token": " British",
+        "logit": 13.640625,
+        "probability_percent": 3.02
+      },
+      {
+        "rank": 3,
+        "token": " English",
+        "logit": 12.703125,
+        "probability_percent": 1.18
+      },
+      {
+        "rank": 4,
+        "token": " which",
+        "logit": 11.9453125,
+        "probability_percent": 0.56
+      },
+      {
+        "rank": 5,
+        "token": " alternative",
+        "logit": 11.921875,
+        "probability_percent": 0.54
+      },
+      {
+        "rank": 6,
+        "token": " rock",
+        "logit": 11.4453125,
+        "probability_percent": 0.34
+      },
+      {
+        "rank": 7,
+        "token": " American",
+        "logit": 11.3515625,
+        "probability_percent": 0.31
+      },
+      {
+        "rank": 8,
+        "token": " popular",
+        "logit": 11.15625,
+        "probability_percent": 0.25
+      },
+      {
+        "rank": 9,
+        "token": " a",
+        "logit": 11.125,
+        "probability_percent": 0.24
+      }
+    ]
+  },
+  {
+    "prompt": "Chris Martin performs as the lead singer of",
+    "generated_prefix": "Chris Martin performs as the lead singer of Cold",
+    "gold_token": "play",
+    "predicted_top1_token": "play",
+    "token_pos_in_answer": 1,
+    "gold_logit": 20.1875,
+    "gold_prob_percent": 99.32,
+    "first_token_prob": 0.71044921875,
+    "second_token_prob": 0.1673583984375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "play",
+        "logit": 20.1875,
+        "probability_percent": 99.32
+      },
+      {
+        "rank": 1,
+        "token": " Play",
+        "logit": 14.453125,
+        "probability_percent": 0.32
+      },
+      {
+        "rank": 2,
+        "token": " Ch",
+        "logit": 13.421875,
+        "probability_percent": 0.11
+      },
+      {
+        "rank": 3,
+        "token": "Play",
+        "logit": 12.890625,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 4,
+        "token": " play",
+        "logit": 12.0,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 5,
+        "token": "plays",
+        "logit": 11.3671875,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 6,
+        "token": "playing",
+        "logit": 11.0234375,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 7,
+        "token": ".",
+        "logit": 10.9765625,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 8,
+        "token": "\n",
+        "logit": 10.828125,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 9,
+        "token": " War",
+        "logit": 10.53125,
+        "probability_percent": 0.01
+      }
+    ]
+  },
+  {
+    "prompt": "Dave Grohl performs as the lead singer of",
+    "generated_prefix": "Dave Grohl performs as the lead singer of",
+    "gold_token": " Foo",
+    "predicted_top1_token": " the",
+    "token_pos_in_answer": 0,
+    "gold_logit": 15.9296875,
+    "gold_prob_percent": 34.79,
+    "first_token_prob": 0.379150390625,
+    "second_token_prob": 0.347900390625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " the",
+        "logit": 16.015625,
+        "probability_percent": 37.92
+      },
+      {
+        "rank": 1,
+        "token": " Foo",
+        "logit": 15.9296875,
+        "probability_percent": 34.79
+      },
+      {
+        "rank": 2,
+        "token": " N",
+        "logit": 14.0,
+        "probability_percent": 5.05
+      },
+      {
+        "rank": 3,
+        "token": " rock",
+        "logit": 13.8125,
+        "probability_percent": 4.19
+      },
+      {
+        "rank": 4,
+        "token": " \"",
+        "logit": 12.765625,
+        "probability_percent": 1.47
+      },
+      {
+        "rank": 5,
+        "token": " The",
+        "logit": 12.75,
+        "probability_percent": 1.45
+      },
+      {
+        "rank": 6,
+        "token": " a",
+        "logit": 12.6640625,
+        "probability_percent": 1.33
+      },
+      {
+        "rank": 7,
+        "token": " American",
+        "logit": 12.3046875,
+        "probability_percent": 0.93
+      },
+      {
+        "rank": 8,
+        "token": " Pearl",
+        "logit": 12.1875,
+        "probability_percent": 0.82
+      },
+      {
+        "rank": 9,
+        "token": " alternative",
+        "logit": 11.8125,
+        "probability_percent": 0.57
+      }
+    ]
+  },
+  {
+    "prompt": "Dave Grohl performs as the lead singer of",
+    "generated_prefix": "Dave Grohl performs as the lead singer of the",
+    "gold_token": " F",
+    "predicted_top1_token": " Foo",
+    "token_pos_in_answer": 1,
+    "gold_logit": 9.359375,
+    "gold_prob_percent": 0.04,
+    "first_token_prob": 0.379150390625,
+    "second_token_prob": 0.347900390625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Foo",
+        "logit": 16.515625,
+        "probability_percent": 49.71
+      },
+      {
+        "rank": 1,
+        "token": " band",
+        "logit": 15.90625,
+        "probability_percent": 27.03
+      },
+      {
+        "rank": 2,
+        "token": " rock",
+        "logit": 15.125,
+        "probability_percent": 12.37
+      },
+      {
+        "rank": 3,
+        "token": " American",
+        "logit": 12.796875,
+        "probability_percent": 1.21
+      },
+      {
+        "rank": 4,
+        "token": " group",
+        "logit": 12.7421875,
+        "probability_percent": 1.14
+      },
+      {
+        "rank": 5,
+        "token": " alternative",
+        "logit": 12.2890625,
+        "probability_percent": 0.73
+      },
+      {
+        "rank": 6,
+        "token": " popular",
+        "logit": 12.0703125,
+        "probability_percent": 0.58
+      },
+      {
+        "rank": 7,
+        "token": " gr",
+        "logit": 11.6328125,
+        "probability_percent": 0.38
+      },
+      {
+        "rank": 8,
+        "token": " Fo",
+        "logit": 11.46875,
+        "probability_percent": 0.32
+      },
+      {
+        "rank": 9,
+        "token": " Gram",
+        "logit": 11.3671875,
+        "probability_percent": 0.29
+      }
+    ]
+  },
+  {
+    "prompt": "Dave Grohl performs as the lead singer of",
+    "generated_prefix": "Dave Grohl performs as the lead singer of the Foo",
+    "gold_token": "ighters",
+    "predicted_top1_token": " F",
+    "token_pos_in_answer": 2,
+    "gold_logit": 6.3671875,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.379150390625,
+    "second_token_prob": 0.347900390625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " F",
+        "logit": 20.8125,
+        "probability_percent": 99.46
+      },
+      {
+        "rank": 1,
+        "token": " Fighter",
+        "logit": 14.8125,
+        "probability_percent": 0.25
+      },
+      {
+        "rank": 2,
+        "token": " fighters",
+        "logit": 13.5234375,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 3,
+        "token": "...",
+        "logit": 12.515625,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 4,
+        "token": "\n",
+        "logit": 12.3984375,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 5,
+        "token": " Fig",
+        "logit": 12.046875,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 6,
+        "token": " ...",
+        "logit": 11.8671875,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 7,
+        "token": " Fight",
+        "logit": 11.8671875,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 8,
+        "token": ".",
+        "logit": 11.7578125,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 9,
+        "token": "F",
+        "logit": 11.7421875,
+        "probability_percent": 0.01
+      }
+    ]
+  },
+  {
+    "prompt": "Axl Rose performs as the lead singer of",
+    "generated_prefix": "Axl Rose performs as the lead singer of",
+    "gold_token": " G",
+    "predicted_top1_token": " the",
+    "token_pos_in_answer": 0,
+    "gold_logit": 14.171875,
+    "gold_prob_percent": 16.56,
+    "first_token_prob": 0.443115234375,
+    "second_token_prob": 0.1656494140625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " the",
+        "logit": 15.15625,
+        "probability_percent": 44.31
+      },
+      {
+        "rank": 1,
+        "token": " G",
+        "logit": 14.171875,
+        "probability_percent": 16.56
+      },
+      {
+        "rank": 2,
+        "token": " American",
+        "logit": 13.1640625,
+        "probability_percent": 6.05
+      },
+      {
+        "rank": 3,
+        "token": " rock",
+        "logit": 13.0703125,
+        "probability_percent": 5.51
+      },
+      {
+        "rank": 4,
+        "token": " which",
+        "logit": 12.421875,
+        "probability_percent": 2.88
+      },
+      {
+        "rank": 5,
+        "token": " hard",
+        "logit": 12.1953125,
+        "probability_percent": 2.29
+      },
+      {
+        "rank": 6,
+        "token": " \"",
+        "logit": 11.6015625,
+        "probability_percent": 1.27
+      },
+      {
+        "rank": 7,
+        "token": " a",
+        "logit": 11.59375,
+        "probability_percent": 1.26
+      },
+      {
+        "rank": 8,
+        "token": " what",
+        "logit": 11.59375,
+        "probability_percent": 1.26
+      },
+      {
+        "rank": 9,
+        "token": " heavy",
+        "logit": 10.875,
+        "probability_percent": 0.61
+      }
+    ]
+  },
+  {
+    "prompt": "Axl Rose performs as the lead singer of",
+    "generated_prefix": "Axl Rose performs as the lead singer of the",
+    "gold_token": "uns",
+    "predicted_top1_token": " band",
+    "token_pos_in_answer": 1,
+    "gold_logit": -0.10894775390625,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.443115234375,
+    "second_token_prob": 0.1656494140625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " band",
+        "logit": 15.4609375,
+        "probability_percent": 29.69
+      },
+      {
+        "rank": 1,
+        "token": " rock",
+        "logit": 15.1875,
+        "probability_percent": 22.58
+      },
+      {
+        "rank": 2,
+        "token": " American",
+        "logit": 14.96875,
+        "probability_percent": 18.15
+      },
+      {
+        "rank": 3,
+        "token": " hard",
+        "logit": 14.2421875,
+        "probability_percent": 8.78
+      },
+      {
+        "rank": 4,
+        "token": " heavy",
+        "logit": 13.421875,
+        "probability_percent": 3.86
+      },
+      {
+        "rank": 5,
+        "token": " group",
+        "logit": 11.84375,
+        "probability_percent": 0.8
+      },
+      {
+        "rank": 6,
+        "token": " metal",
+        "logit": 11.8359375,
+        "probability_percent": 0.79
+      },
+      {
+        "rank": 7,
+        "token": " alternative",
+        "logit": 11.6953125,
+        "probability_percent": 0.69
+      },
+      {
+        "rank": 8,
+        "token": " glam",
+        "logit": 11.6875,
+        "probability_percent": 0.68
+      },
+      {
+        "rank": 9,
+        "token": " Gram",
+        "logit": 11.640625,
+        "probability_percent": 0.65
+      }
+    ]
+  },
+  {
+    "prompt": "Axl Rose performs as the lead singer of",
+    "generated_prefix": "Axl Rose performs as the lead singer of the band",
+    "gold_token": " N",
+    "predicted_top1_token": " G",
+    "token_pos_in_answer": 2,
+    "gold_logit": 8.796875,
+    "gold_prob_percent": 0.07,
+    "first_token_prob": 0.443115234375,
+    "second_token_prob": 0.1656494140625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " G",
+        "logit": 15.5234375,
+        "probability_percent": 57.32
+      },
+      {
+        "rank": 1,
+        "token": ",",
+        "logit": 13.5,
+        "probability_percent": 7.58
+      },
+      {
+        "rank": 2,
+        "token": " \"",
+        "logit": 13.484375,
+        "probability_percent": 7.46
+      },
+      {
+        "rank": 3,
+        "token": ".",
+        "logit": 13.2890625,
+        "probability_percent": 6.14
+      },
+      {
+        "rank": 4,
+        "token": " M",
+        "logit": 12.7265625,
+        "probability_percent": 3.5
+      },
+      {
+        "rank": 5,
+        "token": " '",
+        "logit": 11.5625,
+        "probability_percent": 1.09
+      },
+      {
+        "rank": 6,
+        "token": " A",
+        "logit": 11.3203125,
+        "probability_percent": 0.86
+      },
+      {
+        "rank": 7,
+        "token": " Mot",
+        "logit": 11.2734375,
+        "probability_percent": 0.82
+      },
+      {
+        "rank": 8,
+        "token": "\n",
+        "logit": 11.125,
+        "probability_percent": 0.7
+      },
+      {
+        "rank": 9,
+        "token": " in",
+        "logit": 10.8515625,
+        "probability_percent": 0.54
+      }
+    ]
+  },
+  {
+    "prompt": "Axl Rose performs as the lead singer of",
+    "generated_prefix": "Axl Rose performs as the lead singer of the band G",
+    "gold_token": "'",
+    "predicted_top1_token": "uns",
+    "token_pos_in_answer": 3,
+    "gold_logit": 10.8828125,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.443115234375,
+    "second_token_prob": 0.1656494140625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "uns",
+        "logit": 22.234375,
+        "probability_percent": 99.76
+      },
+      {
+        "rank": 1,
+        "token": "UN",
+        "logit": 15.6953125,
+        "probability_percent": 0.14
+      },
+      {
+        "rank": 2,
+        "token": "NR",
+        "logit": 14.6171875,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 3,
+        "token": " N",
+        "logit": 13.640625,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 4,
+        "token": " n",
+        "logit": 12.3515625,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 5,
+        "token": "oo",
+        "logit": 12.09375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": "uitar",
+        "logit": 11.8125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": "unners",
+        "logit": 11.7421875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "N",
+        "logit": 11.7265625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "un",
+        "logit": 11.6015625,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "Axl Rose performs as the lead singer of",
+    "generated_prefix": "Axl Rose performs as the lead singer of the band Guns",
+    "gold_token": " R",
+    "predicted_top1_token": " N",
+    "token_pos_in_answer": 4,
+    "gold_logit": 7.90625,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.443115234375,
+    "second_token_prob": 0.1656494140625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " N",
+        "logit": 20.28125,
+        "probability_percent": 97.75
+      },
+      {
+        "rank": 1,
+        "token": " n",
+        "logit": 15.578125,
+        "probability_percent": 0.89
+      },
+      {
+        "rank": 2,
+        "token": " '",
+        "logit": 15.078125,
+        "probability_percent": 0.54
+      },
+      {
+        "rank": 3,
+        "token": " and",
+        "logit": 14.2890625,
+        "probability_percent": 0.24
+      },
+      {
+        "rank": 4,
+        "token": " &",
+        "logit": 13.6015625,
+        "probability_percent": 0.12
+      },
+      {
+        "rank": 5,
+        "token": " ‘",
+        "logit": 12.6953125,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 6,
+        "token": ".",
+        "logit": 12.53125,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 7,
+        "token": "'",
+        "logit": 12.046875,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 8,
+        "token": "N",
+        "logit": 11.8984375,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 9,
+        "token": " `",
+        "logit": 11.828125,
+        "probability_percent": 0.02
+      }
+    ]
+  },
+  {
+    "prompt": "Axl Rose performs as the lead singer of",
+    "generated_prefix": "Axl Rose performs as the lead singer of the band Guns N",
+    "gold_token": "oses",
+    "predicted_top1_token": "'",
+    "token_pos_in_answer": 5,
+    "gold_logit": 6.109375,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.443115234375,
+    "second_token_prob": 0.1656494140625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "'",
+        "logit": 19.0625,
+        "probability_percent": 83.5
+      },
+      {
+        "rank": 1,
+        "token": "’",
+        "logit": 16.953125,
+        "probability_percent": 10.13
+      },
+      {
+        "rank": 2,
+        "token": " R",
+        "logit": 15.65625,
+        "probability_percent": 2.77
+      },
+      {
+        "rank": 3,
+        "token": " '",
+        "logit": 15.4453125,
+        "probability_percent": 2.24
+      },
+      {
+        "rank": 4,
+        "token": "`",
+        "logit": 12.9296875,
+        "probability_percent": 0.18
+      },
+      {
+        "rank": 5,
+        "token": " ‘",
+        "logit": 12.4921875,
+        "probability_percent": 0.12
+      },
+      {
+        "rank": 6,
+        "token": "‘",
+        "logit": 12.3203125,
+        "probability_percent": 0.1
+      },
+      {
+        "rank": 7,
+        "token": "\\'",
+        "logit": 12.2890625,
+        "probability_percent": 0.1
+      },
+      {
+        "rank": 8,
+        "token": "â",
+        "logit": 11.953125,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 9,
+        "token": " ’",
+        "logit": 11.7890625,
+        "probability_percent": 0.06
+      }
+    ]
+  },
+  {
+    "prompt": "Robert Plant performs as the lead singer of",
+    "generated_prefix": "Robert Plant performs as the lead singer of",
+    "gold_token": " Led",
+    "predicted_top1_token": " Led",
+    "token_pos_in_answer": 0,
+    "gold_logit": 15.4296875,
+    "gold_prob_percent": 37.52,
+    "first_token_prob": 0.375244140625,
+    "second_token_prob": 0.369384765625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Led",
+        "logit": 15.4296875,
+        "probability_percent": 37.52
+      },
+      {
+        "rank": 1,
+        "token": " the",
+        "logit": 15.4140625,
+        "probability_percent": 36.94
+      },
+      {
+        "rank": 2,
+        "token": " The",
+        "logit": 13.125,
+        "probability_percent": 3.74
+      },
+      {
+        "rank": 3,
+        "token": " a",
+        "logit": 12.3515625,
+        "probability_percent": 1.73
+      },
+      {
+        "rank": 4,
+        "token": " this",
+        "logit": 11.875,
+        "probability_percent": 1.07
+      },
+      {
+        "rank": 5,
+        "token": " \"",
+        "logit": 11.8359375,
+        "probability_percent": 1.03
+      },
+      {
+        "rank": 6,
+        "token": " English",
+        "logit": 11.7890625,
+        "probability_percent": 0.98
+      },
+      {
+        "rank": 7,
+        "token": " rock",
+        "logit": 11.71875,
+        "probability_percent": 0.92
+      },
+      {
+        "rank": 8,
+        "token": " his",
+        "logit": 11.6796875,
+        "probability_percent": 0.88
+      },
+      {
+        "rank": 9,
+        "token": " L",
+        "logit": 11.6640625,
+        "probability_percent": 0.87
+      }
+    ]
+  },
+  {
+    "prompt": "Robert Plant performs as the lead singer of",
+    "generated_prefix": "Robert Plant performs as the lead singer of Led",
+    "gold_token": " Ze",
+    "predicted_top1_token": " Ze",
+    "token_pos_in_answer": 1,
+    "gold_logit": 20.96875,
+    "gold_prob_percent": 99.12,
+    "first_token_prob": 0.375244140625,
+    "second_token_prob": 0.369384765625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Ze",
+        "logit": 20.96875,
+        "probability_percent": 99.12
+      },
+      {
+        "rank": 1,
+        "token": " Z",
+        "logit": 15.9921875,
+        "probability_percent": 0.68
+      },
+      {
+        "rank": 2,
+        "token": " ze",
+        "logit": 13.7265625,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 3,
+        "token": "\n",
+        "logit": 12.3515625,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 4,
+        "token": "...",
+        "logit": 11.890625,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 5,
+        "token": "Ze",
+        "logit": 11.828125,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 6,
+        "token": ".",
+        "logit": 11.703125,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 7,
+        "token": " z",
+        "logit": 11.3515625,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 8,
+        "token": " ...",
+        "logit": 10.5078125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": ",",
+        "logit": 10.21875,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "Robert Plant performs as the lead singer of",
+    "generated_prefix": "Robert Plant performs as the lead singer of Led Ze",
+    "gold_token": "pp",
+    "predicted_top1_token": "pp",
+    "token_pos_in_answer": 2,
+    "gold_logit": 25.625,
+    "gold_prob_percent": 100.0,
+    "first_token_prob": 0.375244140625,
+    "second_token_prob": 0.369384765625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "pp",
+        "logit": 25.625,
+        "probability_percent": 100.0
+      },
+      {
+        "rank": 1,
+        "token": "pl",
+        "logit": 13.7109375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 2,
+        "token": "ff",
+        "logit": 12.6171875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 3,
+        "token": "ppy",
+        "logit": 12.203125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 4,
+        "token": "ep",
+        "logit": 12.1484375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 5,
+        "token": "ppo",
+        "logit": 11.9921875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": "ph",
+        "logit": 11.921875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": "pt",
+        "logit": 11.8671875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "...",
+        "logit": 11.8203125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "pps",
+        "logit": 11.6015625,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "Robert Plant performs as the lead singer of",
+    "generated_prefix": "Robert Plant performs as the lead singer of Led Zepp",
+    "gold_token": "elin",
+    "predicted_top1_token": "elin",
+    "token_pos_in_answer": 3,
+    "gold_logit": 21.515625,
+    "gold_prob_percent": 99.32,
+    "first_token_prob": 0.375244140625,
+    "second_token_prob": 0.369384765625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "elin",
+        "logit": 21.515625,
+        "probability_percent": 99.32
+      },
+      {
+        "rank": 1,
+        "token": "lin",
+        "logit": 16.28125,
+        "probability_percent": 0.53
+      },
+      {
+        "rank": 2,
+        "token": "el",
+        "logit": 13.5859375,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 3,
+        "token": "eli",
+        "logit": 12.5625,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 4,
+        "token": "lein",
+        "logit": 12.078125,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 5,
+        "token": "eling",
+        "logit": 12.0234375,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 6,
+        "token": "eline",
+        "logit": 11.578125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": "ilin",
+        "logit": 11.453125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "alin",
+        "logit": 11.4375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "eln",
+        "logit": 11.3359375,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "James Hetfield performs as the lead singer of",
+    "generated_prefix": "James Hetfield performs as the lead singer of",
+    "gold_token": " Met",
+    "predicted_top1_token": " the",
+    "token_pos_in_answer": 0,
+    "gold_logit": 14.421875,
+    "gold_prob_percent": 9.64,
+    "first_token_prob": 0.66943359375,
+    "second_token_prob": 0.096435546875,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " the",
+        "logit": 16.359375,
+        "probability_percent": 66.94
+      },
+      {
+        "rank": 1,
+        "token": " Met",
+        "logit": 14.421875,
+        "probability_percent": 9.64
+      },
+      {
+        "rank": 2,
+        "token": " American",
+        "logit": 13.8671875,
+        "probability_percent": 5.54
+      },
+      {
+        "rank": 3,
+        "token": " heavy",
+        "logit": 13.25,
+        "probability_percent": 2.99
+      },
+      {
+        "rank": 4,
+        "token": " metal",
+        "logit": 12.0859375,
+        "probability_percent": 0.93
+      },
+      {
+        "rank": 5,
+        "token": " a",
+        "logit": 12.046875,
+        "probability_percent": 0.9
+      },
+      {
+        "rank": 6,
+        "token": " thr",
+        "logit": 12.0234375,
+        "probability_percent": 0.88
+      },
+      {
+        "rank": 7,
+        "token": " what",
+        "logit": 11.8046875,
+        "probability_percent": 0.7
+      },
+      {
+        "rank": 8,
+        "token": " which",
+        "logit": 11.734375,
+        "probability_percent": 0.66
+      },
+      {
+        "rank": 9,
+        "token": " his",
+        "logit": 11.453125,
+        "probability_percent": 0.5
+      }
+    ]
+  },
+  {
+    "prompt": "James Hetfield performs as the lead singer of",
+    "generated_prefix": "James Hetfield performs as the lead singer of the",
+    "gold_token": "all",
+    "predicted_top1_token": " band",
+    "token_pos_in_answer": 1,
+    "gold_logit": -0.2119140625,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.66943359375,
+    "second_token_prob": 0.096435546875,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " band",
+        "logit": 16.609375,
+        "probability_percent": 64.36
+      },
+      {
+        "rank": 1,
+        "token": " heavy",
+        "logit": 15.2109375,
+        "probability_percent": 15.89
+      },
+      {
+        "rank": 2,
+        "token": " American",
+        "logit": 13.796875,
+        "probability_percent": 3.86
+      },
+      {
+        "rank": 3,
+        "token": " thr",
+        "logit": 13.6796875,
+        "probability_percent": 3.44
+      },
+      {
+        "rank": 4,
+        "token": " metal",
+        "logit": 13.65625,
+        "probability_percent": 3.36
+      },
+      {
+        "rank": 5,
+        "token": " rock",
+        "logit": 12.8125,
+        "probability_percent": 1.44
+      },
+      {
+        "rank": 6,
+        "token": " most",
+        "logit": 11.640625,
+        "probability_percent": 0.45
+      },
+      {
+        "rank": 7,
+        "token": " Met",
+        "logit": 11.265625,
+        "probability_percent": 0.31
+      },
+      {
+        "rank": 8,
+        "token": " bands",
+        "logit": 11.0703125,
+        "probability_percent": 0.25
+      },
+      {
+        "rank": 9,
+        "token": " hard",
+        "logit": 11.0234375,
+        "probability_percent": 0.24
+      }
+    ]
+  },
+  {
+    "prompt": "James Hetfield performs as the lead singer of",
+    "generated_prefix": "James Hetfield performs as the lead singer of the band",
+    "gold_token": "ica",
+    "predicted_top1_token": " Met",
+    "token_pos_in_answer": 2,
+    "gold_logit": -1.2666015625,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.66943359375,
+    "second_token_prob": 0.096435546875,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Met",
+        "logit": 16.703125,
+        "probability_percent": 76.86
+      },
+      {
+        "rank": 1,
+        "token": ".",
+        "logit": 14.4453125,
+        "probability_percent": 8.04
+      },
+      {
+        "rank": 2,
+        "token": ",",
+        "logit": 13.484375,
+        "probability_percent": 3.07
+      },
+      {
+        "rank": 3,
+        "token": " and",
+        "logit": 12.609375,
+        "probability_percent": 1.28
+      },
+      {
+        "rank": 4,
+        "token": "\n",
+        "logit": 12.09375,
+        "probability_percent": 0.77
+      },
+      {
+        "rank": 5,
+        "token": " with",
+        "logit": 11.875,
+        "probability_percent": 0.61
+      },
+      {
+        "rank": 6,
+        "token": " that",
+        "logit": 11.671875,
+        "probability_percent": 0.5
+      },
+      {
+        "rank": 7,
+        "token": " Meg",
+        "logit": 11.4140625,
+        "probability_percent": 0.39
+      },
+      {
+        "rank": 8,
+        "token": " while",
+        "logit": 11.3359375,
+        "probability_percent": 0.36
+      },
+      {
+        "rank": 9,
+        "token": " in",
+        "logit": 11.328125,
+        "probability_percent": 0.36
+      }
+    ]
+  },
+  {
+    "prompt": "Kurt Cobain performs as the lead singer of",
+    "generated_prefix": "Kurt Cobain performs as the lead singer of",
+    "gold_token": " N",
+    "predicted_top1_token": " N",
+    "token_pos_in_answer": 0,
+    "gold_logit": 17.25,
+    "gold_prob_percent": 72.27,
+    "first_token_prob": 0.72265625,
+    "second_token_prob": 0.1226806640625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " N",
+        "logit": 17.25,
+        "probability_percent": 72.27
+      },
+      {
+        "rank": 1,
+        "token": " the",
+        "logit": 15.4765625,
+        "probability_percent": 12.27
+      },
+      {
+        "rank": 2,
+        "token": " gr",
+        "logit": 14.21875,
+        "probability_percent": 3.49
+      },
+      {
+        "rank": 3,
+        "token": " which",
+        "logit": 13.6875,
+        "probability_percent": 2.05
+      },
+      {
+        "rank": 4,
+        "token": " Gr",
+        "logit": 13.140625,
+        "probability_percent": 1.19
+      },
+      {
+        "rank": 5,
+        "token": " a",
+        "logit": 13.0625,
+        "probability_percent": 1.1
+      },
+      {
+        "rank": 6,
+        "token": " what",
+        "logit": 12.9765625,
+        "probability_percent": 1.01
+      },
+      {
+        "rank": 7,
+        "token": " his",
+        "logit": 12.2734375,
+        "probability_percent": 0.5
+      },
+      {
+        "rank": 8,
+        "token": " \"",
+        "logit": 12.0703125,
+        "probability_percent": 0.41
+      },
+      {
+        "rank": 9,
+        "token": " rock",
+        "logit": 12.03125,
+        "probability_percent": 0.39
+      }
+    ]
+  },
+  {
+    "prompt": "Kurt Cobain performs as the lead singer of",
+    "generated_prefix": "Kurt Cobain performs as the lead singer of N",
+    "gold_token": "ir",
+    "predicted_top1_token": "ir",
+    "token_pos_in_answer": 1,
+    "gold_logit": 22.953125,
+    "gold_prob_percent": 99.95,
+    "first_token_prob": 0.72265625,
+    "second_token_prob": 0.1226806640625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ir",
+        "logit": 22.953125,
+        "probability_percent": 99.95
+      },
+      {
+        "rank": 1,
+        "token": "IR",
+        "logit": 15.1171875,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 2,
+        "token": "inet",
+        "logit": 11.421875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 3,
+        "token": "IN",
+        "logit": 11.234375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 4,
+        "token": "aked",
+        "logit": 11.03125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 5,
+        "token": ".",
+        "logit": 10.984375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": "ih",
+        "logit": 10.2421875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": "Ir",
+        "logit": 9.7578125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "ico",
+        "logit": 9.6171875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "us",
+        "logit": 9.421875,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "Kurt Cobain performs as the lead singer of",
+    "generated_prefix": "Kurt Cobain performs as the lead singer of Nir",
+    "gold_token": "v",
+    "predicted_top1_token": "v",
+    "token_pos_in_answer": 2,
+    "gold_logit": 24.15625,
+    "gold_prob_percent": 99.9,
+    "first_token_prob": 0.72265625,
+    "second_token_prob": 0.1226806640625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "v",
+        "logit": 24.15625,
+        "probability_percent": 99.9
+      },
+      {
+        "rank": 1,
+        "token": "van",
+        "logit": 16.65625,
+        "probability_percent": 0.06
+      },
+      {
+        "rank": 2,
+        "token": "va",
+        "logit": 14.9296875,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 3,
+        "token": "w",
+        "logit": 14.484375,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 4,
+        "token": "av",
+        "logit": 13.1328125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 5,
+        "token": "ana",
+        "logit": 12.6796875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": "...",
+        "logit": 12.2578125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": "var",
+        "logit": 11.8671875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "val",
+        "logit": 11.828125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "ata",
+        "logit": 11.328125,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "Kurt Cobain performs as the lead singer of",
+    "generated_prefix": "Kurt Cobain performs as the lead singer of Nirv",
+    "gold_token": "ana",
+    "predicted_top1_token": "ana",
+    "token_pos_in_answer": 3,
+    "gold_logit": 25.140625,
+    "gold_prob_percent": 100.0,
+    "first_token_prob": 0.72265625,
+    "second_token_prob": 0.1226806640625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ana",
+        "logit": 25.140625,
+        "probability_percent": 100.0
+      },
+      {
+        "rank": 1,
+        "token": "anna",
+        "logit": 16.140625,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 2,
+        "token": "ina",
+        "logit": 14.46875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 3,
+        "token": "na",
+        "logit": 13.046875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 4,
+        "token": "...",
+        "logit": 12.3671875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 5,
+        "token": "ona",
+        "logit": 12.09375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": "ena",
+        "logit": 12.0546875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": "ava",
+        "logit": 11.46875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "ane",
+        "logit": 11.2109375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "ans",
+        "logit": 11.15625,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "Freddie Mercury performs as the lead singer of",
+    "generated_prefix": "Freddie Mercury performs as the lead singer of",
+    "gold_token": " Queen",
+    "predicted_top1_token": " Queen",
+    "token_pos_in_answer": 0,
+    "gold_logit": 16.09375,
+    "gold_prob_percent": 40.04,
+    "first_token_prob": 0.400390625,
+    "second_token_prob": 0.370361328125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Queen",
+        "logit": 16.09375,
+        "probability_percent": 40.04
+      },
+      {
+        "rank": 1,
+        "token": " the",
+        "logit": 16.015625,
+        "probability_percent": 37.04
+      },
+      {
+        "rank": 2,
+        "token": " rock",
+        "logit": 14.75,
+        "probability_percent": 10.44
+      },
+      {
+        "rank": 3,
+        "token": " British",
+        "logit": 13.0625,
+        "probability_percent": 1.93
+      },
+      {
+        "rank": 4,
+        "token": " \"",
+        "logit": 12.5546875,
+        "probability_percent": 1.16
+      },
+      {
+        "rank": 5,
+        "token": " a",
+        "logit": 12.328125,
+        "probability_percent": 0.93
+      },
+      {
+        "rank": 6,
+        "token": " band",
+        "logit": 11.65625,
+        "probability_percent": 0.47
+      },
+      {
+        "rank": 7,
+        "token": "\n",
+        "logit": 11.328125,
+        "probability_percent": 0.34
+      },
+      {
+        "rank": 8,
+        "token": " Queens",
+        "logit": 11.2734375,
+        "probability_percent": 0.32
+      },
+      {
+        "rank": 9,
+        "token": " The",
+        "logit": 11.2578125,
+        "probability_percent": 0.32
+      }
+    ]
+  },
+  {
+    "prompt": "Anthony Kiedis performs as the lead singer of",
+    "generated_prefix": "Anthony Kiedis performs as the lead singer of",
+    "gold_token": " Red",
+    "predicted_top1_token": " the",
+    "token_pos_in_answer": 0,
+    "gold_logit": 15.2890625,
+    "gold_prob_percent": 22.31,
+    "first_token_prob": 0.556640625,
+    "second_token_prob": 0.22314453125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " the",
+        "logit": 16.203125,
+        "probability_percent": 55.66
+      },
+      {
+        "rank": 1,
+        "token": " Red",
+        "logit": 15.2890625,
+        "probability_percent": 22.31
+      },
+      {
+        "rank": 2,
+        "token": " which",
+        "logit": 13.484375,
+        "probability_percent": 3.67
+      },
+      {
+        "rank": 3,
+        "token": " what",
+        "logit": 13.0859375,
+        "probability_percent": 2.46
+      },
+      {
+        "rank": 4,
+        "token": " rock",
+        "logit": 12.8671875,
+        "probability_percent": 1.98
+      },
+      {
+        "rank": 5,
+        "token": " American",
+        "logit": 12.7578125,
+        "probability_percent": 1.78
+      },
+      {
+        "rank": 6,
+        "token": " G",
+        "logit": 12.65625,
+        "probability_percent": 1.6
+      },
+      {
+        "rank": 7,
+        "token": " The",
+        "logit": 12.6484375,
+        "probability_percent": 1.59
+      },
+      {
+        "rank": 8,
+        "token": " a",
+        "logit": 11.84375,
+        "probability_percent": 0.71
+      },
+      {
+        "rank": 9,
+        "token": " Ch",
+        "logit": 11.4609375,
+        "probability_percent": 0.49
+      }
+    ]
+  },
+  {
+    "prompt": "Anthony Kiedis performs as the lead singer of",
+    "generated_prefix": "Anthony Kiedis performs as the lead singer of the",
+    "gold_token": " Hot",
+    "predicted_top1_token": " Red",
+    "token_pos_in_answer": 1,
+    "gold_logit": 5.5859375,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.556640625,
+    "second_token_prob": 0.22314453125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Red",
+        "logit": 16.8125,
+        "probability_percent": 66.8
+      },
+      {
+        "rank": 1,
+        "token": " rock",
+        "logit": 15.09375,
+        "probability_percent": 11.98
+      },
+      {
+        "rank": 2,
+        "token": " band",
+        "logit": 15.0078125,
+        "probability_percent": 10.99
+      },
+      {
+        "rank": 3,
+        "token": " Ch",
+        "logit": 14.1171875,
+        "probability_percent": 4.51
+      },
+      {
+        "rank": 4,
+        "token": " American",
+        "logit": 12.4921875,
+        "probability_percent": 0.89
+      },
+      {
+        "rank": 5,
+        "token": " Rock",
+        "logit": 11.765625,
+        "probability_percent": 0.43
+      },
+      {
+        "rank": 6,
+        "token": " alternative",
+        "logit": 11.578125,
+        "probability_percent": 0.36
+      },
+      {
+        "rank": 7,
+        "token": " group",
+        "logit": 11.5,
+        "probability_percent": 0.33
+      },
+      {
+        "rank": 8,
+        "token": " Gram",
+        "logit": 11.1796875,
+        "probability_percent": 0.24
+      },
+      {
+        "rank": 9,
+        "token": " fun",
+        "logit": 11.0703125,
+        "probability_percent": 0.21
+      }
+    ]
+  },
+  {
+    "prompt": "Anthony Kiedis performs as the lead singer of",
+    "generated_prefix": "Anthony Kiedis performs as the lead singer of the Red",
+    "gold_token": " Ch",
+    "predicted_top1_token": " Hot",
+    "token_pos_in_answer": 2,
+    "gold_logit": 12.609375,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.556640625,
+    "second_token_prob": 0.22314453125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Hot",
+        "logit": 24.0,
+        "probability_percent": 99.9
+      },
+      {
+        "rank": 1,
+        "token": " hot",
+        "logit": 17.109375,
+        "probability_percent": 0.1
+      },
+      {
+        "rank": 2,
+        "token": "Hot",
+        "logit": 13.6484375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 3,
+        "token": "\n",
+        "logit": 13.1171875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 4,
+        "token": " Heat",
+        "logit": 12.9765625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 5,
+        "token": " Ch",
+        "logit": 12.609375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": "hot",
+        "logit": 12.59375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": " Warm",
+        "logit": 12.34375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "  ",
+        "logit": 11.5625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": " Dev",
+        "logit": 11.53125,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "Anthony Kiedis performs as the lead singer of",
+    "generated_prefix": "Anthony Kiedis performs as the lead singer of the Red Hot",
+    "gold_token": "ili",
+    "predicted_top1_token": " Ch",
+    "token_pos_in_answer": 3,
+    "gold_logit": 3.544921875,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.556640625,
+    "second_token_prob": 0.22314453125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Ch",
+        "logit": 22.171875,
+        "probability_percent": 99.9
+      },
+      {
+        "rank": 1,
+        "token": "\n",
+        "logit": 13.359375,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 2,
+        "token": "...",
+        "logit": 12.9375,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 3,
+        "token": " chili",
+        "logit": 12.78125,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 4,
+        "token": " Chile",
+        "logit": 12.484375,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 5,
+        "token": ".",
+        "logit": 12.34375,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 6,
+        "token": " ...",
+        "logit": 12.234375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": " Chi",
+        "logit": 12.1015625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "Ch",
+        "logit": 12.0625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": " CH",
+        "logit": 11.65625,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "Anthony Kiedis performs as the lead singer of",
+    "generated_prefix": "Anthony Kiedis performs as the lead singer of the Red Hot Ch",
+    "gold_token": " Pe",
+    "predicted_top1_token": "ili",
+    "token_pos_in_answer": 4,
+    "gold_logit": 3.4296875,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.556640625,
+    "second_token_prob": 0.22314453125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ili",
+        "logit": 24.921875,
+        "probability_percent": 99.76
+      },
+      {
+        "rank": 1,
+        "token": "illi",
+        "logit": 18.875,
+        "probability_percent": 0.24
+      },
+      {
+        "rank": 2,
+        "token": "illy",
+        "logit": 14.328125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 3,
+        "token": "ilis",
+        "logit": 14.265625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 4,
+        "token": "ilies",
+        "logit": 14.0,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 5,
+        "token": "ill",
+        "logit": 13.71875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": "iles",
+        "logit": 12.9375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": "il",
+        "logit": 12.640625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "ily",
+        "logit": 12.375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "ih",
+        "logit": 11.7421875,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "Anthony Kiedis performs as the lead singer of",
+    "generated_prefix": "Anthony Kiedis performs as the lead singer of the Red Hot Chili",
+    "gold_token": "ppers",
+    "predicted_top1_token": " Pe",
+    "token_pos_in_answer": 5,
+    "gold_logit": 5.171875,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.556640625,
+    "second_token_prob": 0.22314453125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Pe",
+        "logit": 21.640625,
+        "probability_percent": 99.76
+      },
+      {
+        "rank": 1,
+        "token": " Pepper",
+        "logit": 14.1796875,
+        "probability_percent": 0.06
+      },
+      {
+        "rank": 2,
+        "token": "\n",
+        "logit": 13.4375,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 3,
+        "token": "...",
+        "logit": 13.171875,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 4,
+        "token": " peppers",
+        "logit": 12.6953125,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 5,
+        "token": " P",
+        "logit": 12.625,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 6,
+        "token": "Pe",
+        "logit": 12.265625,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 7,
+        "token": ".",
+        "logit": 12.203125,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 8,
+        "token": " Per",
+        "logit": 11.6953125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": " PE",
+        "logit": 11.6875,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "Mick Jagger performs as the lead singer of",
+    "generated_prefix": "Mick Jagger performs as the lead singer of",
+    "gold_token": " The",
+    "predicted_top1_token": " the",
+    "token_pos_in_answer": 0,
+    "gold_logit": 16.640625,
+    "gold_prob_percent": 26.66,
+    "first_token_prob": 0.482666015625,
+    "second_token_prob": 0.2666015625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " the",
+        "logit": 17.234375,
+        "probability_percent": 48.27
+      },
+      {
+        "rank": 1,
+        "token": " The",
+        "logit": 16.640625,
+        "probability_percent": 26.66
+      },
+      {
+        "rank": 2,
+        "token": " Rolling",
+        "logit": 16.03125,
+        "probability_percent": 14.49
+      },
+      {
+        "rank": 3,
+        "token": " British",
+        "logit": 14.140625,
+        "probability_percent": 2.19
+      },
+      {
+        "rank": 4,
+        "token": " rock",
+        "logit": 13.375,
+        "probability_percent": 1.02
+      },
+      {
+        "rank": 5,
+        "token": " English",
+        "logit": 13.2421875,
+        "probability_percent": 0.89
+      },
+      {
+        "rank": 6,
+        "token": " \"",
+        "logit": 13.046875,
+        "probability_percent": 0.73
+      },
+      {
+        "rank": 7,
+        "token": " his",
+        "logit": 12.515625,
+        "probability_percent": 0.43
+      },
+      {
+        "rank": 8,
+        "token": " American",
+        "logit": 12.4765625,
+        "probability_percent": 0.41
+      },
+      {
+        "rank": 9,
+        "token": " a",
+        "logit": 12.2890625,
+        "probability_percent": 0.34
+      }
+    ]
+  },
+  {
+    "prompt": "Mick Jagger performs as the lead singer of",
+    "generated_prefix": "Mick Jagger performs as the lead singer of the",
+    "gold_token": " Rolling",
+    "predicted_top1_token": " Rolling",
+    "token_pos_in_answer": 1,
+    "gold_logit": 17.96875,
+    "gold_prob_percent": 89.89,
+    "first_token_prob": 0.482666015625,
+    "second_token_prob": 0.2666015625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Rolling",
+        "logit": 17.96875,
+        "probability_percent": 89.89
+      },
+      {
+        "rank": 1,
+        "token": " band",
+        "logit": 14.65625,
+        "probability_percent": 3.27
+      },
+      {
+        "rank": 2,
+        "token": " rock",
+        "logit": 14.0078125,
+        "probability_percent": 1.71
+      },
+      {
+        "rank": 3,
+        "token": " English",
+        "logit": 13.6015625,
+        "probability_percent": 1.14
+      },
+      {
+        "rank": 4,
+        "token": " British",
+        "logit": 13.171875,
+        "probability_percent": 0.74
+      },
+      {
+        "rank": 5,
+        "token": " group",
+        "logit": 12.328125,
+        "probability_percent": 0.32
+      },
+      {
+        "rank": 6,
+        "token": " J",
+        "logit": 12.1484375,
+        "probability_percent": 0.27
+      },
+      {
+        "rank": 7,
+        "token": " rolling",
+        "logit": 11.8984375,
+        "probability_percent": 0.21
+      },
+      {
+        "rank": 8,
+        "token": " St",
+        "logit": 11.53125,
+        "probability_percent": 0.14
+      },
+      {
+        "rank": 9,
+        "token": " world",
+        "logit": 11.2421875,
+        "probability_percent": 0.11
+      }
+    ]
+  },
+  {
+    "prompt": "Mick Jagger performs as the lead singer of",
+    "generated_prefix": "Mick Jagger performs as the lead singer of the Rolling",
+    "gold_token": " St",
+    "predicted_top1_token": " St",
+    "token_pos_in_answer": 2,
+    "gold_logit": 20.921875,
+    "gold_prob_percent": 99.07,
+    "first_token_prob": 0.482666015625,
+    "second_token_prob": 0.2666015625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " St",
+        "logit": 20.921875,
+        "probability_percent": 99.07
+      },
+      {
+        "rank": 1,
+        "token": " Stone",
+        "logit": 15.1640625,
+        "probability_percent": 0.31
+      },
+      {
+        "rank": 2,
+        "token": " stones",
+        "logit": 14.359375,
+        "probability_percent": 0.14
+      },
+      {
+        "rank": 3,
+        "token": "\n",
+        "logit": 14.28125,
+        "probability_percent": 0.13
+      },
+      {
+        "rank": 4,
+        "token": "...",
+        "logit": 13.890625,
+        "probability_percent": 0.09
+      },
+      {
+        "rank": 5,
+        "token": " ...",
+        "logit": 13.2890625,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 6,
+        "token": ".",
+        "logit": 12.9296875,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 7,
+        "token": "St",
+        "logit": 11.8828125,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 8,
+        "token": " …",
+        "logit": 11.4609375,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 9,
+        "token": ",",
+        "logit": 11.4453125,
+        "probability_percent": 0.01
+      }
+    ]
+  },
+  {
+    "prompt": "Mick Jagger performs as the lead singer of",
+    "generated_prefix": "Mick Jagger performs as the lead singer of the Rolling St",
+    "gold_token": "ones",
+    "predicted_top1_token": "ones",
+    "token_pos_in_answer": 3,
+    "gold_logit": 23.84375,
+    "gold_prob_percent": 99.95,
+    "first_token_prob": 0.482666015625,
+    "second_token_prob": 0.2666015625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ones",
+        "logit": 23.84375,
+        "probability_percent": 99.95
+      },
+      {
+        "rank": 1,
+        "token": "on",
+        "logit": 14.578125,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 2,
+        "token": "ons",
+        "logit": 13.375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 3,
+        "token": "oned",
+        "logit": 13.0390625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 4,
+        "token": "icks",
+        "logit": 12.890625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 5,
+        "token": "...",
+        "logit": 12.7890625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": "one",
+        "logit": 11.875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": "oning",
+        "logit": 11.28125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": ".",
+        "logit": 11.1953125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "\n",
+        "logit": 11.03125,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "John Lennon performs as the lead singer of",
+    "generated_prefix": "John Lennon performs as the lead singer of",
+    "gold_token": " The",
+    "predicted_top1_token": " the",
+    "token_pos_in_answer": 0,
+    "gold_logit": 16.765625,
+    "gold_prob_percent": 24.83,
+    "first_token_prob": 0.6962890625,
+    "second_token_prob": 0.248291015625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " the",
+        "logit": 17.796875,
+        "probability_percent": 69.63
+      },
+      {
+        "rank": 1,
+        "token": " The",
+        "logit": 16.765625,
+        "probability_percent": 24.83
+      },
+      {
+        "rank": 2,
+        "token": " a",
+        "logit": 12.984375,
+        "probability_percent": 0.57
+      },
+      {
+        "rank": 3,
+        "token": " his",
+        "logit": 12.96875,
+        "probability_percent": 0.56
+      },
+      {
+        "rank": 4,
+        "token": " John",
+        "logit": 12.625,
+        "probability_percent": 0.4
+      },
+      {
+        "rank": 5,
+        "token": " \"",
+        "logit": 12.6171875,
+        "probability_percent": 0.39
+      },
+      {
+        "rank": 6,
+        "token": " Beatles",
+        "logit": 12.4140625,
+        "probability_percent": 0.32
+      },
+      {
+        "rank": 7,
+        "token": " Beat",
+        "logit": 12.015625,
+        "probability_percent": 0.21
+      },
+      {
+        "rank": 8,
+        "token": " which",
+        "logit": 11.828125,
+        "probability_percent": 0.18
+      },
+      {
+        "rank": 9,
+        "token": " what",
+        "logit": 11.265625,
+        "probability_percent": 0.1
+      }
+    ]
+  },
+  {
+    "prompt": "John Lennon performs as the lead singer of",
+    "generated_prefix": "John Lennon performs as the lead singer of the",
+    "gold_token": " Beatles",
+    "predicted_top1_token": " Beatles",
+    "token_pos_in_answer": 1,
+    "gold_logit": 17.5625,
+    "gold_prob_percent": 82.62,
+    "first_token_prob": 0.6962890625,
+    "second_token_prob": 0.248291015625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Beatles",
+        "logit": 17.5625,
+        "probability_percent": 82.62
+      },
+      {
+        "rank": 1,
+        "token": " band",
+        "logit": 15.3125,
+        "probability_percent": 8.7
+      },
+      {
+        "rank": 2,
+        "token": " Beat",
+        "logit": 13.9140625,
+        "probability_percent": 2.15
+      },
+      {
+        "rank": 3,
+        "token": " rock",
+        "logit": 13.3984375,
+        "probability_percent": 1.28
+      },
+      {
+        "rank": 4,
+        "token": " group",
+        "logit": 12.5703125,
+        "probability_percent": 0.56
+      },
+      {
+        "rank": 5,
+        "token": " song",
+        "logit": 12.0234375,
+        "probability_percent": 0.32
+      },
+      {
+        "rank": 6,
+        "token": " beat",
+        "logit": 12.0234375,
+        "probability_percent": 0.32
+      },
+      {
+        "rank": 7,
+        "token": " British",
+        "logit": 11.5,
+        "probability_percent": 0.19
+      },
+      {
+        "rank": 8,
+        "token": " John",
+        "logit": 11.234375,
+        "probability_percent": 0.15
+      },
+      {
+        "rank": 9,
+        "token": " Fab",
+        "logit": 11.1484375,
+        "probability_percent": 0.14
+      }
+    ]
+  },
+  {
+    "prompt": "Jim Morrison performs as the lead singer of",
+    "generated_prefix": "Jim Morrison performs as the lead singer of",
+    "gold_token": " The",
+    "predicted_top1_token": " the",
+    "token_pos_in_answer": 0,
+    "gold_logit": 16.9375,
+    "gold_prob_percent": 26.29,
+    "first_token_prob": 0.6611328125,
+    "second_token_prob": 0.262939453125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " the",
+        "logit": 17.859375,
+        "probability_percent": 66.11
+      },
+      {
+        "rank": 1,
+        "token": " The",
+        "logit": 16.9375,
+        "probability_percent": 26.29
+      },
+      {
+        "rank": 2,
+        "token": " rock",
+        "logit": 13.9609375,
+        "probability_percent": 1.34
+      },
+      {
+        "rank": 3,
+        "token": " a",
+        "logit": 13.1171875,
+        "probability_percent": 0.58
+      },
+      {
+        "rank": 4,
+        "token": " \"",
+        "logit": 13.0625,
+        "probability_percent": 0.55
+      },
+      {
+        "rank": 5,
+        "token": " which",
+        "logit": 13.0078125,
+        "probability_percent": 0.52
+      },
+      {
+        "rank": 6,
+        "token": " L",
+        "logit": 12.8828125,
+        "probability_percent": 0.46
+      },
+      {
+        "rank": 7,
+        "token": " what",
+        "logit": 12.609375,
+        "probability_percent": 0.35
+      },
+      {
+        "rank": 8,
+        "token": " American",
+        "logit": 12.46875,
+        "probability_percent": 0.3
+      },
+      {
+        "rank": 9,
+        "token": " his",
+        "logit": 11.984375,
+        "probability_percent": 0.19
+      }
+    ]
+  },
+  {
+    "prompt": "Jim Morrison performs as the lead singer of",
+    "generated_prefix": "Jim Morrison performs as the lead singer of the",
+    "gold_token": " Do",
+    "predicted_top1_token": " Do",
+    "token_pos_in_answer": 1,
+    "gold_logit": 16.65625,
+    "gold_prob_percent": 43.04,
+    "first_token_prob": 0.6611328125,
+    "second_token_prob": 0.262939453125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Do",
+        "logit": 16.65625,
+        "probability_percent": 43.04
+      },
+      {
+        "rank": 1,
+        "token": " rock",
+        "logit": 16.5,
+        "probability_percent": 36.82
+      },
+      {
+        "rank": 2,
+        "token": " band",
+        "logit": 15.359375,
+        "probability_percent": 11.76
+      },
+      {
+        "rank": 3,
+        "token": " group",
+        "logit": 13.0,
+        "probability_percent": 1.11
+      },
+      {
+        "rank": 4,
+        "token": " do",
+        "logit": 12.875,
+        "probability_percent": 0.98
+      },
+      {
+        "rank": 5,
+        "token": " popular",
+        "logit": 12.2890625,
+        "probability_percent": 0.55
+      },
+      {
+        "rank": 6,
+        "token": " American",
+        "logit": 11.90625,
+        "probability_percent": 0.37
+      },
+      {
+        "rank": 7,
+        "token": " alternative",
+        "logit": 11.4296875,
+        "probability_percent": 0.23
+      },
+      {
+        "rank": 8,
+        "token": " Rock",
+        "logit": 11.140625,
+        "probability_percent": 0.17
+      },
+      {
+        "rank": 9,
+        "token": " famous",
+        "logit": 10.96875,
+        "probability_percent": 0.15
+      }
+    ]
+  },
+  {
+    "prompt": "Jim Morrison performs as the lead singer of",
+    "generated_prefix": "Jim Morrison performs as the lead singer of the Do",
+    "gold_token": "ors",
+    "predicted_top1_token": "ors",
+    "token_pos_in_answer": 2,
+    "gold_logit": 22.90625,
+    "gold_prob_percent": 99.95,
+    "first_token_prob": 0.6611328125,
+    "second_token_prob": 0.262939453125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ors",
+        "logit": 22.90625,
+        "probability_percent": 99.95
+      },
+      {
+        "rank": 1,
+        "token": "ob",
+        "logit": 14.296875,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 2,
+        "token": "om",
+        "logit": 12.1953125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 3,
+        "token": "zens",
+        "logit": 11.734375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 4,
+        "token": "ork",
+        "logit": 10.90625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 5,
+        "token": "ORS",
+        "logit": 10.7890625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": "oms",
+        "logit": 10.71875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": "...",
+        "logit": 10.6640625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "ctors",
+        "logit": 10.484375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "obs",
+        "logit": 10.4765625,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "Bono performs as the lead singer of",
+    "generated_prefix": "Bono performs as the lead singer of",
+    "gold_token": " U",
+    "predicted_top1_token": " U",
+    "token_pos_in_answer": 0,
+    "gold_logit": 15.046875,
+    "gold_prob_percent": 43.24,
+    "first_token_prob": 0.432373046875,
+    "second_token_prob": 0.2208251953125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " U",
+        "logit": 15.046875,
+        "probability_percent": 43.24
+      },
+      {
+        "rank": 1,
+        "token": " the",
+        "logit": 14.375,
+        "probability_percent": 22.08
+      },
+      {
+        "rank": 2,
+        "token": " Irish",
+        "logit": 12.9296875,
+        "probability_percent": 5.2
+      },
+      {
+        "rank": 3,
+        "token": " rock",
+        "logit": 12.8046875,
+        "probability_percent": 4.59
+      },
+      {
+        "rank": 4,
+        "token": " The",
+        "logit": 12.75,
+        "probability_percent": 4.35
+      },
+      {
+        "rank": 5,
+        "token": " English",
+        "logit": 11.8984375,
+        "probability_percent": 1.86
+      },
+      {
+        "rank": 6,
+        "token": " American",
+        "logit": 11.703125,
+        "probability_percent": 1.53
+      },
+      {
+        "rank": 7,
+        "token": " British",
+        "logit": 11.484375,
+        "probability_percent": 1.23
+      },
+      {
+        "rank": 8,
+        "token": " a",
+        "logit": 11.15625,
+        "probability_percent": 0.88
+      },
+      {
+        "rank": 9,
+        "token": " Bon",
+        "logit": 10.9453125,
+        "probability_percent": 0.72
+      }
+    ]
+  },
+  {
+    "prompt": "Bono performs as the lead singer of",
+    "generated_prefix": "Bono performs as the lead singer of U",
+    "gold_token": "2",
+    "predicted_top1_token": "2",
+    "token_pos_in_answer": 1,
+    "gold_logit": 23.203125,
+    "gold_prob_percent": 99.9,
+    "first_token_prob": 0.432373046875,
+    "second_token_prob": 0.2208251953125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "2",
+        "logit": 23.203125,
+        "probability_percent": 99.9
+      },
+      {
+        "rank": 1,
+        "token": "B",
+        "logit": 15.4609375,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 2,
+        "token": " 2",
+        "logit": 14.7421875,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 3,
+        "token": ".",
+        "logit": 14.0546875,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 4,
+        "token": "-",
+        "logit": 12.578125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 5,
+        "token": "top",
+        "logit": 12.046875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": "²",
+        "logit": 10.59375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": "RB",
+        "logit": 10.15625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "TB",
+        "logit": 10.0546875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "pt",
+        "logit": 10.0,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "Ozzy Osbourne performs as the lead singer of",
+    "generated_prefix": "Ozzy Osbourne performs as the lead singer of",
+    "gold_token": " Black",
+    "predicted_top1_token": " Black",
+    "token_pos_in_answer": 0,
+    "gold_logit": 17.015625,
+    "gold_prob_percent": 59.57,
+    "first_token_prob": 0.595703125,
+    "second_token_prob": 0.1318359375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Black",
+        "logit": 17.015625,
+        "probability_percent": 59.57
+      },
+      {
+        "rank": 1,
+        "token": " Oz",
+        "logit": 15.5078125,
+        "probability_percent": 13.18
+      },
+      {
+        "rank": 2,
+        "token": " the",
+        "logit": 15.3203125,
+        "probability_percent": 10.93
+      },
+      {
+        "rank": 3,
+        "token": " heavy",
+        "logit": 14.28125,
+        "probability_percent": 3.87
+      },
+      {
+        "rank": 4,
+        "token": " O",
+        "logit": 14.0625,
+        "probability_percent": 3.11
+      },
+      {
+        "rank": 5,
+        "token": " his",
+        "logit": 12.8046875,
+        "probability_percent": 0.88
+      },
+      {
+        "rank": 6,
+        "token": " British",
+        "logit": 12.5625,
+        "probability_percent": 0.69
+      },
+      {
+        "rank": 7,
+        "token": " \"",
+        "logit": 12.234375,
+        "probability_percent": 0.5
+      },
+      {
+        "rank": 8,
+        "token": " a",
+        "logit": 12.125,
+        "probability_percent": 0.45
+      },
+      {
+        "rank": 9,
+        "token": " English",
+        "logit": 11.9296875,
+        "probability_percent": 0.37
+      }
+    ]
+  },
+  {
+    "prompt": "Ozzy Osbourne performs as the lead singer of",
+    "generated_prefix": "Ozzy Osbourne performs as the lead singer of Black",
+    "gold_token": " S",
+    "predicted_top1_token": " S",
+    "token_pos_in_answer": 1,
+    "gold_logit": 19.25,
+    "gold_prob_percent": 98.54,
+    "first_token_prob": 0.595703125,
+    "second_token_prob": 0.1318359375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " S",
+        "logit": 19.25,
+        "probability_percent": 98.54
+      },
+      {
+        "rank": 1,
+        "token": " Label",
+        "logit": 14.1328125,
+        "probability_percent": 0.59
+      },
+      {
+        "rank": 2,
+        "token": " s",
+        "logit": 13.078125,
+        "probability_percent": 0.21
+      },
+      {
+        "rank": 3,
+        "token": " Oak",
+        "logit": 13.0703125,
+        "probability_percent": 0.2
+      },
+      {
+        "rank": 4,
+        "token": " Country",
+        "logit": 12.046875,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 5,
+        "token": "\n",
+        "logit": 11.3203125,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 6,
+        "token": "S",
+        "logit": 11.1640625,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 7,
+        "token": " O",
+        "logit": 10.9296875,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 8,
+        "token": " Stone",
+        "logit": 10.8671875,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 9,
+        "token": " label",
+        "logit": 10.4609375,
+        "probability_percent": 0.02
+      }
+    ]
+  },
+  {
+    "prompt": "Ozzy Osbourne performs as the lead singer of",
+    "generated_prefix": "Ozzy Osbourne performs as the lead singer of Black S",
+    "gold_token": "abbath",
+    "predicted_top1_token": "abbath",
+    "token_pos_in_answer": 2,
+    "gold_logit": 20.109375,
+    "gold_prob_percent": 99.9,
+    "first_token_prob": 0.595703125,
+    "second_token_prob": 0.1318359375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "abbath",
+        "logit": 20.109375,
+        "probability_percent": 99.9
+      },
+      {
+        "rank": 1,
+        "token": "abb",
+        "logit": 12.09375,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 2,
+        "token": "orrow",
+        "logit": 10.8671875,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 3,
+        "token": "keleton",
+        "logit": 9.28125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 4,
+        "token": "abe",
+        "logit": 9.21875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 5,
+        "token": "...",
+        "logit": 8.796875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": "abeth",
+        "logit": 8.59375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": "aba",
+        "logit": 8.171875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "odom",
+        "logit": 8.1484375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "ledge",
+        "logit": 8.1015625,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "Billie Joe Armstrong performs as the lead singer of",
+    "generated_prefix": "Billie Joe Armstrong performs as the lead singer of",
+    "gold_token": " Green",
+    "predicted_top1_token": " Green",
+    "token_pos_in_answer": 0,
+    "gold_logit": 16.640625,
+    "gold_prob_percent": 47.85,
+    "first_token_prob": 0.478515625,
+    "second_token_prob": 0.31884765625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Green",
+        "logit": 16.640625,
+        "probability_percent": 47.85
+      },
+      {
+        "rank": 1,
+        "token": " the",
+        "logit": 16.234375,
+        "probability_percent": 31.88
+      },
+      {
+        "rank": 2,
+        "token": " American",
+        "logit": 14.875,
+        "probability_percent": 8.18
+      },
+      {
+        "rank": 3,
+        "token": " punk",
+        "logit": 13.6015625,
+        "probability_percent": 2.29
+      },
+      {
+        "rank": 4,
+        "token": " which",
+        "logit": 13.1875,
+        "probability_percent": 1.51
+      },
+      {
+        "rank": 5,
+        "token": " Red",
+        "logit": 12.6484375,
+        "probability_percent": 0.88
+      },
+      {
+        "rank": 6,
+        "token": " rock",
+        "logit": 12.59375,
+        "probability_percent": 0.84
+      },
+      {
+        "rank": 7,
+        "token": " green",
+        "logit": 12.0234375,
+        "probability_percent": 0.47
+      },
+      {
+        "rank": 8,
+        "token": " what",
+        "logit": 11.8828125,
+        "probability_percent": 0.41
+      },
+      {
+        "rank": 9,
+        "token": " alternative",
+        "logit": 11.828125,
+        "probability_percent": 0.39
+      }
+    ]
+  },
+  {
+    "prompt": "Billie Joe Armstrong performs as the lead singer of",
+    "generated_prefix": "Billie Joe Armstrong performs as the lead singer of Green",
+    "gold_token": " Day",
+    "predicted_top1_token": " Day",
+    "token_pos_in_answer": 1,
+    "gold_logit": 22.375,
+    "gold_prob_percent": 99.76,
+    "first_token_prob": 0.478515625,
+    "second_token_prob": 0.31884765625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Day",
+        "logit": 22.375,
+        "probability_percent": 99.76
+      },
+      {
+        "rank": 1,
+        "token": " day",
+        "logit": 16.03125,
+        "probability_percent": 0.18
+      },
+      {
+        "rank": 2,
+        "token": "Day",
+        "logit": 14.3515625,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 3,
+        "token": " Days",
+        "logit": 13.6171875,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 4,
+        "token": "day",
+        "logit": 12.3515625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 5,
+        "token": "\n",
+        "logit": 11.7734375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": ".",
+        "logit": 11.6015625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": " Bay",
+        "logit": 10.9375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": " days",
+        "logit": 10.7734375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": " ",
+        "logit": 10.625,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "Eddie Vedder performs as the lead singer of",
+    "generated_prefix": "Eddie Vedder performs as the lead singer of",
+    "gold_token": " Pearl",
+    "predicted_top1_token": " Pearl",
+    "token_pos_in_answer": 0,
+    "gold_logit": 16.578125,
+    "gold_prob_percent": 63.33,
+    "first_token_prob": 0.63330078125,
+    "second_token_prob": 0.2403564453125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Pearl",
+        "logit": 16.578125,
+        "probability_percent": 63.33
+      },
+      {
+        "rank": 1,
+        "token": " the",
+        "logit": 15.609375,
+        "probability_percent": 24.04
+      },
+      {
+        "rank": 2,
+        "token": " American",
+        "logit": 13.1171875,
+        "probability_percent": 1.99
+      },
+      {
+        "rank": 3,
+        "token": " Pe",
+        "logit": 13.046875,
+        "probability_percent": 1.85
+      },
+      {
+        "rank": 4,
+        "token": " rock",
+        "logit": 12.265625,
+        "probability_percent": 0.85
+      },
+      {
+        "rank": 5,
+        "token": " which",
+        "logit": 11.9296875,
+        "probability_percent": 0.61
+      },
+      {
+        "rank": 6,
+        "token": " a",
+        "logit": 11.6171875,
+        "probability_percent": 0.44
+      },
+      {
+        "rank": 7,
+        "token": " Seattle",
+        "logit": 11.171875,
+        "probability_percent": 0.28
+      },
+      {
+        "rank": 8,
+        "token": " N",
+        "logit": 11.1640625,
+        "probability_percent": 0.28
+      },
+      {
+        "rank": 9,
+        "token": " alternative",
+        "logit": 11.03125,
+        "probability_percent": 0.25
+      }
+    ]
+  },
+  {
+    "prompt": "Eddie Vedder performs as the lead singer of",
+    "generated_prefix": "Eddie Vedder performs as the lead singer of Pearl",
+    "gold_token": " Jam",
+    "predicted_top1_token": " Jam",
+    "token_pos_in_answer": 1,
+    "gold_logit": 22.6875,
+    "gold_prob_percent": 99.9,
+    "first_token_prob": 0.63330078125,
+    "second_token_prob": 0.2403564453125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Jam",
+        "logit": 22.6875,
+        "probability_percent": 99.9
+      },
+      {
+        "rank": 1,
+        "token": " jam",
+        "logit": 14.9296875,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 2,
+        "token": "\n",
+        "logit": 13.8046875,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 3,
+        "token": ".",
+        "logit": 12.9296875,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 4,
+        "token": "Jam",
+        "logit": 12.71875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 5,
+        "token": " ",
+        "logit": 12.5859375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": ",",
+        "logit": 12.3984375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": "...",
+        "logit": 12.203125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": " J",
+        "logit": 11.921875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "jam",
+        "logit": 11.7890625,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "Jon Bon Jovi performs as the lead singer of",
+    "generated_prefix": "Jon Bon Jovi performs as the lead singer of",
+    "gold_token": " Bon",
+    "predicted_top1_token": " the",
+    "token_pos_in_answer": 0,
+    "gold_logit": 16.3125,
+    "gold_prob_percent": 26.1,
+    "first_token_prob": 0.5107421875,
+    "second_token_prob": 0.260986328125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " the",
+        "logit": 16.984375,
+        "probability_percent": 51.07
+      },
+      {
+        "rank": 1,
+        "token": " Bon",
+        "logit": 16.3125,
+        "probability_percent": 26.1
+      },
+      {
+        "rank": 2,
+        "token": " a",
+        "logit": 14.6171875,
+        "probability_percent": 4.79
+      },
+      {
+        "rank": 3,
+        "token": " his",
+        "logit": 14.6015625,
+        "probability_percent": 4.71
+      },
+      {
+        "rank": 4,
+        "token": " rock",
+        "logit": 14.21875,
+        "probability_percent": 3.22
+      },
+      {
+        "rank": 5,
+        "token": " one",
+        "logit": 13.0234375,
+        "probability_percent": 0.97
+      },
+      {
+        "rank": 6,
+        "token": " American",
+        "logit": 12.7578125,
+        "probability_percent": 0.75
+      },
+      {
+        "rank": 7,
+        "token": " \"",
+        "logit": 12.3984375,
+        "probability_percent": 0.52
+      },
+      {
+        "rank": 8,
+        "token": " J",
+        "logit": 12.2421875,
+        "probability_percent": 0.45
+      },
+      {
+        "rank": 9,
+        "token": " this",
+        "logit": 12.2265625,
+        "probability_percent": 0.44
+      }
+    ]
+  },
+  {
+    "prompt": "Jon Bon Jovi performs as the lead singer of",
+    "generated_prefix": "Jon Bon Jovi performs as the lead singer of the",
+    "gold_token": " J",
+    "predicted_top1_token": " rock",
+    "token_pos_in_answer": 1,
+    "gold_logit": 11.546875,
+    "gold_prob_percent": 0.66,
+    "first_token_prob": 0.5107421875,
+    "second_token_prob": 0.260986328125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " rock",
+        "logit": 15.46875,
+        "probability_percent": 33.45
+      },
+      {
+        "rank": 1,
+        "token": " band",
+        "logit": 15.109375,
+        "probability_percent": 23.35
+      },
+      {
+        "rank": 2,
+        "token": " American",
+        "logit": 14.0546875,
+        "probability_percent": 8.14
+      },
+      {
+        "rank": 3,
+        "token": " Bon",
+        "logit": 13.8828125,
+        "probability_percent": 6.85
+      },
+      {
+        "rank": 4,
+        "token": " group",
+        "logit": 13.0859375,
+        "probability_percent": 3.09
+      },
+      {
+        "rank": 5,
+        "token": " ep",
+        "logit": 12.828125,
+        "probability_percent": 2.38
+      },
+      {
+        "rank": 6,
+        "token": " popular",
+        "logit": 12.8125,
+        "probability_percent": 2.35
+      },
+      {
+        "rank": 7,
+        "token": " Rock",
+        "logit": 12.4453125,
+        "probability_percent": 1.63
+      },
+      {
+        "rank": 8,
+        "token": " Gram",
+        "logit": 12.3203125,
+        "probability_percent": 1.44
+      },
+      {
+        "rank": 9,
+        "token": " pop",
+        "logit": 11.9453125,
+        "probability_percent": 0.99
+      }
+    ]
+  },
+  {
+    "prompt": "Jon Bon Jovi performs as the lead singer of",
+    "generated_prefix": "Jon Bon Jovi performs as the lead singer of the rock",
+    "gold_token": "ovi",
+    "predicted_top1_token": " band",
+    "token_pos_in_answer": 2,
+    "gold_logit": 0.650390625,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.5107421875,
+    "second_token_prob": 0.260986328125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " band",
+        "logit": 19.9375,
+        "probability_percent": 87.94
+      },
+      {
+        "rank": 1,
+        "token": " group",
+        "logit": 17.828125,
+        "probability_percent": 10.67
+      },
+      {
+        "rank": 2,
+        "token": " super",
+        "logit": 14.25,
+        "probability_percent": 0.3
+      },
+      {
+        "rank": 3,
+        "token": " music",
+        "logit": 13.8359375,
+        "probability_percent": 0.2
+      },
+      {
+        "rank": 4,
+        "token": " and",
+        "logit": 13.6875,
+        "probability_percent": 0.17
+      },
+      {
+        "rank": 5,
+        "token": " bands",
+        "logit": 13.375,
+        "probability_percent": 0.12
+      },
+      {
+        "rank": 6,
+        "token": "-",
+        "logit": 12.8046875,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 7,
+        "token": "/",
+        "logit": 12.296875,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 8,
+        "token": "band",
+        "logit": 12.2890625,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 9,
+        "token": " trio",
+        "logit": 12.2578125,
+        "probability_percent": 0.04
+      }
+    ]
+  },
+  {
+    "prompt": "Jon Bon Jovi performs as the lead singer of",
+    "generated_prefix": "Jon Bon Jovi performs as the lead singer of the rock band",
+    "gold_token": " ",
+    "predicted_top1_token": " Bon",
+    "token_pos_in_answer": 3,
+    "gold_logit": 7.96484375,
+    "gold_prob_percent": 0.01,
+    "first_token_prob": 0.5107421875,
+    "second_token_prob": 0.260986328125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Bon",
+        "logit": 17.59375,
+        "probability_percent": 76.81
+      },
+      {
+        "rank": 1,
+        "token": ",",
+        "logit": 15.65625,
+        "probability_percent": 11.06
+      },
+      {
+        "rank": 2,
+        "token": ".",
+        "logit": 13.9921875,
+        "probability_percent": 2.1
+      },
+      {
+        "rank": 3,
+        "token": " \"",
+        "logit": 13.5234375,
+        "probability_percent": 1.31
+      },
+      {
+        "rank": 4,
+        "token": " J",
+        "logit": 13.046875,
+        "probability_percent": 0.81
+      },
+      {
+        "rank": 5,
+        "token": " bon",
+        "logit": 12.84375,
+        "probability_percent": 0.66
+      },
+      {
+        "rank": 6,
+        "token": " .",
+        "logit": 12.640625,
+        "probability_percent": 0.54
+      },
+      {
+        "rank": 7,
+        "token": " that",
+        "logit": 12.5,
+        "probability_percent": 0.47
+      },
+      {
+        "rank": 8,
+        "token": " of",
+        "logit": 12.453125,
+        "probability_percent": 0.45
+      },
+      {
+        "rank": 9,
+        "token": " ,",
+        "logit": 12.328125,
+        "probability_percent": 0.4
+      }
+    ]
+  },
+  {
+    "prompt": "Don Henley performs as the lead singer of",
+    "generated_prefix": "Don Henley performs as the lead singer of",
+    "gold_token": " The",
+    "predicted_top1_token": " the",
+    "token_pos_in_answer": 0,
+    "gold_logit": 12.1484375,
+    "gold_prob_percent": 2.5,
+    "first_token_prob": 0.5966796875,
+    "second_token_prob": 0.0572509765625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " the",
+        "logit": 15.3203125,
+        "probability_percent": 59.67
+      },
+      {
+        "rank": 1,
+        "token": " Eagles",
+        "logit": 12.9765625,
+        "probability_percent": 5.73
+      },
+      {
+        "rank": 2,
+        "token": " country",
+        "logit": 12.8046875,
+        "probability_percent": 4.82
+      },
+      {
+        "rank": 3,
+        "token": " \"",
+        "logit": 12.1640625,
+        "probability_percent": 2.54
+      },
+      {
+        "rank": 4,
+        "token": " The",
+        "logit": 12.1484375,
+        "probability_percent": 2.5
+      },
+      {
+        "rank": 5,
+        "token": " American",
+        "logit": 11.9375,
+        "probability_percent": 2.03
+      },
+      {
+        "rank": 6,
+        "token": " a",
+        "logit": 11.6875,
+        "probability_percent": 1.58
+      },
+      {
+        "rank": 7,
+        "token": " his",
+        "logit": 11.546875,
+        "probability_percent": 1.37
+      },
+      {
+        "rank": 8,
+        "token": " Hen",
+        "logit": 11.5078125,
+        "probability_percent": 1.32
+      },
+      {
+        "rank": 9,
+        "token": " this",
+        "logit": 10.953125,
+        "probability_percent": 0.76
+      }
+    ]
+  },
+  {
+    "prompt": "Don Henley performs as the lead singer of",
+    "generated_prefix": "Don Henley performs as the lead singer of the",
+    "gold_token": " Eagles",
+    "predicted_top1_token": " Eagles",
+    "token_pos_in_answer": 1,
+    "gold_logit": 14.75,
+    "gold_prob_percent": 23.51,
+    "first_token_prob": 0.5966796875,
+    "second_token_prob": 0.0572509765625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Eagles",
+        "logit": 14.75,
+        "probability_percent": 23.51
+      },
+      {
+        "rank": 1,
+        "token": " country",
+        "logit": 14.703125,
+        "probability_percent": 22.44
+      },
+      {
+        "rank": 2,
+        "token": " band",
+        "logit": 14.5,
+        "probability_percent": 18.31
+      },
+      {
+        "rank": 3,
+        "token": " rock",
+        "logit": 13.359375,
+        "probability_percent": 5.85
+      },
+      {
+        "rank": 4,
+        "token": " group",
+        "logit": 13.1796875,
+        "probability_percent": 4.89
+      },
+      {
+        "rank": 5,
+        "token": " American",
+        "logit": 13.1328125,
+        "probability_percent": 4.67
+      },
+      {
+        "rank": 6,
+        "token": " popular",
+        "logit": 12.1953125,
+        "probability_percent": 1.83
+      },
+      {
+        "rank": 7,
+        "token": " duo",
+        "logit": 11.7421875,
+        "probability_percent": 1.16
+      },
+      {
+        "rank": 8,
+        "token": " song",
+        "logit": 11.203125,
+        "probability_percent": 0.68
+      },
+      {
+        "rank": 9,
+        "token": " folk",
+        "logit": 11.09375,
+        "probability_percent": 0.61
+      }
+    ]
+  },
+  {
+    "prompt": "Liam Gallagher performs as the lead singer of",
+    "generated_prefix": "Liam Gallagher performs as the lead singer of",
+    "gold_token": " O",
+    "predicted_top1_token": " O",
+    "token_pos_in_answer": 0,
+    "gold_logit": 15.8046875,
+    "gold_prob_percent": 38.38,
+    "first_token_prob": 0.3837890625,
+    "second_token_prob": 0.3232421875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " O",
+        "logit": 15.8046875,
+        "probability_percent": 38.38
+      },
+      {
+        "rank": 1,
+        "token": " the",
+        "logit": 15.6328125,
+        "probability_percent": 32.32
+      },
+      {
+        "rank": 2,
+        "token": " British",
+        "logit": 13.640625,
+        "probability_percent": 4.41
+      },
+      {
+        "rank": 3,
+        "token": " rock",
+        "logit": 13.546875,
+        "probability_percent": 4.01
+      },
+      {
+        "rank": 4,
+        "token": " which",
+        "logit": 13.4140625,
+        "probability_percent": 3.52
+      },
+      {
+        "rank": 5,
+        "token": " English",
+        "logit": 13.2890625,
+        "probability_percent": 3.1
+      },
+      {
+        "rank": 6,
+        "token": " B",
+        "logit": 12.6015625,
+        "probability_percent": 1.56
+      },
+      {
+        "rank": 7,
+        "token": " what",
+        "logit": 12.28125,
+        "probability_percent": 1.13
+      },
+      {
+        "rank": 8,
+        "token": " a",
+        "logit": 11.9609375,
+        "probability_percent": 0.82
+      },
+      {
+        "rank": 9,
+        "token": " No",
+        "logit": 11.8203125,
+        "probability_percent": 0.71
+      }
+    ]
+  },
+  {
+    "prompt": "Liam Gallagher performs as the lead singer of",
+    "generated_prefix": "Liam Gallagher performs as the lead singer of O",
+    "gold_token": "asis",
+    "predicted_top1_token": "asis",
+    "token_pos_in_answer": 1,
+    "gold_logit": 21.765625,
+    "gold_prob_percent": 99.61,
+    "first_token_prob": 0.3837890625,
+    "second_token_prob": 0.3232421875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "asis",
+        "logit": 21.765625,
+        "probability_percent": 99.61
+      },
+      {
+        "rank": 1,
+        "token": "AS",
+        "logit": 16.015625,
+        "probability_percent": 0.32
+      },
+      {
+        "rank": 2,
+        "token": "as",
+        "logit": 14.0703125,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 3,
+        "token": "ases",
+        "logit": 11.2734375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 4,
+        "token": ".",
+        "logit": 11.0234375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 5,
+        "token": "asi",
+        "logit": 10.75,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": "ceans",
+        "logit": 10.5,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": "As",
+        "logit": 10.2734375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "MD",
+        "logit": 10.0234375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "ASE",
+        "logit": 10.0078125,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "Serj Tankian performs as the lead singer of",
+    "generated_prefix": "Serj Tankian performs as the lead singer of",
+    "gold_token": " System",
+    "predicted_top1_token": " the",
+    "token_pos_in_answer": 0,
+    "gold_logit": 13.5703125,
+    "gold_prob_percent": 12.6,
+    "first_token_prob": 0.52197265625,
+    "second_token_prob": 0.1259765625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " the",
+        "logit": 14.9921875,
+        "probability_percent": 52.2
+      },
+      {
+        "rank": 1,
+        "token": " System",
+        "logit": 13.5703125,
+        "probability_percent": 12.6
+      },
+      {
+        "rank": 2,
+        "token": " rock",
+        "logit": 12.890625,
+        "probability_percent": 6.38
+      },
+      {
+        "rank": 3,
+        "token": " progressive",
+        "logit": 12.078125,
+        "probability_percent": 2.83
+      },
+      {
+        "rank": 4,
+        "token": " Armenian",
+        "logit": 11.9140625,
+        "probability_percent": 2.4
+      },
+      {
+        "rank": 5,
+        "token": " alternative",
+        "logit": 11.5546875,
+        "probability_percent": 1.68
+      },
+      {
+        "rank": 6,
+        "token": " Arm",
+        "logit": 11.5234375,
+        "probability_percent": 1.63
+      },
+      {
+        "rank": 7,
+        "token": " a",
+        "logit": 11.15625,
+        "probability_percent": 1.13
+      },
+      {
+        "rank": 8,
+        "token": " which",
+        "logit": 11.0390625,
+        "probability_percent": 1.0
+      },
+      {
+        "rank": 9,
+        "token": " what",
+        "logit": 10.6015625,
+        "probability_percent": 0.65
+      }
+    ]
+  },
+  {
+    "prompt": "Serj Tankian performs as the lead singer of",
+    "generated_prefix": "Serj Tankian performs as the lead singer of the",
+    "gold_token": " of",
+    "predicted_top1_token": " rock",
+    "token_pos_in_answer": 1,
+    "gold_logit": 5.828125,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.52197265625,
+    "second_token_prob": 0.1259765625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " rock",
+        "logit": 14.640625,
+        "probability_percent": 25.56
+      },
+      {
+        "rank": 1,
+        "token": " Armenian",
+        "logit": 14.3515625,
+        "probability_percent": 19.14
+      },
+      {
+        "rank": 2,
+        "token": " band",
+        "logit": 14.3125,
+        "probability_percent": 18.41
+      },
+      {
+        "rank": 3,
+        "token": " progressive",
+        "logit": 13.3671875,
+        "probability_percent": 7.15
+      },
+      {
+        "rank": 4,
+        "token": " alternative",
+        "logit": 13.3515625,
+        "probability_percent": 7.04
+      },
+      {
+        "rank": 5,
+        "token": " group",
+        "logit": 11.875,
+        "probability_percent": 1.61
+      },
+      {
+        "rank": 6,
+        "token": " heavy",
+        "logit": 11.8515625,
+        "probability_percent": 1.57
+      },
+      {
+        "rank": 7,
+        "token": " American",
+        "logit": 11.8046875,
+        "probability_percent": 1.5
+      },
+      {
+        "rank": 8,
+        "token": " metal",
+        "logit": 11.6796875,
+        "probability_percent": 1.32
+      },
+      {
+        "rank": 9,
+        "token": " bands",
+        "logit": 10.96875,
+        "probability_percent": 0.65
+      }
+    ]
+  },
+  {
+    "prompt": "Serj Tankian performs as the lead singer of",
+    "generated_prefix": "Serj Tankian performs as the lead singer of the rock",
+    "gold_token": " a",
+    "predicted_top1_token": " band",
+    "token_pos_in_answer": 2,
+    "gold_logit": 7.1640625,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.52197265625,
+    "second_token_prob": 0.1259765625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " band",
+        "logit": 19.140625,
+        "probability_percent": 90.97
+      },
+      {
+        "rank": 1,
+        "token": " bands",
+        "logit": 15.96875,
+        "probability_percent": 3.81
+      },
+      {
+        "rank": 2,
+        "token": " group",
+        "logit": 15.8671875,
+        "probability_percent": 3.45
+      },
+      {
+        "rank": 3,
+        "token": "-",
+        "logit": 13.515625,
+        "probability_percent": 0.33
+      },
+      {
+        "rank": 4,
+        "token": "/",
+        "logit": 13.3515625,
+        "probability_percent": 0.28
+      },
+      {
+        "rank": 5,
+        "token": " music",
+        "logit": 13.15625,
+        "probability_percent": 0.23
+      },
+      {
+        "rank": 6,
+        "token": " groups",
+        "logit": 12.65625,
+        "probability_percent": 0.14
+      },
+      {
+        "rank": 7,
+        "token": " super",
+        "logit": 12.171875,
+        "probability_percent": 0.09
+      },
+      {
+        "rank": 8,
+        "token": " and",
+        "logit": 11.9921875,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 9,
+        "token": " act",
+        "logit": 11.78125,
+        "probability_percent": 0.06
+      }
+    ]
+  },
+  {
+    "prompt": "Serj Tankian performs as the lead singer of",
+    "generated_prefix": "Serj Tankian performs as the lead singer of the rock band",
+    "gold_token": " Down",
+    "predicted_top1_token": " System",
+    "token_pos_in_answer": 3,
+    "gold_logit": 3.099609375,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.52197265625,
+    "second_token_prob": 0.1259765625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " System",
+        "logit": 16.484375,
+        "probability_percent": 89.01
+      },
+      {
+        "rank": 1,
+        "token": ",",
+        "logit": 12.8046875,
+        "probability_percent": 2.25
+      },
+      {
+        "rank": 2,
+        "token": " Systems",
+        "logit": 11.953125,
+        "probability_percent": 0.96
+      },
+      {
+        "rank": 3,
+        "token": " \"",
+        "logit": 11.828125,
+        "probability_percent": 0.85
+      },
+      {
+        "rank": 4,
+        "token": "\n",
+        "logit": 11.3828125,
+        "probability_percent": 0.54
+      },
+      {
+        "rank": 5,
+        "token": ".",
+        "logit": 11.296875,
+        "probability_percent": 0.5
+      },
+      {
+        "rank": 6,
+        "token": " .",
+        "logit": 10.9296875,
+        "probability_percent": 0.34
+      },
+      {
+        "rank": 7,
+        "token": "System",
+        "logit": 10.84375,
+        "probability_percent": 0.32
+      },
+      {
+        "rank": 8,
+        "token": " Inc",
+        "logit": 10.8125,
+        "probability_percent": 0.31
+      },
+      {
+        "rank": 9,
+        "token": " ,",
+        "logit": 10.6796875,
+        "probability_percent": 0.27
+      }
+    ]
+  }
+]

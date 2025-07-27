@@ -1,0 +1,26 @@
+{
+  "relation": "landmark_on_continent",
+  "template_scores": {
+    "{} is on the continent of": {
+      "average_first_token_prob": 0.3474435614935322,
+      "reliability": 0.3326293558606125,
+      "overall_score": 0.11556992805751073
+    },
+    "{} is a landmark on": {
+      "average_first_token_prob": 0.0,
+      "reliability": 0.0,
+      "overall_score": 0.0
+    },
+    "{} can be found on the continent of": {
+      "average_first_token_prob": 0.32954964239972445,
+      "reliability": 0.40971488912354803,
+      "overall_score": 0.13502139519650802
+    }
+  },
+  "best_template": "{} can be found on the continent of",
+  "best_template_metrics": {
+    "average_first_token_prob": 0.32954964239972445,
+    "reliability": 0.40971488912354803,
+    "overall_score": 0.13502139519650802
+  }
+}

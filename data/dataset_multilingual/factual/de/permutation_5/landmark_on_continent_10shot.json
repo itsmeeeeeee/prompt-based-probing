@@ -1,0 +1,3672 @@
+{
+    "name": "landmark on continent_10shot_perm5",
+    "prompt_templates": [
+        "Big Ben befindet sich auf dem Kontinent Europa.\nMachu Picchu befindet sich auf dem Kontinent Südamerika.\nEiffelturm befindet sich auf dem Kontinent Europa.\nFreiheitsstatue befindet sich auf dem Kontinent Nordamerika.\nSydney Opera House befindet sich auf dem Kontinent Australien.\nMount Erebus befindet sich auf dem Kontinent Antarktika.\nBerg Fuji befindet sich auf dem Kontinent Asien.\nKolosseum befindet sich auf dem Kontinent Europa.\nTafelberg befindet sich auf dem Kontinent Afrika.\nUluṟu befindet sich auf dem Kontinent Australien.\n{} befindet sich auf dem Kontinent"
+    ],
+    "samples": [
+        {
+            "subject": "Pidgeon Island",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Krywyj Rih",
+            "object": "Europa"
+        },
+        {
+            "subject": "Howard-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Prydz Bay",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Georg-V.-Küste",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Gabbro Hills",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Rutgers-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Teres Ridge",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Risemedet",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Mount Markham",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Kalahari",
+            "object": "Afrika"
+        },
+        {
+            "subject": "Matusewitsch-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Nizamabad",
+            "object": "Asien"
+        },
+        {
+            "subject": "Mobiloil Inlet",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Trail Inlet",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Suworow-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Romulus-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Argosy-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Delchev Ridge",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Umayyaden-Kalifat",
+            "object": "Europa"
+        },
+        {
+            "subject": "Alphainsel",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Dnister",
+            "object": "Europa"
+        },
+        {
+            "subject": "Ost-Ongul-Insel",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Spur Point",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Hannah Point",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Morozumi Range",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Kap Legoupil",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Nordbrabant",
+            "object": "Europa"
+        },
+        {
+            "subject": "Karisimbi",
+            "object": "Afrika"
+        },
+        {
+            "subject": "Harold Byrd Mountains",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Annamalai University",
+            "object": "Asien"
+        },
+        {
+            "subject": "Afghanistan",
+            "object": "Asien"
+        },
+        {
+            "subject": "Indira Gandhi National Open University",
+            "object": "Asien"
+        },
+        {
+            "subject": "Mount Fridtjof Nansen",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Niger",
+            "object": "Afrika"
+        },
+        {
+            "subject": "Miller Range",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Crown Peak",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Tower Island",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Forrestal Range",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Guadalquivir",
+            "object": "Europa"
+        },
+        {
+            "subject": "Weichsel",
+            "object": "Europa"
+        },
+        {
+            "subject": "Paré-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Eureka-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Mundraga Bay",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Mount Hornsby",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Himachal Pradesh",
+            "object": "Asien"
+        },
+        {
+            "subject": "Gair Mesa",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Lamplugh-Insel",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Everett Range",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Chambal",
+            "object": "Asien"
+        },
+        {
+            "subject": "Lanterman Range",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Namibia",
+            "object": "Afrika"
+        },
+        {
+            "subject": "Shackleton-Schelfeis",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Japan",
+            "object": "Asien"
+        },
+        {
+            "subject": "Seal Nunataks",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Ravens Mountains",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Lake Vida",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Monte San Giorgio",
+            "object": "Europa"
+        },
+        {
+            "subject": "Roman Four Promontory",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Schelde",
+            "object": "Europa"
+        },
+        {
+            "subject": "Alsace-Lorraine",
+            "object": "Europa"
+        },
+        {
+            "subject": "Heritage Range",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Nile",
+            "object": "Afrika"
+        },
+        {
+            "subject": "Mount Foster",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Swanson Mountains",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Ostblock",
+            "object": "Europa"
+        },
+        {
+            "subject": "Pune",
+            "object": "Asien"
+        },
+        {
+            "subject": "Mount Stephenson",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Mount Black",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Padda",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Shahdol",
+            "object": "Asien"
+        },
+        {
+            "subject": "Bowman-Küste",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Ryder Bay",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Reedy-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Chamarajanagar",
+            "object": "Asien"
+        },
+        {
+            "subject": "Entente Florale",
+            "object": "Europa"
+        },
+        {
+            "subject": "Kap Adriasola",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Merrick Mountains",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Mount Spivey",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Read Mountains",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Königin-Maud-Land",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Mount Boreas",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Hudson-Gebirge",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Boyana-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Charlotte Bay",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Großglockner",
+            "object": "Europa"
+        },
+        {
+            "subject": "Svarthamaren",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Moldau",
+            "object": "Europa"
+        },
+        {
+            "subject": "Clyde",
+            "object": "Europa"
+        },
+        {
+            "subject": "Kilby Island",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "The Gullet",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Batterbee Mountains",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Gadag",
+            "object": "Asien"
+        },
+        {
+            "subject": "Dennistoun-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Neumayersteilwand",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "South Pole Traverse",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Mount Passel",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Mount Kempe",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Bertha Island",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Desko Mountains",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Turgai",
+            "object": "Asien"
+        },
+        {
+            "subject": "Paulding Bay",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Whitehall-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Neuburg Peak",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Possession Islands",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Don-Juan-See",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Jangtsekiang",
+            "object": "Asien"
+        },
+        {
+            "subject": "Hammer Point",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Autonomer Kreis der Tschuktschen",
+            "object": "Asien"
+        },
+        {
+            "subject": "Odbert-Insel",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Königreich der Vereinigten Niederlande",
+            "object": "Europa"
+        },
+        {
+            "subject": "Rezen Knoll",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Basel",
+            "object": "Europa"
+        },
+        {
+            "subject": "Karun",
+            "object": "Asien"
+        },
+        {
+            "subject": "Palmer-Station",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Udupi",
+            "object": "Asien"
+        },
+        {
+            "subject": "Condor-Halbinsel",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Wohlthatmassiv",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Iskar-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Athen",
+            "object": "Europa"
+        },
+        {
+            "subject": "Schwedisches Reich",
+            "object": "Europa"
+        },
+        {
+            "subject": "Gibbs-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Tadschikistan",
+            "object": "Asien"
+        },
+        {
+            "subject": "Gambia",
+            "object": "Afrika"
+        },
+        {
+            "subject": "Skelton-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Schokalskibucht",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Österreich-Ungarn",
+            "object": "Europa"
+        },
+        {
+            "subject": "Mount Queequeg",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Tamil Nadu",
+            "object": "Asien"
+        },
+        {
+            "subject": "Armenien",
+            "object": "Europa"
+        },
+        {
+            "subject": "Hoseason Island",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Hood-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Pirrit Hills",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Macquarieinsel",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Yambol Peak",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Polarplateau",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Bertram-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Air-New-Zealand-Flug 901",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Dufek-Massiv",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Blaiklock-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Wallonie",
+            "object": "Europa"
+        },
+        {
+            "subject": "Silverstein Peak",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Convoy Range",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Darley Hills",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Newell Point",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Gordon-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Halpern Point",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Halbinsel Cole",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Ärmelkanal",
+            "object": "Europa"
+        },
+        {
+            "subject": "Wikingerzeit",
+            "object": "Europa"
+        },
+        {
+            "subject": "Station Dome Concordia",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Kap Bird",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Thomas-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Willan Saddle",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Liberia",
+            "object": "Afrika"
+        },
+        {
+            "subject": "Biscoe-Inseln",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Avitohol Point",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Ablation Valley",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Guinea-Bissau",
+            "object": "Afrika"
+        },
+        {
+            "subject": "Königreich Burgund",
+            "object": "Europa"
+        },
+        {
+            "subject": "Johannes-Paul-II.-Halbinsel",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "David-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Mendelssohn Inlet",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Katalonien",
+            "object": "Europa"
+        },
+        {
+            "subject": "Beascochea-Bucht",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Warren Range",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Granite Knolls",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Wright Inlet",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Astrolabe-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Danger-Inseln",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Northwind-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Hull-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Kap Burks",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Berwick-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Jammu und Kashmir",
+            "object": "Asien"
+        },
+        {
+            "subject": "Shinnan-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "William Scoresby Bay",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Noll-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Nyamuragira",
+            "object": "Afrika"
+        },
+        {
+            "subject": "Republik der Vereinigten Niederlande",
+            "object": "Europa"
+        },
+        {
+            "subject": "Deutschland",
+            "object": "Europa"
+        },
+        {
+            "subject": "Rydberg-Halbinsel",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Zechstein",
+            "object": "Europa"
+        },
+        {
+            "subject": "Bruce-Plateau",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Guest-Halbinsel",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Belutschistan",
+            "object": "Asien"
+        },
+        {
+            "subject": "Wilson-Piedmont-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Avery-Plateau",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Kangchendzönga",
+            "object": "Asien"
+        },
+        {
+            "subject": "Eswatini",
+            "object": "Afrika"
+        },
+        {
+            "subject": "Vantaa",
+            "object": "Europa"
+        },
+        {
+            "subject": "Mackellar Inlet",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Carryer-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Kap Chocolate",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Clare Range",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Sobral-Halbinsel",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Northeast-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Prespa-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Vestreskorve-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Sequence Hills",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Maharashtra",
+            "object": "Asien"
+        },
+        {
+            "subject": "Jennings Promontory",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Dumoulin-Inseln",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Shipka Saddle",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Panzarini Hills",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Moubray-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Metropolitan-Frankreich",
+            "object": "Europa"
+        },
+        {
+            "subject": "Indonesien",
+            "object": "Asien"
+        },
+        {
+            "subject": "Mount Melbourne",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Garwood Valley",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Newcomer-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Jhelam",
+            "object": "Asien"
+        },
+        {
+            "subject": "Jones Mountains",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Yamato 000593",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Warna-Halbinsel",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Brabant-Insel",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Cannonball-Kliffs",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Ray Promontory",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Mount Weaver",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Vereinigte Arabische Emirate",
+            "object": "Asien"
+        },
+        {
+            "subject": "Beaglehole-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Hinkley-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Grossman-Nunatakker",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Oatesland",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Benin",
+            "object": "Afrika"
+        },
+        {
+            "subject": "Saffery-Inseln",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Pomorie Point",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Atbara",
+            "object": "Afrika"
+        },
+        {
+            "subject": "Mosambik",
+            "object": "Afrika"
+        },
+        {
+            "subject": "Rennick-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Antim Peak",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Warta",
+            "object": "Europa"
+        },
+        {
+            "subject": "Von Essenskarvet",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Toulouse",
+            "object": "Europa"
+        },
+        {
+            "subject": "Südkorea",
+            "object": "Asien"
+        },
+        {
+            "subject": "Canisteo-Halbinsel",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Vinson-Massiv",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Foundation-Eisstrom",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Aconcagua",
+            "object": "Amerika"
+        },
+        {
+            "subject": "Tigris",
+            "object": "Asien"
+        },
+        {
+            "subject": "Fredriksen-Insel",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Jugoslawien",
+            "object": "Europa"
+        },
+        {
+            "subject": "Sykes-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Schytt-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Achaean Range",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Melnik Ridge",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Contell-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Tschuprene-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Hilton Inlet",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Laurie Island",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Peacock-Sund",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Händel-Piedmont-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Nimrod-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Shirase-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Panega-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Mount Bursey",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Irland",
+            "object": "Europa"
+        },
+        {
+            "subject": "Exarchat von Ravenna",
+            "object": "Europa"
+        },
+        {
+            "subject": "Katar",
+            "object": "Asien"
+        },
+        {
+            "subject": "Scott Base",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Craddock-Massiv",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Dion-Inseln",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Schottland",
+            "object": "Europa"
+        },
+        {
+            "subject": "Watson Escarpment",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Mount Steere",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Watt Bay",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Colbert Mountains",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Prince Charles Mountains",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Dundee Island",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "George-VI-Schelfeis",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Chandigarh",
+            "object": "Asien"
+        },
+        {
+            "subject": "Minnesota-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Beaumont Bay",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Hercules Inlet",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Reinbolt Hills",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "McCuddin Mountains",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Reeves-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Kap Jeremy",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Berkner-Insel",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Mariner-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Aprilov Point",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Turkmenistan",
+            "object": "Asien"
+        },
+        {
+            "subject": "Königreich Sachsen",
+            "object": "Europa"
+        },
+        {
+            "subject": "Tupungato",
+            "object": "Amerika"
+        },
+        {
+            "subject": "Helsinki",
+            "object": "Europa"
+        },
+        {
+            "subject": "Samuel Peak",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Region Primorje",
+            "object": "Asien"
+        },
+        {
+            "subject": "Shiver Point",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Eros-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Lambertgletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Maitri-Station",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Kap Yelcho",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Hays Mountains",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "McDonald Heights",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Bowman-Halbinsel",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Karonga",
+            "object": "Afrika"
+        },
+        {
+            "subject": "Wolgabulgaren",
+            "object": "Europa"
+        },
+        {
+            "subject": "Otway-Massiv",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Plateau-Station",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Harsewinkel",
+            "object": "Europa"
+        },
+        {
+            "subject": "Arkell Cirque",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Middle East",
+            "object": "Europa"
+        },
+        {
+            "subject": "Arno",
+            "object": "Europa"
+        },
+        {
+            "subject": "Mauritius",
+            "object": "Afrika"
+        },
+        {
+            "subject": "Leverett-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Kirkby-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Barrientos Island",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Argentina Range",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Antikes Griechenland",
+            "object": "Europa"
+        },
+        {
+            "subject": "Hansen-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Bellingshausen-See",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Ford Ranges",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Herzogtum Brabant",
+            "object": "Europa"
+        },
+        {
+            "subject": "Spanien",
+            "object": "Europa"
+        },
+        {
+            "subject": "Mirabito Range",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Probuda Ridge",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Enterprise Island",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Venus-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Danco-Küste",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Pik Kommunisma",
+            "object": "Asien"
+        },
+        {
+            "subject": "Coppermine-Halbinsel",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Tschadbecken",
+            "object": "Afrika"
+        },
+        {
+            "subject": "Knobhead",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Honkala Island",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Kap Royds",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Two-Step-Kliffs",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Neva",
+            "object": "Europa"
+        },
+        {
+            "subject": "Getz-Schelfeis",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Law Dome",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Berkowiza-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Tajo",
+            "object": "Europa"
+        },
+        {
+            "subject": "South Georgia Survey",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Ardery-Insel",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Balham Valley",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Vereinigtes Königreich Großbritannien und Irland",
+            "object": "Europa"
+        },
+        {
+            "subject": "Kalojan-Nunatak",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "California-Plateau",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Adelaide-Insel",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Rhein",
+            "object": "Europa"
+        },
+        {
+            "subject": "Kap Pérez",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Mount Manthe",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Chester Cone",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Coulter Heights",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Cordiner Peaks",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Shipton Ridge",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Stonington-Insel",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Pickwick Island",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Mapple-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Crystal Sound",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Rockefeller Mountains",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Black-Küste",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Ice Runway",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Vaughan Inlet",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Kap Penck",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Greenwood Valley",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Aserbaidschan",
+            "object": "Asien"
+        },
+        {
+            "subject": "Kambodscha",
+            "object": "Asien"
+        },
+        {
+            "subject": "Mercia",
+            "object": "Europa"
+        },
+        {
+            "subject": "Beaufort-Insel",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Griffith-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Juan-Carlos-I.-Station",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Sudan",
+            "object": "Afrika"
+        },
+        {
+            "subject": "Owen Rige",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Plana Peak",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Loire",
+            "object": "Europa"
+        },
+        {
+            "subject": "Worcester Range",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Butler-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Posadowskybai",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Recovery-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Den Haag",
+            "object": "Europa"
+        },
+        {
+            "subject": "Saudi-Arabien",
+            "object": "Asien"
+        },
+        {
+            "subject": "Bihar",
+            "object": "Asien"
+        },
+        {
+            "subject": "Morgan Inlet",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "William-Scoresby-Archipel",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Malaysia",
+            "object": "Asien"
+        },
+        {
+            "subject": "Königreich der Niederlande",
+            "object": "Europa"
+        },
+        {
+            "subject": "Hutton Mountains",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Rouen Mountains",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "MacKenzie Bay",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Rufiji",
+            "object": "Afrika"
+        },
+        {
+            "subject": "Long Hills",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Wostoksee",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Booth-Insel",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Larsemann Hills",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Knox-Küste",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Zemen Knoll",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Northern Foothills",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Nye Mountains",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Melnik Peak",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Phobos Ridge",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Ferrer Point",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Holdsworth-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Voden Heights",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Katowice",
+            "object": "Europa"
+        },
+        {
+            "subject": "Irrawaddy",
+            "object": "Asien"
+        },
+        {
+            "subject": "Halbinsel Evans",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Churchill-Halbinsel",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Saunders Mountain",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Mount Electra",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "England",
+            "object": "Europa"
+        },
+        {
+            "subject": "Neuschwabenland",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Mawson-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Sevtopolis Peak",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Douglas Range",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "George-V.-Land",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Tschechoslowakei",
+            "object": "Europa"
+        },
+        {
+            "subject": "Fort William",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Liard-Insel",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Whillans-Eisstrom",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Mentzelberg",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Beacon Supergroup",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Coronation-Insel",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Havre Mountains",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Somalia",
+            "object": "Afrika"
+        },
+        {
+            "subject": "Apollo Peak",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Meyer Hills",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "South Beaches",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Pautalia-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Lucy-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Gdynia",
+            "object": "Europa"
+        },
+        {
+            "subject": "Hanoi",
+            "object": "Asien"
+        },
+        {
+            "subject": "Byrd-Station",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Westindische Inseln",
+            "object": "Amerika"
+        },
+        {
+            "subject": "Nimbus Hills",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Miers Valley",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Grindley-Plateau",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Herbert Mountains",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Luapula",
+            "object": "Afrika"
+        },
+        {
+            "subject": "Schreckhorn",
+            "object": "Europa"
+        },
+        {
+            "subject": "Mario-Zucchelli-Station",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Mumbai",
+            "object": "Asien"
+        },
+        {
+            "subject": "Daman und Diu",
+            "object": "Asien"
+        },
+        {
+            "subject": "Ostfrankenreich",
+            "object": "Europa"
+        },
+        {
+            "subject": "Mount Tyrrell",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Antarktischer Eisschild",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Balleny-Inseln",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Norway Bight",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Sauterriegel",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Tierney-Halbinsel",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Mercator-Piedmont-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Insel Range",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Cartographers Range",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Yovkov Point",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Krogh Island",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Banaskantha",
+            "object": "Asien"
+        },
+        {
+            "subject": "Cugnot-Piedmont-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Anderson Hills",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Cape Selborne",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Denton-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Chapman-Schneefeld",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Debenham-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Eland Mountains",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Washington Escarpment",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Coulman-Insel",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Brugmann Mountains",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Srebarna-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Mount Dido",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Neu-Delhi",
+            "object": "Asien"
+        },
+        {
+            "subject": "Arrival Heights",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Mount Murphy",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Kap Monaco",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Surveyors Range",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Jones Bluffs",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Andvord Bay",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Siple Dome",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Kap Kinsey",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Uttar Pradesh",
+            "object": "Asien"
+        },
+        {
+            "subject": "Martel Inlet",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Medina Peaks",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Madagaskar",
+            "object": "Afrika"
+        },
+        {
+            "subject": "Snakeskin-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Pioneers Escarpment",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Breidnes-Halbinsel",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Rotch Dome",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Mount Paris",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Wales",
+            "object": "Europa"
+        },
+        {
+            "subject": "Veleka Ridge",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Karolingerreich",
+            "object": "Europa"
+        },
+        {
+            "subject": "Manipur",
+            "object": "Asien"
+        },
+        {
+            "subject": "Crevasse Valley Glacier",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Rayner-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Kap Waite",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Segura",
+            "object": "Europa"
+        },
+        {
+            "subject": "Tiflis",
+            "object": "Europa"
+        },
+        {
+            "subject": "Fournier-Bucht",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Shenzhen",
+            "object": "Asien"
+        },
+        {
+            "subject": "Thimphu",
+            "object": "Asien"
+        },
+        {
+            "subject": "Taschkent",
+            "object": "Asien"
+        },
+        {
+            "subject": "Bach-Schelfeis",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Venta",
+            "object": "Europa"
+        },
+        {
+            "subject": "Publications-Schelfeis",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Arabische Liga",
+            "object": "Asien"
+        },
+        {
+            "subject": "Lisiya Ridge",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Crosswell-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Krajowa",
+            "object": "Europa"
+        },
+        {
+            "subject": "Misnomer Point",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Kap Hallett",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Founders Peaks",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Cleveland-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Stabben",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Sentinel Range",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Edinburgh Hill",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Hongkong",
+            "object": "Asien"
+        },
+        {
+            "subject": "Executive Committee Range",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Johnson-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Scott-Insel",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Brooklyn-Insel",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Liv-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Artschar-Halbinsel",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Rambo-Nunatakker",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Kap Filchner",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Benson Point",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Vestfoldberge",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Strøm-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Emona Anchorage",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Demas Range",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Kap Adams",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Kap Rey",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Lyon-Nunatakker",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Kasachstan",
+            "object": "Europa"
+        },
+        {
+            "subject": "Renier Point",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Gambacorta Peak",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Gornergrat",
+            "object": "Europa"
+        },
+        {
+            "subject": "Kukri Hills",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Mertz-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Tiber",
+            "object": "Europa"
+        },
+        {
+            "subject": "Shackleton Range",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Arctowski-Halbinsel",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "La-Grange-Nunatakker",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Welcome Mountain",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Neny-Insel",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Balchenfjella",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Marie-Byrd-Land",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "The Knoll",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Mulock-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Iran",
+            "object": "Asien"
+        },
+        {
+            "subject": "Mount Discovery",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Beall Island",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Foldøya",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Maury Bay",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Tiruvannamalai",
+            "object": "Asien"
+        },
+        {
+            "subject": "Masson Range",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Kap Smith",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Storm Peak",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Albanus-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Mount Bentley",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Huntress-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Cobham Range",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Marsh-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Transantarktisches Gebirge",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "McKinnon Island",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Tapsell Foreland",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Sopot-Piedmont-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Pendleton-Straße",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Dundee Whaling Expedition",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "McMurdo-Station",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Umber Island",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Pecora Escarpment",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Eritrea",
+            "object": "Afrika"
+        },
+        {
+            "subject": "Violante Inlet",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Nevado Ojos del Salado",
+            "object": "Amerika"
+        },
+        {
+            "subject": "Flask-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Fish Islands",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Tarnowo-Piedmont-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Carlota Cove",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Mount Harding",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Riiser-Larsen-Schelfeis",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Botnneset-Halbinsel",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Green Glacier",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Hugi-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Chavez-Insel",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Bowyer Butte",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Nordmazedonien",
+            "object": "Europa"
+        },
+        {
+            "subject": "Quinton Point",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Lasarew-Schelfeis",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Religion der Yoruba",
+            "object": "Afrika"
+        },
+        {
+            "subject": "Mars-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Vinson-Plateau",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Rothschild-Insel",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Vandasee",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Hespérides Hill",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Shimla",
+            "object": "Asien"
+        },
+        {
+            "subject": "English-Küste",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Robertson Bay",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Kap Longing",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Wylie Bay",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Abbasiden-Kalifat",
+            "object": "Afrika"
+        },
+        {
+            "subject": "Husky-Massiv",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Melilla",
+            "object": "Afrika"
+        },
+        {
+            "subject": "Harris-Halbinsel",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Holtedahl Bay",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Mount Wade",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Dallmannberge",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Mount Longhurst",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Struma-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Mayrkette",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Kaliakra-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Nebraska Peaks",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Willan-Nunatak",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Yule Bay",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Eisenhower Range",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Rezen Saddle",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Slowenien",
+            "object": "Europa"
+        },
+        {
+            "subject": "Bransfieldstraße",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Terra Nova Bay",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Kamerun",
+            "object": "Afrika"
+        },
+        {
+            "subject": "Stonehouse Bay",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Dominion Range",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Rawson-Plateau",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Southern Cross Mountains",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Malta-Plateau",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Erickson Bluffs",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Nigeria",
+            "object": "Afrika"
+        },
+        {
+            "subject": "Kamerunberg",
+            "object": "Afrika"
+        },
+        {
+            "subject": "Whirlwind Inlet",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Bani",
+            "object": "Afrika"
+        },
+        {
+            "subject": "McFarlane Strait",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Kongobecken",
+            "object": "Afrika"
+        },
+        {
+            "subject": "Tallinn",
+            "object": "Europa"
+        },
+        {
+            "subject": "Shirley Island",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Dschibuti",
+            "object": "Afrika"
+        },
+        {
+            "subject": "Wirth-Halbinsel",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Lomonossowgebirge",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Beardmore-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Mount Bayonne",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Daniels Range",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Collins Harbour",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "MacAlpine Hills",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Middle East",
+            "object": "Afrika"
+        },
+        {
+            "subject": "Ma",
+            "object": "Asien"
+        },
+        {
+            "subject": "Tisza",
+            "object": "Europa"
+        },
+        {
+            "subject": "Mount Ignatiev",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Borg-Massiv",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Marokko",
+            "object": "Afrika"
+        },
+        {
+            "subject": "Walker Mountains",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Elbe",
+            "object": "Europa"
+        },
+        {
+            "subject": "Austkampane",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Barwick Valley",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Anderson Heights",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Marshall Mountains",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Kotis Point",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Denfeld Mountains",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Staten Island Heights",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Thiel Mountains",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Opalchenie Peak",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Beaumont-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Oranje-Freistaat",
+            "object": "Afrika"
+        },
+        {
+            "subject": "Forster-Piedmont-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Keltie-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Komoren",
+            "object": "Afrika"
+        },
+        {
+            "subject": "Äquatorialguinea",
+            "object": "Afrika"
+        },
+        {
+            "subject": "Lasarew-Gebirge",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Brown-Halbinsel",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Saint Johns Range",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Portugal",
+            "object": "Europa"
+        },
+        {
+            "subject": "Bulgarien",
+            "object": "Europa"
+        },
+        {
+            "subject": "Ross-Insel",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Radnevo Peak",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Yorkshire",
+            "object": "Europa"
+        },
+        {
+            "subject": "Skeidshovden",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Davis-Küste",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Miers Bluff",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Steventon-Insel",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Australisches Antarktis-Territorium",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Roberts-Massiv",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Koyambedu",
+            "object": "Asien"
+        },
+        {
+            "subject": "Foyn Coast",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Pensacola Mountains",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Vietnam",
+            "object": "Asien"
+        },
+        {
+            "subject": "Bern",
+            "object": "Europa"
+        },
+        {
+            "subject": "Weber Inlet",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Pourquoi Pas Point",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Robinson-Gruppe",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Laos",
+            "object": "Asien"
+        },
+        {
+            "subject": "Byers-Halbinsel",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Zed Islands",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Lovech Heights",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "David-Insel",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Paulet Island",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Bosnien und Herzegowina",
+            "object": "Europa"
+        },
+        {
+            "subject": "Ingrid-Christensen-Küste",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Sobat",
+            "object": "Afrika"
+        },
+        {
+            "subject": "Schchara",
+            "object": "Europa"
+        },
+        {
+            "subject": "Petvar Heights",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Kap Adare",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Tre-lech",
+            "object": "Europa"
+        },
+        {
+            "subject": "Mont Blanc",
+            "object": "Europa"
+        },
+        {
+            "subject": "Palmer-Archipel",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Onyx River",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Herbert-Gebirge",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Drummond-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Distrikt Solan",
+            "object": "Asien"
+        },
+        {
+            "subject": "Pearse Valley",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Rosental-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "preußisches Teilungsgebiet",
+            "object": "Europa"
+        },
+        {
+            "subject": "Block Bay",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Meriniden",
+            "object": "Afrika"
+        },
+        {
+            "subject": "Kohler Range",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Melchior-Inseln",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Breznik Heights",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Arena Valley",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Bull-Pass",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Paris",
+            "object": "Europa"
+        },
+        {
+            "subject": "Sjögren-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Mount McClintock",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Pequod-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Lesotho",
+            "object": "Afrika"
+        },
+        {
+            "subject": "Pitt-Inseln",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Land-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Bigo Bay",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Burundi",
+            "object": "Afrika"
+        },
+        {
+            "subject": "Estland",
+            "object": "Europa"
+        },
+        {
+            "subject": "Gelderland",
+            "object": "Europa"
+        },
+        {
+            "subject": "Britisches Weltreich",
+            "object": "Afrika"
+        },
+        {
+            "subject": "Martin Hills",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Sowjetunion",
+            "object": "Europa"
+        },
+        {
+            "subject": "Supporters Range",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Brown Hills",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Napier Mountains",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Mali",
+            "object": "Afrika"
+        },
+        {
+            "subject": "Rutford-Eisstrom",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Shipley-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Balkan-Schneefeld",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Benson-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Nepal",
+            "object": "Asien"
+        },
+        {
+            "subject": "Niger",
+            "object": "Afrika"
+        },
+        {
+            "subject": "Fosdick Mountains",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Euphrat",
+            "object": "Asien"
+        },
+        {
+            "subject": "Rothera-Station",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Urdowisa-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Alexander-I.-Insel",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Levski Ridge",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Oberer Victoria-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Tundscha-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Wilhelmina Bay",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Neptun-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Österreich",
+            "object": "Europa"
+        },
+        {
+            "subject": "Anare Mountains",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Lions Rump",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Mount Lister",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Saturn-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Aviator-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Kap Williams",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Support-Force-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Jorum-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Hektoria-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Birchall Peaks",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Mount Cupola",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Kongo-Freistaat",
+            "object": "Afrika"
+        },
+        {
+            "subject": "Kap Hordern",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Ellsworthland",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Ruppert-Küste",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Maglenik Heights",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Antarktische Platte",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Unterer Wright-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Minna Bluff",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Aitcho-Inseln",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Ol Doinyo Lengai",
+            "object": "Afrika"
+        },
+        {
+            "subject": "Queen Elizabeth Land",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Mount McCoy",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Mac-Robertson-Land",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Piccard Cove",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Elgar Uplands",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Largo-Insel",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Gasthof",
+            "object": "Europa"
+        },
+        {
+            "subject": "Juan de Nova",
+            "object": "Afrika"
+        },
+        {
+            "subject": "Mikkelsen Bay",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Murphy-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Kap Evensen",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Scar Inlet",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Langnes-Halbinsel",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Schweiz",
+            "object": "Europa"
+        },
+        {
+            "subject": "Quarles Range",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Andersson-Insel",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Gibraltar",
+            "object": "Europa"
+        },
+        {
+            "subject": "Drygalskiberge",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Moon Bay",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Scylla-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Tinker-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Südliche Niederlande",
+            "object": "Europa"
+        },
+        {
+            "subject": "Kouilou",
+            "object": "Afrika"
+        },
+        {
+            "subject": "Kap Rymill",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Cosgrove-Schelfeis",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Dunedin Range",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Smith-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Snowdon",
+            "object": "Europa"
+        },
+        {
+            "subject": "Kap Northrop",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Williams Point",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Mount Newall",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Pernik-Halbinsel",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Fleming-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Hurricane Ridge",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Scaife Mountains",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Bowman-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Kap Archer",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Frigate Range",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Cieszyn",
+            "object": "Europa"
+        },
+        {
+            "subject": "Solvay Mountains",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Tapley Mountains",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Conradgebirge",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Thailand",
+            "object": "Asien"
+        },
+        {
+            "subject": "Bourgeois-Fjord",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Uranus-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Splettstoesser-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Moe Island",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Irischer Freistaat",
+            "object": "Europa"
+        },
+        {
+            "subject": "Pitkevitch-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Mount Moses",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Salamander Range",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Kap Mousse",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Eights-Küste",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Totten-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Ägypten",
+            "object": "Afrika"
+        },
+        {
+            "subject": "Kondofrey Heights",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Fendley-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Kap Colbeck",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Ryder-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Moskau",
+            "object": "Europa"
+        },
+        {
+            "subject": "Thiruvananthapuram",
+            "object": "Asien"
+        },
+        {
+            "subject": "Clark Mountains",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Konföderation Senegambia",
+            "object": "Afrika"
+        },
+        {
+            "subject": "San Marino",
+            "object": "Europa"
+        },
+        {
+            "subject": "Kap Barne",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Finnland",
+            "object": "Europa"
+        },
+        {
+            "subject": "Vereinigtes Königreich",
+            "object": "Europa"
+        },
+        {
+            "subject": "Douro",
+            "object": "Europa"
+        },
+        {
+            "subject": "Corner-Kliffs",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Mountaineer Range",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Tile Ridge",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Libanon",
+            "object": "Asien"
+        },
+        {
+            "subject": "Howchin-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Slowakei",
+            "object": "Europa"
+        },
+        {
+            "subject": "Elkhorn Ridge",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Victory Mountains",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Slab Point",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Französische Süd- und Antarktisgebiete",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Kurzegebirge",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Barker Range",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Davissee",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Despotat Epirus",
+            "object": "Europa"
+        },
+        {
+            "subject": "Palmerland",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Bermel Escarpment",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Trinity-Halbinsel",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Carlini-Station",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Moubray Bay",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Trakiya Heights",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Taylor Valley",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Williams Hills",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Mitchell-Halbinsel",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Rajkot",
+            "object": "Asien"
+        },
+        {
+            "subject": "Lavoisier-Insel",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Douglas Peaks",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Morris Rock",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Nordholland",
+            "object": "Europa"
+        },
+        {
+            "subject": "Kap Shirreff",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Kirkpatrick-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Sealand",
+            "object": "Europa"
+        },
+        {
+            "subject": "Mayotte",
+            "object": "Afrika"
+        },
+        {
+            "subject": "Hallgrenskarvet",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Kap Evans",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Brunt-Schelfeis",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Borchgrevink-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Mule-Halbinsel",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Mount Schuyler",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Detaille-Insel",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Payergruppe",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Angola",
+            "object": "Afrika"
+        },
+        {
+            "subject": "Frostlendettal",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Doyran Heights",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Flatvær",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Mount Cocks",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Scotia Bay",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Shabelle",
+            "object": "Afrika"
+        },
+        {
+            "subject": "Peschtera-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Planet Heights",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Mount Berlin",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Britisches Weltreich",
+            "object": "Amerika"
+        },
+        {
+            "subject": "Lemaire-Insel",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Russell-East-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Chabarowsk",
+            "object": "Asien"
+        },
+        {
+            "subject": "Lillie Range",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Montenegro",
+            "object": "Europa"
+        },
+        {
+            "subject": "Bigourdan-Fjord",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Sankt Petersburg",
+            "object": "Europa"
+        },
+        {
+            "subject": "Millerand-Insel",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Molar-Massiv",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Hippokrates-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Kuwait",
+            "object": "Asien"
+        },
+        {
+            "subject": "Mount Farrell",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Deep Freeze Range",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Curzon-Inseln",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Mount Tyree",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Kochi",
+            "object": "Asien"
+        },
+        {
+            "subject": "Dänemark",
+            "object": "Europa"
+        },
+        {
+            "subject": "Türkei",
+            "object": "Asien"
+        },
+        {
+            "subject": "Miziya Peak",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Brahms Inlet",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Demay Point",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Aleko Rock",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Kap Ducorps",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Antarktis-Vertrag",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Mount Harker",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Brialmont-Bucht",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Atlantic Club Ridge",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Seychellen",
+            "object": "Afrika"
+        },
+        {
+            "subject": "Hull Bay",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Sartorius Point",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Darwin Mountains",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Samuel Point",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Griechenland",
+            "object": "Europa"
+        },
+        {
+            "subject": "Ninnis-Gletscher",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Edward-VIII-Bucht",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Quartz Hills",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Signy Island",
+            "object": "Antarktika"
+        },
+        {
+            "subject": "Baikalsee",
+            "object": "Asien"
+        },
+        {
+            "subject": "Penney Bay",
+            "object": "Antarktika"
+        }
+    ]
+}

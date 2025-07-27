@@ -1,0 +1,408 @@
+{
+    "name": "adjective antonym_7shot_perm3",
+    "prompt_templates": [
+        "สิ่งที่ตรงข้ามกับ มองเห็นได้ คือ กำกวม.\nสิ่งที่ตรงข้ามกับ หวาน คือ ขม.\nสิ่งที่ตรงข้ามกับ สงบ คือ เสียงดัง.\nสิ่งที่ตรงข้ามกับ แข็งแรง คือ เปราะบาง.\nสิ่งที่ตรงข้ามกับ ทันสมัย คือ โบราณ.\nสิ่งที่ตรงข้ามกับ เป็นระเบียบ คือ ไม่เป็นระเบียบ.\nสิ่งที่ตรงข้ามกับ แจ่มใส คือ มืดมัว.\nสิ่งที่ตรงข้ามกับ {} คือ"
+    ],
+    "samples": [
+        {
+            "subject": "น่ารัก",
+            "object": "น่ารังเกียจ"
+        },
+        {
+            "subject": "สร้างสรรค",
+            "object": "ทำลาย"
+        },
+        {
+            "subject": "มีความสุข",
+            "object": "เศร้า"
+        },
+        {
+            "subject": "เต็ม",
+            "object": "ว่าง"
+        },
+        {
+            "subject": "กล้า",
+            "object": "ขี้ขลาด"
+        },
+        {
+            "subject": "เปิด",
+            "object": "ปิด"
+        },
+        {
+            "subject": "ปลอดภัย",
+            "object": "อันตราย"
+        },
+        {
+            "subject": "สวย",
+            "object": "น่าเกลียด"
+        },
+        {
+            "subject": "มิตร",
+            "object": "ศัตรู"
+        },
+        {
+            "subject": "กลางวัน",
+            "object": "กลางคืน"
+        },
+        {
+            "subject": "น่าซื้อ",
+            "object": "น่าขาย"
+        },
+        {
+            "subject": "ใหญ",
+            "object": "เล็ก"
+        },
+        {
+            "subject": "แก",
+            "object": "อ่อนวัย"
+        },
+        {
+            "subject": "เงียบ",
+            "object": "ดัง"
+        },
+        {
+            "subject": "จริง",
+            "object": "เท็จ"
+        },
+        {
+            "subject": "เร็ว",
+            "object": "ช้า"
+        },
+        {
+            "subject": "ร้อน",
+            "object": "เย็น"
+        },
+        {
+            "subject": "ดี",
+            "object": "เลว"
+        },
+        {
+            "subject": "เริ่มต้น",
+            "object": "สิ้นสุด"
+        },
+        {
+            "subject": "ใน",
+            "object": "นอก"
+        },
+        {
+            "subject": "ผู้ชนะ",
+            "object": "ผู้แพ้"
+        },
+        {
+            "subject": "ให",
+            "object": "รับ"
+        },
+        {
+            "subject": "สว่าง",
+            "object": "มืด"
+        },
+        {
+            "subject": "แข็งแรง",
+            "object": "ป่วย"
+        },
+        {
+            "subject": "สะอาด",
+            "object": "สกปรก"
+        },
+        {
+            "subject": "ถูก",
+            "object": "ผิด"
+        },
+        {
+            "subject": "ขึ้น",
+            "object": "ลง"
+        },
+        {
+            "subject": "แข็งแรง",
+            "object": "อ่อนแอ"
+        },
+        {
+            "subject": "มีความสุข",
+            "object": "โกรธ"
+        },
+        {
+            "subject": "สูง",
+            "object": "เตี้ย"
+        },
+        {
+            "subject": "ฉลาด",
+            "object": "โง"
+        },
+        {
+            "subject": "เชื่อมต่อ",
+            "object": "แยก"
+        },
+        {
+            "subject": "นุ่ม",
+            "object": "แข็ง"
+        },
+        {
+            "subject": "ใช่",
+            "object": "ไม่"
+        },
+        {
+            "subject": "เรียบ",
+            "object": "ขรุขระ"
+        },
+        {
+            "subject": "หน้า",
+            "object": "หลัง"
+        },
+        {
+            "subject": "ให้อภัย",
+            "object": "ตำหนิ"
+        },
+        {
+            "subject": "ง่าย",
+            "object": "ซับซ้อน"
+        },
+        {
+            "subject": "เปิด",
+            "object": "ปิด"
+        },
+        {
+            "subject": "ตื้น",
+            "object": "ลึก"
+        },
+        {
+            "subject": "ยิ้ม",
+            "object": "บึ้ง"
+        },
+        {
+            "subject": "ขบขัน",
+            "object": "เศร้า"
+        },
+        {
+            "subject": "เร็ว",
+            "object": "ช้า"
+        },
+        {
+            "subject": "บน",
+            "object": "ล่าง"
+        },
+        {
+            "subject": "บวก",
+            "object": "ลบ"
+        },
+        {
+            "subject": "ซื่อสัตย์",
+            "object": "ไม่ซื่อสัตย์"
+        },
+        {
+            "subject": "ผลัก",
+            "object": "ดึง"
+        },
+        {
+            "subject": "เปียก",
+            "object": "แห้ง"
+        },
+        {
+            "subject": "ขึ้น",
+            "object": "ออก"
+        },
+        {
+            "subject": "แคบ",
+            "object": "กว้าง"
+        },
+        {
+            "subject": "ขึ้น",
+            "object": "ปิด"
+        },
+        {
+            "subject": "ตรง",
+            "object": "โค้ง"
+        },
+        {
+            "subject": "ยอมรับ",
+            "object": "ปฏิเสธ"
+        },
+        {
+            "subject": "สร้าง",
+            "object": "พัง"
+        },
+        {
+            "subject": "อ่อนโยน",
+            "object": "หยาบ"
+        },
+        {
+            "subject": "รวม",
+            "object": "แยก"
+        },
+        {
+            "subject": "อดีต",
+            "object": "อนาคต"
+        },
+        {
+            "subject": "มาถึง",
+            "object": "ออกไป"
+        },
+        {
+            "subject": "สูดลมหายใจเข้า",
+            "object": "หายใจออก"
+        },
+        {
+            "subject": "กระจาย",
+            "object": "รวบรวม"
+        },
+        {
+            "subject": "ยืม",
+            "object": "ให้ยืม"
+        },
+        {
+            "subject": "แยก",
+            "object": "รวม"
+        },
+        {
+            "subject": "มาถึง",
+            "object": "ออก"
+        },
+        {
+            "subject": "เปิด",
+            "object": "ปิด"
+        },
+        {
+            "subject": "ลอย",
+            "object": "จม"
+        },
+        {
+            "subject": "โค้ง",
+            "object": "ตรง"
+        },
+        {
+            "subject": "กระจัด",
+            "object": "รวม"
+        },
+        {
+            "subject": "ขึ้น",
+            "object": "ตก"
+        },
+        {
+            "subject": "ชื่นชม",
+            "object": "วิจารณ์"
+        },
+        {
+            "subject": "หาย",
+            "object": "ปรากฏ"
+        },
+        {
+            "subject": "เริ่มต้น",
+            "object": "สุดท้าย"
+        },
+        {
+            "subject": "เข้า",
+            "object": "ออก"
+        },
+        {
+            "subject": "ดึงดูด",
+            "object": "ขับไล่"
+        },
+        {
+            "subject": "ให",
+            "object": "รับ"
+        },
+        {
+            "subject": "พบ",
+            "object": "หาย"
+        },
+        {
+            "subject": "เริ่ม",
+            "object": "จบ"
+        },
+        {
+            "subject": "ดึง",
+            "object": "ผลัก"
+        },
+        {
+            "subject": "เพิ่ม",
+            "object": "ลด"
+        },
+        {
+            "subject": "ชนะ",
+            "object": "ยอม"
+        },
+        {
+            "subject": "สงบ",
+            "object": "กระวนกระวาย"
+        },
+        {
+            "subject": "ขยาย",
+            "object": "หด"
+        },
+        {
+            "subject": "รุก",
+            "object": "รับ"
+        },
+        {
+            "subject": "ประหยัด",
+            "object": "ฟุ่มเฟือย"
+        },
+        {
+            "subject": "จดจำ",
+            "object": "หลงลืม"
+        },
+        {
+            "subject": "ให",
+            "object": "ยืม"
+        },
+        {
+            "subject": "ด้วยกัน",
+            "object": "แยกกัน"
+        },
+        {
+            "subject": "คำถาม",
+            "object": "คำตอบ"
+        },
+        {
+            "subject": "ปิด",
+            "object": "เปิด"
+        },
+        {
+            "subject": "ตามเข็ม",
+            "object": "ทวนเข็ม"
+        },
+        {
+            "subject": "ใส",
+            "object": "ถอด"
+        },
+        {
+            "subject": "ขบขัน",
+            "object": "สะอื้น"
+        },
+        {
+            "subject": "สนุก",
+            "object": "เล่น"
+        },
+        {
+            "subject": "ขึ้น",
+            "object": "ลง"
+        },
+        {
+            "subject": "สำเร็จ",
+            "object": "ล้มเหลว"
+        },
+        {
+            "subject": "ขยาย",
+            "object": "หด"
+        },
+        {
+            "subject": "สูด",
+            "object": "พ่น"
+        },
+        {
+            "subject": "อวยพร",
+            "object": "สาปแช่ง"
+        },
+        {
+            "subject": "เร็ว",
+            "object": "คลาน"
+        },
+        {
+            "subject": "เชียร์",
+            "object": "โห่"
+        },
+        {
+            "subject": "แผ่ว",
+            "object": "ดัง"
+        }
+    ]
+}

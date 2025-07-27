@@ -1,0 +1,202 @@
+{
+  "name": "country currency",
+  "prompt_templates": [
+    "The official currency of {} is the",
+    "{}'s official currency is the",
+    "The currency used in {} is the",
+    "{} uses the currency called the"
+  ],
+  "prompt_templates_zs": [
+    "What is the official currency of {}? It is called the",
+    "{}'s official currency is called the",
+    "The name of {}'s currency is the"
+  ],
+  "properties": {
+    "relation_type": "factual",
+    "domain_name": "country",
+    "range_name": "currency",
+    "symmetric": false
+  },
+  "samples": [
+    {
+      "subject": "United States",
+      "object": "Dollar",
+      "subject_id": "Q30",
+      "object_id": "Q4917"
+    },
+    {
+      "subject": "United Kingdom",
+      "object": "Pound",
+      "subject_id": "Q145",
+      "object_id": "Q25224"
+    },
+    {
+      "subject": "Japan",
+      "object": "Q8146",
+      "subject_id": "Q17",
+      "object_id": "Q37195199"
+    },
+    {
+      "subject": "Canada",
+      "object": "Dollar",
+      "subject_id": "Q16",
+      "object_id": "Q14083"
+    },
+    {
+      "subject": "Australia",
+      "object": "Dollar",
+      "subject_id": "Q408",
+      "object_id": "Q14083"
+    },
+    {
+      "subject": "Brazil",
+      "object": "Real",
+      "subject_id": "Q155",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "China",
+      "object": "Yuan",
+      "subject_id": "Q148",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "India",
+      "object": "Rupee",
+      "subject_id": "Q668",
+      "object_id": "Q80524"
+    },
+    {
+      "subject": "Russia",
+      "object": "Ruble",
+      "subject_id": "Q159",
+      "object_id": "Q41044"
+    },
+    {
+      "subject": "South Africa",
+      "object": "Rand",
+      "subject_id": "Q258",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Mexico",
+      "object": "Peso",
+      "subject_id": "Q96",
+      "object_id": "Q4730"
+    },
+    {
+      "subject": "New Zealand",
+      "object": "Dollar",
+      "subject_id": "Q664",
+      "object_id": "Q14083"
+    },
+    {
+      "subject": "South Korea",
+      "object": "Won",
+      "subject_id": "Q884",
+      "object_id": "Q202040"
+    },
+    {
+      "subject": "Switzerland",
+      "object": "Franc",
+      "subject_id": "Q39",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Turkey",
+      "object": "Lira",
+      "subject_id": "Q43",
+      "object_id": "Q6557576"
+    },
+    {
+      "subject": "Argentina",
+      "object": "Peso",
+      "subject_id": "Q414",
+      "object_id": "Q244696"
+    },
+    {
+      "subject": "Norway",
+      "object": "Krone",
+      "subject_id": "Q20",
+      "object_id": "Q132643"
+    },
+    {
+      "subject": "Sweden",
+      "object": "Krona",
+      "subject_id": "Q34",
+      "object_id": "Q122922"
+    },
+    {
+      "subject": "Denmark",
+      "object": "Krone",
+      "subject_id": "Q35",
+      "object_id": "Q25417"
+    },
+    {
+      "subject": "Poland",
+      "object": "Zloty",
+      "subject_id": "Q36",
+      "object_id": "Q123213"
+    },
+    {
+      "subject": "Hungary",
+      "object": "Forint",
+      "subject_id": "Q28",
+      "object_id": "Q47190"
+    },
+    {
+      "subject": "Czech Republic",
+      "object": "Koruna",
+      "subject_id": "Q213",
+      "object_id": "Q10321999"
+    },
+    {
+      "subject": "Israel",
+      "object": "Shekel",
+      "subject_id": "Q801",
+      "object_id": "Q1404428"
+    },
+    {
+      "subject": "Saudi Arabia",
+      "object": "Riyal",
+      "subject_id": "Q851",
+      "object_id": "Q17437818"
+    },
+    {
+      "subject": "United Arab Emirates",
+      "object": "Dirham",
+      "subject_id": "Q878",
+      "object_id": "Q572664"
+    },
+    {
+      "subject": "Singapore",
+      "object": "Dollar",
+      "subject_id": "Q334",
+      "object_id": "Q190951"
+    },
+    {
+      "subject": "Malaysia",
+      "object": "Ringgit",
+      "subject_id": "Q833",
+      "object_id": "Q163712"
+    },
+    {
+      "subject": "Indonesia",
+      "object": "Rupiah",
+      "subject_id": "Q252",
+      "object_id": "Q41588"
+    },
+    {
+      "subject": "Thailand",
+      "object": "Baht",
+      "subject_id": "Q869",
+      "object_id": "Q177882"
+    },
+    {
+      "subject": "Philippines",
+      "object": "Peso",
+      "subject_id": "Q928",
+      "object_id": "Q244696"
+    }
+  ]
+}

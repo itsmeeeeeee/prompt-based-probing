@@ -1,0 +1,972 @@
+{
+    "name": "word last letter_5shot_perm0",
+    "prompt_templates": [
+        "आग का अंत इस अक्षर से होता है ग.\nपहाड़ का अंत इस अक्षर से होता है ड़.\nजेली का अंत इस अक्षर से होता है ी.\nचाकू का अंत इस अक्षर से होता है ू.\nभेड़ का अंत इस अक्षर से होता है ड़.\n{} का अंत इस अक्षर से होता है"
+    ],
+    "samples": [
+        {
+            "subject": "मोड",
+            "object": "ड"
+        },
+        {
+            "subject": "भार",
+            "object": "र"
+        },
+        {
+            "subject": "सुंदर",
+            "object": "र"
+        },
+        {
+            "subject": "पूछन",
+            "object": "न"
+        },
+        {
+            "subject": "विस्तार",
+            "object": "र"
+        },
+        {
+            "subject": "सामन",
+            "object": "न"
+        },
+        {
+            "subject": "कठिन",
+            "object": "न"
+        },
+        {
+            "subject": "कृपय",
+            "object": "य"
+        },
+        {
+            "subject": "जाओ",
+            "object": "ओ"
+        },
+        {
+            "subject": "शल्य",
+            "object": "य"
+        },
+        {
+            "subject": "अतीत",
+            "object": "त"
+        },
+        {
+            "subject": "अंदर",
+            "object": "र"
+        },
+        {
+            "subject": "प्रवेश",
+            "object": "श"
+        },
+        {
+            "subject": "प्रारंभ",
+            "object": "भ"
+        },
+        {
+            "subject": "गायब",
+            "object": "ब"
+        },
+        {
+            "subject": "पतझड",
+            "object": "ड"
+        },
+        {
+            "subject": "पागल",
+            "object": "ल"
+        },
+        {
+            "subject": "भूलन",
+            "object": "न"
+        },
+        {
+            "subject": "भौंहें",
+            "object": "ह"
+        },
+        {
+            "subject": "महान",
+            "object": "न"
+        },
+        {
+            "subject": "सीखन",
+            "object": "न"
+        },
+        {
+            "subject": "स्मूथ",
+            "object": "थ"
+        },
+        {
+            "subject": "चौड",
+            "object": "ड"
+        },
+        {
+            "subject": "विमान",
+            "object": "न"
+        },
+        {
+            "subject": "गलत",
+            "object": "त"
+        },
+        {
+            "subject": "नृत्य",
+            "object": "य"
+        },
+        {
+            "subject": "जीत",
+            "object": "त"
+        },
+        {
+            "subject": "विश्वास",
+            "object": "स"
+        },
+        {
+            "subject": "संगीत",
+            "object": "त"
+        },
+        {
+            "subject": "साइकिल",
+            "object": "ल"
+        },
+        {
+            "subject": "बास",
+            "object": "स"
+        },
+        {
+            "subject": "पुस्तकालय",
+            "object": "य"
+        },
+        {
+            "subject": "कॉल",
+            "object": "ल"
+        },
+        {
+            "subject": "देन",
+            "object": "न"
+        },
+        {
+            "subject": "जानन",
+            "object": "न"
+        },
+        {
+            "subject": "चढ़ाई",
+            "object": "ई"
+        },
+        {
+            "subject": "ताज",
+            "object": "ज"
+        },
+        {
+            "subject": "देख",
+            "object": "ख"
+        },
+        {
+            "subject": "पुरान",
+            "object": "न"
+        },
+        {
+            "subject": "जिम",
+            "object": "म"
+        },
+        {
+            "subject": "उच्च",
+            "object": "च"
+        },
+        {
+            "subject": "निर्णय",
+            "object": "य"
+        },
+        {
+            "subject": "चुन",
+            "object": "न"
+        },
+        {
+            "subject": "चाहन",
+            "object": "न"
+        },
+        {
+            "subject": "तेज",
+            "object": "ज"
+        },
+        {
+            "subject": "चलन",
+            "object": "न"
+        },
+        {
+            "subject": "बॉक्स",
+            "object": "स"
+        },
+        {
+            "subject": "असभ्य",
+            "object": "य"
+        },
+        {
+            "subject": "मशीन",
+            "object": "न"
+        },
+        {
+            "subject": "शांत",
+            "object": "त"
+        },
+        {
+            "subject": "दाए",
+            "object": "ए"
+        },
+        {
+            "subject": "शामिल",
+            "object": "ल"
+        },
+        {
+            "subject": "असत्य",
+            "object": "य"
+        },
+        {
+            "subject": "फुसफुसाहट",
+            "object": "ट"
+        },
+        {
+            "subject": "गहर",
+            "object": "र"
+        },
+        {
+            "subject": "फिल्म",
+            "object": "म"
+        },
+        {
+            "subject": "हँस",
+            "object": "स"
+        },
+        {
+            "subject": "खट्ट",
+            "object": "ट"
+        },
+        {
+            "subject": "आशीर्वाद",
+            "object": "द"
+        },
+        {
+            "subject": "गंद",
+            "object": "द"
+        },
+        {
+            "subject": "छोट",
+            "object": "ट"
+        },
+        {
+            "subject": "निर्माण",
+            "object": "ण"
+        },
+        {
+            "subject": "शिक्ष",
+            "object": "ष"
+        },
+        {
+            "subject": "पसंद",
+            "object": "द"
+        },
+        {
+            "subject": "आवश्यकत",
+            "object": "त"
+        },
+        {
+            "subject": "कठिन",
+            "object": "न"
+        },
+        {
+            "subject": "समाप्त",
+            "object": "त"
+        },
+        {
+            "subject": "लान",
+            "object": "न"
+        },
+        {
+            "subject": "दुख",
+            "object": "ख"
+        },
+        {
+            "subject": "बुर",
+            "object": "र"
+        },
+        {
+            "subject": "आलस",
+            "object": "स"
+        },
+        {
+            "subject": "साथ",
+            "object": "थ"
+        },
+        {
+            "subject": "छोट",
+            "object": "ट"
+        },
+        {
+            "subject": "कूद",
+            "object": "द"
+        },
+        {
+            "subject": "सॉफ्टवेयर",
+            "object": "र"
+        },
+        {
+            "subject": "गील",
+            "object": "ल"
+        },
+        {
+            "subject": "सत्य",
+            "object": "य"
+        },
+        {
+            "subject": "युद्ध",
+            "object": "ध"
+        },
+        {
+            "subject": "उल्लास",
+            "object": "स"
+        },
+        {
+            "subject": "सरल",
+            "object": "ल"
+        },
+        {
+            "subject": "धीम",
+            "object": "म"
+        },
+        {
+            "subject": "पूर्ण",
+            "object": "ण"
+        },
+        {
+            "subject": "प्रकाश",
+            "object": "श"
+        },
+        {
+            "subject": "पियान",
+            "object": "न"
+        },
+        {
+            "subject": "लिख",
+            "object": "ख"
+        },
+        {
+            "subject": "खान",
+            "object": "न"
+        },
+        {
+            "subject": "अनुसरण",
+            "object": "ण"
+        },
+        {
+            "subject": "सौम्य",
+            "object": "य"
+        },
+        {
+            "subject": "सोचन",
+            "object": "न"
+        },
+        {
+            "subject": "नाटक",
+            "object": "क"
+        },
+        {
+            "subject": "समझन",
+            "object": "न"
+        },
+        {
+            "subject": "खरीद",
+            "object": "द"
+        },
+        {
+            "subject": "धक्क",
+            "object": "क"
+        },
+        {
+            "subject": "ठंड",
+            "object": "ड"
+        },
+        {
+            "subject": "ह",
+            "object": "ह"
+        },
+        {
+            "subject": "सूख",
+            "object": "ख"
+        },
+        {
+            "subject": "मित्रवत",
+            "object": "त"
+        },
+        {
+            "subject": "हिलान",
+            "object": "न"
+        },
+        {
+            "subject": "खुश",
+            "object": "श"
+        },
+        {
+            "subject": "याद",
+            "object": "द"
+        },
+        {
+            "subject": "पेय",
+            "object": "य"
+        },
+        {
+            "subject": "लेन",
+            "object": "न"
+        },
+        {
+            "subject": "बीमार",
+            "object": "र"
+        },
+        {
+            "subject": "खींच",
+            "object": "च"
+        },
+        {
+            "subject": "तैरन",
+            "object": "न"
+        },
+        {
+            "subject": "तेज",
+            "object": "ज"
+        },
+        {
+            "subject": "प्रेम",
+            "object": "म"
+        },
+        {
+            "subject": "विनम्र",
+            "object": "र"
+        },
+        {
+            "subject": "आओ",
+            "object": "ओ"
+        },
+        {
+            "subject": "बदसूरत",
+            "object": "त"
+        },
+        {
+            "subject": "प्रशंस",
+            "object": "स"
+        },
+        {
+            "subject": "मजबूत",
+            "object": "त"
+        },
+        {
+            "subject": "क्रूर",
+            "object": "र"
+        },
+        {
+            "subject": "आकर्षित",
+            "object": "त"
+        },
+        {
+            "subject": "सकारात्मक",
+            "object": "क"
+        },
+        {
+            "subject": "लंब",
+            "object": "ब"
+        },
+        {
+            "subject": "उधार",
+            "object": "र"
+        },
+        {
+            "subject": "बचान",
+            "object": "न"
+        },
+        {
+            "subject": "पागल",
+            "object": "ल"
+        },
+        {
+            "subject": "औषध",
+            "object": "ध"
+        },
+        {
+            "subject": "मिलन",
+            "object": "न"
+        },
+        {
+            "subject": "काम",
+            "object": "म"
+        },
+        {
+            "subject": "ऊपर",
+            "object": "र"
+        },
+        {
+            "subject": "मीठ",
+            "object": "ठ"
+        },
+        {
+            "subject": "बोलन",
+            "object": "न"
+        },
+        {
+            "subject": "निर्माण",
+            "object": "ण"
+        },
+        {
+            "subject": "हमल",
+            "object": "ल"
+        },
+        {
+            "subject": "लंब",
+            "object": "ब"
+        },
+        {
+            "subject": "श्वास",
+            "object": "स"
+        },
+        {
+            "subject": "सुरक्षित",
+            "object": "त"
+        },
+        {
+            "subject": "खोल",
+            "object": "ल"
+        },
+        {
+            "subject": "वृद्ध",
+            "object": "ध"
+        },
+        {
+            "subject": "बिखेरन",
+            "object": "न"
+        },
+        {
+            "subject": "पहुंचन",
+            "object": "न"
+        },
+        {
+            "subject": "सहायत",
+            "object": "त"
+        },
+        {
+            "subject": "छोड़न",
+            "object": "न"
+        },
+        {
+            "subject": "बैठ",
+            "object": "ठ"
+        },
+        {
+            "subject": "सस्त",
+            "object": "त"
+        },
+        {
+            "subject": "प्रश्न",
+            "object": "न"
+        },
+        {
+            "subject": "अलग",
+            "object": "ग"
+        },
+        {
+            "subject": "आसान",
+            "object": "न"
+        },
+        {
+            "subject": "तेज",
+            "object": "ज"
+        },
+        {
+            "subject": "काटन",
+            "object": "न"
+        },
+        {
+            "subject": "खेल",
+            "object": "ल"
+        },
+        {
+            "subject": "शांत",
+            "object": "त"
+        },
+        {
+            "subject": "मित्र",
+            "object": "र"
+        },
+        {
+            "subject": "गरीब",
+            "object": "ब"
+        },
+        {
+            "subject": "ह",
+            "object": "ह"
+        },
+        {
+            "subject": "बातचीत",
+            "object": "त"
+        },
+        {
+            "subject": "युव",
+            "object": "व"
+        },
+        {
+            "subject": "खेल",
+            "object": "ल"
+        },
+        {
+            "subject": "उज्ज्वल",
+            "object": "ल"
+        },
+        {
+            "subject": "खोन",
+            "object": "न"
+        },
+        {
+            "subject": "प्रारंभ",
+            "object": "भ"
+        },
+        {
+            "subject": "विराम",
+            "object": "म"
+        },
+        {
+            "subject": "कानून",
+            "object": "न"
+        },
+        {
+            "subject": "अच्छ",
+            "object": "छ"
+        },
+        {
+            "subject": "ईमानदार",
+            "object": "र"
+        },
+        {
+            "subject": "मूर्ख",
+            "object": "ख"
+        },
+        {
+            "subject": "स्मार्ट",
+            "object": "ट"
+        },
+        {
+            "subject": "बुद्धिमान",
+            "object": "न"
+        },
+        {
+            "subject": "बंद",
+            "object": "द"
+        },
+        {
+            "subject": "पढ",
+            "object": "ढ"
+        },
+        {
+            "subject": "मंद",
+            "object": "द"
+        },
+        {
+            "subject": "शर्मील",
+            "object": "ल"
+        },
+        {
+            "subject": "डार्क",
+            "object": "क"
+        },
+        {
+            "subject": "पतल",
+            "object": "ल"
+        },
+        {
+            "subject": "ज़ेस्ट",
+            "object": "ट"
+        },
+        {
+            "subject": "नय",
+            "object": "य"
+        },
+        {
+            "subject": "पकड़न",
+            "object": "न"
+        },
+        {
+            "subject": "घृण",
+            "object": "ण"
+        },
+        {
+            "subject": "सृजन",
+            "object": "न"
+        },
+        {
+            "subject": "कोशिश",
+            "object": "श"
+        },
+        {
+            "subject": "फार्म",
+            "object": "म"
+        },
+        {
+            "subject": "बड",
+            "object": "ड"
+        },
+        {
+            "subject": "छोट",
+            "object": "ट"
+        },
+        {
+            "subject": "तैरन",
+            "object": "न"
+        },
+        {
+            "subject": "खड़ा",
+            "object": "ड"
+        },
+        {
+            "subject": "बड",
+            "object": "ड"
+        },
+        {
+            "subject": "छोट",
+            "object": "ट"
+        },
+        {
+            "subject": "वेबसाइट",
+            "object": "ट"
+        },
+        {
+            "subject": "सफल",
+            "object": "ल"
+        },
+        {
+            "subject": "मोट",
+            "object": "ट"
+        },
+        {
+            "subject": "गुस्स",
+            "object": "स"
+        },
+        {
+            "subject": "घड़ी",
+            "object": "ड"
+        },
+        {
+            "subject": "परिवर्तन",
+            "object": "न"
+        },
+        {
+            "subject": "उदय",
+            "object": "य"
+        },
+        {
+            "subject": "बनान",
+            "object": "न"
+        },
+        {
+            "subject": "निम्न",
+            "object": "न"
+        },
+        {
+            "subject": "पहन",
+            "object": "न"
+        },
+        {
+            "subject": "करन",
+            "object": "न"
+        },
+        {
+            "subject": "कोड",
+            "object": "ड"
+        },
+        {
+            "subject": "प्रचंड",
+            "object": "ड"
+        },
+        {
+            "subject": "साफ",
+            "object": "फ"
+        },
+        {
+            "subject": "खुदाई",
+            "object": "ई"
+        },
+        {
+            "subject": "अध्ययन",
+            "object": "न"
+        },
+        {
+            "subject": "ड्राइव",
+            "object": "व"
+        },
+        {
+            "subject": "मार",
+            "object": "र"
+        },
+        {
+            "subject": "रोन",
+            "object": "न"
+        },
+        {
+            "subject": "उधार",
+            "object": "र"
+        },
+        {
+            "subject": "दौड",
+            "object": "ड"
+        },
+        {
+            "subject": "भूख",
+            "object": "ख"
+        },
+        {
+            "subject": "सीध",
+            "object": "ध"
+        },
+        {
+            "subject": "पुस्तक",
+            "object": "क"
+        },
+        {
+            "subject": "जहाज",
+            "object": "ज"
+        },
+        {
+            "subject": "प्राप्त",
+            "object": "त"
+        },
+        {
+            "subject": "लाइव",
+            "object": "व"
+        },
+        {
+            "subject": "गंद",
+            "object": "द"
+        },
+        {
+            "subject": "जंगल",
+            "object": "ल"
+        },
+        {
+            "subject": "प्रशासन",
+            "object": "न"
+        },
+        {
+            "subject": "स्वीकार",
+            "object": "र"
+        },
+        {
+            "subject": "स्वस्थ",
+            "object": "थ"
+        },
+        {
+            "subject": "सुनन",
+            "object": "न"
+        },
+        {
+            "subject": "खोज",
+            "object": "ज"
+        },
+        {
+            "subject": "उड़ान",
+            "object": "न"
+        },
+        {
+            "subject": "संकीर्ण",
+            "object": "ण"
+        },
+        {
+            "subject": "उथल",
+            "object": "ल"
+        },
+        {
+            "subject": "इंजन",
+            "object": "न"
+        },
+        {
+            "subject": "विज्ञान",
+            "object": "न"
+        },
+        {
+            "subject": "कनेक्ट",
+            "object": "ट"
+        },
+        {
+            "subject": "थाल",
+            "object": "ल"
+        },
+        {
+            "subject": "रख",
+            "object": "ख"
+        },
+        {
+            "subject": "कार",
+            "object": "र"
+        },
+        {
+            "subject": "दिन",
+            "object": "न"
+        },
+        {
+            "subject": "निर्माण",
+            "object": "ण"
+        },
+        {
+            "subject": "देखन",
+            "object": "न"
+        },
+        {
+            "subject": "डिज़ाइन",
+            "object": "न"
+        },
+        {
+            "subject": "मज़ेदार",
+            "object": "र"
+        },
+        {
+            "subject": "मुलायम",
+            "object": "म"
+        },
+        {
+            "subject": "मुस्कान",
+            "object": "न"
+        },
+        {
+            "subject": "अमीर",
+            "object": "र"
+        },
+        {
+            "subject": "कहन",
+            "object": "न"
+        },
+        {
+            "subject": "गर्म",
+            "object": "म"
+        },
+        {
+            "subject": "निकट",
+            "object": "ट"
+        },
+        {
+            "subject": "विनोद",
+            "object": "द"
+        },
+        {
+            "subject": "नींद",
+            "object": "द"
+        },
+        {
+            "subject": "चित्रकल",
+            "object": "ल"
+        },
+        {
+            "subject": "कमज़ोर",
+            "object": "र"
+        },
+        {
+            "subject": "माफ",
+            "object": "फ"
+        },
+        {
+            "subject": "मतलब",
+            "object": "ब"
+        },
+        {
+            "subject": "साहस",
+            "object": "स"
+        }
+    ]
+}

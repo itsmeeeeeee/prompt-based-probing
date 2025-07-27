@@ -1,0 +1,165 @@
+{
+  "name": "country largest city",
+  "prompt_templates": [
+    "The largest city in {} is",
+    "The biggest city in {} is",
+    "The most populous city in {} is",
+    "The most well-known city in {} is"
+  ],
+  "prompt_templates_zs": [
+    "What is the largest city in {}? It is the city of",
+    "The largest city in {} is the city of"
+  ],
+  "properties": {
+    "relation_type": "factual",
+    "domain_name": "country",
+    "range_name": "city",
+    "symmetric": false
+  },
+  "samples": [
+    {
+      "subject": "United States",
+      "object": "New York City",
+      "subject_id": "Q30",
+      "object_id": "Q60"
+    },
+    {
+      "subject": "China",
+      "object": "Shanghai",
+      "subject_id": "Q148",
+      "object_id": "Q8686"
+    },
+    {
+      "subject": "Japan",
+      "object": "Tokyo",
+      "subject_id": "Q17",
+      "object_id": "Q1490"
+    },
+    {
+      "subject": "Russia",
+      "object": "Moscow",
+      "subject_id": "Q159",
+      "object_id": "Q649"
+    },
+    {
+      "subject": "India",
+      "object": "Mumbai",
+      "subject_id": "Q668",
+      "object_id": "Q1156"
+    },
+    {
+      "subject": "Brazil",
+      "object": "São Paulo",
+      "subject_id": "Q155",
+      "object_id": "Q174"
+    },
+    {
+      "subject": "Australia",
+      "object": "Sydney",
+      "subject_id": "Q408",
+      "object_id": "Q3130"
+    },
+    {
+      "subject": "Canada",
+      "object": "Toronto",
+      "subject_id": "Q16",
+      "object_id": "Q172"
+    },
+    {
+      "subject": "United Kingdom",
+      "object": "London",
+      "subject_id": "Q145",
+      "object_id": "Q84"
+    },
+    {
+      "subject": "France",
+      "object": "Paris",
+      "subject_id": "Q142",
+      "object_id": "Q90"
+    },
+    {
+      "subject": "Germany",
+      "object": "Berlin",
+      "subject_id": "Q183",
+      "object_id": "Q64"
+    },
+    {
+      "subject": "Italy",
+      "object": "Rome",
+      "subject_id": "Q38",
+      "object_id": "Q220"
+    },
+    {
+      "subject": "Mexico",
+      "object": "Mexico City",
+      "subject_id": "Q96",
+      "object_id": "Q1489"
+    },
+    {
+      "subject": "South Korea",
+      "object": "Seoul",
+      "subject_id": "Q884",
+      "object_id": "Q8684"
+    },
+    {
+      "subject": "Turkey",
+      "object": "Istanbul",
+      "subject_id": "Q43",
+      "object_id": "Q406"
+    },
+    {
+      "subject": "Spain",
+      "object": "Madrid",
+      "subject_id": "Q29",
+      "object_id": "Q2807"
+    },
+    {
+      "subject": "Argentina",
+      "object": "Buenos Aires",
+      "subject_id": "Q414",
+      "object_id": "Q1486"
+    },
+    {
+      "subject": "South Africa",
+      "object": "Johannesburg",
+      "subject_id": "Q258",
+      "object_id": "Q34647"
+    },
+    {
+      "subject": "Poland",
+      "object": "Warsaw",
+      "subject_id": "Q36",
+      "object_id": "Q270"
+    },
+    {
+      "subject": "Nigeria",
+      "object": "Lagos",
+      "subject_id": "Q1033",
+      "object_id": "Q732548"
+    },
+    {
+      "subject": "New Zealand",
+      "object": "Auckland",
+      "subject_id": "Q664",
+      "object_id": "Q37100"
+    },
+    {
+      "subject": "Switzerland",
+      "object": "Zurich",
+      "subject_id": "Q39",
+      "object_id": "Q72"
+    },
+    {
+      "subject": "Netherlands",
+      "object": "Amsterdam",
+      "subject_id": "Q55",
+      "object_id": "Q727"
+    },
+    {
+      "subject": "Pakistan",
+      "object": "Karachi",
+      "subject_id": "Q843",
+      "object_id": "Q8660"
+    }
+  ]
+}

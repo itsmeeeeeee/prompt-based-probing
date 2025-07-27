@@ -1,0 +1,31 @@
+{
+  "relation": "person_plays_position_in_sport",
+  "template_scores": {
+    "{} plays in the position of a": {
+      "average_first_token_prob": 0.05503319491859244,
+      "reliability": 0.07773109243697479,
+      "overall_score": 0.00427779036131916
+    },
+    "In their sport, {} plays as a": {
+      "average_first_token_prob": 0.16376017722762934,
+      "reliability": 0.19747899159663865,
+      "overall_score": 0.03233919466259907
+    },
+    "{} is positioned as a": {
+      "average_first_token_prob": 0.0006452287946428571,
+      "reliability": 0.012605042016806723,
+      "overall_score": 8.13313606692677e-06
+    },
+    "{} plays the role of a": {
+      "average_first_token_prob": 0.0011686998255112592,
+      "reliability": 0.029411764705882353,
+      "overall_score": 3.4373524279742915e-05
+    }
+  },
+  "best_template": "In their sport, {} plays as a",
+  "best_template_metrics": {
+    "average_first_token_prob": 0.16376017722762934,
+    "reliability": 0.19747899159663865,
+    "overall_score": 0.03233919466259907
+  }
+}

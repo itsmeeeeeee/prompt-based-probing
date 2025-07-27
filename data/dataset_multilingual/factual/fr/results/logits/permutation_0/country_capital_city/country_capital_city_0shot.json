@@ -1,0 +1,2370 @@
+[
+  {
+    "prompt": "La capitale de États-Unis est",
+    "generated_prefix": "La capitale de États-Unis est",
+    "gold_token": " Washington",
+    "predicted_top1_token": " Washington",
+    "token_pos_in_answer": 0,
+    "gold_logit": 15.5390625,
+    "gold_prob_percent": 30.96,
+    "first_token_prob": 0.3095703125,
+    "second_token_prob": 0.0859375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Washington",
+        "logit": 15.5390625,
+        "probability_percent": 30.96
+      },
+      {
+        "rank": 1,
+        "token": " la",
+        "logit": 14.2578125,
+        "probability_percent": 8.59
+      },
+      {
+        "rank": 2,
+        "token": " :",
+        "logit": 13.546875,
+        "probability_percent": 4.22
+      },
+      {
+        "rank": 3,
+        "token": " situ",
+        "logit": 13.375,
+        "probability_percent": 3.56
+      },
+      {
+        "rank": 4,
+        "token": " New",
+        "logit": 13.2890625,
+        "probability_percent": 3.26
+      },
+      {
+        "rank": 5,
+        "token": " le",
+        "logit": 12.671875,
+        "probability_percent": 1.76
+      },
+      {
+        "rank": 6,
+        "token": " à",
+        "logit": 12.4453125,
+        "probability_percent": 1.4
+      },
+      {
+        "rank": 7,
+        "token": " :\n",
+        "logit": 12.4296875,
+        "probability_percent": 1.38
+      },
+      {
+        "rank": 8,
+        "token": "\n",
+        "logit": 12.328125,
+        "probability_percent": 1.25
+      },
+      {
+        "rank": 9,
+        "token": "...",
+        "logit": 12.2734375,
+        "probability_percent": 1.18
+      }
+    ]
+  },
+  {
+    "prompt": "La capitale de Canada est",
+    "generated_prefix": "La capitale de Canada est",
+    "gold_token": " Ottawa",
+    "predicted_top1_token": " situ",
+    "token_pos_in_answer": 0,
+    "gold_logit": 15.53125,
+    "gold_prob_percent": 19.76,
+    "first_token_prob": 0.255859375,
+    "second_token_prob": 0.1976318359375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " situ",
+        "logit": 15.7890625,
+        "probability_percent": 25.59
+      },
+      {
+        "rank": 1,
+        "token": " Ottawa",
+        "logit": 15.53125,
+        "probability_percent": 19.76
+      },
+      {
+        "rank": 2,
+        "token": " la",
+        "logit": 14.8515625,
+        "probability_percent": 10.02
+      },
+      {
+        "rank": 3,
+        "token": " Mon",
+        "logit": 14.703125,
+        "probability_percent": 8.64
+      },
+      {
+        "rank": 4,
+        "token": " Toronto",
+        "logit": 13.6171875,
+        "probability_percent": 2.92
+      },
+      {
+        "rank": 5,
+        "token": " une",
+        "logit": 13.234375,
+        "probability_percent": 1.99
+      },
+      {
+        "rank": 6,
+        "token": " le",
+        "logit": 13.21875,
+        "probability_percent": 1.96
+      },
+      {
+        "rank": 7,
+        "token": " à",
+        "logit": 13.21875,
+        "probability_percent": 1.96
+      },
+      {
+        "rank": 8,
+        "token": " un",
+        "logit": 12.734375,
+        "probability_percent": 1.21
+      },
+      {
+        "rank": 9,
+        "token": " aussi",
+        "logit": 12.5859375,
+        "probability_percent": 1.04
+      }
+    ]
+  },
+  {
+    "prompt": "La capitale de Mexique est",
+    "generated_prefix": "La capitale de Mexique est",
+    "gold_token": " Mexico",
+    "predicted_top1_token": " situ",
+    "token_pos_in_answer": 0,
+    "gold_logit": 13.59375,
+    "gold_prob_percent": 7.7,
+    "first_token_prob": 0.126953125,
+    "second_token_prob": 0.0958251953125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " situ",
+        "logit": 14.09375,
+        "probability_percent": 12.7
+      },
+      {
+        "rank": 1,
+        "token": " la",
+        "logit": 13.8125,
+        "probability_percent": 9.58
+      },
+      {
+        "rank": 2,
+        "token": " Mexico",
+        "logit": 13.59375,
+        "probability_percent": 7.7
+      },
+      {
+        "rank": 3,
+        "token": " une",
+        "logit": 13.484375,
+        "probability_percent": 6.9
+      },
+      {
+        "rank": 4,
+        "token": " le",
+        "logit": 13.1328125,
+        "probability_percent": 4.86
+      },
+      {
+        "rank": 5,
+        "token": " à",
+        "logit": 12.90625,
+        "probability_percent": 3.87
+      },
+      {
+        "rank": 6,
+        "token": " un",
+        "logit": 12.8671875,
+        "probability_percent": 3.72
+      },
+      {
+        "rank": 7,
+        "token": " l",
+        "logit": 12.53125,
+        "probability_percent": 2.66
+      },
+      {
+        "rank": 8,
+        "token": " conn",
+        "logit": 12.515625,
+        "probability_percent": 2.62
+      },
+      {
+        "rank": 9,
+        "token": " aussi",
+        "logit": 12.3984375,
+        "probability_percent": 2.33
+      }
+    ]
+  },
+  {
+    "prompt": "La capitale de Argentine est",
+    "generated_prefix": "La capitale de Argentine est",
+    "gold_token": " Buenos",
+    "predicted_top1_token": " Buenos",
+    "token_pos_in_answer": 0,
+    "gold_logit": 15.5,
+    "gold_prob_percent": 27.2,
+    "first_token_prob": 0.27197265625,
+    "second_token_prob": 0.2005615234375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Buenos",
+        "logit": 15.5,
+        "probability_percent": 27.2
+      },
+      {
+        "rank": 1,
+        "token": " situ",
+        "logit": 15.1953125,
+        "probability_percent": 20.06
+      },
+      {
+        "rank": 2,
+        "token": " la",
+        "logit": 14.2890625,
+        "probability_percent": 8.11
+      },
+      {
+        "rank": 3,
+        "token": " une",
+        "logit": 13.171875,
+        "probability_percent": 2.65
+      },
+      {
+        "rank": 4,
+        "token": " B",
+        "logit": 12.8515625,
+        "probability_percent": 1.93
+      },
+      {
+        "rank": 5,
+        "token": " le",
+        "logit": 12.7265625,
+        "probability_percent": 1.7
+      },
+      {
+        "rank": 6,
+        "token": " appel",
+        "logit": 12.5078125,
+        "probability_percent": 1.36
+      },
+      {
+        "rank": 7,
+        "token": ",",
+        "logit": 12.40625,
+        "probability_percent": 1.23
+      },
+      {
+        "rank": 8,
+        "token": " un",
+        "logit": 12.3828125,
+        "probability_percent": 1.2
+      },
+      {
+        "rank": 9,
+        "token": " en",
+        "logit": 12.3828125,
+        "probability_percent": 1.2
+      }
+    ]
+  },
+  {
+    "prompt": "La capitale de Argentine est",
+    "generated_prefix": "La capitale de Argentine est Buenos",
+    "gold_token": " Aires",
+    "predicted_top1_token": " Aires",
+    "token_pos_in_answer": 1,
+    "gold_logit": 21.484375,
+    "gold_prob_percent": 97.31,
+    "first_token_prob": 0.27197265625,
+    "second_token_prob": 0.2005615234375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Aires",
+        "logit": 21.484375,
+        "probability_percent": 97.31
+      },
+      {
+        "rank": 1,
+        "token": "-A",
+        "logit": 16.84375,
+        "probability_percent": 0.94
+      },
+      {
+        "rank": 2,
+        "token": " A",
+        "logit": 16.046875,
+        "probability_percent": 0.42
+      },
+      {
+        "rank": 3,
+        "token": " Ay",
+        "logit": 15.9453125,
+        "probability_percent": 0.38
+      },
+      {
+        "rank": 4,
+        "token": " a",
+        "logit": 15.9296875,
+        "probability_percent": 0.38
+      },
+      {
+        "rank": 5,
+        "token": "A",
+        "logit": 14.390625,
+        "probability_percent": 0.08
+      },
+      {
+        "rank": 6,
+        "token": " A",
+        "logit": 13.5390625,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 7,
+        "token": "\n",
+        "logit": 13.4765625,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 8,
+        "token": " Ai",
+        "logit": 12.96875,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 9,
+        "token": "-",
+        "logit": 12.9375,
+        "probability_percent": 0.02
+      }
+    ]
+  },
+  {
+    "prompt": "La capitale de Chili est",
+    "generated_prefix": "La capitale de Chili est",
+    "gold_token": " Santiago",
+    "predicted_top1_token": " Santiago",
+    "token_pos_in_answer": 0,
+    "gold_logit": 17.71875,
+    "gold_prob_percent": 81.93,
+    "first_token_prob": 0.8193359375,
+    "second_token_prob": 0.0176849365234375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Santiago",
+        "logit": 17.71875,
+        "probability_percent": 81.93
+      },
+      {
+        "rank": 1,
+        "token": " la",
+        "logit": 13.8828125,
+        "probability_percent": 1.77
+      },
+      {
+        "rank": 2,
+        "token": " situ",
+        "logit": 13.7578125,
+        "probability_percent": 1.56
+      },
+      {
+        "rank": 3,
+        "token": " un",
+        "logit": 13.03125,
+        "probability_percent": 0.75
+      },
+      {
+        "rank": 4,
+        "token": " une",
+        "logit": 12.671875,
+        "probability_percent": 0.53
+      },
+      {
+        "rank": 5,
+        "token": " également",
+        "logit": 12.65625,
+        "probability_percent": 0.52
+      },
+      {
+        "rank": 6,
+        "token": " San",
+        "logit": 12.640625,
+        "probability_percent": 0.51
+      },
+      {
+        "rank": 7,
+        "token": " aussi",
+        "logit": 12.625,
+        "probability_percent": 0.5
+      },
+      {
+        "rank": 8,
+        "token": " São",
+        "logit": 12.5703125,
+        "probability_percent": 0.48
+      },
+      {
+        "rank": 9,
+        "token": " le",
+        "logit": 12.5,
+        "probability_percent": 0.44
+      }
+    ]
+  },
+  {
+    "prompt": "La capitale de Pérou est",
+    "generated_prefix": "La capitale de Pérou est",
+    "gold_token": " Lima",
+    "predicted_top1_token": " Lima",
+    "token_pos_in_answer": 0,
+    "gold_logit": 15.9375,
+    "gold_prob_percent": 38.16,
+    "first_token_prob": 0.381591796875,
+    "second_token_prob": 0.1258544921875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Lima",
+        "logit": 15.9375,
+        "probability_percent": 38.16
+      },
+      {
+        "rank": 1,
+        "token": " situ",
+        "logit": 14.828125,
+        "probability_percent": 12.59
+      },
+      {
+        "rank": 2,
+        "token": " un",
+        "logit": 13.9609375,
+        "probability_percent": 5.29
+      },
+      {
+        "rank": 3,
+        "token": " la",
+        "logit": 13.921875,
+        "probability_percent": 5.08
+      },
+      {
+        "rank": 4,
+        "token": " le",
+        "logit": 13.7421875,
+        "probability_percent": 4.25
+      },
+      {
+        "rank": 5,
+        "token": " l",
+        "logit": 13.6484375,
+        "probability_percent": 3.87
+      },
+      {
+        "rank": 6,
+        "token": " une",
+        "logit": 13.4296875,
+        "probability_percent": 3.11
+      },
+      {
+        "rank": 7,
+        "token": " à",
+        "logit": 12.8125,
+        "probability_percent": 1.68
+      },
+      {
+        "rank": 8,
+        "token": " également",
+        "logit": 12.6875,
+        "probability_percent": 1.48
+      },
+      {
+        "rank": 9,
+        "token": ",",
+        "logit": 12.2421875,
+        "probability_percent": 0.95
+      }
+    ]
+  },
+  {
+    "prompt": "La capitale de Venezuela est",
+    "generated_prefix": "La capitale de Venezuela est",
+    "gold_token": " Car",
+    "predicted_top1_token": " Car",
+    "token_pos_in_answer": 0,
+    "gold_logit": 15.734375,
+    "gold_prob_percent": 58.3,
+    "first_token_prob": 0.5830078125,
+    "second_token_prob": 0.0555419921875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Car",
+        "logit": 15.734375,
+        "probability_percent": 58.3
+      },
+      {
+        "rank": 1,
+        "token": " situ",
+        "logit": 13.3828125,
+        "probability_percent": 5.55
+      },
+      {
+        "rank": 2,
+        "token": " la",
+        "logit": 13.1640625,
+        "probability_percent": 4.46
+      },
+      {
+        "rank": 3,
+        "token": " Ciudad",
+        "logit": 12.5703125,
+        "probability_percent": 2.46
+      },
+      {
+        "rank": 4,
+        "token": " car",
+        "logit": 12.0078125,
+        "probability_percent": 1.4
+      },
+      {
+        "rank": 5,
+        "token": " depuis",
+        "logit": 11.7578125,
+        "probability_percent": 1.09
+      },
+      {
+        "rank": 6,
+        "token": " à",
+        "logit": 11.6953125,
+        "probability_percent": 1.03
+      },
+      {
+        "rank": 7,
+        "token": " en",
+        "logit": 11.671875,
+        "probability_percent": 1.0
+      },
+      {
+        "rank": 8,
+        "token": " Ch",
+        "logit": 11.671875,
+        "probability_percent": 1.0
+      },
+      {
+        "rank": 9,
+        "token": " également",
+        "logit": 11.609375,
+        "probability_percent": 0.94
+      }
+    ]
+  },
+  {
+    "prompt": "La capitale de Venezuela est",
+    "generated_prefix": "La capitale de Venezuela est Car",
+    "gold_token": "acas",
+    "predicted_top1_token": "acas",
+    "token_pos_in_answer": 1,
+    "gold_logit": 23.140625,
+    "gold_prob_percent": 99.56,
+    "first_token_prob": 0.5830078125,
+    "second_token_prob": 0.0555419921875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "acas",
+        "logit": 23.140625,
+        "probability_percent": 99.56
+      },
+      {
+        "rank": 1,
+        "token": "ac",
+        "logit": 16.640625,
+        "probability_percent": 0.15
+      },
+      {
+        "rank": 2,
+        "token": "aque",
+        "logit": 15.734375,
+        "probability_percent": 0.06
+      },
+      {
+        "rank": 3,
+        "token": "acus",
+        "logit": 15.4296875,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 4,
+        "token": "ab",
+        "logit": 15.203125,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 5,
+        "token": "aca",
+        "logit": 14.6484375,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 6,
+        "token": "thag",
+        "logit": 14.4609375,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 7,
+        "token": "á",
+        "logit": 14.3984375,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 8,
+        "token": "aqu",
+        "logit": 14.171875,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 9,
+        "token": "acc",
+        "logit": 13.7265625,
+        "probability_percent": 0.01
+      }
+    ]
+  },
+  {
+    "prompt": "La capitale de Espagne est",
+    "generated_prefix": "La capitale de Espagne est",
+    "gold_token": " Madrid",
+    "predicted_top1_token": " Madrid",
+    "token_pos_in_answer": 0,
+    "gold_logit": 15.7890625,
+    "gold_prob_percent": 33.18,
+    "first_token_prob": 0.331787109375,
+    "second_token_prob": 0.1591796875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Madrid",
+        "logit": 15.7890625,
+        "probability_percent": 33.18
+      },
+      {
+        "rank": 1,
+        "token": " situ",
+        "logit": 15.0546875,
+        "probability_percent": 15.92
+      },
+      {
+        "rank": 2,
+        "token": " la",
+        "logit": 14.1875,
+        "probability_percent": 6.69
+      },
+      {
+        "rank": 3,
+        "token": " une",
+        "logit": 13.609375,
+        "probability_percent": 3.75
+      },
+      {
+        "rank": 4,
+        "token": " Bar",
+        "logit": 13.2890625,
+        "probability_percent": 2.72
+      },
+      {
+        "rank": 5,
+        "token": " également",
+        "logit": 13.28125,
+        "probability_percent": 2.7
+      },
+      {
+        "rank": 6,
+        "token": " le",
+        "logit": 13.1640625,
+        "probability_percent": 2.4
+      },
+      {
+        "rank": 7,
+        "token": " à",
+        "logit": 13.03125,
+        "probability_percent": 2.1
+      },
+      {
+        "rank": 8,
+        "token": " l",
+        "logit": 12.859375,
+        "probability_percent": 1.77
+      },
+      {
+        "rank": 9,
+        "token": " un",
+        "logit": 12.6328125,
+        "probability_percent": 1.41
+      }
+    ]
+  },
+  {
+    "prompt": "La capitale de France est",
+    "generated_prefix": "La capitale de France est",
+    "gold_token": " Paris",
+    "predicted_top1_token": " Paris",
+    "token_pos_in_answer": 0,
+    "gold_logit": 15.765625,
+    "gold_prob_percent": 35.6,
+    "first_token_prob": 0.35595703125,
+    "second_token_prob": 0.09576416015625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Paris",
+        "logit": 15.765625,
+        "probability_percent": 35.6
+      },
+      {
+        "rank": 1,
+        "token": " situ",
+        "logit": 14.453125,
+        "probability_percent": 9.58
+      },
+      {
+        "rank": 2,
+        "token": " la",
+        "logit": 14.046875,
+        "probability_percent": 6.38
+      },
+      {
+        "rank": 3,
+        "token": " une",
+        "logit": 13.4140625,
+        "probability_percent": 3.39
+      },
+      {
+        "rank": 4,
+        "token": " le",
+        "logit": 13.1875,
+        "probability_percent": 2.7
+      },
+      {
+        "rank": 5,
+        "token": " un",
+        "logit": 13.15625,
+        "probability_percent": 2.62
+      },
+      {
+        "rank": 6,
+        "token": " à",
+        "logit": 13.046875,
+        "probability_percent": 2.35
+      },
+      {
+        "rank": 7,
+        "token": " l",
+        "logit": 12.6328125,
+        "probability_percent": 1.55
+      },
+      {
+        "rank": 8,
+        "token": " également",
+        "logit": 12.6328125,
+        "probability_percent": 1.55
+      },
+      {
+        "rank": 9,
+        "token": " par",
+        "logit": 12.5703125,
+        "probability_percent": 1.46
+      }
+    ]
+  },
+  {
+    "prompt": "La capitale de Allemagne est",
+    "generated_prefix": "La capitale de Allemagne est",
+    "gold_token": " Berlin",
+    "predicted_top1_token": " Berlin",
+    "token_pos_in_answer": 0,
+    "gold_logit": 15.4921875,
+    "gold_prob_percent": 30.35,
+    "first_token_prob": 0.303466796875,
+    "second_token_prob": 0.10906982421875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Berlin",
+        "logit": 15.4921875,
+        "probability_percent": 30.35
+      },
+      {
+        "rank": 1,
+        "token": " la",
+        "logit": 14.46875,
+        "probability_percent": 10.91
+      },
+      {
+        "rank": 2,
+        "token": " Ber",
+        "logit": 14.2421875,
+        "probability_percent": 8.7
+      },
+      {
+        "rank": 3,
+        "token": " situ",
+        "logit": 14.0859375,
+        "probability_percent": 7.43
+      },
+      {
+        "rank": 4,
+        "token": " une",
+        "logit": 13.1640625,
+        "probability_percent": 2.96
+      },
+      {
+        "rank": 5,
+        "token": " le",
+        "logit": 12.6796875,
+        "probability_percent": 1.82
+      },
+      {
+        "rank": 6,
+        "token": " à",
+        "logit": 12.65625,
+        "probability_percent": 1.78
+      },
+      {
+        "rank": 7,
+        "token": " un",
+        "logit": 12.6328125,
+        "probability_percent": 1.74
+      },
+      {
+        "rank": 8,
+        "token": " l",
+        "logit": 12.453125,
+        "probability_percent": 1.45
+      },
+      {
+        "rank": 9,
+        "token": " :",
+        "logit": 12.2109375,
+        "probability_percent": 1.14
+      }
+    ]
+  },
+  {
+    "prompt": "La capitale de Italie est",
+    "generated_prefix": "La capitale de Italie est",
+    "gold_token": " Rome",
+    "predicted_top1_token": " Rome",
+    "token_pos_in_answer": 0,
+    "gold_logit": 16.265625,
+    "gold_prob_percent": 45.68,
+    "first_token_prob": 0.456787109375,
+    "second_token_prob": 0.08062744140625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Rome",
+        "logit": 16.265625,
+        "probability_percent": 45.68
+      },
+      {
+        "rank": 1,
+        "token": " situ",
+        "logit": 14.53125,
+        "probability_percent": 8.06
+      },
+      {
+        "rank": 2,
+        "token": " la",
+        "logit": 14.328125,
+        "probability_percent": 6.58
+      },
+      {
+        "rank": 3,
+        "token": " Roma",
+        "logit": 13.4765625,
+        "probability_percent": 2.81
+      },
+      {
+        "rank": 4,
+        "token": " une",
+        "logit": 13.3046875,
+        "probability_percent": 2.37
+      },
+      {
+        "rank": 5,
+        "token": " le",
+        "logit": 13.0234375,
+        "probability_percent": 1.79
+      },
+      {
+        "rank": 6,
+        "token": " un",
+        "logit": 12.8671875,
+        "probability_percent": 1.53
+      },
+      {
+        "rank": 7,
+        "token": " l",
+        "logit": 12.75,
+        "probability_percent": 1.36
+      },
+      {
+        "rank": 8,
+        "token": " également",
+        "logit": 12.484375,
+        "probability_percent": 1.04
+      },
+      {
+        "rank": 9,
+        "token": " à",
+        "logit": 12.4375,
+        "probability_percent": 0.99
+      }
+    ]
+  },
+  {
+    "prompt": "La capitale de Russie est",
+    "generated_prefix": "La capitale de Russie est",
+    "gold_token": " Mos",
+    "predicted_top1_token": " situ",
+    "token_pos_in_answer": 0,
+    "gold_logit": 13.5859375,
+    "gold_prob_percent": 7.53,
+    "first_token_prob": 0.2159423828125,
+    "second_token_prob": 0.08660888671875,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " situ",
+        "logit": 14.640625,
+        "probability_percent": 21.59
+      },
+      {
+        "rank": 1,
+        "token": " la",
+        "logit": 13.7265625,
+        "probability_percent": 8.66
+      },
+      {
+        "rank": 2,
+        "token": " Mos",
+        "logit": 13.5859375,
+        "probability_percent": 7.53
+      },
+      {
+        "rank": 3,
+        "token": " une",
+        "logit": 13.0078125,
+        "probability_percent": 4.22
+      },
+      {
+        "rank": 4,
+        "token": " un",
+        "logit": 12.9296875,
+        "probability_percent": 3.9
+      },
+      {
+        "rank": 5,
+        "token": " le",
+        "logit": 12.890625,
+        "probability_percent": 3.75
+      },
+      {
+        "rank": 6,
+        "token": " l",
+        "logit": 12.703125,
+        "probability_percent": 3.11
+      },
+      {
+        "rank": 7,
+        "token": " à",
+        "logit": 12.515625,
+        "probability_percent": 2.58
+      },
+      {
+        "rank": 8,
+        "token": " également",
+        "logit": 12.40625,
+        "probability_percent": 2.31
+      },
+      {
+        "rank": 9,
+        "token": " aussi",
+        "logit": 11.90625,
+        "probability_percent": 1.4
+      }
+    ]
+  },
+  {
+    "prompt": "La capitale de Russie est",
+    "generated_prefix": "La capitale de Russie est situ",
+    "gold_token": "cou",
+    "predicted_top1_token": "ée",
+    "token_pos_in_answer": 1,
+    "gold_logit": 2.583984375,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.2159423828125,
+    "second_token_prob": 0.08660888671875,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ée",
+        "logit": 25.28125,
+        "probability_percent": 98.1
+      },
+      {
+        "rank": 1,
+        "token": "é",
+        "logit": 21.3125,
+        "probability_percent": 1.85
+      },
+      {
+        "rank": 2,
+        "token": "ées",
+        "logit": 15.4921875,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 3,
+        "token": "è",
+        "logit": 15.265625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 4,
+        "token": "ait",
+        "logit": 14.7578125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 5,
+        "token": "Ã",
+        "logit": 14.5234375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": "ant",
+        "logit": 14.2578125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": "és",
+        "logit": 14.1953125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "able",
+        "logit": 13.9921875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "ante",
+        "logit": 13.9453125,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "La capitale de république populaire de Chine est",
+    "generated_prefix": "La capitale de république populaire de Chine est",
+    "gold_token": " Pé",
+    "predicted_top1_token": " Pé",
+    "token_pos_in_answer": 0,
+    "gold_logit": 15.203125,
+    "gold_prob_percent": 27.83,
+    "first_token_prob": 0.2783203125,
+    "second_token_prob": 0.11419677734375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Pé",
+        "logit": 15.203125,
+        "probability_percent": 27.83
+      },
+      {
+        "rank": 1,
+        "token": " la",
+        "logit": 14.3125,
+        "probability_percent": 11.42
+      },
+      {
+        "rank": 2,
+        "token": " situ",
+        "logit": 14.2734375,
+        "probability_percent": 10.99
+      },
+      {
+        "rank": 3,
+        "token": " appel",
+        "logit": 13.6953125,
+        "probability_percent": 6.16
+      },
+      {
+        "rank": 4,
+        "token": " P",
+        "logit": 12.65625,
+        "probability_percent": 2.18
+      },
+      {
+        "rank": 5,
+        "token": " le",
+        "logit": 12.609375,
+        "probability_percent": 2.08
+      },
+      {
+        "rank": 6,
+        "token": " Beijing",
+        "logit": 12.5546875,
+        "probability_percent": 1.97
+      },
+      {
+        "rank": 7,
+        "token": " à",
+        "logit": 12.40625,
+        "probability_percent": 1.7
+      },
+      {
+        "rank": 8,
+        "token": " une",
+        "logit": 12.234375,
+        "probability_percent": 1.43
+      },
+      {
+        "rank": 9,
+        "token": " nom",
+        "logit": 12.1328125,
+        "probability_percent": 1.29
+      }
+    ]
+  },
+  {
+    "prompt": "La capitale de république populaire de Chine est",
+    "generated_prefix": "La capitale de république populaire de Chine est Pé",
+    "gold_token": "kin",
+    "predicted_top1_token": "kin",
+    "token_pos_in_answer": 1,
+    "gold_logit": 22.796875,
+    "gold_prob_percent": 99.9,
+    "first_token_prob": 0.2783203125,
+    "second_token_prob": 0.11419677734375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "kin",
+        "logit": 22.796875,
+        "probability_percent": 99.9
+      },
+      {
+        "rank": 1,
+        "token": "king",
+        "logit": 15.6328125,
+        "probability_percent": 0.08
+      },
+      {
+        "rank": 2,
+        "token": " kin",
+        "logit": 13.5078125,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 3,
+        "token": " Kin",
+        "logit": 12.8046875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 4,
+        "token": "k",
+        "logit": 12.6171875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 5,
+        "token": "Kin",
+        "logit": 12.3203125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": "кин",
+        "logit": 11.9140625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": "ki",
+        "logit": 11.8046875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "-",
+        "logit": 11.484375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "rou",
+        "logit": 11.3671875,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "La capitale de Japon est",
+    "generated_prefix": "La capitale de Japon est",
+    "gold_token": " Tokyo",
+    "predicted_top1_token": " Tokyo",
+    "token_pos_in_answer": 0,
+    "gold_logit": 14.96875,
+    "gold_prob_percent": 29.52,
+    "first_token_prob": 0.295166015625,
+    "second_token_prob": 0.0643310546875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Tokyo",
+        "logit": 14.96875,
+        "probability_percent": 29.52
+      },
+      {
+        "rank": 1,
+        "token": " situ",
+        "logit": 13.4453125,
+        "probability_percent": 6.43
+      },
+      {
+        "rank": 2,
+        "token": " T",
+        "logit": 13.1796875,
+        "probability_percent": 4.93
+      },
+      {
+        "rank": 3,
+        "token": " la",
+        "logit": 13.015625,
+        "probability_percent": 4.18
+      },
+      {
+        "rank": 4,
+        "token": " à",
+        "logit": 12.8984375,
+        "probability_percent": 3.72
+      },
+      {
+        "rank": 5,
+        "token": " une",
+        "logit": 12.78125,
+        "probability_percent": 3.31
+      },
+      {
+        "rank": 6,
+        "token": " un",
+        "logit": 12.7265625,
+        "probability_percent": 3.13
+      },
+      {
+        "rank": 7,
+        "token": " également",
+        "logit": 12.484375,
+        "probability_percent": 2.46
+      },
+      {
+        "rank": 8,
+        "token": " l",
+        "logit": 12.28125,
+        "probability_percent": 2.01
+      },
+      {
+        "rank": 9,
+        "token": " le",
+        "logit": 12.0625,
+        "probability_percent": 1.61
+      }
+    ]
+  },
+  {
+    "prompt": "La capitale de Corée du Sud est",
+    "generated_prefix": "La capitale de Corée du Sud est",
+    "gold_token": " Sé",
+    "predicted_top1_token": " Sé",
+    "token_pos_in_answer": 0,
+    "gold_logit": 14.8671875,
+    "gold_prob_percent": 22.42,
+    "first_token_prob": 0.2242431640625,
+    "second_token_prob": 0.096435546875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Sé",
+        "logit": 14.8671875,
+        "probability_percent": 22.42
+      },
+      {
+        "rank": 1,
+        "token": " la",
+        "logit": 14.0234375,
+        "probability_percent": 9.64
+      },
+      {
+        "rank": 2,
+        "token": " situ",
+        "logit": 13.9609375,
+        "probability_percent": 9.06
+      },
+      {
+        "rank": 3,
+        "token": " une",
+        "logit": 13.2421875,
+        "probability_percent": 4.42
+      },
+      {
+        "rank": 4,
+        "token": " l",
+        "logit": 13.046875,
+        "probability_percent": 3.63
+      },
+      {
+        "rank": 5,
+        "token": " Seoul",
+        "logit": 13.0,
+        "probability_percent": 3.47
+      },
+      {
+        "rank": 6,
+        "token": " un",
+        "logit": 12.8046875,
+        "probability_percent": 2.85
+      },
+      {
+        "rank": 7,
+        "token": " à",
+        "logit": 12.5546875,
+        "probability_percent": 2.22
+      },
+      {
+        "rank": 8,
+        "token": " le",
+        "logit": 12.5234375,
+        "probability_percent": 2.15
+      },
+      {
+        "rank": 9,
+        "token": " G",
+        "logit": 12.3203125,
+        "probability_percent": 1.76
+      }
+    ]
+  },
+  {
+    "prompt": "La capitale de Corée du Sud est",
+    "generated_prefix": "La capitale de Corée du Sud est Sé",
+    "gold_token": "oul",
+    "predicted_top1_token": "oul",
+    "token_pos_in_answer": 1,
+    "gold_logit": 22.953125,
+    "gold_prob_percent": 99.66,
+    "first_token_prob": 0.2242431640625,
+    "second_token_prob": 0.096435546875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "oul",
+        "logit": 22.953125,
+        "probability_percent": 99.66
+      },
+      {
+        "rank": 1,
+        "token": "ul",
+        "logit": 16.546875,
+        "probability_percent": 0.16
+      },
+      {
+        "rank": 2,
+        "token": "ou",
+        "logit": 16.21875,
+        "probability_percent": 0.12
+      },
+      {
+        "rank": 3,
+        "token": "ould",
+        "logit": 14.171875,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 4,
+        "token": "ong",
+        "logit": 14.140625,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 5,
+        "token": "o",
+        "logit": 13.2265625,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 6,
+        "token": "jong",
+        "logit": 12.46875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": "ol",
+        "logit": 11.609375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "j",
+        "logit": 11.265625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "oui",
+        "logit": 11.15625,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "La capitale de Inde est",
+    "generated_prefix": "La capitale de Inde est",
+    "gold_token": " New",
+    "predicted_top1_token": " New",
+    "token_pos_in_answer": 0,
+    "gold_logit": 14.3203125,
+    "gold_prob_percent": 14.97,
+    "first_token_prob": 0.149658203125,
+    "second_token_prob": 0.14501953125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " New",
+        "logit": 14.3203125,
+        "probability_percent": 14.97
+      },
+      {
+        "rank": 1,
+        "token": " situ",
+        "logit": 14.2890625,
+        "probability_percent": 14.5
+      },
+      {
+        "rank": 2,
+        "token": " Delhi",
+        "logit": 13.7265625,
+        "probability_percent": 8.26
+      },
+      {
+        "rank": 3,
+        "token": " la",
+        "logit": 13.4140625,
+        "probability_percent": 6.05
+      },
+      {
+        "rank": 4,
+        "token": " un",
+        "logit": 12.5625,
+        "probability_percent": 2.58
+      },
+      {
+        "rank": 5,
+        "token": " une",
+        "logit": 12.3359375,
+        "probability_percent": 2.06
+      },
+      {
+        "rank": 6,
+        "token": " :",
+        "logit": 12.25,
+        "probability_percent": 1.89
+      },
+      {
+        "rank": 7,
+        "token": " le",
+        "logit": 12.0546875,
+        "probability_percent": 1.55
+      },
+      {
+        "rank": 8,
+        "token": " conn",
+        "logit": 12.0390625,
+        "probability_percent": 1.53
+      },
+      {
+        "rank": 9,
+        "token": " dé",
+        "logit": 11.9765625,
+        "probability_percent": 1.44
+      }
+    ]
+  },
+  {
+    "prompt": "La capitale de Inde est",
+    "generated_prefix": "La capitale de Inde est New",
+    "gold_token": " Delhi",
+    "predicted_top1_token": " Delhi",
+    "token_pos_in_answer": 1,
+    "gold_logit": 20.453125,
+    "gold_prob_percent": 87.16,
+    "first_token_prob": 0.149658203125,
+    "second_token_prob": 0.14501953125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Delhi",
+        "logit": 20.453125,
+        "probability_percent": 87.16
+      },
+      {
+        "rank": 1,
+        "token": "-D",
+        "logit": 17.734375,
+        "probability_percent": 5.75
+      },
+      {
+        "rank": 2,
+        "token": " De",
+        "logit": 16.9375,
+        "probability_percent": 2.59
+      },
+      {
+        "rank": 3,
+        "token": " Del",
+        "logit": 16.375,
+        "probability_percent": 1.48
+      },
+      {
+        "rank": 4,
+        "token": " D",
+        "logit": 15.125,
+        "probability_percent": 0.42
+      },
+      {
+        "rank": 5,
+        "token": " Dé",
+        "logit": 15.078125,
+        "probability_percent": 0.4
+      },
+      {
+        "rank": 6,
+        "token": " York",
+        "logit": 15.015625,
+        "probability_percent": 0.38
+      },
+      {
+        "rank": 7,
+        "token": "Del",
+        "logit": 14.6484375,
+        "probability_percent": 0.26
+      },
+      {
+        "rank": 8,
+        "token": " del",
+        "logit": 13.859375,
+        "probability_percent": 0.12
+      },
+      {
+        "rank": 9,
+        "token": "De",
+        "logit": 13.8203125,
+        "probability_percent": 0.11
+      }
+    ]
+  },
+  {
+    "prompt": "La capitale de Pakistan est",
+    "generated_prefix": "La capitale de Pakistan est",
+    "gold_token": " Islamabad",
+    "predicted_top1_token": " Islamabad",
+    "token_pos_in_answer": 0,
+    "gold_logit": 14.5859375,
+    "gold_prob_percent": 19.84,
+    "first_token_prob": 0.1983642578125,
+    "second_token_prob": 0.175048828125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Islamabad",
+        "logit": 14.5859375,
+        "probability_percent": 19.84
+      },
+      {
+        "rank": 1,
+        "token": " situ",
+        "logit": 14.4609375,
+        "probability_percent": 17.5
+      },
+      {
+        "rank": 2,
+        "token": " Karachi",
+        "logit": 14.1953125,
+        "probability_percent": 13.42
+      },
+      {
+        "rank": 3,
+        "token": " la",
+        "logit": 13.484375,
+        "probability_percent": 6.59
+      },
+      {
+        "rank": 4,
+        "token": " Lahore",
+        "logit": 13.2734375,
+        "probability_percent": 5.34
+      },
+      {
+        "rank": 5,
+        "token": " l",
+        "logit": 12.3984375,
+        "probability_percent": 2.22
+      },
+      {
+        "rank": 6,
+        "token": " un",
+        "logit": 12.1484375,
+        "probability_percent": 1.73
+      },
+      {
+        "rank": 7,
+        "token": " une",
+        "logit": 11.875,
+        "probability_percent": 1.32
+      },
+      {
+        "rank": 8,
+        "token": " également",
+        "logit": 11.65625,
+        "probability_percent": 1.06
+      },
+      {
+        "rank": 9,
+        "token": ",",
+        "logit": 11.5625,
+        "probability_percent": 0.96
+      }
+    ]
+  },
+  {
+    "prompt": "La capitale de Nigeria est",
+    "generated_prefix": "La capitale de Nigeria est",
+    "gold_token": " Abu",
+    "predicted_top1_token": " Lagos",
+    "token_pos_in_answer": 0,
+    "gold_logit": 13.96875,
+    "gold_prob_percent": 8.97,
+    "first_token_prob": 0.1585693359375,
+    "second_token_prob": 0.1400146484375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Lagos",
+        "logit": 14.5390625,
+        "probability_percent": 15.86
+      },
+      {
+        "rank": 1,
+        "token": " situ",
+        "logit": 14.4140625,
+        "probability_percent": 14.0
+      },
+      {
+        "rank": 2,
+        "token": " Abu",
+        "logit": 13.96875,
+        "probability_percent": 8.97
+      },
+      {
+        "rank": 3,
+        "token": " la",
+        "logit": 13.7109375,
+        "probability_percent": 6.93
+      },
+      {
+        "rank": 4,
+        "token": " le",
+        "logit": 13.6015625,
+        "probability_percent": 6.21
+      },
+      {
+        "rank": 5,
+        "token": " l",
+        "logit": 13.078125,
+        "probability_percent": 3.68
+      },
+      {
+        "rank": 6,
+        "token": " à",
+        "logit": 12.75,
+        "probability_percent": 2.65
+      },
+      {
+        "rank": 7,
+        "token": " un",
+        "logit": 12.71875,
+        "probability_percent": 2.57
+      },
+      {
+        "rank": 8,
+        "token": " Ab",
+        "logit": 12.71875,
+        "probability_percent": 2.57
+      },
+      {
+        "rank": 9,
+        "token": " conn",
+        "logit": 12.0546875,
+        "probability_percent": 1.32
+      }
+    ]
+  },
+  {
+    "prompt": "La capitale de Nigeria est",
+    "generated_prefix": "La capitale de Nigeria est Lagos",
+    "gold_token": "ja",
+    "predicted_top1_token": ",",
+    "token_pos_in_answer": 1,
+    "gold_logit": 4.8046875,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.1585693359375,
+    "second_token_prob": 0.1400146484375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": ",",
+        "logit": 17.59375,
+        "probability_percent": 26.42
+      },
+      {
+        "rank": 1,
+        "token": ".",
+        "logit": 17.578125,
+        "probability_percent": 26.0
+      },
+      {
+        "rank": 2,
+        "token": ".\n\n",
+        "logit": 16.546875,
+        "probability_percent": 9.27
+      },
+      {
+        "rank": 3,
+        "token": ".\n",
+        "logit": 16.421875,
+        "probability_percent": 8.18
+      },
+      {
+        "rank": 4,
+        "token": " et",
+        "logit": 15.546875,
+        "probability_percent": 3.41
+      },
+      {
+        "rank": 5,
+        "token": " .",
+        "logit": 15.46875,
+        "probability_percent": 3.16
+      },
+      {
+        "rank": 6,
+        "token": " ,",
+        "logit": 15.3203125,
+        "probability_percent": 2.72
+      },
+      {
+        "rank": 7,
+        "token": " (",
+        "logit": 15.1171875,
+        "probability_percent": 2.22
+      },
+      {
+        "rank": 8,
+        "token": "\n",
+        "logit": 14.75,
+        "probability_percent": 1.54
+      },
+      {
+        "rank": 9,
+        "token": "\n\n",
+        "logit": 14.5859375,
+        "probability_percent": 1.3
+      }
+    ]
+  },
+  {
+    "prompt": "La capitale de Égypte est",
+    "generated_prefix": "La capitale de Égypte est",
+    "gold_token": " Le",
+    "predicted_top1_token": " le",
+    "token_pos_in_answer": 0,
+    "gold_logit": 12.8515625,
+    "gold_prob_percent": 5.34,
+    "first_token_prob": 0.12408447265625,
+    "second_token_prob": 0.07354736328125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " le",
+        "logit": 13.6953125,
+        "probability_percent": 12.41
+      },
+      {
+        "rank": 1,
+        "token": " situ",
+        "logit": 13.171875,
+        "probability_percent": 7.35
+      },
+      {
+        "rank": 2,
+        "token": " la",
+        "logit": 13.0625,
+        "probability_percent": 6.59
+      },
+      {
+        "rank": 3,
+        "token": " Le",
+        "logit": 12.8515625,
+        "probability_percent": 5.34
+      },
+      {
+        "rank": 4,
+        "token": " un",
+        "logit": 12.1328125,
+        "probability_percent": 2.6
+      },
+      {
+        "rank": 5,
+        "token": " l",
+        "logit": 12.0390625,
+        "probability_percent": 2.37
+      },
+      {
+        "rank": 6,
+        "token": " :",
+        "logit": 11.8828125,
+        "probability_percent": 2.03
+      },
+      {
+        "rank": 7,
+        "token": " aussi",
+        "logit": 11.8671875,
+        "probability_percent": 1.99
+      },
+      {
+        "rank": 8,
+        "token": " au",
+        "logit": 11.734375,
+        "probability_percent": 1.75
+      },
+      {
+        "rank": 9,
+        "token": " Cairo",
+        "logit": 11.71875,
+        "probability_percent": 1.72
+      }
+    ]
+  },
+  {
+    "prompt": "La capitale de Égypte est",
+    "generated_prefix": "La capitale de Égypte est le",
+    "gold_token": " C",
+    "predicted_top1_token": " C",
+    "token_pos_in_answer": 1,
+    "gold_logit": 14.3828125,
+    "gold_prob_percent": 24.01,
+    "first_token_prob": 0.12408447265625,
+    "second_token_prob": 0.07354736328125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " C",
+        "logit": 14.3828125,
+        "probability_percent": 24.01
+      },
+      {
+        "rank": 1,
+        "token": " Cairo",
+        "logit": 13.1875,
+        "probability_percent": 7.27
+      },
+      {
+        "rank": 2,
+        "token": " port",
+        "logit": 12.9453125,
+        "probability_percent": 5.7
+      },
+      {
+        "rank": 3,
+        "token": " plus",
+        "logit": 12.921875,
+        "probability_percent": 5.57
+      },
+      {
+        "rank": 4,
+        "token": " centre",
+        "logit": 12.703125,
+        "probability_percent": 4.48
+      },
+      {
+        "rank": 5,
+        "token": " si",
+        "logit": 12.546875,
+        "probability_percent": 3.83
+      },
+      {
+        "rank": 6,
+        "token": " grand",
+        "logit": 12.5234375,
+        "probability_percent": 3.74
+      },
+      {
+        "rank": 7,
+        "token": " seul",
+        "logit": 12.4375,
+        "probability_percent": 3.43
+      },
+      {
+        "rank": 8,
+        "token": " principal",
+        "logit": 12.265625,
+        "probability_percent": 2.89
+      },
+      {
+        "rank": 9,
+        "token": " c",
+        "logit": 12.125,
+        "probability_percent": 2.51
+      }
+    ]
+  },
+  {
+    "prompt": "La capitale de Égypte est",
+    "generated_prefix": "La capitale de Égypte est le C",
+    "gold_token": "aire",
+    "predicted_top1_token": "aire",
+    "token_pos_in_answer": 2,
+    "gold_logit": 25.078125,
+    "gold_prob_percent": 99.95,
+    "first_token_prob": 0.12408447265625,
+    "second_token_prob": 0.07354736328125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "aire",
+        "logit": 25.078125,
+        "probability_percent": 99.95
+      },
+      {
+        "rank": 1,
+        "token": "ai",
+        "logit": 16.703125,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 2,
+        "token": "ais",
+        "logit": 15.1875,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 3,
+        "token": "air",
+        "logit": 14.0078125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 4,
+        "token": "aires",
+        "logit": 13.6875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 5,
+        "token": "ité",
+        "logit": 13.453125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": "opt",
+        "logit": 13.140625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": "airo",
+        "logit": 12.96875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "optic",
+        "logit": 12.671875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "â",
+        "logit": 12.4453125,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "La capitale de Arabie saoudite est",
+    "generated_prefix": "La capitale de Arabie saoudite est",
+    "gold_token": " Riy",
+    "predicted_top1_token": " Riy",
+    "token_pos_in_answer": 0,
+    "gold_logit": 15.0703125,
+    "gold_prob_percent": 25.68,
+    "first_token_prob": 0.2568359375,
+    "second_token_prob": 0.15087890625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Riy",
+        "logit": 15.0703125,
+        "probability_percent": 25.68
+      },
+      {
+        "rank": 1,
+        "token": " la",
+        "logit": 14.5390625,
+        "probability_percent": 15.09
+      },
+      {
+        "rank": 2,
+        "token": " Ri",
+        "logit": 14.109375,
+        "probability_percent": 9.82
+      },
+      {
+        "rank": 3,
+        "token": " J",
+        "logit": 13.375,
+        "probability_percent": 4.71
+      },
+      {
+        "rank": 4,
+        "token": " Riyadh",
+        "logit": 12.5625,
+        "probability_percent": 2.09
+      },
+      {
+        "rank": 5,
+        "token": " ",
+        "logit": 12.359375,
+        "probability_percent": 1.71
+      },
+      {
+        "rank": 6,
+        "token": " La",
+        "logit": 12.3125,
+        "probability_percent": 1.63
+      },
+      {
+        "rank": 7,
+        "token": " une",
+        "logit": 12.2890625,
+        "probability_percent": 1.59
+      },
+      {
+        "rank": 8,
+        "token": " R",
+        "logit": 12.28125,
+        "probability_percent": 1.58
+      },
+      {
+        "rank": 9,
+        "token": ",",
+        "logit": 12.078125,
+        "probability_percent": 1.29
+      }
+    ]
+  },
+  {
+    "prompt": "La capitale de Arabie saoudite est",
+    "generated_prefix": "La capitale de Arabie saoudite est Riy",
+    "gold_token": "ad",
+    "predicted_top1_token": "ad",
+    "token_pos_in_answer": 1,
+    "gold_logit": 22.859375,
+    "gold_prob_percent": 96.04,
+    "first_token_prob": 0.2568359375,
+    "second_token_prob": 0.15087890625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ad",
+        "logit": 22.859375,
+        "probability_percent": 96.04
+      },
+      {
+        "rank": 1,
+        "token": "adh",
+        "logit": 19.046875,
+        "probability_percent": 2.12
+      },
+      {
+        "rank": 2,
+        "token": "ade",
+        "logit": 18.765625,
+        "probability_percent": 1.6
+      },
+      {
+        "rank": 3,
+        "token": "ah",
+        "logit": 15.2890625,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 4,
+        "token": "ada",
+        "logit": 15.109375,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 5,
+        "token": "ā",
+        "logit": 14.96875,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 6,
+        "token": "had",
+        "logit": 14.4609375,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 7,
+        "token": "â",
+        "logit": 14.203125,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 8,
+        "token": "ach",
+        "logit": 12.7421875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "ab",
+        "logit": 12.734375,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "La capitale de Turquie est",
+    "generated_prefix": "La capitale de Turquie est",
+    "gold_token": " Ankara",
+    "predicted_top1_token": " Istanbul",
+    "token_pos_in_answer": 0,
+    "gold_logit": 14.5625,
+    "gold_prob_percent": 15.41,
+    "first_token_prob": 0.208984375,
+    "second_token_prob": 0.154052734375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Istanbul",
+        "logit": 14.8671875,
+        "probability_percent": 20.9
+      },
+      {
+        "rank": 1,
+        "token": " Ankara",
+        "logit": 14.5625,
+        "probability_percent": 15.41
+      },
+      {
+        "rank": 2,
+        "token": " situ",
+        "logit": 14.4453125,
+        "probability_percent": 13.7
+      },
+      {
+        "rank": 3,
+        "token": " la",
+        "logit": 13.703125,
+        "probability_percent": 6.52
+      },
+      {
+        "rank": 4,
+        "token": " une",
+        "logit": 13.4453125,
+        "probability_percent": 5.04
+      },
+      {
+        "rank": 5,
+        "token": " I",
+        "logit": 12.8984375,
+        "probability_percent": 2.92
+      },
+      {
+        "rank": 6,
+        "token": " un",
+        "logit": 12.796875,
+        "probability_percent": 2.64
+      },
+      {
+        "rank": 7,
+        "token": " l",
+        "logit": 12.7890625,
+        "probability_percent": 2.62
+      },
+      {
+        "rank": 8,
+        "token": " également",
+        "logit": 12.7109375,
+        "probability_percent": 2.42
+      },
+      {
+        "rank": 9,
+        "token": " aussi",
+        "logit": 12.40625,
+        "probability_percent": 1.78
+      }
+    ]
+  },
+  {
+    "prompt": "La capitale de Australie est",
+    "generated_prefix": "La capitale de Australie est",
+    "gold_token": " Canberra",
+    "predicted_top1_token": " Sydney",
+    "token_pos_in_answer": 0,
+    "gold_logit": 14.2109375,
+    "gold_prob_percent": 6.78,
+    "first_token_prob": 0.26806640625,
+    "second_token_prob": 0.2578125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Sydney",
+        "logit": 15.5859375,
+        "probability_percent": 26.81
+      },
+      {
+        "rank": 1,
+        "token": " situ",
+        "logit": 15.546875,
+        "probability_percent": 25.78
+      },
+      {
+        "rank": 2,
+        "token": " la",
+        "logit": 14.21875,
+        "probability_percent": 6.83
+      },
+      {
+        "rank": 3,
+        "token": " Canberra",
+        "logit": 14.2109375,
+        "probability_percent": 6.78
+      },
+      {
+        "rank": 4,
+        "token": " Melbourne",
+        "logit": 13.4453125,
+        "probability_percent": 3.15
+      },
+      {
+        "rank": 5,
+        "token": " un",
+        "logit": 12.96875,
+        "probability_percent": 1.96
+      },
+      {
+        "rank": 6,
+        "token": " une",
+        "logit": 12.7890625,
+        "probability_percent": 1.64
+      },
+      {
+        "rank": 7,
+        "token": " appel",
+        "logit": 12.3828125,
+        "probability_percent": 1.09
+      },
+      {
+        "rank": 8,
+        "token": " le",
+        "logit": 12.2578125,
+        "probability_percent": 0.96
+      },
+      {
+        "rank": 9,
+        "token": " Perth",
+        "logit": 12.2109375,
+        "probability_percent": 0.92
+      }
+    ]
+  }
+]

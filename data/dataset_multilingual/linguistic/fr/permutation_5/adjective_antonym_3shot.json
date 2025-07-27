@@ -1,0 +1,408 @@
+{
+    "name": "adjective antonym_3shot_perm5",
+    "prompt_templates": [
+        "Le contraire de paisible est bruyant.\nLe contraire de visible est ambigu.\nLe contraire de propre est négligent.\nLe contraire de {} est"
+    ],
+    "samples": [
+        {
+            "subject": "aimant",
+            "object": "haineux"
+        },
+        {
+            "subject": "créateur",
+            "object": "destructeur"
+        },
+        {
+            "subject": "heureux",
+            "object": "malheureux"
+        },
+        {
+            "subject": "plein",
+            "object": "vide"
+        },
+        {
+            "subject": "courageux",
+            "object": "lâche"
+        },
+        {
+            "subject": "ouvert",
+            "object": "fermé"
+        },
+        {
+            "subject": "sûr",
+            "object": "dangereux"
+        },
+        {
+            "subject": "beau",
+            "object": "laid"
+        },
+        {
+            "subject": "ami",
+            "object": "ennemi"
+        },
+        {
+            "subject": "diurne",
+            "object": "nocturne"
+        },
+        {
+            "subject": "acheteur",
+            "object": "vendeur"
+        },
+        {
+            "subject": "grand",
+            "object": "petit"
+        },
+        {
+            "subject": "vieux",
+            "object": "jeune"
+        },
+        {
+            "subject": "silencieux",
+            "object": "bruyant"
+        },
+        {
+            "subject": "vrai",
+            "object": "faux"
+        },
+        {
+            "subject": "rapide",
+            "object": "lent"
+        },
+        {
+            "subject": "chaud",
+            "object": "froid"
+        },
+        {
+            "subject": "bon",
+            "object": "mauvais"
+        },
+        {
+            "subject": "initial",
+            "object": "final"
+        },
+        {
+            "subject": "intérieur",
+            "object": "extérieur"
+        },
+        {
+            "subject": "gagnant",
+            "object": "perdant"
+        },
+        {
+            "subject": "généreux",
+            "object": "prenant"
+        },
+        {
+            "subject": "clair",
+            "object": "foncé"
+        },
+        {
+            "subject": "sain",
+            "object": "malade"
+        },
+        {
+            "subject": "propre",
+            "object": "sale"
+        },
+        {
+            "subject": "juste",
+            "object": "faux"
+        },
+        {
+            "subject": "haut",
+            "object": "bas"
+        },
+        {
+            "subject": "fort",
+            "object": "faible"
+        },
+        {
+            "subject": "heureux",
+            "object": "en colère"
+        },
+        {
+            "subject": "grand",
+            "object": "petit"
+        },
+        {
+            "subject": "sage",
+            "object": "insensé"
+        },
+        {
+            "subject": "connecté",
+            "object": "déconnecté"
+        },
+        {
+            "subject": "doux",
+            "object": "dur"
+        },
+        {
+            "subject": "oui",
+            "object": "non"
+        },
+        {
+            "subject": "lisse",
+            "object": "rugueux"
+        },
+        {
+            "subject": "avant",
+            "object": "arrière"
+        },
+        {
+            "subject": "indulgent",
+            "object": "accusateur"
+        },
+        {
+            "subject": "simple",
+            "object": "complexe"
+        },
+        {
+            "subject": "ouvert",
+            "object": "fermé"
+        },
+        {
+            "subject": "superficiel",
+            "object": "profond"
+        },
+        {
+            "subject": "souriant",
+            "object": "renfrogné"
+        },
+        {
+            "subject": "joyeux",
+            "object": "triste"
+        },
+        {
+            "subject": "rapide",
+            "object": "lent"
+        },
+        {
+            "subject": "haut",
+            "object": "bas"
+        },
+        {
+            "subject": "positif",
+            "object": "négatif"
+        },
+        {
+            "subject": "honnête",
+            "object": "malhonnête"
+        },
+        {
+            "subject": "poussant",
+            "object": "tirant"
+        },
+        {
+            "subject": "mouillé",
+            "object": "sec"
+        },
+        {
+            "subject": "haut",
+            "object": "sorti"
+        },
+        {
+            "subject": "étroit",
+            "object": "large"
+        },
+        {
+            "subject": "allumé",
+            "object": "éteint"
+        },
+        {
+            "subject": "droit",
+            "object": "courbé"
+        },
+        {
+            "subject": "acceptable",
+            "object": "réprouvé"
+        },
+        {
+            "subject": "construire",
+            "object": "démolir"
+        },
+        {
+            "subject": "doux",
+            "object": "rugueux"
+        },
+        {
+            "subject": "inclus",
+            "object": "exclus"
+        },
+        {
+            "subject": "passé",
+            "object": "futur"
+        },
+        {
+            "subject": "arrivant",
+            "object": "partant"
+        },
+        {
+            "subject": "inspirant",
+            "object": "expirant"
+        },
+        {
+            "subject": "épars",
+            "object": "réuni"
+        },
+        {
+            "subject": "emprunté",
+            "object": "prêté"
+        },
+        {
+            "subject": "séparé",
+            "object": "uni"
+        },
+        {
+            "subject": "arrivant",
+            "object": "partant"
+        },
+        {
+            "subject": "ouvert",
+            "object": "fermé"
+        },
+        {
+            "subject": "flottant",
+            "object": "coulant"
+        },
+        {
+            "subject": "courbé",
+            "object": "raide"
+        },
+        {
+            "subject": "épars",
+            "object": "collecté"
+        },
+        {
+            "subject": "ascendant",
+            "object": "descendant"
+        },
+        {
+            "subject": "élogieux",
+            "object": "critique"
+        },
+        {
+            "subject": "invisible",
+            "object": "visible"
+        },
+        {
+            "subject": "initial",
+            "object": "final"
+        },
+        {
+            "subject": "entrant",
+            "object": "sortant"
+        },
+        {
+            "subject": "attirant",
+            "object": "repoussant"
+        },
+        {
+            "subject": "généreux",
+            "object": "réceptif"
+        },
+        {
+            "subject": "trouvé",
+            "object": "perdu"
+        },
+        {
+            "subject": "initial",
+            "object": "final"
+        },
+        {
+            "subject": "tirant",
+            "object": "poussant"
+        },
+        {
+            "subject": "croissant",
+            "object": "décroissant"
+        },
+        {
+            "subject": "gagnant",
+            "object": "abandonneur"
+        },
+        {
+            "subject": "calme",
+            "object": "agité"
+        },
+        {
+            "subject": "expansif",
+            "object": "contracté"
+        },
+        {
+            "subject": "offensif",
+            "object": "défensif"
+        },
+        {
+            "subject": "économe",
+            "object": "dépensier"
+        },
+        {
+            "subject": "mémorable",
+            "object": "oubliable"
+        },
+        {
+            "subject": "prêteur",
+            "object": "emprunteur"
+        },
+        {
+            "subject": "ensemble",
+            "object": "séparé"
+        },
+        {
+            "subject": "interrogatif",
+            "object": "résolutif"
+        },
+        {
+            "subject": "fermé",
+            "object": "ouvert"
+        },
+        {
+            "subject": "horaire",
+            "object": "antihoraire"
+        },
+        {
+            "subject": "posé",
+            "object": "retiré"
+        },
+        {
+            "subject": "rieur",
+            "object": "pleureur"
+        },
+        {
+            "subject": "ludique",
+            "object": "travailleur"
+        },
+        {
+            "subject": "haut",
+            "object": "bas"
+        },
+        {
+            "subject": "réussi",
+            "object": "échoué"
+        },
+        {
+            "subject": "expansif",
+            "object": "rétréci"
+        },
+        {
+            "subject": "inspiré",
+            "object": "expiré"
+        },
+        {
+            "subject": "béni",
+            "object": "maudit"
+        },
+        {
+            "subject": "rapide",
+            "object": "léthargique"
+        },
+        {
+            "subject": "applaudi",
+            "object": "huer"
+        },
+        {
+            "subject": "chuchotant",
+            "object": "criant"
+        }
+    ]
+}

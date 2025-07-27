@@ -1,0 +1,1929 @@
+{
+  "name": "person plays pro sport",
+  "prompt_templates": [
+    "{} plays the sport of",
+    "{} is a professional athlete in",
+    "{} competes in the sport of"
+  ],
+  "prompt_templates_zs": [
+    "{} plays the sport of",
+    "What sport does {} play? They play",
+    "{} plays professionally in the sport of"
+  ],
+  "properties": {
+    "relation_type": "factual",
+    "domain_name": "person",
+    "range_name": "sport",
+    "symmetric": false
+  },
+  "samples": [
+    {
+      "subject": "Andreas Ivanschitz",
+      "object": "soccer",
+      "subject_id": "Q296837",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Roberto Clemente",
+      "object": "baseball",
+      "subject_id": "Q684020",
+      "object_id": "Q5369"
+    },
+    {
+      "subject": "Carlos Valderrama",
+      "object": "soccer",
+      "subject_id": "Q204089",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Hank Aaron",
+      "object": "baseball",
+      "subject_id": "Q215777",
+      "object_id": "Q5369"
+    },
+    {
+      "subject": "Jari Kurri",
+      "object": "hockey",
+      "subject_id": "Q363621",
+      "object_id": "Q1622659"
+    },
+    {
+      "subject": "Zdeno Chára",
+      "object": "hockey",
+      "subject_id": "Q168957",
+      "object_id": "Q1622659"
+    },
+    {
+      "subject": "David Carney",
+      "object": "soccer",
+      "subject_id": "Q316619",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Peter Šťastný",
+      "object": "hockey",
+      "subject_id": "Q539372",
+      "object_id": "Q1622659"
+    },
+    {
+      "subject": "R.A. Dickey",
+      "object": "baseball",
+      "subject_id": "Q1320688",
+      "object_id": "Q5369"
+    },
+    {
+      "subject": "Luis Scola",
+      "object": "basketball",
+      "subject_id": "Q314071",
+      "object_id": "Q5372"
+    },
+    {
+      "subject": "Satchel Paige",
+      "object": "baseball",
+      "subject_id": "Q555730",
+      "object_id": "Q5369"
+    },
+    {
+      "subject": "Elton Brand",
+      "object": "basketball",
+      "subject_id": "Q310281",
+      "object_id": "Q5372"
+    },
+    {
+      "subject": "Terrell Owens",
+      "object": "football",
+      "subject_id": "Q1395269",
+      "object_id": "Q102309178"
+    },
+    {
+      "subject": "Matteo Ferrari",
+      "object": "soccer",
+      "subject_id": "Q37366445",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Tom Harmon",
+      "object": "football",
+      "subject_id": "Q108054030",
+      "object_id": "Q102309178"
+    },
+    {
+      "subject": "Mariano Rivera",
+      "object": "baseball",
+      "subject_id": "Q382303",
+      "object_id": "Q5369"
+    },
+    {
+      "subject": "Michael Umaña",
+      "object": "soccer",
+      "subject_id": "Q726317",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Gary Carter",
+      "object": "baseball",
+      "subject_id": "Q100768192",
+      "object_id": "Q5369"
+    },
+    {
+      "subject": "Igor Larionov",
+      "object": "hockey",
+      "subject_id": "Q456771",
+      "object_id": "Q1622659"
+    },
+    {
+      "subject": "Ashley Cole",
+      "object": "soccer",
+      "subject_id": "Q133556",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Dennis Rodman",
+      "object": "basketball",
+      "subject_id": "Q201608",
+      "object_id": "Q5372"
+    },
+    {
+      "subject": "Šarūnas Jasikevičius",
+      "object": "basketball",
+      "subject_id": "Q316252",
+      "object_id": "Q5372"
+    },
+    {
+      "subject": "Marián Hossa",
+      "object": "hockey",
+      "subject_id": "Q312642",
+      "object_id": "Q1622659"
+    },
+    {
+      "subject": "Moe Berg",
+      "object": "baseball",
+      "subject_id": "Q1090473",
+      "object_id": "Q5369"
+    },
+    {
+      "subject": "Arvydas Sabonis",
+      "object": "basketball",
+      "subject_id": "Q297750",
+      "object_id": "Q5372"
+    },
+    {
+      "subject": "Willie Mays",
+      "object": "baseball",
+      "subject_id": "Q561852",
+      "object_id": "Q5369"
+    },
+    {
+      "subject": "Landon Donovan",
+      "object": "soccer",
+      "subject_id": "Q202237",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Tim Tebow",
+      "object": "football",
+      "subject_id": "Q517467",
+      "object_id": "Q102309178"
+    },
+    {
+      "subject": "David Beckham",
+      "object": "soccer",
+      "subject_id": "Q10520",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Magic Johnson",
+      "object": "basketball",
+      "subject_id": "Q134183",
+      "object_id": "Q5372"
+    },
+    {
+      "subject": "Zack Steffen",
+      "object": "soccer",
+      "subject_id": "Q18633850",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Andrea Pirlo",
+      "object": "soccer",
+      "subject_id": "Q43926",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Cy Young",
+      "object": "baseball",
+      "subject_id": "Q362264",
+      "object_id": "Q5369"
+    },
+    {
+      "subject": "Bud Grant",
+      "object": "football",
+      "subject_id": "Q970476",
+      "object_id": "Q102309178"
+    },
+    {
+      "subject": "Jesse Hibbs",
+      "object": "football",
+      "subject_id": "Q282265",
+      "object_id": "Q102309178"
+    },
+    {
+      "subject": "Jim Bunning",
+      "object": "baseball",
+      "subject_id": "Q918265",
+      "object_id": "Q5369"
+    },
+    {
+      "subject": "Carlos Arroyo",
+      "object": "basketball",
+      "subject_id": "Q2299855",
+      "object_id": "Q5372"
+    },
+    {
+      "subject": "Alessandro Nesta",
+      "object": "soccer",
+      "subject_id": "Q227892",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Ryan Smyth",
+      "object": "hockey",
+      "subject_id": "Q739756",
+      "object_id": "Q1622659"
+    },
+    {
+      "subject": "Troy Aikman",
+      "object": "football",
+      "subject_id": "Q525002",
+      "object_id": "Q102309178"
+    },
+    {
+      "subject": "Joakim Noah",
+      "object": "basketball",
+      "subject_id": "Q311735",
+      "object_id": "Q5372"
+    },
+    {
+      "subject": "Jürgen Locadia",
+      "object": "soccer",
+      "subject_id": "Q1885",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Sergei Fedorov",
+      "object": "hockey",
+      "subject_id": "Q368501",
+      "object_id": "Q1622659"
+    },
+    {
+      "subject": "Chris Paul",
+      "object": "basketball",
+      "subject_id": "Q100985124",
+      "object_id": "Q5372"
+    },
+    {
+      "subject": "David Robinson",
+      "object": "basketball",
+      "subject_id": "Q113181077",
+      "object_id": "Q5372"
+    },
+    {
+      "subject": "Gale Sayers",
+      "object": "football",
+      "subject_id": "Q503760",
+      "object_id": "Q102309178"
+    },
+    {
+      "subject": "Bobby Orr",
+      "object": "hockey",
+      "subject_id": "Q348017",
+      "object_id": "Q1622659"
+    },
+    {
+      "subject": "Herschel Walker",
+      "object": "football",
+      "subject_id": "Q609950",
+      "object_id": "Q102309178"
+    },
+    {
+      "subject": "Bobby Hull",
+      "object": "hockey",
+      "subject_id": "Q456688",
+      "object_id": "Q1622659"
+    },
+    {
+      "subject": "Larry Doby",
+      "object": "baseball",
+      "subject_id": "Q711825",
+      "object_id": "Q5369"
+    },
+    {
+      "subject": "Ed O'Neill",
+      "object": "football",
+      "subject_id": "Q16758",
+      "object_id": "Q102309178"
+    },
+    {
+      "subject": "Kareem Abdul-Jabbar",
+      "object": "basketball",
+      "subject_id": "Q179051",
+      "object_id": "Q5372"
+    },
+    {
+      "subject": "Ty Cobb",
+      "object": "baseball",
+      "subject_id": "Q552828",
+      "object_id": "Q5369"
+    },
+    {
+      "subject": "Vladimír Růžička",
+      "object": "hockey",
+      "subject_id": "Q1336392",
+      "object_id": "Q1622659"
+    },
+    {
+      "subject": "Dennis Seidenberg",
+      "object": "hockey",
+      "subject_id": "Q36925",
+      "object_id": "Q1622659"
+    },
+    {
+      "subject": "Joe DiMaggio",
+      "object": "baseball",
+      "subject_id": "Q297142",
+      "object_id": "Q5369"
+    },
+    {
+      "subject": "Dave DeBusschere",
+      "object": "baseball",
+      "subject_id": "Q918916",
+      "object_id": "Q5369"
+    },
+    {
+      "subject": "Frédéric Piquionne",
+      "object": "soccer",
+      "subject_id": "Q380140",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Tony Gwynn",
+      "object": "baseball",
+      "subject_id": "Q1145222",
+      "object_id": "Q5369"
+    },
+    {
+      "subject": "Bart Starr",
+      "object": "football",
+      "subject_id": "Q809211",
+      "object_id": "Q102309178"
+    },
+    {
+      "subject": "Lou Gehrig",
+      "object": "baseball",
+      "subject_id": "Q357444",
+      "object_id": "Q5369"
+    },
+    {
+      "subject": "Grant Hill",
+      "object": "basketball",
+      "subject_id": "Q311895",
+      "object_id": "Q5372"
+    },
+    {
+      "subject": "O. J. Simpson",
+      "object": "football",
+      "subject_id": "Q44473",
+      "object_id": "Q102309178"
+    },
+    {
+      "subject": "Bill Bradley",
+      "object": "basketball",
+      "subject_id": "Q504025",
+      "object_id": "Q5372"
+    },
+    {
+      "subject": "Michael Jordan",
+      "object": "basketball",
+      "subject_id": "Q41421",
+      "object_id": "Q5372"
+    },
+    {
+      "subject": "Leon Allen White",
+      "object": "football",
+      "subject_id": "Q26848",
+      "object_id": "Q102309178"
+    },
+    {
+      "subject": "Torsten Frings",
+      "object": "soccer",
+      "subject_id": "Q107076",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Gonzalo Higuaín",
+      "object": "soccer",
+      "subject_id": "Q483846",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Patrick Roy",
+      "object": "hockey",
+      "subject_id": "Q357502",
+      "object_id": "Q1622659"
+    },
+    {
+      "subject": "Alex Rodriguez",
+      "object": "baseball",
+      "subject_id": "Q100985524",
+      "object_id": "Q5369"
+    },
+    {
+      "subject": "Pedro Martinez",
+      "object": "baseball",
+      "subject_id": "Q108809664",
+      "object_id": "Q5369"
+    },
+    {
+      "subject": "Bernie Casey",
+      "object": "football",
+      "subject_id": "Q372497",
+      "object_id": "Q102309178"
+    },
+    {
+      "subject": "Lothar Matthäus",
+      "object": "soccer",
+      "subject_id": "Q36386",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Drew Brees",
+      "object": "football",
+      "subject_id": "Q38952",
+      "object_id": "Q102309178"
+    },
+    {
+      "subject": "Howie Morenz",
+      "object": "hockey",
+      "subject_id": "Q538946",
+      "object_id": "Q1622659"
+    },
+    {
+      "subject": "Michael Bradley",
+      "object": "soccer",
+      "subject_id": "Q208425",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Warren Spahn",
+      "object": "baseball",
+      "subject_id": "Q1131345",
+      "object_id": "Q5369"
+    },
+    {
+      "subject": "Oscar Robertson",
+      "object": "basketball",
+      "subject_id": "Q17717",
+      "object_id": "Q5372"
+    },
+    {
+      "subject": "Alan Ball, Jr.",
+      "object": "soccer",
+      "subject_id": "N/A",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Jermain Defoe",
+      "object": "soccer",
+      "subject_id": "Q188746",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Ken Dryden",
+      "object": "hockey",
+      "subject_id": "Q739820",
+      "object_id": "Q1622659"
+    },
+    {
+      "subject": "Woody Strode",
+      "object": "football",
+      "subject_id": "Q609860",
+      "object_id": "Q102309178"
+    },
+    {
+      "subject": "Russell Wilson",
+      "object": "football",
+      "subject_id": "Q1149781",
+      "object_id": "Q102309178"
+    },
+    {
+      "subject": "Eric Lindros",
+      "object": "hockey",
+      "subject_id": "Q960614",
+      "object_id": "Q1622659"
+    },
+    {
+      "subject": "Otto Graham",
+      "object": "basketball",
+      "subject_id": "Q960594",
+      "object_id": "Q5372"
+    },
+    {
+      "subject": "John Olerud",
+      "object": "baseball",
+      "subject_id": "Q6251217",
+      "object_id": "Q5369"
+    },
+    {
+      "subject": "Terry Bradshaw",
+      "object": "football",
+      "subject_id": "Q633263",
+      "object_id": "Q102309178"
+    },
+    {
+      "subject": "Pavel Datsyuk",
+      "object": "hockey",
+      "subject_id": "Q381413",
+      "object_id": "Q1622659"
+    },
+    {
+      "subject": "Christy Mathewson",
+      "object": "baseball",
+      "subject_id": "Q73086",
+      "object_id": "Q5369"
+    },
+    {
+      "subject": "Timothy Brown",
+      "object": "football",
+      "subject_id": "Q3529057",
+      "object_id": "Q102309178"
+    },
+    {
+      "subject": "Nelson Valdez",
+      "object": "soccer",
+      "subject_id": "Q157584",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Shaquille O'Neal",
+      "object": "basketball",
+      "subject_id": "Q169452",
+      "object_id": "Q5372"
+    },
+    {
+      "subject": "José Canseco",
+      "object": "baseball",
+      "subject_id": "Q42106268",
+      "object_id": "Q5369"
+    },
+    {
+      "subject": "Siem de Jong",
+      "object": "soccer",
+      "subject_id": "Q349332",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Dirk Nowitzki",
+      "object": "basketball",
+      "subject_id": "Q44068",
+      "object_id": "Q5372"
+    },
+    {
+      "subject": "Carlos Bocanegra",
+      "object": "soccer",
+      "subject_id": "Q213091",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Tim Horton",
+      "object": "hockey",
+      "subject_id": "Q1345631",
+      "object_id": "Q1622659"
+    },
+    {
+      "subject": "Phil Esposito",
+      "object": "hockey",
+      "subject_id": "Q456779",
+      "object_id": "Q1622659"
+    },
+    {
+      "subject": "Bob Cousy",
+      "object": "basketball",
+      "subject_id": "Q312643",
+      "object_id": "Q5372"
+    },
+    {
+      "subject": "Teemu Sälännä",
+      "object": "hockey",
+      "subject_id": "N/A",
+      "object_id": "Q1622659"
+    },
+    {
+      "subject": "Guus Hiddink",
+      "object": "soccer",
+      "subject_id": "Q484534",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Connie Mack",
+      "object": "baseball",
+      "subject_id": "Q100878495",
+      "object_id": "Q5369"
+    },
+    {
+      "subject": "Ernie Davis",
+      "object": "football",
+      "subject_id": "Q1356923",
+      "object_id": "Q102309178"
+    },
+    {
+      "subject": "Tim Cahill",
+      "object": "soccer",
+      "subject_id": "Q187238",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "George Best",
+      "object": "soccer",
+      "subject_id": "Q164521",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Robbie Rogers",
+      "object": "soccer",
+      "subject_id": "Q924638",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Ichiro Suzuki",
+      "object": "baseball",
+      "subject_id": "Q600",
+      "object_id": "Q5369"
+    },
+    {
+      "subject": "LeBron James",
+      "object": "basketball",
+      "subject_id": "Q36159",
+      "object_id": "Q5372"
+    },
+    {
+      "subject": "Antonio Nocerino",
+      "object": "soccer",
+      "subject_id": "Q213546",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Bubba Smith",
+      "object": "football",
+      "subject_id": "Q318938",
+      "object_id": "Q102309178"
+    },
+    {
+      "subject": "Alexander Ovechkin",
+      "object": "hockey",
+      "subject_id": "Q311374",
+      "object_id": "Q1622659"
+    },
+    {
+      "subject": "Efren Navarro",
+      "object": "baseball",
+      "subject_id": "Q3049104",
+      "object_id": "Q5369"
+    },
+    {
+      "subject": "Edgaras Jankauskas",
+      "object": "soccer",
+      "subject_id": "Q380024",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Marcos Mondaini",
+      "object": "soccer",
+      "subject_id": "Q545382",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Scottie Pippen",
+      "object": "basketball",
+      "subject_id": "Q193637",
+      "object_id": "Q5372"
+    },
+    {
+      "subject": "Marc Gasol",
+      "object": "basketball",
+      "subject_id": "Q275889",
+      "object_id": "Q5372"
+    },
+    {
+      "subject": "Pat Tillman",
+      "object": "football",
+      "subject_id": "Q768879",
+      "object_id": "Q102309178"
+    },
+    {
+      "subject": "Arne Friedrich",
+      "object": "soccer",
+      "subject_id": "Q63676",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Bob Hayes",
+      "object": "football",
+      "subject_id": "Q100801416",
+      "object_id": "Q102309178"
+    },
+    {
+      "subject": "Corey Perry",
+      "object": "hockey",
+      "subject_id": "Q948963",
+      "object_id": "Q1622659"
+    },
+    {
+      "subject": "Fred Williamson",
+      "object": "football",
+      "subject_id": "Q1452569",
+      "object_id": "Q102309178"
+    },
+    {
+      "subject": "Dražen Petrović",
+      "object": "basketball",
+      "subject_id": "Q209982",
+      "object_id": "Q5372"
+    },
+    {
+      "subject": "Karl Malone",
+      "object": "basketball",
+      "subject_id": "Q199896",
+      "object_id": "Q5372"
+    },
+    {
+      "subject": "Walter Zenga",
+      "object": "soccer",
+      "subject_id": "Q294302",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Kendall Waston",
+      "object": "soccer",
+      "subject_id": "Q5959005",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Florent Sinama Pongolle",
+      "object": "soccer",
+      "subject_id": "Q342690",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Freddy Adu",
+      "object": "soccer",
+      "subject_id": "Q310369",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Kevin Durant",
+      "object": "basketball",
+      "subject_id": "Q29545",
+      "object_id": "Q5372"
+    },
+    {
+      "subject": "Bo Jackson",
+      "object": "baseball",
+      "subject_id": "Q887401",
+      "object_id": "Q5369"
+    },
+    {
+      "subject": "Jiří Šlégr",
+      "object": "hockey",
+      "subject_id": "Q722971",
+      "object_id": "Q1622659"
+    },
+    {
+      "subject": "Tom Brady",
+      "object": "football",
+      "subject_id": "Q313381",
+      "object_id": "Q102309178"
+    },
+    {
+      "subject": "Blaise Matuidi",
+      "object": "soccer",
+      "subject_id": "Q1921",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Alexei Kovalev",
+      "object": "hockey",
+      "subject_id": "Q102282367",
+      "object_id": "Q1622659"
+    },
+    {
+      "subject": "Kaká",
+      "object": "soccer",
+      "subject_id": "Q531814",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "George Halas",
+      "object": "baseball",
+      "subject_id": "Q163908",
+      "object_id": "Q5369"
+    },
+    {
+      "subject": "Aleksandar Đorđević",
+      "object": "basketball",
+      "subject_id": "Q11038450",
+      "object_id": "Q5372"
+    },
+    {
+      "subject": "Dick Butkus",
+      "object": "football",
+      "subject_id": "Q715511",
+      "object_id": "Q102309178"
+    },
+    {
+      "subject": "Pavol Demitra",
+      "object": "hockey",
+      "subject_id": "Q363628",
+      "object_id": "Q1622659"
+    },
+    {
+      "subject": "Brad Friedel",
+      "object": "soccer",
+      "subject_id": "Q241378",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Kasey Keller",
+      "object": "soccer",
+      "subject_id": "Q356814",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Red Grange",
+      "object": "football",
+      "subject_id": "Q1399654",
+      "object_id": "Q102309178"
+    },
+    {
+      "subject": "Stan Musial",
+      "object": "baseball",
+      "subject_id": "Q1328142",
+      "object_id": "Q5369"
+    },
+    {
+      "subject": "Billy Sunday",
+      "object": "baseball",
+      "subject_id": "Q366141",
+      "object_id": "Q5369"
+    },
+    {
+      "subject": "Tommie Smith",
+      "object": "football",
+      "subject_id": "Q100924643",
+      "object_id": "Q102309178"
+    },
+    {
+      "subject": "Herculez Gomez",
+      "object": "soccer",
+      "subject_id": "Q439918",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Lionel Conacher",
+      "object": "hockey",
+      "subject_id": "Q934093",
+      "object_id": "Q1622659"
+    },
+    {
+      "subject": "Derek Jeter",
+      "object": "baseball",
+      "subject_id": "Q353511",
+      "object_id": "Q5369"
+    },
+    {
+      "subject": "Honus Wagner",
+      "object": "baseball",
+      "subject_id": "Q1316903",
+      "object_id": "Q5369"
+    },
+    {
+      "subject": "Mickey Mantle",
+      "object": "baseball",
+      "subject_id": "Q345004",
+      "object_id": "Q5369"
+    },
+    {
+      "subject": "Bastian Schweinsteiger",
+      "object": "soccer",
+      "subject_id": "Q44298",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Hakeem Olajuwon",
+      "object": "basketball",
+      "subject_id": "Q273256",
+      "object_id": "Q5372"
+    },
+    {
+      "subject": "Allen Iverson",
+      "object": "basketball",
+      "subject_id": "Q190094",
+      "object_id": "Q5372"
+    },
+    {
+      "subject": "Marco Di Vaio",
+      "object": "soccer",
+      "subject_id": "Q136940",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Tom Seaver",
+      "object": "baseball",
+      "subject_id": "Q1287084",
+      "object_id": "Q5369"
+    },
+    {
+      "subject": "Jozy Altidore",
+      "object": "soccer",
+      "subject_id": "Q208619",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Tim Duncan",
+      "object": "basketball",
+      "subject_id": "Q193020",
+      "object_id": "Q5372"
+    },
+    {
+      "subject": "Chase Young",
+      "object": "football",
+      "subject_id": "Q104224261",
+      "object_id": "Q102309178"
+    },
+    {
+      "subject": "Brett Favre",
+      "object": "football",
+      "subject_id": "Q267088",
+      "object_id": "Q102309178"
+    },
+    {
+      "subject": "Michael Strahan",
+      "object": "football",
+      "subject_id": "Q573258",
+      "object_id": "Q102309178"
+    },
+    {
+      "subject": "Sergei Makarov",
+      "object": "hockey",
+      "subject_id": "Q505412",
+      "object_id": "Q1622659"
+    },
+    {
+      "subject": "Danny Ainge",
+      "object": "baseball",
+      "subject_id": "Q918347",
+      "object_id": "Q5369"
+    },
+    {
+      "subject": "Barry Bonds",
+      "object": "baseball",
+      "subject_id": "Q314712",
+      "object_id": "Q5369"
+    },
+    {
+      "subject": "Roger Staubach",
+      "object": "football",
+      "subject_id": "Q736932",
+      "object_id": "Q102309178"
+    },
+    {
+      "subject": "Roy Campanella",
+      "object": "baseball",
+      "subject_id": "Q735795",
+      "object_id": "Q5369"
+    },
+    {
+      "subject": "Kevin Love",
+      "object": "basketball",
+      "subject_id": "Q100984257",
+      "object_id": "Q5372"
+    },
+    {
+      "subject": "Wilt Chamberlain",
+      "object": "basketball",
+      "subject_id": "Q182455",
+      "object_id": "Q5372"
+    },
+    {
+      "subject": "Youri Djorkaeff",
+      "object": "soccer",
+      "subject_id": "Q217482",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Steve Yzerman",
+      "object": "hockey",
+      "subject_id": "Q440395",
+      "object_id": "Q1622659"
+    },
+    {
+      "subject": "Dean Cain",
+      "object": "football",
+      "subject_id": "Q313788",
+      "object_id": "Q102309178"
+    },
+    {
+      "subject": "Don Shula",
+      "object": "football",
+      "subject_id": "Q1239512",
+      "object_id": "Q102309178"
+    },
+    {
+      "subject": "Bronko Nagurski",
+      "object": "football",
+      "subject_id": "Q927663",
+      "object_id": "Q102309178"
+    },
+    {
+      "subject": "Ara Parseghian",
+      "object": "football",
+      "subject_id": "Q623595",
+      "object_id": "Q102309178"
+    },
+    {
+      "subject": "Lutz Pfannenstiel",
+      "object": "soccer",
+      "subject_id": "Q461597",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Ray Allen",
+      "object": "basketball",
+      "subject_id": "Q110140544",
+      "object_id": "Q5372"
+    },
+    {
+      "subject": "Frank Robinson",
+      "object": "baseball",
+      "subject_id": "Q1317158",
+      "object_id": "Q5369"
+    },
+    {
+      "subject": "Carlos Beltrán",
+      "object": "baseball",
+      "subject_id": "Q1042743",
+      "object_id": "Q5369"
+    },
+    {
+      "subject": "Emmitt Smith",
+      "object": "football",
+      "subject_id": "Q1338802",
+      "object_id": "Q102309178"
+    },
+    {
+      "subject": "Brian Bosworth",
+      "object": "football",
+      "subject_id": "Q911914",
+      "object_id": "Q102309178"
+    },
+    {
+      "subject": "Hugo Sánchez",
+      "object": "soccer",
+      "subject_id": "Q487155",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Terry Sawchuk",
+      "object": "hockey",
+      "subject_id": "Q520254",
+      "object_id": "Q1622659"
+    },
+    {
+      "subject": "Pete Rose",
+      "object": "baseball",
+      "subject_id": "Q739866",
+      "object_id": "Q5369"
+    },
+    {
+      "subject": "Bob Gibson",
+      "object": "baseball",
+      "subject_id": "Q1131535",
+      "object_id": "Q5369"
+    },
+    {
+      "subject": "Steve Nash",
+      "object": "basketball",
+      "subject_id": "Q192955",
+      "object_id": "Q5372"
+    },
+    {
+      "subject": "Randy Moss",
+      "object": "football",
+      "subject_id": "Q462925",
+      "object_id": "Q102309178"
+    },
+    {
+      "subject": "Johnny Unitas",
+      "object": "football",
+      "subject_id": "Q716029",
+      "object_id": "Q102309178"
+    },
+    {
+      "subject": "Willie Stargell",
+      "object": "baseball",
+      "subject_id": "Q1054942",
+      "object_id": "Q5369"
+    },
+    {
+      "subject": "Jarome Iginla",
+      "object": "hockey",
+      "subject_id": "Q456708",
+      "object_id": "Q1622659"
+    },
+    {
+      "subject": "Cam Newton",
+      "object": "football",
+      "subject_id": "Q591678",
+      "object_id": "Q102309178"
+    },
+    {
+      "subject": "Metta Sandiford-Artest",
+      "object": "basketball",
+      "subject_id": "Q295322",
+      "object_id": "Q5372"
+    },
+    {
+      "subject": "Babe Ruth",
+      "object": "baseball",
+      "subject_id": "Q213812",
+      "object_id": "Q5369"
+    },
+    {
+      "subject": "Gary Payton",
+      "object": "basketball",
+      "subject_id": "Q309872",
+      "object_id": "Q5372"
+    },
+    {
+      "subject": "Brett Hull",
+      "object": "hockey",
+      "subject_id": "Q440363",
+      "object_id": "Q1622659"
+    },
+    {
+      "subject": "Mark Messier",
+      "object": "hockey",
+      "subject_id": "Q319247",
+      "object_id": "Q1622659"
+    },
+    {
+      "subject": "Kevin Garnett",
+      "object": "basketball",
+      "subject_id": "Q189240",
+      "object_id": "Q5372"
+    },
+    {
+      "subject": "Tony Parker",
+      "object": "basketball",
+      "subject_id": "Q193108",
+      "object_id": "Q5372"
+    },
+    {
+      "subject": "Moses Malone",
+      "object": "basketball",
+      "subject_id": "Q316179",
+      "object_id": "Q5372"
+    },
+    {
+      "subject": "Alex Karras",
+      "object": "football",
+      "subject_id": "Q969866",
+      "object_id": "Q102309178"
+    },
+    {
+      "subject": "Jack Kemp",
+      "object": "football",
+      "subject_id": "Q357676",
+      "object_id": "Q102309178"
+    },
+    {
+      "subject": "Jerry West",
+      "object": "basketball",
+      "subject_id": "Q311195",
+      "object_id": "Q5372"
+    },
+    {
+      "subject": "Stan Mikita",
+      "object": "hockey",
+      "subject_id": "Q440237",
+      "object_id": "Q1622659"
+    },
+    {
+      "subject": "Jean Béliveau",
+      "object": "hockey",
+      "subject_id": "Q505479",
+      "object_id": "Q1622659"
+    },
+    {
+      "subject": "Júlio César",
+      "object": "soccer",
+      "subject_id": "Q182459",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Dominik Hašek",
+      "object": "hockey",
+      "subject_id": "Q312695",
+      "object_id": "Q1622659"
+    },
+    {
+      "subject": "Lawrence Taylor",
+      "object": "football",
+      "subject_id": "Q102302592",
+      "object_id": "Q102309178"
+    },
+    {
+      "subject": "Hristo Stoichkov",
+      "object": "soccer",
+      "subject_id": "Q187125",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Ron W. Miller",
+      "object": "football",
+      "subject_id": "Q2165499",
+      "object_id": "Q102309178"
+    },
+    {
+      "subject": "Elroy Hirsch",
+      "object": "football",
+      "subject_id": "Q440433",
+      "object_id": "Q102309178"
+    },
+    {
+      "subject": "Ernie Banks",
+      "object": "baseball",
+      "subject_id": "Q3051017",
+      "object_id": "Q5369"
+    },
+    {
+      "subject": "Roger Maris",
+      "object": "baseball",
+      "subject_id": "Q741023",
+      "object_id": "Q5369"
+    },
+    {
+      "subject": "Tim Howard",
+      "object": "soccer",
+      "subject_id": "Q200785",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Jaromír Jágr",
+      "object": "hockey",
+      "subject_id": "Q295345",
+      "object_id": "Q1622659"
+    },
+    {
+      "subject": "Larry Bird",
+      "object": "basketball",
+      "subject_id": "Q190152",
+      "object_id": "Q5372"
+    },
+    {
+      "subject": "Carl Weathers",
+      "object": "football",
+      "subject_id": "Q320218",
+      "object_id": "Q102309178"
+    },
+    {
+      "subject": "Kenny Lofton",
+      "object": "baseball",
+      "subject_id": "Q970848",
+      "object_id": "Q5369"
+    },
+    {
+      "subject": "Nick Swisher",
+      "object": "baseball",
+      "subject_id": "Q978581",
+      "object_id": "Q5369"
+    },
+    {
+      "subject": "DaMarcus Beasley",
+      "object": "soccer",
+      "subject_id": "Q313035",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Shane Doan",
+      "object": "hockey",
+      "subject_id": "Q715600",
+      "object_id": "Q1622659"
+    },
+    {
+      "subject": "John Elway",
+      "object": "football",
+      "subject_id": "Q432931",
+      "object_id": "Q102309178"
+    },
+    {
+      "subject": "David Villa",
+      "object": "soccer",
+      "subject_id": "Q83006",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Terry Crews",
+      "object": "football",
+      "subject_id": "Q271464",
+      "object_id": "Q102309178"
+    },
+    {
+      "subject": "Jacques Plante",
+      "object": "hockey",
+      "subject_id": "Q3159783",
+      "object_id": "Q1622659"
+    },
+    {
+      "subject": "Júlio Baptista",
+      "object": "soccer",
+      "subject_id": "Q204895",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Mikaël Silvestre",
+      "object": "soccer",
+      "subject_id": "Q177343",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Nigel de Jong",
+      "object": "soccer",
+      "subject_id": "Q185650",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Olumide Oyedeji",
+      "object": "basketball",
+      "subject_id": "Q1619137",
+      "object_id": "Q5372"
+    },
+    {
+      "subject": "Obafemi Martins",
+      "object": "soccer",
+      "subject_id": "Q207548",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Daniel Santiago",
+      "object": "basketball",
+      "subject_id": "Q10263996",
+      "object_id": "Q5372"
+    },
+    {
+      "subject": "Evgeni Malkin",
+      "object": "hockey",
+      "subject_id": "Q314433",
+      "object_id": "Q1622659"
+    },
+    {
+      "subject": "Mauricio Wright",
+      "object": "soccer",
+      "subject_id": "Q705668",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Ilya Kovalchuk",
+      "object": "hockey",
+      "subject_id": "Q434859",
+      "object_id": "Q1622659"
+    },
+    {
+      "subject": "Frank Lampard",
+      "object": "soccer",
+      "subject_id": "Q41533",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Freddie Ljungberg",
+      "object": "soccer",
+      "subject_id": "Q10560",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Peter Forsberg",
+      "object": "hockey",
+      "subject_id": "Q348416",
+      "object_id": "Q1622659"
+    },
+    {
+      "subject": "Claudio Reyna",
+      "object": "soccer",
+      "subject_id": "Q363257",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Boris Diaw",
+      "object": "basketball",
+      "subject_id": "Q317527",
+      "object_id": "Q5372"
+    },
+    {
+      "subject": "Nate Schierholtz",
+      "object": "baseball",
+      "subject_id": "Q3119895",
+      "object_id": "Q5369"
+    },
+    {
+      "subject": "Warren Moon",
+      "object": "football",
+      "subject_id": "Q126710",
+      "object_id": "Q102309178"
+    },
+    {
+      "subject": "Julius Erving",
+      "object": "basketball",
+      "subject_id": "Q209921",
+      "object_id": "Q5372"
+    },
+    {
+      "subject": "Maurice Richard",
+      "object": "hockey",
+      "subject_id": "Q3301329",
+      "object_id": "Q1622659"
+    },
+    {
+      "subject": "Cuauhtémoc Blanco",
+      "object": "soccer",
+      "subject_id": "Q207644",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Rick Barry",
+      "object": "basketball",
+      "subject_id": "Q434824",
+      "object_id": "Q5372"
+    },
+    {
+      "subject": "Ivan Hlinka",
+      "object": "hockey",
+      "subject_id": "Q104419613",
+      "object_id": "Q1622659"
+    },
+    {
+      "subject": "Jason Kidd",
+      "object": "basketball",
+      "subject_id": "Q221341",
+      "object_id": "Q5372"
+    },
+    {
+      "subject": "Benny Feilhaber",
+      "object": "soccer",
+      "subject_id": "Q84359",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Juninho Pernambucano",
+      "object": "soccer",
+      "subject_id": "Q203451",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Guy Lafleur",
+      "object": "hockey",
+      "subject_id": "Q553249",
+      "object_id": "Q1622659"
+    },
+    {
+      "subject": "Alexi Lalas",
+      "object": "soccer",
+      "subject_id": "Q168371",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Kobe Bryant",
+      "object": "basketball",
+      "subject_id": "Q25369",
+      "object_id": "Q5372"
+    },
+    {
+      "subject": "Dwight Howard",
+      "object": "basketball",
+      "subject_id": "Q25278",
+      "object_id": "Q5372"
+    },
+    {
+      "subject": "Clayton Kershaw",
+      "object": "baseball",
+      "subject_id": "Q520665",
+      "object_id": "Q5369"
+    },
+    {
+      "subject": "Dwyane Wade",
+      "object": "basketball",
+      "subject_id": "Q31683",
+      "object_id": "Q5372"
+    },
+    {
+      "subject": "George Plimpton",
+      "object": "football",
+      "subject_id": "Q1508079",
+      "object_id": "Q102309178"
+    },
+    {
+      "subject": "Yu Darvish",
+      "object": "baseball",
+      "subject_id": "Q940215",
+      "object_id": "Q5369"
+    },
+    {
+      "subject": "Hope Solo",
+      "object": "soccer",
+      "subject_id": "Q229619",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Giovani dos Santos",
+      "object": "soccer",
+      "subject_id": "Q562337",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Raïs M'Bolhi",
+      "object": "soccer",
+      "subject_id": "Q321552",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Casey Stengel",
+      "object": "baseball",
+      "subject_id": "Q1047261",
+      "object_id": "Q5369"
+    },
+    {
+      "subject": "Walter Payton",
+      "object": "football",
+      "subject_id": "Q963117",
+      "object_id": "Q102309178"
+    },
+    {
+      "subject": "Rosey Grier",
+      "object": "football",
+      "subject_id": "Q7368791",
+      "object_id": "Q102309178"
+    },
+    {
+      "subject": "Raimo Helminen",
+      "object": "hockey",
+      "subject_id": "Q739807",
+      "object_id": "Q1622659"
+    },
+    {
+      "subject": "Carmelo Anthony",
+      "object": "basketball",
+      "subject_id": "Q129041",
+      "object_id": "Q5372"
+    },
+    {
+      "subject": "Bill Goldberg",
+      "object": "football",
+      "subject_id": "Q115547",
+      "object_id": "Q102309178"
+    },
+    {
+      "subject": "Nani",
+      "object": "soccer",
+      "subject_id": "Q37549920",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Pau Gasol",
+      "object": "basketball",
+      "subject_id": "Q193052",
+      "object_id": "Q5372"
+    },
+    {
+      "subject": "Sidney Crosby",
+      "object": "hockey",
+      "subject_id": "Q311280",
+      "object_id": "Q1622659"
+    },
+    {
+      "subject": "Bashkim Kadrii",
+      "object": "soccer",
+      "subject_id": "Q809979",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Frank Mahovlich",
+      "object": "hockey",
+      "subject_id": "Q1382032",
+      "object_id": "Q1622659"
+    },
+    {
+      "subject": "Marco Ureña",
+      "object": "soccer",
+      "subject_id": "Q1511793",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Christian Bolaños",
+      "object": "soccer",
+      "subject_id": "N/A",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Tony Dungy",
+      "object": "football",
+      "subject_id": "Q719098",
+      "object_id": "Q102309178"
+    },
+    {
+      "subject": "Ollie Matson",
+      "object": "football",
+      "subject_id": "Q100880685",
+      "object_id": "Q102309178"
+    },
+    {
+      "subject": "Phil Jackson",
+      "object": "basketball",
+      "subject_id": "Q316246",
+      "object_id": "Q5372"
+    },
+    {
+      "subject": "Len Ford",
+      "object": "football",
+      "subject_id": "Q1709747",
+      "object_id": "Q102309178"
+    },
+    {
+      "subject": "Colin Kaepernick",
+      "object": "football",
+      "subject_id": "Q82496",
+      "object_id": "Q102309178"
+    },
+    {
+      "subject": "Gordie Howe",
+      "object": "hockey",
+      "subject_id": "Q358519",
+      "object_id": "Q1622659"
+    },
+    {
+      "subject": "Joe Namath",
+      "object": "football",
+      "subject_id": "Q720558",
+      "object_id": "Q102309178"
+    },
+    {
+      "subject": "Patrick Ewing",
+      "object": "basketball",
+      "subject_id": "Q271933",
+      "object_id": "Q5372"
+    },
+    {
+      "subject": "Merlin Olsen",
+      "object": "football",
+      "subject_id": "Q952127",
+      "object_id": "Q102309178"
+    },
+    {
+      "subject": "Dan Marino",
+      "object": "football",
+      "subject_id": "Q195367",
+      "object_id": "Q102309178"
+    },
+    {
+      "subject": "Jim Thorpe",
+      "object": "baseball",
+      "subject_id": "Q221482",
+      "object_id": "Q5369"
+    },
+    {
+      "subject": "Dave Winfield",
+      "object": "baseball",
+      "subject_id": "Q5230137",
+      "object_id": "Q5369"
+    },
+    {
+      "subject": "John Matuszak",
+      "object": "football",
+      "subject_id": "Q718840",
+      "object_id": "Q102309178"
+    },
+    {
+      "subject": "Wim Suurbier",
+      "object": "soccer",
+      "subject_id": "Q544364",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Yogi Berra",
+      "object": "baseball",
+      "subject_id": "Q367566",
+      "object_id": "Q5369"
+    },
+    {
+      "subject": "Emanuel Pogatetz",
+      "object": "soccer",
+      "subject_id": "Q310504",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Roman Reigns",
+      "object": "football",
+      "subject_id": "Q275971",
+      "object_id": "Q102309178"
+    },
+    {
+      "subject": "Steven Gerrard",
+      "object": "soccer",
+      "subject_id": "Q459830",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Egidio Arévalo Rios",
+      "object": "soccer",
+      "subject_id": "Q315674",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Ted Williams",
+      "object": "baseball",
+      "subject_id": "Q172478",
+      "object_id": "Q5369"
+    },
+    {
+      "subject": "Abel Xavier",
+      "object": "soccer",
+      "subject_id": "Q5024",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Wayne Rooney",
+      "object": "soccer",
+      "subject_id": "Q266613",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Robbie Keane",
+      "object": "soccer",
+      "subject_id": "Q184612",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Wayne Gretzky",
+      "object": "hockey",
+      "subject_id": "Q209518",
+      "object_id": "Q1622659"
+    },
+    {
+      "subject": "Rick Fox",
+      "object": "basketball",
+      "subject_id": "Q100982159",
+      "object_id": "Q5372"
+    },
+    {
+      "subject": "Deion Sanders",
+      "object": "baseball",
+      "subject_id": "Q954184",
+      "object_id": "Q5369"
+    },
+    {
+      "subject": "Javier Hernández",
+      "object": "soccer",
+      "subject_id": "Q165125",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Frank Gifford",
+      "object": "football",
+      "subject_id": "Q1261570",
+      "object_id": "Q102309178"
+    },
+    {
+      "subject": "David Andersen",
+      "object": "basketball",
+      "subject_id": "Q363409",
+      "object_id": "Q5372"
+    },
+    {
+      "subject": "Hank Greenberg",
+      "object": "baseball",
+      "subject_id": "Q687282",
+      "object_id": "Q5369"
+    },
+    {
+      "subject": "Viacheslav Fetisov",
+      "object": "hockey",
+      "subject_id": "Q553302",
+      "object_id": "Q1622659"
+    },
+    {
+      "subject": "Mario Lemieux",
+      "object": "hockey",
+      "subject_id": "Q316249",
+      "object_id": "Q1622659"
+    },
+    {
+      "subject": "Thierry Henry",
+      "object": "soccer",
+      "subject_id": "Q45901",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Stephen Curry",
+      "object": "basketball",
+      "subject_id": "Q352159",
+      "object_id": "Q5372"
+    },
+    {
+      "subject": "Brock Lesnar",
+      "object": "football",
+      "subject_id": "Q220556",
+      "object_id": "Q102309178"
+    },
+    {
+      "subject": "Byron White",
+      "object": "football",
+      "subject_id": "Q958904",
+      "object_id": "Q102309178"
+    },
+    {
+      "subject": "Chuck Connors",
+      "object": "baseball",
+      "subject_id": "Q705738",
+      "object_id": "Q5369"
+    },
+    {
+      "subject": "Bill Russell",
+      "object": "basketball",
+      "subject_id": "Q242185",
+      "object_id": "Q5372"
+    },
+    {
+      "subject": "Jermaine Jones",
+      "object": "soccer",
+      "subject_id": "Q280829",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Jackie Robinson",
+      "object": "baseball",
+      "subject_id": "Q731871",
+      "object_id": "Q5369"
+    },
+    {
+      "subject": "Charles Barkley",
+      "object": "basketball",
+      "subject_id": "Q192707",
+      "object_id": "Q5372"
+    },
+    {
+      "subject": "Paul Kariya",
+      "object": "hockey",
+      "subject_id": "Q449212",
+      "object_id": "Q1622659"
+    },
+    {
+      "subject": "Jim Brown",
+      "object": "football",
+      "subject_id": "Q104761859",
+      "object_id": "Q102309178"
+    },
+    {
+      "subject": "Yao Ming",
+      "object": "basketball",
+      "subject_id": "Q113443345",
+      "object_id": "Q5372"
+    },
+    {
+      "subject": "Joe Garagiola Sr.",
+      "object": "baseball",
+      "subject_id": "Q3180071",
+      "object_id": "Q5369"
+    },
+    {
+      "subject": "Pavel Bure",
+      "object": "hockey",
+      "subject_id": "Q440741",
+      "object_id": "Q1622659"
+    },
+    {
+      "subject": "Ernie Barnes",
+      "object": "football",
+      "subject_id": "Q2158334",
+      "object_id": "Q102309178"
+    },
+    {
+      "subject": "Peyton Manning",
+      "object": "football",
+      "subject_id": "Q7539",
+      "object_id": "Q102309178"
+    },
+    {
+      "subject": "Megan Rapinoe",
+      "object": "soccer",
+      "subject_id": "Q260725",
+      "object_id": "N/A"
+    }
+  ]
+}

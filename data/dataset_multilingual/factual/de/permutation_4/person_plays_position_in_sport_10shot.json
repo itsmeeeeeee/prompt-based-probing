@@ -1,0 +1,3816 @@
+{
+    "name": "person_plays_position_in_sport_10shot_perm4",
+    "prompt_templates": [
+        "Im Sport spielt Yadier Molina als Fänger.\nIm Sport spielt Lionel Messi als Stürmer.\nIm Sport spielt Patrick Mahomes als Quarterback.\nIm Sport spielt Luka Modrić als Mittelfeldspieler.\nIm Sport spielt Manuel Neuer als Torwart.\nIm Sport spielt Ray Lewis als Verteidiger.\nIm Sport spielt Toni Kroos als Mittelfeldspieler.\nIm Sport spielt Justin Verlander als Werfer.\nIm Sport spielt Marc-André Fleury als Eishockeytorwart.\nIm Sport spielt Aaron Judge als Außenfeldspieler.\nIm Sport spielt {} als"
+    ],
+    "samples": [
+        {
+            "subject": "Percy Snow",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Pantelis Kafes",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Ruud Gullit",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Elrio van Heerden",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Lars Ricken",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Tuukka Rask",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Karl Mecklenburg",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Iosif Rotariu",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "John Navarre",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Thurman Munson",
+            "object": "Catcher"
+        },
+        {
+            "subject": "Evan Dimas Darmono",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Jonathan Osorio",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Martina Voss-Tecklenburg",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Nigel de Jong",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Corky Miller",
+            "object": "Catcher"
+        },
+        {
+            "subject": "Antonio Valencia",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Tarvaris Jackson",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Erik Ersberg",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Kamohelo Mokotjo",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Florent Cuvelier",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Daniel Royer",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Nick Greisen",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Massimo Ficcadenti",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Frank Brimsek",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Mark Visentin",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Damon Huard",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Scot Brantley",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Chase Clement",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Mark Herrmann",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Lalrindika Ralte",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Gianluigi Lentini",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Martin Brodeur",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Casey Matthews",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Trey DePriest",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Jiloan Hamad",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Graham Dorrans",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Jonas Mouton",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Stan Gelbaugh",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Enrico Cucchi",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Teddy Bridgewater",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Thomas von Heesen",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Glenn Hoddle",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Bobby Bell",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Marco Verratti",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Andrew Jacobson",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Robert Griffin III",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Jonathan Goff",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Norm Maracle",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Manuel Ruiz Sosa",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Ivan Gudelj",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Bryan Hughes",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "George Mihai Florescu",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Graham Barrow",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Ricardo Faty",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Marcus Mariota",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Devan Dubnyk",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Gianluca Gaudino",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Andreas Ivanschitz",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Clete Thomas",
+            "object": "Outfielder"
+        },
+        {
+            "subject": "Andy Moog",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Conor Thomas",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Wesley Sneijder",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Corey Hirsch",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Drew Stanton",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Angelos Basinas",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Johnny Lujack",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Pascal Leclaire",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Wayne Corden",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Magdi Abdelghani",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Ricardo Ribeiro Fernandes",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Jonathan Quinn",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Browning Nagle",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Earl Morrall",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Gilles Villemure",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Mike Liut",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Gabriel Heinze",
+            "object": "Abwehrspieler"
+        },
+        {
+            "subject": "Joe Torre",
+            "object": "Catcher"
+        },
+        {
+            "subject": "Lars Bender",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Jim Magilton",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Fabio Pecchia",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Jim Hardy",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "John Elway",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Eugeneson Lyngdoh",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Reto Berra",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Michael Garnett",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Thomas \"Hollywood\" Henderson",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Kevin Siegrist",
+            "object": "Pitcher"
+        },
+        {
+            "subject": "Joe Magrane",
+            "object": "Pitcher"
+        },
+        {
+            "subject": "Mike Garcia",
+            "object": "Pitcher"
+        },
+        {
+            "subject": "Wesley Lopes Beltrame",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Jordon Dizon",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Alberto Rivera Pizarro",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Lerin Duarte",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Derrick Brooks",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Joey Gathright",
+            "object": "Outfielder"
+        },
+        {
+            "subject": "Bob Allison",
+            "object": "Outfielder"
+        },
+        {
+            "subject": "Francis Coquelin",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Gary Kubiak",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Glenn Foley",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Marcus Marek",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Jamal Mahmoud",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Glen Trifiro",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Chandler Harnish",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Johan Gastien",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Mike Stratton",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Markus Halsti",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Claudio Marchisio",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Dan Morgan",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Mario Lessard",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Pontus Wernbloom",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Odise Roshi",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Tim Hiller",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Ron Jaworski",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "D'Qwell Jackson",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Steven Nzonzi",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Francisco Liriano",
+            "object": "Pitcher"
+        },
+        {
+            "subject": "Mo Lewis",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Edmondo Fabbri",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Giacomo Tedesco",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Ty Detmer",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Luca Vigiani",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Isaac Cuenca",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Kris Griffin",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Ray Nitschke",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Robert Marve",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Rich Gannon",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Ray Lewis",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Altin Lala",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Anders Limpar",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Mesut Bakkal",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Marc Fitzpatrick",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Daniel Gygax",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Buck Martinez",
+            "object": "Catcher"
+        },
+        {
+            "subject": "Cory Wade",
+            "object": "Pitcher"
+        },
+        {
+            "subject": "Ali Jabbari",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Taylor Heinicke",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Trevor Kidd",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Derek Lowe",
+            "object": "Pitcher"
+        },
+        {
+            "subject": "Konstantin Vassiljev",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Jussi Markkanen",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Darren Murphy",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Frank Mobley",
+            "object": "Stürmer"
+        },
+        {
+            "subject": "Miguel Jones",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Kailee Wong",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Johnny Unitas",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Tommy Kramer",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Kevin Kampl",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Alex Stalock",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Miguel Batista",
+            "object": "Pitcher"
+        },
+        {
+            "subject": "Paul Justin",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Selim Bouadla",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Doriva",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Jeff Deslauriers",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Fernando De Napoli",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Grant Fuhr",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Antonio Comi",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Wade Dubielewicz",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Dan LaCosta",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Todd Marinovich",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Jim Bouton",
+            "object": "Pitcher"
+        },
+        {
+            "subject": "Runar Berg",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Lonnie Smith",
+            "object": "Outfielder"
+        },
+        {
+            "subject": "Erin Henderson",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Dennis Franklin",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Luis del Sol",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Yohan Cabaye",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Marc Lamothe",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Guy Moussi",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Yannick Cahuzac",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Dan McGwire",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Luke French",
+            "object": "Pitcher"
+        },
+        {
+            "subject": "Bruno Conti",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Barry Zito",
+            "object": "Pitcher"
+        },
+        {
+            "subject": "Kevin Kolb",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Ken O'Brien",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Ryan Miller",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Johan Santana",
+            "object": "Pitcher"
+        },
+        {
+            "subject": "David Rocastle",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Seth Smith",
+            "object": "Outfielder"
+        },
+        {
+            "subject": "Kerlon Moura Souza",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Ervin Bulku",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Mehdi Taouil",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Fred Lynn",
+            "object": "Outfielder"
+        },
+        {
+            "subject": "Victor Wanyama",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Tommy Taylor",
+            "object": "Stürmer"
+        },
+        {
+            "subject": "Milton Blanco",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Mark Malone",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Paul Ince",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Lang Campbell",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Josh Beckett",
+            "object": "Pitcher"
+        },
+        {
+            "subject": "Lou Saban",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Raffaele Palladino",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Corey Moore",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Jim Plunkett",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Vadis Odjidja-Ofoe",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Emanuele Giaccherini",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Mike Tomczak",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Gary Beban",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Tony Conigliaro",
+            "object": "Outfielder"
+        },
+        {
+            "subject": "Matt Szczur",
+            "object": "Outfielder"
+        },
+        {
+            "subject": "Dave Winfield",
+            "object": "Outfielder"
+        },
+        {
+            "subject": "Mark McKeever",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Nolan Schaefer",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Gustavo Barros Schelotto",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Heath Shuler",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Riccardo Maspero",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Zito",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Darren Currie",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Michel Platini",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Jeffrey Monakana",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Farhad Majidi",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Viktor Klonaridis",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Maniche",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Pia Wunderlich",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Horace Fairhurst",
+            "object": "Abwehrspieler"
+        },
+        {
+            "subject": "Youssouf Hersi",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Keith Peacock",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Jim Edmonds",
+            "object": "Outfielder"
+        },
+        {
+            "subject": "Drew Storen",
+            "object": "Pitcher"
+        },
+        {
+            "subject": "Scott Allan",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Guilherme Finkler",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Antti Raanta",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Eugen Polanski",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Dont'a Hightower",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Ulrich Le Pen",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Bob Essensa",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Teddy Lehman",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Graham Taylor",
+            "object": "Abwehrspieler"
+        },
+        {
+            "subject": "Christian Noboa",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Jason Trusnik",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "David Degen",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Curt Flood",
+            "object": "Outfielder"
+        },
+        {
+            "subject": "Tsuyoshi Shinjo",
+            "object": "Outfielder"
+        },
+        {
+            "subject": "Travis Lulay",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Glenn Roeder",
+            "object": "Abwehrspieler"
+        },
+        {
+            "subject": "John Stofa",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Mike Piazza",
+            "object": "Catcher"
+        },
+        {
+            "subject": "Massimo Murdocca",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Tommy Harper",
+            "object": "Outfielder"
+        },
+        {
+            "subject": "Koke",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Daniele Franceschini",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Arben Minga",
+            "object": "Stürmer"
+        },
+        {
+            "subject": "Jeff Kemp",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "John Harkes",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Lee Roy Jordan",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Anders Ågnes Konradsen",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Mohammed Noor",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Joanna Lohman",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Brian Hayward",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Diego Fuser",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Sylvain Legwinski",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Zinedine Zidane",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Alessio Tacchinardi",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Akin Ayodele",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Roger Clemens",
+            "object": "Pitcher"
+        },
+        {
+            "subject": "Pep Guardiola",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Nenad Bjelica",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Terna Nande",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Hughie Lehman",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Lorenzo Crisetig",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Victor Sikora",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Norm Snead",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Rickey Jackson",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Mark Fitzpatrick",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Drew Henson",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Pat Swilling",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Otto Graham",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Albin Ekdal",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Rich Ingold",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Troy Aikman",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Bobby Garrett",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Kieran Millan",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Alexi Ogando",
+            "object": "Pitcher"
+        },
+        {
+            "subject": "Hank Bassen",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Ralph Milne",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Tom De Mul",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Steve DeOssie",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Antonio Cabrini",
+            "object": "Abwehrspieler"
+        },
+        {
+            "subject": "Robbie Earle",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Ricky Stanzi",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Joao Plata",
+            "object": "Stürmer"
+        },
+        {
+            "subject": "Kyle Farnsworth",
+            "object": "Pitcher"
+        },
+        {
+            "subject": "Joe Ferguson",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Randall Cunningham",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Alex Smith",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Bert Jones",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Joe Pisarcik",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Archie Gemmill",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Bettina Wiegmann",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Marco Etcheverry",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Toumani Diagouraga",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Chico Resch",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Greg Maddux",
+            "object": "Pitcher"
+        },
+        {
+            "subject": "Jonathan Lucroy",
+            "object": "Catcher"
+        },
+        {
+            "subject": "Jake Rudock",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Luis Tiant",
+            "object": "Pitcher"
+        },
+        {
+            "subject": "Philip Rivers",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Frederik Andersen",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Scott Darling",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Craig Monroe",
+            "object": "Outfielder"
+        },
+        {
+            "subject": "Greg Lloyd, Sr.",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Kevin Eakin",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Giovanni Stroppa",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Karim Abdul Razak",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Paulo Henrique Ganso",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Gary Gardner",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Neil Redfearn",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Ivo Wortmann",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Vince Coleman",
+            "object": "Outfielder"
+        },
+        {
+            "subject": "Jorge Luis Pinto",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "John Grabow",
+            "object": "Pitcher"
+        },
+        {
+            "subject": "Jacques Plante",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Bob Mason",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Mohd Noor Ali",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Fabian Frei",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Daniele De Rossi",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Johnny Baldwin",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Dick Radatz",
+            "object": "Pitcher"
+        },
+        {
+            "subject": "Michel Plasse",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Jim Kelly",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Al Dekdebrun",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "O'Brien Schofield",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Frank Pietrangelo",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Dallas Keuchel",
+            "object": "Pitcher"
+        },
+        {
+            "subject": "Sebastian Rode",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Marcus Randall",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Sean Salisbury",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Andrew Luck",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Michael Laudrup",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Angelo Crowell",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Anthony Obodai",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Connor Halliday",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Damon Allen",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Paulo Almeida",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Rodney Strasser",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Eric Kresser",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Barry Bannan",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Ryan Giggs",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Emanuele Filippini",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Renato Buso",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Xavier Margairaz",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Brian Cushing",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Kiki Cuyler",
+            "object": "Outfielder"
+        },
+        {
+            "subject": "Schellas Hyndman",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Aaron Murray",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Brent Johnson",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Eli Whiteside",
+            "object": "Catcher"
+        },
+        {
+            "subject": "Dan LeFevour",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Abou Diaby",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "John Smoltz",
+            "object": "Pitcher"
+        },
+        {
+            "subject": "Jacques Cloutier",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Yasmani Grandal",
+            "object": "Catcher"
+        },
+        {
+            "subject": "Gilles Meloche",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Bob Lemon",
+            "object": "Pitcher"
+        },
+        {
+            "subject": "Zach Mettenberger",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Kendrell Bell",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Gabriele Oriali",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Clint Benedict",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Michael Leighton",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Elvis Grbac",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Pelle Lindbergh",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Joel Obi",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Juninho Paulista",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Casey Weldon",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Mojtaba Jabbari",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Aleksandar Katai",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Jorge Luis Campos",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Charlie Conerly",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Thomas Pinault",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Flemming Nielsen",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Pietro Fanna",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Kevin Thomson",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Dan Bouchard",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Jim Druckenmiller",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Otis Wilson",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Henry Burris",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Dan Alexa",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Simon Rolfes",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "David Batty",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "James Laurinaitis",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Chad Hutchinson",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Thomas Greiss",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Dewey Selmon",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Kelly Hrudey",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Fernando Torres",
+            "object": "Stürmer"
+        },
+        {
+            "subject": "Rodney Sneijder",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Jordan Gross",
+            "object": "Tackle"
+        },
+        {
+            "subject": "Mike Pawlawski",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Jaroslav Janus",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Ralph Guglielmi",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Sean Burke",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Logan Thomas",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Mike Veisor",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Jason Campbell",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Daniel Berg Hestad",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Pietro Maiellaro",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Ryan Shazier",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Georgios Fotakis",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Jelani Jenkins",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Bryan Robson",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "EJ Manuel",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Todd Helton",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Jamie Storr",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Romuald Boco",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Dennis Shaw",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Carlos Alberto Alves Garcia",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Hong-Chih Kuo",
+            "object": "Pitcher"
+        },
+        {
+            "subject": "Kiko Alonso",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Landon Johnson",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Unai Emery",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Suat Kaya",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Dean Furman",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Yannick Bapupa",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Jocelyn Gourvennec",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "May Mahlangu",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Tim Raines",
+            "object": "Outfielder"
+        },
+        {
+            "subject": "Colin Kaepernick",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Alex Teixeira",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Ludovic Sylvestre",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Erik Kramer",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Boof Bonser",
+            "object": "Pitcher"
+        },
+        {
+            "subject": "Wolfram Wuttke",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Philip Hellquist",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Miralem Sulejmani",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Blaine Lacher",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Davide Fontolan",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Jim Bagby, Sr.",
+            "object": "Pitcher"
+        },
+        {
+            "subject": "Yogi Berra",
+            "object": "Catcher"
+        },
+        {
+            "subject": "Miguel Marcos Madera",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Leung Tsz Chun",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Rick Monday",
+            "object": "Outfielder"
+        },
+        {
+            "subject": "Eugene Lockhart",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Chan Ho Park",
+            "object": "Pitcher"
+        },
+        {
+            "subject": "Roy Halladay",
+            "object": "Pitcher"
+        },
+        {
+            "subject": "Steve Passmore",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Lamberto Zauli",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Bruce Gradkowski",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Peter Tom Willis",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Paolo Sammarco",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Pirri",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Doug Buffone",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Davide Biondini",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Charlie Gardiner",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Anthony Maggiacomo",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Khaseem Greene",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Axel Witsel",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Nelson Cruz",
+            "object": "Outfielder"
+        },
+        {
+            "subject": "Tom Flores",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Tyler Palko",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Vernon Wells",
+            "object": "Outfielder"
+        },
+        {
+            "subject": "Jessie Tuggle",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Augustine Azuka Okocha",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Rickey Foggie",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Leon Day",
+            "object": "Pitcher"
+        },
+        {
+            "subject": "Giuseppe Furino",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Martin Kuhl",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Don Meredith",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Jonathan Quick",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Shawn Crable",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Manti Te'o",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Juan Fernando Quintero",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Vince Young",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Ernie Whitt",
+            "object": "Catcher"
+        },
+        {
+            "subject": "Bill Ranford",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Sinuhe Wallinheimo",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Thierry Omeyer",
+            "object": "Fußballtorwart"
+        },
+        {
+            "subject": "Virgil Carter",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Francisco Lima",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Thomas McCollum",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Andrew Walter",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Todd Blackledge",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Renato Augusto",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Matt Herges",
+            "object": "Pitcher"
+        },
+        {
+            "subject": "Marquis Cooper",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Logan Verrett",
+            "object": "Pitcher"
+        },
+        {
+            "subject": "Erik Komatsu",
+            "object": "Outfielder"
+        },
+        {
+            "subject": "Jonathan Santana",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Vincent Laban",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Garret Anderson",
+            "object": "Outfielder"
+        },
+        {
+            "subject": "Giuliano Victor de Paula",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Robert Esche",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Darrin Fletcher",
+            "object": "Catcher"
+        },
+        {
+            "subject": "Gale Gilbert",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Jessica Vetter",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Roger Staubach",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Brad Wilkerson",
+            "object": "Outfielder"
+        },
+        {
+            "subject": "Johan Arneng",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Rick Mirer",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Felix Magath",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Damien Plessis",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Jean-Paul Kalala",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Shane Matthews",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Chin-hui Tsao",
+            "object": "Pitcher"
+        },
+        {
+            "subject": "Gus Poyet",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Diniyar Bilyaletdinov",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Luke O'Brien",
+            "object": "Abwehrspieler"
+        },
+        {
+            "subject": "Santi Cazorla",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Pat Haden",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Mark Bresciano",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Duncan Edwards",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Chip Banks",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Christoph Kramer",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Giancarlo Marocchi",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Jone Samuelsen",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Manny Mota",
+            "object": "Outfielder"
+        },
+        {
+            "subject": "Benito Santiago",
+            "object": "Catcher"
+        },
+        {
+            "subject": "Hugh Millen",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Sergio Canales Madrazo",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Collette McCallum",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Javid Imamverdiyev",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Giuseppe Dossena",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Isaiah Osbourne",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Koki Mizuno",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Steve Castle",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Massimiliano Cappioli",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Karl Goehring",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Fred Thurston",
+            "object": "Guard"
+        },
+        {
+            "subject": "Milt Plum",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Faris Haroun",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Francesco Parravicini",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Ross Verba",
+            "object": "Guard"
+        },
+        {
+            "subject": "David Aebischer",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Charlie Robertson",
+            "object": "Pitcher"
+        },
+        {
+            "subject": "Gary Stills",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Murray Bannerman",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Brad Van Pelt",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Russell Bromage",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Darren Fletcher",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Cullen Finnerty",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Tedy Bruschi",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Jean-Pierre Roy",
+            "object": "Pitcher"
+        },
+        {
+            "subject": "Curtis McElhinney",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Cody Pickett",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Candy Cummings",
+            "object": "Pitcher"
+        },
+        {
+            "subject": "Brian Bosworth",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Tommy Nobis",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Jewel Raja",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Mark Kinsella",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Nilton Fernandes",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Jim Hart",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Junior Stanislas",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Wil Nieves",
+            "object": "Catcher"
+        },
+        {
+            "subject": "Matt Keetley",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Saleem Rasheed",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Ty Conklin",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "George Best",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Kevin Weekes",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Panagiotis Kone",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "JD Closser",
+            "object": "Catcher"
+        },
+        {
+            "subject": "Bill Bergey",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Mike Teel",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Mike Scioscia",
+            "object": "Catcher"
+        },
+        {
+            "subject": "Carlos Lee",
+            "object": "Outfielder"
+        },
+        {
+            "subject": "Ronnie Ekelund",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Bobby Hebert",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Birkir Bjarnason",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Florin Cernat",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Vicente Engonga",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Jerod Mayo",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Tommie Frazier",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Kurt Warner",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Mike Vernon",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Miguel Pérez Cuesta",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Arnie Herber",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Dick Wood",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Datsakorn Thonglao",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Kenny Demens",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Geoff Bent",
+            "object": "Abwehrspieler"
+        },
+        {
+            "subject": "Carlos Humberto Paredes",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Jay Bruce",
+            "object": "Outfielder"
+        },
+        {
+            "subject": "Jerry Sisemore",
+            "object": "Tackle"
+        },
+        {
+            "subject": "Johnny Vander Meer",
+            "object": "Pitcher"
+        },
+        {
+            "subject": "Steve Grogan",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Steve MacKenzie",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Angelo Bertelli",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Jason Jennings",
+            "object": "Pitcher"
+        },
+        {
+            "subject": "Roy Sproson",
+            "object": "Abwehrspieler"
+        },
+        {
+            "subject": "Ryan Harley",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Diogo Ferreira",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Marty Schottenheimer",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Melanie Behringer",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Kyle Boller",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Arthur Milton",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Andrea Orlandi",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Mehdi Abeid",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Jon-Paul McGovern",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Mark Sanchez",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Zac Robinson",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Jamie Winborn",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Esteban Vigo",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Don McPherson",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Marcelo Mattos",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Rinku Singh",
+            "object": "Pitcher"
+        },
+        {
+            "subject": "Tony Gwynn",
+            "object": "Outfielder"
+        },
+        {
+            "subject": "Jason Puncheon",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Constantinos Makrides",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Garrett Gilbert",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Brian Steen Nielsen",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Jonathan Greening",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Angelo Palombo",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Dontrelle Willis",
+            "object": "Pitcher"
+        },
+        {
+            "subject": "Jim Sorgi",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Rick Ankiel",
+            "object": "Pitcher"
+        },
+        {
+            "subject": "Mikhail Shtalenkov",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Andrico Hines",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Cho Hyung-ik",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Kim Bokamper",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Owain Tudur Jones",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Nordin Amrabat",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Emiljano Vila",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Gaetano D'Agostino",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Jesse Marsch",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Kim Vilfort",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Johan Holmqvist",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Amiran Mujiri",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Jonathan Urretaviscaya",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Byron Dafoe",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Gary Cuozzo",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Vegard Skogheim",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Ken Gunn",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Josip Skoko",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Rufus Alexander",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Ioan Lupescu",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Juan Cuadrado",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Kingsley Coman",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Jon Casey",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Carlos Rodon",
+            "object": "Pitcher"
+        },
+        {
+            "subject": "Marco Tardelli",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Brian Boucher",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "David Whitehurst",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Sam Crawford",
+            "object": "Outfielder"
+        },
+        {
+            "subject": "Tobias Grahn",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Jeff Ulbrich",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Joe Montana",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Joel Zumaya",
+            "object": "Pitcher"
+        },
+        {
+            "subject": "Libor Sionko",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Lyndon Andrews",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Shane Ray",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "LaMarr Woodley",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Henrik Lundqvist",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Rene Tosoni",
+            "object": "Outfielder"
+        },
+        {
+            "subject": "Jeff Reese",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Abdel Sattar Sabry",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Quentin Groves",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Giovanni Tedesco",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Jocelyn Thibault",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Les Horvath",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Selim Benachour",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Garba Lawal",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Juan Rodrigo Rojas",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Don Cardwell",
+            "object": "Pitcher"
+        },
+        {
+            "subject": "Marc Cheverie",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Travis Blackley",
+            "object": "Pitcher"
+        },
+        {
+            "subject": "Craig Erickson",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Ju Yingzhi",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Alfie Moore",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Yaghoub Karimi",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Marc Overmars",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Joel Stave",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Rivaldo",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Yannick Carter",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Seth Maness",
+            "object": "Pitcher"
+        },
+        {
+            "subject": "Mark Walters",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Mike Trout",
+            "object": "Outfielder"
+        },
+        {
+            "subject": "Andre Tippett",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Kevin Lalande",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Michael Boley",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Ahmad Brooks",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Antonino D'Agostino",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Antonio Candreva",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Garrincha",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Curtis Sanford",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Caleb TerBush",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Michel Larocque",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Kelly Stouffer",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Fabian Ernst",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Mason Foster",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Iago Falque",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Marat Izmailov",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Kyle Orton",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Oliver Makor",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Robert Prytz",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Pablo Cepellini",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Conan Byrne",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Mathieu Flamini",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Kostas Katsouranis",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Poon Yiu Cheuk",
+            "object": "Abwehrspieler"
+        },
+        {
+            "subject": "McDonald Mariga",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Don Trull",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Braden Looper",
+            "object": "Pitcher"
+        },
+        {
+            "subject": "Gilles Mayer",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Shamweel Qasim",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Patrick Roy",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Marques Tuiasosopo",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Ilsinho",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Juan Joseph",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Carlos Manuel",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Bob John",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Karim El Ahmadi",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Ichiro Suzuki",
+            "object": "Outfielder"
+        },
+        {
+            "subject": "Tommy John",
+            "object": "Pitcher"
+        },
+        {
+            "subject": "Domenico Morfeo",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Steve Barber",
+            "object": "Pitcher"
+        },
+        {
+            "subject": "Brian Bogusevic",
+            "object": "Outfielder"
+        },
+        {
+            "subject": "Luke Vercollone",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Ricardo Gallego",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Eddie Giacomin",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Ahmad Hatifi",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Angelo Orlando",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Sam LoPresti",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Mika Noronen",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Lee Bell",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Juan Pablo Galavis",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Paul Harsley",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Michael Conforto",
+            "object": "Outfielder"
+        },
+        {
+            "subject": "CC Sabathia",
+            "object": "Pitcher"
+        },
+        {
+            "subject": "Stefano Fiore",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Rusney Castillo",
+            "object": "Outfielder"
+        },
+        {
+            "subject": "Vesa Toskala",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Eusebio Di Francesco",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Joel Lindpere",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Ben Roethlisberger",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Brandon Jenkins (football player)",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Cornell Brown",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Jesper Olsen",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Shane Boyd",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Scott Dreisbach",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Vern Law",
+            "object": "Pitcher"
+        },
+        {
+            "subject": "Alex Auld",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Marcelo Nascimento da Costa",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Ali Karimi",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Jack Balmer",
+            "object": "Stürmer"
+        },
+        {
+            "subject": "Moise Fokou",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Vladislav Tretiak",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Alwyn George",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Frank Watkin",
+            "object": "Stürmer"
+        },
+        {
+            "subject": "Colby Cameron",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Angelo Colombo",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Aaron Rodgers",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Scott Milanovich",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Christy Mathewson",
+            "object": "Pitcher"
+        },
+        {
+            "subject": "Geoffrey Kondogbia",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Fabio Capello",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Nate Robertson",
+            "object": "Pitcher"
+        },
+        {
+            "subject": "John Reaves",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Reinhard Divis",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "John Parker Wilson",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Dany N'Guessan",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Joe Kapp",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Marc Crosas",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Graeme Souness",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Faysal Shayesteh",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Javier Espinosa",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Archie Manning",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Paulo Bento",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Bob Griese",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Frank Lampard",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Jean Prouff",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Mike Holmgren",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Tiago Mendes",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Kerry Collins",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Lavonte David",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Giuliano Giannichedda",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Daniele Dessena",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Beniamino Vignola",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Matt Flynn",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Greg Buttle",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Von Miller",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Rasmus Lindgren",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Trent Green",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Alessio Cerci",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Glenn Hall",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Stephone Anthony",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Carson Coffman",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Ryan Lindley",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Joe Paterno",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Ubaldo Righetti",
+            "object": "Abwehrspieler"
+        },
+        {
+            "subject": "Blaine Gabbert",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Walter Johnson",
+            "object": "Pitcher"
+        },
+        {
+            "subject": "Zeke Bratkowski",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Jacob Mellis",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Wilber Marshall",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Luke Kuechly",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Massimiliano Esposito",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Simone Barone",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Pedro Beato",
+            "object": "Pitcher"
+        },
+        {
+            "subject": "Jeff Francis",
+            "object": "Pitcher"
+        },
+        {
+            "subject": "Fernando Soriano",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Adilson dos Santos",
+            "object": "Abwehrspieler"
+        },
+        {
+            "subject": "Bill Kenney",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Tommy Docherty",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Ray Houghton",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Don Horn",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "John Brantley",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Pablo de Lucas",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Tim Tebow",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Tom Ramsey",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Daniel Caligiuri",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Lee Cattermole",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Johan Hedberg",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Ben Mauk",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Don Majkowski",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Jock Stein",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Jair da Rosa Pinto",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Steve McNair",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Youssouf Mulumbu",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Keith Rivers",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Tim Borowski",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Shane Greene",
+            "object": "Pitcher"
+        },
+        {
+            "subject": "Dave Ragone",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Adam Weber",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Tarek Yehia",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Makoto Hasebe",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Quinn Gray",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Mule Haas",
+            "object": "Outfielder"
+        },
+        {
+            "subject": "David Beckham",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Mike Richter",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Jeff Rutledge",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Greg Stefan",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Warren Sapp",
+            "object": "Tackle"
+        },
+        {
+            "subject": "John Huarte",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Jean Luciano",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Ray Emery",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Gareth Barry",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Hatem Ben Arfa",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Fabio Celestini",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Jay Cutler",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Ricardo Villa",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Craig Breslow",
+            "object": "Pitcher"
+        },
+        {
+            "subject": "Yutaka Enatsu",
+            "object": "Pitcher"
+        },
+        {
+            "subject": "Randall Azofeifa",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Gary Danielson",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Dan Fouts",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Bryan Holaday",
+            "object": "Catcher"
+        },
+        {
+            "subject": "Mariano Rivera",
+            "object": "Hautnah"
+        },
+        {
+            "subject": "Rory Delap",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Morgan Schneiderlin",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Serhiy Kovalets",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Kari Lehtonen",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Carlos Valderrama",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Diego Maradona",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Massimiliano Allegri",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Agostino Di Bartolomei",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Zico",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Tim Hasselbeck",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Frankie Albert",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Allan Bester",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Scott Sinclair",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Pekka Rinne",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Ted McMinn",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Adnan Januzaj",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Ryan Leaf",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Gaizka Garitano Aguirre",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Jeff George",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "DeWayne Wise",
+            "object": "Outfielder"
+        },
+        {
+            "subject": "Pascal Feindouno",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Vincenzo Italiano",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Tyler Moss",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Luca Danilo Fusi",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Josh Gibson",
+            "object": "Catcher"
+        },
+        {
+            "subject": "Angelo Di Livio",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Scott Fankhouser",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Miguel Montero",
+            "object": "Catcher"
+        },
+        {
+            "subject": "Bakary Sako",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Sean Glennon",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Damiano Tommasi",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Francisco Cervelli",
+            "object": "Catcher"
+        },
+        {
+            "subject": "Scott Hatteberg",
+            "object": "Catcher"
+        },
+        {
+            "subject": "Ryan Mallett",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Willie McFaul",
+            "object": "Fußballtorwart"
+        },
+        {
+            "subject": "Mohd Amirul Hadi Zainal",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Darren Daulton",
+            "object": "Catcher"
+        },
+        {
+            "subject": "Viktor Fasth",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Eusebio Castigliano",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Nolan Ryan",
+            "object": "Pitcher"
+        },
+        {
+            "subject": "Braden Holtby",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Chuck Fusina",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Enos Slaughter",
+            "object": "Outfielder"
+        },
+        {
+            "subject": "Atlee Hammaker",
+            "object": "Pitcher"
+        },
+        {
+            "subject": "Don Larsen",
+            "object": "Pitcher"
+        },
+        {
+            "subject": "Oscar Albuquerque",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "David Carabott",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Danny Trevathan",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Josh McCown",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Giuseppe Baresi",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Éric Djemba-Djemba",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Drake Britton",
+            "object": "Pitcher"
+        },
+        {
+            "subject": "Matt Chatham",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Marvin Mitchell",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Connor Cook",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Dan Conners",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Calum Chambers",
+            "object": "Abwehrspieler"
+        },
+        {
+            "subject": "Sean Payton",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Steve Valiquette",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Paulo Sousa",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Junior Seau",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Matt Hasselbeck",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Stephen McGee",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Matt Holland",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Ernesto Lazzatti",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Anderson Luís de Abreu Oliveira",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Mike Hampton",
+            "object": "Pitcher"
+        },
+        {
+            "subject": "Egil Olsen",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Jordan Norberto",
+            "object": "Pitcher"
+        },
+        {
+            "subject": "Martin Coleman",
+            "object": "Fußballtorwart"
+        },
+        {
+            "subject": "Jim Zorn",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Luke Chadwick",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Nils Liedholm",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Pat Corrales",
+            "object": "Catcher"
+        },
+        {
+            "subject": "Abner Dalrymple",
+            "object": "Outfielder"
+        },
+        {
+            "subject": "Cory Schneider",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Darcy Kuemper",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Ryan Fraser",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Brian Maisonneuve",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Brian Labone",
+            "object": "Abwehrspieler"
+        },
+        {
+            "subject": "Derrick Thomas",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Gary Hogeboom",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Chuck Howley",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Francesco Bolzoni",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Jean Makoun",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Carey Price",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Rudy Carpenter",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Mikel Alonso",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Kirk Rueter",
+            "object": "Pitcher"
+        },
+        {
+            "subject": "Manny Ramirez",
+            "object": "Outfielder"
+        },
+        {
+            "subject": "Henk ten Cate",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Masaichi Kaneda",
+            "object": "Pitcher"
+        },
+        {
+            "subject": "Ross Barkley",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Daunte Culpepper",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Lee Sharpe",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Randy Gradishar",
+            "object": "Linebacker"
+        },
+        {
+            "subject": "Pud Galvin",
+            "object": "Pitcher"
+        },
+        {
+            "subject": "Carlos Alberto Torres",
+            "object": "Abwehrspieler"
+        },
+        {
+            "subject": "Woodrow Dantzler",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Drew Brees",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Garry Unger",
+            "object": "Centre"
+        },
+        {
+            "subject": "Bobby Layne",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Brad Thiessen",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Brent Krahn",
+            "object": "Eishockeytorwart"
+        },
+        {
+            "subject": "Joe Nuxhall",
+            "object": "Pitcher"
+        },
+        {
+            "subject": "Kalu Uche",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Kevin Craft",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Martin Ericsson",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Joe Theismann",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "Bob Meusel",
+            "object": "Outfielder"
+        },
+        {
+            "subject": "Ben Bennett",
+            "object": "Quarterback"
+        },
+        {
+            "subject": "David Mendes da Silva",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Andrea Pirlo",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Kerry Zavagnin",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Almen Abdi",
+            "object": "Mittelfeldspieler"
+        },
+        {
+            "subject": "Corey Patterson",
+            "object": "Outfielder"
+        },
+        {
+            "subject": "Bong Jung-keun",
+            "object": "Pitcher"
+        }
+    ]
+}

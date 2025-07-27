@@ -1,0 +1,146 @@
+{
+  "name": "person_band_lead_singer",
+  "prompt_templates": [
+    "{} is the lead singer of",
+    "{} performs as the lead singer of",
+    "{} is the lead vocalist of"
+  ],
+  "prompt_templates_zs": [
+    "{} is the lead singer of the band named",
+    "What band is {} lead singer of? They lead the band named"
+  ],
+  "properties": {
+    "relation_type": "factual",
+    "domain_name": "person",
+    "range_name": "band",
+    "symmetric": false
+  },
+  "samples": [
+    {
+      "subject": "Brian Johnson",
+      "object": "AC/DC",
+      "subject_id": "Q295948",
+      "object_id": "Q27593"
+    },
+    {
+      "subject": "Steven Tyler",
+      "object": "Aerosmith",
+      "subject_id": "Q194045",
+      "object_id": "Q126826"
+    },
+    {
+      "subject": "Chris Martin",
+      "object": "Coldplay",
+      "subject_id": "Q712860",
+      "object_id": "Q45188"
+    },
+    {
+      "subject": "Dave Grohl",
+      "object": "Foo Fighters",
+      "subject_id": "Q12006",
+      "object_id": "Q483718"
+    },
+    {
+      "subject": "Axl Rose",
+      "object": "Guns N' Roses",
+      "subject_id": "Q11885",
+      "object_id": "Q1049780"
+    },
+    {
+      "subject": "Robert Plant",
+      "object": "Led Zeppelin",
+      "subject_id": "Q428223",
+      "object_id": "Q2331"
+    },
+    {
+      "subject": "James Hetfield",
+      "object": "Metallica",
+      "subject_id": "Q484302",
+      "object_id": "Q15920"
+    },
+    {
+      "subject": "Kurt Cobain",
+      "object": "Nirvana",
+      "subject_id": "Q100514053",
+      "object_id": "Q11649"
+    },
+    {
+      "subject": "Freddie Mercury",
+      "object": "Queen",
+      "subject_id": "Q15869",
+      "object_id": "Q15862"
+    },
+    {
+      "subject": "Anthony Kiedis",
+      "object": "Red Hot Chili Peppers",
+      "subject_id": "Q204751",
+      "object_id": "Q10708"
+    },
+    {
+      "subject": "Mick Jagger",
+      "object": "The Rolling Stones",
+      "subject_id": "Q128121",
+      "object_id": "Q11036"
+    },
+    {
+      "subject": "John Lennon",
+      "object": "The Beatles",
+      "subject_id": "Q1203",
+      "object_id": "Q1299"
+    },
+    {
+      "subject": "Jim Morrison",
+      "object": "The Doors",
+      "subject_id": "Q44301",
+      "object_id": "Q45354"
+    },
+    {
+      "subject": "Bono",
+      "object": "U2",
+      "subject_id": "Q834621",
+      "object_id": "Q396"
+    },
+    {
+      "subject": "Ozzy Osbourne",
+      "object": "Black Sabbath",
+      "subject_id": "Q133151",
+      "object_id": "Q47670"
+    },
+    {
+      "subject": "Billie Joe Armstrong",
+      "object": "Green Day",
+      "subject_id": "Q712592",
+      "object_id": "Q47871"
+    },
+    {
+      "subject": "Eddie Vedder",
+      "object": "Pearl Jam",
+      "subject_id": "Q221535",
+      "object_id": "Q142701"
+    },
+    {
+      "subject": "Jon Bon Jovi",
+      "object": "Bon Jovi ",
+      "subject_id": "Q150916",
+      "object_id": "Q259254"
+    },
+    {
+      "subject": "Don Henley",
+      "object": "The Eagles",
+      "subject_id": "Q316454",
+      "object_id": "Q189635"
+    },
+    {
+      "subject": "Liam Gallagher",
+      "object": "Oasis",
+      "subject_id": "Q216708",
+      "object_id": "Q382890"
+    },
+    {
+      "subject": "Serj Tankian",
+      "object": "System of a Down",
+      "subject_id": "Q486063",
+      "object_id": "Q45165"
+    }
+  ]
+}

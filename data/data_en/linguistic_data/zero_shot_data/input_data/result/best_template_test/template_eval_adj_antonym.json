@@ -1,0 +1,26 @@
+{
+  "relation": "adj_antonym",
+  "template_scores": {
+    "The opposite of {} is": {
+      "average_first_token_prob": 0.324217529296875,
+      "reliability": 0.42,
+      "overall_score": 0.1361713623046875
+    },
+    "{} has the antonym": {
+      "average_first_token_prob": 0.0055322265625,
+      "reliability": 0.02,
+      "overall_score": 0.00011064453125
+    },
+    "What is the antonym of {}?": {
+      "average_first_token_prob": 0.0,
+      "reliability": 0.0,
+      "overall_score": 0.0
+    }
+  },
+  "best_template": "The opposite of {} is",
+  "best_template_metrics": {
+    "average_first_token_prob": 0.324217529296875,
+    "reliability": 0.42,
+    "overall_score": 0.1361713623046875
+  }
+}

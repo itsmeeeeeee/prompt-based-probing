@@ -1,0 +1,5182 @@
+[
+  {
+    "prompt": "Souvlaki es del país Grecia.\npizza es del país",
+    "generated_prefix": "Souvlaki es del país Grecia.\npizza es del país",
+    "gold_token": " Italia",
+    "predicted_top1_token": " Italia",
+    "token_pos_in_answer": 0,
+    "gold_logit": 18.578125,
+    "gold_prob_percent": 76.27,
+    "first_token_prob": 0.7626953125,
+    "second_token_prob": 0.06463623046875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Italia",
+        "logit": 18.578125,
+        "probability_percent": 76.27
+      },
+      {
+        "rank": 1,
+        "token": " It",
+        "logit": 16.109375,
+        "probability_percent": 6.46
+      },
+      {
+        "rank": 2,
+        "token": " italia",
+        "logit": 14.90625,
+        "probability_percent": 1.94
+      },
+      {
+        "rank": 3,
+        "token": " italiano",
+        "logit": 14.515625,
+        "probability_percent": 1.31
+      },
+      {
+        "rank": 4,
+        "token": " Italy",
+        "logit": 14.40625,
+        "probability_percent": 1.18
+      },
+      {
+        "rank": 5,
+        "token": " Argentina",
+        "logit": 14.3046875,
+        "probability_percent": 1.06
+      },
+      {
+        "rank": 6,
+        "token": " de",
+        "logit": 14.0546875,
+        "probability_percent": 0.83
+      },
+      {
+        "rank": 7,
+        "token": " IT",
+        "logit": 13.890625,
+        "probability_percent": 0.7
+      },
+      {
+        "rank": 8,
+        "token": " Estados",
+        "logit": 13.8359375,
+        "probability_percent": 0.67
+      },
+      {
+        "rank": 9,
+        "token": " Italian",
+        "logit": 13.7890625,
+        "probability_percent": 0.63
+      }
+    ]
+  },
+  {
+    "prompt": "Souvlaki es del país Grecia.\nsushi es del país",
+    "generated_prefix": "Souvlaki es del país Grecia.\nsushi es del país",
+    "gold_token": " Jap",
+    "predicted_top1_token": " Jap",
+    "token_pos_in_answer": 0,
+    "gold_logit": 18.875,
+    "gold_prob_percent": 68.7,
+    "first_token_prob": 0.68701171875,
+    "second_token_prob": 0.1533203125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Jap",
+        "logit": 18.875,
+        "probability_percent": 68.7
+      },
+      {
+        "rank": 1,
+        "token": " Japon",
+        "logit": 17.375,
+        "probability_percent": 15.33
+      },
+      {
+        "rank": 2,
+        "token": " japon",
+        "logit": 16.65625,
+        "probability_percent": 7.47
+      },
+      {
+        "rank": 3,
+        "token": " Japan",
+        "logit": 15.0859375,
+        "probability_percent": 1.55
+      },
+      {
+        "rank": 4,
+        "token": " jap",
+        "logit": 14.84375,
+        "probability_percent": 1.22
+      },
+      {
+        "rank": 5,
+        "token": " J",
+        "logit": 14.6953125,
+        "probability_percent": 1.05
+      },
+      {
+        "rank": 6,
+        "token": " de",
+        "logit": 14.5546875,
+        "probability_percent": 0.91
+      },
+      {
+        "rank": 7,
+        "token": " China",
+        "logit": 12.9921875,
+        "probability_percent": 0.19
+      },
+      {
+        "rank": 8,
+        "token": ":",
+        "logit": 12.5546875,
+        "probability_percent": 0.12
+      },
+      {
+        "rank": 9,
+        "token": " ",
+        "logit": 12.515625,
+        "probability_percent": 0.12
+      }
+    ]
+  },
+  {
+    "prompt": "Souvlaki es del país Grecia.\nsushi es del país",
+    "generated_prefix": "Souvlaki es del país Grecia.\nsushi es del país Jap",
+    "gold_token": "ón",
+    "predicted_top1_token": "ón",
+    "token_pos_in_answer": 1,
+    "gold_logit": 20.828125,
+    "gold_prob_percent": 96.29,
+    "first_token_prob": 0.68701171875,
+    "second_token_prob": 0.1533203125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ón",
+        "logit": 20.828125,
+        "probability_percent": 96.29
+      },
+      {
+        "rank": 1,
+        "token": "ones",
+        "logit": 17.3125,
+        "probability_percent": 2.86
+      },
+      {
+        "rank": 2,
+        "token": "òn",
+        "logit": 14.09375,
+        "probability_percent": 0.11
+      },
+      {
+        "rank": 3,
+        "token": "n",
+        "logit": 14.046875,
+        "probability_percent": 0.11
+      },
+      {
+        "rank": 4,
+        "token": "one",
+        "logit": 13.5703125,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 5,
+        "token": "en",
+        "logit": 13.2578125,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 6,
+        "token": "ó",
+        "logit": 13.234375,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 7,
+        "token": "án",
+        "logit": 13.1484375,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 8,
+        "token": "oen",
+        "logit": 13.03125,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 9,
+        "token": "én",
+        "logit": 12.8203125,
+        "probability_percent": 0.03
+      }
+    ]
+  },
+  {
+    "prompt": "Souvlaki es del país Grecia.\ntaco es del país",
+    "generated_prefix": "Souvlaki es del país Grecia.\ntaco es del país",
+    "gold_token": " México",
+    "predicted_top1_token": " México",
+    "token_pos_in_answer": 0,
+    "gold_logit": 18.125,
+    "gold_prob_percent": 58.59,
+    "first_token_prob": 0.5859375,
+    "second_token_prob": 0.09716796875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " México",
+        "logit": 18.125,
+        "probability_percent": 58.59
+      },
+      {
+        "rank": 1,
+        "token": " Mexico",
+        "logit": 16.328125,
+        "probability_percent": 9.72
+      },
+      {
+        "rank": 2,
+        "token": " Estados",
+        "logit": 15.6328125,
+        "probability_percent": 4.85
+      },
+      {
+        "rank": 3,
+        "token": " M",
+        "logit": 15.2421875,
+        "probability_percent": 3.28
+      },
+      {
+        "rank": 4,
+        "token": " Mex",
+        "logit": 15.1015625,
+        "probability_percent": 2.85
+      },
+      {
+        "rank": 5,
+        "token": " de",
+        "logit": 15.0078125,
+        "probability_percent": 2.6
+      },
+      {
+        "rank": 6,
+        "token": " Mé",
+        "logit": 14.921875,
+        "probability_percent": 2.38
+      },
+      {
+        "rank": 7,
+        "token": " mex",
+        "logit": 14.7265625,
+        "probability_percent": 1.96
+      },
+      {
+        "rank": 8,
+        "token": " mexico",
+        "logit": 14.5625,
+        "probability_percent": 1.66
+      },
+      {
+        "rank": 9,
+        "token": " USA",
+        "logit": 14.5078125,
+        "probability_percent": 1.57
+      }
+    ]
+  },
+  {
+    "prompt": "Souvlaki es del país Grecia.\nbaguette es del país",
+    "generated_prefix": "Souvlaki es del país Grecia.\nbaguette es del país",
+    "gold_token": " Franc",
+    "predicted_top1_token": " Franc",
+    "token_pos_in_answer": 0,
+    "gold_logit": 19.796875,
+    "gold_prob_percent": 93.8,
+    "first_token_prob": 0.93798828125,
+    "second_token_prob": 0.00484466552734375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Franc",
+        "logit": 19.796875,
+        "probability_percent": 93.8
+      },
+      {
+        "rank": 1,
+        "token": " fr",
+        "logit": 14.53125,
+        "probability_percent": 0.48
+      },
+      {
+        "rank": 2,
+        "token": " France",
+        "logit": 14.4375,
+        "probability_percent": 0.44
+      },
+      {
+        "rank": 3,
+        "token": " Fr",
+        "logit": 14.3515625,
+        "probability_percent": 0.41
+      },
+      {
+        "rank": 4,
+        "token": " de",
+        "logit": 14.3203125,
+        "probability_percent": 0.39
+      },
+      {
+        "rank": 5,
+        "token": " Fran",
+        "logit": 14.2578125,
+        "probability_percent": 0.37
+      },
+      {
+        "rank": 6,
+        "token": " G",
+        "logit": 14.1640625,
+        "probability_percent": 0.34
+      },
+      {
+        "rank": 7,
+        "token": " Frances",
+        "logit": 14.0078125,
+        "probability_percent": 0.29
+      },
+      {
+        "rank": 8,
+        "token": " B",
+        "logit": 13.671875,
+        "probability_percent": 0.21
+      },
+      {
+        "rank": 9,
+        "token": " franc",
+        "logit": 13.59375,
+        "probability_percent": 0.19
+      }
+    ]
+  },
+  {
+    "prompt": "Souvlaki es del país Grecia.\nbaguette es del país",
+    "generated_prefix": "Souvlaki es del país Grecia.\nbaguette es del país Franc",
+    "gold_token": "ia",
+    "predicted_top1_token": "ia",
+    "token_pos_in_answer": 1,
+    "gold_logit": 22.421875,
+    "gold_prob_percent": 99.07,
+    "first_token_prob": 0.93798828125,
+    "second_token_prob": 0.00484466552734375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ia",
+        "logit": 22.421875,
+        "probability_percent": 99.07
+      },
+      {
+        "rank": 1,
+        "token": "és",
+        "logit": 17.390625,
+        "probability_percent": 0.65
+      },
+      {
+        "rank": 2,
+        "token": "ía",
+        "logit": 15.546875,
+        "probability_percent": 0.1
+      },
+      {
+        "rank": 3,
+        "token": "ias",
+        "logit": 14.0390625,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 4,
+        "token": "ès",
+        "logit": 13.9140625,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 5,
+        "token": "iac",
+        "logit": 13.4375,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 6,
+        "token": "é",
+        "logit": 13.1796875,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 7,
+        "token": "ese",
+        "logit": 12.953125,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 8,
+        "token": "i",
+        "logit": 12.90625,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 9,
+        "token": "ja",
+        "logit": 12.296875,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "Souvlaki es del país Grecia.\nPoutine es del país",
+    "generated_prefix": "Souvlaki es del país Grecia.\nPoutine es del país",
+    "gold_token": " Can",
+    "predicted_top1_token": " Rus",
+    "token_pos_in_answer": 0,
+    "gold_logit": 17.0,
+    "gold_prob_percent": 13.68,
+    "first_token_prob": 0.6328125,
+    "second_token_prob": 0.1368408203125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Rus",
+        "logit": 18.53125,
+        "probability_percent": 63.28
+      },
+      {
+        "rank": 1,
+        "token": " Can",
+        "logit": 17.0,
+        "probability_percent": 13.68
+      },
+      {
+        "rank": 2,
+        "token": " R",
+        "logit": 16.296875,
+        "probability_percent": 6.77
+      },
+      {
+        "rank": 3,
+        "token": " Franc",
+        "logit": 15.9375,
+        "probability_percent": 4.73
+      },
+      {
+        "rank": 4,
+        "token": " r",
+        "logit": 14.890625,
+        "probability_percent": 1.66
+      },
+      {
+        "rank": 5,
+        "token": " de",
+        "logit": 14.78125,
+        "probability_percent": 1.49
+      },
+      {
+        "rank": 6,
+        "token": " U",
+        "logit": 14.2265625,
+        "probability_percent": 0.85
+      },
+      {
+        "rank": 7,
+        "token": " Canada",
+        "logit": 14.046875,
+        "probability_percent": 0.71
+      },
+      {
+        "rank": 8,
+        "token": " Russia",
+        "logit": 13.921875,
+        "probability_percent": 0.63
+      },
+      {
+        "rank": 9,
+        "token": " Pol",
+        "logit": 13.546875,
+        "probability_percent": 0.43
+      }
+    ]
+  },
+  {
+    "prompt": "Souvlaki es del país Grecia.\nPoutine es del país",
+    "generated_prefix": "Souvlaki es del país Grecia.\nPoutine es del país Rus",
+    "gold_token": "ad",
+    "predicted_top1_token": "ia",
+    "token_pos_in_answer": 1,
+    "gold_logit": 6.890625,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.6328125,
+    "second_token_prob": 0.1368408203125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ia",
+        "logit": 21.796875,
+        "probability_percent": 97.22
+      },
+      {
+        "rank": 1,
+        "token": "o",
+        "logit": 17.84375,
+        "probability_percent": 1.87
+      },
+      {
+        "rank": 2,
+        "token": ".\n",
+        "logit": 16.53125,
+        "probability_percent": 0.5
+      },
+      {
+        "rank": 3,
+        "token": "io",
+        "logit": 14.2421875,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 4,
+        "token": ".",
+        "logit": 14.1875,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 5,
+        "token": "os",
+        "logit": 13.984375,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 6,
+        "token": "\n",
+        "logit": 13.7421875,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 7,
+        "token": "ía",
+        "logit": 13.2578125,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 8,
+        "token": "ias",
+        "logit": 13.140625,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 9,
+        "token": "i",
+        "logit": 13.0,
+        "probability_percent": 0.01
+      }
+    ]
+  },
+  {
+    "prompt": "Souvlaki es del país Grecia.\nPoutine es del país",
+    "generated_prefix": "Souvlaki es del país Grecia.\nPoutine es del país Rusia",
+    "gold_token": "á",
+    "predicted_top1_token": ".\n",
+    "token_pos_in_answer": 2,
+    "gold_logit": 6.8828125,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.6328125,
+    "second_token_prob": 0.1368408203125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": ".\n",
+        "logit": 20.78125,
+        "probability_percent": 83.98
+      },
+      {
+        "rank": 1,
+        "token": ".",
+        "logit": 18.109375,
+        "probability_percent": 5.81
+      },
+      {
+        "rank": 2,
+        "token": " y",
+        "logit": 17.203125,
+        "probability_percent": 2.35
+      },
+      {
+        "rank": 3,
+        "token": "\n",
+        "logit": 17.109375,
+        "probability_percent": 2.14
+      },
+      {
+        "rank": 4,
+        "token": ",",
+        "logit": 17.09375,
+        "probability_percent": 2.1
+      },
+      {
+        "rank": 5,
+        "token": ".\n\n",
+        "logit": 16.484375,
+        "probability_percent": 1.14
+      },
+      {
+        "rank": 6,
+        "token": " o",
+        "logit": 15.265625,
+        "probability_percent": 0.34
+      },
+      {
+        "rank": 7,
+        "token": " .\n",
+        "logit": 15.2265625,
+        "probability_percent": 0.33
+      },
+      {
+        "rank": 8,
+        "token": " (",
+        "logit": 14.9609375,
+        "probability_percent": 0.25
+      },
+      {
+        "rank": 9,
+        "token": " pero",
+        "logit": 13.8046875,
+        "probability_percent": 0.08
+      }
+    ]
+  },
+  {
+    "prompt": "Souvlaki es del país Grecia.\npaella es del país",
+    "generated_prefix": "Souvlaki es del país Grecia.\npaella es del país",
+    "gold_token": " España",
+    "predicted_top1_token": " España",
+    "token_pos_in_answer": 0,
+    "gold_logit": 19.046875,
+    "gold_prob_percent": 75.63,
+    "first_token_prob": 0.75634765625,
+    "second_token_prob": 0.09033203125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " España",
+        "logit": 19.046875,
+        "probability_percent": 75.63
+      },
+      {
+        "rank": 1,
+        "token": " E",
+        "logit": 16.921875,
+        "probability_percent": 9.03
+      },
+      {
+        "rank": 2,
+        "token": " Esp",
+        "logit": 15.671875,
+        "probability_percent": 2.59
+      },
+      {
+        "rank": 3,
+        "token": " Españ",
+        "logit": 15.359375,
+        "probability_percent": 1.89
+      },
+      {
+        "rank": 4,
+        "token": " Spain",
+        "logit": 14.9296875,
+        "probability_percent": 1.23
+      },
+      {
+        "rank": 5,
+        "token": " español",
+        "logit": 14.5390625,
+        "probability_percent": 0.83
+      },
+      {
+        "rank": 6,
+        "token": " de",
+        "logit": 14.4375,
+        "probability_percent": 0.75
+      },
+      {
+        "rank": 7,
+        "token": " espa",
+        "logit": 14.3046875,
+        "probability_percent": 0.66
+      },
+      {
+        "rank": 8,
+        "token": " Venezuela",
+        "logit": 14.0,
+        "probability_percent": 0.49
+      },
+      {
+        "rank": 9,
+        "token": " Pa",
+        "logit": 13.703125,
+        "probability_percent": 0.36
+      }
+    ]
+  },
+  {
+    "prompt": "Souvlaki es del país Grecia.\nchimichurri es del país",
+    "generated_prefix": "Souvlaki es del país Grecia.\nchimichurri es del país",
+    "gold_token": " Argentina",
+    "predicted_top1_token": " Argentina",
+    "token_pos_in_answer": 0,
+    "gold_logit": 19.671875,
+    "gold_prob_percent": 79.05,
+    "first_token_prob": 0.79052734375,
+    "second_token_prob": 0.11212158203125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Argentina",
+        "logit": 19.671875,
+        "probability_percent": 79.05
+      },
+      {
+        "rank": 1,
+        "token": " Uruguay",
+        "logit": 17.71875,
+        "probability_percent": 11.21
+      },
+      {
+        "rank": 2,
+        "token": " Arg",
+        "logit": 16.171875,
+        "probability_percent": 2.39
+      },
+      {
+        "rank": 3,
+        "token": " de",
+        "logit": 15.0703125,
+        "probability_percent": 0.79
+      },
+      {
+        "rank": 4,
+        "token": " Ar",
+        "logit": 14.8203125,
+        "probability_percent": 0.62
+      },
+      {
+        "rank": 5,
+        "token": " Ur",
+        "logit": 14.75,
+        "probability_percent": 0.58
+      },
+      {
+        "rank": 6,
+        "token": " argent",
+        "logit": 14.34375,
+        "probability_percent": 0.38
+      },
+      {
+        "rank": 7,
+        "token": " ur",
+        "logit": 13.7890625,
+        "probability_percent": 0.22
+      },
+      {
+        "rank": 8,
+        "token": " Chile",
+        "logit": 13.640625,
+        "probability_percent": 0.19
+      },
+      {
+        "rank": 9,
+        "token": " Par",
+        "logit": 13.609375,
+        "probability_percent": 0.18
+      }
+    ]
+  },
+  {
+    "prompt": "Souvlaki es del país Grecia.\nbaklava es del país",
+    "generated_prefix": "Souvlaki es del país Grecia.\nbaklava es del país",
+    "gold_token": " Tur",
+    "predicted_top1_token": " Tur",
+    "token_pos_in_answer": 0,
+    "gold_logit": 18.015625,
+    "gold_prob_percent": 71.39,
+    "first_token_prob": 0.7138671875,
+    "second_token_prob": 0.1165771484375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Tur",
+        "logit": 18.015625,
+        "probability_percent": 71.39
+      },
+      {
+        "rank": 1,
+        "token": " G",
+        "logit": 16.203125,
+        "probability_percent": 11.66
+      },
+      {
+        "rank": 2,
+        "token": " T",
+        "logit": 14.890625,
+        "probability_percent": 3.14
+      },
+      {
+        "rank": 3,
+        "token": " L",
+        "logit": 13.890625,
+        "probability_percent": 1.15
+      },
+      {
+        "rank": 4,
+        "token": " tur",
+        "logit": 13.8671875,
+        "probability_percent": 1.13
+      },
+      {
+        "rank": 5,
+        "token": " Turkey",
+        "logit": 13.59375,
+        "probability_percent": 0.86
+      },
+      {
+        "rank": 6,
+        "token": " de",
+        "logit": 13.4140625,
+        "probability_percent": 0.72
+      },
+      {
+        "rank": 7,
+        "token": " Sir",
+        "logit": 13.3046875,
+        "probability_percent": 0.64
+      },
+      {
+        "rank": 8,
+        "token": " gri",
+        "logit": 13.203125,
+        "probability_percent": 0.58
+      },
+      {
+        "rank": 9,
+        "token": " Turk",
+        "logit": 13.1953125,
+        "probability_percent": 0.58
+      }
+    ]
+  },
+  {
+    "prompt": "Souvlaki es del país Grecia.\nbaklava es del país",
+    "generated_prefix": "Souvlaki es del país Grecia.\nbaklava es del país Tur",
+    "gold_token": "qu",
+    "predicted_top1_token": "quia",
+    "token_pos_in_answer": 1,
+    "gold_logit": 19.890625,
+    "gold_prob_percent": 27.98,
+    "first_token_prob": 0.7138671875,
+    "second_token_prob": 0.1165771484375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "quia",
+        "logit": 20.703125,
+        "probability_percent": 63.04
+      },
+      {
+        "rank": 1,
+        "token": "qu",
+        "logit": 19.890625,
+        "probability_percent": 27.98
+      },
+      {
+        "rank": 2,
+        "token": "cia",
+        "logit": 17.96875,
+        "probability_percent": 4.09
+      },
+      {
+        "rank": 3,
+        "token": "co",
+        "logit": 17.65625,
+        "probability_percent": 3.0
+      },
+      {
+        "rank": 4,
+        "token": "ca",
+        "logit": 15.453125,
+        "probability_percent": 0.33
+      },
+      {
+        "rank": 5,
+        "token": "c",
+        "logit": 15.28125,
+        "probability_percent": 0.28
+      },
+      {
+        "rank": 6,
+        "token": "qua",
+        "logit": 14.3203125,
+        "probability_percent": 0.11
+      },
+      {
+        "rank": 7,
+        "token": "cos",
+        "logit": 14.0703125,
+        "probability_percent": 0.08
+      },
+      {
+        "rank": 8,
+        "token": "ke",
+        "logit": 14.046875,
+        "probability_percent": 0.08
+      },
+      {
+        "rank": 9,
+        "token": "que",
+        "logit": 13.953125,
+        "probability_percent": 0.07
+      }
+    ]
+  },
+  {
+    "prompt": "Souvlaki es del país Grecia.\nbaklava es del país",
+    "generated_prefix": "Souvlaki es del país Grecia.\nbaklava es del país Turquia",
+    "gold_token": "ía",
+    "predicted_top1_token": ".\n",
+    "token_pos_in_answer": 2,
+    "gold_logit": 4.95703125,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.7138671875,
+    "second_token_prob": 0.1165771484375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": ".\n",
+        "logit": 19.390625,
+        "probability_percent": 74.02
+      },
+      {
+        "rank": 1,
+        "token": "\n",
+        "logit": 17.203125,
+        "probability_percent": 8.31
+      },
+      {
+        "rank": 2,
+        "token": ".",
+        "logit": 17.03125,
+        "probability_percent": 6.99
+      },
+      {
+        "rank": 3,
+        "token": " y",
+        "logit": 15.96875,
+        "probability_percent": 2.42
+      },
+      {
+        "rank": 4,
+        "token": ",",
+        "logit": 15.6953125,
+        "probability_percent": 1.84
+      },
+      {
+        "rank": 5,
+        "token": ".\n\n",
+        "logit": 15.234375,
+        "probability_percent": 1.16
+      },
+      {
+        "rank": 6,
+        "token": " .\n",
+        "logit": 14.4765625,
+        "probability_percent": 0.54
+      },
+      {
+        "rank": 7,
+        "token": "<|end_of_text|>",
+        "logit": 14.328125,
+        "probability_percent": 0.47
+      },
+      {
+        "rank": 8,
+        "token": " o",
+        "logit": 14.2578125,
+        "probability_percent": 0.44
+      },
+      {
+        "rank": 9,
+        "token": ",\n",
+        "logit": 13.78125,
+        "probability_percent": 0.27
+      }
+    ]
+  },
+  {
+    "prompt": "Souvlaki es del país Grecia.\nfeijoada es del país",
+    "generated_prefix": "Souvlaki es del país Grecia.\nfeijoada es del país",
+    "gold_token": " Brasil",
+    "predicted_top1_token": " Brasil",
+    "token_pos_in_answer": 0,
+    "gold_logit": 20.046875,
+    "gold_prob_percent": 89.26,
+    "first_token_prob": 0.892578125,
+    "second_token_prob": 0.023406982421875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Brasil",
+        "logit": 20.046875,
+        "probability_percent": 89.26
+      },
+      {
+        "rank": 1,
+        "token": " Brazil",
+        "logit": 16.40625,
+        "probability_percent": 2.34
+      },
+      {
+        "rank": 2,
+        "token": " Br",
+        "logit": 16.078125,
+        "probability_percent": 1.69
+      },
+      {
+        "rank": 3,
+        "token": " de",
+        "logit": 15.7265625,
+        "probability_percent": 1.19
+      },
+      {
+        "rank": 4,
+        "token": " Bras",
+        "logit": 15.5625,
+        "probability_percent": 1.01
+      },
+      {
+        "rank": 5,
+        "token": " brasile",
+        "logit": 14.84375,
+        "probability_percent": 0.49
+      },
+      {
+        "rank": 6,
+        "token": " br",
+        "logit": 14.8046875,
+        "probability_percent": 0.47
+      },
+      {
+        "rank": 7,
+        "token": " BR",
+        "logit": 14.4765625,
+        "probability_percent": 0.34
+      },
+      {
+        "rank": 8,
+        "token": " del",
+        "logit": 14.46875,
+        "probability_percent": 0.34
+      },
+      {
+        "rank": 9,
+        "token": "Br",
+        "logit": 14.109375,
+        "probability_percent": 0.24
+      }
+    ]
+  },
+  {
+    "prompt": "Souvlaki es del país Grecia.\nborsch es del país",
+    "generated_prefix": "Souvlaki es del país Grecia.\nborsch es del país",
+    "gold_token": " U",
+    "predicted_top1_token": " Rus",
+    "token_pos_in_answer": 0,
+    "gold_logit": 16.796875,
+    "gold_prob_percent": 29.81,
+    "first_token_prob": 0.3828125,
+    "second_token_prob": 0.298095703125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Rus",
+        "logit": 17.046875,
+        "probability_percent": 38.28
+      },
+      {
+        "rank": 1,
+        "token": " U",
+        "logit": 16.796875,
+        "probability_percent": 29.81
+      },
+      {
+        "rank": 2,
+        "token": " Bi",
+        "logit": 15.1484375,
+        "probability_percent": 5.73
+      },
+      {
+        "rank": 3,
+        "token": " Pol",
+        "logit": 15.0234375,
+        "probability_percent": 5.06
+      },
+      {
+        "rank": 4,
+        "token": " R",
+        "logit": 14.5703125,
+        "probability_percent": 3.22
+      },
+      {
+        "rank": 5,
+        "token": " de",
+        "logit": 13.90625,
+        "probability_percent": 1.66
+      },
+      {
+        "rank": 6,
+        "token": " r",
+        "logit": 13.6875,
+        "probability_percent": 1.33
+      },
+      {
+        "rank": 7,
+        "token": " Russia",
+        "logit": 13.4609375,
+        "probability_percent": 1.06
+      },
+      {
+        "rank": 8,
+        "token": " Let",
+        "logit": 12.9765625,
+        "probability_percent": 0.65
+      },
+      {
+        "rank": 9,
+        "token": " Es",
+        "logit": 12.96875,
+        "probability_percent": 0.65
+      }
+    ]
+  },
+  {
+    "prompt": "Souvlaki es del país Grecia.\nborsch es del país",
+    "generated_prefix": "Souvlaki es del país Grecia.\nborsch es del país Rus",
+    "gold_token": "cr",
+    "predicted_top1_token": "ia",
+    "token_pos_in_answer": 1,
+    "gold_logit": 7.234375,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.3828125,
+    "second_token_prob": 0.298095703125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ia",
+        "logit": 21.46875,
+        "probability_percent": 98.73
+      },
+      {
+        "rank": 1,
+        "token": "o",
+        "logit": 16.25,
+        "probability_percent": 0.53
+      },
+      {
+        "rank": 2,
+        "token": ".\n",
+        "logit": 15.3359375,
+        "probability_percent": 0.21
+      },
+      {
+        "rank": 3,
+        "token": "os",
+        "logit": 13.8203125,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 4,
+        "token": "i",
+        "logit": 13.7578125,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 5,
+        "token": "ian",
+        "logit": 13.6875,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 6,
+        "token": "\n",
+        "logit": 13.4296875,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 7,
+        "token": "ias",
+        "logit": 13.2265625,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 8,
+        "token": "io",
+        "logit": 13.03125,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 9,
+        "token": ".",
+        "logit": 12.9140625,
+        "probability_percent": 0.02
+      }
+    ]
+  },
+  {
+    "prompt": "Souvlaki es del país Grecia.\nborsch es del país",
+    "generated_prefix": "Souvlaki es del país Grecia.\nborsch es del país Rusia",
+    "gold_token": "ania",
+    "predicted_top1_token": ".\n",
+    "token_pos_in_answer": 2,
+    "gold_logit": 6.28515625,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.3828125,
+    "second_token_prob": 0.298095703125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": ".\n",
+        "logit": 19.59375,
+        "probability_percent": 79.93
+      },
+      {
+        "rank": 1,
+        "token": "\n",
+        "logit": 16.90625,
+        "probability_percent": 5.44
+      },
+      {
+        "rank": 2,
+        "token": ".",
+        "logit": 16.671875,
+        "probability_percent": 4.3
+      },
+      {
+        "rank": 3,
+        "token": ",",
+        "logit": 16.140625,
+        "probability_percent": 2.53
+      },
+      {
+        "rank": 4,
+        "token": " y",
+        "logit": 15.9453125,
+        "probability_percent": 2.08
+      },
+      {
+        "rank": 5,
+        "token": " o",
+        "logit": 15.34375,
+        "probability_percent": 1.14
+      },
+      {
+        "rank": 6,
+        "token": ".\n\n",
+        "logit": 14.671875,
+        "probability_percent": 0.58
+      },
+      {
+        "rank": 7,
+        "token": " (",
+        "logit": 14.4765625,
+        "probability_percent": 0.48
+      },
+      {
+        "rank": 8,
+        "token": " .\n",
+        "logit": 14.4375,
+        "probability_percent": 0.46
+      },
+      {
+        "rank": 9,
+        "token": ",\n",
+        "logit": 13.390625,
+        "probability_percent": 0.16
+      }
+    ]
+  },
+  {
+    "prompt": "Souvlaki es del país Grecia.\npescado con papas fritas es del país",
+    "generated_prefix": "Souvlaki es del país Grecia.\npescado con papas fritas es del país",
+    "gold_token": " Re",
+    "predicted_top1_token": " Estados",
+    "token_pos_in_answer": 0,
+    "gold_logit": 13.6328125,
+    "gold_prob_percent": 2.12,
+    "first_token_prob": 0.149169921875,
+    "second_token_prob": 0.130615234375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Estados",
+        "logit": 15.5859375,
+        "probability_percent": 14.92
+      },
+      {
+        "rank": 1,
+        "token": " España",
+        "logit": 15.453125,
+        "probability_percent": 13.06
+      },
+      {
+        "rank": 2,
+        "token": " G",
+        "logit": 14.5625,
+        "probability_percent": 5.36
+      },
+      {
+        "rank": 3,
+        "token": " Ale",
+        "logit": 14.5546875,
+        "probability_percent": 5.32
+      },
+      {
+        "rank": 4,
+        "token": " Argentina",
+        "logit": 14.3203125,
+        "probability_percent": 4.21
+      },
+      {
+        "rank": 5,
+        "token": " Franc",
+        "logit": 13.90625,
+        "probability_percent": 2.78
+      },
+      {
+        "rank": 6,
+        "token": " Colombia",
+        "logit": 13.875,
+        "probability_percent": 2.7
+      },
+      {
+        "rank": 7,
+        "token": " México",
+        "logit": 13.828125,
+        "probability_percent": 2.57
+      },
+      {
+        "rank": 8,
+        "token": " Chile",
+        "logit": 13.75,
+        "probability_percent": 2.38
+      },
+      {
+        "rank": 9,
+        "token": " EE",
+        "logit": 13.671875,
+        "probability_percent": 2.2
+      }
+    ]
+  },
+  {
+    "prompt": "Souvlaki es del país Grecia.\npescado con papas fritas es del país",
+    "generated_prefix": "Souvlaki es del país Grecia.\npescado con papas fritas es del país Estados",
+    "gold_token": "ino",
+    "predicted_top1_token": " Unidos",
+    "token_pos_in_answer": 1,
+    "gold_logit": 4.2734375,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.149169921875,
+    "second_token_prob": 0.130615234375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Unidos",
+        "logit": 21.6875,
+        "probability_percent": 97.27
+      },
+      {
+        "rank": 1,
+        "token": " Un",
+        "logit": 17.453125,
+        "probability_percent": 1.41
+      },
+      {
+        "rank": 2,
+        "token": " un",
+        "logit": 16.421875,
+        "probability_percent": 0.5
+      },
+      {
+        "rank": 3,
+        "token": "-Un",
+        "logit": 14.8828125,
+        "probability_percent": 0.11
+      },
+      {
+        "rank": 4,
+        "token": "\n",
+        "logit": 14.875,
+        "probability_percent": 0.11
+      },
+      {
+        "rank": 5,
+        "token": "Un",
+        "logit": 14.375,
+        "probability_percent": 0.06
+      },
+      {
+        "rank": 6,
+        "token": ".\n",
+        "logit": 14.2578125,
+        "probability_percent": 0.06
+      },
+      {
+        "rank": 7,
+        "token": "-",
+        "logit": 13.953125,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 8,
+        "token": " ",
+        "logit": 13.7421875,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 9,
+        "token": "un",
+        "logit": 13.703125,
+        "probability_percent": 0.03
+      }
+    ]
+  },
+  {
+    "prompt": "Souvlaki es del país Grecia.\npescado con papas fritas es del país",
+    "generated_prefix": "Souvlaki es del país Grecia.\npescado con papas fritas es del país Estados Unidos",
+    "gold_token": " Un",
+    "predicted_top1_token": ".\n",
+    "token_pos_in_answer": 2,
+    "gold_logit": 10.5078125,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.149169921875,
+    "second_token_prob": 0.130615234375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": ".\n",
+        "logit": 20.421875,
+        "probability_percent": 74.8
+      },
+      {
+        "rank": 1,
+        "token": " de",
+        "logit": 18.65625,
+        "probability_percent": 12.79
+      },
+      {
+        "rank": 2,
+        "token": "\n",
+        "logit": 17.53125,
+        "probability_percent": 4.15
+      },
+      {
+        "rank": 3,
+        "token": ".",
+        "logit": 17.015625,
+        "probability_percent": 2.48
+      },
+      {
+        "rank": 4,
+        "token": " y",
+        "logit": 16.234375,
+        "probability_percent": 1.14
+      },
+      {
+        "rank": 5,
+        "token": ".\n\n",
+        "logit": 15.9453125,
+        "probability_percent": 0.85
+      },
+      {
+        "rank": 6,
+        "token": ",",
+        "logit": 15.8828125,
+        "probability_percent": 0.8
+      },
+      {
+        "rank": 7,
+        "token": " .\n",
+        "logit": 15.8125,
+        "probability_percent": 0.74
+      },
+      {
+        "rank": 8,
+        "token": " (",
+        "logit": 15.25,
+        "probability_percent": 0.42
+      },
+      {
+        "rank": 9,
+        "token": " del",
+        "logit": 14.5859375,
+        "probability_percent": 0.22
+      }
+    ]
+  },
+  {
+    "prompt": "Souvlaki es del país Grecia.\npescado con papas fritas es del país",
+    "generated_prefix": "Souvlaki es del país Grecia.\npescado con papas fritas es del país Estados Unidos.\n",
+    "gold_token": "ido",
+    "predicted_top1_token": "s",
+    "token_pos_in_answer": 3,
+    "gold_logit": 3.818359375,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.149169921875,
+    "second_token_prob": 0.130615234375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "s",
+        "logit": 13.328125,
+        "probability_percent": 5.73
+      },
+      {
+        "rank": 1,
+        "token": "p",
+        "logit": 13.046875,
+        "probability_percent": 4.32
+      },
+      {
+        "rank": 2,
+        "token": "el",
+        "logit": 12.390625,
+        "probability_percent": 2.24
+      },
+      {
+        "rank": 3,
+        "token": "t",
+        "logit": 12.34375,
+        "probability_percent": 2.14
+      },
+      {
+        "rank": 4,
+        "token": "f",
+        "logit": 12.0703125,
+        "probability_percent": 1.63
+      },
+      {
+        "rank": 5,
+        "token": "la",
+        "logit": 12.0625,
+        "probability_percent": 1.61
+      },
+      {
+        "rank": 6,
+        "token": "pollo",
+        "logit": 12.03125,
+        "probability_percent": 1.57
+      },
+      {
+        "rank": 7,
+        "token": "El",
+        "logit": 11.953125,
+        "probability_percent": 1.45
+      },
+      {
+        "rank": 8,
+        "token": "ch",
+        "logit": 11.859375,
+        "probability_percent": 1.32
+      },
+      {
+        "rank": 9,
+        "token": "P",
+        "logit": 11.8359375,
+        "probability_percent": 1.29
+      }
+    ]
+  },
+  {
+    "prompt": "Souvlaki es del país Grecia.\nDim sum es del país",
+    "generated_prefix": "Souvlaki es del país Grecia.\nDim sum es del país",
+    "gold_token": " Rep",
+    "predicted_top1_token": " China",
+    "token_pos_in_answer": 0,
+    "gold_logit": 14.1015625,
+    "gold_prob_percent": 1.61,
+    "first_token_prob": 0.61767578125,
+    "second_token_prob": 0.1536865234375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " China",
+        "logit": 17.75,
+        "probability_percent": 61.77
+      },
+      {
+        "rank": 1,
+        "token": " Hong",
+        "logit": 16.359375,
+        "probability_percent": 15.37
+      },
+      {
+        "rank": 2,
+        "token": " de",
+        "logit": 15.234375,
+        "probability_percent": 4.99
+      },
+      {
+        "rank": 3,
+        "token": " Tai",
+        "logit": 14.5625,
+        "probability_percent": 2.55
+      },
+      {
+        "rank": 4,
+        "token": " Rep",
+        "logit": 14.1015625,
+        "probability_percent": 1.61
+      },
+      {
+        "rank": 5,
+        "token": " china",
+        "logit": 13.8203125,
+        "probability_percent": 1.21
+      },
+      {
+        "rank": 6,
+        "token": " Ch",
+        "logit": 13.7734375,
+        "probability_percent": 1.16
+      },
+      {
+        "rank": 7,
+        "token": " Sing",
+        "logit": 13.578125,
+        "probability_percent": 0.95
+      },
+      {
+        "rank": 8,
+        "token": " T",
+        "logit": 13.078125,
+        "probability_percent": 0.58
+      },
+      {
+        "rank": 9,
+        "token": " Chin",
+        "logit": 13.078125,
+        "probability_percent": 0.58
+      }
+    ]
+  },
+  {
+    "prompt": "Souvlaki es del país Grecia.\nDim sum es del país",
+    "generated_prefix": "Souvlaki es del país Grecia.\nDim sum es del país China",
+    "gold_token": "ública",
+    "predicted_top1_token": ".\n",
+    "token_pos_in_answer": 1,
+    "gold_logit": 5.37890625,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.61767578125,
+    "second_token_prob": 0.1536865234375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": ".\n",
+        "logit": 19.328125,
+        "probability_percent": 83.45
+      },
+      {
+        "rank": 1,
+        "token": ".",
+        "logit": 16.453125,
+        "probability_percent": 4.71
+      },
+      {
+        "rank": 2,
+        "token": " y",
+        "logit": 16.015625,
+        "probability_percent": 3.04
+      },
+      {
+        "rank": 3,
+        "token": ",",
+        "logit": 15.859375,
+        "probability_percent": 2.6
+      },
+      {
+        "rank": 4,
+        "token": "\n",
+        "logit": 15.46875,
+        "probability_percent": 1.76
+      },
+      {
+        "rank": 5,
+        "token": ".\n\n",
+        "logit": 15.0,
+        "probability_percent": 1.1
+      },
+      {
+        "rank": 6,
+        "token": " .\n",
+        "logit": 13.9140625,
+        "probability_percent": 0.37
+      },
+      {
+        "rank": 7,
+        "token": " (",
+        "logit": 13.875,
+        "probability_percent": 0.36
+      },
+      {
+        "rank": 8,
+        "token": " o",
+        "logit": 13.140625,
+        "probability_percent": 0.17
+      },
+      {
+        "rank": 9,
+        "token": " pero",
+        "logit": 12.71875,
+        "probability_percent": 0.11
+      }
+    ]
+  },
+  {
+    "prompt": "Souvlaki es del país Grecia.\nDim sum es del país",
+    "generated_prefix": "Souvlaki es del país Grecia.\nDim sum es del país China.\n",
+    "gold_token": " Popular",
+    "predicted_top1_token": "S",
+    "token_pos_in_answer": 2,
+    "gold_logit": -1.232421875,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.61767578125,
+    "second_token_prob": 0.1536865234375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "S",
+        "logit": 13.8046875,
+        "probability_percent": 4.36
+      },
+      {
+        "rank": 1,
+        "token": "T",
+        "logit": 13.78125,
+        "probability_percent": 4.26
+      },
+      {
+        "rank": 2,
+        "token": "P",
+        "logit": 13.6953125,
+        "probability_percent": 3.91
+      },
+      {
+        "rank": 3,
+        "token": "En",
+        "logit": 13.53125,
+        "probability_percent": 3.32
+      },
+      {
+        "rank": 4,
+        "token": "G",
+        "logit": 13.390625,
+        "probability_percent": 2.89
+      },
+      {
+        "rank": 5,
+        "token": "C",
+        "logit": 13.28125,
+        "probability_percent": 2.59
+      },
+      {
+        "rank": 6,
+        "token": "F",
+        "logit": 13.1953125,
+        "probability_percent": 2.37
+      },
+      {
+        "rank": 7,
+        "token": "B",
+        "logit": 13.1484375,
+        "probability_percent": 2.26
+      },
+      {
+        "rank": 8,
+        "token": "El",
+        "logit": 13.1484375,
+        "probability_percent": 2.26
+      },
+      {
+        "rank": 9,
+        "token": "K",
+        "logit": 13.0390625,
+        "probability_percent": 2.03
+      }
+    ]
+  },
+  {
+    "prompt": "Souvlaki es del país Grecia.\nDim sum es del país",
+    "generated_prefix": "Souvlaki es del país Grecia.\nDim sum es del país China.\nS",
+    "gold_token": " China",
+    "predicted_top1_token": "ushi",
+    "token_pos_in_answer": 3,
+    "gold_logit": 0.97412109375,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.61767578125,
+    "second_token_prob": 0.1536865234375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ushi",
+        "logit": 16.328125,
+        "probability_percent": 31.91
+      },
+      {
+        "rank": 1,
+        "token": "opa",
+        "logit": 15.8203125,
+        "probability_percent": 19.2
+      },
+      {
+        "rank": 2,
+        "token": "ash",
+        "logit": 15.234375,
+        "probability_percent": 10.69
+      },
+      {
+        "rank": 3,
+        "token": "ush",
+        "logit": 13.9453125,
+        "probability_percent": 2.94
+      },
+      {
+        "rank": 4,
+        "token": "alsa",
+        "logit": 13.40625,
+        "probability_percent": 1.72
+      },
+      {
+        "rank": 5,
+        "token": "alm",
+        "logit": 13.3125,
+        "probability_percent": 1.56
+      },
+      {
+        "rank": 6,
+        "token": "ang",
+        "logit": 13.3046875,
+        "probability_percent": 1.55
+      },
+      {
+        "rank": 7,
+        "token": "ánd",
+        "logit": 13.296875,
+        "probability_percent": 1.54
+      },
+      {
+        "rank": 8,
+        "token": "opes",
+        "logit": 13.21875,
+        "probability_percent": 1.42
+      },
+      {
+        "rank": 9,
+        "token": "uk",
+        "logit": 13.0859375,
+        "probability_percent": 1.25
+      }
+    ]
+  },
+  {
+    "prompt": "Souvlaki es del país Grecia.\nkimchi es del país",
+    "generated_prefix": "Souvlaki es del país Grecia.\nkimchi es del país",
+    "gold_token": " Core",
+    "predicted_top1_token": " Core",
+    "token_pos_in_answer": 0,
+    "gold_logit": 17.921875,
+    "gold_prob_percent": 65.43,
+    "first_token_prob": 0.654296875,
+    "second_token_prob": 0.0799560546875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Core",
+        "logit": 17.921875,
+        "probability_percent": 65.43
+      },
+      {
+        "rank": 1,
+        "token": " Sur",
+        "logit": 15.8203125,
+        "probability_percent": 8.0
+      },
+      {
+        "rank": 2,
+        "token": " core",
+        "logit": 15.4140625,
+        "probability_percent": 5.33
+      },
+      {
+        "rank": 3,
+        "token": " de",
+        "logit": 15.203125,
+        "probability_percent": 4.32
+      },
+      {
+        "rank": 4,
+        "token": " sur",
+        "logit": 14.6640625,
+        "probability_percent": 2.52
+      },
+      {
+        "rank": 5,
+        "token": " Korea",
+        "logit": 14.6171875,
+        "probability_percent": 2.4
+      },
+      {
+        "rank": 6,
+        "token": " Sud",
+        "logit": 13.8984375,
+        "probability_percent": 1.17
+      },
+      {
+        "rank": 7,
+        "token": " Republic",
+        "logit": 13.46875,
+        "probability_percent": 0.76
+      },
+      {
+        "rank": 8,
+        "token": " Cor",
+        "logit": 13.4453125,
+        "probability_percent": 0.74
+      },
+      {
+        "rank": 9,
+        "token": " Rep",
+        "logit": 13.203125,
+        "probability_percent": 0.58
+      }
+    ]
+  },
+  {
+    "prompt": "Souvlaki es del país Grecia.\nkimchi es del país",
+    "generated_prefix": "Souvlaki es del país Grecia.\nkimchi es del país Core",
+    "gold_token": "a",
+    "predicted_top1_token": "a",
+    "token_pos_in_answer": 1,
+    "gold_logit": 22.453125,
+    "gold_prob_percent": 97.31,
+    "first_token_prob": 0.654296875,
+    "second_token_prob": 0.0799560546875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "a",
+        "logit": 22.453125,
+        "probability_percent": 97.31
+      },
+      {
+        "rank": 1,
+        "token": "ano",
+        "logit": 18.375,
+        "probability_percent": 1.65
+      },
+      {
+        "rank": 2,
+        "token": "ana",
+        "logit": 16.171875,
+        "probability_percent": 0.18
+      },
+      {
+        "rank": 3,
+        "token": "á",
+        "logit": 16.046875,
+        "probability_percent": 0.16
+      },
+      {
+        "rank": 4,
+        "token": "o",
+        "logit": 15.40625,
+        "probability_percent": 0.08
+      },
+      {
+        "rank": 5,
+        "token": "as",
+        "logit": 15.09375,
+        "probability_percent": 0.06
+      },
+      {
+        "rank": 6,
+        "token": "ea",
+        "logit": 14.9765625,
+        "probability_percent": 0.06
+      },
+      {
+        "rank": 7,
+        "token": "ia",
+        "logit": 14.8984375,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 8,
+        "token": "an",
+        "logit": 14.421875,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 9,
+        "token": "oa",
+        "logit": 14.421875,
+        "probability_percent": 0.03
+      }
+    ]
+  },
+  {
+    "prompt": "Souvlaki es del país Grecia.\nkimchi es del país",
+    "generated_prefix": "Souvlaki es del país Grecia.\nkimchi es del país Corea",
+    "gold_token": " del",
+    "predicted_top1_token": " del",
+    "token_pos_in_answer": 2,
+    "gold_logit": 18.890625,
+    "gold_prob_percent": 56.25,
+    "first_token_prob": 0.654296875,
+    "second_token_prob": 0.0799560546875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " del",
+        "logit": 18.890625,
+        "probability_percent": 56.25
+      },
+      {
+        "rank": 1,
+        "token": ".\n",
+        "logit": 18.234375,
+        "probability_percent": 29.17
+      },
+      {
+        "rank": 2,
+        "token": "\n",
+        "logit": 16.15625,
+        "probability_percent": 3.65
+      },
+      {
+        "rank": 3,
+        "token": ".",
+        "logit": 15.65625,
+        "probability_percent": 2.22
+      },
+      {
+        "rank": 4,
+        "token": ",",
+        "logit": 15.4296875,
+        "probability_percent": 1.77
+      },
+      {
+        "rank": 5,
+        "token": " (",
+        "logit": 14.953125,
+        "probability_percent": 1.1
+      },
+      {
+        "rank": 6,
+        "token": " y",
+        "logit": 14.8203125,
+        "probability_percent": 0.96
+      },
+      {
+        "rank": 7,
+        "token": " Del",
+        "logit": 14.625,
+        "probability_percent": 0.79
+      },
+      {
+        "rank": 8,
+        "token": " de",
+        "logit": 14.375,
+        "probability_percent": 0.61
+      },
+      {
+        "rank": 9,
+        "token": " .\n",
+        "logit": 13.875,
+        "probability_percent": 0.37
+      }
+    ]
+  },
+  {
+    "prompt": "Souvlaki es del país Grecia.\nkimchi es del país",
+    "generated_prefix": "Souvlaki es del país Grecia.\nkimchi es del país Corea del",
+    "gold_token": " Sur",
+    "predicted_top1_token": " Sur",
+    "token_pos_in_answer": 3,
+    "gold_logit": 20.875,
+    "gold_prob_percent": 82.28,
+    "first_token_prob": 0.654296875,
+    "second_token_prob": 0.0799560546875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Sur",
+        "logit": 20.875,
+        "probability_percent": 82.28
+      },
+      {
+        "rank": 1,
+        "token": " sur",
+        "logit": 18.96875,
+        "probability_percent": 12.23
+      },
+      {
+        "rank": 2,
+        "token": " Norte",
+        "logit": 17.640625,
+        "probability_percent": 3.24
+      },
+      {
+        "rank": 3,
+        "token": " n",
+        "logit": 16.15625,
+        "probability_percent": 0.73
+      },
+      {
+        "rank": 4,
+        "token": " Sud",
+        "logit": 14.9453125,
+        "probability_percent": 0.22
+      },
+      {
+        "rank": 5,
+        "token": " S",
+        "logit": 14.59375,
+        "probability_percent": 0.15
+      },
+      {
+        "rank": 6,
+        "token": " este",
+        "logit": 14.484375,
+        "probability_percent": 0.14
+      },
+      {
+        "rank": 7,
+        "token": " Este",
+        "logit": 14.234375,
+        "probability_percent": 0.11
+      },
+      {
+        "rank": 8,
+        "token": " SUR",
+        "logit": 13.796875,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 9,
+        "token": " sud",
+        "logit": 13.7265625,
+        "probability_percent": 0.06
+      }
+    ]
+  },
+  {
+    "prompt": "Souvlaki es del país Grecia.\ngulash es del país",
+    "generated_prefix": "Souvlaki es del país Grecia.\ngulash es del país",
+    "gold_token": " Hun",
+    "predicted_top1_token": " Es",
+    "token_pos_in_answer": 0,
+    "gold_logit": 16.203125,
+    "gold_prob_percent": 19.59,
+    "first_token_prob": 0.255615234375,
+    "second_token_prob": 0.1959228515625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Es",
+        "logit": 16.46875,
+        "probability_percent": 25.56
+      },
+      {
+        "rank": 1,
+        "token": " Hun",
+        "logit": 16.203125,
+        "probability_percent": 19.59
+      },
+      {
+        "rank": 2,
+        "token": " U",
+        "logit": 15.71875,
+        "probability_percent": 12.07
+      },
+      {
+        "rank": 3,
+        "token": " Rus",
+        "logit": 15.1640625,
+        "probability_percent": 6.93
+      },
+      {
+        "rank": 4,
+        "token": " Che",
+        "logit": 14.921875,
+        "probability_percent": 5.44
+      },
+      {
+        "rank": 5,
+        "token": " R",
+        "logit": 14.4375,
+        "probability_percent": 3.35
+      },
+      {
+        "rank": 6,
+        "token": " Rep",
+        "logit": 14.0546875,
+        "probability_percent": 2.29
+      },
+      {
+        "rank": 7,
+        "token": " Austria",
+        "logit": 13.9609375,
+        "probability_percent": 2.08
+      },
+      {
+        "rank": 8,
+        "token": " Pol",
+        "logit": 13.6328125,
+        "probability_percent": 1.5
+      },
+      {
+        "rank": 9,
+        "token": " Ale",
+        "logit": 13.2578125,
+        "probability_percent": 1.03
+      }
+    ]
+  },
+  {
+    "prompt": "Souvlaki es del país Grecia.\ngulash es del país",
+    "generated_prefix": "Souvlaki es del país Grecia.\ngulash es del país Es",
+    "gold_token": "gr",
+    "predicted_top1_token": "lo",
+    "token_pos_in_answer": 1,
+    "gold_logit": 8.390625,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.255615234375,
+    "second_token_prob": 0.1959228515625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "lo",
+        "logit": 20.28125,
+        "probability_percent": 80.81
+      },
+      {
+        "rank": 1,
+        "token": "loven",
+        "logit": 18.296875,
+        "probability_percent": 11.11
+      },
+      {
+        "rank": 2,
+        "token": "lov",
+        "logit": 17.875,
+        "probability_percent": 7.29
+      },
+      {
+        "rank": 3,
+        "token": "lovak",
+        "logit": 15.203125,
+        "probability_percent": 0.5
+      },
+      {
+        "rank": 4,
+        "token": " lo",
+        "logit": 13.3203125,
+        "probability_percent": 0.08
+      },
+      {
+        "rank": 5,
+        "token": "lob",
+        "logit": 11.9453125,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 6,
+        "token": "f",
+        "logit": 11.515625,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 7,
+        "token": "che",
+        "logit": 11.4765625,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 8,
+        "token": "los",
+        "logit": 10.921875,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 9,
+        "token": "qu",
+        "logit": 10.9140625,
+        "probability_percent": 0.01
+      }
+    ]
+  },
+  {
+    "prompt": "Souvlaki es del país Grecia.\ngulash es del país",
+    "generated_prefix": "Souvlaki es del país Grecia.\ngulash es del país Eslo",
+    "gold_token": "ía",
+    "predicted_top1_token": "va",
+    "token_pos_in_answer": 2,
+    "gold_logit": 3.09375,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.255615234375,
+    "second_token_prob": 0.1959228515625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "va",
+        "logit": 19.625,
+        "probability_percent": 99.22
+      },
+      {
+        "rank": 1,
+        "token": "via",
+        "logit": 13.546875,
+        "probability_percent": 0.23
+      },
+      {
+        "rank": 2,
+        "token": "vo",
+        "logit": 13.3125,
+        "probability_percent": 0.18
+      },
+      {
+        "rank": 3,
+        "token": "vas",
+        "logit": 12.125,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 4,
+        "token": " va",
+        "logit": 11.8203125,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 5,
+        "token": "ven",
+        "logit": 11.6015625,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 6,
+        "token": "quia",
+        "logit": 11.109375,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 7,
+        "token": "iva",
+        "logit": 10.421875,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 8,
+        "token": "vin",
+        "logit": 10.296875,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 9,
+        "token": "vec",
+        "logit": 10.25,
+        "probability_percent": 0.01
+      }
+    ]
+  },
+  {
+    "prompt": "Souvlaki es del país Grecia.\nPierogi es del país",
+    "generated_prefix": "Souvlaki es del país Grecia.\nPierogi es del país",
+    "gold_token": " Pol",
+    "predicted_top1_token": " Pol",
+    "token_pos_in_answer": 0,
+    "gold_logit": 18.515625,
+    "gold_prob_percent": 78.37,
+    "first_token_prob": 0.78369140625,
+    "second_token_prob": 0.038421630859375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Pol",
+        "logit": 18.515625,
+        "probability_percent": 78.37
+      },
+      {
+        "rank": 1,
+        "token": " U",
+        "logit": 15.5,
+        "probability_percent": 3.84
+      },
+      {
+        "rank": 2,
+        "token": " de",
+        "logit": 14.6875,
+        "probability_percent": 1.7
+      },
+      {
+        "rank": 3,
+        "token": " L",
+        "logit": 14.671875,
+        "probability_percent": 1.68
+      },
+      {
+        "rank": 4,
+        "token": " Rus",
+        "logit": 14.6015625,
+        "probability_percent": 1.56
+      },
+      {
+        "rank": 5,
+        "token": " Bi",
+        "logit": 14.5703125,
+        "probability_percent": 1.52
+      },
+      {
+        "rank": 6,
+        "token": " Es",
+        "logit": 14.4765625,
+        "probability_percent": 1.38
+      },
+      {
+        "rank": 7,
+        "token": " pol",
+        "logit": 14.25,
+        "probability_percent": 1.1
+      },
+      {
+        "rank": 8,
+        "token": " Let",
+        "logit": 13.9765625,
+        "probability_percent": 0.84
+      },
+      {
+        "rank": 9,
+        "token": " Che",
+        "logit": 13.9140625,
+        "probability_percent": 0.79
+      }
+    ]
+  },
+  {
+    "prompt": "Souvlaki es del país Grecia.\nPierogi es del país",
+    "generated_prefix": "Souvlaki es del país Grecia.\nPierogi es del país Pol",
+    "gold_token": "onia",
+    "predicted_top1_token": "onia",
+    "token_pos_in_answer": 1,
+    "gold_logit": 22.40625,
+    "gold_prob_percent": 99.37,
+    "first_token_prob": 0.78369140625,
+    "second_token_prob": 0.038421630859375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "onia",
+        "logit": 22.40625,
+        "probability_percent": 99.37
+      },
+      {
+        "rank": 1,
+        "token": "ón",
+        "logit": 15.640625,
+        "probability_percent": 0.11
+      },
+      {
+        "rank": 2,
+        "token": "onio",
+        "logit": 14.5234375,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 3,
+        "token": "aco",
+        "logit": 14.5,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 4,
+        "token": "on",
+        "logit": 14.3984375,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 5,
+        "token": "ò",
+        "logit": 14.21875,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 6,
+        "token": "ania",
+        "logit": 14.1171875,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 7,
+        "token": "lo",
+        "logit": 13.8125,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 8,
+        "token": "ô",
+        "logit": 13.71875,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 9,
+        "token": "ones",
+        "logit": 13.671875,
+        "probability_percent": 0.02
+      }
+    ]
+  },
+  {
+    "prompt": "Souvlaki es del país Grecia.\nhummus es del país",
+    "generated_prefix": "Souvlaki es del país Grecia.\nhummus es del país",
+    "gold_token": " L",
+    "predicted_top1_token": " L",
+    "token_pos_in_answer": 0,
+    "gold_logit": 15.8515625,
+    "gold_prob_percent": 19.26,
+    "first_token_prob": 0.192626953125,
+    "second_token_prob": 0.174072265625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " L",
+        "logit": 15.8515625,
+        "probability_percent": 19.26
+      },
+      {
+        "rank": 1,
+        "token": " Israel",
+        "logit": 15.75,
+        "probability_percent": 17.41
+      },
+      {
+        "rank": 2,
+        "token": " E",
+        "logit": 15.328125,
+        "probability_percent": 11.41
+      },
+      {
+        "rank": 3,
+        "token": " Lib",
+        "logit": 15.109375,
+        "probability_percent": 9.17
+      },
+      {
+        "rank": 4,
+        "token": " Tur",
+        "logit": 14.3671875,
+        "probability_percent": 4.36
+      },
+      {
+        "rank": 5,
+        "token": " Palest",
+        "logit": 14.3203125,
+        "probability_percent": 4.17
+      },
+      {
+        "rank": 6,
+        "token": " Jord",
+        "logit": 14.296875,
+        "probability_percent": 4.07
+      },
+      {
+        "rank": 7,
+        "token": " Sir",
+        "logit": 14.1171875,
+        "probability_percent": 3.4
+      },
+      {
+        "rank": 8,
+        "token": " de",
+        "logit": 14.0546875,
+        "probability_percent": 3.2
+      },
+      {
+        "rank": 9,
+        "token": " T",
+        "logit": 13.0390625,
+        "probability_percent": 1.16
+      }
+    ]
+  },
+  {
+    "prompt": "Souvlaki es del país Grecia.\nhummus es del país",
+    "generated_prefix": "Souvlaki es del país Grecia.\nhummus es del país L",
+    "gold_token": "í",
+    "predicted_top1_token": "í",
+    "token_pos_in_answer": 1,
+    "gold_logit": 18.78125,
+    "gold_prob_percent": 98.58,
+    "first_token_prob": 0.192626953125,
+    "second_token_prob": 0.174072265625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "í",
+        "logit": 18.78125,
+        "probability_percent": 98.58
+      },
+      {
+        "rank": 1,
+        "token": "Í",
+        "logit": 12.8671875,
+        "probability_percent": 0.27
+      },
+      {
+        "rank": 2,
+        "token": "itu",
+        "logit": 11.9296875,
+        "probability_percent": 0.1
+      },
+      {
+        "rank": 3,
+        "token": "uego",
+        "logit": 11.3046875,
+        "probability_percent": 0.06
+      },
+      {
+        "rank": 4,
+        "token": "ugar",
+        "logit": 11.171875,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 5,
+        "token": "uba",
+        "logit": 10.890625,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 6,
+        "token": "ú",
+        "logit": 10.765625,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 7,
+        "token": "EB",
+        "logit": 10.7109375,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 8,
+        "token": "´",
+        "logit": 10.4453125,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 9,
+        "token": "ío",
+        "logit": 10.3984375,
+        "probability_percent": 0.02
+      }
+    ]
+  },
+  {
+    "prompt": "Souvlaki es del país Grecia.\nhummus es del país",
+    "generated_prefix": "Souvlaki es del país Grecia.\nhummus es del país Lí",
+    "gold_token": "b",
+    "predicted_top1_token": "b",
+    "token_pos_in_answer": 2,
+    "gold_logit": 23.46875,
+    "gold_prob_percent": 99.76,
+    "first_token_prob": 0.192626953125,
+    "second_token_prob": 0.174072265625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "b",
+        "logit": 23.46875,
+        "probability_percent": 99.76
+      },
+      {
+        "rank": 1,
+        "token": "ban",
+        "logit": 16.40625,
+        "probability_percent": 0.09
+      },
+      {
+        "rank": 2,
+        "token": "bia",
+        "logit": 16.3125,
+        "probability_percent": 0.08
+      },
+      {
+        "rank": 3,
+        "token": "bio",
+        "logit": 15.3203125,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 4,
+        "token": "dia",
+        "logit": 14.078125,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 5,
+        "token": "ber",
+        "logit": 13.828125,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 6,
+        "token": "bero",
+        "logit": 13.6875,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 7,
+        "token": "by",
+        "logit": 13.546875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "ben",
+        "logit": 13.484375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "nea",
+        "logit": 13.4296875,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "Souvlaki es del país Grecia.\nhummus es del país",
+    "generated_prefix": "Souvlaki es del país Grecia.\nhummus es del país Líb",
+    "gold_token": "ano",
+    "predicted_top1_token": "ano",
+    "token_pos_in_answer": 3,
+    "gold_logit": 25.5,
+    "gold_prob_percent": 99.95,
+    "first_token_prob": 0.192626953125,
+    "second_token_prob": 0.174072265625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ano",
+        "logit": 25.5,
+        "probability_percent": 99.95
+      },
+      {
+        "rank": 1,
+        "token": "ico",
+        "logit": 17.125,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 2,
+        "token": "ana",
+        "logit": 16.28125,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 3,
+        "token": "ANO",
+        "logit": 14.2890625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 4,
+        "token": "anes",
+        "logit": 13.7890625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 5,
+        "token": "ica",
+        "logit": 13.7734375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": "igo",
+        "logit": 13.703125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": "iano",
+        "logit": 13.3984375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "ido",
+        "logit": 12.9609375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "ania",
+        "logit": 12.90625,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "Souvlaki es del país Grecia.\nGyro es del país",
+    "generated_prefix": "Souvlaki es del país Grecia.\nGyro es del país",
+    "gold_token": " G",
+    "predicted_top1_token": " G",
+    "token_pos_in_answer": 0,
+    "gold_logit": 17.6875,
+    "gold_prob_percent": 53.96,
+    "first_token_prob": 0.53955078125,
+    "second_token_prob": 0.2283935546875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " G",
+        "logit": 17.6875,
+        "probability_percent": 53.96
+      },
+      {
+        "rank": 1,
+        "token": " Tur",
+        "logit": 16.828125,
+        "probability_percent": 22.84
+      },
+      {
+        "rank": 2,
+        "token": " Chip",
+        "logit": 14.859375,
+        "probability_percent": 3.19
+      },
+      {
+        "rank": 3,
+        "token": " Estados",
+        "logit": 14.7734375,
+        "probability_percent": 2.93
+      },
+      {
+        "rank": 4,
+        "token": " gri",
+        "logit": 14.3125,
+        "probability_percent": 1.85
+      },
+      {
+        "rank": 5,
+        "token": " Gri",
+        "logit": 13.9453125,
+        "probability_percent": 1.28
+      },
+      {
+        "rank": 6,
+        "token": " de",
+        "logit": 13.7109375,
+        "probability_percent": 1.01
+      },
+      {
+        "rank": 7,
+        "token": " Israel",
+        "logit": 13.515625,
+        "probability_percent": 0.83
+      },
+      {
+        "rank": 8,
+        "token": " Australia",
+        "logit": 13.1171875,
+        "probability_percent": 0.56
+      },
+      {
+        "rank": 9,
+        "token": " Ale",
+        "logit": 12.7890625,
+        "probability_percent": 0.4
+      }
+    ]
+  },
+  {
+    "prompt": "Souvlaki es del país Grecia.\nGyro es del país",
+    "generated_prefix": "Souvlaki es del país Grecia.\nGyro es del país G",
+    "gold_token": "rec",
+    "predicted_top1_token": "rec",
+    "token_pos_in_answer": 1,
+    "gold_logit": 23.671875,
+    "gold_prob_percent": 99.9,
+    "first_token_prob": 0.53955078125,
+    "second_token_prob": 0.2283935546875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "rec",
+        "logit": 23.671875,
+        "probability_percent": 99.9
+      },
+      {
+        "rank": 1,
+        "token": "rc",
+        "logit": 14.9765625,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 2,
+        "token": "ric",
+        "logit": 14.0625,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 3,
+        "token": "ru",
+        "logit": 13.6875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 4,
+        "token": "res",
+        "logit": 13.5703125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 5,
+        "token": "rie",
+        "logit": 12.7109375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": "ruz",
+        "logit": 12.7109375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": "rea",
+        "logit": 12.34375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "ober",
+        "logit": 12.2734375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "ales",
+        "logit": 12.0625,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "Souvlaki es del país Grecia.\nGyro es del país",
+    "generated_prefix": "Souvlaki es del país Grecia.\nGyro es del país Grec",
+    "gold_token": "ia",
+    "predicted_top1_token": "ia",
+    "token_pos_in_answer": 2,
+    "gold_logit": 25.28125,
+    "gold_prob_percent": 99.95,
+    "first_token_prob": 0.53955078125,
+    "second_token_prob": 0.2283935546875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ia",
+        "logit": 25.28125,
+        "probability_percent": 99.95
+      },
+      {
+        "rank": 1,
+        "token": "ía",
+        "logit": 15.7734375,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 2,
+        "token": "ian",
+        "logit": 14.9140625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 3,
+        "token": "i",
+        "logit": 14.875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 4,
+        "token": "ias",
+        "logit": 14.796875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 5,
+        "token": "io",
+        "logit": 14.3515625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": "ja",
+        "logit": 13.9765625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": "y",
+        "logit": 13.46875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "os",
+        "logit": 13.4453125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": ".\n",
+        "logit": 13.3515625,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "Souvlaki es del país Grecia.\nRendang es del país",
+    "generated_prefix": "Souvlaki es del país Grecia.\nRendang es del país",
+    "gold_token": " Indonesia",
+    "predicted_top1_token": " Indonesia",
+    "token_pos_in_answer": 0,
+    "gold_logit": 19.9375,
+    "gold_prob_percent": 91.16,
+    "first_token_prob": 0.91162109375,
+    "second_token_prob": 0.03167724609375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Indonesia",
+        "logit": 19.9375,
+        "probability_percent": 91.16
+      },
+      {
+        "rank": 1,
+        "token": " Ind",
+        "logit": 16.578125,
+        "probability_percent": 3.17
+      },
+      {
+        "rank": 2,
+        "token": " de",
+        "logit": 15.5703125,
+        "probability_percent": 1.16
+      },
+      {
+        "rank": 3,
+        "token": " indonesia",
+        "logit": 14.953125,
+        "probability_percent": 0.62
+      },
+      {
+        "rank": 4,
+        "token": " Indones",
+        "logit": 14.9453125,
+        "probability_percent": 0.62
+      },
+      {
+        "rank": 5,
+        "token": " India",
+        "logit": 14.8203125,
+        "probability_percent": 0.55
+      },
+      {
+        "rank": 6,
+        "token": " Mal",
+        "logit": 14.1328125,
+        "probability_percent": 0.27
+      },
+      {
+        "rank": 7,
+        "token": " Sing",
+        "logit": 13.546875,
+        "probability_percent": 0.15
+      },
+      {
+        "rank": 8,
+        "token": " Sur",
+        "logit": 13.0703125,
+        "probability_percent": 0.09
+      },
+      {
+        "rank": 9,
+        "token": " Br",
+        "logit": 12.90625,
+        "probability_percent": 0.08
+      }
+    ]
+  },
+  {
+    "prompt": "Souvlaki es del país Grecia.\nMusaca es del país",
+    "generated_prefix": "Souvlaki es del país Grecia.\nMusaca es del país",
+    "gold_token": " G",
+    "predicted_top1_token": " España",
+    "token_pos_in_answer": 0,
+    "gold_logit": 16.65625,
+    "gold_prob_percent": 20.73,
+    "first_token_prob": 0.21044921875,
+    "second_token_prob": 0.207275390625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " España",
+        "logit": 16.671875,
+        "probability_percent": 21.04
+      },
+      {
+        "rank": 1,
+        "token": " G",
+        "logit": 16.65625,
+        "probability_percent": 20.73
+      },
+      {
+        "rank": 2,
+        "token": " Argentina",
+        "logit": 15.296875,
+        "probability_percent": 5.32
+      },
+      {
+        "rank": 3,
+        "token": " Franc",
+        "logit": 15.1875,
+        "probability_percent": 4.77
+      },
+      {
+        "rank": 4,
+        "token": " Colombia",
+        "logit": 14.875,
+        "probability_percent": 3.49
+      },
+      {
+        "rank": 5,
+        "token": " Venezuela",
+        "logit": 14.640625,
+        "probability_percent": 2.76
+      },
+      {
+        "rank": 6,
+        "token": " Chile",
+        "logit": 14.359375,
+        "probability_percent": 2.08
+      },
+      {
+        "rank": 7,
+        "token": " Italia",
+        "logit": 14.3125,
+        "probability_percent": 1.99
+      },
+      {
+        "rank": 8,
+        "token": " E",
+        "logit": 14.234375,
+        "probability_percent": 1.84
+      },
+      {
+        "rank": 9,
+        "token": " Tur",
+        "logit": 14.203125,
+        "probability_percent": 1.78
+      }
+    ]
+  },
+  {
+    "prompt": "Souvlaki es del país Grecia.\nMusaca es del país",
+    "generated_prefix": "Souvlaki es del país Grecia.\nMusaca es del país España",
+    "gold_token": "rec",
+    "predicted_top1_token": ".\n",
+    "token_pos_in_answer": 1,
+    "gold_logit": 5.359375,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.21044921875,
+    "second_token_prob": 0.207275390625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": ".\n",
+        "logit": 21.0,
+        "probability_percent": 86.28
+      },
+      {
+        "rank": 1,
+        "token": ".",
+        "logit": 18.09375,
+        "probability_percent": 4.72
+      },
+      {
+        "rank": 2,
+        "token": " y",
+        "logit": 17.34375,
+        "probability_percent": 2.23
+      },
+      {
+        "rank": 3,
+        "token": "\n",
+        "logit": 17.3125,
+        "probability_percent": 2.16
+      },
+      {
+        "rank": 4,
+        "token": ",",
+        "logit": 16.796875,
+        "probability_percent": 1.29
+      },
+      {
+        "rank": 5,
+        "token": ".\n\n",
+        "logit": 16.28125,
+        "probability_percent": 0.77
+      },
+      {
+        "rank": 6,
+        "token": " o",
+        "logit": 15.734375,
+        "probability_percent": 0.45
+      },
+      {
+        "rank": 7,
+        "token": " .\n",
+        "logit": 15.7265625,
+        "probability_percent": 0.44
+      },
+      {
+        "rank": 8,
+        "token": " (",
+        "logit": 15.140625,
+        "probability_percent": 0.25
+      },
+      {
+        "rank": 9,
+        "token": ",\n",
+        "logit": 13.890625,
+        "probability_percent": 0.07
+      }
+    ]
+  },
+  {
+    "prompt": "Souvlaki es del país Grecia.\nMusaca es del país",
+    "generated_prefix": "Souvlaki es del país Grecia.\nMusaca es del país España.\n",
+    "gold_token": "ia",
+    "predicted_top1_token": "P",
+    "token_pos_in_answer": 2,
+    "gold_logit": 3.21875,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.21044921875,
+    "second_token_prob": 0.207275390625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "P",
+        "logit": 14.3203125,
+        "probability_percent": 6.05
+      },
+      {
+        "rank": 1,
+        "token": "T",
+        "logit": 14.0234375,
+        "probability_percent": 4.49
+      },
+      {
+        "rank": 2,
+        "token": "S",
+        "logit": 13.7421875,
+        "probability_percent": 3.39
+      },
+      {
+        "rank": 3,
+        "token": "C",
+        "logit": 13.6796875,
+        "probability_percent": 3.19
+      },
+      {
+        "rank": 4,
+        "token": "En",
+        "logit": 13.421875,
+        "probability_percent": 2.46
+      },
+      {
+        "rank": 5,
+        "token": "M",
+        "logit": 13.3828125,
+        "probability_percent": 2.37
+      },
+      {
+        "rank": 6,
+        "token": "B",
+        "logit": 13.3515625,
+        "probability_percent": 2.29
+      },
+      {
+        "rank": 7,
+        "token": "G",
+        "logit": 13.2578125,
+        "probability_percent": 2.09
+      },
+      {
+        "rank": 8,
+        "token": "R",
+        "logit": 13.1875,
+        "probability_percent": 1.95
+      },
+      {
+        "rank": 9,
+        "token": "Ch",
+        "logit": 12.9921875,
+        "probability_percent": 1.6
+      }
+    ]
+  },
+  {
+    "prompt": "Souvlaki es del país Grecia.\nPavlova es del país",
+    "generated_prefix": "Souvlaki es del país Grecia.\nPavlova es del país",
+    "gold_token": " N",
+    "predicted_top1_token": " Australia",
+    "token_pos_in_answer": 0,
+    "gold_logit": 17.5625,
+    "gold_prob_percent": 38.33,
+    "first_token_prob": 0.4697265625,
+    "second_token_prob": 0.38330078125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Australia",
+        "logit": 17.765625,
+        "probability_percent": 46.97
+      },
+      {
+        "rank": 1,
+        "token": " N",
+        "logit": 17.5625,
+        "probability_percent": 38.33
+      },
+      {
+        "rank": 2,
+        "token": " Austral",
+        "logit": 14.8125,
+        "probability_percent": 2.45
+      },
+      {
+        "rank": 3,
+        "token": " New",
+        "logit": 14.2734375,
+        "probability_percent": 1.43
+      },
+      {
+        "rank": 4,
+        "token": " Nuevo",
+        "logit": 14.0390625,
+        "probability_percent": 1.13
+      },
+      {
+        "rank": 5,
+        "token": " de",
+        "logit": 14.0234375,
+        "probability_percent": 1.11
+      },
+      {
+        "rank": 6,
+        "token": " A",
+        "logit": 13.484375,
+        "probability_percent": 0.65
+      },
+      {
+        "rank": 7,
+        "token": " Chile",
+        "logit": 12.96875,
+        "probability_percent": 0.39
+      },
+      {
+        "rank": 8,
+        "token": " Argentina",
+        "logit": 12.8359375,
+        "probability_percent": 0.34
+      },
+      {
+        "rank": 9,
+        "token": " Ne",
+        "logit": 12.7109375,
+        "probability_percent": 0.3
+      }
+    ]
+  },
+  {
+    "prompt": "Souvlaki es del país Grecia.\nPavlova es del país",
+    "generated_prefix": "Souvlaki es del país Grecia.\nPavlova es del país Australia",
+    "gold_token": "ueva",
+    "predicted_top1_token": ".\n",
+    "token_pos_in_answer": 1,
+    "gold_logit": 4.56640625,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.4697265625,
+    "second_token_prob": 0.38330078125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": ".\n",
+        "logit": 20.0625,
+        "probability_percent": 82.08
+      },
+      {
+        "rank": 1,
+        "token": ".",
+        "logit": 17.28125,
+        "probability_percent": 5.08
+      },
+      {
+        "rank": 2,
+        "token": " y",
+        "logit": 17.078125,
+        "probability_percent": 4.15
+      },
+      {
+        "rank": 3,
+        "token": ",",
+        "logit": 16.390625,
+        "probability_percent": 2.09
+      },
+      {
+        "rank": 4,
+        "token": "\n",
+        "logit": 16.296875,
+        "probability_percent": 1.9
+      },
+      {
+        "rank": 5,
+        "token": " o",
+        "logit": 15.2421875,
+        "probability_percent": 0.66
+      },
+      {
+        "rank": 6,
+        "token": ".\n\n",
+        "logit": 15.2109375,
+        "probability_percent": 0.64
+      },
+      {
+        "rank": 7,
+        "token": " .\n",
+        "logit": 14.8046875,
+        "probability_percent": 0.43
+      },
+      {
+        "rank": 8,
+        "token": " (",
+        "logit": 14.2734375,
+        "probability_percent": 0.25
+      },
+      {
+        "rank": 9,
+        "token": "-New",
+        "logit": 14.0078125,
+        "probability_percent": 0.19
+      }
+    ]
+  },
+  {
+    "prompt": "Souvlaki es del país Grecia.\nPavlova es del país",
+    "generated_prefix": "Souvlaki es del país Grecia.\nPavlova es del país Australia.\n",
+    "gold_token": " Z",
+    "predicted_top1_token": "T",
+    "token_pos_in_answer": 2,
+    "gold_logit": 1.021484375,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.4697265625,
+    "second_token_prob": 0.38330078125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "T",
+        "logit": 13.703125,
+        "probability_percent": 5.12
+      },
+      {
+        "rank": 1,
+        "token": "P",
+        "logit": 13.515625,
+        "probability_percent": 4.24
+      },
+      {
+        "rank": 2,
+        "token": "El",
+        "logit": 13.4140625,
+        "probability_percent": 3.83
+      },
+      {
+        "rank": 3,
+        "token": "La",
+        "logit": 13.21875,
+        "probability_percent": 3.16
+      },
+      {
+        "rank": 4,
+        "token": "S",
+        "logit": 13.1875,
+        "probability_percent": 3.06
+      },
+      {
+        "rank": 5,
+        "token": "C",
+        "logit": 13.1796875,
+        "probability_percent": 3.03
+      },
+      {
+        "rank": 6,
+        "token": "Las",
+        "logit": 12.9453125,
+        "probability_percent": 2.4
+      },
+      {
+        "rank": 7,
+        "token": "M",
+        "logit": 12.8203125,
+        "probability_percent": 2.12
+      },
+      {
+        "rank": 8,
+        "token": "G",
+        "logit": 12.6796875,
+        "probability_percent": 1.84
+      },
+      {
+        "rank": 9,
+        "token": "K",
+        "logit": 12.6640625,
+        "probability_percent": 1.81
+      }
+    ]
+  },
+  {
+    "prompt": "Souvlaki es del país Grecia.\nPavlova es del país",
+    "generated_prefix": "Souvlaki es del país Grecia.\nPavlova es del país Australia.\nT",
+    "gold_token": "el",
+    "predicted_top1_token": "arta",
+    "token_pos_in_answer": 3,
+    "gold_logit": 3.333984375,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.4697265625,
+    "second_token_prob": 0.38330078125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "arta",
+        "logit": 17.6875,
+        "probability_percent": 56.05
+      },
+      {
+        "rank": 1,
+        "token": "orta",
+        "logit": 16.15625,
+        "probability_percent": 12.13
+      },
+      {
+        "rank": 2,
+        "token": "iram",
+        "logit": 15.6171875,
+        "probability_percent": 7.07
+      },
+      {
+        "rank": 3,
+        "token": "ort",
+        "logit": 15.1640625,
+        "probability_percent": 4.5
+      },
+      {
+        "rank": 4,
+        "token": "art",
+        "logit": 14.4140625,
+        "probability_percent": 2.12
+      },
+      {
+        "rank": 5,
+        "token": "arte",
+        "logit": 14.28125,
+        "probability_percent": 1.86
+      },
+      {
+        "rank": 6,
+        "token": "ost",
+        "logit": 14.25,
+        "probability_percent": 1.8
+      },
+      {
+        "rank": 7,
+        "token": "res",
+        "logit": 14.2265625,
+        "probability_percent": 1.76
+      },
+      {
+        "rank": 8,
+        "token": "urr",
+        "logit": 13.7421875,
+        "probability_percent": 1.08
+      },
+      {
+        "rank": 9,
+        "token": "ir",
+        "logit": 13.59375,
+        "probability_percent": 0.94
+      }
+    ]
+  },
+  {
+    "prompt": "Souvlaki es del país Grecia.\nPavlova es del país",
+    "generated_prefix": "Souvlaki es del país Grecia.\nPavlova es del país Australia.\nTarta",
+    "gold_token": "anda",
+    "predicted_top1_token": " de",
+    "token_pos_in_answer": 4,
+    "gold_logit": -2.07421875,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.4697265625,
+    "second_token_prob": 0.38330078125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " de",
+        "logit": 14.0234375,
+        "probability_percent": 49.29
+      },
+      {
+        "rank": 1,
+        "token": " T",
+        "logit": 12.171875,
+        "probability_percent": 7.74
+      },
+      {
+        "rank": 2,
+        "token": " t",
+        "logit": 10.875,
+        "probability_percent": 2.12
+      },
+      {
+        "rank": 3,
+        "token": " al",
+        "logit": 10.4453125,
+        "probability_percent": 1.38
+      },
+      {
+        "rank": 4,
+        "token": " españ",
+        "logit": 10.4140625,
+        "probability_percent": 1.33
+      },
+      {
+        "rank": 5,
+        "token": " hel",
+        "logit": 10.2109375,
+        "probability_percent": 1.09
+      },
+      {
+        "rank": 6,
+        "token": " del",
+        "logit": 10.1484375,
+        "probability_percent": 1.02
+      },
+      {
+        "rank": 7,
+        "token": " fl",
+        "logit": 10.1171875,
+        "probability_percent": 0.99
+      },
+      {
+        "rank": 8,
+        "token": " a",
+        "logit": 9.765625,
+        "probability_percent": 0.7
+      },
+      {
+        "rank": 9,
+        "token": " con",
+        "logit": 9.7578125,
+        "probability_percent": 0.69
+      }
+    ]
+  },
+  {
+    "prompt": "Souvlaki es del país Grecia.\nshawarma es del país",
+    "generated_prefix": "Souvlaki es del país Grecia.\nshawarma es del país",
+    "gold_token": " Med",
+    "predicted_top1_token": " Tur",
+    "token_pos_in_answer": 0,
+    "gold_logit": 10.46875,
+    "gold_prob_percent": 0.09,
+    "first_token_prob": 0.19091796875,
+    "second_token_prob": 0.1878662109375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Tur",
+        "logit": 15.8359375,
+        "probability_percent": 19.09
+      },
+      {
+        "rank": 1,
+        "token": " L",
+        "logit": 15.8203125,
+        "probability_percent": 18.79
+      },
+      {
+        "rank": 2,
+        "token": " Israel",
+        "logit": 15.28125,
+        "probability_percent": 10.96
+      },
+      {
+        "rank": 3,
+        "token": " Lib",
+        "logit": 14.9453125,
+        "probability_percent": 7.83
+      },
+      {
+        "rank": 4,
+        "token": " Sir",
+        "logit": 14.8515625,
+        "probability_percent": 7.14
+      },
+      {
+        "rank": 5,
+        "token": " Ir",
+        "logit": 14.1484375,
+        "probability_percent": 3.53
+      },
+      {
+        "rank": 6,
+        "token": " E",
+        "logit": 14.0390625,
+        "probability_percent": 3.16
+      },
+      {
+        "rank": 7,
+        "token": " Jord",
+        "logit": 13.90625,
+        "probability_percent": 2.77
+      },
+      {
+        "rank": 8,
+        "token": " de",
+        "logit": 13.5390625,
+        "probability_percent": 1.92
+      },
+      {
+        "rank": 9,
+        "token": " Palest",
+        "logit": 13.5,
+        "probability_percent": 1.85
+      }
+    ]
+  },
+  {
+    "prompt": "Souvlaki es del país Grecia.\nshawarma es del país",
+    "generated_prefix": "Souvlaki es del país Grecia.\nshawarma es del país Tur",
+    "gold_token": "io",
+    "predicted_top1_token": "quia",
+    "token_pos_in_answer": 1,
+    "gold_logit": 11.15625,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.19091796875,
+    "second_token_prob": 0.1878662109375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "quia",
+        "logit": 20.515625,
+        "probability_percent": 57.08
+      },
+      {
+        "rank": 1,
+        "token": "qu",
+        "logit": 19.96875,
+        "probability_percent": 33.03
+      },
+      {
+        "rank": 2,
+        "token": "co",
+        "logit": 17.921875,
+        "probability_percent": 4.26
+      },
+      {
+        "rank": 3,
+        "token": "cia",
+        "logit": 17.671875,
+        "probability_percent": 3.32
+      },
+      {
+        "rank": 4,
+        "token": "c",
+        "logit": 15.515625,
+        "probability_percent": 0.38
+      },
+      {
+        "rank": 5,
+        "token": "ca",
+        "logit": 15.2109375,
+        "probability_percent": 0.28
+      },
+      {
+        "rank": 6,
+        "token": "cos",
+        "logit": 14.5234375,
+        "probability_percent": 0.14
+      },
+      {
+        "rank": 7,
+        "token": "com",
+        "logit": 14.375,
+        "probability_percent": 0.12
+      },
+      {
+        "rank": 8,
+        "token": "ke",
+        "logit": 14.265625,
+        "probability_percent": 0.11
+      },
+      {
+        "rank": 9,
+        "token": "que",
+        "logit": 14.25,
+        "probability_percent": 0.11
+      }
+    ]
+  },
+  {
+    "prompt": "Souvlaki es del país Grecia.\nshawarma es del país",
+    "generated_prefix": "Souvlaki es del país Grecia.\nshawarma es del país Turquia",
+    "gold_token": " Ori",
+    "predicted_top1_token": ".\n",
+    "token_pos_in_answer": 2,
+    "gold_logit": 6.05078125,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.19091796875,
+    "second_token_prob": 0.1878662109375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": ".\n",
+        "logit": 19.625,
+        "probability_percent": 74.95
+      },
+      {
+        "rank": 1,
+        "token": "\n",
+        "logit": 17.28125,
+        "probability_percent": 7.19
+      },
+      {
+        "rank": 2,
+        "token": ".",
+        "logit": 16.921875,
+        "probability_percent": 5.02
+      },
+      {
+        "rank": 3,
+        "token": " y",
+        "logit": 16.578125,
+        "probability_percent": 3.56
+      },
+      {
+        "rank": 4,
+        "token": ",",
+        "logit": 16.4375,
+        "probability_percent": 3.09
+      },
+      {
+        "rank": 5,
+        "token": " o",
+        "logit": 15.15625,
+        "probability_percent": 0.86
+      },
+      {
+        "rank": 6,
+        "token": ".\n\n",
+        "logit": 15.1015625,
+        "probability_percent": 0.81
+      },
+      {
+        "rank": 7,
+        "token": " .\n",
+        "logit": 14.75,
+        "probability_percent": 0.57
+      },
+      {
+        "rank": 8,
+        "token": " pero",
+        "logit": 14.0390625,
+        "probability_percent": 0.28
+      },
+      {
+        "rank": 9,
+        "token": " (",
+        "logit": 14.03125,
+        "probability_percent": 0.28
+      }
+    ]
+  },
+  {
+    "prompt": "Souvlaki es del país Grecia.\nshawarma es del país",
+    "generated_prefix": "Souvlaki es del país Grecia.\nshawarma es del país Turquia.\n",
+    "gold_token": "ente",
+    "predicted_top1_token": "t",
+    "token_pos_in_answer": 3,
+    "gold_logit": 3.275390625,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.19091796875,
+    "second_token_prob": 0.1878662109375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "t",
+        "logit": 13.53125,
+        "probability_percent": 7.48
+      },
+      {
+        "rank": 1,
+        "token": "ch",
+        "logit": 12.796875,
+        "probability_percent": 3.59
+      },
+      {
+        "rank": 2,
+        "token": "s",
+        "logit": 12.15625,
+        "probability_percent": 1.89
+      },
+      {
+        "rank": 3,
+        "token": "k",
+        "logit": 11.9765625,
+        "probability_percent": 1.58
+      },
+      {
+        "rank": 4,
+        "token": "T",
+        "logit": 11.921875,
+        "probability_percent": 1.5
+      },
+      {
+        "rank": 5,
+        "token": "ke",
+        "logit": 11.890625,
+        "probability_percent": 1.45
+      },
+      {
+        "rank": 6,
+        "token": "b",
+        "logit": 11.8515625,
+        "probability_percent": 1.39
+      },
+      {
+        "rank": 7,
+        "token": "f",
+        "logit": 11.78125,
+        "probability_percent": 1.3
+      },
+      {
+        "rank": 8,
+        "token": "P",
+        "logit": 11.7578125,
+        "probability_percent": 1.27
+      },
+      {
+        "rank": 9,
+        "token": "p",
+        "logit": 11.75,
+        "probability_percent": 1.26
+      }
+    ]
+  },
+  {
+    "prompt": "Souvlaki es del país Grecia.\nfaláfel es del país",
+    "generated_prefix": "Souvlaki es del país Grecia.\nfaláfel es del país",
+    "gold_token": " Med",
+    "predicted_top1_token": " Israel",
+    "token_pos_in_answer": 0,
+    "gold_logit": 11.1796875,
+    "gold_prob_percent": 0.12,
+    "first_token_prob": 0.307861328125,
+    "second_token_prob": 0.147705078125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Israel",
+        "logit": 16.71875,
+        "probability_percent": 30.79
+      },
+      {
+        "rank": 1,
+        "token": " L",
+        "logit": 15.984375,
+        "probability_percent": 14.77
+      },
+      {
+        "rank": 2,
+        "token": " Tur",
+        "logit": 15.890625,
+        "probability_percent": 13.45
+      },
+      {
+        "rank": 3,
+        "token": " E",
+        "logit": 15.109375,
+        "probability_percent": 6.16
+      },
+      {
+        "rank": 4,
+        "token": " Lib",
+        "logit": 14.75,
+        "probability_percent": 4.3
+      },
+      {
+        "rank": 5,
+        "token": " Palest",
+        "logit": 14.5625,
+        "probability_percent": 3.56
+      },
+      {
+        "rank": 6,
+        "token": " Sir",
+        "logit": 14.4609375,
+        "probability_percent": 3.22
+      },
+      {
+        "rank": 7,
+        "token": " Jord",
+        "logit": 14.1171875,
+        "probability_percent": 2.28
+      },
+      {
+        "rank": 8,
+        "token": " de",
+        "logit": 14.09375,
+        "probability_percent": 2.23
+      },
+      {
+        "rank": 9,
+        "token": " Ir",
+        "logit": 13.890625,
+        "probability_percent": 1.82
+      }
+    ]
+  },
+  {
+    "prompt": "Souvlaki es del país Grecia.\nfaláfel es del país",
+    "generated_prefix": "Souvlaki es del país Grecia.\nfaláfel es del país Israel",
+    "gold_token": "io",
+    "predicted_top1_token": ".\n",
+    "token_pos_in_answer": 1,
+    "gold_logit": 8.5546875,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.307861328125,
+    "second_token_prob": 0.147705078125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": ".\n",
+        "logit": 19.78125,
+        "probability_percent": 77.0
+      },
+      {
+        "rank": 1,
+        "token": ".",
+        "logit": 17.0,
+        "probability_percent": 4.77
+      },
+      {
+        "rank": 2,
+        "token": "\n",
+        "logit": 17.0,
+        "probability_percent": 4.77
+      },
+      {
+        "rank": 3,
+        "token": " y",
+        "logit": 16.90625,
+        "probability_percent": 4.34
+      },
+      {
+        "rank": 4,
+        "token": ",",
+        "logit": 16.5,
+        "probability_percent": 2.89
+      },
+      {
+        "rank": 5,
+        "token": ".\n\n",
+        "logit": 15.65625,
+        "probability_percent": 1.24
+      },
+      {
+        "rank": 6,
+        "token": " o",
+        "logit": 14.9609375,
+        "probability_percent": 0.62
+      },
+      {
+        "rank": 7,
+        "token": " .\n",
+        "logit": 14.921875,
+        "probability_percent": 0.6
+      },
+      {
+        "rank": 8,
+        "token": " (",
+        "logit": 14.375,
+        "probability_percent": 0.35
+      },
+      {
+        "rank": 9,
+        "token": " pero",
+        "logit": 13.75,
+        "probability_percent": 0.19
+      }
+    ]
+  },
+  {
+    "prompt": "Souvlaki es del país Grecia.\nfaláfel es del país",
+    "generated_prefix": "Souvlaki es del país Grecia.\nfaláfel es del país Israel.\n",
+    "gold_token": " Ori",
+    "predicted_top1_token": "t",
+    "token_pos_in_answer": 2,
+    "gold_logit": 0.403564453125,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.307861328125,
+    "second_token_prob": 0.147705078125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "t",
+        "logit": 12.9140625,
+        "probability_percent": 3.67
+      },
+      {
+        "rank": 1,
+        "token": "ch",
+        "logit": 12.8671875,
+        "probability_percent": 3.5
+      },
+      {
+        "rank": 2,
+        "token": "s",
+        "logit": 12.7734375,
+        "probability_percent": 3.19
+      },
+      {
+        "rank": 3,
+        "token": "f",
+        "logit": 12.3203125,
+        "probability_percent": 2.02
+      },
+      {
+        "rank": 4,
+        "token": "p",
+        "logit": 12.0546875,
+        "probability_percent": 1.55
+      },
+      {
+        "rank": 5,
+        "token": "S",
+        "logit": 11.9140625,
+        "probability_percent": 1.35
+      },
+      {
+        "rank": 6,
+        "token": "es",
+        "logit": 11.859375,
+        "probability_percent": 1.28
+      },
+      {
+        "rank": 7,
+        "token": "P",
+        "logit": 11.8515625,
+        "probability_percent": 1.27
+      },
+      {
+        "rank": 8,
+        "token": "h",
+        "logit": 11.8359375,
+        "probability_percent": 1.25
+      },
+      {
+        "rank": 9,
+        "token": "las",
+        "logit": 11.7890625,
+        "probability_percent": 1.19
+      }
+    ]
+  },
+  {
+    "prompt": "Souvlaki es del país Grecia.\nfaláfel es del país",
+    "generated_prefix": "Souvlaki es del país Grecia.\nfaláfel es del país Israel.\nt",
+    "gold_token": "ente",
+    "predicted_top1_token": "acos",
+    "token_pos_in_answer": 3,
+    "gold_logit": 7.12890625,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.307861328125,
+    "second_token_prob": 0.147705078125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "acos",
+        "logit": 16.984375,
+        "probability_percent": 44.48
+      },
+      {
+        "rank": 1,
+        "token": "ort",
+        "logit": 15.4140625,
+        "probability_percent": 9.25
+      },
+      {
+        "rank": 2,
+        "token": "ac",
+        "logit": 15.40625,
+        "probability_percent": 9.18
+      },
+      {
+        "rank": 3,
+        "token": "aco",
+        "logit": 14.921875,
+        "probability_percent": 5.65
+      },
+      {
+        "rank": 4,
+        "token": "ost",
+        "logit": 14.1328125,
+        "probability_percent": 2.57
+      },
+      {
+        "rank": 5,
+        "token": "amb",
+        "logit": 13.9140625,
+        "probability_percent": 2.06
+      },
+      {
+        "rank": 6,
+        "token": "ama",
+        "logit": 13.8984375,
+        "probability_percent": 2.03
+      },
+      {
+        "rank": 7,
+        "token": "art",
+        "logit": 13.796875,
+        "probability_percent": 1.84
+      },
+      {
+        "rank": 8,
+        "token": "orta",
+        "logit": 13.65625,
+        "probability_percent": 1.59
+      },
+      {
+        "rank": 9,
+        "token": "ang",
+        "logit": 13.0703125,
+        "probability_percent": 0.89
+      }
+    ]
+  },
+  {
+    "prompt": "Souvlaki es del país Grecia.\nceviche es del país",
+    "generated_prefix": "Souvlaki es del país Grecia.\nceviche es del país",
+    "gold_token": " Per",
+    "predicted_top1_token": " Per",
+    "token_pos_in_answer": 0,
+    "gold_logit": 18.8125,
+    "gold_prob_percent": 56.59,
+    "first_token_prob": 0.56591796875,
+    "second_token_prob": 0.32763671875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Per",
+        "logit": 18.8125,
+        "probability_percent": 56.59
+      },
+      {
+        "rank": 1,
+        "token": " Peru",
+        "logit": 18.265625,
+        "probability_percent": 32.76
+      },
+      {
+        "rank": 2,
+        "token": " peru",
+        "logit": 15.8984375,
+        "probability_percent": 3.07
+      },
+      {
+        "rank": 3,
+        "token": " Chile",
+        "logit": 14.4765625,
+        "probability_percent": 0.74
+      },
+      {
+        "rank": 4,
+        "token": " de",
+        "logit": 14.3828125,
+        "probability_percent": 0.67
+      },
+      {
+        "rank": 5,
+        "token": " per",
+        "logit": 14.140625,
+        "probability_percent": 0.53
+      },
+      {
+        "rank": 6,
+        "token": " PER",
+        "logit": 13.765625,
+        "probability_percent": 0.36
+      },
+      {
+        "rank": 7,
+        "token": " P",
+        "logit": 13.484375,
+        "probability_percent": 0.27
+      },
+      {
+        "rank": 8,
+        "token": " Colombia",
+        "logit": 13.296875,
+        "probability_percent": 0.23
+      },
+      {
+        "rank": 9,
+        "token": ":",
+        "logit": 13.1953125,
+        "probability_percent": 0.21
+      }
+    ]
+  },
+  {
+    "prompt": "Souvlaki es del país Grecia.\nceviche es del país",
+    "generated_prefix": "Souvlaki es del país Grecia.\nceviche es del país Per",
+    "gold_token": "ú",
+    "predicted_top1_token": "ú",
+    "token_pos_in_answer": 1,
+    "gold_logit": 20.578125,
+    "gold_prob_percent": 98.97,
+    "first_token_prob": 0.56591796875,
+    "second_token_prob": 0.32763671875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ú",
+        "logit": 20.578125,
+        "probability_percent": 98.97
+      },
+      {
+        "rank": 1,
+        "token": "ù",
+        "logit": 14.8046875,
+        "probability_percent": 0.31
+      },
+      {
+        "rank": 2,
+        "token": "ū",
+        "logit": 12.9375,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 3,
+        "token": "i",
+        "logit": 12.5078125,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 4,
+        "token": "é",
+        "logit": 12.4296875,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 5,
+        "token": "ü",
+        "logit": 12.3125,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 6,
+        "token": "uo",
+        "logit": 12.046875,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 7,
+        "token": " ú",
+        "logit": 12.03125,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 8,
+        "token": "uu",
+        "logit": 12.03125,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 9,
+        "token": "Ã",
+        "logit": 11.9765625,
+        "probability_percent": 0.02
+      }
+    ]
+  },
+  {
+    "prompt": "Souvlaki es del país Grecia.\nBiryani es del país",
+    "generated_prefix": "Souvlaki es del país Grecia.\nBiryani es del país",
+    "gold_token": " India",
+    "predicted_top1_token": " India",
+    "token_pos_in_answer": 0,
+    "gold_logit": 18.1875,
+    "gold_prob_percent": 71.48,
+    "first_token_prob": 0.71484375,
+    "second_token_prob": 0.08148193359375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " India",
+        "logit": 18.1875,
+        "probability_percent": 71.48
+      },
+      {
+        "rank": 1,
+        "token": " Pak",
+        "logit": 16.015625,
+        "probability_percent": 8.15
+      },
+      {
+        "rank": 2,
+        "token": " de",
+        "logit": 15.0625,
+        "probability_percent": 3.14
+      },
+      {
+        "rank": 3,
+        "token": " Pa",
+        "logit": 14.84375,
+        "probability_percent": 2.52
+      },
+      {
+        "rank": 4,
+        "token": " �",
+        "logit": 14.53125,
+        "probability_percent": 1.85
+      },
+      {
+        "rank": 5,
+        "token": " Bang",
+        "logit": 14.4609375,
+        "probability_percent": 1.72
+      },
+      {
+        "rank": 6,
+        "token": " Ind",
+        "logit": 14.1953125,
+        "probability_percent": 1.32
+      },
+      {
+        "rank": 7,
+        "token": " Pakistan",
+        "logit": 13.953125,
+        "probability_percent": 1.04
+      },
+      {
+        "rank": 8,
+        "token": " Indonesia",
+        "logit": 13.3359375,
+        "probability_percent": 0.56
+      },
+      {
+        "rank": 9,
+        "token": " Bangladesh",
+        "logit": 13.140625,
+        "probability_percent": 0.46
+      }
+    ]
+  },
+  {
+    "prompt": "Souvlaki es del país Grecia.\nWiener Schnitzel es del país",
+    "generated_prefix": "Souvlaki es del país Grecia.\nWiener Schnitzel es del país",
+    "gold_token": " Austria",
+    "predicted_top1_token": " Austria",
+    "token_pos_in_answer": 0,
+    "gold_logit": 19.8125,
+    "gold_prob_percent": 84.42,
+    "first_token_prob": 0.84423828125,
+    "second_token_prob": 0.091796875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Austria",
+        "logit": 19.8125,
+        "probability_percent": 84.42
+      },
+      {
+        "rank": 1,
+        "token": " Ale",
+        "logit": 17.59375,
+        "probability_percent": 9.18
+      },
+      {
+        "rank": 2,
+        "token": " A",
+        "logit": 15.3515625,
+        "probability_percent": 0.98
+      },
+      {
+        "rank": 3,
+        "token": " de",
+        "logit": 15.1484375,
+        "probability_percent": 0.8
+      },
+      {
+        "rank": 4,
+        "token": " Aust",
+        "logit": 14.5625,
+        "probability_percent": 0.44
+      },
+      {
+        "rank": 5,
+        "token": " a",
+        "logit": 14.3359375,
+        "probability_percent": 0.35
+      },
+      {
+        "rank": 6,
+        "token": " A",
+        "logit": 14.296875,
+        "probability_percent": 0.34
+      },
+      {
+        "rank": 7,
+        "token": " Es",
+        "logit": 14.171875,
+        "probability_percent": 0.3
+      },
+      {
+        "rank": 8,
+        "token": " ",
+        "logit": 13.96875,
+        "probability_percent": 0.24
+      },
+      {
+        "rank": 9,
+        "token": " Á",
+        "logit": 13.8359375,
+        "probability_percent": 0.21
+      }
+    ]
+  },
+  {
+    "prompt": "Souvlaki es del país Grecia.\nfondue es del país",
+    "generated_prefix": "Souvlaki es del país Grecia.\nfondue es del país",
+    "gold_token": " Su",
+    "predicted_top1_token": " Su",
+    "token_pos_in_answer": 0,
+    "gold_logit": 19.40625,
+    "gold_prob_percent": 84.96,
+    "first_token_prob": 0.849609375,
+    "second_token_prob": 0.067626953125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Su",
+        "logit": 19.40625,
+        "probability_percent": 84.96
+      },
+      {
+        "rank": 1,
+        "token": " Franc",
+        "logit": 16.875,
+        "probability_percent": 6.76
+      },
+      {
+        "rank": 2,
+        "token": " su",
+        "logit": 15.625,
+        "probability_percent": 1.94
+      },
+      {
+        "rank": 3,
+        "token": " Sue",
+        "logit": 15.1171875,
+        "probability_percent": 1.17
+      },
+      {
+        "rank": 4,
+        "token": " Ale",
+        "logit": 14.359375,
+        "probability_percent": 0.55
+      },
+      {
+        "rank": 5,
+        "token": " de",
+        "logit": 14.1875,
+        "probability_percent": 0.46
+      },
+      {
+        "rank": 6,
+        "token": " S",
+        "logit": 14.140625,
+        "probability_percent": 0.44
+      },
+      {
+        "rank": 7,
+        "token": " Sv",
+        "logit": 13.6953125,
+        "probability_percent": 0.28
+      },
+      {
+        "rank": 8,
+        "token": " ",
+        "logit": 13.375,
+        "probability_percent": 0.2
+      },
+      {
+        "rank": 9,
+        "token": " Austria",
+        "logit": 13.0546875,
+        "probability_percent": 0.15
+      }
+    ]
+  },
+  {
+    "prompt": "Souvlaki es del país Grecia.\nfondue es del país",
+    "generated_prefix": "Souvlaki es del país Grecia.\nfondue es del país Su",
+    "gold_token": "iza",
+    "predicted_top1_token": "iza",
+    "token_pos_in_answer": 1,
+    "gold_logit": 23.578125,
+    "gold_prob_percent": 97.12,
+    "first_token_prob": 0.849609375,
+    "second_token_prob": 0.067626953125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "iza",
+        "logit": 23.578125,
+        "probability_percent": 97.12
+      },
+      {
+        "rank": 1,
+        "token": "izo",
+        "logit": 19.734375,
+        "probability_percent": 2.08
+      },
+      {
+        "rank": 2,
+        "token": "í",
+        "logit": 17.90625,
+        "probability_percent": 0.33
+      },
+      {
+        "rank": 3,
+        "token": "iz",
+        "logit": 17.453125,
+        "probability_percent": 0.21
+      },
+      {
+        "rank": 4,
+        "token": "ica",
+        "logit": 15.59375,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 5,
+        "token": "ís",
+        "logit": 15.3828125,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 6,
+        "token": "isa",
+        "logit": 15.0,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 7,
+        "token": "izz",
+        "logit": 14.859375,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 8,
+        "token": "ise",
+        "logit": 14.578125,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 9,
+        "token": "icia",
+        "logit": 14.453125,
+        "probability_percent": 0.01
+      }
+    ]
+  },
+  {
+    "prompt": "Souvlaki es del país Grecia.\nPad thai es del país",
+    "generated_prefix": "Souvlaki es del país Grecia.\nPad thai es del país",
+    "gold_token": " T",
+    "predicted_top1_token": " T",
+    "token_pos_in_answer": 0,
+    "gold_logit": 19.171875,
+    "gold_prob_percent": 80.86,
+    "first_token_prob": 0.80859375,
+    "second_token_prob": 0.0604248046875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " T",
+        "logit": 19.171875,
+        "probability_percent": 80.86
+      },
+      {
+        "rank": 1,
+        "token": " Thailand",
+        "logit": 16.578125,
+        "probability_percent": 6.04
+      },
+      {
+        "rank": 2,
+        "token": " Tail",
+        "logit": 16.21875,
+        "probability_percent": 4.22
+      },
+      {
+        "rank": 3,
+        "token": " tail",
+        "logit": 15.25,
+        "probability_percent": 1.6
+      },
+      {
+        "rank": 4,
+        "token": " de",
+        "logit": 14.9375,
+        "probability_percent": 1.17
+      },
+      {
+        "rank": 5,
+        "token": " Tai",
+        "logit": 14.8046875,
+        "probability_percent": 1.03
+      },
+      {
+        "rank": 6,
+        "token": " Tay",
+        "logit": 14.1328125,
+        "probability_percent": 0.52
+      },
+      {
+        "rank": 7,
+        "token": " Thai",
+        "logit": 13.7890625,
+        "probability_percent": 0.37
+      },
+      {
+        "rank": 8,
+        "token": " Th",
+        "logit": 13.734375,
+        "probability_percent": 0.35
+      },
+      {
+        "rank": 9,
+        "token": " t",
+        "logit": 13.3828125,
+        "probability_percent": 0.25
+      }
+    ]
+  },
+  {
+    "prompt": "Souvlaki es del país Grecia.\nPad thai es del país",
+    "generated_prefix": "Souvlaki es del país Grecia.\nPad thai es del país T",
+    "gold_token": "ailand",
+    "predicted_top1_token": "ailand",
+    "token_pos_in_answer": 1,
+    "gold_logit": 22.6875,
+    "gold_prob_percent": 99.95,
+    "first_token_prob": 0.80859375,
+    "second_token_prob": 0.0604248046875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ailand",
+        "logit": 22.6875,
+        "probability_percent": 99.95
+      },
+      {
+        "rank": 1,
+        "token": "ait",
+        "logit": 12.6640625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 2,
+        "token": "AI",
+        "logit": 12.6640625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 3,
+        "token": "á",
+        "logit": 12.3515625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 4,
+        "token": "ú",
+        "logit": 12.25,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 5,
+        "token": "í",
+        "logit": 11.9140625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": "ajo",
+        "logit": 11.5234375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": "ái",
+        "logit": 11.3515625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "erc",
+        "logit": 10.90625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "ans",
+        "logit": 10.6796875,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "Souvlaki es del país Grecia.\nPad thai es del país",
+    "generated_prefix": "Souvlaki es del país Grecia.\nPad thai es del país Tailand",
+    "gold_token": "ia",
+    "predicted_top1_token": "ia",
+    "token_pos_in_answer": 2,
+    "gold_logit": 24.234375,
+    "gold_prob_percent": 99.46,
+    "first_token_prob": 0.80859375,
+    "second_token_prob": 0.0604248046875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ia",
+        "logit": 24.234375,
+        "probability_percent": 99.46
+      },
+      {
+        "rank": 1,
+        "token": "és",
+        "logit": 18.078125,
+        "probability_percent": 0.21
+      },
+      {
+        "rank": 2,
+        "token": "ía",
+        "logit": 17.96875,
+        "probability_percent": 0.19
+      },
+      {
+        "rank": 3,
+        "token": "es",
+        "logit": 16.96875,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 4,
+        "token": "i",
+        "logit": 15.6640625,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 5,
+        "token": ".\n",
+        "logit": 15.4140625,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 6,
+        "token": "í",
+        "logit": 14.2734375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": "esa",
+        "logit": 14.1953125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "ias",
+        "logit": 14.1328125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "iar",
+        "logit": 13.265625,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "Souvlaki es del país Grecia.\nsopa de miso es del país",
+    "generated_prefix": "Souvlaki es del país Grecia.\nsopa de miso es del país",
+    "gold_token": " Jap",
+    "predicted_top1_token": " Jap",
+    "token_pos_in_answer": 0,
+    "gold_logit": 18.703125,
+    "gold_prob_percent": 72.61,
+    "first_token_prob": 0.72607421875,
+    "second_token_prob": 0.1322021484375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Jap",
+        "logit": 18.703125,
+        "probability_percent": 72.61
+      },
+      {
+        "rank": 1,
+        "token": " Japon",
+        "logit": 17.0,
+        "probability_percent": 13.22
+      },
+      {
+        "rank": 2,
+        "token": " japon",
+        "logit": 15.203125,
+        "probability_percent": 2.19
+      },
+      {
+        "rank": 3,
+        "token": " J",
+        "logit": 14.9765625,
+        "probability_percent": 1.75
+      },
+      {
+        "rank": 4,
+        "token": " Japan",
+        "logit": 14.921875,
+        "probability_percent": 1.65
+      },
+      {
+        "rank": 5,
+        "token": " Core",
+        "logit": 14.59375,
+        "probability_percent": 1.19
+      },
+      {
+        "rank": 6,
+        "token": " Estados",
+        "logit": 14.234375,
+        "probability_percent": 0.83
+      },
+      {
+        "rank": 7,
+        "token": " de",
+        "logit": 13.7109375,
+        "probability_percent": 0.49
+      },
+      {
+        "rank": 8,
+        "token": " jap",
+        "logit": 13.4609375,
+        "probability_percent": 0.38
+      },
+      {
+        "rank": 9,
+        "token": " China",
+        "logit": 13.1953125,
+        "probability_percent": 0.29
+      }
+    ]
+  },
+  {
+    "prompt": "Souvlaki es del país Grecia.\nsopa de miso es del país",
+    "generated_prefix": "Souvlaki es del país Grecia.\nsopa de miso es del país Jap",
+    "gold_token": "ón",
+    "predicted_top1_token": "ón",
+    "token_pos_in_answer": 1,
+    "gold_logit": 20.890625,
+    "gold_prob_percent": 98.14,
+    "first_token_prob": 0.72607421875,
+    "second_token_prob": 0.1322021484375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ón",
+        "logit": 20.890625,
+        "probability_percent": 98.14
+      },
+      {
+        "rank": 1,
+        "token": "ones",
+        "logit": 16.46875,
+        "probability_percent": 1.18
+      },
+      {
+        "rank": 2,
+        "token": "n",
+        "logit": 14.171875,
+        "probability_percent": 0.12
+      },
+      {
+        "rank": 3,
+        "token": "òn",
+        "logit": 13.9609375,
+        "probability_percent": 0.1
+      },
+      {
+        "rank": 4,
+        "token": "ó",
+        "logit": 13.15625,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 5,
+        "token": "án",
+        "logit": 13.0859375,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 6,
+        "token": "one",
+        "logit": 12.9609375,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 7,
+        "token": "en",
+        "logit": 12.65625,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 8,
+        "token": "oen",
+        "logit": 12.546875,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 9,
+        "token": "én",
+        "logit": 12.359375,
+        "probability_percent": 0.02
+      }
+    ]
+  }
+]

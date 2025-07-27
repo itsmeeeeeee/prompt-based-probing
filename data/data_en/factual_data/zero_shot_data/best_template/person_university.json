@@ -1,0 +1,31 @@
+{
+  "relation": "person_university",
+  "template_scores": {
+    "For university, {} attended": {
+      "average_first_token_prob": 0.0620854975103022,
+      "reliability": 0.03296703296703297,
+      "overall_score": 0.0020467746431967757
+    },
+    "{} went to university at": {
+      "average_first_token_prob": 0.09126298506181318,
+      "reliability": 0.06593406593406594,
+      "overall_score": 0.006017339674405265
+    },
+    "{} completed studies at": {
+      "average_first_token_prob": 0.04641891311813187,
+      "reliability": 0.01098901098901099,
+      "overall_score": 0.0005100979463530975
+    },
+    "{} graduated from": {
+      "average_first_token_prob": 0.054330679086538464,
+      "reliability": 0.04395604395604396,
+      "overall_score": 0.002388161718089603
+    }
+  },
+  "best_template": "{} went to university at",
+  "best_template_metrics": {
+    "average_first_token_prob": 0.09126298506181318,
+    "reliability": 0.06593406593406594,
+    "overall_score": 0.006017339674405265
+  }
+}

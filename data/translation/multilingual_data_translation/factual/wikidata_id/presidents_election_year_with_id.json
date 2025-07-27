@@ -1,0 +1,133 @@
+{
+  "name": "presidents election year",
+  "prompt_templates": [
+    "{} was elected in",
+    "{} secured election in ",
+    "{} won presidency in"
+  ],
+  "prompt_templates_zs": [
+    "{} was elected in"
+  ],
+  "properties": {
+    "relation_type": "factual",
+    "domain_name": "person",
+    "range_name": "year",
+    "symmetric": false
+  },
+  "samples": [
+    {
+      "subject": "John Adams",
+      "object": "1796",
+      "subject_id": "Q11806",
+      "object_id": "Q7818"
+    },
+    {
+      "subject": "Thomas Jefferson",
+      "object": "1800",
+      "subject_id": "Q11812",
+      "object_id": "Q6875"
+    },
+    {
+      "subject": "James Madison",
+      "object": "1808",
+      "subject_id": "Q11813",
+      "object_id": "Q6914"
+    },
+    {
+      "subject": "James Monroe",
+      "object": "1816",
+      "subject_id": "Q11815",
+      "object_id": "Q6953"
+    },
+    {
+      "subject": "John Quincy Adams",
+      "object": "1824",
+      "subject_id": "Q11816",
+      "object_id": "Q6994"
+    },
+    {
+      "subject": "Andrew Jackson",
+      "object": "1828",
+      "subject_id": "Q11817",
+      "object_id": "Q7570"
+    },
+    {
+      "subject": "Martin Van Buren",
+      "object": "1836",
+      "subject_id": "Q11820",
+      "object_id": "Q7601"
+    },
+    {
+      "subject": "William Henry Harrison",
+      "object": "1840",
+      "subject_id": "Q11869",
+      "object_id": "Q7619"
+    },
+    {
+      "subject": "Richard M. Nixon",
+      "object": "1968",
+      "subject_id": "Q9588",
+      "object_id": "Q2644"
+    },
+    {
+      "subject": "John F. Kennedy",
+      "object": "1960",
+      "subject_id": "Q9696",
+      "object_id": "Q3754"
+    },
+    {
+      "subject": "Richard Nixon",
+      "object": "1968",
+      "subject_id": "Q9588",
+      "object_id": "Q2644"
+    },
+    {
+      "subject": "Bill Clinton",
+      "object": "1992",
+      "subject_id": "Q1124",
+      "object_id": "Q2060"
+    },
+    {
+      "subject": "George W. Bush",
+      "object": "2000",
+      "subject_id": "Q207",
+      "object_id": "Q1985"
+    },
+    {
+      "subject": "Barack Obama",
+      "object": "2008",
+      "subject_id": "Q76",
+      "object_id": "Q2004"
+    },
+    {
+      "subject": "Jimmy Carter ",
+      "object": "1976",
+      "subject_id": "Q23685",
+      "object_id": "Q2480"
+    },
+    {
+      "subject": "Ronald Reagan",
+      "object": "1980",
+      "subject_id": "Q9960",
+      "object_id": "Q2439"
+    },
+    {
+      "subject": "George H. W. Bush",
+      "object": "1988",
+      "subject_id": "Q23505",
+      "object_id": "Q2426"
+    },
+    {
+      "subject": "Joe Biden",
+      "object": "2020",
+      "subject_id": "Q6279",
+      "object_id": "Q25337"
+    },
+    {
+      "subject": "Franklin D. Roosevelt",
+      "object": "1932",
+      "subject_id": "Q8007",
+      "object_id": "Q18743"
+    }
+  ]
+}

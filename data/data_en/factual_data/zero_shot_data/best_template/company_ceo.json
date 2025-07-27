@@ -1,0 +1,31 @@
+{
+  "relation": "company_ceo",
+  "template_scores": {
+    "{}'s CEO is": {
+      "average_first_token_prob": 0.012367094923185822,
+      "reliability": 0.053691275167785234,
+      "overall_score": 0.0006640050965468897
+    },
+    "The CEO of {} is": {
+      "average_first_token_prob": 0.019711180821361158,
+      "reliability": 0.053691275167785234,
+      "overall_score": 0.0010583184333616729
+    },
+    "Who is the CEO of {}?": {
+      "average_first_token_prob": 0.007174907914744127,
+      "reliability": 0.030201342281879196,
+      "overall_score": 0.0002166918497741515
+    },
+    "{} is led by CEO": {
+      "average_first_token_prob": 0.21797231379771392,
+      "reliability": 0.19798657718120805,
+      "overall_score": 0.043155592329077584
+    }
+  },
+  "best_template": "{} is led by CEO",
+  "best_template_metrics": {
+    "average_first_token_prob": 0.21797231379771392,
+    "reliability": 0.19798657718120805,
+    "overall_score": 0.043155592329077584
+  }
+}

@@ -1,0 +1,5985 @@
+{
+  "name": "person mother",
+  "prompt_templates": [
+    "{}'s mother is named",
+    "{} is the mother of",
+    "{} has a child named"
+  ],
+  "prompt_templates_zs": [
+    "Name of mother of {} is",
+    "Who is {}'s mother? Their mother is named",
+    "{}'s mother is named"
+  ],
+  "properties": {
+    "relation_type": "factual",
+    "domain_name": "person",
+    "range_name": "person",
+    "symmetric": false
+  },
+  "samples": [
+    {
+      "subject": "Drake",
+      "object": "Sandi Graham",
+      "subject_id": "Q33240",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Ariana Grande",
+      "object": "Joan Grande",
+      "subject_id": "Q151892",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Rihanna",
+      "object": "Monica Braithwaite",
+      "subject_id": "Q36844",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Will Smith",
+      "object": "Caroline Bright",
+      "subject_id": "Q40096",
+      "object_id": "Q5044993"
+    },
+    {
+      "subject": "Prince William",
+      "object": "Princess Diana",
+      "subject_id": "Q16690093",
+      "object_id": "Q63892272"
+    },
+    {
+      "subject": "Prince Harry",
+      "object": "Princess Diana",
+      "subject_id": "N/A",
+      "object_id": "Q63892272"
+    },
+    {
+      "subject": "Franklin D. Roosevelt",
+      "object": "Sara Ann Delano",
+      "subject_id": "Q1445234",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Queen Elizabeth II",
+      "object": "Queen Elizabeth The Queen Mother",
+      "subject_id": "Q28052129",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Charles, Prince of Wales",
+      "object": "Queen Elizabeth II",
+      "subject_id": "Q103897000",
+      "object_id": "Q28052129"
+    },
+    {
+      "subject": "Princess Margaret",
+      "object": "Queen Elizabeth The Queen Mother",
+      "subject_id": "Q1241304",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Prince Philip",
+      "object": "Princess Alice of Battenberg",
+      "subject_id": "Q26741428",
+      "object_id": "Q116062"
+    },
+    {
+      "subject": "Prince Edward, Earl of Wessex",
+      "object": "Queen Elizabeth II",
+      "subject_id": "N/A",
+      "object_id": "Q28052129"
+    },
+    {
+      "subject": "King George VI",
+      "object": "Queen Mary",
+      "subject_id": "Q28051814",
+      "object_id": "Q61994033"
+    },
+    {
+      "subject": "Prince George of Cambridge",
+      "object": "Kate Middleton",
+      "subject_id": "N/A",
+      "object_id": "Q17506155"
+    },
+    {
+      "subject": "Prince Louis of Cambridge",
+      "object": "Kate Middleton",
+      "subject_id": "N/A",
+      "object_id": "Q17506155"
+    },
+    {
+      "subject": "Princess Charlotte of Cambridge",
+      "object": "Kate Middleton",
+      "subject_id": "N/A",
+      "object_id": "Q17506155"
+    },
+    {
+      "subject": "Archie Mountbatten-Windsor",
+      "object": "Meghan Markle",
+      "subject_id": "N/A",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Lilibet 'Lili' Diana Mountbatten-Windsor",
+      "object": "Meghan Markle",
+      "subject_id": "N/A",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "J.K. Rowling",
+      "object": "Anne Volant Rowling",
+      "subject_id": "Q28052422",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Peter Paul Rubens",
+      "object": "Maria Pypelinckx",
+      "subject_id": "Q5599",
+      "object_id": "Q2355955"
+    },
+    {
+      "subject": "Madonna",
+      "object": "Madonna Louise Fortin",
+      "subject_id": "Q1744",
+      "object_id": "Q97068329"
+    },
+    {
+      "subject": "Pablo Picasso",
+      "object": "Maria Picasso y Lopez",
+      "subject_id": "Q5593",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Lady Gaga",
+      "object": "Cynthia Germanotta",
+      "subject_id": "Q19848",
+      "object_id": "Q64011269"
+    },
+    {
+      "subject": "Rembrandt",
+      "object": "Neeltje Willemsdr. Zuytbrouck",
+      "subject_id": "Q5598",
+      "object_id": "Q29885090"
+    },
+    {
+      "subject": "Vladimir Putin",
+      "object": "Maria Ivanovna Shelomova",
+      "subject_id": "Q7747",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Anthony van Dyck",
+      "object": "Maria Cuypers",
+      "subject_id": "Q150679",
+      "object_id": "Q96089849"
+    },
+    {
+      "subject": "Michael Jackson",
+      "object": "Katherine Jackson",
+      "subject_id": "Q2831",
+      "object_id": "Q238402"
+    },
+    {
+      "subject": "William Shakespeare",
+      "object": "Mary Shakespeare",
+      "subject_id": "Q692",
+      "object_id": "Q467805"
+    },
+    {
+      "subject": "Albrecht Dürer",
+      "object": "Barbara Dürer",
+      "subject_id": "Q5580",
+      "object_id": "Q21567927"
+    },
+    {
+      "subject": "Vincent van Gogh",
+      "object": "Anna Carbentus van Gogh",
+      "subject_id": "Q5582",
+      "object_id": "Q28858126"
+    },
+    {
+      "subject": "Aretha Franklin",
+      "object": "Barbara Siggers Franklin",
+      "subject_id": "Q125121",
+      "object_id": "Q4859300"
+    },
+    {
+      "subject": "Albert Einstein",
+      "object": "Pauline Koch",
+      "subject_id": "Q937",
+      "object_id": "Q97753923"
+    },
+    {
+      "subject": "Leonardo da Vinci",
+      "object": "Caterina di Meo Lippi",
+      "subject_id": "Q762",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Adolf Hitler",
+      "object": "Klara Hitler",
+      "subject_id": "Q352",
+      "object_id": "Q158314"
+    },
+    {
+      "subject": "Johann Wolfgang von Goethe",
+      "object": "Catharina Elisabeth Goethe",
+      "subject_id": "Q5879",
+      "object_id": "Q103757"
+    },
+    {
+      "subject": "Elizabeth II",
+      "object": "Queen Elizabeth, The Queen Mother",
+      "subject_id": "Q9682",
+      "object_id": "Q10633"
+    },
+    {
+      "subject": "Leo Tolstoy",
+      "object": "Mariya Volkonskaya",
+      "subject_id": "Q7243",
+      "object_id": "Q454845"
+    },
+    {
+      "subject": "Taylor Swift",
+      "object": "Andrea Finlay",
+      "subject_id": "Q26876",
+      "object_id": "Q89530757"
+    },
+    {
+      "subject": "Donald Trump",
+      "object": "Mary Anne MacLeod Trump",
+      "subject_id": "Q22686",
+      "object_id": "Q22952511"
+    },
+    {
+      "subject": "Jennifer Lopez",
+      "object": "Guadalupe Rodriguez",
+      "subject_id": "Q40715",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Napoleon",
+      "object": "Maria-Letizia Bonaparte",
+      "subject_id": "Q517",
+      "object_id": "Q151995"
+    },
+    {
+      "subject": "Paul Gauguin",
+      "object": "Aline Chazal",
+      "subject_id": "Q37693",
+      "object_id": "Q28864956"
+    },
+    {
+      "subject": "Camille Pissarro",
+      "object": "Rachel Pissarro",
+      "subject_id": "Q134741",
+      "object_id": "Q18117051"
+    },
+    {
+      "subject": "Beyoncé",
+      "object": "Tina Knowles",
+      "subject_id": "Q36153",
+      "object_id": "Q2623520"
+    },
+    {
+      "subject": "Victor Hugo",
+      "object": "Sophie Trébuchet",
+      "subject_id": "Q535",
+      "object_id": "Q3491058"
+    },
+    {
+      "subject": "Britney Spears",
+      "object": "Lynne Spears",
+      "subject_id": "Q11975",
+      "object_id": "Q3036419"
+    },
+    {
+      "subject": "Barack Obama",
+      "object": "Stanley Ann Dunham",
+      "subject_id": "Q76",
+      "object_id": "Q766106"
+    },
+    {
+      "subject": "Cher",
+      "object": "Georgia Holt",
+      "subject_id": "Q12003",
+      "object_id": "Q4348188"
+    },
+    {
+      "subject": "Jesus",
+      "object": "Virgin Mary",
+      "subject_id": "Q1158269",
+      "object_id": "Q11771318"
+    },
+    {
+      "subject": "Lucas Cranach the Elder",
+      "object": "Barbara Hübner",
+      "subject_id": "Q191748",
+      "object_id": "Q807475"
+    },
+    {
+      "subject": "Michelangelo",
+      "object": "Francesca di Neri del Miniato Siena",
+      "subject_id": "Q5592",
+      "object_id": "Q111456913"
+    },
+    {
+      "subject": "Marilyn Monroe",
+      "object": "Gladys Monroe",
+      "subject_id": "Q4616",
+      "object_id": "Q96200519"
+    },
+    {
+      "subject": "Wolfgang Amadeus Mozart",
+      "object": "Anna Maria Mozart",
+      "subject_id": "Q254",
+      "object_id": "Q167981"
+    },
+    {
+      "subject": "Ludwig van Beethoven",
+      "object": "Maria Magdalena van Beethoven",
+      "subject_id": "Q255",
+      "object_id": "Q14507972"
+    },
+    {
+      "subject": "Katy Perry",
+      "object": "Mary Perry",
+      "subject_id": "Q42493",
+      "object_id": "Q84707567"
+    },
+    {
+      "subject": "Johann Sebastian Bach",
+      "object": "Maria Elisabeth Lämmerhirt",
+      "subject_id": "Q1339",
+      "object_id": "Q66671"
+    },
+    {
+      "subject": "Charles Darwin",
+      "object": "Susannah Darwin",
+      "subject_id": "Q1035",
+      "object_id": "Q96077423"
+    },
+    {
+      "subject": "Paul Cézanne",
+      "object": "Anne Elisabeth Aubert",
+      "subject_id": "Q35548",
+      "object_id": "Q111995602"
+    },
+    {
+      "subject": "Francisco de Goya",
+      "object": "Gracia de Lucientes y Salvador",
+      "subject_id": "Q17516050",
+      "object_id": "Q21198562"
+    },
+    {
+      "subject": "Charles Dickens",
+      "object": "Elizabeth Dickens",
+      "subject_id": "Q5686",
+      "object_id": "Q4166985"
+    },
+    {
+      "subject": "Joseph Stalin",
+      "object": "Keke Geladze",
+      "subject_id": "Q855",
+      "object_id": "Q241535"
+    },
+    {
+      "subject": "Voltaire",
+      "object": "Marguerite d’Aumard",
+      "subject_id": "Q9068",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Plato",
+      "object": "Perictione",
+      "subject_id": "Q859",
+      "object_id": "Q444595"
+    },
+    {
+      "subject": "Salvador Dalí",
+      "object": "Felipa Domènech i Ferrés",
+      "subject_id": "Q5577",
+      "object_id": "Q30968855"
+    },
+    {
+      "subject": "John Lennon",
+      "object": "Julia Lennon",
+      "subject_id": "Q1203",
+      "object_id": "Q2982766"
+    },
+    {
+      "subject": "Dante Alighieri",
+      "object": "Bella degli Abati",
+      "subject_id": "Q1067",
+      "object_id": "Q3637724"
+    },
+    {
+      "subject": "Andy Warhol",
+      "object": "Julia Warhola",
+      "subject_id": "Q5603",
+      "object_id": "Q16068019"
+    },
+    {
+      "subject": "L. Frank Baum",
+      "object": "Cynthia Ann Stanton",
+      "subject_id": "Q207544",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Shania Twain",
+      "object": "Sharron Morrison",
+      "subject_id": "Q131433",
+      "object_id": "Q97069427"
+    },
+    {
+      "subject": "Whitney Houston",
+      "object": "Cissy Houston",
+      "subject_id": "Q34389",
+      "object_id": "Q465702"
+    },
+    {
+      "subject": "Edgar Allan Poe",
+      "object": "Elizabeth \"Eliza\" Poe",
+      "subject_id": "Q16867",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Lewis Carroll",
+      "object": "Frances Jane Lutwidge",
+      "subject_id": "Q38082",
+      "object_id": "Q87783873"
+    },
+    {
+      "subject": "Walt Disney",
+      "object": "Flora Call Disney",
+      "subject_id": "Q8704",
+      "object_id": "Q5460283"
+    },
+    {
+      "subject": "Édouard Manet",
+      "object": "Eugénie-Désirée Fournier",
+      "subject_id": "Q40599",
+      "object_id": "Q66390372"
+    },
+    {
+      "subject": "Angelina Jolie",
+      "object": "Marcheline Bertrand",
+      "subject_id": "Q13909",
+      "object_id": "Q235845"
+    },
+    {
+      "subject": "Jane Fonda",
+      "object": "Frances Ford Seymour",
+      "subject_id": "Q41142",
+      "object_id": "Q10961701"
+    },
+    {
+      "subject": "Bob Dylan",
+      "object": "Beatrice Stone",
+      "subject_id": "Q392",
+      "object_id": "Q62519478"
+    },
+    {
+      "subject": "William Blake",
+      "object": "Catherine Hermitage",
+      "subject_id": "Q41513",
+      "object_id": "Q23661488"
+    },
+    {
+      "subject": "Janet Jackson",
+      "object": "Katherine Jackson",
+      "subject_id": "Q131324",
+      "object_id": "Q238402"
+    },
+    {
+      "subject": "Vladimir Lenin",
+      "object": "Maria Ulyanova",
+      "subject_id": "Q1394",
+      "object_id": "Q4475079"
+    },
+    {
+      "subject": "Ursula K. Le Guin",
+      "object": "Theodora Kroeber",
+      "subject_id": "Q181659",
+      "object_id": "Q604535"
+    },
+    {
+      "subject": "Stephen Hawking",
+      "object": "Isobel Eileen Hawking",
+      "subject_id": "Q17714",
+      "object_id": "Q107337190"
+    },
+    {
+      "subject": "Martin Luther",
+      "object": "Margaretha Luther",
+      "subject_id": "Q9554",
+      "object_id": "Q15450045"
+    },
+    {
+      "subject": "Alicia Keys",
+      "object": "Teresa Augello",
+      "subject_id": "Q121507",
+      "object_id": "Q96241624"
+    },
+    {
+      "subject": "Alexander Pushkin",
+      "object": "Nadezhda Pushkina",
+      "subject_id": "Q7200",
+      "object_id": "Q4133327"
+    },
+    {
+      "subject": "Marlene Dietrich",
+      "object": "Wilhelmina Elisabeth Joséphine Felsing",
+      "subject_id": "Q4612",
+      "object_id": "Q21149249"
+    },
+    {
+      "subject": "Gottfried Wilhelm Leibniz",
+      "object": "Catharina Schmuck",
+      "subject_id": "Q9047",
+      "object_id": "Q27156694"
+    },
+    {
+      "subject": "Dolly Parton",
+      "object": "Avie Lee Parton",
+      "subject_id": "Q180453",
+      "object_id": "Q96815141"
+    },
+    {
+      "subject": "Avril Lavigne",
+      "object": "Judith Rosanne Loshaw",
+      "subject_id": "Q30449",
+      "object_id": "Q100896015"
+    },
+    {
+      "subject": "Arthur Conan Doyle",
+      "object": "Mary Foley",
+      "subject_id": "Q35610",
+      "object_id": "Q76171648"
+    },
+    {
+      "subject": "Hans Christian Andersen",
+      "object": "Anne Marie Andersdatter",
+      "subject_id": "Q5673",
+      "object_id": "Q12301841"
+    },
+    {
+      "subject": "J. K. Rowling",
+      "object": "Anne Rowling",
+      "subject_id": "Q34660",
+      "object_id": "Q106992568"
+    },
+    {
+      "subject": "Paul McCartney",
+      "object": "Mary McCartney",
+      "subject_id": "Q2599",
+      "object_id": "Q201739"
+    },
+    {
+      "subject": "Angela Merkel",
+      "object": "Herlind Kasner",
+      "subject_id": "Q567",
+      "object_id": "Q14646844"
+    },
+    {
+      "subject": "Woody Allen",
+      "object": "Nettie Königsberg",
+      "subject_id": "Q25089",
+      "object_id": "Q108223445"
+    },
+    {
+      "subject": "John Paul II",
+      "object": "Emilia Wojtyła",
+      "subject_id": "Q989",
+      "object_id": "Q5371654"
+    },
+    {
+      "subject": "Benedict XVI",
+      "object": "Maria Peintner",
+      "subject_id": "Q2494",
+      "object_id": "Q100441774"
+    },
+    {
+      "subject": "Jean Cocteau",
+      "object": "Eugénie Cocteau",
+      "subject_id": "Q83158",
+      "object_id": "Q96972108"
+    },
+    {
+      "subject": "Fyodor Dostoyevsky",
+      "object": "Maria Fiodorovna Dostoïevskaïa",
+      "subject_id": "Q991",
+      "object_id": "Q28790325"
+    },
+    {
+      "subject": "Liza Minnelli",
+      "object": "Judy Garland",
+      "subject_id": "Q14441",
+      "object_id": "Q11637"
+    },
+    {
+      "subject": "John F. Kennedy",
+      "object": "Rose Kennedy",
+      "subject_id": "Q9696",
+      "object_id": "Q236540"
+    },
+    {
+      "subject": "Julius Caesar",
+      "object": "Aurelia",
+      "subject_id": "Q1048",
+      "object_id": "Q21034949"
+    },
+    {
+      "subject": "Oscar Wilde",
+      "object": "Jane Wilde",
+      "subject_id": "Q30875",
+      "object_id": "Q272303"
+    },
+    {
+      "subject": "Auguste Rodin",
+      "object": "Marie Cheffer",
+      "subject_id": "Q30755",
+      "object_id": "Q108838685"
+    },
+    {
+      "subject": "René Descartes",
+      "object": "Jeanne Brochard",
+      "subject_id": "Q9191",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Benito Mussolini",
+      "object": "Rosa Maltoni",
+      "subject_id": "Q23559",
+      "object_id": "Q5018676"
+    },
+    {
+      "subject": "Nicole Kidman",
+      "object": "Janelle Kidman",
+      "subject_id": "Q37459",
+      "object_id": "Q18017253"
+    },
+    {
+      "subject": "Richard Wagner",
+      "object": "Johanna Rosina Wagner-Geyer",
+      "subject_id": "Q1511",
+      "object_id": "Q55916654"
+    },
+    {
+      "subject": "Amy Winehouse",
+      "object": "Janis Seaton",
+      "subject_id": "Q15897",
+      "object_id": "Q15980251"
+    },
+    {
+      "subject": "Václav Havel",
+      "object": "Božena Vavrečková",
+      "subject_id": "Q36233",
+      "object_id": "Q18676875"
+    },
+    {
+      "subject": "Elizabeth Taylor",
+      "object": "Sara Sothern",
+      "subject_id": "Q34851",
+      "object_id": "Q7421777"
+    },
+    {
+      "subject": "Karl Marx",
+      "object": "Henriette Presburg",
+      "subject_id": "Q9061",
+      "object_id": "Q19841721"
+    },
+    {
+      "subject": "Cicero",
+      "object": "Helvia",
+      "subject_id": "Q37563125",
+      "object_id": "Q92432276"
+    },
+    {
+      "subject": "Scarlett Johansson",
+      "object": "Melanie Sloan",
+      "subject_id": "Q34436",
+      "object_id": "Q106285640"
+    },
+    {
+      "subject": "Thomas Mann",
+      "object": "Júlia da Silva Bruhns",
+      "subject_id": "Q37030",
+      "object_id": "Q78023"
+    },
+    {
+      "subject": "Chulalongkorn",
+      "object": "Debsirindra",
+      "subject_id": "Q158861",
+      "object_id": "Q736829"
+    },
+    {
+      "subject": "J. R. R. Tolkien",
+      "object": "Mabel Suffield",
+      "subject_id": "Q892",
+      "object_id": "Q10322682"
+    },
+    {
+      "subject": "Zeus",
+      "object": "Rhea",
+      "subject_id": "Q1960850",
+      "object_id": "Q19171"
+    },
+    {
+      "subject": "Frédéric Chopin",
+      "object": "Tekla Justyna Chopin",
+      "subject_id": "Q1268",
+      "object_id": "Q9356382"
+    },
+    {
+      "subject": "Lord Byron",
+      "object": "Catherine Gordon Byron",
+      "subject_id": "Q5679",
+      "object_id": "Q63645174"
+    },
+    {
+      "subject": "Jules Verne",
+      "object": "Sophie Allotte de La Fuye",
+      "subject_id": "Q33977",
+      "object_id": "Q108838577"
+    },
+    {
+      "subject": "Augustine of Hippo",
+      "object": "Monica of Hippo",
+      "subject_id": "Q8018",
+      "object_id": "Q234689"
+    },
+    {
+      "subject": "Franz Liszt",
+      "object": "Anna Liszt",
+      "subject_id": "Q41309",
+      "object_id": "Q11285375"
+    },
+    {
+      "subject": "Guido Gezelle",
+      "object": "Monica De Vriese",
+      "subject_id": "Q336977",
+      "object_id": "Q15982597"
+    },
+    {
+      "subject": "Agatha Christie",
+      "object": "Clarisa Margaret Boehmer",
+      "subject_id": "Q35064",
+      "object_id": "Q76156063"
+    },
+    {
+      "subject": "Meryl Streep",
+      "object": "Mary Wilkinson Streep",
+      "subject_id": "Q873",
+      "object_id": "Q17711441"
+    },
+    {
+      "subject": "Olivia Newton-John",
+      "object": "Irene Helen Käthe Born",
+      "subject_id": "Q185165",
+      "object_id": "Q107302605"
+    },
+    {
+      "subject": "Sigmund Freud",
+      "object": "Amalia Freud",
+      "subject_id": "Q9215",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Batman",
+      "object": "Martha Wayne",
+      "subject_id": "Q2695156",
+      "object_id": "Q936072"
+    },
+    {
+      "subject": "Ronald Reagan",
+      "object": "Nelle Wilson Reagan",
+      "subject_id": "Q9960",
+      "object_id": "Q6990072"
+    },
+    {
+      "subject": "Mark Twain",
+      "object": "Jane Lampton",
+      "subject_id": "Q7245",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Franz Kafka",
+      "object": "Julie Kafka",
+      "subject_id": "Q905",
+      "object_id": "Q25343319"
+    },
+    {
+      "subject": "Hilary Duff",
+      "object": "Susan Colleen Cobb",
+      "subject_id": "Q122020",
+      "object_id": "Q96304983"
+    },
+    {
+      "subject": "Alexander von Humboldt",
+      "object": "Marie-Elisabeth von Humboldt",
+      "subject_id": "Q6694",
+      "object_id": "Q1618375"
+    },
+    {
+      "subject": "Yukio Mishima",
+      "object": "Shizue Hiraoka",
+      "subject_id": "Q134456",
+      "object_id": "Q11482574"
+    },
+    {
+      "subject": "Frans Hals",
+      "object": "Adriaentje van Geertenryck",
+      "subject_id": "Q167654",
+      "object_id": "Q13564452"
+    },
+    {
+      "subject": "Isaac Newton",
+      "object": "Hannah Ayscough",
+      "subject_id": "Q935",
+      "object_id": "Q3126832"
+    },
+    {
+      "subject": "Charles III",
+      "object": "Elizabeth II",
+      "subject_id": "Q43274",
+      "object_id": "Q9682"
+    },
+    {
+      "subject": "Honoré de Balzac",
+      "object": "Anne-Charlotte-Laure Sallambier",
+      "subject_id": "Q9711",
+      "object_id": "Q19112644"
+    },
+    {
+      "subject": "Brigitte Bardot",
+      "object": "Anne-Marie Mucel",
+      "subject_id": "Q36268",
+      "object_id": "Q75470766"
+    },
+    {
+      "subject": "August Strindberg",
+      "object": "Eleonora Ulrika Strindberg",
+      "subject_id": "Q7724",
+      "object_id": "Q83427371"
+    },
+    {
+      "subject": "Halle Berry",
+      "object": "Judith Ann Hawkins",
+      "subject_id": "Q1033016",
+      "object_id": "Q96302768"
+    },
+    {
+      "subject": "Friedrich Schiller",
+      "object": "Elisabeth Dorothea Schiller",
+      "subject_id": "Q22670",
+      "object_id": "Q12681141"
+    },
+    {
+      "subject": "George Frideric Handel",
+      "object": "Dorothea Händel",
+      "subject_id": "Q7302",
+      "object_id": "Q94777833"
+    },
+    {
+      "subject": "Charlie Chaplin",
+      "object": "Hannah Chaplin",
+      "subject_id": "Q882",
+      "object_id": "Q153658"
+    },
+    {
+      "subject": "Bertrand Russell",
+      "object": "Katharine Russell, Viscountess Amberley",
+      "subject_id": "Q33760",
+      "object_id": "Q6376230"
+    },
+    {
+      "subject": "George Washington",
+      "object": "Mary Ball Washington",
+      "subject_id": "Q23",
+      "object_id": "Q458119"
+    },
+    {
+      "subject": "Edvard Munch",
+      "object": "Laura Cathrine Munch",
+      "subject_id": "Q41406",
+      "object_id": "Q11983452"
+    },
+    {
+      "subject": "Mahatma Gandhi",
+      "object": "Putlibai Karamchand Gandhi",
+      "subject_id": "Q1001",
+      "object_id": "Q48438546"
+    },
+    {
+      "subject": "Carl Linnaeus",
+      "object": "Christina Brodersonia",
+      "subject_id": "Q1043",
+      "object_id": "Q19387900"
+    },
+    {
+      "subject": "Miley Cyrus",
+      "object": "Tish Cyrus",
+      "subject_id": "Q4235",
+      "object_id": "Q4405278"
+    },
+    {
+      "subject": "George Bernard Shaw",
+      "object": "Lucinda Elizabeth Shaw",
+      "subject_id": "Q19185",
+      "object_id": "Q41732806"
+    },
+    {
+      "subject": "George Sand",
+      "object": "Sophie Victoire Delaborde",
+      "subject_id": "Q3816",
+      "object_id": "Q56021183"
+    },
+    {
+      "subject": "Henri de Toulouse-Lautrec",
+      "object": "Adèle Zoë Tapié de Céleyran",
+      "subject_id": "Q82445",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Victoria",
+      "object": "Princess Victoria of Saxe-Coburg-Saalfeld",
+      "subject_id": "Q590893",
+      "object_id": "Q58067"
+    },
+    {
+      "subject": "Superman",
+      "object": "Martha Kent",
+      "subject_id": "Q79015",
+      "object_id": "Q3850003"
+    },
+    {
+      "subject": "Joshua Reynolds",
+      "object": "Theophila Potter",
+      "subject_id": "Q194402",
+      "object_id": "Q22998136"
+    },
+    {
+      "subject": "Aldous Huxley",
+      "object": "Julia Huxley",
+      "subject_id": "Q81447",
+      "object_id": "Q19325895"
+    },
+    {
+      "subject": "Jorge Luis Borges",
+      "object": "Leonor Rita Acevedo Suárez",
+      "subject_id": "Q909",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Diego Velázquez",
+      "object": "Jerónima Velázquez",
+      "subject_id": "Q297",
+      "object_id": "Q21198368"
+    },
+    {
+      "subject": "Jacques-Louis David",
+      "object": "Marie-Geneviève Buron",
+      "subject_id": "Q83155",
+      "object_id": "Q108840476"
+    },
+    {
+      "subject": "Jane Austen",
+      "object": "Cassandra Austen",
+      "subject_id": "Q36322",
+      "object_id": "Q2505245"
+    },
+    {
+      "subject": "Galileo Galilei",
+      "object": "Giulia Ammannati",
+      "subject_id": "Q307",
+      "object_id": "Q3769231"
+    },
+    {
+      "subject": "Joe Biden",
+      "object": "Jean Biden",
+      "subject_id": "Q6279",
+      "object_id": "Q96318245"
+    },
+    {
+      "subject": "H. P. Lovecraft",
+      "object": "Sarah Susan Phillips Lovecraft",
+      "subject_id": "Q169566",
+      "object_id": "Q96289069"
+    },
+    {
+      "subject": "T. S. Eliot",
+      "object": "Charlotte Champe Stearns",
+      "subject_id": "Q37767",
+      "object_id": "Q5085873"
+    },
+    {
+      "subject": "Walter Scott",
+      "object": "Anne Rutherford",
+      "subject_id": "Q79025",
+      "object_id": "Q75960529"
+    },
+    {
+      "subject": "Kate Winslet",
+      "object": "Sally Ann Bridges",
+      "subject_id": "Q202765",
+      "object_id": "Q76234905"
+    },
+    {
+      "subject": "Francis Bacon",
+      "object": "Anne Bacon",
+      "subject_id": "Q154340",
+      "object_id": "Q108841527"
+    },
+    {
+      "subject": "Nelson Mandela",
+      "object": "Nosekeni Fanny",
+      "subject_id": "Q8023",
+      "object_id": "Q16103879"
+    },
+    {
+      "subject": "Miguel de Cervantes",
+      "object": "Leonor de Cortinas",
+      "subject_id": "Q5682",
+      "object_id": "Q16303005"
+    },
+    {
+      "subject": "Yoko Ono",
+      "object": "Isoko Ono",
+      "subject_id": "Q117012",
+      "object_id": "Q95422058"
+    },
+    {
+      "subject": "Pyotr Ilyich Tchaikovsky",
+      "object": "Aleksandra Tchaikovskaya",
+      "subject_id": "Q7315",
+      "object_id": "Q94572868"
+    },
+    {
+      "subject": "John Cage",
+      "object": "Crete Cage",
+      "subject_id": "Q180727",
+      "object_id": "Q92060655"
+    },
+    {
+      "subject": "Catherine Zeta-Jones",
+      "object": "Pat Fair",
+      "subject_id": "Q47664",
+      "object_id": "Q108841512"
+    },
+    {
+      "subject": "Dua Lipa",
+      "object": "Anesa Lipa",
+      "subject_id": "Q21914464",
+      "object_id": "Q103845586"
+    },
+    {
+      "subject": "George Harrison",
+      "object": "Louise Anne Harrison",
+      "subject_id": "Q2643",
+      "object_id": "Q105944183"
+    },
+    {
+      "subject": "Alexandre Dumas",
+      "object": "Marie-Louise-Élisabeth Labouret Dumas",
+      "subject_id": "Q38337",
+      "object_id": "Q83386067"
+    },
+    {
+      "subject": "Abraham Lincoln",
+      "object": "Nancy Hanks Lincoln",
+      "subject_id": "Q91",
+      "object_id": "Q3335588"
+    },
+    {
+      "subject": "Robert Louis Stevenson",
+      "object": "Matilde Margaret Isabella Stevenson",
+      "subject_id": "Q1512",
+      "object_id": "Q20968044"
+    },
+    {
+      "subject": "Giovanni Battista Tiepolo",
+      "object": "Orsetta Tiepolo",
+      "subject_id": "Q186202",
+      "object_id": "Q26208304"
+    },
+    {
+      "subject": "Arnold Schwarzenegger",
+      "object": "Aurelia Schwarzenegger",
+      "subject_id": "Q2685",
+      "object_id": "Q23800370"
+    },
+    {
+      "subject": "Penélope Cruz",
+      "object": "Encarna Sánchez",
+      "subject_id": "Q39666",
+      "object_id": "Q3509085"
+    },
+    {
+      "subject": "Elton John",
+      "object": "Sheila Eileen Farebrother",
+      "subject_id": "Q2808",
+      "object_id": "Q107324334"
+    },
+    {
+      "subject": "Elvis Presley",
+      "object": "Gladys Presley",
+      "subject_id": "Q303",
+      "object_id": "Q12363015"
+    },
+    {
+      "subject": "Rudyard Kipling",
+      "object": "Alice MacDonald Kipling",
+      "subject_id": "Q34743",
+      "object_id": "Q18526428"
+    },
+    {
+      "subject": "Stephen King",
+      "object": "Nellie Pillsbury",
+      "subject_id": "Q39829",
+      "object_id": "Q96812440"
+    },
+    {
+      "subject": "Leonard Cohen",
+      "object": "Marsha Klonitsky",
+      "subject_id": "Q1276",
+      "object_id": "Q108418453"
+    },
+    {
+      "subject": "Henry VIII of England",
+      "object": "Elizabeth of York",
+      "subject_id": "Q38370",
+      "object_id": "Q207953"
+    },
+    {
+      "subject": "Milla Jovovich",
+      "object": "Galina Jovovich",
+      "subject_id": "Q170576",
+      "object_id": "Q1089261"
+    },
+    {
+      "subject": "Ivan Turgenev",
+      "object": "Varvara Petrovna Turgeneva",
+      "subject_id": "Q42831",
+      "object_id": "Q13049771"
+    },
+    {
+      "subject": "Frank Sinatra",
+      "object": "Dolly Sinatra",
+      "subject_id": "Q40912",
+      "object_id": "Q21078200"
+    },
+    {
+      "subject": "Otto von Bismarck",
+      "object": "Wilhelmine Luise Mencken",
+      "subject_id": "Q8442",
+      "object_id": "Q96244639"
+    },
+    {
+      "subject": "Sean Connery",
+      "object": "Euphemia McLean",
+      "subject_id": "Q4573",
+      "object_id": "Q107154708"
+    },
+    {
+      "subject": "Ernest Hemingway",
+      "object": "Grace Hall Hemingway",
+      "subject_id": "Q23434",
+      "object_id": "Q19841648"
+    },
+    {
+      "subject": "John Singer Sargent",
+      "object": "Mary Newbold Sargent",
+      "subject_id": "Q155626",
+      "object_id": "Q56739442"
+    },
+    {
+      "subject": "Benjamin Franklin",
+      "object": "Abiah Folger",
+      "subject_id": "Q34969",
+      "object_id": "Q62571435"
+    },
+    {
+      "subject": "Émile Zola",
+      "object": "Émilie Aubert",
+      "subject_id": "Q504",
+      "object_id": "Q3588827"
+    },
+    {
+      "subject": "Jonathan Swift",
+      "object": "Abigail Erick",
+      "subject_id": "Q41166",
+      "object_id": "Q75580587"
+    },
+    {
+      "subject": "Petrarch",
+      "object": "Eietta Canigiani",
+      "subject_id": "Q1401",
+      "object_id": "Q110738792"
+    },
+    {
+      "subject": "Virginia Woolf",
+      "object": "Julia Stephen",
+      "subject_id": "Q40909",
+      "object_id": "Q18912649"
+    },
+    {
+      "subject": "C. S. Lewis",
+      "object": "Florence Augusta Hamilton",
+      "subject_id": "Q9204",
+      "object_id": "Q76246409"
+    },
+    {
+      "subject": "Anton Chekhov",
+      "object": "Evgenia Chekhova",
+      "subject_id": "Q5685",
+      "object_id": "Q113495056"
+    },
+    {
+      "subject": "William Hogarth",
+      "object": "Anne Gibbons",
+      "subject_id": "Q171344",
+      "object_id": "Q108840781"
+    },
+    {
+      "subject": "Alanis Morissette",
+      "object": "Georgia Feuerstein",
+      "subject_id": "Q130742",
+      "object_id": "Q97069705"
+    },
+    {
+      "subject": "Antonín Dvořák",
+      "object": "Anna Dvořáková",
+      "subject_id": "Q7298",
+      "object_id": "Q131261851"
+    },
+    {
+      "subject": "Alec Baldwin",
+      "object": "Carol Baldwin",
+      "subject_id": "Q170572",
+      "object_id": "Q96242653"
+    },
+    {
+      "subject": "Felix Mendelssohn",
+      "object": "Lea Mendelssohn Bartholdy",
+      "subject_id": "Q46096",
+      "object_id": "Q1810407"
+    },
+    {
+      "subject": "Hillary Clinton",
+      "object": "Dorothy Howell Rodham",
+      "subject_id": "Q6294",
+      "object_id": "Q5298463"
+    },
+    {
+      "subject": "Rita Hayworth",
+      "object": "Volga Hayworth",
+      "subject_id": "Q42745",
+      "object_id": "Q7940166"
+    },
+    {
+      "subject": "Charlotte Brontë",
+      "object": "Maria Branwell",
+      "subject_id": "Q127332",
+      "object_id": "Q3111281"
+    },
+    {
+      "subject": "Catherine Deneuve",
+      "object": "Renée Simonot",
+      "subject_id": "Q106418",
+      "object_id": "Q3427179"
+    },
+    {
+      "subject": "Dwight D. Eisenhower",
+      "object": "Ida Stover Eisenhower",
+      "subject_id": "Q9916",
+      "object_id": "Q15997423"
+    },
+    {
+      "subject": "Mario Vargas Llosa",
+      "object": "Dora Llosa Ureta",
+      "subject_id": "Q39803",
+      "object_id": "Q107402045"
+    },
+    {
+      "subject": "Helen Mirren",
+      "object": "Kitty Rogers",
+      "subject_id": "Q349391",
+      "object_id": "Q108841540"
+    },
+    {
+      "subject": "Charlotte Gainsbourg",
+      "object": "Jane Birkin",
+      "subject_id": "Q276005",
+      "object_id": "Q212873"
+    },
+    {
+      "subject": "Angela Lansbury",
+      "object": "Moyna Macgill",
+      "subject_id": "Q206856",
+      "object_id": "Q510507"
+    },
+    {
+      "subject": "Thomas Jefferson",
+      "object": "Jane Randolph Jefferson",
+      "subject_id": "Q11812",
+      "object_id": "Q3161892"
+    },
+    {
+      "subject": "Nikolai Gogol",
+      "object": "Mariia Hohol",
+      "subject_id": "Q43718",
+      "object_id": "Q4141049"
+    },
+    {
+      "subject": "Kobe Bryant",
+      "object": "Pam Bryant",
+      "subject_id": "Q25369",
+      "object_id": "Q103971314"
+    },
+    {
+      "subject": "Antoine de Saint-Exupéry",
+      "object": "Marie Louise Andrée Boyer de Fonscolombe",
+      "subject_id": "Q2908",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Mary Shelley",
+      "object": "Mary Wollstonecraft",
+      "subject_id": "Q47152",
+      "object_id": "Q101638"
+    },
+    {
+      "subject": "Jane Birkin",
+      "object": "Judy Campbell",
+      "subject_id": "Q212873",
+      "object_id": "Q730110"
+    },
+    {
+      "subject": "Sophia Loren",
+      "object": "Romilda Villani",
+      "subject_id": "Q43252",
+      "object_id": "Q106315266"
+    },
+    {
+      "subject": "Bhumibol Adulyadej",
+      "object": "Srinagarindra, Princess Mother",
+      "subject_id": "Q855252",
+      "object_id": "Q449433"
+    },
+    {
+      "subject": "Hermann Hesse",
+      "object": "Marie Hesse",
+      "subject_id": "Q25973",
+      "object_id": "Q23059263"
+    },
+    {
+      "subject": "Federico García Lorca",
+      "object": "Cristiano Ronaldo",
+      "subject_id": "Q41408",
+      "object_id": "Q11571"
+    },
+    {
+      "subject": "Thomas More",
+      "object": "Agnes Graunger",
+      "subject_id": "Q42544",
+      "object_id": "Q75801380"
+    },
+    {
+      "subject": "George Orwell",
+      "object": "Ida Mabel Limouzin",
+      "subject_id": "Q3335",
+      "object_id": "Q96085755"
+    },
+    {
+      "subject": "Jessica Simpson",
+      "object": "Tina Ann Drew",
+      "subject_id": "Q168992",
+      "object_id": "Q105554349"
+    },
+    {
+      "subject": "Louis XIV of France",
+      "object": "Anne of Austria",
+      "subject_id": "Q7742",
+      "object_id": "Q151209"
+    },
+    {
+      "subject": "Confucius",
+      "object": "Yan Zhengzai",
+      "subject_id": "Q4036488",
+      "object_id": "Q7239593"
+    },
+    {
+      "subject": "Charles de Gaulle",
+      "object": "Jeanne Maillot",
+      "subject_id": "Q2042",
+      "object_id": "Q16354853"
+    },
+    {
+      "subject": "Leonard Bernstein",
+      "object": "Jennie Resnick",
+      "subject_id": "Q152505",
+      "object_id": "Q112608857"
+    },
+    {
+      "subject": "Spock",
+      "object": "Amanda Grayson",
+      "subject_id": "Q16341",
+      "object_id": "Q1412447"
+    },
+    {
+      "subject": "Leonhard Euler",
+      "object": "Marguerite Brucker",
+      "subject_id": "Q7604",
+      "object_id": "Q108838556"
+    },
+    {
+      "subject": "Heinrich Heine",
+      "object": "Betty Heine",
+      "subject_id": "Q44403",
+      "object_id": "Q104701337"
+    },
+    {
+      "subject": "Vladimir Nabokov",
+      "object": "Yelena Rukavishnikova",
+      "subject_id": "Q36591",
+      "object_id": "Q75960393"
+    },
+    {
+      "subject": "Georg Wilhelm Friedrich Hegel",
+      "object": "Maria Magdalena Louisa Fromm",
+      "subject_id": "Q9235",
+      "object_id": "Q102515921"
+    },
+    {
+      "subject": "James McNeill Whistler",
+      "object": "Anna McNeill Whistler",
+      "subject_id": "Q203643",
+      "object_id": "Q4767336"
+    },
+    {
+      "subject": "Prince",
+      "object": "Mattie Shaw",
+      "subject_id": "Q7542",
+      "object_id": "Q23928706"
+    },
+    {
+      "subject": "Theodore Roosevelt",
+      "object": "Martha Bulloch Roosevelt",
+      "subject_id": "Q33866",
+      "object_id": "Q6774355"
+    },
+    {
+      "subject": "Charles Baudelaire",
+      "object": "Caroline Aupick",
+      "subject_id": "Q501",
+      "object_id": "Q15973389"
+    },
+    {
+      "subject": "Benedictus de Spinoza",
+      "object": "Hanna Debora d'Espinoza",
+      "subject_id": "Q35802",
+      "object_id": "Q54251324"
+    },
+    {
+      "subject": "Shirley MacLaine",
+      "object": "Kathlyn Corinne Maclean",
+      "subject_id": "Q95026",
+      "object_id": "Q101423257"
+    },
+    {
+      "subject": "Leonid Brezhnev",
+      "object": "Natalia Denisovna Brezhneva",
+      "subject_id": "Q765165",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Bill Clinton",
+      "object": "Virginia Clinton Kelley",
+      "subject_id": "Q1124",
+      "object_id": "Q4112334"
+    },
+    {
+      "subject": "André Gide",
+      "object": "Juliette Gide",
+      "subject_id": "Q47484",
+      "object_id": "Q59943614"
+    },
+    {
+      "subject": "H. G. Wells",
+      "object": "Sarah Neal",
+      "subject_id": "Q42511",
+      "object_id": "Q105800836"
+    },
+    {
+      "subject": "Giorgio Vasari",
+      "object": "Maddalena Tacci",
+      "subject_id": "Q128027",
+      "object_id": "Q112761455"
+    },
+    {
+      "subject": "Charlemagne",
+      "object": "Bertrada of Laon",
+      "subject_id": "Q19914524",
+      "object_id": "Q266751"
+    },
+    {
+      "subject": "William Butler Yeats",
+      "object": "Susan Pollexfen",
+      "subject_id": "Q40213",
+      "object_id": "Q5191569"
+    },
+    {
+      "subject": "Jan Brueghel the Elder",
+      "object": "Mayken Coecke",
+      "subject_id": "Q209050",
+      "object_id": "Q28567978"
+    },
+    {
+      "subject": "Franklin Delano Roosevelt",
+      "object": "Sara Roosevelt",
+      "subject_id": "Q8007",
+      "object_id": "Q109321850"
+    },
+    {
+      "subject": "Poseidon",
+      "object": "Rhea",
+      "subject_id": "Q41127",
+      "object_id": "Q19171"
+    },
+    {
+      "subject": "Emily Brontë",
+      "object": "Maria Branwell",
+      "subject_id": "Q80137",
+      "object_id": "Q3111281"
+    },
+    {
+      "subject": "Audrey Hepburn",
+      "object": "Ella van Heemstra",
+      "subject_id": "Q42786",
+      "object_id": "Q16010942"
+    },
+    {
+      "subject": "John Ruskin",
+      "object": "Margaret Cock Ruskin",
+      "subject_id": "Q179126",
+      "object_id": "Q42529433"
+    },
+    {
+      "subject": "Gustav Klimt",
+      "object": "Anna Klimt",
+      "subject_id": "Q34661",
+      "object_id": "Q108750907"
+    },
+    {
+      "subject": "Niccolò Machiavelli",
+      "object": "Bartolomea di Stefano Nelli",
+      "subject_id": "Q1399",
+      "object_id": "Q111456925"
+    },
+    {
+      "subject": "Charles V",
+      "object": "Juana I of Castile",
+      "subject_id": "Q32500",
+      "object_id": "Q171136"
+    },
+    {
+      "subject": "Johannes Brahms",
+      "object": "Johanna Henrica Christian jester",
+      "subject_id": "Q7294",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Cristiano Ronaldo",
+      "object": "Maria Dolores dos Santos Viveiros da Aveiro",
+      "subject_id": "Q11571",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Martin Luther King Jr.",
+      "object": "Alberta Williams King",
+      "subject_id": "Q8027",
+      "object_id": "Q1110336"
+    },
+    {
+      "subject": "Henrik Ibsen",
+      "object": "Marichen Altenburg",
+      "subject_id": "Q36661",
+      "object_id": "Q6762566"
+    },
+    {
+      "subject": "Niels Bohr",
+      "object": "Ellen Bohr",
+      "subject_id": "Q7085",
+      "object_id": "Q12309804"
+    },
+    {
+      "subject": "George W. Bush",
+      "object": "Barbara Bush",
+      "subject_id": "Q207",
+      "object_id": "Q190628"
+    },
+    {
+      "subject": "Peter Gabriel",
+      "object": "Edith Irene Allen",
+      "subject_id": "Q175195",
+      "object_id": "Q76272666"
+    },
+    {
+      "subject": "Douglas Adams",
+      "object": "Janet Adams",
+      "subject_id": "Q42",
+      "object_id": "Q14623678"
+    },
+    {
+      "subject": "Nicolaus Copernicus",
+      "object": "Barbara Koppernigk",
+      "subject_id": "Q619",
+      "object_id": "Q20950518"
+    },
+    {
+      "subject": "Karl Popper",
+      "object": "Jenny Popper",
+      "subject_id": "Q81244",
+      "object_id": "Q115111057"
+    },
+    {
+      "subject": "George H. W. Bush",
+      "object": "Dorothy Walker Bush",
+      "subject_id": "Q23505",
+      "object_id": "Q4100648"
+    },
+    {
+      "subject": "Seneca",
+      "object": "Helvia",
+      "subject_id": "Q28807153",
+      "object_id": "Q92432276"
+    },
+    {
+      "subject": "Julia Roberts",
+      "object": "Betty Lou Bredemus",
+      "subject_id": "Q40523",
+      "object_id": "Q19347164"
+    },
+    {
+      "subject": "Thomas Gainsborough",
+      "object": "NN Burroughs",
+      "subject_id": "Q192720",
+      "object_id": "Q111996251"
+    },
+    {
+      "subject": "Ingmar Bergman",
+      "object": "Karin Bergman",
+      "subject_id": "Q7546",
+      "object_id": "Q4938564"
+    },
+    {
+      "subject": "Leon Trotsky",
+      "object": "Anna Bronstein",
+      "subject_id": "Q33391",
+      "object_id": "Q25677832"
+    },
+    {
+      "subject": "Wilhelm II",
+      "object": "Victoria, Princess Royal",
+      "subject_id": "Q2677",
+      "object_id": "Q116728"
+    },
+    {
+      "subject": "Michael Jordan",
+      "object": "Deloris Jordan",
+      "subject_id": "Q41421",
+      "object_id": "Q29348175"
+    },
+    {
+      "subject": "Orson Welles",
+      "object": "Beatrice Ives Welles",
+      "subject_id": "Q24829",
+      "object_id": "Q96202463"
+    },
+    {
+      "subject": "Ella Fitzgerald",
+      "object": "Temperance",
+      "subject_id": "Q1768",
+      "object_id": "Q1147795"
+    },
+    {
+      "subject": "Marcus Aurelius",
+      "object": "Calvisia Domitia Lucilla",
+      "subject_id": "Q1430",
+      "object_id": "Q1815905"
+    },
+    {
+      "subject": "Céline Dion",
+      "object": "Thérèse Dion",
+      "subject_id": "Q5105",
+      "object_id": "Q7799899"
+    },
+    {
+      "subject": "Glenn Close",
+      "object": "Bettine Moore Close",
+      "subject_id": "Q372311",
+      "object_id": "Q17541135"
+    },
+    {
+      "subject": "William Ewart Gladstone",
+      "object": "Anne MacKenzie Robertson",
+      "subject_id": "Q160852",
+      "object_id": "Q75318027"
+    },
+    {
+      "subject": "Lily Allen",
+      "object": "Alison Owen",
+      "subject_id": "Q58735",
+      "object_id": "Q516645"
+    },
+    {
+      "subject": "Uma Thurman",
+      "object": "Nena von Schlebrügge",
+      "subject_id": "Q125017",
+      "object_id": "Q623962"
+    },
+    {
+      "subject": "Alexander the Great",
+      "object": "Olympias",
+      "subject_id": "Q8409",
+      "object_id": "Q2069593"
+    },
+    {
+      "subject": "Maurice Utrillo",
+      "object": "Suzanne Valadon",
+      "subject_id": "Q108301",
+      "object_id": "Q156889"
+    },
+    {
+      "subject": "Dante Gabriel Rossetti",
+      "object": "Frances Polidori",
+      "subject_id": "Q186748",
+      "object_id": "Q2278571"
+    },
+    {
+      "subject": "Stendhal",
+      "object": "Henriette Gagnon",
+      "subject_id": "Q502",
+      "object_id": "Q21198372"
+    },
+    {
+      "subject": "Jack London",
+      "object": "Flora London",
+      "subject_id": "Q45765",
+      "object_id": "Q102162037"
+    },
+    {
+      "subject": "Werner Heisenberg",
+      "object": "Annie Heisenberg",
+      "subject_id": "Q40904",
+      "object_id": "Q27908660"
+    },
+    {
+      "subject": "Selma Lagerlöf",
+      "object": "Elisabet Lovisa Wallroth",
+      "subject_id": "Q44519",
+      "object_id": "Q52674218"
+    },
+    {
+      "subject": "Ernest Rutherford",
+      "object": "Martha Thompson",
+      "subject_id": "Q9123",
+      "object_id": "Q75451549"
+    },
+    {
+      "subject": "Gwyneth Paltrow",
+      "object": "Blythe Danner",
+      "subject_id": "Q34460",
+      "object_id": "Q40064"
+    },
+    {
+      "subject": "Frederick II of Prussia",
+      "object": "Sophia Dorothea of Hanover",
+      "subject_id": "Q33550",
+      "object_id": "Q161131"
+    },
+    {
+      "subject": "Joseph Conrad",
+      "object": "Ewa Korzeniewska",
+      "subject_id": "Q82925",
+      "object_id": "Q110224797"
+    },
+    {
+      "subject": "Caravaggio",
+      "object": "Lucia Aratori",
+      "subject_id": "Q42207",
+      "object_id": "Q86697616"
+    },
+    {
+      "subject": "George Eliot",
+      "object": "Christiana Pearson",
+      "subject_id": "Q131333",
+      "object_id": "Q96074990"
+    },
+    {
+      "subject": "John Milton",
+      "object": "Sara Jeffrey",
+      "subject_id": "Q79759",
+      "object_id": "Q96089257"
+    },
+    {
+      "subject": "George VI",
+      "object": "Mary of Teck",
+      "subject_id": "Q280856",
+      "object_id": "Q76927"
+    },
+    {
+      "subject": "Christopher Columbus",
+      "object": "Susanna Fontanarossa",
+      "subject_id": "Q7322",
+      "object_id": "Q3436617"
+    },
+    {
+      "subject": "Sarah Bernhardt",
+      "object": "Judith-Julie Bernardt",
+      "subject_id": "Q4605",
+      "object_id": "Q18776819"
+    },
+    {
+      "subject": "Henry Wadsworth Longfellow",
+      "object": "Zilpah Wadsworth",
+      "subject_id": "Q152513",
+      "object_id": "Q84321324"
+    },
+    {
+      "subject": "Tom Hanks",
+      "object": "Janet Marylyn Frager",
+      "subject_id": "Q2263",
+      "object_id": "Q96244398"
+    },
+    {
+      "subject": "Alphonse de Lamartine",
+      "object": "Alix de Lamartine",
+      "subject_id": "Q188697",
+      "object_id": "Q2837302"
+    },
+    {
+      "subject": "Édith Piaf",
+      "object": "Line Marsa",
+      "subject_id": "Q1631",
+      "object_id": "Q3241476"
+    },
+    {
+      "subject": "Emma Thompson",
+      "object": "Phyllida Law",
+      "subject_id": "Q168724",
+      "object_id": "Q432357"
+    },
+    {
+      "subject": "Johnny Cash",
+      "object": "Carrie Cloveree Rivers",
+      "subject_id": "Q42775",
+      "object_id": "Q19614652"
+    },
+    {
+      "subject": "Jackie Chan",
+      "object": "Lee-Lee Chan",
+      "subject_id": "Q36970",
+      "object_id": "Q21535085"
+    },
+    {
+      "subject": "Jean-Luc Godard",
+      "object": "Odile Monod",
+      "subject_id": "Q53001",
+      "object_id": "Q97009425"
+    },
+    {
+      "subject": "Henry James",
+      "object": "Mary Walsh James",
+      "subject_id": "Q170509",
+      "object_id": "Q107382824"
+    },
+    {
+      "subject": "Aleksandr Solzhenitsyn",
+      "object": "Taisiya Zakharovna Shcerbak",
+      "subject_id": "Q34474",
+      "object_id": "Q108838681"
+    },
+    {
+      "subject": "Alberto Giacometti",
+      "object": "Annetta Giacometti",
+      "subject_id": "Q157194",
+      "object_id": "Q110400217"
+    },
+    {
+      "subject": "Francis of Assisi",
+      "object": "Pica de Bourlemont",
+      "subject_id": "Q676555",
+      "object_id": "Q110856621"
+    },
+    {
+      "subject": "Rosa Bonheur",
+      "object": "Sophie Marquis",
+      "subject_id": "Q241732",
+      "object_id": "Q115149660"
+    },
+    {
+      "subject": "Bernard of Clairvaux",
+      "object": "Alèthe",
+      "subject_id": "Q188411",
+      "object_id": "Q2840712"
+    },
+    {
+      "subject": "Robin Williams",
+      "object": "Laura McLaurin",
+      "subject_id": "Q83338",
+      "object_id": "Q17504610"
+    },
+    {
+      "subject": "Judit Polgár",
+      "object": "Klára Polgár",
+      "subject_id": "Q183250",
+      "object_id": "Q23908557"
+    },
+    {
+      "subject": "Béla Bartók",
+      "object": "Paula Voit",
+      "subject_id": "Q83326",
+      "object_id": "Q29477445"
+    },
+    {
+      "subject": "Bhimrao Ramji Ambedkar",
+      "object": "Bhimabai Ramji Sakpal",
+      "subject_id": "Q27131261",
+      "object_id": "Q31738078"
+    },
+    {
+      "subject": "Virgil",
+      "object": "Maglia Pollae",
+      "subject_id": "Q17505763",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Bette Davis",
+      "object": "Ruth Augusta 'Ruthie' Favor",
+      "subject_id": "Q71206",
+      "object_id": "Q96243261"
+    },
+    {
+      "subject": "Judy Garland",
+      "object": "Ethel Marion Milne",
+      "subject_id": "Q11637",
+      "object_id": "Q98100273"
+    },
+    {
+      "subject": "Jean Sibelius",
+      "object": "Maria Charlotta Sibelius",
+      "subject_id": "Q45682",
+      "object_id": "Q109852811"
+    },
+    {
+      "subject": "Antonio Vivaldi",
+      "object": "Camilla Calicchio",
+      "subject_id": "Q1340",
+      "object_id": "Q20013710"
+    },
+    {
+      "subject": "Joan Crawford",
+      "object": "Anna Johnson",
+      "subject_id": "Q40475",
+      "object_id": "Q43120854"
+    },
+    {
+      "subject": "Graham Greene",
+      "object": "Marion Raymond Greene",
+      "subject_id": "Q311169",
+      "object_id": "Q96085753"
+    },
+    {
+      "subject": "Arthur Schopenhauer",
+      "object": "Johanna Schopenhauer",
+      "subject_id": "Q38193",
+      "object_id": "Q61440"
+    },
+    {
+      "subject": "Alessandro Manzoni",
+      "object": "Giulia Beccaria",
+      "subject_id": "Q1064",
+      "object_id": "Q3769235"
+    },
+    {
+      "subject": "Daniel Defoe",
+      "object": "Alice Marsh",
+      "subject_id": "Q40946",
+      "object_id": "Q111454498"
+    },
+    {
+      "subject": "Michelle Yeoh",
+      "object": "Janet Yeoh",
+      "subject_id": "Q214289",
+      "object_id": "Q106777677"
+    },
+    {
+      "subject": "Jimmy Carter",
+      "object": "Bessie Lillian Carter",
+      "subject_id": "Q23685",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Albert Schweitzer",
+      "object": "Adèle Schillinger",
+      "subject_id": "Q49325",
+      "object_id": "Q108838767"
+    },
+    {
+      "subject": "Hugo von Hofmannsthal",
+      "object": "Anna Fohleutner",
+      "subject_id": "Q51513",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Mao Zedong",
+      "object": "Wen Qimei",
+      "subject_id": "Q5816",
+      "object_id": "Q4120370"
+    },
+    {
+      "subject": "Edward Bulwer-Lytton",
+      "object": "Elizabeth Barbara Lytton",
+      "subject_id": "Q318462",
+      "object_id": "Q5362375"
+    },
+    {
+      "subject": "Ilya Repin",
+      "object": "Tatiana Repina",
+      "subject_id": "Q172911",
+      "object_id": "Q3516055"
+    },
+    {
+      "subject": "Clint Eastwood",
+      "object": "Margaret Ruth Runner",
+      "subject_id": "Q43203",
+      "object_id": "Q96207624"
+    },
+    {
+      "subject": "Blaise Pascal",
+      "object": "Antoinette Begon",
+      "subject_id": "Q1290",
+      "object_id": "Q109833285"
+    },
+    {
+      "subject": "Euripides",
+      "object": "Cleito",
+      "subject_id": "Q48305",
+      "object_id": "Q17581463"
+    },
+    {
+      "subject": "Edward VII",
+      "object": "Victoria",
+      "subject_id": "Q20875",
+      "object_id": "Q590893"
+    },
+    {
+      "subject": "Susan Polgar",
+      "object": "Klára Polgár",
+      "subject_id": "Q12823",
+      "object_id": "Q23908557"
+    },
+    {
+      "subject": "Nancy Sinatra",
+      "object": "Nancy Barbato",
+      "subject_id": "Q233937",
+      "object_id": "Q55517707"
+    },
+    {
+      "subject": "Jodie Foster",
+      "object": "Brandy Almond",
+      "subject_id": "Q41351",
+      "object_id": "Q96202899"
+    },
+    {
+      "subject": "Nicholas II of Russia",
+      "object": "Maria Feodorovna (Dagmar of Denmark)",
+      "subject_id": "Q40787",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Bernie Sanders",
+      "object": "Dorothy Sanders",
+      "subject_id": "Q359442",
+      "object_id": "Q22952517"
+    },
+    {
+      "subject": "Prosper Mérimée",
+      "object": "Anne Louise Moreau",
+      "subject_id": "Q160333",
+      "object_id": "Q55964990"
+    },
+    {
+      "subject": "Margaret Thatcher",
+      "object": "Beatrice Ethel Stephenson",
+      "subject_id": "Q7416",
+      "object_id": "Q75506886"
+    },
+    {
+      "subject": "Fidel Castro",
+      "object": "Lina Ruz González",
+      "subject_id": "Q11256",
+      "object_id": "Q107526145"
+    },
+    {
+      "subject": "Stefan Zweig",
+      "object": "Ida Zweig",
+      "subject_id": "Q78491",
+      "object_id": "Q108815082"
+    },
+    {
+      "subject": "François-René de Chateaubriand",
+      "object": "Apolline Jeanne Suzanne de Bédée",
+      "subject_id": "Q108628473",
+      "object_id": "Q115645827"
+    },
+    {
+      "subject": "Simon Villeneuve",
+      "object": "Suzanne Tremblay",
+      "subject_id": "Q78061707",
+      "object_id": "Q103085568"
+    },
+    {
+      "subject": "Richard Feynman",
+      "object": "Lucille Feynman",
+      "subject_id": "Q39246",
+      "object_id": "Q104603920"
+    },
+    {
+      "subject": "Carl Friedrich Gauss",
+      "object": "Dorthea Benze",
+      "subject_id": "Q6722",
+      "object_id": "Q112432187"
+    },
+    {
+      "subject": "Bill Gates",
+      "object": "Mary Maxwell Gates",
+      "subject_id": "Q5284",
+      "object_id": "Q454928"
+    },
+    {
+      "subject": "Mariah Carey",
+      "object": "Patricia Hickey Carey",
+      "subject_id": "Q41076",
+      "object_id": "Q60515354"
+    },
+    {
+      "subject": "Percy Bysshe Shelley",
+      "object": "Elizabeth Pilford",
+      "subject_id": "Q93343",
+      "object_id": "Q75286228"
+    },
+    {
+      "subject": "Norman Mailer",
+      "object": "Fanny Schneider",
+      "subject_id": "Q180962",
+      "object_id": "Q105502937"
+    },
+    {
+      "subject": "John Constable",
+      "object": "Ann Watts",
+      "subject_id": "Q159297",
+      "object_id": "Q76369321"
+    },
+    {
+      "subject": "George Gershwin",
+      "object": "Rose Bruskina",
+      "subject_id": "Q123829",
+      "object_id": "Q108840768"
+    },
+    {
+      "subject": "Justin Bieber",
+      "object": "Pattie Mallette",
+      "subject_id": "Q34086",
+      "object_id": "Q2368906"
+    },
+    {
+      "subject": "Selena Gomez",
+      "object": "Mandy Teefey",
+      "subject_id": "Q83287",
+      "object_id": "Q3285611"
+    },
+    {
+      "subject": "Ludwig Wittgenstein",
+      "object": "Leopoldine 'Poldy' Kalmus",
+      "subject_id": "Q104985206",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Arthur Wellesley, 1st Duke of Wellington",
+      "object": "Anne Wellesley, Countess of Mornington",
+      "subject_id": "Q131691",
+      "object_id": "Q66349619"
+    },
+    {
+      "subject": "John Everett Millais",
+      "object": "Mary Emily Evamy",
+      "subject_id": "Q159606",
+      "object_id": "Q76075260"
+    },
+    {
+      "subject": "Thomas Alva Edison",
+      "object": "Nancy Elliott",
+      "subject_id": "Q24192186",
+      "object_id": "Q96201266"
+    },
+    {
+      "subject": "Lauren Bacall",
+      "object": "Natalie Alberta Bacall",
+      "subject_id": "Q104000",
+      "object_id": "Q96216037"
+    },
+    {
+      "subject": "Carl Jung",
+      "object": "Emilie Preiswerk",
+      "subject_id": "Q41532",
+      "object_id": "Q108838678"
+    },
+    {
+      "subject": "Franz Joseph I of Austria",
+      "object": "Princess Sophie of Bavaria",
+      "subject_id": "Q51056",
+      "object_id": "Q57653"
+    },
+    {
+      "subject": "Catherine II of Russia",
+      "object": "Joanna Elisabeth of Holstein-Gottorp",
+      "subject_id": "Q36450",
+      "object_id": "Q61826"
+    },
+    {
+      "subject": "Theodore von Kármán",
+      "object": "Helene Konn",
+      "subject_id": "Q164384",
+      "object_id": "Q17397746"
+    },
+    {
+      "subject": "Woodrow Wilson",
+      "object": "Janet Woodrow Sumersimpson",
+      "subject_id": "Q34296",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Adam Mickiewicz",
+      "object": "Barbara Mickiewicz, née Majewska",
+      "subject_id": "Q79822",
+      "object_id": "Q91095161"
+    },
+    {
+      "subject": "Pablo Neruda",
+      "object": "Rosa Neftalí Basoalto Opazo",
+      "subject_id": "Q34189",
+      "object_id": "Q96199310"
+    },
+    {
+      "subject": "Henry David Thoreau",
+      "object": "Cynthia Dunbar",
+      "subject_id": "Q131149",
+      "object_id": "Q96415370"
+    },
+    {
+      "subject": "Heracles",
+      "object": "Alkmene",
+      "subject_id": "Q122248",
+      "object_id": "Q190543"
+    },
+    {
+      "subject": "Robert De Niro",
+      "object": "Virginia Admiral",
+      "subject_id": "Q36949",
+      "object_id": "Q7815833"
+    },
+    {
+      "subject": "Kanye West",
+      "object": "Donda West",
+      "subject_id": "Q15935",
+      "object_id": "Q60633179"
+    },
+    {
+      "subject": "Mary Cassatt",
+      "object": "Katherine Kelso Cassatt",
+      "subject_id": "Q173223",
+      "object_id": "Q77736782"
+    },
+    {
+      "subject": "Jacques Chirac",
+      "object": "Marie-Louise Valette",
+      "subject_id": "Q2105",
+      "object_id": "Q16354830"
+    },
+    {
+      "subject": "Herman Melville",
+      "object": "Maria Gansevoort Melvill",
+      "subject_id": "Q4985",
+      "object_id": "Q87620416"
+    },
+    {
+      "subject": "Georgia O'Keeffe",
+      "object": "Ida Ten Eyck Totto",
+      "subject_id": "Q46408",
+      "object_id": "Q96241595"
+    },
+    {
+      "subject": "Quincy Jones",
+      "object": "Sarah Frances Wells",
+      "subject_id": "Q193645",
+      "object_id": "Q96306218"
+    },
+    {
+      "subject": "Jean Racine",
+      "object": "Jeanne Sconin",
+      "subject_id": "Q742",
+      "object_id": "Q108839140"
+    },
+    {
+      "subject": "Johannes Kepler",
+      "object": "Katharina Kepler",
+      "subject_id": "Q8963",
+      "object_id": "Q67158"
+    },
+    {
+      "subject": "Carl Maria von Weber",
+      "object": "Genovefa von Weber",
+      "subject_id": "Q154812",
+      "object_id": "Q1502520"
+    },
+    {
+      "subject": "Che Guevara",
+      "object": "Celia de la Serna",
+      "subject_id": "Q5809",
+      "object_id": "Q10861998"
+    },
+    {
+      "subject": "Demi Moore",
+      "object": "Virginia King",
+      "subject_id": "Q43044",
+      "object_id": "Q108841506"
+    },
+    {
+      "subject": "Pliny the Elder",
+      "object": "Marcella",
+      "subject_id": "Q82778",
+      "object_id": "Q1068231"
+    },
+    {
+      "subject": "Napoleon III",
+      "object": "Hortense de Beauharnais",
+      "subject_id": "Q7721",
+      "object_id": "Q229875"
+    },
+    {
+      "subject": "Greta Thunberg",
+      "object": "Malena Ernman",
+      "subject_id": "Q56434717",
+      "object_id": "Q187210"
+    },
+    {
+      "subject": "Gregory I",
+      "object": "Saint Silvia",
+      "subject_id": "Q42827",
+      "object_id": "Q1088039"
+    },
+    {
+      "subject": "Richard Strauss",
+      "object": "Josephine Strauss",
+      "subject_id": "Q13894",
+      "object_id": "Q63485856"
+    },
+    {
+      "subject": "Edward Burne-Jones",
+      "object": "Elizabeth Coley",
+      "subject_id": "Q216406",
+      "object_id": "Q96084252"
+    },
+    {
+      "subject": "Augustus",
+      "object": "Atia",
+      "subject_id": "Q770041",
+      "object_id": "Q231696"
+    },
+    {
+      "subject": "Fred Astaire",
+      "object": "Ann Astaire",
+      "subject_id": "Q100937",
+      "object_id": "Q16073432"
+    },
+    {
+      "subject": "W. H. Auden",
+      "object": "Constance Rosalie Bicknell",
+      "subject_id": "Q178698",
+      "object_id": "Q76104681"
+    },
+    {
+      "subject": "Nathaniel Hawthorne",
+      "object": "Elizabeth Clarke Hathorne",
+      "subject_id": "Q69339",
+      "object_id": "Q103556804"
+    },
+    {
+      "subject": "Sigourney Weaver",
+      "object": "Elizabeth Inglis",
+      "subject_id": "Q102124",
+      "object_id": "Q441889"
+    },
+    {
+      "subject": "Tupac Shakur",
+      "object": "Afeni Shakur",
+      "subject_id": "Q6107",
+      "object_id": "Q2273636"
+    },
+    {
+      "subject": "L. L. Zamenhof",
+      "object": "Rozalia Zamenhof",
+      "subject_id": "Q11758",
+      "object_id": "Q9323052"
+    },
+    {
+      "subject": "Leonardo DiCaprio",
+      "object": "Irmelin DiCaprio",
+      "subject_id": "Q38111",
+      "object_id": "Q22984557"
+    },
+    {
+      "subject": "Laurence Olivier",
+      "object": "Agnes Louise Crookenden",
+      "subject_id": "Q55245",
+      "object_id": "Q75605933"
+    },
+    {
+      "subject": "Ringo Starr",
+      "object": "Elsie Starkey",
+      "subject_id": "Q2632",
+      "object_id": "Q105944447"
+    },
+    {
+      "subject": "Phil Collins",
+      "object": "June Strange",
+      "subject_id": "Q144622",
+      "object_id": "Q108844434"
+    },
+    {
+      "subject": "Gustav Mahler",
+      "object": "Marie Herrmann",
+      "subject_id": "Q7304",
+      "object_id": "Q106962438"
+    },
+    {
+      "subject": "John Updike",
+      "object": "Linda Grace Hoyer",
+      "subject_id": "Q105756",
+      "object_id": "Q55721519"
+    },
+    {
+      "subject": "Berthe Morisot",
+      "object": "Marie Joséphine Cornélie Thomas",
+      "subject_id": "Q105320",
+      "object_id": "Q67801773"
+    },
+    {
+      "subject": "Roald Dahl",
+      "object": "Sofie Magdalene Hesselberg",
+      "subject_id": "Q25161",
+      "object_id": "Q75618936"
+    },
+    {
+      "subject": "Arthur Miller",
+      "object": "Augusta Barnett",
+      "subject_id": "Q80596",
+      "object_id": "Q108840359"
+    },
+    {
+      "subject": "Anne Frank",
+      "object": "Edith Frank-Holländer",
+      "subject_id": "Q4583",
+      "object_id": "Q7337"
+    },
+    {
+      "subject": "George III of Great Britain",
+      "object": "Princess Augusta of Saxe-Gotha",
+      "subject_id": "Q127318",
+      "object_id": "Q76967"
+    },
+    {
+      "subject": "Jean le Rond d'Alembert",
+      "object": "Claudine Guérin de Tencin",
+      "subject_id": "Q153232",
+      "object_id": "Q435585"
+    },
+    {
+      "subject": "Thomas Henry Huxley",
+      "object": "Rachel Withers",
+      "subject_id": "Q184366",
+      "object_id": "Q96077408"
+    },
+    {
+      "subject": "Ralph Waldo Emerson",
+      "object": "Ruth Haskins",
+      "subject_id": "Q48226",
+      "object_id": "Q93230864"
+    },
+    {
+      "subject": "Bing Crosby",
+      "object": "Catherine Helen Harrigan",
+      "subject_id": "Q72984",
+      "object_id": "Q96318517"
+    },
+    {
+      "subject": "Washington Irving",
+      "object": "Sarah Sanders",
+      "subject_id": "Q181667",
+      "object_id": "Q3473414"
+    },
+    {
+      "subject": "Mel Brooks",
+      "object": "Kate Kaminsky",
+      "subject_id": "Q104266",
+      "object_id": "Q100708642"
+    },
+    {
+      "subject": "Ezra Pound",
+      "object": "Isabel Weston",
+      "subject_id": "Q163366",
+      "object_id": "Q101040263"
+    },
+    {
+      "subject": "Mick Jagger",
+      "object": "Eva Ensley Mary Scutts",
+      "subject_id": "Q128121",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Barbara Hund",
+      "object": "Juliane Hund",
+      "subject_id": "Q74200",
+      "object_id": "Q1712106"
+    },
+    {
+      "subject": "Sandra Bullock",
+      "object": "Helga Meyer",
+      "subject_id": "Q40791",
+      "object_id": "Q5704361"
+    },
+    {
+      "subject": "Marcel Proust",
+      "object": "Jeanne-Clémence Proust",
+      "subject_id": "Q7199",
+      "object_id": "Q15206054"
+    },
+    {
+      "subject": "Francis Mitterrand",
+      "object": "Yvonne Lorrain",
+      "subject_id": "N/A",
+      "object_id": "Q16354832"
+    },
+    {
+      "subject": "Sting",
+      "object": "Audrey Cowell",
+      "subject_id": "Q483203",
+      "object_id": "Q108845014"
+    },
+    {
+      "subject": "Elizabeth I of England",
+      "object": "Anne Boleyn",
+      "subject_id": "Q7207",
+      "object_id": "Q80823"
+    },
+    {
+      "subject": "Willy Brandt",
+      "object": "Martha Frahm",
+      "subject_id": "Q2514",
+      "object_id": "Q1903042"
+    },
+    {
+      "subject": "Grace Kelly",
+      "object": "Margaret Majer",
+      "subject_id": "Q3925",
+      "object_id": "Q18715802"
+    },
+    {
+      "subject": "Dennis Hopper",
+      "object": "Marjorie Mae Hopper",
+      "subject_id": "Q102711",
+      "object_id": "Q65479686"
+    },
+    {
+      "subject": "Harriet Beecher Stowe",
+      "object": "Roxana Foote Beecher",
+      "subject_id": "Q102513",
+      "object_id": "Q66810040"
+    },
+    {
+      "subject": "Geoffrey Chaucer",
+      "object": "Agnes Copton",
+      "subject_id": "Q5683",
+      "object_id": "Q96075334"
+    },
+    {
+      "subject": "John Steinbeck",
+      "object": "Olive Hamilton",
+      "subject_id": "Q39212",
+      "object_id": "Q98373568"
+    },
+    {
+      "subject": "Marie Antoinette",
+      "object": "Maria Theresa of Austria",
+      "subject_id": "Q47365",
+      "object_id": "Q131706"
+    },
+    {
+      "subject": "James VI and I",
+      "object": "Mary, Queen of Scots",
+      "subject_id": "Q79972",
+      "object_id": "Q131412"
+    },
+    {
+      "subject": "Muhammad",
+      "object": "Aminah",
+      "subject_id": "Q5837762",
+      "object_id": "Q108895795"
+    },
+    {
+      "subject": "Samuel Taylor Coleridge",
+      "object": "Anne Bowden",
+      "subject_id": "Q82409",
+      "object_id": "Q75611068"
+    },
+    {
+      "subject": "Tennessee Williams",
+      "object": "Edwina Estelle Dakin",
+      "subject_id": "Q134262",
+      "object_id": "Q96308865"
+    },
+    {
+      "subject": "Alphonse Mucha",
+      "object": "Amálie Muchová",
+      "subject_id": "Q146691",
+      "object_id": "Q113135661"
+    },
+    {
+      "subject": "Friedrich Engels",
+      "object": "Elisabeth Franziska Mauritia van Haar",
+      "subject_id": "Q34787",
+      "object_id": "Q116468500"
+    },
+    {
+      "subject": "George V",
+      "object": "Alexandra of Denmark",
+      "subject_id": "Q269412",
+      "object_id": "Q152260"
+    },
+    {
+      "subject": "Constantine the Great",
+      "object": "Helena Augusta",
+      "subject_id": "Q8413",
+      "object_id": "Q170164"
+    },
+    {
+      "subject": "Tenzin Gyatso",
+      "object": "Diki Tsering",
+      "subject_id": "Q17293",
+      "object_id": "Q2384743"
+    },
+    {
+      "subject": "Tomáš Garrigue Masaryk",
+      "object": "Terezie Masaryková",
+      "subject_id": "Q78492",
+      "object_id": "Q12058727"
+    },
+    {
+      "subject": "Francisco Franco",
+      "object": "Pilar Bahamonde y Pardo de Andrade",
+      "subject_id": "Q29179",
+      "object_id": "Q17269996"
+    },
+    {
+      "subject": "Georges Bizet",
+      "object": "Aimée Léopoldine Joséphine Delsarte",
+      "subject_id": "Q56158",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "John van der Neumann",
+      "object": "Margaret Neumann",
+      "subject_id": "N/A",
+      "object_id": "Q108877541"
+    },
+    {
+      "subject": "Robert Baden-Powell, 1st Baron Baden-Powell",
+      "object": "Henrietta Grace Smyth",
+      "subject_id": "Q12665",
+      "object_id": "Q16868109"
+    },
+    {
+      "subject": "John Locke",
+      "object": "Agnes Keene",
+      "subject_id": "Q9353",
+      "object_id": "Q21198547"
+    },
+    {
+      "subject": "William Makepeace Thackeray",
+      "object": "Anne Becher",
+      "subject_id": "Q167768",
+      "object_id": "Q55129723"
+    },
+    {
+      "subject": "Alfred Tennyson",
+      "object": "Elizabeth Fytch",
+      "subject_id": "Q173869",
+      "object_id": "Q75302893"
+    },
+    {
+      "subject": "Benjamin Netanyahu",
+      "object": "Zila Netanyahu",
+      "subject_id": "Q43723",
+      "object_id": "Q107074691"
+    },
+    {
+      "subject": "Deborah Kerr",
+      "object": "Kathleen Rose Smale",
+      "subject_id": "Q104146",
+      "object_id": "Q116468727"
+    },
+    {
+      "subject": "Romy Schneider",
+      "object": "Magda Schneider",
+      "subject_id": "Q78469",
+      "object_id": "Q62327"
+    },
+    {
+      "subject": "Katharine Hepburn",
+      "object": "Katharine Martha Houghton Hepburn",
+      "subject_id": "Q56016",
+      "object_id": "Q6376213"
+    },
+    {
+      "subject": "Robert Graves",
+      "object": "Amalie von Ranke",
+      "subject_id": "Q201732",
+      "object_id": "Q75617177"
+    },
+    {
+      "subject": "David Hume",
+      "object": "Katherine Falconer",
+      "subject_id": "Q37160",
+      "object_id": "Q76242574"
+    },
+    {
+      "subject": "Benjamin West",
+      "object": "Sarah Pearson",
+      "subject_id": "Q313498",
+      "object_id": "Q108350751"
+    },
+    {
+      "subject": "Philipp Melanchthon",
+      "object": "Barbara Reuter",
+      "subject_id": "Q76325",
+      "object_id": "Q102076497"
+    },
+    {
+      "subject": "Martin Scorsese",
+      "object": "Catherine Scorsese",
+      "subject_id": "Q41148",
+      "object_id": "Q441713"
+    },
+    {
+      "subject": "Giacomo Leopardi",
+      "object": "Adelaide Antici Leopardi",
+      "subject_id": "Q172599",
+      "object_id": "Q3605139"
+    },
+    {
+      "subject": "Al Gore",
+      "object": "Pauline LaFon Gore",
+      "subject_id": "Q19673",
+      "object_id": "Q7155048"
+    },
+    {
+      "subject": "John Cale",
+      "object": "Margaret Davies",
+      "subject_id": "Q45909",
+      "object_id": "Q540181"
+    },
+    {
+      "subject": "Elon Musk",
+      "object": "Maye Musk",
+      "subject_id": "Q317521",
+      "object_id": "Q24007468"
+    },
+    {
+      "subject": "Fridtjof Nansen",
+      "object": "Baronesse Adelaide Johanne Thekla Isidore Wedel Jarlsberg",
+      "subject_id": "Q72292",
+      "object_id": "Q96244113"
+    },
+    {
+      "subject": "Brad Pitt",
+      "object": "Jane Etta Hillhouse",
+      "subject_id": "Q35332",
+      "object_id": "Q96243495"
+    },
+    {
+      "subject": "Johnny Depp",
+      "object": "Betty Sue Wells",
+      "subject_id": "Q37175",
+      "object_id": "Q96299390"
+    },
+    {
+      "subject": "Socrates",
+      "object": "Phaenarete",
+      "subject_id": "Q913",
+      "object_id": "Q2263186"
+    },
+    {
+      "subject": "Richard Nixon",
+      "object": "Hannah Milhous Nixon",
+      "subject_id": "Q9588",
+      "object_id": "Q5648899"
+    },
+    {
+      "subject": "Seamus Heaney",
+      "object": "Margaret Kathleen McCann",
+      "subject_id": "Q93356",
+      "object_id": "Q14756955"
+    },
+    {
+      "subject": "M. C. Escher",
+      "object": "Sara Adriana Gleichman",
+      "subject_id": "Q1470",
+      "object_id": "Q19391546"
+    },
+    {
+      "subject": "Eduardas Rozentalis",
+      "object": "Ilana Rozentalienė",
+      "subject_id": "Q964881",
+      "object_id": "Q25494256"
+    },
+    {
+      "subject": "Max Weber",
+      "object": "Helene Weber",
+      "subject_id": "Q9387",
+      "object_id": "Q95851"
+    },
+    {
+      "subject": "Justin Timberlake",
+      "object": "Lynn Bomar",
+      "subject_id": "Q43432",
+      "object_id": "Q6708938"
+    },
+    {
+      "subject": "Pius II",
+      "object": "Vittoria Forteguerri",
+      "subject_id": "Q101437",
+      "object_id": "Q100440444"
+    },
+    {
+      "subject": "Asia Argento",
+      "object": "Daria Nicolodi",
+      "subject_id": "Q232052",
+      "object_id": "Q696306"
+    },
+    {
+      "subject": "Valéry Giscard d'Estaing",
+      "object": "May Bardoux",
+      "subject_id": "Q2124",
+      "object_id": "Q16354844"
+    },
+    {
+      "subject": "Francesco Guardi",
+      "object": "Maria Claudia Pichler",
+      "subject_id": "Q318769",
+      "object_id": "Q26208332"
+    },
+    {
+      "subject": "Jean de La Fontaine",
+      "object": "Françoise Pidoux",
+      "subject_id": "Q49496",
+      "object_id": "Q47010281"
+    },
+    {
+      "subject": "Apollo",
+      "object": "Leto",
+      "subject_id": "Q665812",
+      "object_id": "Q16872082"
+    },
+    {
+      "subject": "Paul Claudel",
+      "object": "Louise Athanaïse Cécile Cerveaux",
+      "subject_id": "Q295830",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Maurice Ravel",
+      "object": "Marie Ravel",
+      "subject_id": "Q1178",
+      "object_id": "Q3292751"
+    },
+    {
+      "subject": "Astrid Lindgren",
+      "object": "Hanna Ericsson",
+      "subject_id": "Q55767",
+      "object_id": "Q116013355"
+    },
+    {
+      "subject": "Rita Ora",
+      "object": "Vera Sahatçiu",
+      "subject_id": "Q229760",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Naomi Watts",
+      "object": "Myfanwy Edwards",
+      "subject_id": "Q132616",
+      "object_id": "Q22977833"
+    },
+    {
+      "subject": "Marina Makropoulou",
+      "object": "Maria Albuleț",
+      "subject_id": "Q435921",
+      "object_id": "Q525706"
+    },
+    {
+      "subject": "Frank Lloyd Wright",
+      "object": "Anna Lloyd Jones Wright",
+      "subject_id": "Q5604",
+      "object_id": "Q61913778"
+    },
+    {
+      "subject": "Andrew Lloyd Webber",
+      "object": "Jean Hermione Johnstone",
+      "subject_id": "Q180975",
+      "object_id": "Q76041338"
+    },
+    {
+      "subject": "Alexander III of Russia",
+      "object": "Maria Alexandrovna of Russia (Marie of Hesse)",
+      "subject_id": "Q120180",
+      "object_id": "Q155585"
+    },
+    {
+      "subject": "Alphonse Daudet",
+      "object": "Adeline Daudet",
+      "subject_id": "Q228546",
+      "object_id": "Q15622162"
+    },
+    {
+      "subject": "Eminem",
+      "object": "Debbie Nelson",
+      "subject_id": "Q5608",
+      "object_id": "Q47108853"
+    },
+    {
+      "subject": "Roman Polanski",
+      "object": "Bula Liebling",
+      "subject_id": "Q51552",
+      "object_id": "Q63871164"
+    },
+    {
+      "subject": "Benjamin Britten",
+      "object": "Edith Rhoda Hockey",
+      "subject_id": "Q150767",
+      "object_id": "Q75498726"
+    },
+    {
+      "subject": "Doris Day",
+      "object": "Alma Sophia Welz",
+      "subject_id": "Q104372",
+      "object_id": "Q96809809"
+    },
+    {
+      "subject": "Rainer Werner Fassbinder",
+      "object": "Liselotte Eder",
+      "subject_id": "Q44426",
+      "object_id": "Q96540"
+    },
+    {
+      "subject": "Arthur Rimbaud",
+      "object": "Vitalie Rimbaud",
+      "subject_id": "Q493",
+      "object_id": "Q17148576"
+    },
+    {
+      "subject": "Boris Yeltsin",
+      "object": "Claudia Vasilievna Jeltsina",
+      "subject_id": "Q34453",
+      "object_id": "Q110594463"
+    },
+    {
+      "subject": "Philip II of Spain",
+      "object": "Isabella of Portugal",
+      "subject_id": "Q34417",
+      "object_id": "Q331575"
+    },
+    {
+      "subject": "Louisa May Alcott",
+      "object": "Abby May",
+      "subject_id": "Q185696",
+      "object_id": "Q4664478"
+    },
+    {
+      "subject": "Karen Blixen",
+      "object": "Ingeborg Dinesen",
+      "subject_id": "Q182804",
+      "object_id": "Q12318319"
+    },
+    {
+      "subject": "Silvio Berlusconi",
+      "object": "Rosa Bossi",
+      "subject_id": "Q11860",
+      "object_id": "Q15291074"
+    },
+    {
+      "subject": "Francis Ford Coppola",
+      "object": "Italia Coppola",
+      "subject_id": "Q56094",
+      "object_id": "Q16016103"
+    },
+    {
+      "subject": "Bruce Lee",
+      "object": "Grace Ho",
+      "subject_id": "Q16397",
+      "object_id": "Q84462267"
+    },
+    {
+      "subject": "Benjamin Disraeli",
+      "object": "Mary Basevi",
+      "subject_id": "Q82006",
+      "object_id": "Q75400012"
+    },
+    {
+      "subject": "Johannes Vermeer",
+      "object": "Digna Baltus",
+      "subject_id": "Q41264",
+      "object_id": "Q116468483"
+    },
+    {
+      "subject": "Olivier Messiaen",
+      "object": "Cécile Sauvage",
+      "subject_id": "Q151593",
+      "object_id": "Q3009800"
+    },
+    {
+      "subject": "Harry S. Truman",
+      "object": "Martha Ellen Young Truman",
+      "subject_id": "Q11613",
+      "object_id": "Q6774390"
+    },
+    {
+      "subject": "Helmut Kohl",
+      "object": "Cäcilie Kohl",
+      "subject_id": "Q2518",
+      "object_id": "Q15979458"
+    },
+    {
+      "subject": "Jaan Ehlvest",
+      "object": "Maret Ehlvest",
+      "subject_id": "Q499615",
+      "object_id": "Q16403933"
+    },
+    {
+      "subject": "Anders Zorn",
+      "object": "Grudd Anna Andersdotter",
+      "subject_id": "Q206820",
+      "object_id": "Q19962622"
+    },
+    {
+      "subject": "Theodor Fontane",
+      "object": "Emilie Fontane",
+      "subject_id": "Q76632",
+      "object_id": "Q94742039"
+    },
+    {
+      "subject": "John Chrysostom",
+      "object": "Anthusa",
+      "subject_id": "Q43706",
+      "object_id": "Q99535513"
+    },
+    {
+      "subject": "Hugo Grotius",
+      "object": "Aeltje van Overschie",
+      "subject_id": "Q154959",
+      "object_id": "Q110557871"
+    },
+    {
+      "subject": "Nicholas I of Russia",
+      "object": "Maria Feodorovna",
+      "subject_id": "Q130734",
+      "object_id": "Q153601"
+    },
+    {
+      "subject": "Mary, Queen of Scots",
+      "object": "Mary of Lorraine",
+      "subject_id": "Q131412",
+      "object_id": "Q229846"
+    },
+    {
+      "subject": "Edward VIII of the United Kingdom",
+      "object": "Mary of Teck",
+      "subject_id": "N/A",
+      "object_id": "Q76927"
+    },
+    {
+      "subject": "Stanisław Ignacy Witkiewicz",
+      "object": "Maria Witkiewiczowa",
+      "subject_id": "Q381238",
+      "object_id": "Q11769228"
+    },
+    {
+      "subject": "Friedrich Dürrenmatt",
+      "object": "Hulda Dürrenmatt",
+      "subject_id": "Q23481",
+      "object_id": "Q16220568"
+    },
+    {
+      "subject": "Samuel Finley Breese Morse",
+      "object": "Elizabeth Breese Morse",
+      "subject_id": "Q75698",
+      "object_id": "Q87476946"
+    },
+    {
+      "subject": "Caspar David Friedrich",
+      "object": "Sophia Dorothea Bechly",
+      "subject_id": "Q104884",
+      "object_id": "Q104919620"
+    },
+    {
+      "subject": "Ignatius of Loyola",
+      "object": "Maria Sáenz de Licona y Balda",
+      "subject_id": "Q44281",
+      "object_id": "Q108840379"
+    },
+    {
+      "subject": "Alexander I of Russia",
+      "object": "Maria Feodorovna",
+      "subject_id": "Q15193",
+      "object_id": "Q153601"
+    },
+    {
+      "subject": "Alfonso X of Castile and Leon",
+      "object": "Elisabeth of Swabia",
+      "subject_id": "Q47595",
+      "object_id": "Q764421"
+    },
+    {
+      "subject": "Basil of Caesarea",
+      "object": "Emmelia of Caesarea",
+      "subject_id": "Q44258",
+      "object_id": "Q2186180"
+    },
+    {
+      "subject": "Peter Ustinov",
+      "object": "Nadia Benois",
+      "subject_id": "Q55796",
+      "object_id": "Q3334825"
+    },
+    {
+      "subject": "Shinzō Abe",
+      "object": "Yōko Kishi",
+      "subject_id": "Q132345",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Winslow Homer",
+      "object": "Henrietta Maria Benson Homer",
+      "subject_id": "Q344838",
+      "object_id": "Q42808889"
+    },
+    {
+      "subject": "Louis Aragon",
+      "object": "Marguerite Toucas-Massillon",
+      "subject_id": "Q4128",
+      "object_id": "Q62603764"
+    },
+    {
+      "subject": "William Somerset Maugham",
+      "object": "Edith Mary Snell",
+      "subject_id": "Q134942",
+      "object_id": "Q75315603"
+    },
+    {
+      "subject": "Tony Blair",
+      "object": "Hazel Elizabeth Rosaleen Corscaden",
+      "subject_id": "Q9545",
+      "object_id": "Q75508723"
+    },
+    {
+      "subject": "David Lloyd George",
+      "object": "Elizabeth Lloyd",
+      "subject_id": "Q134982",
+      "object_id": "Q75545743"
+    },
+    {
+      "subject": "Sarah Jessica Parker",
+      "object": "Barbara Keck",
+      "subject_id": "Q170530",
+      "object_id": "Q114797293"
+    },
+    {
+      "subject": "Sofia Polgar",
+      "object": "Klára Polgár",
+      "subject_id": "Q155388",
+      "object_id": "Q23908557"
+    },
+    {
+      "subject": "Sven Hedin",
+      "object": "Anna Sofia Carolina Berlin",
+      "subject_id": "Q154759",
+      "object_id": "Q53436615"
+    },
+    {
+      "subject": "Irving Berlin",
+      "object": "Lena Jarchin",
+      "subject_id": "Q128746",
+      "object_id": "Q99176452"
+    },
+    {
+      "subject": "Noël Coward",
+      "object": "Violet Agnes Veitch",
+      "subject_id": "Q298388",
+      "object_id": "Q105799762"
+    },
+    {
+      "subject": "Robert Burns",
+      "object": "Agnes Broun",
+      "subject_id": "Q81960",
+      "object_id": "Q43393838"
+    },
+    {
+      "subject": "Madeleine Albright",
+      "object": "Anna Spiegelová",
+      "subject_id": "Q174438",
+      "object_id": "Q105604258"
+    },
+    {
+      "subject": "Emmanuel Macron",
+      "object": "Françoise Noguès",
+      "subject_id": "Q3052772",
+      "object_id": "Q28838264"
+    },
+    {
+      "subject": "Paul Verlaine",
+      "object": "Élisa Verlaine",
+      "subject_id": "Q755",
+      "object_id": "Q63439684"
+    },
+    {
+      "subject": "Jonathan Penrose",
+      "object": "Margaret Leathes",
+      "subject_id": "Q947095",
+      "object_id": "Q76245690"
+    },
+    {
+      "subject": "Muammar Gaddafi",
+      "object": "Aisha Ben Niran",
+      "subject_id": "Q19878",
+      "object_id": "Q107017783"
+    },
+    {
+      "subject": "Nikolai Rimsky-Korsakov",
+      "object": "Sofia Vasilievna Skaryatina",
+      "subject_id": "Q93227",
+      "object_id": "Q111804918"
+    },
+    {
+      "subject": "George IV of the United Kingdom",
+      "object": "Charlotte of Mecklenburg-Strelitz",
+      "subject_id": "Q130586",
+      "object_id": "Q161159"
+    },
+    {
+      "subject": "Italo Calvino",
+      "object": "Giuliana Luigia Evelina Mameli Calvino",
+      "subject_id": "Q154756",
+      "object_id": "Q3735128"
+    },
+    {
+      "subject": "Billie Eilish",
+      "object": "Maggie Baird",
+      "subject_id": "Q29564107",
+      "object_id": "Q23301569"
+    },
+    {
+      "subject": "François Guizot",
+      "object": "Élisabeth-Sophie Bonicel",
+      "subject_id": "Q157324",
+      "object_id": "Q56676151"
+    },
+    {
+      "subject": "Freddie Mercury",
+      "object": "Jer Bulsara",
+      "subject_id": "Q15869",
+      "object_id": "Q71405332"
+    },
+    {
+      "subject": "Paul Simon",
+      "object": "Belle Simon",
+      "subject_id": "Q4028",
+      "object_id": "Q75788691"
+    },
+    {
+      "subject": "Buckminster Fuller",
+      "object": "Caroline Wolcott Andrews",
+      "subject_id": "Q102289",
+      "object_id": "Q96089678"
+    },
+    {
+      "subject": "Mustafa Kemal Atatürk",
+      "object": "Zübeyde Hanım",
+      "subject_id": "Q5152",
+      "object_id": "Q20477190"
+    },
+    {
+      "subject": "John McCain",
+      "object": "Roberta McCain",
+      "subject_id": "Q10390",
+      "object_id": "Q4993396"
+    },
+    {
+      "subject": "John Adams",
+      "object": "Susanna Boylston",
+      "subject_id": "Q11806",
+      "object_id": "Q7648645"
+    },
+    {
+      "subject": "William Wordsworth",
+      "object": "Ann Cookson",
+      "subject_id": "Q45546",
+      "object_id": "Q75462129"
+    },
+    {
+      "subject": "Teresa of Ávila",
+      "object": "Beatriz de Ahumada",
+      "subject_id": "Q174880",
+      "object_id": "Q76823607"
+    },
+    {
+      "subject": "Max Born",
+      "object": "Margarethe 'Gretchen' Kauffmann",
+      "subject_id": "Q58978",
+      "object_id": "Q107302611"
+    },
+    {
+      "subject": "Karlheinz Stockhausen",
+      "object": "Gertrud Stockhausen",
+      "subject_id": "Q154556",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Sylvester Stallone",
+      "object": "Jackie Stallone",
+      "subject_id": "Q40026",
+      "object_id": "Q2361659"
+    },
+    {
+      "subject": "Joan of Arc",
+      "object": "Isabelle Romée",
+      "subject_id": "Q7226",
+      "object_id": "Q3154911"
+    },
+    {
+      "subject": "Kofi Annan",
+      "object": "Rose Eshun",
+      "subject_id": "Q1254",
+      "object_id": "Q56161700"
+    },
+    {
+      "subject": "Frederic Leighton",
+      "object": "Augusta Susan Nash",
+      "subject_id": "Q160252",
+      "object_id": "Q75600612"
+    },
+    {
+      "subject": "Elizabeth Barrett Browning",
+      "object": "Mary Graham-Clarke",
+      "subject_id": "Q228494",
+      "object_id": "Q76099344"
+    },
+    {
+      "subject": "Jimi Hendrix",
+      "object": "Lucille Hendrix",
+      "subject_id": "Q5928",
+      "object_id": "Q107344094"
+    },
+    {
+      "subject": "Henry Kissinger",
+      "object": "Paula Stern",
+      "subject_id": "Q66107",
+      "object_id": "Q105458954"
+    },
+    {
+      "subject": "Alexander Pope",
+      "object": "Edith Pope",
+      "subject_id": "Q164047",
+      "object_id": "Q116038887"
+    },
+    {
+      "subject": "George Romney",
+      "object": "Ann Simpson",
+      "subject_id": "Q371280",
+      "object_id": "Q75809761"
+    },
+    {
+      "subject": "Bob Marley",
+      "object": "Cedella Booker",
+      "subject_id": "Q409",
+      "object_id": "Q470313"
+    },
+    {
+      "subject": "Epicurus",
+      "object": "Chaerestrate",
+      "subject_id": "Q43216",
+      "object_id": "Q13409900"
+    },
+    {
+      "subject": "Gérard Depardieu",
+      "object": "Alice Depardieu",
+      "subject_id": "Q106508",
+      "object_id": "Q17434960"
+    },
+    {
+      "subject": "Dwayne Johnson",
+      "object": "Ata Johnson",
+      "subject_id": "Q10738",
+      "object_id": "Q54865172"
+    },
+    {
+      "subject": "Edvard Grieg",
+      "object": "Gesine Hagerup",
+      "subject_id": "Q80621",
+      "object_id": "Q111788979"
+    },
+    {
+      "subject": "Ted Kennedy",
+      "object": "Rose Kennedy",
+      "subject_id": "Q134549",
+      "object_id": "Q236540"
+    },
+    {
+      "subject": "Johann Strauss II",
+      "object": "Maria Anna Streim",
+      "subject_id": "Q83309",
+      "object_id": "Q24862920"
+    },
+    {
+      "subject": "Jean-Luc Picard",
+      "object": "Yvette Gessard Picard",
+      "subject_id": "Q16276",
+      "object_id": "Q74057037"
+    },
+    {
+      "subject": "John Dryden",
+      "object": "Mary Pickering",
+      "subject_id": "Q213355",
+      "object_id": "Q91351535"
+    },
+    {
+      "subject": "F. Scott Fitzgerald",
+      "object": "Mary McQuillan",
+      "subject_id": "Q93354",
+      "object_id": "Q96288180"
+    },
+    {
+      "subject": "Oprah Winfrey",
+      "object": "Vernita Lee Winfrey",
+      "subject_id": "Q55800",
+      "object_id": "Q106773726"
+    },
+    {
+      "subject": "Nicolas Sarkozy",
+      "object": "Andrée Mallah",
+      "subject_id": "Q329",
+      "object_id": "Q16338080"
+    },
+    {
+      "subject": "James Cook",
+      "object": "Grace Pace",
+      "subject_id": "Q7324",
+      "object_id": "Q50360122"
+    },
+    {
+      "subject": "Louis Roos",
+      "object": "Jacqueline Roos",
+      "subject_id": "Q3263044",
+      "object_id": "Q65709308"
+    },
+    {
+      "subject": "Yehudi Menuhin",
+      "object": "Marutha Sher",
+      "subject_id": "Q156814",
+      "object_id": "Q75603109"
+    },
+    {
+      "subject": "Frederic Edwin Church",
+      "object": "Eliza Janes",
+      "subject_id": "Q366212",
+      "object_id": "Q97531967"
+    },
+    {
+      "subject": "Arielle Dombasle",
+      "object": "Francion Garreau-Dombasle",
+      "subject_id": "Q284731",
+      "object_id": "Q110394666"
+    },
+    {
+      "subject": "Melanie Griffith",
+      "object": "Tippi Hedren",
+      "subject_id": "Q176455",
+      "object_id": "Q142546"
+    },
+    {
+      "subject": "John Maynard Keynes",
+      "object": "Florence Ada Keynes",
+      "subject_id": "Q9317",
+      "object_id": "Q3073935"
+    },
+    {
+      "subject": "Ary Scheffer",
+      "object": "Cornelia Scheffer",
+      "subject_id": "Q436726",
+      "object_id": "Q5171180"
+    },
+    {
+      "subject": "Muhammad Ali",
+      "object": "Odessa Grady Clay",
+      "subject_id": "Q36107",
+      "object_id": "Q6282262"
+    },
+    {
+      "subject": "Emily Dickinson",
+      "object": "Emily Norcross Dickinson",
+      "subject_id": "Q4441",
+      "object_id": "Q16738461"
+    },
+    {
+      "subject": "Pope Francis",
+      "object": "Regina María Sívori",
+      "subject_id": "Q450675",
+      "object_id": "Q21198409"
+    },
+    {
+      "subject": "Raquel Welch",
+      "object": "Josephine Sarah Hall",
+      "subject_id": "Q229545",
+      "object_id": "Q96209617"
+    },
+    {
+      "subject": "Kirk Douglas",
+      "object": "Bertha Sanglel",
+      "subject_id": "Q104027",
+      "object_id": "Q96292212"
+    },
+    {
+      "subject": "Thomas Carlyle",
+      "object": "Margaret Aitken Carlyle",
+      "subject_id": "Q151403",
+      "object_id": "Q99734655"
+    },
+    {
+      "subject": "Shimon Peres",
+      "object": "Sara Meltzer",
+      "subject_id": "Q57410",
+      "object_id": "Q102228046"
+    },
+    {
+      "subject": "Albert, Prince Consort",
+      "object": "Princess Louise of Saxe-Gotha-Altenburg",
+      "subject_id": "N/A",
+      "object_id": "Q235671"
+    },
+    {
+      "subject": "Albert I of Belgium",
+      "object": "Princess Marie, Countess of Flanders",
+      "subject_id": "Q55008046",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Kim Il-sung",
+      "object": "Kang Pan-sŏk",
+      "subject_id": "Q41117",
+      "object_id": "Q709975"
+    },
+    {
+      "subject": "François Arago",
+      "object": "Marie Arago",
+      "subject_id": "Q154353",
+      "object_id": "Q1279245"
+    },
+    {
+      "subject": "Boris Pasternak",
+      "object": "Rosa Kaufman",
+      "subject_id": "Q41223",
+      "object_id": "Q6588652"
+    },
+    {
+      "subject": "Mikhail Lermontov",
+      "object": "Mariya Arsenyeva",
+      "subject_id": "Q46599",
+      "object_id": "Q15649244"
+    },
+    {
+      "subject": "John Frederick William Herschel",
+      "object": "Mary Baldwin",
+      "subject_id": "Q14278",
+      "object_id": "Q105097237"
+    },
+    {
+      "subject": "Antoine-Jean Gros",
+      "object": "Pierrette-Madeleine-Cécile Durand",
+      "subject_id": "Q216999",
+      "object_id": "Q37573866"
+    },
+    {
+      "subject": "Pearl S. Buck",
+      "object": "Caroline Maude Stulting Sydenstricker",
+      "subject_id": "Q80900",
+      "object_id": "Q103841171"
+    },
+    {
+      "subject": "Germaine de Staël",
+      "object": "Suzanne Curchod",
+      "subject_id": "Q123041",
+      "object_id": "Q115738"
+    },
+    {
+      "subject": "Tim Berners-Lee",
+      "object": "Mary Lee Woods",
+      "subject_id": "Q80",
+      "object_id": "Q16492"
+    },
+    {
+      "subject": "Juliette Binoche",
+      "object": "Monique Stalens",
+      "subject_id": "Q106275",
+      "object_id": "Q11785184"
+    },
+    {
+      "subject": "Alexis de Tocqueville",
+      "object": "Louise Le Peletier de Rosanbo",
+      "subject_id": "Q140694",
+      "object_id": "Q16185903"
+    },
+    {
+      "subject": "Daniel Roos",
+      "object": "Jacqueline Roos",
+      "subject_id": "Q34347387",
+      "object_id": "Q65709308"
+    },
+    {
+      "subject": "Cecil Beaton",
+      "object": "Etty Sisson",
+      "subject_id": "Q697096",
+      "object_id": "Q75654946"
+    },
+    {
+      "subject": "Lucian Freud",
+      "object": "Lucie Brasch",
+      "subject_id": "Q154594",
+      "object_id": "Q75938252"
+    },
+    {
+      "subject": "Peter Kropotkin",
+      "object": "Ekaterina Nikolaevna Kropotkina (nee Sulima)",
+      "subject_id": "Q5752",
+      "object_id": "Q104848596"
+    },
+    {
+      "subject": "Franz Werfel",
+      "object": "Albine Kussi",
+      "subject_id": "Q78514",
+      "object_id": "Q110738983"
+    },
+    {
+      "subject": "Jennifer Garner",
+      "object": "Patricia Ann English",
+      "subject_id": "Q172044",
+      "object_id": "Q102306305"
+    },
+    {
+      "subject": "Camilla Baginskaite",
+      "object": "Gintautėlė Laimutė Baginskienė",
+      "subject_id": "Q468829",
+      "object_id": "Q11256295"
+    },
+    {
+      "subject": "Friedrich Hölderlin",
+      "object": "Johanna Christiana Gock",
+      "subject_id": "Q75889",
+      "object_id": "Q19959607"
+    },
+    {
+      "subject": "Isabelle Adjani",
+      "object": "Emma Augusta Adjani",
+      "subject_id": "Q106383",
+      "object_id": "Q21013251"
+    },
+    {
+      "subject": "Helmut Schmidt",
+      "object": "Ludovica Schmidt",
+      "subject_id": "Q2516",
+      "object_id": "Q21464462"
+    },
+    {
+      "subject": "Mary Wollstonecraft",
+      "object": "Elizabeth Dixon",
+      "subject_id": "Q101638",
+      "object_id": "Q75590169"
+    },
+    {
+      "subject": "Norman Foster",
+      "object": "Lillian Smith",
+      "subject_id": "Q104898",
+      "object_id": "Q109674358"
+    },
+    {
+      "subject": "Harold Pinter",
+      "object": "Frances Moskowitz",
+      "subject_id": "Q41042",
+      "object_id": "Q96078111"
+    },
+    {
+      "subject": "Narendra Modi",
+      "object": "Heeraben Modi",
+      "subject_id": "Q1058",
+      "object_id": "Q105529920"
+    },
+    {
+      "subject": "Giosuè Carducci",
+      "object": "Ildegonda Celli",
+      "subject_id": "Q43440",
+      "object_id": "Q108672027"
+    },
+    {
+      "subject": "Mila Kunis",
+      "object": "Elvira",
+      "subject_id": "Q37628",
+      "object_id": "Q3051870"
+    },
+    {
+      "subject": "John Quincy Adams",
+      "object": "Abigail Adams",
+      "subject_id": "Q11816",
+      "object_id": "Q206191"
+    },
+    {
+      "subject": "Gerald Ford",
+      "object": "Dorothy Ayer Gardner Ford",
+      "subject_id": "Q9582",
+      "object_id": "Q5298298"
+    },
+    {
+      "subject": "Neil Armstrong",
+      "object": "Viola Louise Engel",
+      "subject_id": "Q1615",
+      "object_id": "Q21179311"
+    },
+    {
+      "subject": "Carl Gustaf Emil Mannerheim",
+      "object": "Helene Mannerheim",
+      "subject_id": "Q152306",
+      "object_id": "Q89190362"
+    },
+    {
+      "subject": "Juan Carlos I of Spain",
+      "object": "Infanta María de las Mercedes, Countess of Barcelona",
+      "subject_id": "Q19943",
+      "object_id": "Q235128"
+    },
+    {
+      "subject": "Giacomo Casanova",
+      "object": "Zanetta Farussi",
+      "subject_id": "Q83321",
+      "object_id": "Q466855"
+    },
+    {
+      "subject": "Tycho Brahe",
+      "object": "Beate Clausdatter Bille",
+      "subject_id": "Q36620",
+      "object_id": "Q2917684"
+    },
+    {
+      "subject": "Marlon Brando",
+      "object": "Dodie Brando",
+      "subject_id": "Q34012",
+      "object_id": "Q3033660"
+    },
+    {
+      "subject": "Lev Landau",
+      "object": "Q18786020",
+      "subject_id": "Q133267",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "David Attenborough",
+      "object": "Mary Clegg",
+      "subject_id": "Q183337",
+      "object_id": "Q75414092"
+    },
+    {
+      "subject": "Richard von Weizsäcker",
+      "object": "Marianne von Weizsäcker",
+      "subject_id": "Q2567",
+      "object_id": "Q77960"
+    },
+    {
+      "subject": "Joan Baez",
+      "object": "Joan Bridge",
+      "subject_id": "Q131725",
+      "object_id": "Q1690720"
+    },
+    {
+      "subject": "Nicolas Cage",
+      "object": "Joy Vogelsang",
+      "subject_id": "Q42869",
+      "object_id": "Q107483609"
+    },
+    {
+      "subject": "John James Audubon",
+      "object": "Jeanne Rabine",
+      "subject_id": "Q182882",
+      "object_id": "Q115915911"
+    },
+    {
+      "subject": "Edmond Rostand",
+      "object": "Q116185142",
+      "subject_id": "Q202749",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Diana, Princess of Wales",
+      "object": "Frances Shand Kydd",
+      "subject_id": "Q9685",
+      "object_id": "Q256893"
+    },
+    {
+      "subject": "Lyndon B. Johnson",
+      "object": "Rebekah Baines Johnson",
+      "subject_id": "Q9640",
+      "object_id": "Q28043246"
+    },
+    {
+      "subject": "Joseph Addison",
+      "object": "Jane Gulston",
+      "subject_id": "Q206384",
+      "object_id": "Q96083786"
+    },
+    {
+      "subject": "Niki de Saint Phalle",
+      "object": "Jeanne Jacqueline Marguerite Harper",
+      "subject_id": "Q168704",
+      "object_id": "Q101243620"
+    },
+    {
+      "subject": "Elie Wiesel",
+      "object": "Sarah Feig",
+      "subject_id": "Q18391",
+      "object_id": "Q108840376"
+    },
+    {
+      "subject": "Kate Beckinsale",
+      "object": "Judy Loe",
+      "subject_id": "Q179414",
+      "object_id": "Q6304510"
+    },
+    {
+      "subject": "Fernando Pessoa",
+      "object": "Maria Magdalena Pinheiro Nogueira",
+      "subject_id": "Q173481",
+      "object_id": "Q10326014"
+    },
+    {
+      "subject": "Céline Roos",
+      "object": "Jacqueline Roos",
+      "subject_id": "Q11692482",
+      "object_id": "Q65709308"
+    },
+    {
+      "subject": "Beatrix Potter",
+      "object": "Helen Leech",
+      "subject_id": "Q214565",
+      "object_id": "Q75545309"
+    },
+    {
+      "subject": "William Thomson, 1st Baron Kelvin",
+      "object": "Margaret Gardiner",
+      "subject_id": "Q122701",
+      "object_id": "Q592295"
+    },
+    {
+      "subject": "Eric Hobsbawm",
+      "object": "Nelly Hobsbaum",
+      "subject_id": "Q34933",
+      "object_id": "Q105698324"
+    },
+    {
+      "subject": "Charles I of England",
+      "object": "Anne of Denmark",
+      "subject_id": "Q81506",
+      "object_id": "Q158248"
+    },
+    {
+      "subject": "Frederick II, Holy Roman Emperor",
+      "object": "Constance",
+      "subject_id": "Q130221",
+      "object_id": "Q679755"
+    },
+    {
+      "subject": "Julian",
+      "object": "Basilina",
+      "subject_id": "Q17856012",
+      "object_id": "Q260258"
+    },
+    {
+      "subject": "Paris Hilton",
+      "object": "Kathy Hilton",
+      "subject_id": "Q47899",
+      "object_id": "Q269846"
+    },
+    {
+      "subject": "Plácido Domingo",
+      "object": "Pepita Embil",
+      "subject_id": "Q130853",
+      "object_id": "Q8336441"
+    },
+    {
+      "subject": "Nikola Tesla",
+      "object": "Đuka Madic",
+      "subject_id": "Q9036",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Christopher Lee",
+      "object": "Estelle Maria Carandini",
+      "subject_id": "Q180338",
+      "object_id": "Q61485476"
+    },
+    {
+      "subject": "James Clerk Maxwell",
+      "object": "Frances Cay",
+      "subject_id": "Q9095",
+      "object_id": "Q75585321"
+    },
+    {
+      "subject": "John Cox",
+      "object": "Nancy Chevallier Forman",
+      "subject_id": "Q107771993",
+      "object_id": "Q76172865"
+    },
+    {
+      "subject": "Charles-Maurice de Talleyrand-Périgord",
+      "object": "Alexandrine Victoire Eléonore Damas",
+      "subject_id": "Q160499",
+      "object_id": "Q96288697"
+    },
+    {
+      "subject": "Hilary Swank",
+      "object": "Judy Kay Clough",
+      "subject_id": "Q93187",
+      "object_id": "Q98699411"
+    },
+    {
+      "subject": "Mikhail Bakunin",
+      "object": "Varvara Muravyova",
+      "subject_id": "Q27645",
+      "object_id": "Q107521473"
+    },
+    {
+      "subject": "Romain Gary",
+      "object": "Mina Owczyńska",
+      "subject_id": "Q157322",
+      "object_id": "Q109658484"
+    },
+    {
+      "subject": "Pliny the Younger",
+      "object": "Plinia Marcella",
+      "subject_id": "Q168707",
+      "object_id": "Q113230788"
+    },
+    {
+      "subject": "Henry IV of France",
+      "object": "Jeanne d'Albret",
+      "subject_id": "Q936976",
+      "object_id": "Q229286"
+    },
+    {
+      "subject": "Nina Hagen",
+      "object": "Eva-Maria Hagen",
+      "subject_id": "Q159099",
+      "object_id": "Q443387"
+    },
+    {
+      "subject": "Alexander VI",
+      "object": "Isabel de Borja y Cavanilles",
+      "subject_id": "Q108316",
+      "object_id": "Q18156578"
+    },
+    {
+      "subject": "Gore Vidal",
+      "object": "Nina S. Gore",
+      "subject_id": "Q167821",
+      "object_id": "Q27948806"
+    },
+    {
+      "subject": "Jean-Luc Roos",
+      "object": "Jacqueline Roos",
+      "subject_id": "Q27579565",
+      "object_id": "Q65709308"
+    },
+    {
+      "subject": "Roger Penrose",
+      "object": "Margaret Leathes",
+      "subject_id": "Q193803",
+      "object_id": "Q76245690"
+    },
+    {
+      "subject": "Robert Frost",
+      "object": "Isabel Moodie",
+      "subject_id": "Q168728",
+      "object_id": "Q96245716"
+    },
+    {
+      "subject": "Carl Philipp Emanuel Bach",
+      "object": "Maria Barbara Bach",
+      "subject_id": "Q76428",
+      "object_id": "Q57487"
+    },
+    {
+      "subject": "Wilhelm von Humboldt",
+      "object": "Marie-Elisabeth von Humboldt",
+      "subject_id": "Q77888",
+      "object_id": "Q1618375"
+    },
+    {
+      "subject": "Demosthenes",
+      "object": "Kleobule",
+      "subject_id": "Q37566528",
+      "object_id": "Q1555317"
+    },
+    {
+      "subject": "Alexandre Dumas fils",
+      "object": "Catherine Laure Labay",
+      "subject_id": "Q169150",
+      "object_id": "Q28099228"
+    },
+    {
+      "subject": "Kamala Harris",
+      "object": "Shyamala Gopalan",
+      "subject_id": "Q10853588",
+      "object_id": "Q60844968"
+    },
+    {
+      "subject": "John le Carré",
+      "object": "Olive Moore Cornwell",
+      "subject_id": "Q209641",
+      "object_id": "Q72096401"
+    },
+    {
+      "subject": "Wilhelm Ostwald",
+      "object": "Elisabeth Ostwald",
+      "subject_id": "Q12658",
+      "object_id": "Q94774192"
+    },
+    {
+      "subject": "Leoš Janáček",
+      "object": "Amálie Janáčková",
+      "subject_id": "Q184933",
+      "object_id": "Q94656288"
+    },
+    {
+      "subject": "Heinrich von Kleist",
+      "object": "Juliane Ulrike von Pannwitz",
+      "subject_id": "Q28494",
+      "object_id": "Q108840517"
+    },
+    {
+      "subject": "Serge Gainsbourg",
+      "object": "Olia Ginsburg",
+      "subject_id": "Q16040585",
+      "object_id": "Q110948673"
+    },
+    {
+      "subject": "Lise Meitner",
+      "object": "Hedwig Meitner",
+      "subject_id": "Q56189",
+      "object_id": "Q115118426"
+    },
+    {
+      "subject": "Louis XV of France",
+      "object": "Marie Adélaïde of Savoy",
+      "subject_id": "Q7738",
+      "object_id": "Q231409"
+    },
+    {
+      "subject": "Adam Smith",
+      "object": "Margaret Douglas",
+      "subject_id": "Q9381",
+      "object_id": "Q433161"
+    },
+    {
+      "subject": "George Soros",
+      "object": "Elizabeth Soros",
+      "subject_id": "Q12908",
+      "object_id": "Q22244551"
+    },
+    {
+      "subject": "Volodymyr Zelenskyy",
+      "object": "Rimma Zelenska",
+      "subject_id": "Q3874799",
+      "object_id": "Q56229165"
+    },
+    {
+      "subject": "Mickey Rooney",
+      "object": "Nellie W. Carter",
+      "subject_id": "Q104081",
+      "object_id": "Q75624388"
+    },
+    {
+      "subject": "Louis de Broglie",
+      "object": "Pauline Célestine de La Forest d'Armaillé",
+      "subject_id": "Q83331",
+      "object_id": "Q84591247"
+    },
+    {
+      "subject": "Anna Akhmatova",
+      "object": "Inna Stogova",
+      "subject_id": "Q80440",
+      "object_id": "Q106368212"
+    },
+    {
+      "subject": "Paracelsus",
+      "object": "NN",
+      "subject_id": "Q83428",
+      "object_id": "Q110355897"
+    },
+    {
+      "subject": "Janis Joplin",
+      "object": "Dorothy Bonita Joplin",
+      "subject_id": "Q1514",
+      "object_id": "Q115537348"
+    },
+    {
+      "subject": "Maria Theresa of Austria",
+      "object": "Elisabeth Christine of Brunswick-Wolfenbüttel",
+      "subject_id": "Q131706",
+      "object_id": "Q57528"
+    },
+    {
+      "subject": "Gustaf VI Adolf of Sweden",
+      "object": "Victoria of Baden",
+      "subject_id": "Q52878",
+      "object_id": "Q57648"
+    },
+    {
+      "subject": "Prince Philip, Duke of Edinburgh",
+      "object": "Princess Alice of Battenberg",
+      "subject_id": "Q80976",
+      "object_id": "Q116062"
+    },
+    {
+      "subject": "Charles II of England",
+      "object": "Henrietta Maria of France",
+      "subject_id": "Q122553",
+      "object_id": "Q848615"
+    },
+    {
+      "subject": "Greta Garbo",
+      "object": "Anna Lovisa Johansdotter",
+      "subject_id": "Q5443",
+      "object_id": "Q47510002"
+    },
+    {
+      "subject": "Henry Fielding",
+      "object": "Sarah Gould",
+      "subject_id": "Q34190",
+      "object_id": "Q75613274"
+    },
+    {
+      "subject": "Keanu Reeves",
+      "object": "Patricia Taylor",
+      "subject_id": "Q43416",
+      "object_id": "Q76293671"
+    },
+    {
+      "subject": "Justinian I",
+      "object": "Vigilantia",
+      "subject_id": "Q41866",
+      "object_id": "Q7928931"
+    },
+    {
+      "subject": "Hermann Göring",
+      "object": "Franziska Tiefenbrunn",
+      "subject_id": "Q47906",
+      "object_id": "Q110704633"
+    },
+    {
+      "subject": "Augustus John",
+      "object": "Augusta Smith",
+      "subject_id": "Q562540",
+      "object_id": "Q75301990"
+    },
+    {
+      "subject": "Serena Williams",
+      "object": "Oracene Price",
+      "subject_id": "Q11459",
+      "object_id": "Q7099217"
+    },
+    {
+      "subject": "P!nk",
+      "object": "Judith Moore",
+      "subject_id": "N/A",
+      "object_id": "Q102158653"
+    },
+    {
+      "subject": "Samuel Johnson",
+      "object": "Sarah Ford",
+      "subject_id": "Q183266",
+      "object_id": "Q75616712"
+    },
+    {
+      "subject": "Heinrich Himmler",
+      "object": "Anna Heyder",
+      "subject_id": "Q43067",
+      "object_id": "Q42576066"
+    },
+    {
+      "subject": "August von Kotzebue",
+      "object": "Christiane von Kotzebue",
+      "subject_id": "Q57242",
+      "object_id": "Q94748291"
+    },
+    {
+      "subject": "Alfred Russel Wallace",
+      "object": "Mary Anne Greenell",
+      "subject_id": "Q160627",
+      "object_id": "Q108840466"
+    },
+    {
+      "subject": "Jack Nicholson",
+      "object": "June Frances Nicholson",
+      "subject_id": "Q39792",
+      "object_id": "Q108840912"
+    },
+    {
+      "subject": "Michael Faraday",
+      "object": "Margaret Hastwell",
+      "subject_id": "Q8750",
+      "object_id": "Q112431992"
+    },
+    {
+      "subject": "Drew Barrymore",
+      "object": "Jaid Barrymore",
+      "subject_id": "Q676094",
+      "object_id": "Q535412"
+    },
+    {
+      "subject": "Marguerite Yourcenar",
+      "object": "Fernande de Cartier de Marchienne",
+      "subject_id": "Q163118",
+      "object_id": "Q5444556"
+    },
+    {
+      "subject": "Aung San Suu Kyi",
+      "object": "Khin Kyi",
+      "subject_id": "Q36740",
+      "object_id": "Q16012101"
+    },
+    {
+      "subject": "Klemens von Metternich",
+      "object": "Maria Beatrix Gräfin von Kageneck",
+      "subject_id": "Q45662",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "John Singleton Copley",
+      "object": "Mary Singleton",
+      "subject_id": "Q316016",
+      "object_id": "Q76315796"
+    },
+    {
+      "subject": "Andrei Tarkovsky",
+      "object": "Maria Tarkowska",
+      "subject_id": "Q853",
+      "object_id": "Q85865549"
+    },
+    {
+      "subject": "Thomas Moore",
+      "object": "Anastasia Codd",
+      "subject_id": "Q1366473",
+      "object_id": "Q96086798"
+    },
+    {
+      "subject": "Peter the Great",
+      "object": "Natalya Naryshkina",
+      "subject_id": "Q8479",
+      "object_id": "Q241797"
+    },
+    {
+      "subject": "Wolfgang Pauli",
+      "object": "Berta Kamilla Pauli",
+      "subject_id": "Q65989",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Philippe Pétain",
+      "object": "Clotilde Legrand",
+      "subject_id": "Q5721",
+      "object_id": "Q16766438"
+    },
+    {
+      "subject": "T. E. Lawrence",
+      "object": "Sarah Junner",
+      "subject_id": "Q170596",
+      "object_id": "Q75769809"
+    },
+    {
+      "subject": "Guglielmo Marconi",
+      "object": "Annie Jameson",
+      "subject_id": "Q36488",
+      "object_id": "Q76129335"
+    },
+    {
+      "subject": "Richard Dawkins",
+      "object": "Jean Mary Vyvyan Ladner",
+      "subject_id": "Q44461",
+      "object_id": "Q76287729"
+    },
+    {
+      "subject": "Edward Morgan Forster",
+      "object": "Alice Clara Whichelo",
+      "subject_id": "N/A",
+      "object_id": "Q94794244"
+    },
+    {
+      "subject": "Armand-Jean du Plessis, duc de Richelieu",
+      "object": "Susanne de La Porte",
+      "subject_id": "Q26702",
+      "object_id": "Q96244452"
+    },
+    {
+      "subject": "Sergei Rachmaninoff",
+      "object": "Lyubov Petrovna Butakova",
+      "subject_id": "Q131861",
+      "object_id": "Q108840547"
+    },
+    {
+      "subject": "Louis XIII of France",
+      "object": "Marie de' Medici",
+      "subject_id": "Q737533",
+      "object_id": "Q182021"
+    },
+    {
+      "subject": "Giacomo Meyerbeer",
+      "object": "Amalie Beer",
+      "subject_id": "Q105237",
+      "object_id": "Q453012"
+    },
+    {
+      "subject": "Isabel Hund",
+      "object": "Juliane Hund",
+      "subject_id": "Q1673541",
+      "object_id": "Q1712106"
+    },
+    {
+      "subject": "Ron Howard",
+      "object": "Jean Speegle Howard",
+      "subject_id": "Q103646",
+      "object_id": "Q5249301"
+    },
+    {
+      "subject": "Michelle Obama",
+      "object": "Marian Shields Robinson",
+      "subject_id": "Q13133",
+      "object_id": "Q6761976"
+    },
+    {
+      "subject": "Chiang Kai-shek",
+      "object": "Wang Caiyu",
+      "subject_id": "Q16574",
+      "object_id": "Q14368700"
+    },
+    {
+      "subject": "Christiaan Huygens",
+      "object": "Suzanna van Baerle",
+      "subject_id": "Q39599",
+      "object_id": "Q17276483"
+    },
+    {
+      "subject": "Pete Seeger",
+      "object": "Constance de Clyver Edson",
+      "subject_id": "Q244441",
+      "object_id": "Q96815612"
+    },
+    {
+      "subject": "Tom Cruise",
+      "object": "Mary Lee Pfeiffer",
+      "subject_id": "Q37079",
+      "object_id": "Q98100348"
+    },
+    {
+      "subject": "William James",
+      "object": "Mary Walsh James",
+      "subject_id": "Q125249",
+      "object_id": "Q107382824"
+    },
+    {
+      "subject": "John Henry Newman",
+      "object": "Jemima Fourdrinier",
+      "subject_id": "Q44490",
+      "object_id": "Q114224254"
+    },
+    {
+      "subject": "Ferdinand II of Aragon",
+      "object": "Juana Enríquez",
+      "subject_id": "Q12860",
+      "object_id": "Q104737479"
+    },
+    {
+      "subject": "Ellen DeGeneres",
+      "object": "Betty DeGeneres",
+      "subject_id": "Q483325",
+      "object_id": "Q656219"
+    },
+    {
+      "subject": "Gregory of Nazianzus",
+      "object": "Nonna of Nazianzus",
+      "subject_id": "Q44011",
+      "object_id": "Q925470"
+    },
+    {
+      "subject": "Stevie Wonder",
+      "object": "Lula Mae Hardaway",
+      "subject_id": "Q714",
+      "object_id": "Q6702757"
+    },
+    {
+      "subject": "Ben Nicholson",
+      "object": "Mabel Pryde",
+      "subject_id": "Q281637",
+      "object_id": "Q6721503"
+    },
+    {
+      "subject": "Nicholas Roerich",
+      "object": "Maria Vasiljevna Rerich",
+      "subject_id": "Q208993",
+      "object_id": "Q13859234"
+    },
+    {
+      "subject": "Alan Turing",
+      "object": "Ethel Sara Stoney",
+      "subject_id": "Q7251",
+      "object_id": "Q20895935"
+    },
+    {
+      "subject": "Henry Fonda",
+      "object": "Elma Herberta Jaynes",
+      "subject_id": "Q19155",
+      "object_id": "Q75619323"
+    },
+    {
+      "subject": "Sun Yat-sen",
+      "object": "Madame Yang",
+      "subject_id": "Q8573",
+      "object_id": "Q95476008"
+    },
+    {
+      "subject": "Jack Kerouac",
+      "object": "Gabrielle Ange Lévesque",
+      "subject_id": "Q160534",
+      "object_id": "Q96963622"
+    },
+    {
+      "subject": "Kiefer Sutherland",
+      "object": "Shirley Douglas",
+      "subject_id": "Q103946",
+      "object_id": "Q460062"
+    },
+    {
+      "subject": "Paul Robeson",
+      "object": "Maria Louisa Bustill",
+      "subject_id": "Q273233",
+      "object_id": "Q6761369"
+    },
+    {
+      "subject": "Jennifer Aniston",
+      "object": "Nancy Dow",
+      "subject_id": "Q32522",
+      "object_id": "Q11833910"
+    },
+    {
+      "subject": "Quinten Metsys",
+      "object": "Christina Van Pullaer",
+      "subject_id": "Q314275",
+      "object_id": "Q20888662"
+    },
+    {
+      "subject": "Ginger Rogers",
+      "object": "Lela E. Rogers",
+      "subject_id": "Q95089",
+      "object_id": "Q60675411"
+    },
+    {
+      "subject": "Oliver Cromwell",
+      "object": "Elizabeth Steward",
+      "subject_id": "Q44279",
+      "object_id": "Q75421057"
+    },
+    {
+      "subject": "John Donne",
+      "object": "Elizabeth Heywood",
+      "subject_id": "Q140412",
+      "object_id": "Q75852189"
+    },
+    {
+      "subject": "Tim Burton",
+      "object": "Jean Rae Erickson",
+      "subject_id": "Q56008",
+      "object_id": "Q108844355"
+    },
+    {
+      "subject": "Amartya Sen",
+      "object": "Amita Sen",
+      "subject_id": "Q132489",
+      "object_id": "Q102375377"
+    },
+    {
+      "subject": "Joseph von Eichendorff",
+      "object": "Karoline von Eichendorff",
+      "subject_id": "Q77204",
+      "object_id": "Q24089280"
+    },
+    {
+      "subject": "Steve Jobs",
+      "object": "Joanne Carole Schieble Simpson",
+      "subject_id": "Q19837",
+      "object_id": "Q28941744"
+    },
+    {
+      "subject": "Ralph Vaughan Williams",
+      "object": "Margaret Vaughan Williams",
+      "subject_id": "Q207947",
+      "object_id": "Q55363643"
+    },
+    {
+      "subject": "Richard Attenborough",
+      "object": "Mary Clegg",
+      "subject_id": "Q51506",
+      "object_id": "Q75414092"
+    },
+    {
+      "subject": "Pius IX",
+      "object": "Caterina Solazzi",
+      "subject_id": "Q43720",
+      "object_id": "Q116474124"
+    },
+    {
+      "subject": "Robert Capa",
+      "object": "Júlia",
+      "subject_id": "Q152524",
+      "object_id": "Q19851095"
+    },
+    {
+      "subject": "Xi Jinping",
+      "object": "Qi Xin",
+      "subject_id": "Q15031",
+      "object_id": "Q17499761"
+    },
+    {
+      "subject": "François Hollande",
+      "object": "Nicole Tribert",
+      "subject_id": "Q157",
+      "object_id": "Q16354867"
+    },
+    {
+      "subject": "Charles XIV John of Sweden",
+      "object": "Jeanne de Saint-Jean",
+      "subject_id": "Q52927",
+      "object_id": "Q20935263"
+    },
+    {
+      "subject": "Gilbert du Motier, Marquis de Lafayette",
+      "object": "Marie Louise Jolie de La Rivière",
+      "subject_id": "Q186652",
+      "object_id": "Q20909572"
+    },
+    {
+      "subject": "Helen Keller",
+      "object": "Catherine Adams",
+      "subject_id": "Q38203",
+      "object_id": "Q87329793"
+    },
+    {
+      "subject": "Jeremy Bentham",
+      "object": "Alicia Woodward Grove",
+      "subject_id": "Q60887",
+      "object_id": "Q96089528"
+    },
+    {
+      "subject": "Marquis de Sade",
+      "object": "Marie Eleonore de Maillé",
+      "subject_id": "Q123867",
+      "object_id": "Q96243530"
+    },
+    {
+      "subject": "Oliver Stone",
+      "object": "Jacqueline Goddet",
+      "subject_id": "Q179497",
+      "object_id": "Q100148353"
+    },
+    {
+      "subject": "Frank Loheac Ammoun",
+      "object": "Blanche Lohéac-Ammoun",
+      "subject_id": "Q71294510",
+      "object_id": "Q105079731"
+    },
+    {
+      "subject": "Paul Newman",
+      "object": "Theresa Fetzer",
+      "subject_id": "Q41871",
+      "object_id": "Q108840338"
+    },
+    {
+      "subject": "Burt Bacharach",
+      "object": "Irma M. Freeman",
+      "subject_id": "Q212762",
+      "object_id": "Q110730259"
+    },
+    {
+      "subject": "Moses",
+      "object": "Jochebed",
+      "subject_id": "Q13554012",
+      "object_id": "Q594805"
+    },
+    {
+      "subject": "Lorenzo de' Medici",
+      "object": "Lucrezia Tornabuoni",
+      "subject_id": "Q3837121",
+      "object_id": "Q1113645"
+    },
+    {
+      "subject": "Olivia de Havilland",
+      "object": "Lilian Fontaine",
+      "subject_id": "Q95068",
+      "object_id": "Q3240900"
+    },
+    {
+      "subject": "Nikita Mikhalkov",
+      "object": "Natalia Konchalovskaïa",
+      "subject_id": "Q55207",
+      "object_id": "Q4231926"
+    },
+    {
+      "subject": "Tove Jansson",
+      "object": "Signe Hammarsten-Jansson",
+      "subject_id": "Q102071",
+      "object_id": "Q4347931"
+    },
+    {
+      "subject": "Boris Johnson",
+      "object": "Charlotte Johnson Wahl",
+      "subject_id": "Q180589",
+      "object_id": "Q16106302"
+    },
+    {
+      "subject": "Camillo Benso di Cavour",
+      "object": "Adelaide Suzanne de Sellon",
+      "subject_id": "Q166092",
+      "object_id": "Q24073753"
+    },
+    {
+      "subject": "Thomas Babington Macaulay, 1st Baron Macaulay",
+      "object": "Selina Mills",
+      "subject_id": "Q315989",
+      "object_id": "Q51711668"
+    },
+    {
+      "subject": "Svante August Arrhenius",
+      "object": "Carolina Christina Thunberg",
+      "subject_id": "Q80956",
+      "object_id": "Q108840383"
+    },
+    {
+      "subject": "Bjørnstjerne Bjørnson",
+      "object": "Inger Elise Nordraach",
+      "subject_id": "Q46405",
+      "object_id": "Q111424251"
+    },
+    {
+      "subject": "Alfred de Vigny",
+      "object": "Marie-Jeanne-Amélie de Vigny",
+      "subject_id": "Q309702",
+      "object_id": "Q117824168"
+    },
+    {
+      "subject": "Heinrich Schliemann",
+      "object": "Luise Therese Sophie Schliemann",
+      "subject_id": "Q57106",
+      "object_id": "Q6701342"
+    },
+    {
+      "subject": "Taras Shevchenko",
+      "object": "Kateryna Y. Boiko",
+      "subject_id": "Q134958",
+      "object_id": "Q17331665"
+    },
+    {
+      "subject": "Arthur Balfour",
+      "object": "Lady Blanche Gascoyne-Cecil",
+      "subject_id": "Q19008",
+      "object_id": "Q75328849"
+    },
+    {
+      "subject": "Jacques Cousteau",
+      "object": "Elizabeth Cousteau",
+      "subject_id": "Q83233",
+      "object_id": "Q109931046"
+    },
+    {
+      "subject": "Jayne Mansfield",
+      "object": "Vera Jeffrey Palmer Peers",
+      "subject_id": "Q229507",
+      "object_id": "Q113720181"
+    },
+    {
+      "subject": "Genghis Khan",
+      "object": "Hoelun",
+      "subject_id": "Q720",
+      "object_id": "Q378676"
+    },
+    {
+      "subject": "Trajan",
+      "object": "Marcia",
+      "subject_id": "Q63834928",
+      "object_id": "Q1464882"
+    },
+    {
+      "subject": "Sylvia Plath",
+      "object": "Aurelia Plath",
+      "subject_id": "Q133054",
+      "object_id": "Q9151491"
+    },
+    {
+      "subject": "Aaron Summerscale",
+      "object": "Cordelia Isobel Mayall",
+      "subject_id": "Q4662472",
+      "object_id": "Q75309937"
+    },
+    {
+      "subject": "Alphonsus Maria de Liguori",
+      "object": "Donna Anna Catherine Cavalieri",
+      "subject_id": "Q273334",
+      "object_id": "Q99562383"
+    },
+    {
+      "subject": "André Previn",
+      "object": "Lotte Priwin",
+      "subject_id": "Q155712",
+      "object_id": "Q106223439"
+    },
+    {
+      "subject": "Kristina I of Sweden",
+      "object": "Maria Eleonora of Brandenburg",
+      "subject_id": "N/A",
+      "object_id": "Q233319"
+    },
+    {
+      "subject": "Francis I of France",
+      "object": "Louise of Savoy",
+      "subject_id": "Q129857",
+      "object_id": "Q233192"
+    },
+    {
+      "subject": "Robert F. Kennedy",
+      "object": "Rose Kennedy",
+      "subject_id": "Q25310",
+      "object_id": "Q236540"
+    },
+    {
+      "subject": "Louis XVI of France",
+      "object": "Marie Josèphe of Saxony",
+      "subject_id": "Q7732",
+      "object_id": "Q163043"
+    },
+    {
+      "subject": "Edward Gibbon",
+      "object": "Judith Porten",
+      "subject_id": "Q161841",
+      "object_id": "Q76326977"
+    },
+    {
+      "subject": "Alexander Hamilton",
+      "object": "Rachel Faucitt Lavien",
+      "subject_id": "Q178903",
+      "object_id": "Q102147144"
+    },
+    {
+      "subject": "Elizabeth Warren",
+      "object": "Polly L. Herring (Reed)",
+      "subject_id": "Q434706",
+      "object_id": "Q107292596"
+    },
+    {
+      "subject": "Georg Büchner",
+      "object": "Karoline Reuss",
+      "subject_id": "Q154014",
+      "object_id": "Q111488169"
+    },
+    {
+      "subject": "Philip IV of Spain",
+      "object": "Margaret of Austria, Queen of Spain",
+      "subject_id": "Q691402",
+      "object_id": "Q157089"
+    },
+    {
+      "subject": "Leo X",
+      "object": "Clarice Orsini",
+      "subject_id": "Q49237",
+      "object_id": "Q261871"
+    },
+    {
+      "subject": "Marianne Faithfull",
+      "object": "Eva von Sacher-Masoch",
+      "subject_id": "Q48280",
+      "object_id": "Q5415214"
+    },
+    {
+      "subject": "Jacob Burckhardt",
+      "object": "Susanna Maria Burckhardt-Schorndorff",
+      "subject_id": "Q59945",
+      "object_id": "Q61993501"
+    },
+    {
+      "subject": "John Huston",
+      "object": "Rhea Gore",
+      "subject_id": "Q51575",
+      "object_id": "Q75579566"
+    },
+    {
+      "subject": "Herbert Hoover",
+      "object": "Hulda Randall Minthorn",
+      "subject_id": "Q35236",
+      "object_id": "Q75766492"
+    },
+    {
+      "subject": "Dean Martin",
+      "object": "Angela Barra",
+      "subject_id": "Q215359",
+      "object_id": "Q107154700"
+    },
+    {
+      "subject": "Antoine Lavoisier",
+      "object": "Emilie Punctis",
+      "subject_id": "Q39607",
+      "object_id": "Q108838703"
+    },
+    {
+      "subject": "Artemisia Gentileschi",
+      "object": "Prudenzia di Ottaviano Montoni",
+      "subject_id": "Q212657",
+      "object_id": "Q111996911"
+    },
+    {
+      "subject": "Alicia Vikander",
+      "object": "Maria Fahl Vikander",
+      "subject_id": "Q439314",
+      "object_id": "Q4947427"
+    },
+    {
+      "subject": "Simón Bolívar",
+      "object": "María Concepción Palacios Aguirre Ariztía - Sojo Blanco Herrera",
+      "subject_id": "Q8605",
+      "object_id": "Q6004854"
+    },
+    {
+      "subject": "Józef Piłsudski",
+      "object": "Maria Piłsudska",
+      "subject_id": "Q885",
+      "object_id": "Q5734003"
+    },
+    {
+      "subject": "Yelena Dembo",
+      "object": "Nadezhda Fokina",
+      "subject_id": "Q465876",
+      "object_id": "Q21857254"
+    },
+    {
+      "subject": "Abraham",
+      "object": "Amasla",
+      "subject_id": "Q17997608",
+      "object_id": "Q33205630"
+    },
+    {
+      "subject": "Francis Xavier",
+      "object": "María de Azpilcueta",
+      "subject_id": "Q1449561",
+      "object_id": "Q72102690"
+    },
+    {
+      "subject": "P. G. Wodehouse",
+      "object": "Eleanor Deane",
+      "subject_id": "Q207515",
+      "object_id": "Q75283079"
+    },
+    {
+      "subject": "Clement Attlee",
+      "object": "Ellen Bravery Watson",
+      "subject_id": "Q129006",
+      "object_id": "Q75295631"
+    },
+    {
+      "subject": "J. J. Thomson",
+      "object": "Emma Swindells",
+      "subject_id": "Q47285",
+      "object_id": "Q96080969"
+    },
+    {
+      "subject": "Lenny Kravitz",
+      "object": "Roxie Roker",
+      "subject_id": "Q180224",
+      "object_id": "Q456903"
+    },
+    {
+      "subject": "Eugene O'Neill",
+      "object": "Ella O'Neill",
+      "subject_id": "Q93157",
+      "object_id": "Q5364551"
+    },
+    {
+      "subject": "John Russell, 1st Earl Russell",
+      "object": "Georgiana Byng",
+      "subject_id": "Q157259",
+      "object_id": "Q75261341"
+    },
+    {
+      "subject": "Paul-Albert Besnard",
+      "object": "Louise Vaillant",
+      "subject_id": "Q424348",
+      "object_id": "Q97946952"
+    },
+    {
+      "subject": "Edward Snowden",
+      "object": "Elizabeth Snowden",
+      "subject_id": "Q13424289",
+      "object_id": "Q100700848"
+    },
+    {
+      "subject": "Zachris Topelius",
+      "object": "Catharina Sofia Topelius",
+      "subject_id": "Q139549",
+      "object_id": "Q24879233"
+    },
+    {
+      "subject": "Emperor Huizong of Song",
+      "object": "Chen Shi",
+      "subject_id": "Q7486",
+      "object_id": "Q65817763"
+    },
+    {
+      "subject": "Joseph Wright of Derby",
+      "object": "Hannah Brookes",
+      "subject_id": "Q214062",
+      "object_id": "Q96088066"
+    },
+    {
+      "subject": "Spider-Man",
+      "object": "Mary Parker",
+      "subject_id": "Q79037",
+      "object_id": "Q1906362"
+    },
+    {
+      "subject": "Jewel",
+      "object": "Lenedra Carroll",
+      "subject_id": "Q229018",
+      "object_id": "Q110425156"
+    },
+    {
+      "subject": "Robert Bellarmine",
+      "object": "Cinzia Cervini",
+      "subject_id": "Q298664",
+      "object_id": "Q116468746"
+    },
+    {
+      "subject": "Felipe VI of Spain",
+      "object": "Queen Sofía of Spain",
+      "subject_id": "Q191045",
+      "object_id": "Q156548"
+    },
+    {
+      "subject": "Haakon VII of Norway",
+      "object": "Louise of Sweden",
+      "subject_id": "Q154927",
+      "object_id": "Q232402"
+    },
+    {
+      "subject": "Queen Elizabeth, The Queen Mother",
+      "object": "Cecilia Bowes-Lyon, Countess of Strathmore and Kinghorne",
+      "subject_id": "Q10633",
+      "object_id": "Q238820"
+    },
+    {
+      "subject": "Horatio Nelson",
+      "object": "Catherine Suckling",
+      "subject_id": "Q83235",
+      "object_id": "Q2942071"
+    },
+    {
+      "subject": "Christina Applegate",
+      "object": "Nancy Priddy",
+      "subject_id": "Q188280",
+      "object_id": "Q4378126"
+    },
+    {
+      "subject": "Jean Renoir",
+      "object": "Aline Charigot",
+      "subject_id": "Q50713",
+      "object_id": "Q4520512"
+    },
+    {
+      "subject": "Luchino Visconti",
+      "object": "Carla Erba",
+      "subject_id": "Q13888",
+      "object_id": "Q76374126"
+    },
+    {
+      "subject": "Richard Burton",
+      "object": "Edith Mawd Thomas",
+      "subject_id": "Q151973",
+      "object_id": "Q107154706"
+    },
+    {
+      "subject": "Ozzy Osbourne",
+      "object": "Lillian Unitt",
+      "subject_id": "Q133151",
+      "object_id": "Q108844846"
+    },
+    {
+      "subject": "Nikolai Berdyaev",
+      "object": "Alina Sergeevna Kudasheva",
+      "subject_id": "Q184656",
+      "object_id": "Q110394295"
+    },
+    {
+      "subject": "Charles IV",
+      "object": "Elizabeth of Bohemia",
+      "subject_id": "Q155669",
+      "object_id": "Q254322"
+    },
+    {
+      "subject": "Hadrian",
+      "object": "Domitia Paulina",
+      "subject_id": "Q1567539",
+      "object_id": "Q452705"
+    },
+    {
+      "subject": "Alfonso XIII of Spain",
+      "object": "Maria Christina of Austria",
+      "subject_id": "N/A",
+      "object_id": "Q538125"
+    },
+    {
+      "subject": "Gregory of Nyssa",
+      "object": "Emmelia of Caesarea",
+      "subject_id": "Q191734",
+      "object_id": "Q2186180"
+    },
+    {
+      "subject": "William Herschel",
+      "object": "Anna Ilse Moritzen",
+      "subject_id": "Q14277",
+      "object_id": "Q20967508"
+    },
+    {
+      "subject": "France Gall",
+      "object": "Cecile Berthier",
+      "subject_id": "Q208258",
+      "object_id": "Q56256757"
+    },
+    {
+      "subject": "Francis Galton",
+      "object": "Frances Anne Violetta Darwin",
+      "subject_id": "Q191026",
+      "object_id": "Q75820645"
+    },
+    {
+      "subject": "Wilkie Collins",
+      "object": "Harriet Geddes",
+      "subject_id": "Q210740",
+      "object_id": "Q75942379"
+    },
+    {
+      "subject": "Paul von Hindenburg",
+      "object": "Luise Schwickart",
+      "subject_id": "Q2667",
+      "object_id": "Q96242252"
+    },
+    {
+      "subject": "Langston Hughes",
+      "object": "Carrie Langston",
+      "subject_id": "Q100806389",
+      "object_id": "Q61989474"
+    },
+    {
+      "subject": "Edith Wharton",
+      "object": "Lucretia Stevens Rhinelander",
+      "subject_id": "Q276032",
+      "object_id": "Q96603505"
+    },
+    {
+      "subject": "Walter Crane",
+      "object": "Marie Kearsley",
+      "subject_id": "Q660917",
+      "object_id": "Q107359073"
+    },
+    {
+      "subject": "Margaret of Valois-Angoulême",
+      "object": "Louise of Savoy",
+      "subject_id": "Q190058",
+      "object_id": "Q233192"
+    },
+    {
+      "subject": "Victor Emmanuel II of Italy",
+      "object": "Maria Theresa of Austria",
+      "subject_id": "Q168691",
+      "object_id": "Q131706"
+    },
+    {
+      "subject": "William III of England",
+      "object": "Mary Henrietta, Princess Royal",
+      "subject_id": "Q129987",
+      "object_id": "Q236930"
+    },
+    {
+      "subject": "Sammy Davis Jr.",
+      "object": "Elvera Sanchez",
+      "subject_id": "Q297816",
+      "object_id": "Q3723724"
+    },
+    {
+      "subject": "Daphne du Maurier",
+      "object": "Muriel Beaumont",
+      "subject_id": "Q193357",
+      "object_id": "Q6938588"
+    },
+    {
+      "subject": "Wernher von Braun",
+      "object": "Emmy von Braun",
+      "subject_id": "Q57384",
+      "object_id": "Q41623239"
+    },
+    {
+      "subject": "Julia Margaret Cameron",
+      "object": "Adeline Maria de l'Étang",
+      "subject_id": "Q230120",
+      "object_id": "Q61573609"
+    },
+    {
+      "subject": "Jawaharlal Nehru",
+      "object": "Swarup Rani Nehru",
+      "subject_id": "Q1047",
+      "object_id": "Q62572509"
+    },
+    {
+      "subject": "Carl Larsson",
+      "object": "Johanna Carolina Erika Larsson",
+      "subject_id": "Q187310",
+      "object_id": "Q65136685"
+    },
+    {
+      "subject": "Robert Peel",
+      "object": "Ellen Yates",
+      "subject_id": "Q181875",
+      "object_id": "Q75318713"
+    },
+    {
+      "subject": "Robert Boyle",
+      "object": "Catherine Fenton",
+      "subject_id": "Q43393",
+      "object_id": "Q75318836"
+    },
+    {
+      "subject": "Matthew Arnold",
+      "object": "Mary Penrose",
+      "subject_id": "Q271032",
+      "object_id": "Q76159079"
+    },
+    {
+      "subject": "Eugenio Montale",
+      "object": "Giuseppina Ricci",
+      "subject_id": "Q83174",
+      "object_id": "Q108524376"
+    },
+    {
+      "subject": "Alec Guinness",
+      "object": "Agnes Cuff",
+      "subject_id": "Q103894",
+      "object_id": "Q108840748"
+    },
+    {
+      "subject": "Arthur Sullivan",
+      "object": "Mary Clementina Coghlan",
+      "subject_id": "Q212692",
+      "object_id": "Q112644163"
+    },
+    {
+      "subject": "Alexander II of Russia",
+      "object": "Alexandra Feodorovna",
+      "subject_id": "Q83171",
+      "object_id": "Q152094"
+    },
+    {
+      "subject": "Leopold I, Holy Roman Emperor",
+      "object": "Maria Anna of Spain",
+      "subject_id": "Q150494",
+      "object_id": "Q158662"
+    },
+    {
+      "subject": "Maximilian I",
+      "object": "Eleanor of Portugal, Holy Roman Empress",
+      "subject_id": "Q150726",
+      "object_id": "Q161149"
+    },
+    {
+      "subject": "Catherine de' Medici",
+      "object": "Madeleine de La Tour d'Auvergne",
+      "subject_id": "Q131552",
+      "object_id": "Q272509"
+    },
+    {
+      "subject": "Sofia Coppola",
+      "object": "Eleanor Coppola",
+      "subject_id": "Q193628",
+      "object_id": "Q4943414"
+    },
+    {
+      "subject": "Cardinal Mazarin",
+      "object": "Ortensia Buffalini",
+      "subject_id": "Q166056",
+      "object_id": "Q61684972"
+    },
+    {
+      "subject": "Robert Southey",
+      "object": "Margaret Hill",
+      "subject_id": "Q216838",
+      "object_id": "Q75420752"
+    },
+    {
+      "subject": "James Madison",
+      "object": "Eleanor Rose Conway",
+      "subject_id": "Q11813",
+      "object_id": "Q75766916"
+    },
+    {
+      "subject": "Evelyn Waugh",
+      "object": "Catherine Charlotte Raban",
+      "subject_id": "Q107002",
+      "object_id": "Q76012336"
+    },
+    {
+      "subject": "Humphry Davy",
+      "object": "Grace Millett",
+      "subject_id": "Q131761",
+      "object_id": "Q76025905"
+    },
+    {
+      "subject": "William Holman Hunt",
+      "object": "Sarah Holman",
+      "subject_id": "Q211763",
+      "object_id": "Q76329939"
+    },
+    {
+      "subject": "Auguste Comte Xavier",
+      "object": "Rosalie Boyer",
+      "subject_id": "N/A",
+      "object_id": "Q88004345"
+    },
+    {
+      "subject": "Edgar Rice Burroughs",
+      "object": "Mary Evaline Zieger",
+      "subject_id": "Q148234",
+      "object_id": "Q96241384"
+    },
+    {
+      "subject": "James Stewart",
+      "object": "Elizabeth Ruth Stewart",
+      "subject_id": "Q108162206",
+      "object_id": "Q102346910"
+    },
+    {
+      "subject": "Julius II",
+      "object": "Teodora Marinola",
+      "subject_id": "Q80516",
+      "object_id": "Q105882466"
+    },
+    {
+      "subject": "Freeman Dyson",
+      "object": "Mildred Atkey",
+      "subject_id": "Q153717",
+      "object_id": "Q112384246"
+    },
+    {
+      "subject": "Sam Shepard",
+      "object": "Jane Elaine Schook",
+      "subject_id": "Q294583",
+      "object_id": "Q113204097"
+    },
+    {
+      "subject": "Francis de Sales",
+      "object": "Françoise de Sionnaz de Vallières",
+      "subject_id": "Q231256",
+      "object_id": "Q116468596"
+    },
+    {
+      "subject": "Meret Becker",
+      "object": "Monika Hansen",
+      "subject_id": "Q65511",
+      "object_id": "Q96025"
+    },
+    {
+      "subject": "James II of England",
+      "object": "Henrietta Maria of France",
+      "subject_id": "Q126188",
+      "object_id": "Q848615"
+    },
+    {
+      "subject": "David",
+      "object": "Nitzevet",
+      "subject_id": "Q18057751",
+      "object_id": "Q7041639"
+    },
+    {
+      "subject": "Petronius",
+      "object": "Plautia",
+      "subject_id": "Q32979347",
+      "object_id": "Q4047063"
+    },
+    {
+      "subject": "Roger Federer",
+      "object": "Lynette Federer",
+      "subject_id": "Q1426",
+      "object_id": "Q17291278"
+    },
+    {
+      "subject": "Paul Langevin",
+      "object": "Marie-Adelaide Pinel",
+      "subject_id": "Q25320",
+      "object_id": "Q21197412"
+    },
+    {
+      "subject": "Anthony Eden",
+      "object": "Sybil Frances Grey",
+      "subject_id": "Q128995",
+      "object_id": "Q75343961"
+    },
+    {
+      "subject": "Neville Chamberlain",
+      "object": "Florence Kenrick",
+      "subject_id": "Q10664",
+      "object_id": "Q75570971"
+    },
+    {
+      "subject": "H. Rider Haggard",
+      "object": "Ella Doveton",
+      "subject_id": "Q237196",
+      "object_id": "Q76265443"
+    },
+    {
+      "subject": "Ben Affleck",
+      "object": "Christine Anne Boldt",
+      "subject_id": "Q483118",
+      "object_id": "Q97071469"
+    },
+    {
+      "subject": "Childe Hassam",
+      "object": "Rose Delia Hathorne",
+      "subject_id": "Q737635",
+      "object_id": "Q97071965"
+    },
+    {
+      "subject": "Menander",
+      "object": "Hegesistrata",
+      "subject_id": "Q11777346",
+      "object_id": "Q109223564"
+    },
+    {
+      "subject": "Mikhail Glinka",
+      "object": "Evgenia Andreevna Glinka-Zemelka",
+      "subject_id": "Q181885",
+      "object_id": "Q110015856"
+    },
+    {
+      "subject": "René Goscinny",
+      "object": "Anna Goscinny",
+      "subject_id": "Q192214",
+      "object_id": "Q110887643"
+    },
+    {
+      "subject": "Daniel Nikolaus Chodowiecki",
+      "object": "Henriette Ayrer",
+      "subject_id": "Q696720",
+      "object_id": "Q111447026"
+    },
+    {
+      "subject": "Hirohito",
+      "object": "Empress Teimei",
+      "subject_id": "Q34479",
+      "object_id": "Q1197656"
+    },
+    {
+      "subject": "Jean-Michel Jarre",
+      "object": "France Pejot",
+      "subject_id": "Q104326",
+      "object_id": "Q3080737"
+    },
+    {
+      "subject": "Osama bin Laden",
+      "object": "Hamida al-Attas",
+      "subject_id": "Q1317",
+      "object_id": "Q13582314"
+    },
+    {
+      "subject": "Martin Amis",
+      "object": "Hilary Bardwell",
+      "subject_id": "Q310176",
+      "object_id": "Q16018662"
+    },
+    {
+      "subject": "Giovanni Domenico Tiepolo",
+      "object": "Maria Cecilia Guardi",
+      "subject_id": "Q435316",
+      "object_id": "Q26208282"
+    },
+    {
+      "subject": "Clara Schumann",
+      "object": "Mariane Bargiel",
+      "subject_id": "Q132232",
+      "object_id": "Q42529772"
+    },
+    {
+      "subject": "Yuri Gagarin",
+      "object": "Anna Gagarina",
+      "subject_id": "Q7327",
+      "object_id": "Q65705909"
+    },
+    {
+      "subject": "James Bryce, 1st Viscount Bryce",
+      "object": "Margaret Young",
+      "subject_id": "Q336497",
+      "object_id": "Q43392949"
+    },
+    {
+      "subject": "Bernard Law Montgomery, 1st Viscount Montgomery of Alamein",
+      "object": "Maud Farrar",
+      "subject_id": "Q28051850",
+      "object_id": "Q75749620"
+    },
+    {
+      "subject": "Joseph Priestley",
+      "object": "Mary Swift",
+      "subject_id": "Q159636",
+      "object_id": "Q100752016"
+    },
+    {
+      "subject": "Anne, Queen of Great Britain",
+      "object": "Anne, Duchess of York",
+      "subject_id": "Q111603096",
+      "object_id": "Q145609"
+    },
+    {
+      "subject": "Michael Douglas",
+      "object": "Diana Douglas",
+      "subject_id": "Q119798",
+      "object_id": "Q436789"
+    },
+    {
+      "subject": "Anne Brontë",
+      "object": "Maria Branwell",
+      "subject_id": "Q44520",
+      "object_id": "Q3111281"
+    },
+    {
+      "subject": "Hilaire Belloc",
+      "object": "Bessie Rayner Parkes",
+      "subject_id": "Q333106",
+      "object_id": "Q4896496"
+    },
+    {
+      "subject": "David Foster",
+      "object": "Eleanor Foster",
+      "subject_id": "Q77112",
+      "object_id": "Q17484925"
+    },
+    {
+      "subject": "Paul III",
+      "object": "Giovanna Caetani",
+      "subject_id": "Q133001",
+      "object_id": "Q61466376"
+    },
+    {
+      "subject": "John Strutt, 3rd Baron Rayleigh",
+      "object": "Clara Vicars",
+      "subject_id": "Q83297",
+      "object_id": "Q75270794"
+    },
+    {
+      "subject": "Joseph Dalton Hooker",
+      "object": "Maria Turner",
+      "subject_id": "Q157501",
+      "object_id": "Q109830971"
+    },
+    {
+      "subject": "Moby",
+      "object": "Elizabeth McBride Warner",
+      "subject_id": "Q14045",
+      "object_id": "Q96810773"
+    },
+    {
+      "subject": "John Wayne",
+      "object": "Mary Brown",
+      "subject_id": "Q40531",
+      "object_id": "Q108349478"
+    },
+    {
+      "subject": "Jane Goodall",
+      "object": "Margaret Myfanwe Joseph",
+      "subject_id": "Q184746",
+      "object_id": "Q110518652"
+    },
+    {
+      "subject": "Joseph II, Holy Roman Emperor",
+      "object": "Maria Theresa of Austria",
+      "subject_id": "Q76555",
+      "object_id": "Q131706"
+    },
+    {
+      "subject": "Silvo Lahtela",
+      "object": "Helke Sander",
+      "subject_id": "Q103401",
+      "object_id": "Q106035"
+    },
+    {
+      "subject": "Javier Bardem",
+      "object": "Pilar Bardem",
+      "subject_id": "Q134895",
+      "object_id": "Q451828"
+    },
+    {
+      "subject": "Lindsay Lohan",
+      "object": "Chela Lora",
+      "subject_id": "Q44903",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Horace Walpole",
+      "object": "Catherine, Lady Walpole",
+      "subject_id": "Q309903",
+      "object_id": "Q5052507"
+    },
+    {
+      "subject": "Jay-Z",
+      "object": "Gloria Carter",
+      "subject_id": "Q62766",
+      "object_id": "Q76178651"
+    },
+    {
+      "subject": "Alexander Graham Bell",
+      "object": "Eliza Bell",
+      "subject_id": "Q34286",
+      "object_id": "Q58923917"
+    },
+    {
+      "subject": "Ulysses S. Grant",
+      "object": "Hannah Simpson Grant",
+      "subject_id": "Q34836",
+      "object_id": "Q64759245"
+    },
+    {
+      "subject": "Dick Grayson",
+      "object": "Mary Grayson",
+      "subject_id": "Q660051",
+      "object_id": "Q70593217"
+    },
+    {
+      "subject": "John Lubbock, 1st Baron Avebury",
+      "object": "Harriet Hotham",
+      "subject_id": "Q312503",
+      "object_id": "Q75272686"
+    },
+    {
+      "subject": "Claudia Schiffer",
+      "object": "Gudrun (?)",
+      "subject_id": "Q76717",
+      "object_id": "Q75873888"
+    },
+    {
+      "subject": "John Gielgud",
+      "object": "Kate Terry-Lewis",
+      "subject_id": "Q204685",
+      "object_id": "Q76028974"
+    },
+    {
+      "subject": "Milan Kundera",
+      "object": "Milada Kunderová",
+      "subject_id": "Q93166",
+      "object_id": "Q76545677"
+    },
+    {
+      "subject": "Hedy Lamarr",
+      "object": "Gertrud Kiesler",
+      "subject_id": "Q49034",
+      "object_id": "Q100700185"
+    },
+    {
+      "subject": "Jiang Zemin",
+      "object": "Wang Zhelan",
+      "subject_id": "Q16597",
+      "object_id": "Q107015379"
+    },
+    {
+      "subject": "Robert Hooke",
+      "object": "Cecily Gyles",
+      "subject_id": "Q46830",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Judi Dench",
+      "object": "Eleonora Olive Jones",
+      "subject_id": "Q28054",
+      "object_id": "Q108841543"
+    },
+    {
+      "subject": "Daryl Hannah",
+      "object": "Susan Metzger",
+      "subject_id": "Q207596",
+      "object_id": "Q116893799"
+    },
+    {
+      "subject": "Tom Stoppard",
+      "object": "Martha Stoppard",
+      "subject_id": "Q294773",
+      "object_id": "Q116985363"
+    },
+    {
+      "subject": "Angélique Kidjo",
+      "object": "Yvonne Kidjo",
+      "subject_id": "N/A",
+      "object_id": "Q117230890"
+    },
+    {
+      "subject": "Oceanus",
+      "object": "Gaia",
+      "subject_id": "Q42860875",
+      "object_id": "Q4962600"
+    },
+    {
+      "subject": "Qianlong Emperor",
+      "object": "Empress Xiaoshengxian",
+      "subject_id": "Q19133",
+      "object_id": "Q573546"
+    },
+    {
+      "subject": "Wonder Woman",
+      "object": "Hippolyta",
+      "subject_id": "Q10853350",
+      "object_id": "Q21486050"
+    },
+    {
+      "subject": "Richard Brinsley Sheridan",
+      "object": "Frances Sheridan",
+      "subject_id": "Q352725",
+      "object_id": "Q5478941"
+    },
+    {
+      "subject": "Frank Wedekind",
+      "object": "Emilie Wedekind-Kammerer",
+      "subject_id": "Q57619",
+      "object_id": "Q18222374"
+    },
+    {
+      "subject": "Dag Hammarskjöld",
+      "object": "Agnes Maria Carolina Almquist",
+      "subject_id": "Q1267",
+      "object_id": "Q19591937"
+    },
+    {
+      "subject": "Gerhard Hund",
+      "object": "Ingeborg Seynsche",
+      "subject_id": "Q93075",
+      "object_id": "Q19689221"
+    },
+    {
+      "subject": "Pius XI",
+      "object": "Teresa Ratti",
+      "subject_id": "Q42323",
+      "object_id": "Q67153705"
+    },
+    {
+      "subject": "Richard Francis Burton",
+      "object": "Martha Baker",
+      "subject_id": "Q125057",
+      "object_id": "Q108912714"
+    },
+    {
+      "subject": "Alexander Scriabin",
+      "object": "Lyubov Petrovna Shchetinina",
+      "subject_id": "Q185647",
+      "object_id": "Q83213929"
+    },
+    {
+      "subject": "Thomas Robert mkl",
+      "object": "Catherine Graham",
+      "subject_id": "N/A",
+      "object_id": "Q75595804"
+    },
+    {
+      "subject": "Johannes V. Jensen",
+      "object": "Marie Kirstine Jensen",
+      "subject_id": "Q159552",
+      "object_id": "Q104903959"
+    },
+    {
+      "subject": "Gilbert Stuart",
+      "object": "Elizabeth Stuart",
+      "subject_id": "Q41402",
+      "object_id": "Q75243263"
+    },
+    {
+      "subject": "Philip de László",
+      "object": "Johanna Balogh",
+      "subject_id": "Q704208",
+      "object_id": "Q111995944"
+    },
+    {
+      "subject": "Utada Hikaru",
+      "object": "Keiko Fuji",
+      "subject_id": "N/A",
+      "object_id": "Q3276543"
+    },
+    {
+      "subject": "Alfred Nobel",
+      "object": "Karolina Andriette Ahlsell",
+      "subject_id": "Q23810",
+      "object_id": "Q3813118"
+    },
+    {
+      "subject": "Giovanni Pico della Mirandola",
+      "object": "Giulia Boiardo",
+      "subject_id": "Q182128",
+      "object_id": "Q16560385"
+    },
+    {
+      "subject": "Urban VIII",
+      "object": "Camilla Barbadori",
+      "subject_id": "Q131579",
+      "object_id": "Q18737592"
+    },
+    {
+      "subject": "Émile Gallé",
+      "object": "Fanny Reinemer",
+      "subject_id": "Q275085",
+      "object_id": "Q57315113"
+    },
+    {
+      "subject": "Cole Porter",
+      "object": "Kate Porter",
+      "subject_id": "Q215120",
+      "object_id": "Q104537529"
+    },
+    {
+      "subject": "Vincent d'Indy",
+      "object": "Mathilde d'Indy",
+      "subject_id": "Q313584",
+      "object_id": "Q107710416"
+    },
+    {
+      "subject": "Isadora Duncan",
+      "object": "Mary Dora Gray",
+      "subject_id": "Q483512",
+      "object_id": "Q108840368"
+    },
+    {
+      "subject": "Ferruccio Busoni",
+      "object": "Anna Weiss",
+      "subject_id": "Q219551",
+      "object_id": "Q91533561"
+    },
+    {
+      "subject": "Empress Elisabeth of Austria",
+      "object": "Princess Ludovika, Duchess in Bavaria",
+      "subject_id": "Q150782",
+      "object_id": "Q57531"
+    },
+    {
+      "subject": "Nero",
+      "object": "Agrippina the Younger",
+      "subject_id": "Q1413",
+      "object_id": "Q154732"
+    },
+    {
+      "subject": "Jamie Lee Curtis",
+      "object": "Janet Leigh",
+      "subject_id": "Q106997",
+      "object_id": "Q205314"
+    },
+    {
+      "subject": "Humphrey Bogart",
+      "object": "Maud Humphrey",
+      "subject_id": "Q16390",
+      "object_id": "Q15452283"
+    },
+    {
+      "subject": "Ilya Mechnikov",
+      "object": "Emilia Barto Mechnikov",
+      "subject_id": "N/A",
+      "object_id": "Q16725824"
+    },
+    {
+      "subject": "Joachim von Sandrart",
+      "object": "Antoniette de Bodeau",
+      "subject_id": "Q57414113",
+      "object_id": "Q21707124"
+    },
+    {
+      "subject": "Charles Lindbergh",
+      "object": "Evangeline Lodge Land",
+      "subject_id": "Q1618",
+      "object_id": "Q89919073"
+    },
+    {
+      "subject": "Adolf von Harnack",
+      "object": "Marie Harnack",
+      "subject_id": "Q164699",
+      "object_id": "Q94775253"
+    },
+    {
+      "subject": "Max von Sydow",
+      "object": "Maria Margareta, Friherrinna Rappe",
+      "subject_id": "Q203215",
+      "object_id": "Q99301818"
+    },
+    {
+      "subject": "L. Ron Hubbard",
+      "object": "Ledora May Hubbard",
+      "subject_id": "Q216896",
+      "object_id": "Q106531688"
+    },
+    {
+      "subject": "Andrei Sakharov",
+      "object": "Yekaterina Sakharova",
+      "subject_id": "Q997",
+      "object_id": "Q106867744"
+    },
+    {
+      "subject": "Herbert von Karajan",
+      "object": "Martha von Karajan",
+      "subject_id": "Q154895",
+      "object_id": "Q108576635"
+    },
+    {
+      "subject": "Buster Keaton",
+      "object": "Myra Keaton",
+      "subject_id": "Q103949",
+      "object_id": "Q3331486"
+    },
+    {
+      "subject": "Indira Gandhi",
+      "object": "Kamala Nehru",
+      "subject_id": "Q1149",
+      "object_id": "Q3633365"
+    },
+    {
+      "subject": "William Henry Fox Talbot",
+      "object": "Elizabeth Theresa Fox- Strangways",
+      "subject_id": "Q299565",
+      "object_id": "Q21457397"
+    },
+    {
+      "subject": "Ruth Rendell",
+      "object": "Ebba Elise Kruse",
+      "subject_id": "Q232260",
+      "object_id": "Q76283740"
+    },
+    {
+      "subject": "Douglas MacArthur",
+      "object": "Mary Pinckney Hardy",
+      "subject_id": "Q127417",
+      "object_id": "Q96288854"
+    },
+    {
+      "subject": "Enrico Caruso",
+      "object": "Anna Baldini",
+      "subject_id": "Q170726",
+      "object_id": "Q130815586"
+    },
+    {
+      "subject": "A. A. Milne",
+      "object": "Sarah Maria Heginbotham",
+      "subject_id": "Q207036",
+      "object_id": "Q111443133"
+    },
+    {
+      "subject": "Albert Edelfelt",
+      "object": "Alexandra Augusta Brandt",
+      "subject_id": "Q356644",
+      "object_id": "Q112652535"
+    },
+    {
+      "subject": "Samuel Barber",
+      "object": "Maruerite 'Daisy' McLeod Barber (Beatty)",
+      "subject_id": "Q216870",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Ferdinand I, Holy Roman Emperor",
+      "object": "Juana I of Castile",
+      "subject_id": "Q150611",
+      "object_id": "Q171136"
+    },
+    {
+      "subject": "William the Silent",
+      "object": "Juliana of Stolberg",
+      "subject_id": "Q78454",
+      "object_id": "Q202566"
+    },
+    {
+      "subject": "Kangxi Emperor",
+      "object": "Empress Xiaokangzhang",
+      "subject_id": "Q17790",
+      "object_id": "Q1036431"
+    },
+    {
+      "subject": "Balthus",
+      "object": "Baladine Klossowska",
+      "subject_id": "Q325925",
+      "object_id": "Q3633193"
+    },
+    {
+      "subject": "Lawrence Durrell",
+      "object": "Louisa Durrell",
+      "subject_id": "Q219784",
+      "object_id": "Q5390729"
+    },
+    {
+      "subject": "Alan Stivell",
+      "object": "Fanny Julienne Dobroushkess",
+      "subject_id": "Q10681",
+      "object_id": "Q45322576"
+    },
+    {
+      "subject": "Bridget Fonda",
+      "object": "Susan Brewer",
+      "subject_id": "Q913872",
+      "object_id": "Q52226045"
+    },
+    {
+      "subject": "Ludvig Holberg",
+      "object": "Karen Lem",
+      "subject_id": "Q216692",
+      "object_id": "Q61062274"
+    },
+    {
+      "subject": "Algernon Charles Swinburne",
+      "object": "Lady Jane Ashburnham",
+      "subject_id": "Q315511",
+      "object_id": "N/A"
+    }
+  ]
+}

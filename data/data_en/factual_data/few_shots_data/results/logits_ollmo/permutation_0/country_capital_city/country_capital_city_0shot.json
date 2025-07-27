@@ -1,0 +1,3850 @@
+[
+  {
+    "prompt": "The capital city of United States is",
+    "generated_prefix": "The capital city of United States is",
+    "gold_token": " Washington",
+    "predicted_top1_token": " Washington",
+    "token_pos_in_answer": 0,
+    "gold_logit": 16.46875,
+    "gold_prob_percent": 74.9,
+    "first_token_prob": 0.7490234375,
+    "second_token_prob": 0.04095458984375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Washington",
+        "logit": 16.46875,
+        "probability_percent": 74.9
+      },
+      {
+        "rank": 1,
+        "token": " New",
+        "logit": 13.5625,
+        "probability_percent": 4.1
+      },
+      {
+        "rank": 2,
+        "token": " the",
+        "logit": 12.9765625,
+        "probability_percent": 2.28
+      },
+      {
+        "rank": 3,
+        "token": " located",
+        "logit": 12.5078125,
+        "probability_percent": 1.43
+      },
+      {
+        "rank": 4,
+        "token": " called",
+        "logit": 11.8125,
+        "probability_percent": 0.71
+      },
+      {
+        "rank": 5,
+        "token": " not",
+        "logit": 11.7890625,
+        "probability_percent": 0.7
+      },
+      {
+        "rank": 6,
+        "token": " a",
+        "logit": 11.7578125,
+        "probability_percent": 0.67
+      },
+      {
+        "rank": 7,
+        "token": " named",
+        "logit": 11.5546875,
+        "probability_percent": 0.55
+      },
+      {
+        "rank": 8,
+        "token": ":",
+        "logit": 11.3828125,
+        "probability_percent": 0.46
+      },
+      {
+        "rank": 9,
+        "token": " one",
+        "logit": 11.1875,
+        "probability_percent": 0.38
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of United States is",
+    "generated_prefix": "The capital city of United States is Washington",
+    "gold_token": " D",
+    "predicted_top1_token": ".",
+    "token_pos_in_answer": 1,
+    "gold_logit": 16.640625,
+    "gold_prob_percent": 14.27,
+    "first_token_prob": 0.7490234375,
+    "second_token_prob": 0.04095458984375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": ".",
+        "logit": 17.484375,
+        "probability_percent": 33.18
+      },
+      {
+        "rank": 1,
+        "token": ",",
+        "logit": 17.46875,
+        "probability_percent": 32.64
+      },
+      {
+        "rank": 2,
+        "token": " D",
+        "logit": 16.640625,
+        "probability_percent": 14.27
+      },
+      {
+        "rank": 3,
+        "token": " DC",
+        "logit": 16.59375,
+        "probability_percent": 13.61
+      },
+      {
+        "rank": 4,
+        "token": " and",
+        "logit": 14.1640625,
+        "probability_percent": 1.2
+      },
+      {
+        "rank": 5,
+        "token": "\n",
+        "logit": 13.6015625,
+        "probability_percent": 0.68
+      },
+      {
+        "rank": 6,
+        "token": " (",
+        "logit": 13.359375,
+        "probability_percent": 0.54
+      },
+      {
+        "rank": 7,
+        "token": ";",
+        "logit": 12.609375,
+        "probability_percent": 0.25
+      },
+      {
+        "rank": 8,
+        "token": " which",
+        "logit": 12.4765625,
+        "probability_percent": 0.22
+      },
+      {
+        "rank": 9,
+        "token": " .",
+        "logit": 12.296875,
+        "probability_percent": 0.19
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of United States is",
+    "generated_prefix": "The capital city of United States is Washington.",
+    "gold_token": ".",
+    "predicted_top1_token": " It",
+    "token_pos_in_answer": 2,
+    "gold_logit": 3.4609375,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.7490234375,
+    "second_token_prob": 0.04095458984375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " It",
+        "logit": 16.125,
+        "probability_percent": 40.62
+      },
+      {
+        "rank": 1,
+        "token": " The",
+        "logit": 15.2109375,
+        "probability_percent": 16.28
+      },
+      {
+        "rank": 2,
+        "token": " Washington",
+        "logit": 14.5859375,
+        "probability_percent": 8.72
+      },
+      {
+        "rank": 3,
+        "token": " Its",
+        "logit": 14.2890625,
+        "probability_percent": 6.48
+      },
+      {
+        "rank": 4,
+        "token": "\n",
+        "logit": 13.6484375,
+        "probability_percent": 3.41
+      },
+      {
+        "rank": 5,
+        "token": "  ",
+        "logit": 13.421875,
+        "probability_percent": 2.72
+      },
+      {
+        "rank": 6,
+        "token": " Other",
+        "logit": 12.984375,
+        "probability_percent": 1.76
+      },
+      {
+        "rank": 7,
+        "token": " Americans",
+        "logit": 12.53125,
+        "probability_percent": 1.12
+      },
+      {
+        "rank": 8,
+        "token": " New",
+        "logit": 12.1171875,
+        "probability_percent": 0.74
+      },
+      {
+        "rank": 9,
+        "token": " White",
+        "logit": 12.0703125,
+        "probability_percent": 0.7
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of United States is",
+    "generated_prefix": "The capital city of United States is Washington. It",
+    "gold_token": "C",
+    "predicted_top1_token": " is",
+    "token_pos_in_answer": 3,
+    "gold_logit": 2.6015625,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.7490234375,
+    "second_token_prob": 0.04095458984375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " is",
+        "logit": 19.703125,
+        "probability_percent": 88.18
+      },
+      {
+        "rank": 1,
+        "token": "'s",
+        "logit": 17.375,
+        "probability_percent": 8.59
+      },
+      {
+        "rank": 2,
+        "token": "’",
+        "logit": 15.1015625,
+        "probability_percent": 0.89
+      },
+      {
+        "rank": 3,
+        "token": " has",
+        "logit": 15.0,
+        "probability_percent": 0.8
+      },
+      {
+        "rank": 4,
+        "token": " serves",
+        "logit": 14.5625,
+        "probability_percent": 0.52
+      },
+      {
+        "rank": 5,
+        "token": " also",
+        "logit": 12.734375,
+        "probability_percent": 0.08
+      },
+      {
+        "rank": 6,
+        "token": " plays",
+        "logit": 12.546875,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 7,
+        "token": " hosts",
+        "logit": 12.34375,
+        "probability_percent": 0.06
+      },
+      {
+        "rank": 8,
+        "token": " was",
+        "logit": 12.1875,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 9,
+        "token": " functions",
+        "logit": 12.0234375,
+        "probability_percent": 0.04
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of United States is",
+    "generated_prefix": "The capital city of United States is Washington. It is",
+    "gold_token": ".",
+    "predicted_top1_token": " also",
+    "token_pos_in_answer": 4,
+    "gold_logit": 9.7578125,
+    "gold_prob_percent": 0.01,
+    "first_token_prob": 0.7490234375,
+    "second_token_prob": 0.04095458984375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " also",
+        "logit": 18.578125,
+        "probability_percent": 69.09
+      },
+      {
+        "rank": 1,
+        "token": " the",
+        "logit": 16.828125,
+        "probability_percent": 12.0
+      },
+      {
+        "rank": 2,
+        "token": " on",
+        "logit": 16.328125,
+        "probability_percent": 7.28
+      },
+      {
+        "rank": 3,
+        "token": " located",
+        "logit": 16.296875,
+        "probability_percent": 7.06
+      },
+      {
+        "rank": 4,
+        "token": " situated",
+        "logit": 14.2421875,
+        "probability_percent": 0.9
+      },
+      {
+        "rank": 5,
+        "token": " where",
+        "logit": 14.1953125,
+        "probability_percent": 0.86
+      },
+      {
+        "rank": 6,
+        "token": " in",
+        "logit": 13.4609375,
+        "probability_percent": 0.41
+      },
+      {
+        "rank": 7,
+        "token": " called",
+        "logit": 12.734375,
+        "probability_percent": 0.2
+      },
+      {
+        "rank": 8,
+        "token": " named",
+        "logit": 12.7109375,
+        "probability_percent": 0.2
+      },
+      {
+        "rank": 9,
+        "token": " one",
+        "logit": 12.6171875,
+        "probability_percent": 0.18
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Canada is",
+    "generated_prefix": "The capital city of Canada is",
+    "gold_token": " Ottawa",
+    "predicted_top1_token": " Ottawa",
+    "token_pos_in_answer": 0,
+    "gold_logit": 15.765625,
+    "gold_prob_percent": 51.03,
+    "first_token_prob": 0.51025390625,
+    "second_token_prob": 0.07177734375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Ottawa",
+        "logit": 15.765625,
+        "probability_percent": 51.03
+      },
+      {
+        "rank": 1,
+        "token": " Toronto",
+        "logit": 13.8046875,
+        "probability_percent": 7.18
+      },
+      {
+        "rank": 2,
+        "token": " located",
+        "logit": 13.1875,
+        "probability_percent": 3.87
+      },
+      {
+        "rank": 3,
+        "token": " the",
+        "logit": 13.078125,
+        "probability_percent": 3.47
+      },
+      {
+        "rank": 4,
+        "token": " a",
+        "logit": 12.53125,
+        "probability_percent": 2.01
+      },
+      {
+        "rank": 5,
+        "token": " called",
+        "logit": 12.5078125,
+        "probability_percent": 1.96
+      },
+      {
+        "rank": 6,
+        "token": " also",
+        "logit": 12.1796875,
+        "probability_percent": 1.41
+      },
+      {
+        "rank": 7,
+        "token": " home",
+        "logit": 12.1328125,
+        "probability_percent": 1.35
+      },
+      {
+        "rank": 8,
+        "token": " where",
+        "logit": 11.8984375,
+        "probability_percent": 1.07
+      },
+      {
+        "rank": 9,
+        "token": " one",
+        "logit": 11.8515625,
+        "probability_percent": 1.02
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Mexico is",
+    "generated_prefix": "The capital city of Mexico is",
+    "gold_token": " Mexico",
+    "predicted_top1_token": " Mexico",
+    "token_pos_in_answer": 0,
+    "gold_logit": 14.828125,
+    "gold_prob_percent": 32.57,
+    "first_token_prob": 0.32568359375,
+    "second_token_prob": 0.0804443359375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Mexico",
+        "logit": 14.828125,
+        "probability_percent": 32.57
+      },
+      {
+        "rank": 1,
+        "token": " the",
+        "logit": 13.4296875,
+        "probability_percent": 8.04
+      },
+      {
+        "rank": 2,
+        "token": " a",
+        "logit": 13.296875,
+        "probability_percent": 7.04
+      },
+      {
+        "rank": 3,
+        "token": " located",
+        "logit": 13.2890625,
+        "probability_percent": 6.99
+      },
+      {
+        "rank": 4,
+        "token": " one",
+        "logit": 12.234375,
+        "probability_percent": 2.44
+      },
+      {
+        "rank": 5,
+        "token": " also",
+        "logit": 12.125,
+        "probability_percent": 2.18
+      },
+      {
+        "rank": 6,
+        "token": " known",
+        "logit": 12.0703125,
+        "probability_percent": 2.07
+      },
+      {
+        "rank": 7,
+        "token": " called",
+        "logit": 12.0546875,
+        "probability_percent": 2.03
+      },
+      {
+        "rank": 8,
+        "token": " named",
+        "logit": 11.9296875,
+        "probability_percent": 1.79
+      },
+      {
+        "rank": 9,
+        "token": " not",
+        "logit": 11.65625,
+        "probability_percent": 1.37
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Mexico is",
+    "generated_prefix": "The capital city of Mexico is Mexico",
+    "gold_token": " City",
+    "predicted_top1_token": " City",
+    "token_pos_in_answer": 1,
+    "gold_logit": 18.140625,
+    "gold_prob_percent": 91.31,
+    "first_token_prob": 0.32568359375,
+    "second_token_prob": 0.0804443359375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " City",
+        "logit": 18.140625,
+        "probability_percent": 91.31
+      },
+      {
+        "rank": 1,
+        "token": " city",
+        "logit": 14.2109375,
+        "probability_percent": 1.79
+      },
+      {
+        "rank": 2,
+        "token": ".",
+        "logit": 14.015625,
+        "probability_percent": 1.48
+      },
+      {
+        "rank": 3,
+        "token": ",",
+        "logit": 13.9296875,
+        "probability_percent": 1.35
+      },
+      {
+        "rank": 4,
+        "token": " (",
+        "logit": 12.46875,
+        "probability_percent": 0.31
+      },
+      {
+        "rank": 5,
+        "token": " D",
+        "logit": 12.3671875,
+        "probability_percent": 0.28
+      },
+      {
+        "rank": 6,
+        "token": "\n",
+        "logit": 12.2109375,
+        "probability_percent": 0.24
+      },
+      {
+        "rank": 7,
+        "token": " and",
+        "logit": 12.0078125,
+        "probability_percent": 0.2
+      },
+      {
+        "rank": 8,
+        "token": " .",
+        "logit": 11.9765625,
+        "probability_percent": 0.19
+      },
+      {
+        "rank": 9,
+        "token": " ",
+        "logit": 11.890625,
+        "probability_percent": 0.18
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Brazil is",
+    "generated_prefix": "The capital city of Brazil is",
+    "gold_token": " Bras",
+    "predicted_top1_token": " Bras",
+    "token_pos_in_answer": 0,
+    "gold_logit": 14.640625,
+    "gold_prob_percent": 36.52,
+    "first_token_prob": 0.365234375,
+    "second_token_prob": 0.06494140625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Bras",
+        "logit": 14.640625,
+        "probability_percent": 36.52
+      },
+      {
+        "rank": 1,
+        "token": " Rio",
+        "logit": 12.9140625,
+        "probability_percent": 6.49
+      },
+      {
+        "rank": 2,
+        "token": " São",
+        "logit": 12.6015625,
+        "probability_percent": 4.75
+      },
+      {
+        "rank": 3,
+        "token": " which",
+        "logit": 12.4765625,
+        "probability_percent": 4.19
+      },
+      {
+        "rank": 4,
+        "token": " located",
+        "logit": 12.4375,
+        "probability_percent": 4.03
+      },
+      {
+        "rank": 5,
+        "token": " the",
+        "logit": 12.390625,
+        "probability_percent": 3.85
+      },
+      {
+        "rank": 6,
+        "token": ":",
+        "logit": 11.75,
+        "probability_percent": 2.03
+      },
+      {
+        "rank": 7,
+        "token": "?",
+        "logit": 11.6328125,
+        "probability_percent": 1.8
+      },
+      {
+        "rank": 8,
+        "token": "\n",
+        "logit": 11.5703125,
+        "probability_percent": 1.7
+      },
+      {
+        "rank": 9,
+        "token": " S",
+        "logit": 11.5,
+        "probability_percent": 1.58
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Brazil is",
+    "generated_prefix": "The capital city of Brazil is Bras",
+    "gold_token": "\\",
+    "predicted_top1_token": "ilia",
+    "token_pos_in_answer": 1,
+    "gold_logit": 11.6015625,
+    "gold_prob_percent": 0.12,
+    "first_token_prob": 0.365234375,
+    "second_token_prob": 0.06494140625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ilia",
+        "logit": 18.0,
+        "probability_percent": 73.83
+      },
+      {
+        "rank": 1,
+        "token": "í",
+        "logit": 16.875,
+        "probability_percent": 23.97
+      },
+      {
+        "rank": 2,
+        "token": "Ã",
+        "logit": 12.2421875,
+        "probability_percent": 0.23
+      },
+      {
+        "rank": 3,
+        "token": "ili",
+        "logit": 12.1015625,
+        "probability_percent": 0.2
+      },
+      {
+        "rank": 4,
+        "token": "\\",
+        "logit": 11.6015625,
+        "probability_percent": 0.12
+      },
+      {
+        "rank": 5,
+        "token": "?",
+        "logit": 11.5703125,
+        "probability_percent": 0.12
+      },
+      {
+        "rank": 6,
+        "token": "lia",
+        "logit": 11.546875,
+        "probability_percent": 0.12
+      },
+      {
+        "rank": 7,
+        "token": "�",
+        "logit": 11.1875,
+        "probability_percent": 0.08
+      },
+      {
+        "rank": 8,
+        "token": "ile",
+        "logit": 10.6953125,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 9,
+        "token": "&",
+        "logit": 10.671875,
+        "probability_percent": 0.05
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Brazil is",
+    "generated_prefix": "The capital city of Brazil is Brasilia",
+    "gold_token": "u",
+    "predicted_top1_token": ".",
+    "token_pos_in_answer": 2,
+    "gold_logit": 4.34375,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.365234375,
+    "second_token_prob": 0.06494140625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": ".",
+        "logit": 17.234375,
+        "probability_percent": 45.56
+      },
+      {
+        "rank": 1,
+        "token": ",",
+        "logit": 16.828125,
+        "probability_percent": 30.35
+      },
+      {
+        "rank": 2,
+        "token": " and",
+        "logit": 15.671875,
+        "probability_percent": 9.55
+      },
+      {
+        "rank": 3,
+        "token": "?",
+        "logit": 14.0390625,
+        "probability_percent": 1.86
+      },
+      {
+        "rank": 4,
+        "token": " (",
+        "logit": 13.875,
+        "probability_percent": 1.58
+      },
+      {
+        "rank": 5,
+        "token": " which",
+        "logit": 13.875,
+        "probability_percent": 1.58
+      },
+      {
+        "rank": 6,
+        "token": ";",
+        "logit": 13.609375,
+        "probability_percent": 1.21
+      },
+      {
+        "rank": 7,
+        "token": "\n",
+        "logit": 13.3203125,
+        "probability_percent": 0.91
+      },
+      {
+        "rank": 8,
+        "token": " in",
+        "logit": 12.4921875,
+        "probability_percent": 0.4
+      },
+      {
+        "rank": 9,
+        "token": " but",
+        "logit": 12.4609375,
+        "probability_percent": 0.38
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Brazil is",
+    "generated_prefix": "The capital city of Brazil is Brasilia.",
+    "gold_token": "00",
+    "predicted_top1_token": "\n",
+    "token_pos_in_answer": 3,
+    "gold_logit": 3.650390625,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.365234375,
+    "second_token_prob": 0.06494140625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "\n",
+        "logit": 15.2421875,
+        "probability_percent": 23.43
+      },
+      {
+        "rank": 1,
+        "token": " It",
+        "logit": 14.578125,
+        "probability_percent": 12.06
+      },
+      {
+        "rank": 2,
+        "token": " The",
+        "logit": 14.4609375,
+        "probability_percent": 10.73
+      },
+      {
+        "rank": 3,
+        "token": " Brazil",
+        "logit": 14.3984375,
+        "probability_percent": 10.08
+      },
+      {
+        "rank": 4,
+        "token": " Bras",
+        "logit": 13.7421875,
+        "probability_percent": 5.23
+      },
+      {
+        "rank": 5,
+        "token": "  ",
+        "logit": 13.6484375,
+        "probability_percent": 4.76
+      },
+      {
+        "rank": 6,
+        "token": " Its",
+        "logit": 13.1796875,
+        "probability_percent": 2.98
+      },
+      {
+        "rank": 7,
+        "token": "<|endoftext|>",
+        "logit": 13.125,
+        "probability_percent": 2.82
+      },
+      {
+        "rank": 8,
+        "token": " Rio",
+        "logit": 13.0625,
+        "probability_percent": 2.65
+      },
+      {
+        "rank": 9,
+        "token": " This",
+        "logit": 12.5,
+        "probability_percent": 1.51
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Brazil is",
+    "generated_prefix": "The capital city of Brazil is Brasilia.\n",
+    "gold_token": "ed",
+    "predicted_top1_token": "\n",
+    "token_pos_in_answer": 4,
+    "gold_logit": 3.9453125,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.365234375,
+    "second_token_prob": 0.06494140625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "\n",
+        "logit": 14.4609375,
+        "probability_percent": 22.42
+      },
+      {
+        "rank": 1,
+        "token": "The",
+        "logit": 13.7578125,
+        "probability_percent": 11.1
+      },
+      {
+        "rank": 2,
+        "token": "B",
+        "logit": 13.28125,
+        "probability_percent": 6.89
+      },
+      {
+        "rank": 3,
+        "token": "Brazil",
+        "logit": 12.5859375,
+        "probability_percent": 3.44
+      },
+      {
+        "rank": 4,
+        "token": "A",
+        "logit": 12.5078125,
+        "probability_percent": 3.18
+      },
+      {
+        "rank": 5,
+        "token": "Solution",
+        "logit": 11.9140625,
+        "probability_percent": 1.76
+      },
+      {
+        "rank": 6,
+        "token": "Output",
+        "logit": 11.90625,
+        "probability_percent": 1.74
+      },
+      {
+        "rank": 7,
+        "token": "Q",
+        "logit": 11.8828125,
+        "probability_percent": 1.7
+      },
+      {
+        "rank": 8,
+        "token": "[",
+        "logit": 11.8203125,
+        "probability_percent": 1.6
+      },
+      {
+        "rank": 9,
+        "token": "Cap",
+        "logit": 11.7109375,
+        "probability_percent": 1.43
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Brazil is",
+    "generated_prefix": "The capital city of Brazil is Brasilia.\n\n",
+    "gold_token": "lia",
+    "predicted_top1_token": "[",
+    "token_pos_in_answer": 5,
+    "gold_logit": 0.85498046875,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.365234375,
+    "second_token_prob": 0.06494140625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "[",
+        "logit": 13.3203125,
+        "probability_percent": 7.72
+      },
+      {
+        "rank": 1,
+        "token": "Problem",
+        "logit": 13.2109375,
+        "probability_percent": 6.92
+      },
+      {
+        "rank": 2,
+        "token": "Question",
+        "logit": 13.0,
+        "probability_percent": 5.61
+      },
+      {
+        "rank": 3,
+        "token": "Output",
+        "logit": 12.953125,
+        "probability_percent": 5.35
+      },
+      {
+        "rank": 4,
+        "token": "The",
+        "logit": 12.65625,
+        "probability_percent": 3.98
+      },
+      {
+        "rank": 5,
+        "token": "What",
+        "logit": 12.5546875,
+        "probability_percent": 3.59
+      },
+      {
+        "rank": 6,
+        "token": "Answer",
+        "logit": 12.4296875,
+        "probability_percent": 3.17
+      },
+      {
+        "rank": 7,
+        "token": "New",
+        "logit": 12.2578125,
+        "probability_percent": 2.67
+      },
+      {
+        "rank": 8,
+        "token": "A",
+        "logit": 12.125,
+        "probability_percent": 2.34
+      },
+      {
+        "rank": 9,
+        "token": "Ex",
+        "logit": 11.9453125,
+        "probability_percent": 1.95
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Argentina is",
+    "generated_prefix": "The capital city of Argentina is",
+    "gold_token": " Buenos",
+    "predicted_top1_token": " Buenos",
+    "token_pos_in_answer": 0,
+    "gold_logit": 15.5078125,
+    "gold_prob_percent": 58.15,
+    "first_token_prob": 0.58154296875,
+    "second_token_prob": 0.041473388671875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Buenos",
+        "logit": 15.5078125,
+        "probability_percent": 58.15
+      },
+      {
+        "rank": 1,
+        "token": " located",
+        "logit": 12.8671875,
+        "probability_percent": 4.15
+      },
+      {
+        "rank": 2,
+        "token": " the",
+        "logit": 12.78125,
+        "probability_percent": 3.81
+      },
+      {
+        "rank": 3,
+        "token": " a",
+        "logit": 12.328125,
+        "probability_percent": 2.42
+      },
+      {
+        "rank": 4,
+        "token": " where",
+        "logit": 12.0859375,
+        "probability_percent": 1.9
+      },
+      {
+        "rank": 5,
+        "token": " named",
+        "logit": 11.875,
+        "probability_percent": 1.54
+      },
+      {
+        "rank": 6,
+        "token": " which",
+        "logit": 11.7890625,
+        "probability_percent": 1.41
+      },
+      {
+        "rank": 7,
+        "token": " called",
+        "logit": 11.375,
+        "probability_percent": 0.93
+      },
+      {
+        "rank": 8,
+        "token": " known",
+        "logit": 11.3515625,
+        "probability_percent": 0.91
+      },
+      {
+        "rank": 9,
+        "token": " in",
+        "logit": 11.3046875,
+        "probability_percent": 0.87
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Argentina is",
+    "generated_prefix": "The capital city of Argentina is Buenos",
+    "gold_token": " Aires",
+    "predicted_top1_token": " Aires",
+    "token_pos_in_answer": 1,
+    "gold_logit": 18.09375,
+    "gold_prob_percent": 98.24,
+    "first_token_prob": 0.58154296875,
+    "second_token_prob": 0.041473388671875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Aires",
+        "logit": 18.09375,
+        "probability_percent": 98.24
+      },
+      {
+        "rank": 1,
+        "token": " A",
+        "logit": 12.5,
+        "probability_percent": 0.37
+      },
+      {
+        "rank": 2,
+        "token": ",",
+        "logit": 11.7578125,
+        "probability_percent": 0.17
+      },
+      {
+        "rank": 3,
+        "token": " a",
+        "logit": 11.5859375,
+        "probability_percent": 0.15
+      },
+      {
+        "rank": 4,
+        "token": " ",
+        "logit": 11.453125,
+        "probability_percent": 0.13
+      },
+      {
+        "rank": 5,
+        "token": " Ay",
+        "logit": 11.2265625,
+        "probability_percent": 0.1
+      },
+      {
+        "rank": 6,
+        "token": ".",
+        "logit": 10.9609375,
+        "probability_percent": 0.08
+      },
+      {
+        "rank": 7,
+        "token": "\n",
+        "logit": 10.7578125,
+        "probability_percent": 0.06
+      },
+      {
+        "rank": 8,
+        "token": "-",
+        "logit": 10.1953125,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 9,
+        "token": "aires",
+        "logit": 10.109375,
+        "probability_percent": 0.03
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Chile is",
+    "generated_prefix": "The capital city of Chile is",
+    "gold_token": " Santiago",
+    "predicted_top1_token": " Santiago",
+    "token_pos_in_answer": 0,
+    "gold_logit": 16.484375,
+    "gold_prob_percent": 75.1,
+    "first_token_prob": 0.7509765625,
+    "second_token_prob": 0.031494140625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Santiago",
+        "logit": 16.484375,
+        "probability_percent": 75.1
+      },
+      {
+        "rank": 1,
+        "token": " the",
+        "logit": 13.3125,
+        "probability_percent": 3.15
+      },
+      {
+        "rank": 2,
+        "token": " located",
+        "logit": 13.1796875,
+        "probability_percent": 2.76
+      },
+      {
+        "rank": 3,
+        "token": " S",
+        "logit": 12.984375,
+        "probability_percent": 2.27
+      },
+      {
+        "rank": 4,
+        "token": " a",
+        "logit": 12.5,
+        "probability_percent": 1.4
+      },
+      {
+        "rank": 5,
+        "token": " also",
+        "logit": 11.984375,
+        "probability_percent": 0.83
+      },
+      {
+        "rank": 6,
+        "token": " called",
+        "logit": 11.9453125,
+        "probability_percent": 0.8
+      },
+      {
+        "rank": 7,
+        "token": " known",
+        "logit": 11.7890625,
+        "probability_percent": 0.69
+      },
+      {
+        "rank": 8,
+        "token": " its",
+        "logit": 11.4375,
+        "probability_percent": 0.48
+      },
+      {
+        "rank": 9,
+        "token": "\n",
+        "logit": 11.4140625,
+        "probability_percent": 0.47
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Peru is",
+    "generated_prefix": "The capital city of Peru is",
+    "gold_token": " L",
+    "predicted_top1_token": " L",
+    "token_pos_in_answer": 0,
+    "gold_logit": 16.203125,
+    "gold_prob_percent": 67.82,
+    "first_token_prob": 0.67822265625,
+    "second_token_prob": 0.049896240234375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " L",
+        "logit": 16.203125,
+        "probability_percent": 67.82
+      },
+      {
+        "rank": 1,
+        "token": " located",
+        "logit": 13.59375,
+        "probability_percent": 4.99
+      },
+      {
+        "rank": 2,
+        "token": " the",
+        "logit": 13.484375,
+        "probability_percent": 4.47
+      },
+      {
+        "rank": 3,
+        "token": " called",
+        "logit": 12.4453125,
+        "probability_percent": 1.58
+      },
+      {
+        "rank": 4,
+        "token": " also",
+        "logit": 12.171875,
+        "probability_percent": 1.2
+      },
+      {
+        "rank": 5,
+        "token": " a",
+        "logit": 12.15625,
+        "probability_percent": 1.18
+      },
+      {
+        "rank": 6,
+        "token": " Peru",
+        "logit": 12.0234375,
+        "probability_percent": 1.04
+      },
+      {
+        "rank": 7,
+        "token": "\n",
+        "logit": 11.796875,
+        "probability_percent": 0.83
+      },
+      {
+        "rank": 8,
+        "token": " its",
+        "logit": 11.703125,
+        "probability_percent": 0.75
+      },
+      {
+        "rank": 9,
+        "token": " where",
+        "logit": 11.6640625,
+        "probability_percent": 0.72
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Peru is",
+    "generated_prefix": "The capital city of Peru is L",
+    "gold_token": "ima",
+    "predicted_top1_token": "ima",
+    "token_pos_in_answer": 1,
+    "gold_logit": 20.8125,
+    "gold_prob_percent": 99.9,
+    "first_token_prob": 0.67822265625,
+    "second_token_prob": 0.049896240234375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ima",
+        "logit": 20.8125,
+        "probability_percent": 99.9
+      },
+      {
+        "rank": 1,
+        "token": "ime",
+        "logit": 12.0390625,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 2,
+        "token": "imer",
+        "logit": 10.96875,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 3,
+        "token": ".",
+        "logit": 10.953125,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 4,
+        "token": "'",
+        "logit": 10.78125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 5,
+        "token": "ore",
+        "logit": 10.5625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": "om",
+        "logit": 9.640625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": "IME",
+        "logit": 9.640625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "IM",
+        "logit": 9.53125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "\n",
+        "logit": 9.46875,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Colombia is",
+    "generated_prefix": "The capital city of Colombia is",
+    "gold_token": " Bog",
+    "predicted_top1_token": " Bog",
+    "token_pos_in_answer": 0,
+    "gold_logit": 16.578125,
+    "gold_prob_percent": 76.03,
+    "first_token_prob": 0.76025390625,
+    "second_token_prob": 0.0517578125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Bog",
+        "logit": 16.578125,
+        "probability_percent": 76.03
+      },
+      {
+        "rank": 1,
+        "token": " located",
+        "logit": 13.890625,
+        "probability_percent": 5.18
+      },
+      {
+        "rank": 2,
+        "token": " the",
+        "logit": 13.359375,
+        "probability_percent": 3.04
+      },
+      {
+        "rank": 3,
+        "token": " a",
+        "logit": 12.4140625,
+        "probability_percent": 1.18
+      },
+      {
+        "rank": 4,
+        "token": "\n",
+        "logit": 11.734375,
+        "probability_percent": 0.6
+      },
+      {
+        "rank": 5,
+        "token": ":",
+        "logit": 11.640625,
+        "probability_percent": 0.55
+      },
+      {
+        "rank": 6,
+        "token": " in",
+        "logit": 11.515625,
+        "probability_percent": 0.48
+      },
+      {
+        "rank": 7,
+        "token": " Colombia",
+        "logit": 11.4921875,
+        "probability_percent": 0.47
+      },
+      {
+        "rank": 8,
+        "token": " called",
+        "logit": 11.4765625,
+        "probability_percent": 0.46
+      },
+      {
+        "rank": 9,
+        "token": " situated",
+        "logit": 11.34375,
+        "probability_percent": 0.41
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Colombia is",
+    "generated_prefix": "The capital city of Colombia is Bog",
+    "gold_token": "ot",
+    "predicted_top1_token": "ota",
+    "token_pos_in_answer": 1,
+    "gold_logit": 20.21875,
+    "gold_prob_percent": 49.41,
+    "first_token_prob": 0.76025390625,
+    "second_token_prob": 0.0517578125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ota",
+        "logit": 20.234375,
+        "probability_percent": 50.2
+      },
+      {
+        "rank": 1,
+        "token": "ot",
+        "logit": 20.21875,
+        "probability_percent": 49.41
+      },
+      {
+        "rank": 2,
+        "token": "or",
+        "logit": 13.90625,
+        "probability_percent": 0.09
+      },
+      {
+        "rank": 3,
+        "token": "ata",
+        "logit": 13.4140625,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 4,
+        "token": "at",
+        "logit": 13.0234375,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 5,
+        "token": "ó",
+        "logit": 13.0,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 6,
+        "token": "oto",
+        "logit": 12.109375,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 7,
+        "token": "ote",
+        "logit": 11.890625,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 8,
+        "token": "ott",
+        "logit": 11.7421875,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 9,
+        "token": "otta",
+        "logit": 11.671875,
+        "probability_percent": 0.01
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Colombia is",
+    "generated_prefix": "The capital city of Colombia is Bogota",
+    "gold_token": "\\",
+    "predicted_top1_token": ".",
+    "token_pos_in_answer": 2,
+    "gold_logit": 8.1953125,
+    "gold_prob_percent": 0.01,
+    "first_token_prob": 0.76025390625,
+    "second_token_prob": 0.0517578125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": ".",
+        "logit": 17.0625,
+        "probability_percent": 45.36
+      },
+      {
+        "rank": 1,
+        "token": ",",
+        "logit": 16.703125,
+        "probability_percent": 31.67
+      },
+      {
+        "rank": 2,
+        "token": " and",
+        "logit": 15.0390625,
+        "probability_percent": 6.0
+      },
+      {
+        "rank": 3,
+        "token": " (",
+        "logit": 14.3359375,
+        "probability_percent": 2.97
+      },
+      {
+        "rank": 4,
+        "token": " which",
+        "logit": 13.8515625,
+        "probability_percent": 1.83
+      },
+      {
+        "rank": 5,
+        "token": ";",
+        "logit": 13.1875,
+        "probability_percent": 0.94
+      },
+      {
+        "rank": 6,
+        "token": "\n",
+        "logit": 13.1171875,
+        "probability_percent": 0.88
+      },
+      {
+        "rank": 7,
+        "token": " with",
+        "logit": 13.0078125,
+        "probability_percent": 0.79
+      },
+      {
+        "rank": 8,
+        "token": " where",
+        "logit": 12.859375,
+        "probability_percent": 0.68
+      },
+      {
+        "rank": 9,
+        "token": " in",
+        "logit": 12.765625,
+        "probability_percent": 0.62
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Colombia is",
+    "generated_prefix": "The capital city of Colombia is Bogota.",
+    "gold_token": "u",
+    "predicted_top1_token": "\n",
+    "token_pos_in_answer": 3,
+    "gold_logit": 1.4677734375,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.76025390625,
+    "second_token_prob": 0.0517578125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "\n",
+        "logit": 15.5390625,
+        "probability_percent": 23.8
+      },
+      {
+        "rank": 1,
+        "token": " The",
+        "logit": 14.9609375,
+        "probability_percent": 13.35
+      },
+      {
+        "rank": 2,
+        "token": " Bog",
+        "logit": 14.765625,
+        "probability_percent": 10.99
+      },
+      {
+        "rank": 3,
+        "token": " Colombia",
+        "logit": 14.6015625,
+        "probability_percent": 9.33
+      },
+      {
+        "rank": 4,
+        "token": " It",
+        "logit": 14.5859375,
+        "probability_percent": 9.18
+      },
+      {
+        "rank": 5,
+        "token": "  ",
+        "logit": 13.5625,
+        "probability_percent": 3.3
+      },
+      {
+        "rank": 6,
+        "token": " Other",
+        "logit": 13.4921875,
+        "probability_percent": 3.07
+      },
+      {
+        "rank": 7,
+        "token": " Its",
+        "logit": 13.4765625,
+        "probability_percent": 3.03
+      },
+      {
+        "rank": 8,
+        "token": "<|endoftext|>",
+        "logit": 13.2265625,
+        "probability_percent": 2.36
+      },
+      {
+        "rank": 9,
+        "token": " This",
+        "logit": 12.578125,
+        "probability_percent": 1.23
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Colombia is",
+    "generated_prefix": "The capital city of Colombia is Bogota.\n",
+    "gold_token": "00",
+    "predicted_top1_token": "\n",
+    "token_pos_in_answer": 4,
+    "gold_logit": 5.21484375,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.76025390625,
+    "second_token_prob": 0.0517578125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "\n",
+        "logit": 14.8046875,
+        "probability_percent": 19.15
+      },
+      {
+        "rank": 1,
+        "token": "The",
+        "logit": 14.6875,
+        "probability_percent": 17.04
+      },
+      {
+        "rank": 2,
+        "token": "Col",
+        "logit": 13.7734375,
+        "probability_percent": 6.83
+      },
+      {
+        "rank": 3,
+        "token": "B",
+        "logit": 13.7421875,
+        "probability_percent": 6.62
+      },
+      {
+        "rank": 4,
+        "token": "Q",
+        "logit": 12.390625,
+        "probability_percent": 1.71
+      },
+      {
+        "rank": 5,
+        "token": "Answer",
+        "logit": 12.390625,
+        "probability_percent": 1.71
+      },
+      {
+        "rank": 6,
+        "token": "What",
+        "logit": 12.359375,
+        "probability_percent": 1.66
+      },
+      {
+        "rank": 7,
+        "token": "A",
+        "logit": 12.2578125,
+        "probability_percent": 1.5
+      },
+      {
+        "rank": 8,
+        "token": "Output",
+        "logit": 11.875,
+        "probability_percent": 1.02
+      },
+      {
+        "rank": 9,
+        "token": "Question",
+        "logit": 11.8046875,
+        "probability_percent": 0.95
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Colombia is",
+    "generated_prefix": "The capital city of Colombia is Bogota.\n\n",
+    "gold_token": "e",
+    "predicted_top1_token": "Output",
+    "token_pos_in_answer": 5,
+    "gold_logit": 7.125,
+    "gold_prob_percent": 0.01,
+    "first_token_prob": 0.76025390625,
+    "second_token_prob": 0.0517578125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "Output",
+        "logit": 13.2890625,
+        "probability_percent": 6.58
+      },
+      {
+        "rank": 1,
+        "token": "Answer",
+        "logit": 13.109375,
+        "probability_percent": 5.5
+      },
+      {
+        "rank": 2,
+        "token": "The",
+        "logit": 13.0625,
+        "probability_percent": 5.25
+      },
+      {
+        "rank": 3,
+        "token": "[",
+        "logit": 12.9296875,
+        "probability_percent": 4.59
+      },
+      {
+        "rank": 4,
+        "token": "Problem",
+        "logit": 12.9296875,
+        "probability_percent": 4.59
+      },
+      {
+        "rank": 5,
+        "token": "What",
+        "logit": 12.8046875,
+        "probability_percent": 4.05
+      },
+      {
+        "rank": 6,
+        "token": "Question",
+        "logit": 12.7734375,
+        "probability_percent": 3.93
+      },
+      {
+        "rank": 7,
+        "token": "B",
+        "logit": 12.6953125,
+        "probability_percent": 3.63
+      },
+      {
+        "rank": 8,
+        "token": "New",
+        "logit": 12.3984375,
+        "probability_percent": 2.7
+      },
+      {
+        "rank": 9,
+        "token": "Ex",
+        "logit": 12.3125,
+        "probability_percent": 2.48
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Colombia is",
+    "generated_prefix": "The capital city of Colombia is Bogota.\n\nOutput",
+    "gold_token": "1",
+    "predicted_top1_token": ":",
+    "token_pos_in_answer": 6,
+    "gold_logit": 6.6171875,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.76025390625,
+    "second_token_prob": 0.0517578125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": ":",
+        "logit": 19.6875,
+        "probability_percent": 94.53
+      },
+      {
+        "rank": 1,
+        "token": " answer",
+        "logit": 16.703125,
+        "probability_percent": 4.78
+      },
+      {
+        "rank": 2,
+        "token": " question",
+        "logit": 13.9453125,
+        "probability_percent": 0.3
+      },
+      {
+        "rank": 3,
+        "token": " is",
+        "logit": 12.4375,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 4,
+        "token": ".",
+        "logit": 11.4375,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 5,
+        "token": " =",
+        "logit": 11.1875,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 6,
+        "token": " message",
+        "logit": 10.7109375,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 7,
+        "token": " solution",
+        "logit": 10.2890625,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 8,
+        "token": " :",
+        "logit": 10.21875,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 9,
+        "token": " Answer",
+        "logit": 10.171875,
+        "probability_percent": 0.01
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Venezuela is",
+    "generated_prefix": "The capital city of Venezuela is",
+    "gold_token": " Car",
+    "predicted_top1_token": " Car",
+    "token_pos_in_answer": 0,
+    "gold_logit": 15.5625,
+    "gold_prob_percent": 60.94,
+    "first_token_prob": 0.609375,
+    "second_token_prob": 0.063720703125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Car",
+        "logit": 15.5625,
+        "probability_percent": 60.94
+      },
+      {
+        "rank": 1,
+        "token": " located",
+        "logit": 13.3046875,
+        "probability_percent": 6.37
+      },
+      {
+        "rank": 2,
+        "token": " the",
+        "logit": 12.3828125,
+        "probability_percent": 2.54
+      },
+      {
+        "rank": 3,
+        "token": "\n",
+        "logit": 12.125,
+        "probability_percent": 1.96
+      },
+      {
+        "rank": 4,
+        "token": " which",
+        "logit": 11.8984375,
+        "probability_percent": 1.56
+      },
+      {
+        "rank": 5,
+        "token": " what",
+        "logit": 11.7578125,
+        "probability_percent": 1.36
+      },
+      {
+        "rank": 6,
+        "token": " where",
+        "logit": 11.7265625,
+        "probability_percent": 1.32
+      },
+      {
+        "rank": 7,
+        "token": " a",
+        "logit": 11.59375,
+        "probability_percent": 1.15
+      },
+      {
+        "rank": 8,
+        "token": ":",
+        "logit": 11.546875,
+        "probability_percent": 1.1
+      },
+      {
+        "rank": 9,
+        "token": " situated",
+        "logit": 11.515625,
+        "probability_percent": 1.07
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Venezuela is",
+    "generated_prefix": "The capital city of Venezuela is Car",
+    "gold_token": "ac",
+    "predicted_top1_token": "ac",
+    "token_pos_in_answer": 1,
+    "gold_logit": 20.796875,
+    "gold_prob_percent": 99.71,
+    "first_token_prob": 0.609375,
+    "second_token_prob": 0.063720703125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ac",
+        "logit": 20.796875,
+        "probability_percent": 99.71
+      },
+      {
+        "rank": 1,
+        "token": "acc",
+        "logit": 12.953125,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 2,
+        "token": "á",
+        "logit": 12.9375,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 3,
+        "token": "ab",
+        "logit": 12.28125,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 4,
+        "token": "ú",
+        "logit": 11.8828125,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 5,
+        "token": "aca",
+        "logit": 11.796875,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 6,
+        "token": "a",
+        "logit": 11.78125,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 7,
+        "token": "ic",
+        "logit": 11.4296875,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 8,
+        "token": "aci",
+        "logit": 11.4140625,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 9,
+        "token": "av",
+        "logit": 10.828125,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Venezuela is",
+    "generated_prefix": "The capital city of Venezuela is Carac",
+    "gold_token": "as",
+    "predicted_top1_token": "as",
+    "token_pos_in_answer": 2,
+    "gold_logit": 21.234375,
+    "gold_prob_percent": 99.46,
+    "first_token_prob": 0.609375,
+    "second_token_prob": 0.063720703125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "as",
+        "logit": 21.234375,
+        "probability_percent": 99.46
+      },
+      {
+        "rank": 1,
+        "token": "us",
+        "logit": 15.5546875,
+        "probability_percent": 0.34
+      },
+      {
+        "rank": 2,
+        "token": "ao",
+        "logit": 12.7109375,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 3,
+        "token": "aus",
+        "logit": 12.390625,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 4,
+        "token": "az",
+        "logit": 12.1640625,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 5,
+        "token": "ás",
+        "logit": 12.0859375,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 6,
+        "token": "ara",
+        "logit": 11.7890625,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 7,
+        "token": "os",
+        "logit": 11.7421875,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 8,
+        "token": ".",
+        "logit": 11.609375,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 9,
+        "token": "u",
+        "logit": 11.5,
+        "probability_percent": 0.01
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Spain is",
+    "generated_prefix": "The capital city of Spain is",
+    "gold_token": " Madrid",
+    "predicted_top1_token": " Madrid",
+    "token_pos_in_answer": 0,
+    "gold_logit": 16.71875,
+    "gold_prob_percent": 67.48,
+    "first_token_prob": 0.6748046875,
+    "second_token_prob": 0.04345703125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Madrid",
+        "logit": 16.71875,
+        "probability_percent": 67.48
+      },
+      {
+        "rank": 1,
+        "token": " the",
+        "logit": 13.9765625,
+        "probability_percent": 4.35
+      },
+      {
+        "rank": 2,
+        "token": " located",
+        "logit": 13.703125,
+        "probability_percent": 3.31
+      },
+      {
+        "rank": 3,
+        "token": " a",
+        "logit": 13.421875,
+        "probability_percent": 2.5
+      },
+      {
+        "rank": 4,
+        "token": " also",
+        "logit": 12.953125,
+        "probability_percent": 1.56
+      },
+      {
+        "rank": 5,
+        "token": " called",
+        "logit": 12.640625,
+        "probability_percent": 1.14
+      },
+      {
+        "rank": 6,
+        "token": " its",
+        "logit": 12.3671875,
+        "probability_percent": 0.87
+      },
+      {
+        "rank": 7,
+        "token": " one",
+        "logit": 12.3359375,
+        "probability_percent": 0.84
+      },
+      {
+        "rank": 8,
+        "token": " Barcelona",
+        "logit": 12.296875,
+        "probability_percent": 0.81
+      },
+      {
+        "rank": 9,
+        "token": " situated",
+        "logit": 12.265625,
+        "probability_percent": 0.79
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of France is",
+    "generated_prefix": "The capital city of France is",
+    "gold_token": " Paris",
+    "predicted_top1_token": " Paris",
+    "token_pos_in_answer": 0,
+    "gold_logit": 16.765625,
+    "gold_prob_percent": 73.78,
+    "first_token_prob": 0.73779296875,
+    "second_token_prob": 0.039398193359375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Paris",
+        "logit": 16.765625,
+        "probability_percent": 73.78
+      },
+      {
+        "rank": 1,
+        "token": " located",
+        "logit": 13.8359375,
+        "probability_percent": 3.94
+      },
+      {
+        "rank": 2,
+        "token": " the",
+        "logit": 13.4453125,
+        "probability_percent": 2.67
+      },
+      {
+        "rank": 3,
+        "token": " a",
+        "logit": 13.171875,
+        "probability_percent": 2.03
+      },
+      {
+        "rank": 4,
+        "token": " also",
+        "logit": 12.5078125,
+        "probability_percent": 1.04
+      },
+      {
+        "rank": 5,
+        "token": " one",
+        "logit": 12.2421875,
+        "probability_percent": 0.8
+      },
+      {
+        "rank": 6,
+        "token": " called",
+        "logit": 12.0625,
+        "probability_percent": 0.67
+      },
+      {
+        "rank": 7,
+        "token": " named",
+        "logit": 11.9609375,
+        "probability_percent": 0.6
+      },
+      {
+        "rank": 8,
+        "token": " known",
+        "logit": 11.7578125,
+        "probability_percent": 0.49
+      },
+      {
+        "rank": 9,
+        "token": " situated",
+        "logit": 11.7109375,
+        "probability_percent": 0.47
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Germany is",
+    "generated_prefix": "The capital city of Germany is",
+    "gold_token": " Berlin",
+    "predicted_top1_token": " Berlin",
+    "token_pos_in_answer": 0,
+    "gold_logit": 16.921875,
+    "gold_prob_percent": 79.54,
+    "first_token_prob": 0.79541015625,
+    "second_token_prob": 0.0251617431640625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Berlin",
+        "logit": 16.921875,
+        "probability_percent": 79.54
+      },
+      {
+        "rank": 1,
+        "token": " located",
+        "logit": 13.46875,
+        "probability_percent": 2.52
+      },
+      {
+        "rank": 2,
+        "token": " the",
+        "logit": 13.1328125,
+        "probability_percent": 1.8
+      },
+      {
+        "rank": 3,
+        "token": " Munich",
+        "logit": 12.4375,
+        "probability_percent": 0.9
+      },
+      {
+        "rank": 4,
+        "token": " a",
+        "logit": 12.40625,
+        "probability_percent": 0.87
+      },
+      {
+        "rank": 5,
+        "token": " Frankfurt",
+        "logit": 12.234375,
+        "probability_percent": 0.73
+      },
+      {
+        "rank": 6,
+        "token": " situated",
+        "logit": 12.0234375,
+        "probability_percent": 0.59
+      },
+      {
+        "rank": 7,
+        "token": " in",
+        "logit": 11.8203125,
+        "probability_percent": 0.48
+      },
+      {
+        "rank": 8,
+        "token": " not",
+        "logit": 11.6953125,
+        "probability_percent": 0.43
+      },
+      {
+        "rank": 9,
+        "token": " also",
+        "logit": 11.6953125,
+        "probability_percent": 0.43
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Italy is",
+    "generated_prefix": "The capital city of Italy is",
+    "gold_token": " Rome",
+    "predicted_top1_token": " Rome",
+    "token_pos_in_answer": 0,
+    "gold_logit": 16.5,
+    "gold_prob_percent": 61.33,
+    "first_token_prob": 0.61328125,
+    "second_token_prob": 0.040435791015625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Rome",
+        "logit": 16.5,
+        "probability_percent": 61.33
+      },
+      {
+        "rank": 1,
+        "token": " the",
+        "logit": 13.78125,
+        "probability_percent": 4.04
+      },
+      {
+        "rank": 2,
+        "token": " a",
+        "logit": 13.484375,
+        "probability_percent": 3.01
+      },
+      {
+        "rank": 3,
+        "token": " located",
+        "logit": 13.4296875,
+        "probability_percent": 2.85
+      },
+      {
+        "rank": 4,
+        "token": " also",
+        "logit": 13.2265625,
+        "probability_percent": 2.32
+      },
+      {
+        "rank": 5,
+        "token": " Milan",
+        "logit": 13.015625,
+        "probability_percent": 1.88
+      },
+      {
+        "rank": 6,
+        "token": " one",
+        "logit": 12.5234375,
+        "probability_percent": 1.15
+      },
+      {
+        "rank": 7,
+        "token": " Florence",
+        "logit": 12.4765625,
+        "probability_percent": 1.1
+      },
+      {
+        "rank": 8,
+        "token": " home",
+        "logit": 12.375,
+        "probability_percent": 0.99
+      },
+      {
+        "rank": 9,
+        "token": " not",
+        "logit": 12.3125,
+        "probability_percent": 0.93
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Russia is",
+    "generated_prefix": "The capital city of Russia is",
+    "gold_token": " Moscow",
+    "predicted_top1_token": " Moscow",
+    "token_pos_in_answer": 0,
+    "gold_logit": 16.390625,
+    "gold_prob_percent": 58.59,
+    "first_token_prob": 0.5859375,
+    "second_token_prob": 0.053253173828125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Moscow",
+        "logit": 16.390625,
+        "probability_percent": 58.59
+      },
+      {
+        "rank": 1,
+        "token": " the",
+        "logit": 13.9921875,
+        "probability_percent": 5.33
+      },
+      {
+        "rank": 2,
+        "token": " located",
+        "logit": 13.75,
+        "probability_percent": 4.18
+      },
+      {
+        "rank": 3,
+        "token": " a",
+        "logit": 13.4140625,
+        "probability_percent": 2.99
+      },
+      {
+        "rank": 4,
+        "token": " also",
+        "logit": 12.828125,
+        "probability_percent": 1.66
+      },
+      {
+        "rank": 5,
+        "token": " not",
+        "logit": 12.5625,
+        "probability_percent": 1.27
+      },
+      {
+        "rank": 6,
+        "token": " one",
+        "logit": 12.3984375,
+        "probability_percent": 1.08
+      },
+      {
+        "rank": 7,
+        "token": " situated",
+        "logit": 12.3671875,
+        "probability_percent": 1.05
+      },
+      {
+        "rank": 8,
+        "token": " home",
+        "logit": 12.25,
+        "probability_percent": 0.93
+      },
+      {
+        "rank": 9,
+        "token": " Saint",
+        "logit": 12.2265625,
+        "probability_percent": 0.91
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of China is",
+    "generated_prefix": "The capital city of China is",
+    "gold_token": " Beijing",
+    "predicted_top1_token": " Beijing",
+    "token_pos_in_answer": 0,
+    "gold_logit": 15.421875,
+    "gold_prob_percent": 44.85,
+    "first_token_prob": 0.448486328125,
+    "second_token_prob": 0.050323486328125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Beijing",
+        "logit": 15.421875,
+        "probability_percent": 44.85
+      },
+      {
+        "rank": 1,
+        "token": " located",
+        "logit": 13.234375,
+        "probability_percent": 5.03
+      },
+      {
+        "rank": 2,
+        "token": " the",
+        "logit": 13.1796875,
+        "probability_percent": 4.76
+      },
+      {
+        "rank": 3,
+        "token": " a",
+        "logit": 12.7734375,
+        "probability_percent": 3.17
+      },
+      {
+        "rank": 4,
+        "token": " also",
+        "logit": 12.6796875,
+        "probability_percent": 2.89
+      },
+      {
+        "rank": 5,
+        "token": " named",
+        "logit": 12.375,
+        "probability_percent": 2.13
+      },
+      {
+        "rank": 6,
+        "token": " Shanghai",
+        "logit": 11.8984375,
+        "probability_percent": 1.32
+      },
+      {
+        "rank": 7,
+        "token": " called",
+        "logit": 11.8828125,
+        "probability_percent": 1.3
+      },
+      {
+        "rank": 8,
+        "token": " one",
+        "logit": 11.875,
+        "probability_percent": 1.29
+      },
+      {
+        "rank": 9,
+        "token": " Nan",
+        "logit": 11.8046875,
+        "probability_percent": 1.2
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Japan is",
+    "generated_prefix": "The capital city of Japan is",
+    "gold_token": " Tokyo",
+    "predicted_top1_token": " Tokyo",
+    "token_pos_in_answer": 0,
+    "gold_logit": 16.28125,
+    "gold_prob_percent": 58.11,
+    "first_token_prob": 0.5810546875,
+    "second_token_prob": 0.08770751953125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Tokyo",
+        "logit": 16.28125,
+        "probability_percent": 58.11
+      },
+      {
+        "rank": 1,
+        "token": " located",
+        "logit": 14.390625,
+        "probability_percent": 8.77
+      },
+      {
+        "rank": 2,
+        "token": " the",
+        "logit": 13.7109375,
+        "probability_percent": 4.44
+      },
+      {
+        "rank": 3,
+        "token": " a",
+        "logit": 13.1015625,
+        "probability_percent": 2.42
+      },
+      {
+        "rank": 4,
+        "token": " also",
+        "logit": 12.6484375,
+        "probability_percent": 1.54
+      },
+      {
+        "rank": 5,
+        "token": " situated",
+        "logit": 12.140625,
+        "probability_percent": 0.92
+      },
+      {
+        "rank": 6,
+        "token": " to",
+        "logit": 11.8828125,
+        "probability_percent": 0.71
+      },
+      {
+        "rank": 7,
+        "token": " in",
+        "logit": 11.8515625,
+        "probability_percent": 0.69
+      },
+      {
+        "rank": 8,
+        "token": " one",
+        "logit": 11.8203125,
+        "probability_percent": 0.67
+      },
+      {
+        "rank": 9,
+        "token": " Y",
+        "logit": 11.7421875,
+        "probability_percent": 0.62
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of South Korea is",
+    "generated_prefix": "The capital city of South Korea is",
+    "gold_token": " Seoul",
+    "predicted_top1_token": " Seoul",
+    "token_pos_in_answer": 0,
+    "gold_logit": 16.6875,
+    "gold_prob_percent": 76.03,
+    "first_token_prob": 0.76025390625,
+    "second_token_prob": 0.03814697265625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Seoul",
+        "logit": 16.6875,
+        "probability_percent": 76.03
+      },
+      {
+        "rank": 1,
+        "token": " located",
+        "logit": 13.6953125,
+        "probability_percent": 3.81
+      },
+      {
+        "rank": 2,
+        "token": " the",
+        "logit": 13.171875,
+        "probability_percent": 2.26
+      },
+      {
+        "rank": 3,
+        "token": " a",
+        "logit": 12.796875,
+        "probability_percent": 1.55
+      },
+      {
+        "rank": 4,
+        "token": " situated",
+        "logit": 12.0078125,
+        "probability_percent": 0.71
+      },
+      {
+        "rank": 5,
+        "token": " Bus",
+        "logit": 11.984375,
+        "probability_percent": 0.69
+      },
+      {
+        "rank": 6,
+        "token": " also",
+        "logit": 11.53125,
+        "probability_percent": 0.44
+      },
+      {
+        "rank": 7,
+        "token": " South",
+        "logit": 11.515625,
+        "probability_percent": 0.43
+      },
+      {
+        "rank": 8,
+        "token": " called",
+        "logit": 11.5,
+        "probability_percent": 0.42
+      },
+      {
+        "rank": 9,
+        "token": " one",
+        "logit": 11.4453125,
+        "probability_percent": 0.4
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of India is",
+    "generated_prefix": "The capital city of India is",
+    "gold_token": " New",
+    "predicted_top1_token": " Delhi",
+    "token_pos_in_answer": 0,
+    "gold_logit": 14.921875,
+    "gold_prob_percent": 23.61,
+    "first_token_prob": 0.265380859375,
+    "second_token_prob": 0.236083984375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Delhi",
+        "logit": 15.0390625,
+        "probability_percent": 26.54
+      },
+      {
+        "rank": 1,
+        "token": " New",
+        "logit": 14.921875,
+        "probability_percent": 23.61
+      },
+      {
+        "rank": 2,
+        "token": " the",
+        "logit": 13.4140625,
+        "probability_percent": 5.23
+      },
+      {
+        "rank": 3,
+        "token": " located",
+        "logit": 13.0546875,
+        "probability_percent": 3.65
+      },
+      {
+        "rank": 4,
+        "token": " a",
+        "logit": 12.9453125,
+        "probability_percent": 3.27
+      },
+      {
+        "rank": 5,
+        "token": " also",
+        "logit": 12.7578125,
+        "probability_percent": 2.71
+      },
+      {
+        "rank": 6,
+        "token": " one",
+        "logit": 12.5234375,
+        "probability_percent": 2.15
+      },
+      {
+        "rank": 7,
+        "token": " situated",
+        "logit": 11.9296875,
+        "probability_percent": 1.18
+      },
+      {
+        "rank": 8,
+        "token": " Mumbai",
+        "logit": 11.921875,
+        "probability_percent": 1.18
+      },
+      {
+        "rank": 9,
+        "token": " called",
+        "logit": 11.8046875,
+        "probability_percent": 1.05
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of India is",
+    "generated_prefix": "The capital city of India is Delhi",
+    "gold_token": " Delhi",
+    "predicted_top1_token": ".",
+    "token_pos_in_answer": 1,
+    "gold_logit": 10.3984375,
+    "gold_prob_percent": 0.04,
+    "first_token_prob": 0.265380859375,
+    "second_token_prob": 0.236083984375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": ".",
+        "logit": 17.703125,
+        "probability_percent": 55.52
+      },
+      {
+        "rank": 1,
+        "token": ",",
+        "logit": 16.703125,
+        "probability_percent": 20.42
+      },
+      {
+        "rank": 2,
+        "token": " and",
+        "logit": 15.7265625,
+        "probability_percent": 7.69
+      },
+      {
+        "rank": 3,
+        "token": " which",
+        "logit": 14.7734375,
+        "probability_percent": 2.96
+      },
+      {
+        "rank": 4,
+        "token": ";",
+        "logit": 14.0546875,
+        "probability_percent": 1.45
+      },
+      {
+        "rank": 5,
+        "token": " (",
+        "logit": 13.8125,
+        "probability_percent": 1.13
+      },
+      {
+        "rank": 6,
+        "token": " .",
+        "logit": 13.8046875,
+        "probability_percent": 1.13
+      },
+      {
+        "rank": 7,
+        "token": "\n",
+        "logit": 13.703125,
+        "probability_percent": 1.02
+      },
+      {
+        "rank": 8,
+        "token": " but",
+        "logit": 13.3828125,
+        "probability_percent": 0.74
+      },
+      {
+        "rank": 9,
+        "token": " ,",
+        "logit": 13.21875,
+        "probability_percent": 0.63
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Pakistan is",
+    "generated_prefix": "The capital city of Pakistan is",
+    "gold_token": " Islam",
+    "predicted_top1_token": " Islam",
+    "token_pos_in_answer": 0,
+    "gold_logit": 15.296875,
+    "gold_prob_percent": 38.96,
+    "first_token_prob": 0.3896484375,
+    "second_token_prob": 0.12261962890625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Islam",
+        "logit": 15.296875,
+        "probability_percent": 38.96
+      },
+      {
+        "rank": 1,
+        "token": " located",
+        "logit": 14.140625,
+        "probability_percent": 12.26
+      },
+      {
+        "rank": 2,
+        "token": " the",
+        "logit": 13.4609375,
+        "probability_percent": 6.21
+      },
+      {
+        "rank": 3,
+        "token": " also",
+        "logit": 13.0390625,
+        "probability_percent": 4.07
+      },
+      {
+        "rank": 4,
+        "token": " Kar",
+        "logit": 12.6328125,
+        "probability_percent": 2.71
+      },
+      {
+        "rank": 5,
+        "token": " a",
+        "logit": 12.5625,
+        "probability_percent": 2.53
+      },
+      {
+        "rank": 6,
+        "token": " situated",
+        "logit": 12.4453125,
+        "probability_percent": 2.25
+      },
+      {
+        "rank": 7,
+        "token": " in",
+        "logit": 12.0546875,
+        "probability_percent": 1.52
+      },
+      {
+        "rank": 8,
+        "token": " known",
+        "logit": 11.859375,
+        "probability_percent": 1.25
+      },
+      {
+        "rank": 9,
+        "token": " Lah",
+        "logit": 11.828125,
+        "probability_percent": 1.21
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Pakistan is",
+    "generated_prefix": "The capital city of Pakistan is Islam",
+    "gold_token": "abad",
+    "predicted_top1_token": "abad",
+    "token_pos_in_answer": 1,
+    "gold_logit": 21.34375,
+    "gold_prob_percent": 99.9,
+    "first_token_prob": 0.3896484375,
+    "second_token_prob": 0.12261962890625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "abad",
+        "logit": 21.34375,
+        "probability_percent": 99.9
+      },
+      {
+        "rank": 1,
+        "token": "ab",
+        "logit": 13.3515625,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 2,
+        "token": "-",
+        "logit": 12.0703125,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 3,
+        "token": ".",
+        "logit": 11.4921875,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 4,
+        "token": "bad",
+        "logit": 11.2734375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 5,
+        "token": " Ab",
+        "logit": 11.1171875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": "Ab",
+        "logit": 11.109375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": "ad",
+        "logit": 10.7890625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "aba",
+        "logit": 10.765625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "ā",
+        "logit": 10.5859375,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Nigeria is",
+    "generated_prefix": "The capital city of Nigeria is",
+    "gold_token": " Abu",
+    "predicted_top1_token": " Abu",
+    "token_pos_in_answer": 0,
+    "gold_logit": 15.4296875,
+    "gold_prob_percent": 40.8,
+    "first_token_prob": 0.407958984375,
+    "second_token_prob": 0.1661376953125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Abu",
+        "logit": 15.4296875,
+        "probability_percent": 40.8
+      },
+      {
+        "rank": 1,
+        "token": " located",
+        "logit": 14.53125,
+        "probability_percent": 16.61
+      },
+      {
+        "rank": 2,
+        "token": " Lag",
+        "logit": 14.1015625,
+        "probability_percent": 10.81
+      },
+      {
+        "rank": 3,
+        "token": " the",
+        "logit": 12.875,
+        "probability_percent": 3.17
+      },
+      {
+        "rank": 4,
+        "token": " situated",
+        "logit": 12.5703125,
+        "probability_percent": 2.34
+      },
+      {
+        "rank": 5,
+        "token": " a",
+        "logit": 12.171875,
+        "probability_percent": 1.57
+      },
+      {
+        "rank": 6,
+        "token": " called",
+        "logit": 12.0390625,
+        "probability_percent": 1.37
+      },
+      {
+        "rank": 7,
+        "token": " also",
+        "logit": 11.8359375,
+        "probability_percent": 1.12
+      },
+      {
+        "rank": 8,
+        "token": ":",
+        "logit": 11.765625,
+        "probability_percent": 1.05
+      },
+      {
+        "rank": 9,
+        "token": " where",
+        "logit": 11.6171875,
+        "probability_percent": 0.9
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Nigeria is",
+    "generated_prefix": "The capital city of Nigeria is Abu",
+    "gold_token": "ja",
+    "predicted_top1_token": "ja",
+    "token_pos_in_answer": 1,
+    "gold_logit": 23.140625,
+    "gold_prob_percent": 99.95,
+    "first_token_prob": 0.407958984375,
+    "second_token_prob": 0.1661376953125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ja",
+        "logit": 23.140625,
+        "probability_percent": 99.95
+      },
+      {
+        "rank": 1,
+        "token": "-",
+        "logit": 13.5859375,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 2,
+        "token": "jah",
+        "logit": 12.8359375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 3,
+        "token": "jas",
+        "logit": 11.75,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 4,
+        "token": " Ja",
+        "logit": 11.546875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 5,
+        "token": "ya",
+        "logit": 11.40625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": "\n",
+        "logit": 11.3359375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": ".",
+        "logit": 11.3125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "j",
+        "logit": 11.28125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "ji",
+        "logit": 11.2734375,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Egypt is",
+    "generated_prefix": "The capital city of Egypt is",
+    "gold_token": " Cairo",
+    "predicted_top1_token": " Cairo",
+    "token_pos_in_answer": 0,
+    "gold_logit": 16.296875,
+    "gold_prob_percent": 70.46,
+    "first_token_prob": 0.70458984375,
+    "second_token_prob": 0.03704833984375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Cairo",
+        "logit": 16.296875,
+        "probability_percent": 70.46
+      },
+      {
+        "rank": 1,
+        "token": " the",
+        "logit": 13.3515625,
+        "probability_percent": 3.7
+      },
+      {
+        "rank": 2,
+        "token": " located",
+        "logit": 12.7578125,
+        "probability_percent": 2.05
+      },
+      {
+        "rank": 3,
+        "token": " a",
+        "logit": 12.5703125,
+        "probability_percent": 1.7
+      },
+      {
+        "rank": 4,
+        "token": " also",
+        "logit": 12.390625,
+        "probability_percent": 1.42
+      },
+      {
+        "rank": 5,
+        "token": " called",
+        "logit": 12.34375,
+        "probability_percent": 1.35
+      },
+      {
+        "rank": 6,
+        "token": " known",
+        "logit": 11.8203125,
+        "probability_percent": 0.8
+      },
+      {
+        "rank": 7,
+        "token": " not",
+        "logit": 11.59375,
+        "probability_percent": 0.64
+      },
+      {
+        "rank": 8,
+        "token": "\n",
+        "logit": 11.5859375,
+        "probability_percent": 0.63
+      },
+      {
+        "rank": 9,
+        "token": " in",
+        "logit": 11.46875,
+        "probability_percent": 0.56
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Saudi Arabia is",
+    "generated_prefix": "The capital city of Saudi Arabia is",
+    "gold_token": " R",
+    "predicted_top1_token": " R",
+    "token_pos_in_answer": 0,
+    "gold_logit": 15.9609375,
+    "gold_prob_percent": 57.67,
+    "first_token_prob": 0.57666015625,
+    "second_token_prob": 0.07330322265625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " R",
+        "logit": 15.9609375,
+        "probability_percent": 57.67
+      },
+      {
+        "rank": 1,
+        "token": " located",
+        "logit": 13.8984375,
+        "probability_percent": 7.33
+      },
+      {
+        "rank": 2,
+        "token": " the",
+        "logit": 13.4296875,
+        "probability_percent": 4.59
+      },
+      {
+        "rank": 3,
+        "token": " Jed",
+        "logit": 12.8515625,
+        "probability_percent": 2.57
+      },
+      {
+        "rank": 4,
+        "token": " also",
+        "logit": 12.328125,
+        "probability_percent": 1.52
+      },
+      {
+        "rank": 5,
+        "token": " known",
+        "logit": 12.3125,
+        "probability_percent": 1.5
+      },
+      {
+        "rank": 6,
+        "token": " called",
+        "logit": 12.21875,
+        "probability_percent": 1.37
+      },
+      {
+        "rank": 7,
+        "token": " situated",
+        "logit": 12.0703125,
+        "probability_percent": 1.18
+      },
+      {
+        "rank": 8,
+        "token": " in",
+        "logit": 12.0546875,
+        "probability_percent": 1.16
+      },
+      {
+        "rank": 9,
+        "token": " a",
+        "logit": 12.03125,
+        "probability_percent": 1.13
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Saudi Arabia is",
+    "generated_prefix": "The capital city of Saudi Arabia is R",
+    "gold_token": "iy",
+    "predicted_top1_token": "iy",
+    "token_pos_in_answer": 1,
+    "gold_logit": 21.265625,
+    "gold_prob_percent": 99.9,
+    "first_token_prob": 0.57666015625,
+    "second_token_prob": 0.07330322265625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "iy",
+        "logit": 21.265625,
+        "probability_percent": 99.9
+      },
+      {
+        "rank": 1,
+        "token": "ij",
+        "logit": 12.1015625,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 2,
+        "token": "ī",
+        "logit": 11.2734375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 3,
+        "token": ".",
+        "logit": 11.078125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 4,
+        "token": "'",
+        "logit": 10.8671875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 5,
+        "token": "iga",
+        "logit": 10.6953125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": "iz",
+        "logit": 10.5546875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": "Y",
+        "logit": 10.0703125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "ih",
+        "logit": 9.9140625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "’",
+        "logit": 9.6796875,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Saudi Arabia is",
+    "generated_prefix": "The capital city of Saudi Arabia is Riy",
+    "gold_token": "adh",
+    "predicted_top1_token": "adh",
+    "token_pos_in_answer": 2,
+    "gold_logit": 22.46875,
+    "gold_prob_percent": 99.56,
+    "first_token_prob": 0.57666015625,
+    "second_token_prob": 0.07330322265625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "adh",
+        "logit": 22.46875,
+        "probability_percent": 99.56
+      },
+      {
+        "rank": 1,
+        "token": "ad",
+        "logit": 16.703125,
+        "probability_percent": 0.31
+      },
+      {
+        "rank": 2,
+        "token": "ah",
+        "logit": 14.6953125,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 3,
+        "token": "al",
+        "logit": 14.5859375,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 4,
+        "token": "ā",
+        "logit": 13.4765625,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 5,
+        "token": "th",
+        "logit": 12.5234375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": "had",
+        "logit": 11.953125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": "ada",
+        "logit": 11.9296875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": ".",
+        "logit": 11.4921875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "adi",
+        "logit": 11.46875,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Turkey is",
+    "generated_prefix": "The capital city of Turkey is",
+    "gold_token": " Ank",
+    "predicted_top1_token": " Ank",
+    "token_pos_in_answer": 0,
+    "gold_logit": 15.25,
+    "gold_prob_percent": 38.75,
+    "first_token_prob": 0.387451171875,
+    "second_token_prob": 0.193359375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Ank",
+        "logit": 15.25,
+        "probability_percent": 38.75
+      },
+      {
+        "rank": 1,
+        "token": " Istanbul",
+        "logit": 14.5546875,
+        "probability_percent": 19.34
+      },
+      {
+        "rank": 2,
+        "token": " located",
+        "logit": 13.296875,
+        "probability_percent": 5.5
+      },
+      {
+        "rank": 3,
+        "token": " the",
+        "logit": 13.1171875,
+        "probability_percent": 4.59
+      },
+      {
+        "rank": 4,
+        "token": " where",
+        "logit": 12.09375,
+        "probability_percent": 1.65
+      },
+      {
+        "rank": 5,
+        "token": " �",
+        "logit": 11.96875,
+        "probability_percent": 1.46
+      },
+      {
+        "rank": 6,
+        "token": " a",
+        "logit": 11.9140625,
+        "probability_percent": 1.38
+      },
+      {
+        "rank": 7,
+        "token": " also",
+        "logit": 11.6796875,
+        "probability_percent": 1.09
+      },
+      {
+        "rank": 8,
+        "token": " called",
+        "logit": 11.6484375,
+        "probability_percent": 1.06
+      },
+      {
+        "rank": 9,
+        "token": " not",
+        "logit": 11.453125,
+        "probability_percent": 0.87
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Turkey is",
+    "generated_prefix": "The capital city of Turkey is Ank",
+    "gold_token": "ara",
+    "predicted_top1_token": "ara",
+    "token_pos_in_answer": 1,
+    "gold_logit": 21.390625,
+    "gold_prob_percent": 99.76,
+    "first_token_prob": 0.387451171875,
+    "second_token_prob": 0.193359375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ara",
+        "logit": 21.390625,
+        "probability_percent": 99.76
+      },
+      {
+        "rank": 1,
+        "token": "are",
+        "logit": 13.1171875,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 2,
+        "token": ".",
+        "logit": 13.015625,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 3,
+        "token": "ra",
+        "logit": 12.953125,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 4,
+        "token": "ar",
+        "logit": 12.8046875,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 5,
+        "token": "awa",
+        "logit": 11.765625,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 6,
+        "token": "arg",
+        "logit": 11.5625,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 7,
+        "token": "ava",
+        "logit": 11.40625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "ari",
+        "logit": 11.3515625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "â",
+        "logit": 11.328125,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Australia is",
+    "generated_prefix": "The capital city of Australia is",
+    "gold_token": " Can",
+    "predicted_top1_token": " Can",
+    "token_pos_in_answer": 0,
+    "gold_logit": 14.953125,
+    "gold_prob_percent": 36.35,
+    "first_token_prob": 0.363525390625,
+    "second_token_prob": 0.16259765625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Can",
+        "logit": 14.953125,
+        "probability_percent": 36.35
+      },
+      {
+        "rank": 1,
+        "token": " Sydney",
+        "logit": 14.1484375,
+        "probability_percent": 16.26
+      },
+      {
+        "rank": 2,
+        "token": " located",
+        "logit": 13.1796875,
+        "probability_percent": 6.17
+      },
+      {
+        "rank": 3,
+        "token": " the",
+        "logit": 12.4453125,
+        "probability_percent": 2.96
+      },
+      {
+        "rank": 4,
+        "token": " Melbourne",
+        "logit": 12.171875,
+        "probability_percent": 2.25
+      },
+      {
+        "rank": 5,
+        "token": ":",
+        "logit": 12.0234375,
+        "probability_percent": 1.94
+      },
+      {
+        "rank": 6,
+        "token": " called",
+        "logit": 11.9921875,
+        "probability_percent": 1.88
+      },
+      {
+        "rank": 7,
+        "token": " known",
+        "logit": 11.703125,
+        "probability_percent": 1.41
+      },
+      {
+        "rank": 8,
+        "token": " named",
+        "logit": 11.703125,
+        "probability_percent": 1.41
+      },
+      {
+        "rank": 9,
+        "token": " where",
+        "logit": 11.59375,
+        "probability_percent": 1.26
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Australia is",
+    "generated_prefix": "The capital city of Australia is Can",
+    "gold_token": "ber",
+    "predicted_top1_token": "ber",
+    "token_pos_in_answer": 1,
+    "gold_logit": 21.859375,
+    "gold_prob_percent": 99.95,
+    "first_token_prob": 0.363525390625,
+    "second_token_prob": 0.16259765625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ber",
+        "logit": 21.859375,
+        "probability_percent": 99.95
+      },
+      {
+        "rank": 1,
+        "token": "terbury",
+        "logit": 12.234375,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 2,
+        "token": "ning",
+        "logit": 11.7734375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 3,
+        "token": "b",
+        "logit": 11.46875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 4,
+        "token": "be",
+        "logit": 10.8359375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 5,
+        "token": "-",
+        "logit": 10.7578125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": "\n",
+        "logit": 10.6796875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": " you",
+        "logit": 10.6640625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": ".",
+        "logit": 10.359375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "br",
+        "logit": 10.359375,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Australia is",
+    "generated_prefix": "The capital city of Australia is Canber",
+    "gold_token": "ra",
+    "predicted_top1_token": "ra",
+    "token_pos_in_answer": 2,
+    "gold_logit": 21.421875,
+    "gold_prob_percent": 99.76,
+    "first_token_prob": 0.363525390625,
+    "second_token_prob": 0.16259765625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ra",
+        "logit": 21.421875,
+        "probability_percent": 99.76
+      },
+      {
+        "rank": 1,
+        "token": "r",
+        "logit": 13.9140625,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 2,
+        "token": "a",
+        "logit": 13.5078125,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 3,
+        "token": "ta",
+        "logit": 12.9765625,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 4,
+        "token": "rah",
+        "logit": 12.3671875,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 5,
+        "token": "ran",
+        "logit": 12.3203125,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 6,
+        "token": ".",
+        "logit": 12.25,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 7,
+        "token": ",",
+        "logit": 11.7734375,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 8,
+        "token": "\n",
+        "logit": 11.453125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "...",
+        "logit": 11.015625,
+        "probability_percent": 0.0
+      }
+    ]
+  }
+]

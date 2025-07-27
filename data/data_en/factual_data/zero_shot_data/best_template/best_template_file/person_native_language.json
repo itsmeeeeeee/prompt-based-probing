@@ -1,0 +1,1620 @@
+{
+    "name": "person_native_language",
+    "prompt_templates": [
+        "{}'s native language is"
+    ],
+    "samples": [
+        {
+            "subject": "Danielle Darrieux",
+            "object": "French"
+        },
+        {
+            "subject": "Thomas Joannes Stieltjes",
+            "object": "Dutch"
+        },
+        {
+            "subject": "Michel Denisot",
+            "object": "French"
+        },
+        {
+            "subject": "Go Hyeon-jeong",
+            "object": "Korean"
+        },
+        {
+            "subject": "Cees Nooteboom",
+            "object": "Dutch"
+        },
+        {
+            "subject": "Pierre Messmer",
+            "object": "French"
+        },
+        {
+            "subject": "Ilya Ehrenburg",
+            "object": "Russian"
+        },
+        {
+            "subject": "Dominique Perben",
+            "object": "French"
+        },
+        {
+            "subject": "Julien Courbet",
+            "object": "French"
+        },
+        {
+            "subject": "Alain Robbe-Grillet",
+            "object": "French"
+        },
+        {
+            "subject": "Xavier Saint-Macary",
+            "object": "French"
+        },
+        {
+            "subject": "Anatole France",
+            "object": "French"
+        },
+        {
+            "subject": "Fabrice Luchini",
+            "object": "French"
+        },
+        {
+            "subject": "Miguel de Cervantes",
+            "object": "Spanish"
+        },
+        {
+            "subject": "Blaise Pascal",
+            "object": "French"
+        },
+        {
+            "subject": "Jean Giraudoux",
+            "object": "French"
+        },
+        {
+            "subject": "Pierre Brasseur",
+            "object": "French"
+        },
+        {
+            "subject": "Pierre Reverdy",
+            "object": "French"
+        },
+        {
+            "subject": "Marcelin Pleynet",
+            "object": "French"
+        },
+        {
+            "subject": "Dominique Lapierre",
+            "object": "French"
+        },
+        {
+            "subject": "Jean-Baptiste Henri Lacordaire",
+            "object": "French"
+        },
+        {
+            "subject": "Ilya Nikolaevich Ulyanov",
+            "object": "Russian"
+        },
+        {
+            "subject": "Boris Asafyev",
+            "object": "Russian"
+        },
+        {
+            "subject": "Nadezhda Krupskaya",
+            "object": "Russian"
+        },
+        {
+            "subject": "Francis Jammes",
+            "object": "French"
+        },
+        {
+            "subject": "Hendrik Lorentz",
+            "object": "Dutch"
+        },
+        {
+            "subject": "Jules Barbier",
+            "object": "French"
+        },
+        {
+            "subject": "Kannadasan",
+            "object": "Tamil"
+        },
+        {
+            "subject": "Vladimir Bukovsky",
+            "object": "Russian"
+        },
+        {
+            "subject": "Pierre Blanchar",
+            "object": "French"
+        },
+        {
+            "subject": "Andreas Karkavitsas",
+            "object": "Greek"
+        },
+        {
+            "subject": "Marcel Ichac",
+            "object": "French"
+        },
+        {
+            "subject": "Xavier Beauvois",
+            "object": "French"
+        },
+        {
+            "subject": "Jean-Claude Izzo",
+            "object": "French"
+        },
+        {
+            "subject": "Alain Mabanckou",
+            "object": "French"
+        },
+        {
+            "subject": "Mathieu de Montmorency",
+            "object": "French"
+        },
+        {
+            "subject": "Menno ter Braak",
+            "object": "Dutch"
+        },
+        {
+            "subject": "Jean-Sifrein Maury",
+            "object": "French"
+        },
+        {
+            "subject": "Giuseppe Saronni",
+            "object": "Italian"
+        },
+        {
+            "subject": "Michel-Jean Sedaine",
+            "object": "French"
+        },
+        {
+            "subject": "Lee Chang-dong",
+            "object": "Korean"
+        },
+        {
+            "subject": "Vladimir Vinogradov",
+            "object": "Russian"
+        },
+        {
+            "subject": "Jacques Doriot",
+            "object": "French"
+        },
+        {
+            "subject": "Pyotr Vyazemsky",
+            "object": "Russian"
+        },
+        {
+            "subject": "Jean Desailly",
+            "object": "French"
+        },
+        {
+            "subject": "Jean-Paul Sartre",
+            "object": "French"
+        },
+        {
+            "subject": "Dominique Sanda",
+            "object": "French"
+        },
+        {
+            "subject": "Hugo von Hofmannsthal",
+            "object": "German"
+        },
+        {
+            "subject": "Pierre Bec",
+            "object": "French"
+        },
+        {
+            "subject": "Nathalie Baye",
+            "object": "French"
+        },
+        {
+            "subject": "Jacques Dumesnil",
+            "object": "French"
+        },
+        {
+            "subject": "Claude Cerval",
+            "object": "French"
+        },
+        {
+            "subject": "Aleksandr Ptushko",
+            "object": "Russian"
+        },
+        {
+            "subject": "Jeanne Balibar",
+            "object": "French"
+        },
+        {
+            "subject": "Camille Flammarion",
+            "object": "French"
+        },
+        {
+            "subject": "Jan Peter Balkenende",
+            "object": "Dutch"
+        },
+        {
+            "subject": "Jean-Baptiste Philibert Willaumez",
+            "object": "French"
+        },
+        {
+            "subject": "Yvonne Monlaur",
+            "object": "French"
+        },
+        {
+            "subject": "Patrice Leconte",
+            "object": "French"
+        },
+        {
+            "subject": "Maurice Viollette",
+            "object": "French"
+        },
+        {
+            "subject": "Leo Tolstoy",
+            "object": "Russian"
+        },
+        {
+            "subject": "Isabelle Nanty",
+            "object": "French"
+        },
+        {
+            "subject": "Louis Jules Trochu",
+            "object": "French"
+        },
+        {
+            "subject": "Vasily Kamensky",
+            "object": "Russian"
+        },
+        {
+            "subject": "Dmitry Medvedev",
+            "object": "Russian"
+        },
+        {
+            "subject": "Corinne Calvet",
+            "object": "French"
+        },
+        {
+            "subject": "Fanny Ardant",
+            "object": "French"
+        },
+        {
+            "subject": "Emmanuel Hocquard",
+            "object": "French"
+        },
+        {
+            "subject": "Nikolai Luzin",
+            "object": "Russian"
+        },
+        {
+            "subject": "Pierre Lescure",
+            "object": "French"
+        },
+        {
+            "subject": "Constantijn Huygens",
+            "object": "Dutch"
+        },
+        {
+            "subject": "Sergey Platonov",
+            "object": "Russian"
+        },
+        {
+            "subject": "Marthe Mellot",
+            "object": "French"
+        },
+        {
+            "subject": "Jean Le Poulain",
+            "object": "French"
+        },
+        {
+            "subject": "Jean-Marie Pardessus",
+            "object": "French"
+        },
+        {
+            "subject": "Lev Landau",
+            "object": "Russian"
+        },
+        {
+            "subject": "Jacques Legras",
+            "object": "French"
+        },
+        {
+            "subject": "Louis de Rouvroy, duc de Saint-Simon",
+            "object": "French"
+        },
+        {
+            "subject": "Marguerite Yourcenar",
+            "object": "French"
+        },
+        {
+            "subject": "Jacques Cazotte",
+            "object": "French"
+        },
+        {
+            "subject": "Ludivine Sagnier",
+            "object": "French"
+        },
+        {
+            "subject": "Olympe de Gouges",
+            "object": "French"
+        },
+        {
+            "subject": "Francis de Croisset",
+            "object": "French"
+        },
+        {
+            "subject": "Fyodor Pavlovich Reshetnikov",
+            "object": "Russian"
+        },
+        {
+            "subject": "Marcel Mouloudji",
+            "object": "French"
+        },
+        {
+            "subject": "Gustave de Beaumont",
+            "object": "French"
+        },
+        {
+            "subject": "Michel Onfray",
+            "object": "French"
+        },
+        {
+            "subject": "Thomas Horsfield",
+            "object": "English"
+        },
+        {
+            "subject": "Gleb Kotelnikov",
+            "object": "Russian"
+        },
+        {
+            "subject": "Jean-Baptiste de Boyer, Marquis d'Argens",
+            "object": "French"
+        },
+        {
+            "subject": "Alain Savary",
+            "object": "French"
+        },
+        {
+            "subject": "Louis-Jean-Marie Daubenton",
+            "object": "French"
+        },
+        {
+            "subject": "Jacques Ellul",
+            "object": "French"
+        },
+        {
+            "subject": "Walter Pater",
+            "object": "English"
+        },
+        {
+            "subject": "Christophe Hondelatte",
+            "object": "French"
+        },
+        {
+            "subject": "Yves Bonnefoy",
+            "object": "French"
+        },
+        {
+            "subject": "Ewa Farna",
+            "object": "Polish"
+        },
+        {
+            "subject": "Pedro de la Rosa",
+            "object": "Spanish"
+        },
+        {
+            "subject": "Slava Zaitsev",
+            "object": "Russian"
+        },
+        {
+            "subject": "Jean Bruller",
+            "object": "French"
+        },
+        {
+            "subject": "Jean Debucourt",
+            "object": "French"
+        },
+        {
+            "subject": "Aleksey Khomyakov",
+            "object": "Russian"
+        },
+        {
+            "subject": "Jean-Jacques Pauvert",
+            "object": "French"
+        },
+        {
+            "subject": "Jean-Claude Brialy",
+            "object": "French"
+        },
+        {
+            "subject": "Hannah Szenes",
+            "object": "Hungarian"
+        },
+        {
+            "subject": "Laurent Casanova",
+            "object": "French"
+        },
+        {
+            "subject": "Georges Pompidou",
+            "object": "French"
+        },
+        {
+            "subject": "Park Bum-shin",
+            "object": "Korean"
+        },
+        {
+            "subject": "Pierre Pelot",
+            "object": "French"
+        },
+        {
+            "subject": "Laurent Fabius",
+            "object": "French"
+        },
+        {
+            "subject": "Hendrik Petrus Berlage",
+            "object": "Dutch"
+        },
+        {
+            "subject": "Akira Kurosawa",
+            "object": "Japanese"
+        },
+        {
+            "subject": "Bertrand Russell",
+            "object": "English"
+        },
+        {
+            "subject": "Claude Henri de Rouvroy, comte de Saint-Simon",
+            "object": "French"
+        },
+        {
+            "subject": "Frederick Marryat",
+            "object": "English"
+        },
+        {
+            "subject": "Nathalie Kosciusko-Morizet",
+            "object": "French"
+        },
+        {
+            "subject": "Christiane Taubira",
+            "object": "French"
+        },
+        {
+            "subject": "Alexander Lebedev",
+            "object": "Russian"
+        },
+        {
+            "subject": "Rafael Alberti",
+            "object": "Spanish"
+        },
+        {
+            "subject": "Marie-Arlette Carlotti",
+            "object": "French"
+        },
+        {
+            "subject": "Jean-Pierre Andrevon",
+            "object": "French"
+        },
+        {
+            "subject": "Mathieu Amalric",
+            "object": "French"
+        },
+        {
+            "subject": "Maurice Teynac",
+            "object": "French"
+        },
+        {
+            "subject": "Jean Rouaud",
+            "object": "French"
+        },
+        {
+            "subject": "Basshunter",
+            "object": "Swedish"
+        },
+        {
+            "subject": "Michel Ciment",
+            "object": "French"
+        },
+        {
+            "subject": "Vladimir Mayakovsky",
+            "object": "Russian"
+        },
+        {
+            "subject": "Henri Garat",
+            "object": "French"
+        },
+        {
+            "subject": "Huguette Duflos",
+            "object": "French"
+        },
+        {
+            "subject": "Alberto Giacometti",
+            "object": "Italian"
+        },
+        {
+            "subject": "Dmitry Malikov",
+            "object": "Russian"
+        },
+        {
+            "subject": "Jacques Laurent",
+            "object": "French"
+        },
+        {
+            "subject": "C. N. Annadurai",
+            "object": "Tamil"
+        },
+        {
+            "subject": "Lannick Gautry",
+            "object": "French"
+        },
+        {
+            "subject": "Pascale Ogier",
+            "object": "French"
+        },
+        {
+            "subject": "Georges Sadoul",
+            "object": "French"
+        },
+        {
+            "subject": "Jules de Goncourt",
+            "object": "French"
+        },
+        {
+            "subject": "Ehud Olmert",
+            "object": "Hebrew"
+        },
+        {
+            "subject": "Yves Beneyton",
+            "object": "French"
+        },
+        {
+            "subject": "Jean de La Fontaine",
+            "object": "French"
+        },
+        {
+            "subject": "Louis-Pierre Baltard",
+            "object": "French"
+        },
+        {
+            "subject": "Pierre Magnier",
+            "object": "French"
+        },
+        {
+            "subject": "Bernard Giraudeau",
+            "object": "French"
+        },
+        {
+            "subject": "Sergey Lavrov",
+            "object": "Russian"
+        },
+        {
+            "subject": "Georgy Shpagin",
+            "object": "Russian"
+        },
+        {
+            "subject": "Pierre Brossolette",
+            "object": "French"
+        },
+        {
+            "subject": "Claude-Joseph Dorat",
+            "object": "French"
+        },
+        {
+            "subject": "Herbert Edward Read",
+            "object": "English"
+        },
+        {
+            "subject": "Jean-Marie Le Pen",
+            "object": "French"
+        },
+        {
+            "subject": "Nikolay Akimov",
+            "object": "Russian"
+        },
+        {
+            "subject": "Mario Vargas Llosa",
+            "object": "Spanish"
+        },
+        {
+            "subject": "Ivan Kireyevsky",
+            "object": "Russian"
+        },
+        {
+            "subject": "Pierre-Alexandre-Laurent Forfait",
+            "object": "French"
+        },
+        {
+            "subject": "Peter Kropotkin",
+            "object": "Russian"
+        },
+        {
+            "subject": "Fernand Ledoux",
+            "object": "French"
+        },
+        {
+            "subject": "Michel Aumont",
+            "object": "French"
+        },
+        {
+            "subject": "David Beckham",
+            "object": "English"
+        },
+        {
+            "subject": "Jules Favre",
+            "object": "French"
+        },
+        {
+            "subject": "Philippe de Mornay",
+            "object": "French"
+        },
+        {
+            "subject": "Maurice Herzog",
+            "object": "French"
+        },
+        {
+            "subject": "Jacques Jouanneau",
+            "object": "French"
+        },
+        {
+            "subject": "Dmitry Merezhkovsky",
+            "object": "Russian"
+        },
+        {
+            "subject": "Michel Delebarre",
+            "object": "French"
+        },
+        {
+            "subject": "Panagiotis Lafazanis",
+            "object": "Greek"
+        },
+        {
+            "subject": "Dominique Bouhours",
+            "object": "French"
+        },
+        {
+            "subject": "Hendrik Nicolaas Werkman",
+            "object": "Dutch"
+        },
+        {
+            "subject": "Michel Bouquet",
+            "object": "French"
+        },
+        {
+            "subject": "Michele Bartoli",
+            "object": "Italian"
+        },
+        {
+            "subject": "Jean-Baptiste Alphonse Karr",
+            "object": "French"
+        },
+        {
+            "subject": "Anastasia Myskina",
+            "object": "Russian"
+        },
+        {
+            "subject": "Alphonse Pyramus de Candolle",
+            "object": "French"
+        },
+        {
+            "subject": "Alphonse Daudet",
+            "object": "French"
+        },
+        {
+            "subject": "Pierre Trabaud",
+            "object": "French"
+        },
+        {
+            "subject": "Laurent Lafitte",
+            "object": "French"
+        },
+        {
+            "subject": "Nicolas Chamfort",
+            "object": "French"
+        },
+        {
+            "subject": "Jean-Baptiste Solignac",
+            "object": "French"
+        },
+        {
+            "subject": "Delphine de Girardin",
+            "object": "French"
+        },
+        {
+            "subject": "Pierre Daniel Huet",
+            "object": "French"
+        },
+        {
+            "subject": "Michel Robin",
+            "object": "French"
+        },
+        {
+            "subject": "Marcelle Auclair",
+            "object": "French"
+        },
+        {
+            "subject": "Mikhail Evstafiev",
+            "object": "Russian"
+        },
+        {
+            "subject": "Georges Mouton",
+            "object": "French"
+        },
+        {
+            "subject": "Auguste Villiers de l'Isle-Adam",
+            "object": "French"
+        },
+        {
+            "subject": "Jean-Baptiste Say",
+            "object": "French"
+        },
+        {
+            "subject": "Jacques Leroy de Saint Arnaud",
+            "object": "French"
+        },
+        {
+            "subject": "Louis Gallet",
+            "object": "French"
+        },
+        {
+            "subject": "Jean Anouilh",
+            "object": "French"
+        },
+        {
+            "subject": "Michel Boujenah",
+            "object": "French"
+        },
+        {
+            "subject": "Lionel Jospin",
+            "object": "French"
+        },
+        {
+            "subject": "Ginette Garcin",
+            "object": "French"
+        },
+        {
+            "subject": "Antoine Bourdelle",
+            "object": "French"
+        },
+        {
+            "subject": "Ariane Labed",
+            "object": "French"
+        },
+        {
+            "subject": "Pauline Lafont",
+            "object": "French"
+        },
+        {
+            "subject": "Marguerite Audoux",
+            "object": "French"
+        },
+        {
+            "subject": "Henri Desgrange",
+            "object": "French"
+        },
+        {
+            "subject": "Olivier Messiaen",
+            "object": "French"
+        },
+        {
+            "subject": "Pierre-Joseph Cambon",
+            "object": "French"
+        },
+        {
+            "subject": "Jean Yanne",
+            "object": "French"
+        },
+        {
+            "subject": "Antoine Augustin Calmet",
+            "object": "French"
+        },
+        {
+            "subject": "Nadine Morano",
+            "object": "French"
+        },
+        {
+            "subject": "Jacques Attali",
+            "object": "French"
+        },
+        {
+            "subject": "Maurice Thorez",
+            "object": "French"
+        },
+        {
+            "subject": "Anne-Marie Idrac",
+            "object": "French"
+        },
+        {
+            "subject": "Georges Marchal",
+            "object": "French"
+        },
+        {
+            "subject": "Charles Augustin Sainte-Beuve",
+            "object": "French"
+        },
+        {
+            "subject": "Alexandre Dumas, fils",
+            "object": "French"
+        },
+        {
+            "subject": "Dominique Joseph Garat",
+            "object": "French"
+        },
+        {
+            "subject": "Polina Zherebtsova",
+            "object": "Russian"
+        },
+        {
+            "subject": "Louis-Nicolas Davout",
+            "object": "French"
+        },
+        {
+            "subject": "Jean-Antoine Roucher",
+            "object": "French"
+        },
+        {
+            "subject": "Louis Pergaud",
+            "object": "French"
+        },
+        {
+            "subject": "Sully Prudhomme",
+            "object": "French"
+        },
+        {
+            "subject": "Odette Barencey",
+            "object": "French"
+        },
+        {
+            "subject": "Henriette-Julie de Murat",
+            "object": "French"
+        },
+        {
+            "subject": "Georges-Louis Leclerc, Comte de Buffon",
+            "object": "French"
+        },
+        {
+            "subject": "Vincent Lacoste",
+            "object": "French"
+        },
+        {
+            "subject": "Alexandre Auguste Ledru-Rollin",
+            "object": "French"
+        },
+        {
+            "subject": "Vladimir Putin",
+            "object": "Russian"
+        },
+        {
+            "subject": "Allan Kardec",
+            "object": "French"
+        },
+        {
+            "subject": "Georges Courteline",
+            "object": "French"
+        },
+        {
+            "subject": "Jacques Charles Dupont de l'Eure",
+            "object": "French"
+        },
+        {
+            "subject": "Jean-Bernard Raimond",
+            "object": "French"
+        },
+        {
+            "subject": "Marc-Philippe Daubresse",
+            "object": "French"
+        },
+        {
+            "subject": "William Howitt",
+            "object": "English"
+        },
+        {
+            "subject": "Gilles Lellouche",
+            "object": "French"
+        },
+        {
+            "subject": "Michel Brault",
+            "object": "French"
+        },
+        {
+            "subject": "Zakhar Prilepin",
+            "object": "Russian"
+        },
+        {
+            "subject": "Julien Boisselier",
+            "object": "French"
+        },
+        {
+            "subject": "Jacques Mauclair",
+            "object": "French"
+        },
+        {
+            "subject": "Rainer Maria Rilke",
+            "object": "German"
+        },
+        {
+            "subject": "Wil Huygen",
+            "object": "Dutch"
+        },
+        {
+            "subject": "Nikolay Strakhov",
+            "object": "Russian"
+        },
+        {
+            "subject": "Adrien Duport",
+            "object": "French"
+        },
+        {
+            "subject": "Jacobus Henricus van 't Hoff",
+            "object": "Dutch"
+        },
+        {
+            "subject": "Audrey Tautou",
+            "object": "French"
+        },
+        {
+            "subject": "Jean-Christophe Rufin",
+            "object": "French"
+        },
+        {
+            "subject": "Toon Hermans",
+            "object": "Dutch"
+        },
+        {
+            "subject": "Jean-Claude Brisseau",
+            "object": "French"
+        },
+        {
+            "subject": "Catherine Deneuve",
+            "object": "French"
+        },
+        {
+            "subject": "John Webster",
+            "object": "English"
+        },
+        {
+            "subject": "Pierre Assouline",
+            "object": "French"
+        },
+        {
+            "subject": "Camille de Casabianca",
+            "object": "French"
+        },
+        {
+            "subject": "Theo van Doesburg",
+            "object": "Dutch"
+        },
+        {
+            "subject": "Jean-Baptiste Maunier",
+            "object": "French"
+        },
+        {
+            "subject": "Florent Chrestien",
+            "object": "French"
+        },
+        {
+            "subject": "Bernadette Lafont",
+            "object": "French"
+        },
+        {
+            "subject": "Michel Braudeau",
+            "object": "French"
+        },
+        {
+            "subject": "Gustave Flaubert",
+            "object": "French"
+        },
+        {
+            "subject": "Jean-Marie Colombani",
+            "object": "French"
+        },
+        {
+            "subject": "Yevgeny Yevtushenko",
+            "object": "Russian"
+        },
+        {
+            "subject": "Jean-Claude Gaudin",
+            "object": "French"
+        },
+        {
+            "subject": "Nikolay Dobrolyubov",
+            "object": "Russian"
+        },
+        {
+            "subject": "Brigitte Catillon",
+            "object": "French"
+        },
+        {
+            "subject": "Grigoris Lambrakis",
+            "object": "Greek"
+        },
+        {
+            "subject": "Alain Cuny",
+            "object": "French"
+        },
+        {
+            "subject": "Charlotte-Rose de Caumont de La Force",
+            "object": "French"
+        },
+        {
+            "subject": "Geoff Dyer",
+            "object": "English"
+        },
+        {
+            "subject": "Viktor Bychkov",
+            "object": "Russian"
+        },
+        {
+            "subject": "Henri-Joseph Paixhans",
+            "object": "French"
+        },
+        {
+            "subject": "Jean Follain",
+            "object": "French"
+        },
+        {
+            "subject": "Marie NDiaye",
+            "object": "French"
+        },
+        {
+            "subject": "Romain Duris",
+            "object": "French"
+        },
+        {
+            "subject": "Jean-Pierre Marielle",
+            "object": "French"
+        },
+        {
+            "subject": "Amira Casar",
+            "object": "French"
+        },
+        {
+            "subject": "Jean Piat",
+            "object": "French"
+        },
+        {
+            "subject": "Jacques Dupin",
+            "object": "French"
+        },
+        {
+            "subject": "Adriaan Roland Holst",
+            "object": "Dutch"
+        },
+        {
+            "subject": "Vera Zvonareva",
+            "object": "Russian"
+        },
+        {
+            "subject": "Olivier Marchal",
+            "object": "French"
+        },
+        {
+            "subject": "Eustache-Hyacinthe Langlois",
+            "object": "French"
+        },
+        {
+            "subject": "Christopher Smart",
+            "object": "English"
+        },
+        {
+            "subject": "Alain Delon",
+            "object": "French"
+        },
+        {
+            "subject": "Min Gyu-dong",
+            "object": "Korean"
+        },
+        {
+            "subject": "Vera Brezhneva",
+            "object": "Russian"
+        },
+        {
+            "subject": "Jean-Michel Dupuis",
+            "object": "French"
+        },
+        {
+            "subject": "Jacques Dufilho",
+            "object": "French"
+        },
+        {
+            "subject": "Raymond Depardon",
+            "object": "French"
+        },
+        {
+            "subject": "Bernard Tapie",
+            "object": "French"
+        },
+        {
+            "subject": "Alain Marleix",
+            "object": "French"
+        },
+        {
+            "subject": "Fredrika Bremer",
+            "object": "Swedish"
+        },
+        {
+            "subject": "Pietro Mennea",
+            "object": "Italian"
+        },
+        {
+            "subject": "Porfiry Ivanov",
+            "object": "Russian"
+        },
+        {
+            "subject": "Stieg Larsson",
+            "object": "Swedish"
+        },
+        {
+            "subject": "Paolo Tiralongo",
+            "object": "Italian"
+        },
+        {
+            "subject": "Antoine Isaac Silvestre de Sacy",
+            "object": "French"
+        },
+        {
+            "subject": "Michel d'Ornano",
+            "object": "French"
+        },
+        {
+            "subject": "Jean Dujardin",
+            "object": "French"
+        },
+        {
+            "subject": "Jacques Toubon",
+            "object": "French"
+        },
+        {
+            "subject": "Vincent de Moro-Giafferi",
+            "object": "French"
+        },
+        {
+            "subject": "Jean Vautrin",
+            "object": "French"
+        },
+        {
+            "subject": "Shakira",
+            "object": "Spanish"
+        },
+        {
+            "subject": "Armand de Kersaint",
+            "object": "French"
+        },
+        {
+            "subject": "Jean Sorel",
+            "object": "French"
+        },
+        {
+            "subject": "Charles Maurras",
+            "object": "French"
+        },
+        {
+            "subject": "Claude Gensac",
+            "object": "French"
+        },
+        {
+            "subject": "Jeanne Moreau",
+            "object": "French"
+        },
+        {
+            "subject": "Nikolai Bukharin",
+            "object": "Russian"
+        },
+        {
+            "subject": "Dominique Rocheteau",
+            "object": "French"
+        },
+        {
+            "subject": "Mathieu Demy",
+            "object": "French"
+        },
+        {
+            "subject": "Charles Vanel",
+            "object": "French"
+        },
+        {
+            "subject": "Georges Hugnet",
+            "object": "French"
+        },
+        {
+            "subject": "Aleksei Dikiy",
+            "object": "Russian"
+        },
+        {
+            "subject": "William Henry Harrison",
+            "object": "English"
+        },
+        {
+            "subject": "Brigitte Fontaine",
+            "object": "French"
+        },
+        {
+            "subject": "Muriel Barbery",
+            "object": "French"
+        },
+        {
+            "subject": "Louis Carrogis Carmontelle",
+            "object": "French"
+        },
+        {
+            "subject": "Michel Godard",
+            "object": "French"
+        },
+        {
+            "subject": "Victor Margueritte",
+            "object": "French"
+        },
+        {
+            "subject": "William-Adolphe Bouguereau",
+            "object": "French"
+        },
+        {
+            "subject": "Gennady Zyuganov",
+            "object": "Russian"
+        },
+        {
+            "subject": "Henri Barbusse",
+            "object": "French"
+        },
+        {
+            "subject": "Andrey Malakhov",
+            "object": "Russian"
+        },
+        {
+            "subject": "Roger Caillois",
+            "object": "French"
+        },
+        {
+            "subject": "Marie Anne de Vichy-Chamrond, marquise du Deffand",
+            "object": "French"
+        },
+        {
+            "subject": "Virginia Woolf",
+            "object": "English"
+        },
+        {
+            "subject": "Jean-Antoine Chaptal",
+            "object": "French"
+        },
+        {
+            "subject": "Jean-Pierre Thiollet",
+            "object": "French"
+        },
+        {
+            "subject": "Pierre Guyotat",
+            "object": "French"
+        },
+        {
+            "subject": "Claude Victor-Perrin, Duc de Belluno",
+            "object": "French"
+        },
+        {
+            "subject": "Jacques Sadoul",
+            "object": "French"
+        },
+        {
+            "subject": "Edmond Michelet",
+            "object": "French"
+        },
+        {
+            "subject": "Pascal Quignard",
+            "object": "French"
+        },
+        {
+            "subject": "Georgios Rallis",
+            "object": "Greek"
+        },
+        {
+            "subject": "Novak Djokovic",
+            "object": "Serbian"
+        },
+        {
+            "subject": "Charles Hernu",
+            "object": "French"
+        },
+        {
+            "subject": "Brigitte Bardot",
+            "object": "French"
+        },
+        {
+            "subject": "Wim Crouwel",
+            "object": "Dutch"
+        },
+        {
+            "subject": "Michel Zevaco",
+            "object": "French"
+        },
+        {
+            "subject": "Jean Baptiste Antoine Auget de Montyon",
+            "object": "French"
+        },
+        {
+            "subject": "Alain Soral",
+            "object": "French"
+        },
+        {
+            "subject": "Ercole Baldini",
+            "object": "Italian"
+        },
+        {
+            "subject": "Hendrikus Colijn",
+            "object": "Dutch"
+        },
+        {
+            "subject": "Dmitry Muratov",
+            "object": "Russian"
+        },
+        {
+            "subject": "Korney Chukovsky",
+            "object": "Russian"
+        },
+        {
+            "subject": "Michel Sardou",
+            "object": "French"
+        },
+        {
+            "subject": "Charles-Joseph Panckoucke",
+            "object": "French"
+        },
+        {
+            "subject": "Olivier Rabourdin",
+            "object": "French"
+        },
+        {
+            "subject": "Georges Leygues",
+            "object": "French"
+        },
+        {
+            "subject": "William Habington",
+            "object": "English"
+        },
+        {
+            "subject": "Maurice Clavel",
+            "object": "French"
+        },
+        {
+            "subject": "Georges Ernest Boulanger",
+            "object": "French"
+        },
+        {
+            "subject": "Pieter Cornelis Boutens",
+            "object": "Dutch"
+        },
+        {
+            "subject": "Ginette Leclerc",
+            "object": "French"
+        },
+        {
+            "subject": "Boris Vian",
+            "object": "French"
+        },
+        {
+            "subject": "Jean-Marie Cavada",
+            "object": "French"
+        },
+        {
+            "subject": "Sergey Aksyonov",
+            "object": "Russian"
+        },
+        {
+            "subject": "Xavier de Maistre",
+            "object": "French"
+        },
+        {
+            "subject": "Emmanuelle Arsan",
+            "object": "French"
+        },
+        {
+            "subject": "Jean-Louis Barrault",
+            "object": "French"
+        },
+        {
+            "subject": "Martine Brochard",
+            "object": "French"
+        },
+        {
+            "subject": "John Stuart Mill",
+            "object": "English"
+        },
+        {
+            "subject": "Virginie Ledoyen",
+            "object": "French"
+        },
+        {
+            "subject": "Jean-Pierre Pernaut",
+            "object": "French"
+        },
+        {
+            "subject": "Aleksandr Kaleri",
+            "object": "Russian"
+        },
+        {
+            "subject": "Judith Chemla",
+            "object": "French"
+        },
+        {
+            "subject": "Gerrit Komrij",
+            "object": "Dutch"
+        },
+        {
+            "subject": "Victor de Riqueti, marquis de Mirabeau",
+            "object": "French"
+        },
+        {
+            "subject": "Juan de Espinosa Medrano",
+            "object": "Spanish"
+        },
+        {
+            "subject": "Christophe Moreau",
+            "object": "French"
+        },
+        {
+            "subject": "Thierry Lhermitte",
+            "object": "French"
+        },
+        {
+            "subject": "Alexandre Rignault",
+            "object": "French"
+        },
+        {
+            "subject": "Georges Chamarat",
+            "object": "French"
+        },
+        {
+            "subject": "Dominique Besnehard",
+            "object": "French"
+        },
+        {
+            "subject": "Irina Khakamada",
+            "object": "Russian"
+        },
+        {
+            "subject": "Mikhail Khodorkovsky",
+            "object": "Russian"
+        },
+        {
+            "subject": "Nikolay Nekrasov",
+            "object": "Russian"
+        },
+        {
+            "subject": "Hans Christian Andersen",
+            "object": "Danish"
+        },
+        {
+            "subject": "Jean-Marie Guyau",
+            "object": "French"
+        },
+        {
+            "subject": "Marcel Pagnol",
+            "object": "French"
+        },
+        {
+            "subject": "Aleksandr Lyapunov",
+            "object": "Russian"
+        },
+        {
+            "subject": "Anatoly Kudryavitsky",
+            "object": "Russian"
+        },
+        {
+            "subject": "Jacques Roubaud",
+            "object": "French"
+        },
+        {
+            "subject": "Casimir Delavigne",
+            "object": "French"
+        },
+        {
+            "subject": "Jean Raspail",
+            "object": "French"
+        },
+        {
+            "subject": "Julien Dray",
+            "object": "French"
+        },
+        {
+            "subject": "Edward Bulwer-Lytton",
+            "object": "English"
+        },
+        {
+            "subject": "Louis Nicolas Vauquelin",
+            "object": "French"
+        },
+        {
+            "subject": "Jacques Laffitte",
+            "object": "French"
+        },
+        {
+            "subject": "Joost Swarte",
+            "object": "Dutch"
+        },
+        {
+            "subject": "Marie-Anne Chazel",
+            "object": "French"
+        },
+        {
+            "subject": "Armand Lunel",
+            "object": "French"
+        },
+        {
+            "subject": "Marie Dorval",
+            "object": "French"
+        },
+        {
+            "subject": "Paul Pellisson",
+            "object": "French"
+        },
+        {
+            "subject": "Pierre Louis Prieur",
+            "object": "French"
+        },
+        {
+            "subject": "Fernand Gravey",
+            "object": "French"
+        },
+        {
+            "subject": "Marcel Dassault",
+            "object": "French"
+        },
+        {
+            "subject": "Agoston Haraszthy",
+            "object": "Hungarian"
+        },
+        {
+            "subject": "Armand Trousseau",
+            "object": "French"
+        },
+        {
+            "subject": "Michel Saint-Denis",
+            "object": "French"
+        },
+        {
+            "subject": "Pierre Emmanuel",
+            "object": "French"
+        },
+        {
+            "subject": "Josiane Balasko",
+            "object": "French"
+        },
+        {
+            "subject": "Jean Rostand",
+            "object": "French"
+        },
+        {
+            "subject": "Vladimir Bekhterev",
+            "object": "Russian"
+        },
+        {
+            "subject": "Anna Kournikova",
+            "object": "Russian"
+        },
+        {
+            "subject": "Ferdinand-Alphonse Hamelin",
+            "object": "French"
+        },
+        {
+            "subject": "Jean-Paul Belmondo",
+            "object": "French"
+        },
+        {
+            "subject": "Pierre Fresnay",
+            "object": "French"
+        },
+        {
+            "subject": "Jean-Christophe Bouvet",
+            "object": "French"
+        },
+        {
+            "subject": "Victorien Sardou",
+            "object": "French"
+        },
+        {
+            "subject": "Alexandre de Laborde",
+            "object": "French"
+        },
+        {
+            "subject": "Henry de Montherlant",
+            "object": "French"
+        },
+        {
+            "subject": "Jean Lefebvre",
+            "object": "French"
+        },
+        {
+            "subject": "Georges Bernier",
+            "object": "French"
+        }
+    ]
+}

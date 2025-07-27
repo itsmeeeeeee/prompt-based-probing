@@ -1,0 +1,596 @@
+{
+  "name": "superhero archnemesis",
+  "prompt_templates": [
+    "The superhero archnemesis of {} is",
+    "{} is the main enemy of ",
+    "{}'s nemesis is "
+  ],
+  "prompt_templates_zs": [
+    "Who is the superhero archnemesis of {}? It is",
+    "The name of the superhero archnemesis of {} is"
+  ],
+  "properties": {
+    "relation_type": "factual",
+    "domain_name": "superhero",
+    "range_name": "superhero",
+    "symmetric": false
+  },
+  "samples": [
+    {
+      "subject": "Superman",
+      "object": "Lex Luthor",
+      "subject_id": "Q79015",
+      "object_id": "Q694790"
+    },
+    {
+      "subject": "Batman",
+      "object": "The Joker",
+      "subject_id": "Q2695156",
+      "object_id": "Q217533"
+    },
+    {
+      "subject": "Wonder Woman",
+      "object": "Cheetah",
+      "subject_id": "Q10853350",
+      "object_id": "Q23907"
+    },
+    {
+      "subject": "Spider-Man",
+      "object": "Green Goblin",
+      "subject_id": "Q79037",
+      "object_id": "Q735721"
+    },
+    {
+      "subject": "The Flash",
+      "object": "Reverse-Flash",
+      "subject_id": "Q23562553",
+      "object_id": "Q2354107"
+    },
+    {
+      "subject": "Green Lantern",
+      "object": "Sinestro",
+      "subject_id": "Q32884",
+      "object_id": "Q2279525"
+    },
+    {
+      "subject": "Captain America",
+      "object": "Red Skull",
+      "subject_id": "Q190679",
+      "object_id": "Q2034529"
+    },
+    {
+      "subject": "Iron Man",
+      "object": "The Mandarin",
+      "subject_id": "Q192724",
+      "object_id": "Q3285830"
+    },
+    {
+      "subject": "Thor",
+      "object": "Loki",
+      "subject_id": "Q2428812",
+      "object_id": "Q1147326"
+    },
+    {
+      "subject": "Black Panther",
+      "object": "Killmonger",
+      "subject_id": "Q4921421",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Doctor Strange",
+      "object": "Baron Mordo",
+      "subject_id": "Q18406872",
+      "object_id": "Q2435970"
+    },
+    {
+      "subject": "Aquaman",
+      "object": "Black Manta",
+      "subject_id": "Q623059",
+      "object_id": "Q2538991"
+    },
+    {
+      "subject": "Hawkeye",
+      "object": "Crossfire",
+      "subject_id": "Q19095",
+      "object_id": "Q97188012"
+    },
+    {
+      "subject": "Daredevil",
+      "object": "Kingpin",
+      "subject_id": "Q327553",
+      "object_id": "Q1753322"
+    },
+    {
+      "subject": "The Hulk",
+      "object": "The Abomination",
+      "subject_id": "Q110255461",
+      "object_id": "Q16601035"
+    },
+    {
+      "subject": "Cyclops",
+      "object": "Mister Sinister",
+      "subject_id": "Q1421606",
+      "object_id": "Q302534"
+    },
+    {
+      "subject": "Wolverine",
+      "object": "Sabretooth",
+      "subject_id": "Q112110379",
+      "object_id": "Q431862"
+    },
+    {
+      "subject": "Ant-Man",
+      "object": "Yellowjacket",
+      "subject_id": "Q5901134",
+      "object_id": "Q18157108"
+    },
+    {
+      "subject": "The Wasp",
+      "object": "Whirlwind",
+      "subject_id": "Q55635616",
+      "object_id": "Q104564518"
+    },
+    {
+      "subject": "Captain Marvel",
+      "object": "Yon-Rogg",
+      "subject_id": "Q23781129",
+      "object_id": "Q66133436"
+    },
+    {
+      "subject": "Deadpool",
+      "object": "T-Ray",
+      "subject_id": "Q19347291",
+      "object_id": "Q20979412"
+    },
+    {
+      "subject": "Nightwing",
+      "object": "Deathstroke",
+      "subject_id": "Q686623",
+      "object_id": "Q1181328"
+    },
+    {
+      "subject": "Batgirl",
+      "object": "James Gordon Jr.",
+      "subject_id": "Q753713",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Raven",
+      "object": "Trigon",
+      "subject_id": "Q16881896",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Starfire",
+      "object": "Blackfire",
+      "subject_id": "Q947384",
+      "object_id": "Q643208"
+    },
+    {
+      "subject": "Beast Boy",
+      "object": "The Brain",
+      "subject_id": "Q575227",
+      "object_id": "Q1170481"
+    },
+    {
+      "subject": "Supergirl",
+      "object": "Reign",
+      "subject_id": "Q18844732",
+      "object_id": "Q7310096"
+    },
+    {
+      "subject": "Black Widow",
+      "object": "Taskmaster",
+      "subject_id": "Q23894626",
+      "object_id": "Q30604069"
+    },
+    {
+      "subject": "Silver Surfer",
+      "object": "Galactus",
+      "subject_id": "Q95153",
+      "object_id": "Q1429836"
+    },
+    {
+      "subject": "Punisher",
+      "object": "Jigsaw",
+      "subject_id": "Q96419213",
+      "object_id": "Q6192387"
+    },
+    {
+      "subject": "Luke Cage",
+      "object": "Diamondback",
+      "subject_id": "Q20646602",
+      "object_id": "Q2555973"
+    },
+    {
+      "subject": "Ghost Rider",
+      "object": "Mephisto",
+      "subject_id": "Q41754",
+      "object_id": "Q3306171"
+    },
+    {
+      "subject": "Jessica Jones",
+      "object": "Kilgrave",
+      "subject_id": "Q104572099",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Green Arrow",
+      "object": "Malcolm Merlyn",
+      "subject_id": "Q611993",
+      "object_id": "Q87752239"
+    },
+    {
+      "subject": "Hawkman",
+      "object": "Shadow Thief",
+      "subject_id": "Q2359610",
+      "object_id": "Q3545634"
+    },
+    {
+      "subject": "Martian Manhunter",
+      "object": "Despero",
+      "subject_id": "Q675179",
+      "object_id": "Q3024568"
+    },
+    {
+      "subject": "Black Canary",
+      "object": "White Canary",
+      "subject_id": "Q599124",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Storm",
+      "object": "Shadow King",
+      "subject_id": "Q16883888",
+      "object_id": "Q124050204"
+    },
+    {
+      "subject": "Human Torch",
+      "object": "Doctor Doom",
+      "subject_id": "Q584585",
+      "object_id": "Q430178"
+    },
+    {
+      "subject": "Mr. Fantastic",
+      "object": "Doctor Doom",
+      "subject_id": "Q108657412",
+      "object_id": "Q430178"
+    },
+    {
+      "subject": "Invisible Woman",
+      "object": "Doctor Doom",
+      "subject_id": "Q510450",
+      "object_id": "Q430178"
+    },
+    {
+      "subject": "The Thing",
+      "object": "Doctor Doom",
+      "subject_id": "Q210756",
+      "object_id": "Q430178"
+    },
+    {
+      "subject": "Ms. Marvel",
+      "object": "Mystique",
+      "subject_id": "Q84712813",
+      "object_id": "Q133884244"
+    },
+    {
+      "subject": "Shazam",
+      "object": "Black Adam",
+      "subject_id": "Q1195495",
+      "object_id": "Q28657013"
+    },
+    {
+      "subject": "Blue Beetle",
+      "object": "Maxwell Lord",
+      "subject_id": "Q107808351",
+      "object_id": "Q95618129"
+    },
+    {
+      "subject": "Zatanna",
+      "object": "Felix Faust",
+      "subject_id": "Q860922",
+      "object_id": "Q1771345"
+    },
+    {
+      "subject": "Constantine",
+      "object": "Nergal",
+      "subject_id": "Q19327451",
+      "object_id": "Q468912"
+    },
+    {
+      "subject": "Swamp Thing",
+      "object": "Arcane",
+      "subject_id": "Q7653353",
+      "object_id": "Q124063111"
+    },
+    {
+      "subject": "Robin",
+      "object": "Two-Face",
+      "subject_id": "Q1158139",
+      "object_id": "Q295599"
+    },
+    {
+      "subject": "Catwoman",
+      "object": "Black Mask",
+      "subject_id": "Q92776707",
+      "object_id": "Q880396"
+    },
+    {
+      "subject": "Rorschach",
+      "object": "Ozymandias",
+      "subject_id": "Q115118936",
+      "object_id": "Q662166"
+    },
+    {
+      "subject": "Moon Knight",
+      "object": "Bushman",
+      "subject_id": "Q84712802",
+      "object_id": "Q28437033"
+    },
+    {
+      "subject": "Hawkgirl",
+      "object": "Shadow Thief",
+      "subject_id": "Q2210354",
+      "object_id": "Q3545634"
+    },
+    {
+      "subject": "She-Hulk",
+      "object": "Titania",
+      "subject_id": "Q677627",
+      "object_id": "Q3322"
+    },
+    {
+      "subject": "Red Hood",
+      "object": "The Joker",
+      "subject_id": "Q2143880",
+      "object_id": "Q217533"
+    },
+    {
+      "subject": "Dr. Fate",
+      "object": "Wotan",
+      "subject_id": "N/A",
+      "object_id": "Q14754536"
+    },
+    {
+      "subject": "Plastic Man",
+      "object": "Dr. Dome",
+      "subject_id": "Q746838",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Scarlet Witch",
+      "object": "Morgan Le Fay",
+      "subject_id": "Q929285",
+      "object_id": "Q321305"
+    },
+    {
+      "subject": "Vision",
+      "object": "Ultron",
+      "subject_id": "Q9368919",
+      "object_id": "Q2474195"
+    },
+    {
+      "subject": "Power Girl",
+      "object": "Ultra-Humanite",
+      "subject_id": "Q948668",
+      "object_id": "Q2555492"
+    },
+    {
+      "subject": "Mystique",
+      "object": "Bishop",
+      "subject_id": "Q133884244",
+      "object_id": "Q29182"
+    },
+    {
+      "subject": "Shadowcat",
+      "object": "White Queen",
+      "subject_id": "N/A",
+      "object_id": "Q10357223"
+    },
+    {
+      "subject": "Colossus",
+      "object": "Juggernaut",
+      "subject_id": "Q60374769",
+      "object_id": "Q12027152"
+    },
+    {
+      "subject": "Magneto",
+      "object": "Professor X",
+      "subject_id": "Q112110384",
+      "object_id": "Q838076"
+    },
+    {
+      "subject": "Gamora",
+      "object": "Thanos",
+      "subject_id": "Q2721152",
+      "object_id": "Q37123980"
+    },
+    {
+      "subject": "Groot",
+      "object": "Collector",
+      "subject_id": "Q13188347",
+      "object_id": "Q3243461"
+    },
+    {
+      "subject": "Rocket Raccoon",
+      "object": "Collector",
+      "subject_id": "Q638476",
+      "object_id": "Q3243461"
+    },
+    {
+      "subject": "Star-Lord",
+      "object": "Ronan the Accuser",
+      "subject_id": "Q3496918",
+      "object_id": "Q1772041"
+    },
+    {
+      "subject": "Nick Fury",
+      "object": "Baron Strucker",
+      "subject_id": "Q975100",
+      "object_id": "Q576524"
+    },
+    {
+      "subject": "Black Bolt",
+      "object": "Maximus",
+      "subject_id": "Q767453",
+      "object_id": "Q20000647"
+    },
+    {
+      "subject": "Hellboy",
+      "object": "Grigori Rasputin",
+      "subject_id": "Q106589840",
+      "object_id": "Q43989"
+    },
+    {
+      "subject": "Judge Dredd",
+      "object": "Judge Death",
+      "subject_id": "Q1065786",
+      "object_id": "Q6302508"
+    },
+    {
+      "subject": "Teenage Mutant Ninja Turtles",
+      "object": "Shredder",
+      "subject_id": "Q98713259",
+      "object_id": "Q106506359"
+    },
+    {
+      "subject": "Sailor Moon",
+      "object": "Queen Beryl",
+      "subject_id": "Q3461639",
+      "object_id": "Q3423839"
+    },
+    {
+      "subject": "Astro Boy",
+      "object": "Dr. Tenma",
+      "subject_id": "Q673036",
+      "object_id": "Q5304435"
+    },
+    {
+      "subject": "Goku",
+      "object": "Frieza",
+      "subject_id": "Q2142",
+      "object_id": "Q757313"
+    },
+    {
+      "subject": "Spawn",
+      "object": "Malebolgia",
+      "subject_id": "Q4049863",
+      "object_id": "Q124067767"
+    },
+    {
+      "subject": "Venom",
+      "object": "Carnage",
+      "subject_id": "Q192861",
+      "object_id": "Q122641407"
+    },
+    {
+      "subject": "Elektra",
+      "object": "Bullseye",
+      "subject_id": "Q726251",
+      "object_id": "Q66485959"
+    },
+    {
+      "subject": "Buffy the Vampire Slayer",
+      "object": "The Master",
+      "subject_id": "Q183513",
+      "object_id": "Q122265518"
+    },
+    {
+      "subject": "RoboCop",
+      "object": "Clarence Boddicker",
+      "subject_id": "Q372514",
+      "object_id": "Q20748244"
+    },
+    {
+      "subject": "John Constantine",
+      "object": "First of the Fallen",
+      "subject_id": "Q56227493",
+      "object_id": "Q5454227"
+    },
+    {
+      "subject": "The Tick",
+      "object": "Chairface Chippendale",
+      "subject_id": "Q3523014",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Blade",
+      "object": "Deacon Frost",
+      "subject_id": "Q4923687",
+      "object_id": "Q1748380"
+    },
+    {
+      "subject": "Kick-Ass",
+      "object": "Red Mist",
+      "subject_id": "Q2201",
+      "object_id": "Q3562330"
+    },
+    {
+      "subject": "Xena: Warrior Princess",
+      "object": "Callisto",
+      "subject_id": "Q2355229",
+      "object_id": "Q25937107"
+    },
+    {
+      "subject": "Hercules",
+      "object": "Hades",
+      "subject_id": "Q10448",
+      "object_id": "Q59756366"
+    },
+    {
+      "subject": "The Powerpuff Girls",
+      "object": "Mojo Jojo",
+      "subject_id": "Q1236206",
+      "object_id": "Q3253091"
+    },
+    {
+      "subject": "Hellcat",
+      "object": "Mad Dog",
+      "subject_id": "Q122376761",
+      "object_id": "Q6725938"
+    },
+    {
+      "subject": "Moon Girl",
+      "object": "Mel-Varr",
+      "subject_id": "Q6907478",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Captain Planet",
+      "object": "Captain Pollution",
+      "subject_id": "Q12857905",
+      "object_id": "Q84708557"
+    },
+    {
+      "subject": "The Phantom",
+      "object": "The Python",
+      "subject_id": "Q7756817",
+      "object_id": "Q55286100"
+    },
+    {
+      "subject": "Usagi Yojimbo",
+      "object": "Lord Hikiji",
+      "subject_id": "Q76863644",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Kim Possible",
+      "object": "Dr. Drakken",
+      "subject_id": "Q203707",
+      "object_id": "Q1192745"
+    },
+    {
+      "subject": "Ben 10",
+      "object": "Vilgax",
+      "subject_id": "Q63183228",
+      "object_id": "Q3558401"
+    },
+    {
+      "subject": "Scooby-Doo",
+      "object": "Ghost Clown",
+      "subject_id": "Q901323",
+      "object_id": "N/A"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "name": "presidents birth year",
+  "prompt_templates": [
+  {
+    "en": "{} was born in",
+    "de": "{} wurde in geboren",
+    "fr": "{} est né(e) à",
+    "it": "{} è nato/a a",
+    "pt": "{} nasceu em",
+    "hi": "{} का जन्म {} में हुआ था",
+    "es": "{} nació en",
+    "th": "{} เกิดที่"
+  }
+],
+ 
+  "samples": [
+    {
+      "subject": "John Adams",
+      "object": "1735"
+    },
+    {
+      "subject": "Thomas Jefferson",
+      "object": "1743"
+    },
+    {
+      "subject": "James Madison",
+      "object": "1751"
+    },
+    {
+      "subject": "James Monroe",
+      "object": "1758"
+    },
+    {
+      "subject": "John Quincy Adams",
+      "object": "1767"
+    },
+    {
+      "subject": "Andrew Jackson",
+      "object": "1767"
+    },
+    {
+      "subject": "Martin Van Buren",
+      "object": "1782"
+    },
+    {
+      "subject": "William Henry Harrison",
+      "object": "1773"
+    },
+    {
+      "subject": "Richard Nixon",
+      "object": "1913"
+    },
+    {
+      "subject": "John F. Kennedy",
+      "object": "1917"
+    },
+    {
+      "subject": "Richard Nixon",
+      "object": "1913"
+    },
+    {
+      "subject": "Bill Clinton",
+      "object": "1946"
+    },
+    {
+      "subject": "George W. Bush",
+      "object": "1946"
+    },
+    {
+      "subject": "Barack Obama",
+      "object": "1961"
+    },
+    {
+      "subject": "Jimmy Carter ",
+      "object": "1924"
+    },
+    {
+      "subject": "Ronald Reagan",
+      "object": "1911"
+    },
+    {
+      "subject": "George H. W. Bush",
+      "object": "1924"
+    },
+    {
+      "subject": "Joe Biden",
+      "object": "1942"
+    },
+    {
+      "subject": "Franklin D. Roosevelt",
+      "object": "1882"
+    }
+  ],
+  "prompt_templates_de": [
+    "{} wurde geboren in"
+  ],
+  "prompt_templates_fr": [
+    "{} est né à"
+  ],
+  "prompt_templates_it": [
+    "{} è nato a"
+  ],
+  "prompt_templates_pt": [
+    "{} nasceu em"
+  ],
+  "prompt_templates_hi": [
+    "{} का जन्म हुआ था"
+  ],
+  "prompt_templates_es": [
+    "{} nació en"
+  ],
+  "prompt_templates_th": [
+    "{} กำเนิดใน"
+  ]
+}

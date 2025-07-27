@@ -1,0 +1,284 @@
+{
+  "name": "pokemon evolutions",
+  "prompt_templates": [
+    "{} evolves into a",
+    "{} transforms into ",
+    "The evolution of {} is"
+  ],
+  "prompt_templates_zs": [
+    "What does {} evolve into? It evolves into a",
+    "The evolved form of {} is called a"
+  ],
+  "properties": {
+    "relation_type": "factual",
+    "domain_name": "pokemon",
+    "range_name": "pokemon",
+    "symmetric": false
+  },
+  "samples": [
+    {
+      "subject": "Bulbasaur",
+      "object": "Ivysaur",
+      "subject_id": "Q847571",
+      "object_id": "Q1636903"
+    },
+    {
+      "subject": "Charmander",
+      "object": "Charmeleon",
+      "subject_id": "Q3178753",
+      "object_id": "Q1637365"
+    },
+    {
+      "subject": "Squirtle",
+      "object": "Wartortle",
+      "subject_id": "Q845294",
+      "object_id": "Q1752151"
+    },
+    {
+      "subject": "Pikachu",
+      "object": "Raichu",
+      "subject_id": "Q9351",
+      "object_id": "Q1647331"
+    },
+    {
+      "subject": "Oddish",
+      "object": "Gloom",
+      "subject_id": "Q2002874",
+      "object_id": "Q5571265"
+    },
+    {
+      "subject": "Venonat",
+      "object": "Venomoth",
+      "subject_id": "Q2486048",
+      "object_id": "Q2624812"
+    },
+    {
+      "subject": "Diglett",
+      "object": "Dugtrio",
+      "subject_id": "Q2084464",
+      "object_id": "Q2632419"
+    },
+    {
+      "subject": "Meowth",
+      "object": "Persian",
+      "subject_id": "Q877650",
+      "object_id": "Q9168"
+    },
+    {
+      "subject": "Psyduck",
+      "object": "Golduck",
+      "subject_id": "Q2089060",
+      "object_id": "Q2346528"
+    },
+    {
+      "subject": "Mankey",
+      "object": "Primeape",
+      "subject_id": "Q37271542",
+      "object_id": "Q2343485"
+    },
+    {
+      "subject": "Growlithe",
+      "object": "Arcanine",
+      "subject_id": "Q2312415",
+      "object_id": "Q2486279"
+    },
+    {
+      "subject": "Poliwag",
+      "object": "Poliwhirl",
+      "subject_id": "Q2312199",
+      "object_id": "Q2346542"
+    },
+    {
+      "subject": "Abra",
+      "object": "Kadabra",
+      "subject_id": "Q11268253",
+      "object_id": "Q2269206"
+    },
+    {
+      "subject": "Machop",
+      "object": "Machoke",
+      "subject_id": "Q2312891",
+      "object_id": "Q2482234"
+    },
+    {
+      "subject": "Caterpie",
+      "object": "Metapod",
+      "subject_id": "Q1651039",
+      "object_id": "Q1646079"
+    },
+    {
+      "subject": "Weedle",
+      "object": "Kakuna",
+      "subject_id": "Q1778712",
+      "object_id": "Q18100050"
+    },
+    {
+      "subject": "Pidgey",
+      "object": "Pidgeotto",
+      "subject_id": "Q1769892",
+      "object_id": "Q2090182"
+    },
+    {
+      "subject": "Rattata",
+      "object": "Raticate",
+      "subject_id": "Q2252880",
+      "object_id": "Q2265115"
+    },
+    {
+      "subject": "Spearow",
+      "object": "Fearow",
+      "subject_id": "Q2021999",
+      "object_id": "Q2087817"
+    },
+    {
+      "subject": "Ekans",
+      "object": "Arbok",
+      "subject_id": "Q1266064",
+      "object_id": "Q1289969"
+    },
+    {
+      "subject": "Sandshrew",
+      "object": "Sandslash",
+      "subject_id": "Q2002398",
+      "object_id": "Q2345521"
+    },
+    {
+      "subject": "Nidoran♀",
+      "object": "Nidorina",
+      "subject_id": "Q2725378",
+      "object_id": "Q1998207"
+    },
+    {
+      "subject": "Nidoran♂",
+      "object": "Nidorino",
+      "subject_id": "Q2555228",
+      "object_id": "Q2089008"
+    },
+    {
+      "subject": "Zubat",
+      "object": "Golbat",
+      "subject_id": "Q2279803",
+      "object_id": "Q2345661"
+    },
+    {
+      "subject": "Bellsprout",
+      "object": "Weepinbell",
+      "subject_id": "Q2362097",
+      "object_id": "Q2485997"
+    },
+    {
+      "subject": "Tentacool",
+      "object": "Tentacruel",
+      "subject_id": "Q2363353",
+      "object_id": "Q2345553"
+    },
+    {
+      "subject": "Geodude",
+      "object": "Graveler",
+      "subject_id": "Q2366194",
+      "object_id": "Q2704704"
+    },
+    {
+      "subject": "Ponyta",
+      "object": "Rapidash",
+      "subject_id": "Q2019398",
+      "object_id": "Q2343449"
+    },
+    {
+      "subject": "Slowpoke",
+      "object": "Slowbro",
+      "subject_id": "Q2312152",
+      "object_id": "Q2485973"
+    },
+    {
+      "subject": "Magnemite",
+      "object": "Magneton",
+      "subject_id": "Q2488150",
+      "object_id": "Q2483469"
+    },
+    {
+      "subject": "Doduo",
+      "object": "Dodrio",
+      "subject_id": "Q2487549",
+      "object_id": "Q2739048"
+    },
+    {
+      "subject": "Seel",
+      "object": "Dewgong",
+      "subject_id": "Q37434402",
+      "object_id": "Q2337491"
+    },
+    {
+      "subject": "Grimer",
+      "object": "Muk",
+      "subject_id": "Q2363316",
+      "object_id": "Q134443508"
+    },
+    {
+      "subject": "Shellder",
+      "object": "Cloyster",
+      "subject_id": "Q2312221",
+      "object_id": "Q2363270"
+    },
+    {
+      "subject": "Gastly",
+      "object": "Haunter",
+      "subject_id": "Q2312388",
+      "object_id": "Q2264879"
+    },
+    {
+      "subject": "Drowzee",
+      "object": "Hypno",
+      "subject_id": "Q3715485",
+      "object_id": "Q3787897"
+    },
+    {
+      "subject": "Krabby",
+      "object": "Kingler",
+      "subject_id": "Q2312359",
+      "object_id": "Q1560547"
+    },
+    {
+      "subject": "Voltorb",
+      "object": "Electrode",
+      "subject_id": "Q2488127",
+      "object_id": "Q176140"
+    },
+    {
+      "subject": "Exeggcute",
+      "object": "Exeggutor",
+      "subject_id": "Q2488669",
+      "object_id": "Q10423175"
+    },
+    {
+      "subject": "Cubone",
+      "object": "Marowak",
+      "subject_id": "Q2738893",
+      "object_id": "Q2721419"
+    },
+    {
+      "subject": "Koffing",
+      "object": "Weezing",
+      "subject_id": "Q2084869",
+      "object_id": "Q2632815"
+    },
+    {
+      "subject": "Rhyhorn",
+      "object": "Rhydon",
+      "subject_id": "Q2633248",
+      "object_id": "Q2704980"
+    },
+    {
+      "subject": "Horsea",
+      "object": "Seadra",
+      "subject_id": "Q2485675",
+      "object_id": "Q2608251"
+    },
+    {
+      "subject": "Goldeen",
+      "object": "Seaking",
+      "subject_id": "Q2486013",
+      "object_id": "Q2601709"
+    }
+  ]
+}

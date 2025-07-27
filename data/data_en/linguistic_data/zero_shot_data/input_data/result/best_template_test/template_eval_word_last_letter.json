@@ -1,0 +1,26 @@
+{
+  "relation": "word_last_letter",
+  "template_scores": {
+    "{} ends with the letter": {
+      "average_first_token_prob": 0.012943505251556017,
+      "reliability": 0.0995850622406639,
+      "overall_score": 0.0012889797760885658
+    },
+    "What letter does {} end with?": {
+      "average_first_token_prob": 0.0,
+      "reliability": 0.0,
+      "overall_score": 0.0
+    },
+    "Identify the last letter of the word {}.": {
+      "average_first_token_prob": 0.0,
+      "reliability": 0.0,
+      "overall_score": 0.0
+    }
+  },
+  "best_template": "{} ends with the letter",
+  "best_template_metrics": {
+    "average_first_token_prob": 0.012943505251556017,
+    "reliability": 0.0995850622406639,
+    "overall_score": 0.0012889797760885658
+  }
+}

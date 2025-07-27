@@ -1,0 +1,972 @@
+{
+    "name": "word last letter_7shot_perm4",
+    "prompt_templates": [
+        "MESSER endet mit dem Buchstaben R.\nFEUER endet mit dem Buchstaben R.\nNACHT endet mit dem Buchstaben T.\nHÜGEL endet mit dem Buchstaben L.\nSPIEGEL endet mit dem Buchstaben L.\nLAMM endet mit dem Buchstaben M.\nGELEE endet mit dem Buchstaben E.\n{} endet mit dem Buchstaben"
+    ],
+    "samples": [
+        {
+            "subject": "BIEGUNG",
+            "object": "G"
+        },
+        {
+            "subject": "SCHWER",
+            "object": "R"
+        },
+        {
+            "subject": "SCHÖN",
+            "object": "N"
+        },
+        {
+            "subject": "FRAGEN",
+            "object": "N"
+        },
+        {
+            "subject": "ERWEITERN",
+            "object": "N"
+        },
+        {
+            "subject": "VORDERSEITE",
+            "object": "E"
+        },
+        {
+            "subject": "ZÄH",
+            "object": "H"
+        },
+        {
+            "subject": "ART",
+            "object": "T"
+        },
+        {
+            "subject": "GEHE",
+            "object": "E"
+        },
+        {
+            "subject": "CHIRURGIE",
+            "object": "E"
+        },
+        {
+            "subject": "VERGANGENHEIT",
+            "object": "T"
+        },
+        {
+            "subject": "INNEN",
+            "object": "N"
+        },
+        {
+            "subject": "EINGEBEN",
+            "object": "N"
+        },
+        {
+            "subject": "BEGINN",
+            "object": "N"
+        },
+        {
+            "subject": "VERSCHWINDEN",
+            "object": "N"
+        },
+        {
+            "subject": "HERBST",
+            "object": "T"
+        },
+        {
+            "subject": "VERRÜCKT",
+            "object": "T"
+        },
+        {
+            "subject": "VERGESSEN",
+            "object": "N"
+        },
+        {
+            "subject": "STIRNRUNZELN",
+            "object": "N"
+        },
+        {
+            "subject": "GROSSARTIG",
+            "object": "G"
+        },
+        {
+            "subject": "LERNEN",
+            "object": "N"
+        },
+        {
+            "subject": "GLATT",
+            "object": "T"
+        },
+        {
+            "subject": "BREIT",
+            "object": "T"
+        },
+        {
+            "subject": "FLUGZEUG",
+            "object": "G"
+        },
+        {
+            "subject": "FALSCH",
+            "object": "H"
+        },
+        {
+            "subject": "TANZ",
+            "object": "Z"
+        },
+        {
+            "subject": "GEWINN",
+            "object": "N"
+        },
+        {
+            "subject": "GLAUBEN",
+            "object": "N"
+        },
+        {
+            "subject": "KONZERT",
+            "object": "T"
+        },
+        {
+            "subject": "FAHRRAD",
+            "object": "D"
+        },
+        {
+            "subject": "ALT",
+            "object": "T"
+        },
+        {
+            "subject": "BIBLIOTHEK",
+            "object": "K"
+        },
+        {
+            "subject": "ANRUF",
+            "object": "F"
+        },
+        {
+            "subject": "GEBEN",
+            "object": "N"
+        },
+        {
+            "subject": "WISSEN",
+            "object": "N"
+        },
+        {
+            "subject": "KLETTERN",
+            "object": "N"
+        },
+        {
+            "subject": "FRISCH",
+            "object": "H"
+        },
+        {
+            "subject": "SCHAUEN",
+            "object": "N"
+        },
+        {
+            "subject": "ALT",
+            "object": "T"
+        },
+        {
+            "subject": "FITNESSSTUDIO",
+            "object": "O"
+        },
+        {
+            "subject": "HOCH",
+            "object": "H"
+        },
+        {
+            "subject": "ENTSCHEIDEN",
+            "object": "N"
+        },
+        {
+            "subject": "WÄHLEN",
+            "object": "N"
+        },
+        {
+            "subject": "WOLLEN",
+            "object": "N"
+        },
+        {
+            "subject": "LAUT",
+            "object": "T"
+        },
+        {
+            "subject": "GEHEN",
+            "object": "N"
+        },
+        {
+            "subject": "BOX",
+            "object": "X"
+        },
+        {
+            "subject": "UNHÖFLICH",
+            "object": "H"
+        },
+        {
+            "subject": "MASCHINE",
+            "object": "E"
+        },
+        {
+            "subject": "RUHE",
+            "object": "E"
+        },
+        {
+            "subject": "RECHT",
+            "object": "T"
+        },
+        {
+            "subject": "EINSCHLIESSEN",
+            "object": "N"
+        },
+        {
+            "subject": "FALSCH",
+            "object": "H"
+        },
+        {
+            "subject": "FLÜSTERN",
+            "object": "N"
+        },
+        {
+            "subject": "TIEF",
+            "object": "F"
+        },
+        {
+            "subject": "FILM",
+            "object": "M"
+        },
+        {
+            "subject": "LACHEN",
+            "object": "N"
+        },
+        {
+            "subject": "SAUER",
+            "object": "R"
+        },
+        {
+            "subject": "SEGNEN",
+            "object": "N"
+        },
+        {
+            "subject": "SCHMUTZIG",
+            "object": "G"
+        },
+        {
+            "subject": "KLEIN",
+            "object": "N"
+        },
+        {
+            "subject": "BAUEN",
+            "object": "N"
+        },
+        {
+            "subject": "BILDUNG",
+            "object": "G"
+        },
+        {
+            "subject": "MÖGEN",
+            "object": "N"
+        },
+        {
+            "subject": "BRAUCHEN",
+            "object": "N"
+        },
+        {
+            "subject": "HART",
+            "object": "T"
+        },
+        {
+            "subject": "BEENDEN",
+            "object": "N"
+        },
+        {
+            "subject": "BRINGEN",
+            "object": "N"
+        },
+        {
+            "subject": "TRAURIG",
+            "object": "G"
+        },
+        {
+            "subject": "SCHLECHT",
+            "object": "T"
+        },
+        {
+            "subject": "FAUL",
+            "object": "L"
+        },
+        {
+            "subject": "ZUSAMMEN",
+            "object": "N"
+        },
+        {
+            "subject": "KURZ",
+            "object": "Z"
+        },
+        {
+            "subject": "SPRINGEN",
+            "object": "N"
+        },
+        {
+            "subject": "SOFTWARE",
+            "object": "E"
+        },
+        {
+            "subject": "NASS",
+            "object": "S"
+        },
+        {
+            "subject": "WAHR",
+            "object": "R"
+        },
+        {
+            "subject": "SCHLACHT",
+            "object": "T"
+        },
+        {
+            "subject": "BEIFALL",
+            "object": "L"
+        },
+        {
+            "subject": "EINFACH",
+            "object": "H"
+        },
+        {
+            "subject": "LANGSAM",
+            "object": "M"
+        },
+        {
+            "subject": "VOLL",
+            "object": "L"
+        },
+        {
+            "subject": "LICHT",
+            "object": "T"
+        },
+        {
+            "subject": "KLAVIER",
+            "object": "R"
+        },
+        {
+            "subject": "SCHREIBEN",
+            "object": "N"
+        },
+        {
+            "subject": "ESSEN",
+            "object": "N"
+        },
+        {
+            "subject": "FOLGEN",
+            "object": "N"
+        },
+        {
+            "subject": "SANFT",
+            "object": "T"
+        },
+        {
+            "subject": "DENKEN",
+            "object": "N"
+        },
+        {
+            "subject": "DRAMA",
+            "object": "A"
+        },
+        {
+            "subject": "VERSTEHEN",
+            "object": "N"
+        },
+        {
+            "subject": "KAUFEN",
+            "object": "N"
+        },
+        {
+            "subject": "DRÜCKEN",
+            "object": "N"
+        },
+        {
+            "subject": "KALT",
+            "object": "T"
+        },
+        {
+            "subject": "JA",
+            "object": "A"
+        },
+        {
+            "subject": "TROCKEN",
+            "object": "N"
+        },
+        {
+            "subject": "FREUNDLICH",
+            "object": "H"
+        },
+        {
+            "subject": "SCHÜTTELN",
+            "object": "N"
+        },
+        {
+            "subject": "GLÜCKLICH",
+            "object": "H"
+        },
+        {
+            "subject": "ERINNERN",
+            "object": "N"
+        },
+        {
+            "subject": "TRINKEN",
+            "object": "N"
+        },
+        {
+            "subject": "NEHMEN",
+            "object": "N"
+        },
+        {
+            "subject": "KRANK",
+            "object": "K"
+        },
+        {
+            "subject": "ZIEHEN",
+            "object": "N"
+        },
+        {
+            "subject": "SCHWIMMEN",
+            "object": "N"
+        },
+        {
+            "subject": "SCHNELL",
+            "object": "L"
+        },
+        {
+            "subject": "LIEBE",
+            "object": "E"
+        },
+        {
+            "subject": "HÖFLICH",
+            "object": "H"
+        },
+        {
+            "subject": "KOMMEN",
+            "object": "N"
+        },
+        {
+            "subject": "HÄSSLICH",
+            "object": "H"
+        },
+        {
+            "subject": "LOB",
+            "object": "B"
+        },
+        {
+            "subject": "STARK",
+            "object": "K"
+        },
+        {
+            "subject": "GRAUSAM",
+            "object": "M"
+        },
+        {
+            "subject": "ANZIEHEN",
+            "object": "N"
+        },
+        {
+            "subject": "POSITIV",
+            "object": "V"
+        },
+        {
+            "subject": "LANG",
+            "object": "G"
+        },
+        {
+            "subject": "LEIHEN",
+            "object": "N"
+        },
+        {
+            "subject": "SPEICHERN",
+            "object": "N"
+        },
+        {
+            "subject": "WÜTEND",
+            "object": "D"
+        },
+        {
+            "subject": "MEDIZIN",
+            "object": "N"
+        },
+        {
+            "subject": "TREFFEN",
+            "object": "N"
+        },
+        {
+            "subject": "ARBEIT",
+            "object": "T"
+        },
+        {
+            "subject": "HOCH",
+            "object": "H"
+        },
+        {
+            "subject": "SÜSS",
+            "object": "SS"
+        },
+        {
+            "subject": "SPRECHEN",
+            "object": "N"
+        },
+        {
+            "subject": "HERSTELLUNG",
+            "object": "G"
+        },
+        {
+            "subject": "ANGRIFF",
+            "object": "F"
+        },
+        {
+            "subject": "GROSS",
+            "object": "SS"
+        },
+        {
+            "subject": "EINATMEN",
+            "object": "N"
+        },
+        {
+            "subject": "SICHER",
+            "object": "R"
+        },
+        {
+            "subject": "OFFEN",
+            "object": "N"
+        },
+        {
+            "subject": "ERHÖHEN",
+            "object": "N"
+        },
+        {
+            "subject": "VERSTREUEN",
+            "object": "N"
+        },
+        {
+            "subject": "ANKOMMEN",
+            "object": "N"
+        },
+        {
+            "subject": "HILFE",
+            "object": "E"
+        },
+        {
+            "subject": "VERLASSEN",
+            "object": "N"
+        },
+        {
+            "subject": "SITZEN",
+            "object": "N"
+        },
+        {
+            "subject": "BILLIG",
+            "object": "G"
+        },
+        {
+            "subject": "FRAGE",
+            "object": "E"
+        },
+        {
+            "subject": "TRENNEN",
+            "object": "N"
+        },
+        {
+            "subject": "EINFACH",
+            "object": "H"
+        },
+        {
+            "subject": "SCHNELL",
+            "object": "L"
+        },
+        {
+            "subject": "SCHNEIDEN",
+            "object": "N"
+        },
+        {
+            "subject": "SPIEL",
+            "object": "L"
+        },
+        {
+            "subject": "LEISE",
+            "object": "E"
+        },
+        {
+            "subject": "FREUND",
+            "object": "D"
+        },
+        {
+            "subject": "ARM",
+            "object": "M"
+        },
+        {
+            "subject": "HABEN",
+            "object": "N"
+        },
+        {
+            "subject": "SPRECHEN",
+            "object": "N"
+        },
+        {
+            "subject": "JUNG",
+            "object": "G"
+        },
+        {
+            "subject": "SPIEL",
+            "object": "L"
+        },
+        {
+            "subject": "HELL",
+            "object": "L"
+        },
+        {
+            "subject": "VERLIEREN",
+            "object": "N"
+        },
+        {
+            "subject": "START",
+            "object": "T"
+        },
+        {
+            "subject": "PAUSE",
+            "object": "E"
+        },
+        {
+            "subject": "GESETZ",
+            "object": "Z"
+        },
+        {
+            "subject": "GUT",
+            "object": "T"
+        },
+        {
+            "subject": "EHRLICH",
+            "object": "H"
+        },
+        {
+            "subject": "DUMM",
+            "object": "M"
+        },
+        {
+            "subject": "KLUG",
+            "object": "G"
+        },
+        {
+            "subject": "WEISE",
+            "object": "E"
+        },
+        {
+            "subject": "SCHLIESSEN",
+            "object": "N"
+        },
+        {
+            "subject": "LESEN",
+            "object": "N"
+        },
+        {
+            "subject": "STUMPF",
+            "object": "F"
+        },
+        {
+            "subject": "SCHÜCHTERN",
+            "object": "N"
+        },
+        {
+            "subject": "DUNKEL",
+            "object": "L"
+        },
+        {
+            "subject": "DÜNN",
+            "object": "N"
+        },
+        {
+            "subject": "WÜRZIG",
+            "object": "G"
+        },
+        {
+            "subject": "NEU",
+            "object": "U"
+        },
+        {
+            "subject": "FANGEN",
+            "object": "N"
+        },
+        {
+            "subject": "HASS",
+            "object": "S"
+        },
+        {
+            "subject": "ERSTELLEN",
+            "object": "N"
+        },
+        {
+            "subject": "VERSUCH",
+            "object": "H"
+        },
+        {
+            "subject": "BAUERNHOF",
+            "object": "F"
+        },
+        {
+            "subject": "GROSS",
+            "object": "SS"
+        },
+        {
+            "subject": "KLEIN",
+            "object": "N"
+        },
+        {
+            "subject": "SCHWEBEN",
+            "object": "N"
+        },
+        {
+            "subject": "STEHEN",
+            "object": "N"
+        },
+        {
+            "subject": "GROSS",
+            "object": "SS"
+        },
+        {
+            "subject": "WINZIG",
+            "object": "G"
+        },
+        {
+            "subject": "WEBSEITE",
+            "object": "E"
+        },
+        {
+            "subject": "ERFOLGEN",
+            "object": "N"
+        },
+        {
+            "subject": "DICK",
+            "object": "K"
+        },
+        {
+            "subject": "WÜTEND",
+            "object": "D"
+        },
+        {
+            "subject": "UHRZEIGERSINN",
+            "object": "N"
+        },
+        {
+            "subject": "ÄNDERUNG",
+            "object": "G"
+        },
+        {
+            "subject": "ANSTIEG",
+            "object": "G"
+        },
+        {
+            "subject": "MACHEN",
+            "object": "N"
+        },
+        {
+            "subject": "NIEDRIG",
+            "object": "G"
+        },
+        {
+            "subject": "TRAGEN",
+            "object": "N"
+        },
+        {
+            "subject": "TUN",
+            "object": "N"
+        },
+        {
+            "subject": "CODE",
+            "object": "E"
+        },
+        {
+            "subject": "HEFTIG",
+            "object": "G"
+        },
+        {
+            "subject": "SAUBER",
+            "object": "R"
+        },
+        {
+            "subject": "GRABEN",
+            "object": "N"
+        },
+        {
+            "subject": "STUDIE",
+            "object": "E"
+        },
+        {
+            "subject": "FAHREN",
+            "object": "N"
+        },
+        {
+            "subject": "TREFFER",
+            "object": "R"
+        },
+        {
+            "subject": "WEINEN",
+            "object": "N"
+        },
+        {
+            "subject": "LEIHEN",
+            "object": "N"
+        },
+        {
+            "subject": "LAUFEN",
+            "object": "N"
+        },
+        {
+            "subject": "HUNGRIG",
+            "object": "G"
+        },
+        {
+            "subject": "GERADE",
+            "object": "E"
+        },
+        {
+            "subject": "BUCH",
+            "object": "H"
+        },
+        {
+            "subject": "SCHIFF",
+            "object": "F"
+        },
+        {
+            "subject": "BEKOMMEN",
+            "object": "N"
+        },
+        {
+            "subject": "LEBEN",
+            "object": "N"
+        },
+        {
+            "subject": "UNORDENTLICH",
+            "object": "H"
+        },
+        {
+            "subject": "WILD",
+            "object": "D"
+        },
+        {
+            "subject": "VERWALTEN",
+            "object": "N"
+        },
+        {
+            "subject": "AKZEPTIEREN",
+            "object": "N"
+        },
+        {
+            "subject": "GESUND",
+            "object": "D"
+        },
+        {
+            "subject": "HÖREN",
+            "object": "N"
+        },
+        {
+            "subject": "FINDEN",
+            "object": "N"
+        },
+        {
+            "subject": "FLIEGE",
+            "object": "E"
+        },
+        {
+            "subject": "ENG",
+            "object": "G"
+        },
+        {
+            "subject": "FLACH",
+            "object": "H"
+        },
+        {
+            "subject": "MOTOR",
+            "object": "R"
+        },
+        {
+            "subject": "WISSENSCHAFT",
+            "object": "T"
+        },
+        {
+            "subject": "VERBINDEN",
+            "object": "N"
+        },
+        {
+            "subject": "GERICHT",
+            "object": "T"
+        },
+        {
+            "subject": "LEGEN",
+            "object": "N"
+        },
+        {
+            "subject": "AUTO",
+            "object": "O"
+        },
+        {
+            "subject": "TAG",
+            "object": "G"
+        },
+        {
+            "subject": "BAU",
+            "object": "U"
+        },
+        {
+            "subject": "SEHEN",
+            "object": "N"
+        },
+        {
+            "subject": "ENTWURF",
+            "object": "F"
+        },
+        {
+            "subject": "LUSTIG",
+            "object": "G"
+        },
+        {
+            "subject": "WEICH",
+            "object": "H"
+        },
+        {
+            "subject": "LÄCHELN",
+            "object": "N"
+        },
+        {
+            "subject": "REICH",
+            "object": "H"
+        },
+        {
+            "subject": "SAGEN",
+            "object": "N"
+        },
+        {
+            "subject": "HEISS",
+            "object": "SS"
+        },
+        {
+            "subject": "NAHE",
+            "object": "E"
+        },
+        {
+            "subject": "WITZIG",
+            "object": "G"
+        },
+        {
+            "subject": "SCHLAF",
+            "object": "F"
+        },
+        {
+            "subject": "MALEREI",
+            "object": "I"
+        },
+        {
+            "subject": "SCHWACH",
+            "object": "H"
+        },
+        {
+            "subject": "VERGEBEN",
+            "object": "N"
+        },
+        {
+            "subject": "BEDEUTUNG",
+            "object": "G"
+        },
+        {
+            "subject": "TAPFER",
+            "object": "R"
+        }
+    ]
+}

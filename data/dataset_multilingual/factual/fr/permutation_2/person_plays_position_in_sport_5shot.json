@@ -1,0 +1,3816 @@
+{
+    "name": "person_plays_position_in_sport_5shot_perm2",
+    "prompt_templates": [
+        "Dans son sport, Ray Lewis joue en tant que seconde ligne défensive.\nDans son sport, Yadier Molina joue en tant que receveur.\nDans son sport, Toni Kroos joue en tant que milieu de terrain.\nDans son sport, Manuel Neuer joue en tant que gardien de but.\nDans son sport, Patrick Mahomes joue en tant que quarterback.\nDans son sport, {} joue en tant que"
+    ],
+    "samples": [
+        {
+            "subject": "Percy Snow",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Pantelis Kafes",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Ruud Gullit",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Elrio van Heerden",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Lars Ricken",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Tuukka Rask",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Karl Mecklenburg",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Iosif Rotariu",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "John Navarre",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Thurman Munson",
+            "object": "receveur"
+        },
+        {
+            "subject": "Evan Dimas Darmono",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Jonathan Osorio",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Martina Voss-Tecklenburg",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Nigel de Jong",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Corky Miller",
+            "object": "receveur"
+        },
+        {
+            "subject": "Antonio Valencia",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Tarvaris Jackson",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Erik Ersberg",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Kamohelo Mokotjo",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Florent Cuvelier",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Daniel Royer",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Nick Greisen",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Massimo Ficcadenti",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Frank Brimsek",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Mark Visentin",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Damon Huard",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Scot Brantley",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Chase Clement",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Mark Herrmann",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Lalrindika Ralte",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Gianluigi Lentini",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Martin Brodeur",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Casey Matthews",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Trey DePriest",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Jiloan Hamad",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Graham Dorrans",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Jonas Mouton",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Stan Gelbaugh",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Enrico Cucchi",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Teddy Bridgewater",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Thomas von Heesen",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Glenn Hoddle",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Bobby Bell",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Marco Verratti",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Andrew Jacobson",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Robert Griffin III",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Jonathan Goff",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Norm Maracle",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Manuel Ruiz Sosa",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Ivan Gudelj",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Bryan Hughes",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "George Mihai Florescu",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Graham Barrow",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Ricardo Faty",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Marcus Mariota",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Devan Dubnyk",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Gianluca Gaudino",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Andreas Ivanschitz",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Clete Thomas",
+            "object": "joueur de champ extérieur"
+        },
+        {
+            "subject": "Andy Moog",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Conor Thomas",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Wesley Sneijder",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Corey Hirsch",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Drew Stanton",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Angelos Basinas",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Johnny Lujack",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Pascal Leclaire",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Wayne Corden",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Magdi Abdelghani",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Ricardo Ribeiro Fernandes",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Jonathan Quinn",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Browning Nagle",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Earl Morrall",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Gilles Villemure",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Mike Liut",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Gabriel Heinze",
+            "object": "défenseur"
+        },
+        {
+            "subject": "Joe Torre",
+            "object": "receveur"
+        },
+        {
+            "subject": "Lars Bender",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Jim Magilton",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Fabio Pecchia",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Jim Hardy",
+            "object": "quarterback"
+        },
+        {
+            "subject": "John Elway",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Eugeneson Lyngdoh",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Reto Berra",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Michael Garnett",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Thomas \"Hollywood\" Henderson",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Kevin Siegrist",
+            "object": "lanceur"
+        },
+        {
+            "subject": "Joe Magrane",
+            "object": "lanceur"
+        },
+        {
+            "subject": "Mike Garcia",
+            "object": "lanceur"
+        },
+        {
+            "subject": "Wesley Lopes Beltrame",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Jordon Dizon",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Alberto Rivera Pizarro",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Lerin Duarte",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Derrick Brooks",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Joey Gathright",
+            "object": "joueur de champ extérieur"
+        },
+        {
+            "subject": "Bob Allison",
+            "object": "joueur de champ extérieur"
+        },
+        {
+            "subject": "Francis Coquelin",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Gary Kubiak",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Glenn Foley",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Marcus Marek",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Jamal Mahmoud",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Glen Trifiro",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Chandler Harnish",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Johan Gastien",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Mike Stratton",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Markus Halsti",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Claudio Marchisio",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Dan Morgan",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Mario Lessard",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Pontus Wernbloom",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Odise Roshi",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Tim Hiller",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Ron Jaworski",
+            "object": "quarterback"
+        },
+        {
+            "subject": "D'Qwell Jackson",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Steven Nzonzi",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Francisco Liriano",
+            "object": "lanceur"
+        },
+        {
+            "subject": "Mo Lewis",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Edmondo Fabbri",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Giacomo Tedesco",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Ty Detmer",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Luca Vigiani",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Isaac Cuenca",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Kris Griffin",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Ray Nitschke",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Robert Marve",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Rich Gannon",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Ray Lewis",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Altin Lala",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Anders Limpar",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Mesut Bakkal",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Marc Fitzpatrick",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Daniel Gygax",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Buck Martinez",
+            "object": "receveur"
+        },
+        {
+            "subject": "Cory Wade",
+            "object": "lanceur"
+        },
+        {
+            "subject": "Ali Jabbari",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Taylor Heinicke",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Trevor Kidd",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Derek Lowe",
+            "object": "lanceur"
+        },
+        {
+            "subject": "Konstantin Vassiljev",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Jussi Markkanen",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Darren Murphy",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Frank Mobley",
+            "object": "attaquant"
+        },
+        {
+            "subject": "Miguel Jones",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Kailee Wong",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Johnny Unitas",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Tommy Kramer",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Kevin Kampl",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Alex Stalock",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Miguel Batista",
+            "object": "lanceur"
+        },
+        {
+            "subject": "Paul Justin",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Selim Bouadla",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Doriva",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Jeff Deslauriers",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Fernando De Napoli",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Grant Fuhr",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Antonio Comi",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Wade Dubielewicz",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Dan LaCosta",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Todd Marinovich",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Jim Bouton",
+            "object": "lanceur"
+        },
+        {
+            "subject": "Runar Berg",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Lonnie Smith",
+            "object": "joueur de champ extérieur"
+        },
+        {
+            "subject": "Erin Henderson",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Dennis Franklin",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Luis del Sol",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Yohan Cabaye",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Marc Lamothe",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Guy Moussi",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Yannick Cahuzac",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Dan McGwire",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Luke French",
+            "object": "lanceur"
+        },
+        {
+            "subject": "Bruno Conti",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Barry Zito",
+            "object": "lanceur"
+        },
+        {
+            "subject": "Kevin Kolb",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Ken O'Brien",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Ryan Miller",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Johan Santana",
+            "object": "lanceur"
+        },
+        {
+            "subject": "David Rocastle",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Seth Smith",
+            "object": "joueur de champ extérieur"
+        },
+        {
+            "subject": "Kerlon Moura Souza",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Ervin Bulku",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Mehdi Taouil",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Fred Lynn",
+            "object": "joueur de champ extérieur"
+        },
+        {
+            "subject": "Victor Wanyama",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Tommy Taylor",
+            "object": "attaquant"
+        },
+        {
+            "subject": "Milton Blanco",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Mark Malone",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Paul Ince",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Lang Campbell",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Josh Beckett",
+            "object": "lanceur"
+        },
+        {
+            "subject": "Lou Saban",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Raffaele Palladino",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Corey Moore",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Jim Plunkett",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Vadis Odjidja-Ofoe",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Emanuele Giaccherini",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Mike Tomczak",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Gary Beban",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Tony Conigliaro",
+            "object": "joueur de champ extérieur"
+        },
+        {
+            "subject": "Matt Szczur",
+            "object": "joueur de champ extérieur"
+        },
+        {
+            "subject": "Dave Winfield",
+            "object": "joueur de champ extérieur"
+        },
+        {
+            "subject": "Mark McKeever",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Nolan Schaefer",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Gustavo Barros Schelotto",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Heath Shuler",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Riccardo Maspero",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Zito",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Darren Currie",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Michel Platini",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Jeffrey Monakana",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Farhad Majidi",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Viktor Klonaridis",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Maniche",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Pia Wunderlich",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Horace Fairhurst",
+            "object": "défenseur"
+        },
+        {
+            "subject": "Youssouf Hersi",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Keith Peacock",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Jim Edmonds",
+            "object": "joueur de champ extérieur"
+        },
+        {
+            "subject": "Drew Storen",
+            "object": "lanceur"
+        },
+        {
+            "subject": "Scott Allan",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Guilherme Finkler",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Antti Raanta",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Eugen Polanski",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Dont'a Hightower",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Ulrich Le Pen",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Bob Essensa",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Teddy Lehman",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Graham Taylor",
+            "object": "défenseur"
+        },
+        {
+            "subject": "Christian Noboa",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Jason Trusnik",
+            "object": "linebacker"
+        },
+        {
+            "subject": "David Degen",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Curt Flood",
+            "object": "joueur de champ extérieur"
+        },
+        {
+            "subject": "Tsuyoshi Shinjo",
+            "object": "joueur de champ extérieur"
+        },
+        {
+            "subject": "Travis Lulay",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Glenn Roeder",
+            "object": "défenseur"
+        },
+        {
+            "subject": "John Stofa",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Mike Piazza",
+            "object": "receveur"
+        },
+        {
+            "subject": "Massimo Murdocca",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Tommy Harper",
+            "object": "joueur de champ extérieur"
+        },
+        {
+            "subject": "Koke",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Daniele Franceschini",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Arben Minga",
+            "object": "attaquant"
+        },
+        {
+            "subject": "Jeff Kemp",
+            "object": "quarterback"
+        },
+        {
+            "subject": "John Harkes",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Lee Roy Jordan",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Anders Ågnes Konradsen",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Mohammed Noor",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Joanna Lohman",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Brian Hayward",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Diego Fuser",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Sylvain Legwinski",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Zinedine Zidane",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Alessio Tacchinardi",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Akin Ayodele",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Roger Clemens",
+            "object": "lanceur"
+        },
+        {
+            "subject": "Pep Guardiola",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Nenad Bjelica",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Terna Nande",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Hughie Lehman",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Lorenzo Crisetig",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Victor Sikora",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Norm Snead",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Rickey Jackson",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Mark Fitzpatrick",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Drew Henson",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Pat Swilling",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Otto Graham",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Albin Ekdal",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Rich Ingold",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Troy Aikman",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Bobby Garrett",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Kieran Millan",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Alexi Ogando",
+            "object": "lanceur"
+        },
+        {
+            "subject": "Hank Bassen",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Ralph Milne",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Tom De Mul",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Steve DeOssie",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Antonio Cabrini",
+            "object": "défenseur"
+        },
+        {
+            "subject": "Robbie Earle",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Ricky Stanzi",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Joao Plata",
+            "object": "attaquant"
+        },
+        {
+            "subject": "Kyle Farnsworth",
+            "object": "lanceur"
+        },
+        {
+            "subject": "Joe Ferguson",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Randall Cunningham",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Alex Smith",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Bert Jones",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Joe Pisarcik",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Archie Gemmill",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Bettina Wiegmann",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Marco Etcheverry",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Toumani Diagouraga",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Chico Resch",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Greg Maddux",
+            "object": "lanceur"
+        },
+        {
+            "subject": "Jonathan Lucroy",
+            "object": "receveur"
+        },
+        {
+            "subject": "Jake Rudock",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Luis Tiant",
+            "object": "lanceur"
+        },
+        {
+            "subject": "Philip Rivers",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Frederik Andersen",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Scott Darling",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Craig Monroe",
+            "object": "joueur de champ extérieur"
+        },
+        {
+            "subject": "Greg Lloyd, Sr.",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Kevin Eakin",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Giovanni Stroppa",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Karim Abdul Razak",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Paulo Henrique Ganso",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Gary Gardner",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Neil Redfearn",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Ivo Wortmann",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Vince Coleman",
+            "object": "joueur de champ extérieur"
+        },
+        {
+            "subject": "Jorge Luis Pinto",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "John Grabow",
+            "object": "lanceur"
+        },
+        {
+            "subject": "Jacques Plante",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Bob Mason",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Mohd Noor Ali",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Fabian Frei",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Daniele De Rossi",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Johnny Baldwin",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Dick Radatz",
+            "object": "lanceur"
+        },
+        {
+            "subject": "Michel Plasse",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Jim Kelly",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Al Dekdebrun",
+            "object": "quarterback"
+        },
+        {
+            "subject": "O'Brien Schofield",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Frank Pietrangelo",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Dallas Keuchel",
+            "object": "lanceur"
+        },
+        {
+            "subject": "Sebastian Rode",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Marcus Randall",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Sean Salisbury",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Andrew Luck",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Michael Laudrup",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Angelo Crowell",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Anthony Obodai",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Connor Halliday",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Damon Allen",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Paulo Almeida",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Rodney Strasser",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Eric Kresser",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Barry Bannan",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Ryan Giggs",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Emanuele Filippini",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Renato Buso",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Xavier Margairaz",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Brian Cushing",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Kiki Cuyler",
+            "object": "joueur de champ extérieur"
+        },
+        {
+            "subject": "Schellas Hyndman",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Aaron Murray",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Brent Johnson",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Eli Whiteside",
+            "object": "receveur"
+        },
+        {
+            "subject": "Dan LeFevour",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Abou Diaby",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "John Smoltz",
+            "object": "lanceur"
+        },
+        {
+            "subject": "Jacques Cloutier",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Yasmani Grandal",
+            "object": "receveur"
+        },
+        {
+            "subject": "Gilles Meloche",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Bob Lemon",
+            "object": "lanceur"
+        },
+        {
+            "subject": "Zach Mettenberger",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Kendrell Bell",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Gabriele Oriali",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Clint Benedict",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Michael Leighton",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Elvis Grbac",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Pelle Lindbergh",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Joel Obi",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Juninho Paulista",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Casey Weldon",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Mojtaba Jabbari",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Aleksandar Katai",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Jorge Luis Campos",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Charlie Conerly",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Thomas Pinault",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Flemming Nielsen",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Pietro Fanna",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Kevin Thomson",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Dan Bouchard",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Jim Druckenmiller",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Otis Wilson",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Henry Burris",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Dan Alexa",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Simon Rolfes",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "David Batty",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "James Laurinaitis",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Chad Hutchinson",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Thomas Greiss",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Dewey Selmon",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Kelly Hrudey",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Fernando Torres",
+            "object": "attaquant"
+        },
+        {
+            "subject": "Rodney Sneijder",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Jordan Gross",
+            "object": "tackle"
+        },
+        {
+            "subject": "Mike Pawlawski",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Jaroslav Janus",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Ralph Guglielmi",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Sean Burke",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Logan Thomas",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Mike Veisor",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Jason Campbell",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Daniel Berg Hestad",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Pietro Maiellaro",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Ryan Shazier",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Georgios Fotakis",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Jelani Jenkins",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Bryan Robson",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "EJ Manuel",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Todd Helton",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Jamie Storr",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Romuald Boco",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Dennis Shaw",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Carlos Alberto Alves Garcia",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Hong-Chih Kuo",
+            "object": "lanceur"
+        },
+        {
+            "subject": "Kiko Alonso",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Landon Johnson",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Unai Emery",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Suat Kaya",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Dean Furman",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Yannick Bapupa",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Jocelyn Gourvennec",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "May Mahlangu",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Tim Raines",
+            "object": "joueur de champ extérieur"
+        },
+        {
+            "subject": "Colin Kaepernick",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Alex Teixeira",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Ludovic Sylvestre",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Erik Kramer",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Boof Bonser",
+            "object": "lanceur"
+        },
+        {
+            "subject": "Wolfram Wuttke",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Philip Hellquist",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Miralem Sulejmani",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Blaine Lacher",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Davide Fontolan",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Jim Bagby, Sr.",
+            "object": "lanceur"
+        },
+        {
+            "subject": "Yogi Berra",
+            "object": "receveur"
+        },
+        {
+            "subject": "Miguel Marcos Madera",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Leung Tsz Chun",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Rick Monday",
+            "object": "joueur de champ extérieur"
+        },
+        {
+            "subject": "Eugene Lockhart",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Chan Ho Park",
+            "object": "lanceur"
+        },
+        {
+            "subject": "Roy Halladay",
+            "object": "lanceur"
+        },
+        {
+            "subject": "Steve Passmore",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Lamberto Zauli",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Bruce Gradkowski",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Peter Tom Willis",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Paolo Sammarco",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Pirri",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Doug Buffone",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Davide Biondini",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Charlie Gardiner",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Anthony Maggiacomo",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Khaseem Greene",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Axel Witsel",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Nelson Cruz",
+            "object": "joueur de champ extérieur"
+        },
+        {
+            "subject": "Tom Flores",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Tyler Palko",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Vernon Wells",
+            "object": "joueur de champ extérieur"
+        },
+        {
+            "subject": "Jessie Tuggle",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Augustine Azuka Okocha",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Rickey Foggie",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Leon Day",
+            "object": "lanceur"
+        },
+        {
+            "subject": "Giuseppe Furino",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Martin Kuhl",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Don Meredith",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Jonathan Quick",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Shawn Crable",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Manti Te'o",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Juan Fernando Quintero",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Vince Young",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Ernie Whitt",
+            "object": "receveur"
+        },
+        {
+            "subject": "Bill Ranford",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Sinuhe Wallinheimo",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Thierry Omeyer",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Virgil Carter",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Francisco Lima",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Thomas McCollum",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Andrew Walter",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Todd Blackledge",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Renato Augusto",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Matt Herges",
+            "object": "lanceur"
+        },
+        {
+            "subject": "Marquis Cooper",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Logan Verrett",
+            "object": "lanceur"
+        },
+        {
+            "subject": "Erik Komatsu",
+            "object": "joueur de champ extérieur"
+        },
+        {
+            "subject": "Jonathan Santana",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Vincent Laban",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Garret Anderson",
+            "object": "joueur de champ extérieur"
+        },
+        {
+            "subject": "Giuliano Victor de Paula",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Robert Esche",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Darrin Fletcher",
+            "object": "receveur"
+        },
+        {
+            "subject": "Gale Gilbert",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Jessica Vetter",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Roger Staubach",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Brad Wilkerson",
+            "object": "joueur de champ extérieur"
+        },
+        {
+            "subject": "Johan Arneng",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Rick Mirer",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Felix Magath",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Damien Plessis",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Jean-Paul Kalala",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Shane Matthews",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Chin-hui Tsao",
+            "object": "lanceur"
+        },
+        {
+            "subject": "Gus Poyet",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Diniyar Bilyaletdinov",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Luke O'Brien",
+            "object": "défenseur"
+        },
+        {
+            "subject": "Santi Cazorla",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Pat Haden",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Mark Bresciano",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Duncan Edwards",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Chip Banks",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Christoph Kramer",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Giancarlo Marocchi",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Jone Samuelsen",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Manny Mota",
+            "object": "joueur de champ extérieur"
+        },
+        {
+            "subject": "Benito Santiago",
+            "object": "receveur"
+        },
+        {
+            "subject": "Hugh Millen",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Sergio Canales Madrazo",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Collette McCallum",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Javid Imamverdiyev",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Giuseppe Dossena",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Isaiah Osbourne",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Koki Mizuno",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Steve Castle",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Massimiliano Cappioli",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Karl Goehring",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Fred Thurston",
+            "object": "offensive guard"
+        },
+        {
+            "subject": "Milt Plum",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Faris Haroun",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Francesco Parravicini",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Ross Verba",
+            "object": "offensive guard"
+        },
+        {
+            "subject": "David Aebischer",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Charlie Robertson",
+            "object": "lanceur"
+        },
+        {
+            "subject": "Gary Stills",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Murray Bannerman",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Brad Van Pelt",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Russell Bromage",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Darren Fletcher",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Cullen Finnerty",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Tedy Bruschi",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Jean-Pierre Roy",
+            "object": "lanceur"
+        },
+        {
+            "subject": "Curtis McElhinney",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Cody Pickett",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Candy Cummings",
+            "object": "lanceur"
+        },
+        {
+            "subject": "Brian Bosworth",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Tommy Nobis",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Jewel Raja",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Mark Kinsella",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Nilton Fernandes",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Jim Hart",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Junior Stanislas",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Wil Nieves",
+            "object": "receveur"
+        },
+        {
+            "subject": "Matt Keetley",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Saleem Rasheed",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Ty Conklin",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "George Best",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Kevin Weekes",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Panagiotis Kone",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "JD Closser",
+            "object": "receveur"
+        },
+        {
+            "subject": "Bill Bergey",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Mike Teel",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Mike Scioscia",
+            "object": "receveur"
+        },
+        {
+            "subject": "Carlos Lee",
+            "object": "joueur de champ extérieur"
+        },
+        {
+            "subject": "Ronnie Ekelund",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Bobby Hebert",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Birkir Bjarnason",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Florin Cernat",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Vicente Engonga",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Jerod Mayo",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Tommie Frazier",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Kurt Warner",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Mike Vernon",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Miguel Pérez Cuesta",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Arnie Herber",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Dick Wood",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Datsakorn Thonglao",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Kenny Demens",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Geoff Bent",
+            "object": "défenseur"
+        },
+        {
+            "subject": "Carlos Humberto Paredes",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Jay Bruce",
+            "object": "joueur de champ extérieur"
+        },
+        {
+            "subject": "Jerry Sisemore",
+            "object": "tackle"
+        },
+        {
+            "subject": "Johnny Vander Meer",
+            "object": "lanceur"
+        },
+        {
+            "subject": "Steve Grogan",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Steve MacKenzie",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Angelo Bertelli",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Jason Jennings",
+            "object": "lanceur"
+        },
+        {
+            "subject": "Roy Sproson",
+            "object": "défenseur"
+        },
+        {
+            "subject": "Ryan Harley",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Diogo Ferreira",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Marty Schottenheimer",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Melanie Behringer",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Kyle Boller",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Arthur Milton",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Andrea Orlandi",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Mehdi Abeid",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Jon-Paul McGovern",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Mark Sanchez",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Zac Robinson",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Jamie Winborn",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Esteban Vigo",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Don McPherson",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Marcelo Mattos",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Rinku Singh",
+            "object": "lanceur"
+        },
+        {
+            "subject": "Tony Gwynn",
+            "object": "joueur de champ extérieur"
+        },
+        {
+            "subject": "Jason Puncheon",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Constantinos Makrides",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Garrett Gilbert",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Brian Steen Nielsen",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Jonathan Greening",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Angelo Palombo",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Dontrelle Willis",
+            "object": "lanceur"
+        },
+        {
+            "subject": "Jim Sorgi",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Rick Ankiel",
+            "object": "lanceur"
+        },
+        {
+            "subject": "Mikhail Shtalenkov",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Andrico Hines",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Cho Hyung-ik",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Kim Bokamper",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Owain Tudur Jones",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Nordin Amrabat",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Emiljano Vila",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Gaetano D'Agostino",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Jesse Marsch",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Kim Vilfort",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Johan Holmqvist",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Amiran Mujiri",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Jonathan Urretaviscaya",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Byron Dafoe",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Gary Cuozzo",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Vegard Skogheim",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Ken Gunn",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Josip Skoko",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Rufus Alexander",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Ioan Lupescu",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Juan Cuadrado",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Kingsley Coman",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Jon Casey",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Carlos Rodon",
+            "object": "lanceur"
+        },
+        {
+            "subject": "Marco Tardelli",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Brian Boucher",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "David Whitehurst",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Sam Crawford",
+            "object": "joueur de champ extérieur"
+        },
+        {
+            "subject": "Tobias Grahn",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Jeff Ulbrich",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Joe Montana",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Joel Zumaya",
+            "object": "lanceur"
+        },
+        {
+            "subject": "Libor Sionko",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Lyndon Andrews",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Shane Ray",
+            "object": "linebacker"
+        },
+        {
+            "subject": "LaMarr Woodley",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Henrik Lundqvist",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Rene Tosoni",
+            "object": "joueur de champ extérieur"
+        },
+        {
+            "subject": "Jeff Reese",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Abdel Sattar Sabry",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Quentin Groves",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Giovanni Tedesco",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Jocelyn Thibault",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Les Horvath",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Selim Benachour",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Garba Lawal",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Juan Rodrigo Rojas",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Don Cardwell",
+            "object": "lanceur"
+        },
+        {
+            "subject": "Marc Cheverie",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Travis Blackley",
+            "object": "lanceur"
+        },
+        {
+            "subject": "Craig Erickson",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Ju Yingzhi",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Alfie Moore",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Yaghoub Karimi",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Marc Overmars",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Joel Stave",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Rivaldo",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Yannick Carter",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Seth Maness",
+            "object": "lanceur"
+        },
+        {
+            "subject": "Mark Walters",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Mike Trout",
+            "object": "joueur de champ extérieur"
+        },
+        {
+            "subject": "Andre Tippett",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Kevin Lalande",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Michael Boley",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Ahmad Brooks",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Antonino D'Agostino",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Antonio Candreva",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Garrincha",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Curtis Sanford",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Caleb TerBush",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Michel Larocque",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Kelly Stouffer",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Fabian Ernst",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Mason Foster",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Iago Falque",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Marat Izmailov",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Kyle Orton",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Oliver Makor",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Robert Prytz",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Pablo Cepellini",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Conan Byrne",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Mathieu Flamini",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Kostas Katsouranis",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Poon Yiu Cheuk",
+            "object": "défenseur"
+        },
+        {
+            "subject": "McDonald Mariga",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Don Trull",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Braden Looper",
+            "object": "lanceur"
+        },
+        {
+            "subject": "Gilles Mayer",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Shamweel Qasim",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Patrick Roy",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Marques Tuiasosopo",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Ilsinho",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Juan Joseph",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Carlos Manuel",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Bob John",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Karim El Ahmadi",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Ichiro Suzuki",
+            "object": "joueur de champ extérieur"
+        },
+        {
+            "subject": "Tommy John",
+            "object": "lanceur"
+        },
+        {
+            "subject": "Domenico Morfeo",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Steve Barber",
+            "object": "lanceur"
+        },
+        {
+            "subject": "Brian Bogusevic",
+            "object": "joueur de champ extérieur"
+        },
+        {
+            "subject": "Luke Vercollone",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Ricardo Gallego",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Eddie Giacomin",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Ahmad Hatifi",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Angelo Orlando",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Sam LoPresti",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Mika Noronen",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Lee Bell",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Juan Pablo Galavis",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Paul Harsley",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Michael Conforto",
+            "object": "joueur de champ extérieur"
+        },
+        {
+            "subject": "CC Sabathia",
+            "object": "lanceur"
+        },
+        {
+            "subject": "Stefano Fiore",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Rusney Castillo",
+            "object": "joueur de champ extérieur"
+        },
+        {
+            "subject": "Vesa Toskala",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Eusebio Di Francesco",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Joel Lindpere",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Ben Roethlisberger",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Brandon Jenkins (football player)",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Cornell Brown",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Jesper Olsen",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Shane Boyd",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Scott Dreisbach",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Vern Law",
+            "object": "lanceur"
+        },
+        {
+            "subject": "Alex Auld",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Marcelo Nascimento da Costa",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Ali Karimi",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Jack Balmer",
+            "object": "attaquant"
+        },
+        {
+            "subject": "Moise Fokou",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Vladislav Tretiak",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Alwyn George",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Frank Watkin",
+            "object": "attaquant"
+        },
+        {
+            "subject": "Colby Cameron",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Angelo Colombo",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Aaron Rodgers",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Scott Milanovich",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Christy Mathewson",
+            "object": "lanceur"
+        },
+        {
+            "subject": "Geoffrey Kondogbia",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Fabio Capello",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Nate Robertson",
+            "object": "lanceur"
+        },
+        {
+            "subject": "John Reaves",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Reinhard Divis",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "John Parker Wilson",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Dany N'Guessan",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Joe Kapp",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Marc Crosas",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Graeme Souness",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Faysal Shayesteh",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Javier Espinosa",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Archie Manning",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Paulo Bento",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Bob Griese",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Frank Lampard",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Jean Prouff",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Mike Holmgren",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Tiago Mendes",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Kerry Collins",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Lavonte David",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Giuliano Giannichedda",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Daniele Dessena",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Beniamino Vignola",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Matt Flynn",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Greg Buttle",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Von Miller",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Rasmus Lindgren",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Trent Green",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Alessio Cerci",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Glenn Hall",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Stephone Anthony",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Carson Coffman",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Ryan Lindley",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Joe Paterno",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Ubaldo Righetti",
+            "object": "défenseur"
+        },
+        {
+            "subject": "Blaine Gabbert",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Walter Johnson",
+            "object": "lanceur"
+        },
+        {
+            "subject": "Zeke Bratkowski",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Jacob Mellis",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Wilber Marshall",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Luke Kuechly",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Massimiliano Esposito",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Simone Barone",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Pedro Beato",
+            "object": "lanceur"
+        },
+        {
+            "subject": "Jeff Francis",
+            "object": "lanceur"
+        },
+        {
+            "subject": "Fernando Soriano",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Adilson dos Santos",
+            "object": "défenseur"
+        },
+        {
+            "subject": "Bill Kenney",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Tommy Docherty",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Ray Houghton",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Don Horn",
+            "object": "quarterback"
+        },
+        {
+            "subject": "John Brantley",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Pablo de Lucas",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Tim Tebow",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Tom Ramsey",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Daniel Caligiuri",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Lee Cattermole",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Johan Hedberg",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Ben Mauk",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Don Majkowski",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Jock Stein",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Jair da Rosa Pinto",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Steve McNair",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Youssouf Mulumbu",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Keith Rivers",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Tim Borowski",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Shane Greene",
+            "object": "lanceur"
+        },
+        {
+            "subject": "Dave Ragone",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Adam Weber",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Tarek Yehia",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Makoto Hasebe",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Quinn Gray",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Mule Haas",
+            "object": "joueur de champ extérieur"
+        },
+        {
+            "subject": "David Beckham",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Mike Richter",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Jeff Rutledge",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Greg Stefan",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Warren Sapp",
+            "object": "tackle"
+        },
+        {
+            "subject": "John Huarte",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Jean Luciano",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Ray Emery",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Gareth Barry",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Hatem Ben Arfa",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Fabio Celestini",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Jay Cutler",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Ricardo Villa",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Craig Breslow",
+            "object": "lanceur"
+        },
+        {
+            "subject": "Yutaka Enatsu",
+            "object": "lanceur"
+        },
+        {
+            "subject": "Randall Azofeifa",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Gary Danielson",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Dan Fouts",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Bryan Holaday",
+            "object": "receveur"
+        },
+        {
+            "subject": "Mariano Rivera",
+            "object": "Closer, entre adultes consentants"
+        },
+        {
+            "subject": "Rory Delap",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Morgan Schneiderlin",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Serhiy Kovalets",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Kari Lehtonen",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Carlos Valderrama",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Diego Maradona",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Massimiliano Allegri",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Agostino Di Bartolomei",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Zico",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Tim Hasselbeck",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Frankie Albert",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Allan Bester",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Scott Sinclair",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Pekka Rinne",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Ted McMinn",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Adnan Januzaj",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Ryan Leaf",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Gaizka Garitano Aguirre",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Jeff George",
+            "object": "quarterback"
+        },
+        {
+            "subject": "DeWayne Wise",
+            "object": "joueur de champ extérieur"
+        },
+        {
+            "subject": "Pascal Feindouno",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Vincenzo Italiano",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Tyler Moss",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Luca Danilo Fusi",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Josh Gibson",
+            "object": "receveur"
+        },
+        {
+            "subject": "Angelo Di Livio",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Scott Fankhouser",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Miguel Montero",
+            "object": "receveur"
+        },
+        {
+            "subject": "Bakary Sako",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Sean Glennon",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Damiano Tommasi",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Francisco Cervelli",
+            "object": "receveur"
+        },
+        {
+            "subject": "Scott Hatteberg",
+            "object": "receveur"
+        },
+        {
+            "subject": "Ryan Mallett",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Willie McFaul",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Mohd Amirul Hadi Zainal",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Darren Daulton",
+            "object": "receveur"
+        },
+        {
+            "subject": "Viktor Fasth",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Eusebio Castigliano",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Nolan Ryan",
+            "object": "lanceur"
+        },
+        {
+            "subject": "Braden Holtby",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Chuck Fusina",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Enos Slaughter",
+            "object": "joueur de champ extérieur"
+        },
+        {
+            "subject": "Atlee Hammaker",
+            "object": "lanceur"
+        },
+        {
+            "subject": "Don Larsen",
+            "object": "lanceur"
+        },
+        {
+            "subject": "Oscar Albuquerque",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "David Carabott",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Danny Trevathan",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Josh McCown",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Giuseppe Baresi",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Éric Djemba-Djemba",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Drake Britton",
+            "object": "lanceur"
+        },
+        {
+            "subject": "Matt Chatham",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Marvin Mitchell",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Connor Cook",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Dan Conners",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Calum Chambers",
+            "object": "défenseur"
+        },
+        {
+            "subject": "Sean Payton",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Steve Valiquette",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Paulo Sousa",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Junior Seau",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Matt Hasselbeck",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Stephen McGee",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Matt Holland",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Ernesto Lazzatti",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Anderson Luís de Abreu Oliveira",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Mike Hampton",
+            "object": "lanceur"
+        },
+        {
+            "subject": "Egil Olsen",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Jordan Norberto",
+            "object": "lanceur"
+        },
+        {
+            "subject": "Martin Coleman",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Jim Zorn",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Luke Chadwick",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Nils Liedholm",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Pat Corrales",
+            "object": "receveur"
+        },
+        {
+            "subject": "Abner Dalrymple",
+            "object": "joueur de champ extérieur"
+        },
+        {
+            "subject": "Cory Schneider",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Darcy Kuemper",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Ryan Fraser",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Brian Maisonneuve",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Brian Labone",
+            "object": "défenseur"
+        },
+        {
+            "subject": "Derrick Thomas",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Gary Hogeboom",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Chuck Howley",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Francesco Bolzoni",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Jean Makoun",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Carey Price",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Rudy Carpenter",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Mikel Alonso",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Kirk Rueter",
+            "object": "lanceur"
+        },
+        {
+            "subject": "Manny Ramirez",
+            "object": "joueur de champ extérieur"
+        },
+        {
+            "subject": "Henk ten Cate",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Masaichi Kaneda",
+            "object": "lanceur"
+        },
+        {
+            "subject": "Ross Barkley",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Daunte Culpepper",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Lee Sharpe",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Randy Gradishar",
+            "object": "linebacker"
+        },
+        {
+            "subject": "Pud Galvin",
+            "object": "lanceur"
+        },
+        {
+            "subject": "Carlos Alberto Torres",
+            "object": "défenseur"
+        },
+        {
+            "subject": "Woodrow Dantzler",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Drew Brees",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Garry Unger",
+            "object": "Centre"
+        },
+        {
+            "subject": "Bobby Layne",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Brad Thiessen",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Brent Krahn",
+            "object": "gardien de but"
+        },
+        {
+            "subject": "Joe Nuxhall",
+            "object": "lanceur"
+        },
+        {
+            "subject": "Kalu Uche",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Kevin Craft",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Martin Ericsson",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Joe Theismann",
+            "object": "quarterback"
+        },
+        {
+            "subject": "Bob Meusel",
+            "object": "joueur de champ extérieur"
+        },
+        {
+            "subject": "Ben Bennett",
+            "object": "quarterback"
+        },
+        {
+            "subject": "David Mendes da Silva",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Andrea Pirlo",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Kerry Zavagnin",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Almen Abdi",
+            "object": "milieu de terrain"
+        },
+        {
+            "subject": "Corey Patterson",
+            "object": "joueur de champ extérieur"
+        },
+        {
+            "subject": "Bong Jung-keun",
+            "object": "lanceur"
+        }
+    ]
+}

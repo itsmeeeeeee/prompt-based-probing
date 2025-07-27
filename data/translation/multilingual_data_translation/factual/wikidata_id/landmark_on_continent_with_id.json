@@ -1,0 +1,5702 @@
+{
+  "name": "landmark on continent",
+  "prompt_templates": [
+    "{} is on the continent of",
+    "{} is a landmark on",
+    "{} can be found on the continent of"
+  ],
+  "prompt_templates_zs": [
+    "What continent is {} on? It is on",
+    "{} is on the continent of"
+  ],
+  "properties": {
+    "relation_type": "factual",
+    "domain_name": "landmark",
+    "range_name": "continent",
+    "symmetric": false
+  },
+  "samples": [
+    {
+      "subject": "Pidgeon Island",
+      "object": "Antarctica",
+      "subject_id": "Q1134709",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Kryvyi Rih",
+      "object": "Europe",
+      "subject_id": "Q157137",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Howard Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q5919761",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Prydz Bay",
+      "object": "Antarctica",
+      "subject_id": "Q156116",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "George V Coast",
+      "object": "Antarctica",
+      "subject_id": "Q1389914",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Gabbro Hills",
+      "object": "Antarctica",
+      "subject_id": "Q5515304",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Rutgers Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q7382792",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Teres Ridge",
+      "object": "Antarctica",
+      "subject_id": "Q7702080",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Risemedet Mountain",
+      "object": "Antarctica",
+      "subject_id": "Q7335997",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Mount Markham",
+      "object": "Antarctica",
+      "subject_id": "Q1412427",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Kalahari Desert",
+      "object": "Africa",
+      "subject_id": "Q47700",
+      "object_id": "Q15"
+    },
+    {
+      "subject": "Matusevich Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q6792020",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Nizamabad district",
+      "object": "Asia",
+      "subject_id": "Q15391",
+      "object_id": "Q48"
+    },
+    {
+      "subject": "Mobiloil Inlet",
+      "object": "Antarctica",
+      "subject_id": "Q278703",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Trail Inlet",
+      "object": "Antarctica",
+      "subject_id": "Q278474",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Suvorov Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q7650533",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Romulus Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q7363383",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Argosy Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q15188422",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Delchev Ridge",
+      "object": "Antarctica",
+      "subject_id": "Q5253560",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Umayyad Caliphate",
+      "object": "Europe",
+      "subject_id": "Q8575586",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Alpha Island",
+      "object": "Antarctica",
+      "subject_id": "Q4735056",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Dniester",
+      "object": "Europe",
+      "subject_id": "Q131210",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "East Ongul Island",
+      "object": "Antarctica",
+      "subject_id": "Q6980722",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Spur Point",
+      "object": "Antarctica",
+      "subject_id": "Q1100194",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Hannah Point",
+      "object": "Antarctica",
+      "subject_id": "Q707066",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Morozumi Range",
+      "object": "Antarctica",
+      "subject_id": "Q6913320",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Cape Legoupil",
+      "object": "Antarctica",
+      "subject_id": "Q983017",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "North Brabant",
+      "object": "Europe",
+      "subject_id": "Q1101",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Mount Karisimbi",
+      "object": "Africa",
+      "subject_id": "Q737859",
+      "object_id": "Q15"
+    },
+    {
+      "subject": "Harold Byrd Mountains",
+      "object": "Antarctica",
+      "subject_id": "Q5660249",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Annamalai University",
+      "object": "Asia",
+      "subject_id": "Q3275551",
+      "object_id": "Q48"
+    },
+    {
+      "subject": "Afghanistan",
+      "object": "Asia",
+      "subject_id": "Q889",
+      "object_id": "Q48"
+    },
+    {
+      "subject": "Indira Gandhi National Open University",
+      "object": "Asia",
+      "subject_id": "Q2028659",
+      "object_id": "Q48"
+    },
+    {
+      "subject": "Mount Fridtjof Nansen",
+      "object": "Antarctica",
+      "subject_id": "Q3321842",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Niger",
+      "object": "Africa",
+      "subject_id": "Q1032",
+      "object_id": "Q15"
+    },
+    {
+      "subject": "Miller Range",
+      "object": "Antarctica",
+      "subject_id": "Q6859228",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Crown Peak",
+      "object": "Antarctica",
+      "subject_id": "Q5189425",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Tower Island",
+      "object": "Antarctica",
+      "subject_id": "Q177356",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Forrestal Range",
+      "object": "Antarctica",
+      "subject_id": "Q5470540",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Davis Station",
+      "object": "Antarctica",
+      "subject_id": "Q3096353",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Guadalquivir",
+      "object": "Europe",
+      "subject_id": "Q14309",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Vistula",
+      "object": "Europe",
+      "subject_id": "Q548",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Pare Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q7136613",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Eureka Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q5411181",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Mundraga Bay",
+      "object": "Antarctica",
+      "subject_id": "Q141600",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Mount Hornsby",
+      "object": "Antarctica",
+      "subject_id": "Q6921327",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Himachal Pradesh",
+      "object": "Asia",
+      "subject_id": "Q1177",
+      "object_id": "Q48"
+    },
+    {
+      "subject": "Gair Mesa",
+      "object": "Antarctica",
+      "subject_id": "Q5517322",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Lamplugh Island",
+      "object": "Antarctica",
+      "subject_id": "Q6482464",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Everett Range",
+      "object": "Antarctica",
+      "subject_id": "Q5417055",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Chambal River",
+      "object": "Asia",
+      "subject_id": "Q1060631",
+      "object_id": "Q48"
+    },
+    {
+      "subject": "Lanterman Range",
+      "object": "Antarctica",
+      "subject_id": "Q6487561",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Namibia",
+      "object": "Africa",
+      "subject_id": "Q1030",
+      "object_id": "Q15"
+    },
+    {
+      "subject": "Shackleton Ice Shelf",
+      "object": "Antarctica",
+      "subject_id": "Q1389927",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Japan",
+      "object": "Asia",
+      "subject_id": "Q17",
+      "object_id": "Q48"
+    },
+    {
+      "subject": "Seal Nunataks",
+      "object": "Antarctica",
+      "subject_id": "Q7440531",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Ravens Mountains",
+      "object": "Antarctica",
+      "subject_id": "Q7296487",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Lake Vida",
+      "object": "Antarctica",
+      "subject_id": "Q169061",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Monte San Giorgio",
+      "object": "Europe",
+      "subject_id": "Q16648",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Roman Four Promontory",
+      "object": "Antarctica",
+      "subject_id": "Q7361970",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Scheldt",
+      "object": "Europe",
+      "subject_id": "Q37620",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Alsace-Lorraine",
+      "object": "Europe",
+      "subject_id": "Q110619617",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Heritage Range",
+      "object": "Antarctica",
+      "subject_id": "Q1522169",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Nile",
+      "object": "Africa",
+      "subject_id": "Q660835",
+      "object_id": "Q15"
+    },
+    {
+      "subject": "Mount Foster",
+      "object": "Antarctica",
+      "subject_id": "Q1950472",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Swanson Mountains",
+      "object": "Antarctica",
+      "subject_id": "Q7653740",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Eastern Bloc",
+      "object": "Europe",
+      "subject_id": "Q170541",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Pune",
+      "object": "Asia",
+      "subject_id": "Q1538",
+      "object_id": "Q48"
+    },
+    {
+      "subject": "Mount Stephenson",
+      "object": "Antarctica",
+      "subject_id": "Q6923858",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Mount Black",
+      "object": "Antarctica",
+      "subject_id": "Q9333854",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Padda Island",
+      "object": "Antarctica",
+      "subject_id": "Q7123305",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Shahdol district",
+      "object": "Asia",
+      "subject_id": "Q2085464",
+      "object_id": "Q48"
+    },
+    {
+      "subject": "Bowman Coast",
+      "object": "Antarctica",
+      "subject_id": "Q2998669",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Ryder Bay",
+      "object": "Antarctica",
+      "subject_id": "Q153662",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Reedy Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q3108310",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Chamarajanagar district",
+      "object": "Asia",
+      "subject_id": "Q862912",
+      "object_id": "Q48"
+    },
+    {
+      "subject": "Entente Florale",
+      "object": "Europe",
+      "subject_id": "Q467233",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Cape Adriasola",
+      "object": "Antarctica",
+      "subject_id": "Q857121",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Merrick Mountains",
+      "object": "Antarctica",
+      "subject_id": "Q6820084",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Mount Spivey",
+      "object": "Antarctica",
+      "subject_id": "Q6923780",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Read Mountains",
+      "object": "Antarctica",
+      "subject_id": "Q2913015",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Queen Maud Land",
+      "object": "Antarctica",
+      "subject_id": "Q189999",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Mount Boreas",
+      "object": "Antarctica",
+      "subject_id": "Q7880592",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Hudson Mountains",
+      "object": "Antarctica",
+      "subject_id": "Q2961777",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Clothier Harbour",
+      "object": "Antarctica",
+      "subject_id": "Q217770",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Boyana Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q4952223",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Charlotte Bay",
+      "object": "Antarctica",
+      "subject_id": "Q141286",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Grossglockner",
+      "object": "Europe",
+      "subject_id": "Q3388",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Svarthamaren Mountain",
+      "object": "Antarctica",
+      "subject_id": "Q3446033",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Moldova",
+      "object": "Europe",
+      "subject_id": "Q217",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "River Clyde",
+      "object": "Europe",
+      "subject_id": "Q19721",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Kilby Island",
+      "object": "Antarctica",
+      "subject_id": "Q263733",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "The Gullet",
+      "object": "Antarctica",
+      "subject_id": "Q2783234",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Batterbee Mountains",
+      "object": "Antarctica",
+      "subject_id": "Q4869724",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Gadag district",
+      "object": "Asia",
+      "subject_id": "Q2353931",
+      "object_id": "Q48"
+    },
+    {
+      "subject": "Dennistoun Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q1189637",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Neumayer Cliffs",
+      "object": "Antarctica",
+      "subject_id": "Q7001971",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "South Pole Traverse",
+      "object": "Antarctica",
+      "subject_id": "Q800558",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Mount Passel",
+      "object": "Antarctica",
+      "subject_id": "Q6922670",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Mount Kempe",
+      "object": "Antarctica",
+      "subject_id": "Q3861657",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Bertha Island",
+      "object": "Antarctica",
+      "subject_id": "Q4895493",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Desko Mountains",
+      "object": "Antarctica",
+      "subject_id": "Q5264560",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Turgai River",
+      "object": "Asia",
+      "subject_id": "Q658832",
+      "object_id": "Q48"
+    },
+    {
+      "subject": "Paulding Bay",
+      "object": "Antarctica",
+      "subject_id": "Q281503",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Rampart Ridge",
+      "object": "Antarctica",
+      "subject_id": "Q49695816",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Whitehall Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q7995990",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Neuburg Peak",
+      "object": "Antarctica",
+      "subject_id": "Q7001446",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Possession Islands",
+      "object": "Antarctica",
+      "subject_id": "Q2393919",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Don Juan Pond",
+      "object": "Antarctica",
+      "subject_id": "Q384811",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Yangtze",
+      "object": "Asia",
+      "subject_id": "Q5413",
+      "object_id": "Q48"
+    },
+    {
+      "subject": "Hammer Point",
+      "object": "Antarctica",
+      "subject_id": "Q5645638",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Chukotka Autonomous Okrug",
+      "object": "Asia",
+      "subject_id": "Q7984",
+      "object_id": "Q48"
+    },
+    {
+      "subject": "Odbert Island",
+      "object": "Antarctica",
+      "subject_id": "Q3802826",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "United Kingdom of the Netherlands",
+      "object": "Europe",
+      "subject_id": "Q15864",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Rezen Knoll",
+      "object": "Antarctica",
+      "subject_id": "Q7319862",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Basel",
+      "object": "Europe",
+      "subject_id": "Q78",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Karun",
+      "object": "Asia",
+      "subject_id": "Q134576646",
+      "object_id": "Q48"
+    },
+    {
+      "subject": "Palmer Station",
+      "object": "Antarctica",
+      "subject_id": "Q1333903",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Udupi district",
+      "object": "Asia",
+      "subject_id": "Q1483337",
+      "object_id": "Q48"
+    },
+    {
+      "subject": "Condor Peninsula",
+      "object": "Antarctica",
+      "subject_id": "Q2681282",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Wohlthat Mountains",
+      "object": "Antarctica",
+      "subject_id": "Q1520889",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Iskar Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q6081308",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Athens",
+      "object": "Europe",
+      "subject_id": "Q1524",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Emmanuel Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q21822466",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Swedish Empire",
+      "object": "Europe",
+      "subject_id": "Q215443",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Gibbs Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q5558961",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Tajikistan",
+      "object": "Asia",
+      "subject_id": "Q863",
+      "object_id": "Q48"
+    },
+    {
+      "subject": "Gambia River",
+      "object": "Africa",
+      "subject_id": "Q160819",
+      "object_id": "Q15"
+    },
+    {
+      "subject": "Skelton Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q260322",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Schokalsky Bay",
+      "object": "Antarctica",
+      "subject_id": "Q281592",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Austria-Hungary",
+      "object": "Europe",
+      "subject_id": "Q28513",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Mount Queequeg",
+      "object": "Antarctica",
+      "subject_id": "Q6431489",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Tamil Nadu",
+      "object": "Asia",
+      "subject_id": "Q1445",
+      "object_id": "Q48"
+    },
+    {
+      "subject": "Armenia",
+      "object": "Europe",
+      "subject_id": "Q399",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Hoseason Island",
+      "object": "Antarctica",
+      "subject_id": "Q1142383",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Festninga Mountain",
+      "object": "Antarctica",
+      "subject_id": "Q5445857",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Hood Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q5897454",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Pirrit Hills",
+      "object": "Antarctica",
+      "subject_id": "Q7198096",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Macquarie Island",
+      "object": "Antarctica",
+      "subject_id": "Q46650",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Yambol Peak",
+      "object": "Antarctica",
+      "subject_id": "Q8048026",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Antarctic Plateau",
+      "object": "Antarctica",
+      "subject_id": "Q1001294",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Bertram Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q4895774",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Air New Zealand Flight 901",
+      "object": "Antarctica",
+      "subject_id": "Q406599",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Dufek Massif",
+      "object": "Antarctica",
+      "subject_id": "Q5312305",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Blaiklock Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q4923905",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Wallonia",
+      "object": "Europe",
+      "subject_id": "Q231",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Silverstein Peak",
+      "object": "Antarctica",
+      "subject_id": "Q7516780",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Convoy Range",
+      "object": "Antarctica",
+      "subject_id": "Q5166653",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Darley Hills",
+      "object": "Antarctica",
+      "subject_id": "Q12239421",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Newell Point",
+      "object": "Antarctica",
+      "subject_id": "Q7017707",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Gordon Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q5585171",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Halpern Point",
+      "object": "Antarctica",
+      "subject_id": "Q983024",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Cole Peninsula",
+      "object": "Antarctica",
+      "subject_id": "Q2680406",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "English Channel",
+      "object": "Europe",
+      "subject_id": "Q34640",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Viking Age",
+      "object": "Europe",
+      "subject_id": "Q213649",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Concordia Station",
+      "object": "Antarctica",
+      "subject_id": "Q403127",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Cape Bird",
+      "object": "Antarctica",
+      "subject_id": "Q2563013",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Thomas Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q3108315",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Willan Saddle",
+      "object": "Antarctica",
+      "subject_id": "Q8003335",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Liberia",
+      "object": "Africa",
+      "subject_id": "Q1014",
+      "object_id": "Q15"
+    },
+    {
+      "subject": "Biscoe Islands",
+      "object": "Antarctica",
+      "subject_id": "Q866276",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Avitohol Point",
+      "object": "Antarctica",
+      "subject_id": "Q372065",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Ablation Valley",
+      "object": "Antarctica",
+      "subject_id": "Q4668053",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Guinea-Bissau",
+      "object": "Africa",
+      "subject_id": "Q1007",
+      "object_id": "Q15"
+    },
+    {
+      "subject": "Kingdom of Burgundy",
+      "object": "Europe",
+      "subject_id": "Q530670",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Ioannes Paulus II Peninsula",
+      "object": "Antarctica",
+      "subject_id": "Q2647028",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "David Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q3761661",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Mendelssohn Inlet",
+      "object": "Antarctica",
+      "subject_id": "Q278261",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Catalonia",
+      "object": "Europe",
+      "subject_id": "Q5705",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Beascochea Bay",
+      "object": "Antarctica",
+      "subject_id": "Q141504",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Warren Range",
+      "object": "Antarctica",
+      "subject_id": "Q7970445",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Granite Knolls",
+      "object": "Antarctica",
+      "subject_id": "Q5595885",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Wright Inlet",
+      "object": "Antarctica",
+      "subject_id": "Q278522",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Astrolabe Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q3108357",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Danger Islands",
+      "object": "Antarctica",
+      "subject_id": "Q5216009",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Northwind Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q7060449",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Hull Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q5935916",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Cape Burks",
+      "object": "Antarctica",
+      "subject_id": "Q2227102",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Berwick Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q4895992",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Jammu and Kashmir",
+      "object": "Asia",
+      "subject_id": "Q1180",
+      "object_id": "Q48"
+    },
+    {
+      "subject": "Shinnan Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q3108323",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "William Scoresby Bay",
+      "object": "Antarctica",
+      "subject_id": "Q156132",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Noll Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q7048314",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "British Graham Land Expedition",
+      "object": "Antarctica",
+      "subject_id": "N/A",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Indian Institute of Science",
+      "object": "Asia",
+      "subject_id": "Q60247050",
+      "object_id": "Q48"
+    },
+    {
+      "subject": "Nyamuragira",
+      "object": "Africa",
+      "subject_id": "Q695846",
+      "object_id": "Q15"
+    },
+    {
+      "subject": "Dutch Republic",
+      "object": "Europe",
+      "subject_id": "Q170072",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Germany",
+      "object": "Europe",
+      "subject_id": "Q183",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Rydberg Peninsula",
+      "object": "Antarctica",
+      "subject_id": "Q2680804",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Zechstein",
+      "object": "Europe",
+      "subject_id": "Q184168",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Bruce Plateau",
+      "object": "Antarctica",
+      "subject_id": "Q4978145",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Guest Peninsula",
+      "object": "Antarctica",
+      "subject_id": "Q2680832",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Balochistan",
+      "object": "Asia",
+      "subject_id": "Q163239",
+      "object_id": "Q48"
+    },
+    {
+      "subject": "Wilson Piedmont Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q3761722",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Avery Plateau",
+      "object": "Antarctica",
+      "subject_id": "Q4828398",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Kanchenjunga",
+      "object": "Asia",
+      "subject_id": "Q82019",
+      "object_id": "Q48"
+    },
+    {
+      "subject": "Eswatini",
+      "object": "Africa",
+      "subject_id": "Q1050",
+      "object_id": "Q15"
+    },
+    {
+      "subject": "Vantaa",
+      "object": "Europe",
+      "subject_id": "Q127623",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Mackellar Inlet",
+      "object": "Antarctica",
+      "subject_id": "Q278666",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Carryer Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q5046817",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Cape Chocolate",
+      "object": "Antarctica",
+      "subject_id": "Q2562854",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Clare Range",
+      "object": "Antarctica",
+      "subject_id": "Q5126242",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Sobral Peninsula",
+      "object": "Antarctica",
+      "subject_id": "Q2680636",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Northeast Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q8964182",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Prespa Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q7241579",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Vestreskorve Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q7923502",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Sequence Hills",
+      "object": "Antarctica",
+      "subject_id": "Q12176695",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Maharashtra",
+      "object": "Asia",
+      "subject_id": "Q1191",
+      "object_id": "Q48"
+    },
+    {
+      "subject": "Jennings Promontory",
+      "object": "Antarctica",
+      "subject_id": "Q6179054",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Dumoulin Islands",
+      "object": "Antarctica",
+      "subject_id": "Q5313956",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Shipka Saddle",
+      "object": "Antarctica",
+      "subject_id": "Q7498002",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Panzarini Hills",
+      "object": "Antarctica",
+      "subject_id": "Q7132003",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Moubray Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q6918858",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Metropolitan France",
+      "object": "Europe",
+      "subject_id": "Q212429",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Indonesia",
+      "object": "Asia",
+      "subject_id": "Q252",
+      "object_id": "Q48"
+    },
+    {
+      "subject": "Mount Melbourne",
+      "object": "Antarctica",
+      "subject_id": "Q739945",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Garwood Valley",
+      "object": "Antarctica",
+      "subject_id": "Q5524553",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Newcomer Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q7017648",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Jhelum River",
+      "object": "Asia",
+      "subject_id": "Q214874",
+      "object_id": "Q48"
+    },
+    {
+      "subject": "James Ross Island group",
+      "object": "Antarctica",
+      "subject_id": "Q6142460",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Jones Mountains",
+      "object": "Antarctica",
+      "subject_id": "Q13639872",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Yamato 000593",
+      "object": "Antarctica",
+      "subject_id": "Q15888151",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Varna Peninsula",
+      "object": "Antarctica",
+      "subject_id": "Q2646658",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Brabant Island",
+      "object": "Antarctica",
+      "subject_id": "Q896462",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Cannonball Cliffs",
+      "object": "Antarctica",
+      "subject_id": "Q5032823",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Ray Promontory",
+      "object": "Antarctica",
+      "subject_id": "Q7297991",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Mount Weaver",
+      "object": "Antarctica",
+      "subject_id": "Q6924529",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "United Arab Emirates",
+      "object": "Asia",
+      "subject_id": "Q878",
+      "object_id": "Q48"
+    },
+    {
+      "subject": "Beaglehole Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q4876097",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Hinkley Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q15664248",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Grossman Nunataks",
+      "object": "Antarctica",
+      "subject_id": "Q5610596",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Oates Land",
+      "object": "Antarctica",
+      "subject_id": "Q1389591",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Benin",
+      "object": "Africa",
+      "subject_id": "Q962",
+      "object_id": "Q15"
+    },
+    {
+      "subject": "Saffery Islands",
+      "object": "Antarctica",
+      "subject_id": "Q7398698",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Pomorie Point",
+      "object": "Antarctica",
+      "subject_id": "Q707534",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Atbarah River",
+      "object": "Africa",
+      "subject_id": "Q753897",
+      "object_id": "Q15"
+    },
+    {
+      "subject": "Mozambique",
+      "object": "Africa",
+      "subject_id": "Q1029",
+      "object_id": "Q15"
+    },
+    {
+      "subject": "Rennick Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q7313329",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Antim Peak",
+      "object": "Antarctica",
+      "subject_id": "Q4774909",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Warta",
+      "object": "Europe",
+      "subject_id": "Q37290339",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Von Essen Mountain",
+      "object": "Antarctica",
+      "subject_id": "Q7756724",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Toulouse",
+      "object": "Europe",
+      "subject_id": "Q7880",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "South Korea",
+      "object": "Asia",
+      "subject_id": "Q884",
+      "object_id": "Q48"
+    },
+    {
+      "subject": "Canisteo Peninsula",
+      "object": "Antarctica",
+      "subject_id": "Q2646770",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Vinson Massif",
+      "object": "Antarctica",
+      "subject_id": "Q163758",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Foundation Ice Stream",
+      "object": "Antarctica",
+      "subject_id": "Q5474347",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Aconcagua",
+      "object": "Americas",
+      "subject_id": "Q4674491",
+      "object_id": "Q828"
+    },
+    {
+      "subject": "Tigris",
+      "object": "Asia",
+      "subject_id": "Q35591",
+      "object_id": "Q48"
+    },
+    {
+      "subject": "Fredriksen Island",
+      "object": "Antarctica",
+      "subject_id": "Q5499564",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Yugoslavia",
+      "object": "Europe",
+      "subject_id": "Q36704",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Sykes Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q7660513",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Schytt Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q3372454",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Achaean Range",
+      "object": "Antarctica",
+      "subject_id": "Q2996102",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Melnik Ridge",
+      "object": "Antarctica",
+      "subject_id": "Q6813254",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Contell Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q5164934",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Chuprene Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q5116493",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Hilton Inlet",
+      "object": "Antarctica",
+      "subject_id": "Q278740",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Victor Bay",
+      "object": "Antarctica",
+      "subject_id": "Q131839599",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Laurie Island",
+      "object": "Antarctica",
+      "subject_id": "Q1637481",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Peacock Sound",
+      "object": "Antarctica",
+      "subject_id": "Q1618810",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Handel Ice Piedmont",
+      "object": "Antarctica",
+      "subject_id": "Q5647369",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Nimrod Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q3108304",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Shirase Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q3358392",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Panega Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q3761665",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Mount Bursey",
+      "object": "Antarctica",
+      "subject_id": "Q6808230",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Ireland",
+      "object": "Europe",
+      "subject_id": "Q27",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Exarchate of Ravenna",
+      "object": "Europe",
+      "subject_id": "Q694740",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Qatar",
+      "object": "Asia",
+      "subject_id": "Q846",
+      "object_id": "Q48"
+    },
+    {
+      "subject": "Scott Base",
+      "object": "Antarctica",
+      "subject_id": "Q1136714",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Craddock Massif",
+      "object": "Antarctica",
+      "subject_id": "Q5180460",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Dion Islands",
+      "object": "Antarctica",
+      "subject_id": "Q3593529",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Scotland",
+      "object": "Europe",
+      "subject_id": "Q22",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Watson Escarpment",
+      "object": "Antarctica",
+      "subject_id": "Q7974815",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Mount Steere",
+      "object": "Antarctica",
+      "subject_id": "Q264074",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Watt Bay",
+      "object": "Antarctica",
+      "subject_id": "Q143324",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Colbert Mountains",
+      "object": "Antarctica",
+      "subject_id": "Q5141945",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Prince Charles Mountains",
+      "object": "Antarctica",
+      "subject_id": "Q1641485",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Dundee Island",
+      "object": "Antarctica",
+      "subject_id": "Q1265560",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "George VI Ice Shelf",
+      "object": "Antarctica",
+      "subject_id": "Q1388612",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Chandigarh",
+      "object": "Asia",
+      "subject_id": "Q43433",
+      "object_id": "Q48"
+    },
+    {
+      "subject": "Minnesota Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q922162",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Beaumont Bay",
+      "object": "Antarctica",
+      "subject_id": "Q4877546",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Hercules Inlet",
+      "object": "Antarctica",
+      "subject_id": "Q279697",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Reinbolt Hills",
+      "object": "Antarctica",
+      "subject_id": "Q7310266",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "McCuddin Mountains",
+      "object": "Antarctica",
+      "subject_id": "Q6800732",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Reeves Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q3108307",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Cape Jeremy",
+      "object": "Antarctica",
+      "subject_id": "Q1100932",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Berkner Island",
+      "object": "Antarctica",
+      "subject_id": "Q741243",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Mariner Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q6764361",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Aprilov Point",
+      "object": "Antarctica",
+      "subject_id": "Q488109",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Turkmenistan",
+      "object": "Asia",
+      "subject_id": "Q874",
+      "object_id": "Q48"
+    },
+    {
+      "subject": "Kingdom of Saxony",
+      "object": "Europe",
+      "subject_id": "Q153015",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Tupungato",
+      "object": "Americas",
+      "subject_id": "Q3542234",
+      "object_id": "Q828"
+    },
+    {
+      "subject": "Helsinki",
+      "object": "Europe",
+      "subject_id": "Q1757",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Samuel Peak",
+      "object": "Antarctica",
+      "subject_id": "Q7412372",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Primorsky Krai",
+      "object": "Asia",
+      "subject_id": "Q4341",
+      "object_id": "Q48"
+    },
+    {
+      "subject": "Shiver Point",
+      "object": "Antarctica",
+      "subject_id": "Q1100243",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Eros Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q5395346",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Lambert Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q278245",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Maitri",
+      "object": "Antarctica",
+      "subject_id": "Q626852",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Cape Yelcho",
+      "object": "Antarctica",
+      "subject_id": "Q5035171",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Hays Mountains",
+      "object": "Antarctica",
+      "subject_id": "Q5687208",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Irtysh river",
+      "object": "Asia",
+      "subject_id": "N/A",
+      "object_id": "Q48"
+    },
+    {
+      "subject": "McDonald Heights",
+      "object": "Antarctica",
+      "subject_id": "Q6800906",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Bowman Peninsula",
+      "object": "Antarctica",
+      "subject_id": "Q2680657",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Karonga",
+      "object": "Africa",
+      "subject_id": "Q1022512",
+      "object_id": "Q15"
+    },
+    {
+      "subject": "Volga Bulgaria",
+      "object": "Europe",
+      "subject_id": "Q185488",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Otway Massif",
+      "object": "Antarctica",
+      "subject_id": "Q7110081",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Plateau Station",
+      "object": "Antarctica",
+      "subject_id": "Q4382060",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Harsewinkel",
+      "object": "Europe",
+      "subject_id": "Q225729",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Arkell Cirque",
+      "object": "Antarctica",
+      "subject_id": "Q4791955",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Middle East",
+      "object": "Europe",
+      "subject_id": "Q7204",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Arno",
+      "object": "Europe",
+      "subject_id": "Q11852704",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Mauritius",
+      "object": "Africa",
+      "subject_id": "Q1027",
+      "object_id": "Q15"
+    },
+    {
+      "subject": "Leverett Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q6535291",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Daugava River",
+      "object": "Europe",
+      "subject_id": "N/A",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Kirkby Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q6415585",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Barrientos Island",
+      "object": "Antarctica",
+      "subject_id": "Q4863585",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Argentina Range",
+      "object": "Antarctica",
+      "subject_id": "Q4789285",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Ancient Greece",
+      "object": "Europe",
+      "subject_id": "Q11772",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Hansen Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q5651036",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Bellingshausen Sea",
+      "object": "Antarctica",
+      "subject_id": "Q183455",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Ford Ranges",
+      "object": "Antarctica",
+      "subject_id": "Q4529916",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Duchy of Brabant",
+      "object": "Europe",
+      "subject_id": "Q159856",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Spain",
+      "object": "Europe",
+      "subject_id": "Q29",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Mirabito Range",
+      "object": "Antarctica",
+      "subject_id": "Q6872336",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Probuda Ridge",
+      "object": "Antarctica",
+      "subject_id": "Q3647265",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Enterprise Island",
+      "object": "Antarctica",
+      "subject_id": "Q3593069",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Venus Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q7920592",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Danco Coast",
+      "object": "Antarctica",
+      "subject_id": "Q3010676",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Ismoil Somoni Peak",
+      "object": "Asia",
+      "subject_id": "Q41413",
+      "object_id": "Q48"
+    },
+    {
+      "subject": "Coppermine Peninsula",
+      "object": "Antarctica",
+      "subject_id": "Q2646717",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Chad Basin",
+      "object": "Africa",
+      "subject_id": "Q575245",
+      "object_id": "Q15"
+    },
+    {
+      "subject": "Knobhead",
+      "object": "Antarctica",
+      "subject_id": "Q6422723",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Honkala Island",
+      "object": "Antarctica",
+      "subject_id": "Q3802755",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Cape Royds",
+      "object": "Antarctica",
+      "subject_id": "Q1728332",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Two Step Cliffs",
+      "object": "Antarctica",
+      "subject_id": "Q7224472",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Neva",
+      "object": "Europe",
+      "subject_id": "Q20000228",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Getz Ice Shelf",
+      "object": "Antarctica",
+      "subject_id": "Q825948",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Law Dome",
+      "object": "Antarctica",
+      "subject_id": "Q6503015",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Berkovitsa Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q4892210",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Tagus river",
+      "object": "Europe",
+      "subject_id": "Q14294",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "South Georgia Survey",
+      "object": "Antarctica",
+      "subject_id": "Q312834",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Ardery Island",
+      "object": "Antarctica",
+      "subject_id": "Q655758",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Balham Valley",
+      "object": "Antarctica",
+      "subject_id": "Q4850813",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "United Kingdom of Great Britain and Ireland",
+      "object": "Europe",
+      "subject_id": "Q174193",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Kaloyan Nunatak",
+      "object": "Antarctica",
+      "subject_id": "Q6354323",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "California Plateau",
+      "object": "Antarctica",
+      "subject_id": "Q5020752",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Adelaide Island",
+      "object": "Antarctica",
+      "subject_id": "Q353920",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Rhine",
+      "object": "Europe",
+      "subject_id": "Q584",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Cape Perez",
+      "object": "Antarctica",
+      "subject_id": "Q1100945",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Mount Manthe",
+      "object": "Antarctica",
+      "subject_id": "Q6922007",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Chester Cone",
+      "object": "Antarctica",
+      "subject_id": "Q5093508",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Coulter Heights",
+      "object": "Antarctica",
+      "subject_id": "Q5176185",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Cordiner Peaks",
+      "object": "Antarctica",
+      "subject_id": "Q5170010",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Shipton Ridge",
+      "object": "Antarctica",
+      "subject_id": "Q7498126",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Stonington Island",
+      "object": "Antarctica",
+      "subject_id": "Q618348",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Pickwick Island",
+      "object": "Antarctica",
+      "subject_id": "Q7190953",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Discovery Expedition",
+      "object": "Antarctica",
+      "subject_id": "N/A",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Mapple Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q6754189",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Crystal Sound",
+      "object": "Antarctica",
+      "subject_id": "Q2739707",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Rockefeller Mountains",
+      "object": "Antarctica",
+      "subject_id": "Q7355048",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Black Coast",
+      "object": "Antarctica",
+      "subject_id": "Q3751815",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Ice Runway",
+      "object": "Antarctica",
+      "subject_id": "Q3084930",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Vaughan Inlet",
+      "object": "Antarctica",
+      "subject_id": "Q7917291",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Cape Penck",
+      "object": "Antarctica",
+      "subject_id": "Q720158",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Greenwood Valley",
+      "object": "Antarctica",
+      "subject_id": "Q5605101",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Azerbaijan",
+      "object": "Asia",
+      "subject_id": "Q227",
+      "object_id": "Q48"
+    },
+    {
+      "subject": "Cambodia",
+      "object": "Asia",
+      "subject_id": "Q424",
+      "object_id": "Q48"
+    },
+    {
+      "subject": "Kingdom of Mercia",
+      "object": "Europe",
+      "subject_id": "Q105092",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Evans Peak",
+      "object": "Antarctica",
+      "subject_id": "Q5415944",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Beaufort Island",
+      "object": "Antarctica",
+      "subject_id": "Q786201",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Griffith Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q5608885",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Juan Carlos I Antarctic Base",
+      "object": "Antarctica",
+      "subject_id": "Q403043",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Sudan",
+      "object": "Africa",
+      "subject_id": "Q1049",
+      "object_id": "Q15"
+    },
+    {
+      "subject": "Rubicon",
+      "object": "Europe",
+      "subject_id": "Q60380009",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Owen Ridge",
+      "object": "Antarctica",
+      "subject_id": "Q7114608",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Plana Peak",
+      "object": "Antarctica",
+      "subject_id": "Q7200936",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Loire",
+      "object": "Europe",
+      "subject_id": "Q1469",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Worcester Range",
+      "object": "Antarctica",
+      "subject_id": "Q8034214",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Butler Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q5002610",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Posadowsky Bay",
+      "object": "Antarctica",
+      "subject_id": "Q281803",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Recovery Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q15242351",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "The Hague",
+      "object": "Europe",
+      "subject_id": "Q36600",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Saudi Arabia",
+      "object": "Asia",
+      "subject_id": "Q851",
+      "object_id": "Q48"
+    },
+    {
+      "subject": "Bihar",
+      "object": "Asia",
+      "subject_id": "Q1165",
+      "object_id": "Q48"
+    },
+    {
+      "subject": "Morgan Inlet",
+      "object": "Antarctica",
+      "subject_id": "Q278297",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "William Scoresby Archipelago",
+      "object": "Antarctica",
+      "subject_id": "Q8018200",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Malaysia",
+      "object": "Asia",
+      "subject_id": "Q833",
+      "object_id": "Q48"
+    },
+    {
+      "subject": "Kingdom of the Netherlands",
+      "object": "Europe",
+      "subject_id": "Q29999",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Hutton Mountains",
+      "object": "Antarctica",
+      "subject_id": "Q5951081",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Rouen Mountains",
+      "object": "Antarctica",
+      "subject_id": "Q7370759",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "MacKenzie Bay",
+      "object": "Antarctica",
+      "subject_id": "Q156262",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Rufiji River",
+      "object": "Africa",
+      "subject_id": "Q936023",
+      "object_id": "Q15"
+    },
+    {
+      "subject": "Long Hills",
+      "object": "Antarctica",
+      "subject_id": "Q6672609",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Lake Vostok",
+      "object": "Antarctica",
+      "subject_id": "Q152044",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Booth Island",
+      "object": "Antarctica",
+      "subject_id": "Q525633",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Larsemann Hills",
+      "object": "Antarctica",
+      "subject_id": "Q3307731",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Knox Coast",
+      "object": "Antarctica",
+      "subject_id": "Q2944697",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Zemen Knoll",
+      "object": "Antarctica",
+      "subject_id": "Q8068880",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Northern Foothills",
+      "object": "Antarctica",
+      "subject_id": "Q7058356",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Nye Mountains",
+      "object": "Antarctica",
+      "subject_id": "Q7071057",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Melnik Peak",
+      "object": "Antarctica",
+      "subject_id": "Q11721440",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Phobos Ridge",
+      "object": "Antarctica",
+      "subject_id": "Q7186620",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Ferrer Point",
+      "object": "Antarctica",
+      "subject_id": "Q487732",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Holdsworth Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q5879878",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Voden Heights",
+      "object": "Antarctica",
+      "subject_id": "Q7939299",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Katowice",
+      "object": "Europe",
+      "subject_id": "Q588",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Irrawaddy River",
+      "object": "Asia",
+      "subject_id": "Q26076",
+      "object_id": "Q48"
+    },
+    {
+      "subject": "Evans Peninsula",
+      "object": "Antarctica",
+      "subject_id": "Q2646976",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Churchill Peninsula",
+      "object": "Antarctica",
+      "subject_id": "Q2680509",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Saunders Mountain",
+      "object": "Antarctica",
+      "subject_id": "Q6989759",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Mount Electra",
+      "object": "Antarctica",
+      "subject_id": "Q6920587",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "England",
+      "object": "Europe",
+      "subject_id": "Q21",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "New Swabia",
+      "object": "Antarctica",
+      "subject_id": "Q252609",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Mawson Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q3108299",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Cathedral Rocks",
+      "object": "Antarctica",
+      "subject_id": "Q49467971",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Sevtopolis Peak",
+      "object": "Antarctica",
+      "subject_id": "Q7458114",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Douglas Range",
+      "object": "Antarctica",
+      "subject_id": "Q5301915",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "George V Land",
+      "object": "Antarctica",
+      "subject_id": "Q5545435",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Czechoslovakia",
+      "object": "Europe",
+      "subject_id": "Q33946",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Fort William Point",
+      "object": "Antarctica",
+      "subject_id": "Q5472334",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Liard Island",
+      "object": "Antarctica",
+      "subject_id": "Q6540249",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Whillans Ice Stream",
+      "object": "Antarctica",
+      "subject_id": "Q7993644",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Mount Mentzel",
+      "object": "Antarctica",
+      "subject_id": "Q6922153",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Beacon Supergroup",
+      "object": "Antarctica",
+      "subject_id": "Q4875990",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Coronation Island",
+      "object": "Antarctica",
+      "subject_id": "Q680412",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Havre Mountains",
+      "object": "Antarctica",
+      "subject_id": "Q12715362",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Somalia",
+      "object": "Africa",
+      "subject_id": "Q1045",
+      "object_id": "Q15"
+    },
+    {
+      "subject": "Apollo Peak",
+      "object": "Antarctica",
+      "subject_id": "Q4780334",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Meyer Hills",
+      "object": "Antarctica",
+      "subject_id": "Q1926330",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "South Beaches",
+      "object": "Antarctica",
+      "subject_id": "Q2814812",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Pautalia Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q7155492",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Lucy Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q6698317",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Gdynia",
+      "object": "Europe",
+      "subject_id": "Q385",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Hanoi",
+      "object": "Asia",
+      "subject_id": "Q1858",
+      "object_id": "Q48"
+    },
+    {
+      "subject": "Byrd Station",
+      "object": "Antarctica",
+      "subject_id": "Q2987067",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "West Indies",
+      "object": "Americas",
+      "subject_id": "Q669037",
+      "object_id": "Q828"
+    },
+    {
+      "subject": "Nimbus Hills",
+      "object": "Antarctica",
+      "subject_id": "Q1992542",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Miers Valley",
+      "object": "Antarctica",
+      "subject_id": "Q15221117",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Grindley Plateau",
+      "object": "Antarctica",
+      "subject_id": "Q5609452",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Herbert Mountains",
+      "object": "Antarctica",
+      "subject_id": "Q2913060",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Luapula River",
+      "object": "Africa",
+      "subject_id": "Q151858",
+      "object_id": "Q15"
+    },
+    {
+      "subject": "Schreckhorn",
+      "object": "Europe",
+      "subject_id": "Q16539",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Zucchelli Station",
+      "object": "Antarctica",
+      "subject_id": "Q1677142",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Mumbai",
+      "object": "Asia",
+      "subject_id": "Q1156",
+      "object_id": "Q48"
+    },
+    {
+      "subject": "Daman and Diu",
+      "object": "Asia",
+      "subject_id": "Q66710",
+      "object_id": "Q48"
+    },
+    {
+      "subject": "East Francia",
+      "object": "Europe",
+      "subject_id": "Q153080",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Mount Tyrrell",
+      "object": "Antarctica",
+      "subject_id": "Q6924234",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Antarctic ice sheet",
+      "object": "Antarctica",
+      "subject_id": "Q571430",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Balleny Islands",
+      "object": "Antarctica",
+      "subject_id": "Q805218",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Norway Bight",
+      "object": "Antarctica",
+      "subject_id": "Q7060829",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Terningskarvet Mountain",
+      "object": "Antarctica",
+      "subject_id": "Q7702951",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Tierney Peninsula",
+      "object": "Antarctica",
+      "subject_id": "Q2647004",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Mercator Ice Piedmont",
+      "object": "Antarctica",
+      "subject_id": "Q6818053",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Insel Range",
+      "object": "Antarctica",
+      "subject_id": "Q12715699",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Cartographers Range",
+      "object": "Antarctica",
+      "subject_id": "Q5047376",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Yovkov Point",
+      "object": "Antarctica",
+      "subject_id": "Q488096",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Krogh Island",
+      "object": "Antarctica",
+      "subject_id": "Q6438761",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Banaskantha district",
+      "object": "Asia",
+      "subject_id": "Q806125",
+      "object_id": "Q48"
+    },
+    {
+      "subject": "Cugnot Ice Piedmont",
+      "object": "Antarctica",
+      "subject_id": "Q5192667",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Anderson Hills",
+      "object": "Antarctica",
+      "subject_id": "Q4754092",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Cape Selborne",
+      "object": "Antarctica",
+      "subject_id": "Q2604169",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Denton Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q5259605",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Chapman Snowfield",
+      "object": "Antarctica",
+      "subject_id": "Q5073312",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Debenham Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q3761657",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Eland Mountains",
+      "object": "Antarctica",
+      "subject_id": "Q5353419",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Washington Escarpment",
+      "object": "Antarctica",
+      "subject_id": "Q7971852",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Coulman Island",
+      "object": "Antarctica",
+      "subject_id": "Q173788",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Brugmann Mountains",
+      "object": "Antarctica",
+      "subject_id": "Q2997381",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Srebarna Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q7582414",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Mount Dido",
+      "object": "Antarctica",
+      "subject_id": "Q6920441",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "New Delhi",
+      "object": "Asia",
+      "subject_id": "Q987",
+      "object_id": "Q48"
+    },
+    {
+      "subject": "Arrival Heights",
+      "object": "Antarctica",
+      "subject_id": "Q4796033",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Mount Murphy",
+      "object": "Antarctica",
+      "subject_id": "Q358124",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Cape Monaco",
+      "object": "Antarctica",
+      "subject_id": "Q881429",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Surveyors Range",
+      "object": "Antarctica",
+      "subject_id": "Q12718777",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Jones Bluffs",
+      "object": "Antarctica",
+      "subject_id": "Q15229718",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Andvord Bay",
+      "object": "Antarctica",
+      "subject_id": "Q141400",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Siple Dome",
+      "object": "Antarctica",
+      "subject_id": "Q7525802",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Camp Academia",
+      "object": "Antarctica",
+      "subject_id": "Q2621317",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Cape Kinsey",
+      "object": "Antarctica",
+      "subject_id": "Q2332452",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Uttar Pradesh",
+      "object": "Asia",
+      "subject_id": "Q1498",
+      "object_id": "Q48"
+    },
+    {
+      "subject": "Martel Inlet",
+      "object": "Antarctica",
+      "subject_id": "Q278676",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Medina Peaks",
+      "object": "Antarctica",
+      "subject_id": "Q6806928",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Madagascar",
+      "object": "Africa",
+      "subject_id": "Q1019",
+      "object_id": "Q15"
+    },
+    {
+      "subject": "Snakeskin Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q7547217",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Pioneers Escarpment",
+      "object": "Antarctica",
+      "subject_id": "Q7196858",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Breidnes Peninsula",
+      "object": "Antarctica",
+      "subject_id": "Q2681268",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Rotch Dome",
+      "object": "Antarctica",
+      "subject_id": "Q7370351",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Mount Paris",
+      "object": "Antarctica",
+      "subject_id": "Q6922657",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Wales",
+      "object": "Europe",
+      "subject_id": "Q25",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Veleka Ridge",
+      "object": "Antarctica",
+      "subject_id": "Q7918884",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Goa",
+      "object": "Asia",
+      "subject_id": "Q28018111",
+      "object_id": "Q48"
+    },
+    {
+      "subject": "Carolingian Empire",
+      "object": "Europe",
+      "subject_id": "Q31929",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Manipur",
+      "object": "Asia",
+      "subject_id": "Q1193",
+      "object_id": "Q48"
+    },
+    {
+      "subject": "Crevasse Valley Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q5184763",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Rayner Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q7299322",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Cape Waite",
+      "object": "Antarctica",
+      "subject_id": "Q857184",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Segura",
+      "object": "Europe",
+      "subject_id": "Q6123904",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Tbilisi",
+      "object": "Europe",
+      "subject_id": "Q994",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Fournier Bay",
+      "object": "Antarctica",
+      "subject_id": "Q141407",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Shenzhen",
+      "object": "Asia",
+      "subject_id": "Q15174",
+      "object_id": "Q48"
+    },
+    {
+      "subject": "Thimphu",
+      "object": "Asia",
+      "subject_id": "Q9270",
+      "object_id": "Q48"
+    },
+    {
+      "subject": "Tashkent",
+      "object": "Asia",
+      "subject_id": "Q269",
+      "object_id": "Q48"
+    },
+    {
+      "subject": "Bach Ice Shelf",
+      "object": "Antarctica",
+      "subject_id": "Q4838682",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Venta",
+      "object": "Europe",
+      "subject_id": "Q37322630",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Publications Ice Shelf",
+      "object": "Antarctica",
+      "subject_id": "Q378830",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Arab League",
+      "object": "Asia",
+      "subject_id": "Q7172",
+      "object_id": "Q48"
+    },
+    {
+      "subject": "Lisiya Ridge",
+      "object": "Antarctica",
+      "subject_id": "Q6558928",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Jupiter Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q21855512",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "National Law School of India University",
+      "object": "Asia",
+      "subject_id": "Q3067635",
+      "object_id": "Q48"
+    },
+    {
+      "subject": "Crosswell Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q3108286",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Craiova",
+      "object": "Europe",
+      "subject_id": "Q168057",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Misnomer Point",
+      "object": "Antarctica",
+      "subject_id": "Q6875861",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Cape Hallett",
+      "object": "Antarctica",
+      "subject_id": "Q1728309",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Founders Peaks",
+      "object": "Antarctica",
+      "subject_id": "Q1439865",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Cleveland Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q5132145",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Stabben",
+      "object": "Antarctica",
+      "subject_id": "Q7595707",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Sentinel Range",
+      "object": "Antarctica",
+      "subject_id": "Q1778845",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Edinburgh Hill",
+      "object": "Antarctica",
+      "subject_id": "Q706145",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Hong Kong",
+      "object": "Asia",
+      "subject_id": "Q8646",
+      "object_id": "Q48"
+    },
+    {
+      "subject": "Executive Committee Range",
+      "object": "Antarctica",
+      "subject_id": "Q3544493",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Johnson Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q6268305",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Scott Island",
+      "object": "Antarctica",
+      "subject_id": "Q1345909",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Brooklyn Island",
+      "object": "Antarctica",
+      "subject_id": "Q4974862",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Liv Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q6654157",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Archar Peninsula",
+      "object": "Antarctica",
+      "subject_id": "Q2646800",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Rambo Nunataks",
+      "object": "Antarctica",
+      "subject_id": "Q7289254",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Cape Filchner",
+      "object": "Antarctica",
+      "subject_id": "Q2606149",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Benson Point",
+      "object": "Antarctica",
+      "subject_id": "Q4890278",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Vestfold Hills",
+      "object": "Antarctica",
+      "subject_id": "Q611746",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Strom Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q7624324",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Emona Anchorage",
+      "object": "Antarctica",
+      "subject_id": "Q218247",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Demas Range",
+      "object": "Antarctica",
+      "subject_id": "Q5255094",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Cape Adams",
+      "object": "Antarctica",
+      "subject_id": "Q2332941",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Cape Rey",
+      "object": "Antarctica",
+      "subject_id": "Q1100239",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Lyon Nunataks",
+      "object": "Antarctica",
+      "subject_id": "Q6709647",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Kazakhstan",
+      "object": "Europe",
+      "subject_id": "Q232",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Renier Point",
+      "object": "Antarctica",
+      "subject_id": "Q707041",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Gambacorta Peak",
+      "object": "Antarctica",
+      "subject_id": "Q5519595",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Gornergrat",
+      "object": "Europe",
+      "subject_id": "Q666796",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Kukri Hills",
+      "object": "Antarctica",
+      "subject_id": "Q6442557",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Mertz Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q1131216",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Tiber",
+      "object": "Europe",
+      "subject_id": "Q37442143",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Shackleton Range",
+      "object": "Antarctica",
+      "subject_id": "Q1550766",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Arctowski Peninsula",
+      "object": "Antarctica",
+      "subject_id": "Q2681523",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "La Grange Nunataks",
+      "object": "Antarctica",
+      "subject_id": "Q6462903",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Welcome Mountain",
+      "object": "Antarctica",
+      "subject_id": "Q7980644",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Neny Island",
+      "object": "Antarctica",
+      "subject_id": "Q3050359",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Balchen Mountain",
+      "object": "Antarctica",
+      "subject_id": "Q4850244",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Marie Byrd Land",
+      "object": "Antarctica",
+      "subject_id": "Q745767",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "The Knoll",
+      "object": "Antarctica",
+      "subject_id": "Q7744881",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Mulock Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q6934316",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Iran",
+      "object": "Asia",
+      "subject_id": "Q794",
+      "object_id": "Q48"
+    },
+    {
+      "subject": "Mount Discovery",
+      "object": "Antarctica",
+      "subject_id": "Q1422550",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Beall Island",
+      "object": "Antarctica",
+      "subject_id": "Q3802674",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Fold Island",
+      "object": "Antarctica",
+      "subject_id": "Q5464263",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Maury Bay",
+      "object": "Antarctica",
+      "subject_id": "Q281475",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Tiruvannamalai district",
+      "object": "Asia",
+      "subject_id": "Q15207",
+      "object_id": "Q48"
+    },
+    {
+      "subject": "Masson Range",
+      "object": "Antarctica",
+      "subject_id": "Q5256666",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Cape Smith",
+      "object": "Antarctica",
+      "subject_id": "Q2604083",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Storm Peak",
+      "object": "Antarctica",
+      "subject_id": "Q7620160",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Albanus Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q4709266",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Mount Bentley",
+      "object": "Antarctica",
+      "subject_id": "Q16840417",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Huntress Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q11016956",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Cobham Range",
+      "object": "Antarctica",
+      "subject_id": "Q5138893",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Marsh Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q6773317",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Transantarctic Mountains",
+      "object": "Antarctica",
+      "subject_id": "Q319671",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "McKinnon Island",
+      "object": "Antarctica",
+      "subject_id": "Q6801997",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Tapsell Foreland",
+      "object": "Antarctica",
+      "subject_id": "Q2681096",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Sopot Ice Piedmont",
+      "object": "Antarctica",
+      "subject_id": "Q7563184",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Pendleton Strait",
+      "object": "Antarctica",
+      "subject_id": "Q2783891",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Dundee Whaling Expedition",
+      "object": "Antarctica",
+      "subject_id": "Q1265564",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "McMurdo Station",
+      "object": "Antarctica",
+      "subject_id": "Q498627",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Umber Island",
+      "object": "Antarctica",
+      "subject_id": "Q7881246",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Pecora Escarpment",
+      "object": "Antarctica",
+      "subject_id": "Q7158789",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Eritrea",
+      "object": "Africa",
+      "subject_id": "Q986",
+      "object_id": "Q15"
+    },
+    {
+      "subject": "Violante Inlet",
+      "object": "Antarctica",
+      "subject_id": "Q278413",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Ojos del Salado",
+      "object": "Americas",
+      "subject_id": "Q233836",
+      "object_id": "Q828"
+    },
+    {
+      "subject": "Flask Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q5457676",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Fish Islands",
+      "object": "Antarctica",
+      "subject_id": "Q5454539",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Tarnovo Ice Piedmont",
+      "object": "Antarctica",
+      "subject_id": "Q7686438",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Carlota Cove",
+      "object": "Antarctica",
+      "subject_id": "Q58597",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Mount Harding",
+      "object": "Antarctica",
+      "subject_id": "Q6921056",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Riiser-Larsen Ice Shelf",
+      "object": "Antarctica",
+      "subject_id": "Q1389459",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Botnneset Peninsula",
+      "object": "Antarctica",
+      "subject_id": "Q2563386",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Green Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q5602591",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Hugi Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q5933615",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Chavez Island",
+      "object": "Antarctica",
+      "subject_id": "Q5088502",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Bowyer Butte",
+      "object": "Antarctica",
+      "subject_id": "Q4951456",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "North Macedonia",
+      "object": "Europe",
+      "subject_id": "Q221",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Quinton Point",
+      "object": "Antarctica",
+      "subject_id": "Q881350",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Lazarev Ice Shelf",
+      "object": "Antarctica",
+      "subject_id": "Q2026401",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Yoruba religion",
+      "object": "Africa",
+      "subject_id": "Q1086440",
+      "object_id": "Q15"
+    },
+    {
+      "subject": "Mars Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q6773125",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Vinson Plateau",
+      "object": "Antarctica",
+      "subject_id": "Q6178343",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Rothschild Island",
+      "object": "Antarctica",
+      "subject_id": "Q3107114",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Lake Vanda",
+      "object": "Antarctica",
+      "subject_id": "Q1190747",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Hesperides Hill",
+      "object": "Antarctica",
+      "subject_id": "Q5745877",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Shimla",
+      "object": "Asia",
+      "subject_id": "Q83786",
+      "object_id": "Q48"
+    },
+    {
+      "subject": "English Coast",
+      "object": "Antarctica",
+      "subject_id": "Q3751806",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Robertson Bay",
+      "object": "Antarctica",
+      "subject_id": "Q1445903",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Cape Longing",
+      "object": "Antarctica",
+      "subject_id": "Q1100599",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Wylie Bay",
+      "object": "Antarctica",
+      "subject_id": "Q141517",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Abbasid Caliphate",
+      "object": "Africa",
+      "subject_id": "Q12536",
+      "object_id": "Q15"
+    },
+    {
+      "subject": "Husky Massif",
+      "object": "Antarctica",
+      "subject_id": "Q5949399",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Melilla",
+      "object": "Africa",
+      "subject_id": "Q5831",
+      "object_id": "Q15"
+    },
+    {
+      "subject": "Harris Peninsula",
+      "object": "Antarctica",
+      "subject_id": "Q2680414",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Holtedahl Bay",
+      "object": "Antarctica",
+      "subject_id": "Q141456",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Mount Wade",
+      "object": "Antarctica",
+      "subject_id": "Q6924466",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Mount Dallmann",
+      "object": "Antarctica",
+      "subject_id": "Q1158031",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Mount Longhurst",
+      "object": "Antarctica",
+      "subject_id": "Q6921881",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Struma Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q7625312",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Jutulsessen",
+      "object": "Antarctica",
+      "subject_id": "Q6318813",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Kaliakra Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q6352486",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Nebraska Peaks",
+      "object": "Antarctica",
+      "subject_id": "Q6984767",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Willan Nunatak",
+      "object": "Antarctica",
+      "subject_id": "Q8003334",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Yule Bay",
+      "object": "Antarctica",
+      "subject_id": "Q8060903",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Eisenhower Range",
+      "object": "Antarctica",
+      "subject_id": "Q5349937",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Rezen Saddle",
+      "object": "Antarctica",
+      "subject_id": "Q7319863",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Slovenia",
+      "object": "Europe",
+      "subject_id": "Q215",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Bransfield Strait",
+      "object": "Antarctica",
+      "subject_id": "Q898839",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Terra Nova Bay",
+      "object": "Antarctica",
+      "subject_id": "Q731848",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Cameroon",
+      "object": "Africa",
+      "subject_id": "Q1009",
+      "object_id": "Q15"
+    },
+    {
+      "subject": "Stonehouse Bay",
+      "object": "Antarctica",
+      "subject_id": "Q141304",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Dominion Range",
+      "object": "Antarctica",
+      "subject_id": "Q5291068",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Rawson Plateau",
+      "object": "Antarctica",
+      "subject_id": "Q7297066",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Southern Cross Mountains",
+      "object": "Antarctica",
+      "subject_id": "Q7569839",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Malta Plateau",
+      "object": "Antarctica",
+      "subject_id": "Q6744681",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Erickson Bluffs",
+      "object": "Antarctica",
+      "subject_id": "Q5388202",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Nigeria",
+      "object": "Africa",
+      "subject_id": "Q1033",
+      "object_id": "Q15"
+    },
+    {
+      "subject": "Mount Cameroon",
+      "object": "Africa",
+      "subject_id": "Q190562",
+      "object_id": "Q15"
+    },
+    {
+      "subject": "Whirlwind Inlet",
+      "object": "Antarctica",
+      "subject_id": "Q278712",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Bani River",
+      "object": "Africa",
+      "subject_id": "Q289460",
+      "object_id": "Q15"
+    },
+    {
+      "subject": "McFarlane Strait",
+      "object": "Antarctica",
+      "subject_id": "Q2782979",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Congo basin",
+      "object": "Africa",
+      "subject_id": "Q932289",
+      "object_id": "Q15"
+    },
+    {
+      "subject": "Tallinn",
+      "object": "Europe",
+      "subject_id": "Q1770",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Shirley Island",
+      "object": "Antarctica",
+      "subject_id": "Q3802877",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Djibouti",
+      "object": "Africa",
+      "subject_id": "Q977",
+      "object_id": "Q15"
+    },
+    {
+      "subject": "Wirth Peninsula",
+      "object": "Antarctica",
+      "subject_id": "Q2648088",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Lomonosov Mountains",
+      "object": "Antarctica",
+      "subject_id": "Q5483287",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Beardmore Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q791644",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Mount Bayonne",
+      "object": "Antarctica",
+      "subject_id": "Q6919647",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Daniels Range",
+      "object": "Antarctica",
+      "subject_id": "Q5219489",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Collins Harbour",
+      "object": "Antarctica",
+      "subject_id": "Q217775",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "MacAlpine Hills",
+      "object": "Antarctica",
+      "subject_id": "Q6721701",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Middle East",
+      "object": "Africa",
+      "subject_id": "Q7204",
+      "object_id": "Q15"
+    },
+    {
+      "subject": "Ma River",
+      "object": "Asia",
+      "subject_id": "Q508468",
+      "object_id": "Q48"
+    },
+    {
+      "subject": "Tisza",
+      "object": "Europe",
+      "subject_id": "Q37528745",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Mount Ignatiev",
+      "object": "Antarctica",
+      "subject_id": "Q6921401",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Borg Massif",
+      "object": "Antarctica",
+      "subject_id": "Q3298193",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Morocco",
+      "object": "Africa",
+      "subject_id": "Q1028",
+      "object_id": "Q15"
+    },
+    {
+      "subject": "Walker Mountains",
+      "object": "Antarctica",
+      "subject_id": "Q7962300",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Elbe",
+      "object": "Europe",
+      "subject_id": "Q1644",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Austkampane Hills",
+      "object": "Antarctica",
+      "subject_id": "Q4823365",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Barwick Valley",
+      "object": "Antarctica",
+      "subject_id": "Q4865966",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Anderson Heights",
+      "object": "Antarctica",
+      "subject_id": "Q4754085",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Marshall Mountains",
+      "object": "Antarctica",
+      "subject_id": "Q6773719",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Kotis Point",
+      "object": "Antarctica",
+      "subject_id": "Q707714",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Denfeld Mountains",
+      "object": "Antarctica",
+      "subject_id": "Q5256907",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Staten Island Heights",
+      "object": "Antarctica",
+      "subject_id": "Q7603998",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Thiel Mountains",
+      "object": "Antarctica",
+      "subject_id": "Q3323109",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Opalchenie Peak",
+      "object": "Antarctica",
+      "subject_id": "Q7095558",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Beaumont Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q4877558",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Orange Free State",
+      "object": "Africa",
+      "subject_id": "Q218023",
+      "object_id": "Q15"
+    },
+    {
+      "subject": "Forster Ice Piedmont",
+      "object": "Antarctica",
+      "subject_id": "Q5470623",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Keltie Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q6386578",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Comoros",
+      "object": "Africa",
+      "subject_id": "Q970",
+      "object_id": "Q15"
+    },
+    {
+      "subject": "Equatorial Guinea",
+      "object": "Africa",
+      "subject_id": "Q983",
+      "object_id": "Q15"
+    },
+    {
+      "subject": "Eiger",
+      "object": "Europe",
+      "subject_id": "Q36989180",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Lazarev Mountains",
+      "object": "Antarctica",
+      "subject_id": "Q4146078",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Brown Peninsula",
+      "object": "Antarctica",
+      "subject_id": "Q2680453",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Kiev Peninsula",
+      "object": "Antarctica",
+      "subject_id": "N/A",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Saint Johns Range",
+      "object": "Antarctica",
+      "subject_id": "Q7401493",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Portugal",
+      "object": "Europe",
+      "subject_id": "Q45",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Bulgaria",
+      "object": "Europe",
+      "subject_id": "Q219",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Ross Island",
+      "object": "Antarctica",
+      "subject_id": "Q209899",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Radnevo Peak",
+      "object": "Antarctica",
+      "subject_id": "Q7281466",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Yorkshire",
+      "object": "Europe",
+      "subject_id": "Q163",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Skeidshovden Mountain",
+      "object": "Antarctica",
+      "subject_id": "Q7534336",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Davis Coast",
+      "object": "Antarctica",
+      "subject_id": "Q3307722",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Miers Bluff",
+      "object": "Antarctica",
+      "subject_id": "Q706194",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Steventon Island",
+      "object": "Antarctica",
+      "subject_id": "Q7615555",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Australian Antarctic Territory",
+      "object": "Antarctica",
+      "subject_id": "Q178994",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Roberts Massif",
+      "object": "Antarctica",
+      "subject_id": "Q3297597",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Koyambedu",
+      "object": "Asia",
+      "subject_id": "Q3534941",
+      "object_id": "Q48"
+    },
+    {
+      "subject": "Foyn Coast",
+      "object": "Antarctica",
+      "subject_id": "Q2815477",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Pensacola Mountains",
+      "object": "Antarctica",
+      "subject_id": "Q2913098",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Vietnam",
+      "object": "Asia",
+      "subject_id": "Q881",
+      "object_id": "Q48"
+    },
+    {
+      "subject": "Bern",
+      "object": "Europe",
+      "subject_id": "Q70",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "KU Leuven",
+      "object": "Europe",
+      "subject_id": "N/A",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Weber Inlet",
+      "object": "Antarctica",
+      "subject_id": "Q278223",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Pourquoi Pas Point",
+      "object": "Antarctica",
+      "subject_id": "Q785228",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Robinson Group",
+      "object": "Antarctica",
+      "subject_id": "Q7353024",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Indigirka River",
+      "object": "Asia",
+      "subject_id": "N/A",
+      "object_id": "Q48"
+    },
+    {
+      "subject": "Laos",
+      "object": "Asia",
+      "subject_id": "Q819",
+      "object_id": "Q48"
+    },
+    {
+      "subject": "Byers Peninsula",
+      "object": "Antarctica",
+      "subject_id": "Q2648317",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Zed Islands",
+      "object": "Antarctica",
+      "subject_id": "Q6978289",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Lovech Heights",
+      "object": "Antarctica",
+      "subject_id": "Q6692033",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "David Island",
+      "object": "Antarctica",
+      "subject_id": "Q5235384",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Paulet Island",
+      "object": "Antarctica",
+      "subject_id": "Q148154",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Bosnia and Herzegovina",
+      "object": "Europe",
+      "subject_id": "Q225",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Ingrid Christensen Coast",
+      "object": "Antarctica",
+      "subject_id": "Q1663286",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Sobat River",
+      "object": "Africa",
+      "subject_id": "Q821911",
+      "object_id": "Q15"
+    },
+    {
+      "subject": "Shkhara",
+      "object": "Europe",
+      "subject_id": "Q217457",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Petvar Heights",
+      "object": "Antarctica",
+      "subject_id": "Q7179431",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Cape Adare",
+      "object": "Antarctica",
+      "subject_id": "Q619297",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Trelech",
+      "object": "Europe",
+      "subject_id": "Q7837984",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Mont Blanc",
+      "object": "Europe",
+      "subject_id": "Q583",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Palmer Archipelago",
+      "object": "Antarctica",
+      "subject_id": "Q304679",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Onyx River",
+      "object": "Antarctica",
+      "subject_id": "Q203098",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Herbert Range",
+      "object": "Antarctica",
+      "subject_id": "Q1234296",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Drummond Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q5309223",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Solan District",
+      "object": "Asia",
+      "subject_id": "Q2980937",
+      "object_id": "Q48"
+    },
+    {
+      "subject": "Pearse Valley",
+      "object": "Antarctica",
+      "subject_id": "Q7158298",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Rose Valley Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q7367971",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Prussian Partition",
+      "object": "Europe",
+      "subject_id": "Q129791",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Block Bay",
+      "object": "Antarctica",
+      "subject_id": "Q281689",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Marinid dynasty",
+      "object": "Africa",
+      "subject_id": "Q582861",
+      "object_id": "Q15"
+    },
+    {
+      "subject": "Kohler Range",
+      "object": "Antarctica",
+      "subject_id": "Q6426044",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Melchior Islands",
+      "object": "Antarctica",
+      "subject_id": "Q1919137",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Breznik Heights",
+      "object": "Antarctica",
+      "subject_id": "Q4962835",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Arena Valley",
+      "object": "Antarctica",
+      "subject_id": "Q4788914",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Bull Pass",
+      "object": "Antarctica",
+      "subject_id": "Q4996598",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Paris",
+      "object": "Europe",
+      "subject_id": "Q90",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Sjogren Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q7533550",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Mount McClintock",
+      "object": "Antarctica",
+      "subject_id": "Q7133081",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Pequod Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q7166596",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Lesotho",
+      "object": "Africa",
+      "subject_id": "Q1013",
+      "object_id": "Q15"
+    },
+    {
+      "subject": "Pitt Islands",
+      "object": "Antarctica",
+      "subject_id": "Q1091817",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Land Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q6483900",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Bigo Bay",
+      "object": "Antarctica",
+      "subject_id": "Q141625",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Burundi",
+      "object": "Africa",
+      "subject_id": "Q967",
+      "object_id": "Q15"
+    },
+    {
+      "subject": "Estonia",
+      "object": "Europe",
+      "subject_id": "Q191",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Gelderland",
+      "object": "Europe",
+      "subject_id": "Q775",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "British Empire",
+      "object": "Africa",
+      "subject_id": "Q8680",
+      "object_id": "Q15"
+    },
+    {
+      "subject": "Martin Hills",
+      "object": "Antarctica",
+      "subject_id": "Q12016526",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Soviet Union",
+      "object": "Europe",
+      "subject_id": "Q15180",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Supporters Range",
+      "object": "Antarctica",
+      "subject_id": "Q7644607",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Brown Hills",
+      "object": "Antarctica",
+      "subject_id": "Q4976167",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Napier Mountains",
+      "object": "Antarctica",
+      "subject_id": "Q5306381",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Mali",
+      "object": "Africa",
+      "subject_id": "Q912",
+      "object_id": "Q15"
+    },
+    {
+      "subject": "Rutford Ice Stream",
+      "object": "Antarctica",
+      "subject_id": "Q7382773",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Shipley Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q7498018",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Balkan Snowfield",
+      "object": "Antarctica",
+      "subject_id": "Q4851090",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Benson Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q4890254",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Nepal",
+      "object": "Asia",
+      "subject_id": "Q837",
+      "object_id": "Q48"
+    },
+    {
+      "subject": "Niger River",
+      "object": "Africa",
+      "subject_id": "Q3542",
+      "object_id": "Q15"
+    },
+    {
+      "subject": "Fosdick Mountains",
+      "object": "Antarctica",
+      "subject_id": "Q5473333",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Euphrates",
+      "object": "Asia",
+      "subject_id": "Q34589",
+      "object_id": "Q48"
+    },
+    {
+      "subject": "Rothera Research Station",
+      "object": "Antarctica",
+      "subject_id": "Q1635867",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Urdoviza Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q7900322",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Alexander Island",
+      "object": "Antarctica",
+      "subject_id": "Q200223",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Levski Ridge",
+      "object": "Antarctica",
+      "subject_id": "Q6535850",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Victoria Upper Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q7898985",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Tundzha Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q7852918",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Wilhelmina Bay",
+      "object": "Antarctica",
+      "subject_id": "Q141709",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Neptune Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q6995667",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Austria",
+      "object": "Europe",
+      "subject_id": "Q40",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Anare Mountains",
+      "object": "Antarctica",
+      "subject_id": "Q486414",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Lions Rump",
+      "object": "Antarctica",
+      "subject_id": "Q581680",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Mount Lister",
+      "object": "Antarctica",
+      "subject_id": "Q3861688",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Saturn Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q7426788",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Aviator Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q4828736",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Cape Williams",
+      "object": "Antarctica",
+      "subject_id": "Q2605192",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Support Force Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q7644571",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Jorum Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q6279035",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Hektoria Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q15220573",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Birchall Peaks",
+      "object": "Antarctica",
+      "subject_id": "Q4915704",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Mount Cupola",
+      "object": "Antarctica",
+      "subject_id": "Q7220636",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Kaveri River",
+      "object": "Asia",
+      "subject_id": "Q35363166",
+      "object_id": "Q48"
+    },
+    {
+      "subject": "Congo Free State",
+      "object": "Africa",
+      "subject_id": "Q76048",
+      "object_id": "Q15"
+    },
+    {
+      "subject": "Cape Hordern",
+      "object": "Antarctica",
+      "subject_id": "Q2564253",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Ellsworth Land",
+      "object": "Antarctica",
+      "subject_id": "Q1134547",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Ruppert Coast",
+      "object": "Antarctica",
+      "subject_id": "Q6111656",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Maglenik Heights",
+      "object": "Antarctica",
+      "subject_id": "Q6731185",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Antarctic Plate",
+      "object": "Antarctica",
+      "subject_id": "Q501705",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Wright Lower Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q8038225",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Minna Bluff",
+      "object": "Antarctica",
+      "subject_id": "Q1809211",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Aitcho Islands",
+      "object": "Antarctica",
+      "subject_id": "Q2610487",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Ol Doinyo Lengai",
+      "object": "Africa",
+      "subject_id": "Q746787",
+      "object_id": "Q15"
+    },
+    {
+      "subject": "Queen Elizabeth Land",
+      "object": "Antarctica",
+      "subject_id": "Q1193277",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Mount McCoy",
+      "object": "Antarctica",
+      "subject_id": "Q6922094",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Mac. Robertson Land",
+      "object": "Antarctica",
+      "subject_id": "Q1389935",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Piccard Cove",
+      "object": "Antarctica",
+      "subject_id": "Q118714",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Elgar Uplands",
+      "object": "Antarctica",
+      "subject_id": "Q5359969",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Largo Island",
+      "object": "Antarctica",
+      "subject_id": "Q6489287",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Inn",
+      "object": "Europe",
+      "subject_id": "Q256020",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Juan de Nova Island",
+      "object": "Africa",
+      "subject_id": "Q237034",
+      "object_id": "Q15"
+    },
+    {
+      "subject": "Mikkelsen Bay",
+      "object": "Antarctica",
+      "subject_id": "Q141580",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Murphy Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q6938937",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Cape Evensen",
+      "object": "Antarctica",
+      "subject_id": "Q1099218",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Scar Inlet",
+      "object": "Antarctica",
+      "subject_id": "Q278511",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Langnes Peninsula",
+      "object": "Antarctica",
+      "subject_id": "Q2680641",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Switzerland",
+      "object": "Europe",
+      "subject_id": "Q39",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Quarles Range",
+      "object": "Antarctica",
+      "subject_id": "Q7269175",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Andersson Island",
+      "object": "Antarctica",
+      "subject_id": "Q3593000",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Gibraltar",
+      "object": "Europe",
+      "subject_id": "Q1410",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Drygalski Mountains",
+      "object": "Antarctica",
+      "subject_id": "Q1132202",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Moon Bay",
+      "object": "Antarctica",
+      "subject_id": "Q217953",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Scylla Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q7439647",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Tinker Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q7808325",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Southern Netherlands",
+      "object": "Europe",
+      "subject_id": "Q6581823",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Kouilou-Niari River",
+      "object": "Africa",
+      "subject_id": "Q1637839",
+      "object_id": "Q15"
+    },
+    {
+      "subject": "Cape Rymill",
+      "object": "Antarctica",
+      "subject_id": "Q2332548",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Cosgrove Ice Shelf",
+      "object": "Antarctica",
+      "subject_id": "Q5173902",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Dunedin Range",
+      "object": "Antarctica",
+      "subject_id": "Q1265604",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Smith Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q14871546",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Snowdon",
+      "object": "Europe",
+      "subject_id": "Q37553283",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Cape Northrop",
+      "object": "Antarctica",
+      "subject_id": "Q1099632",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Williams Point",
+      "object": "Antarctica",
+      "subject_id": "Q4353324",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Mount Newall",
+      "object": "Antarctica",
+      "subject_id": "Q6922399",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Pernik Peninsula",
+      "object": "Antarctica",
+      "subject_id": "Q2680612",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Fleming Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q5458579",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Hurricane Ridge",
+      "object": "Antarctica",
+      "subject_id": "Q5948285",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Scaife Mountains",
+      "object": "Antarctica",
+      "subject_id": "Q5370515",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Bowman Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q4951313",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Cape Archer",
+      "object": "Antarctica",
+      "subject_id": "Q2562761",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Frigate Range",
+      "object": "Antarctica",
+      "subject_id": "Q5504479",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Cieszyn",
+      "object": "Europe",
+      "subject_id": "Q321197",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Solvay Mountains",
+      "object": "Antarctica",
+      "subject_id": "Q2996089",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Imperial Trans-Antarctic Expedition",
+      "object": "Antarctica",
+      "subject_id": "N/A",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Tapley Mountains",
+      "object": "Antarctica",
+      "subject_id": "Q7011669",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Conrad Mountains",
+      "object": "Antarctica",
+      "subject_id": "Q1127088",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Thailand",
+      "object": "Asia",
+      "subject_id": "Q869",
+      "object_id": "Q48"
+    },
+    {
+      "subject": "Bourgeois Fjord",
+      "object": "Antarctica",
+      "subject_id": "Q263370",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Uranus Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q7899762",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Splettstoesser Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q7578552",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Moe Island",
+      "object": "Antarctica",
+      "subject_id": "Q266667",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Vernadsky Research Base",
+      "object": "Antarctica",
+      "subject_id": "N/A",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Irish Free State",
+      "object": "Europe",
+      "subject_id": "Q31747",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Pitkevitch Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q15266886",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Mount Moses",
+      "object": "Antarctica",
+      "subject_id": "Q6922298",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Pechora River",
+      "object": "Europe",
+      "subject_id": "N/A",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Salamander Range",
+      "object": "Antarctica",
+      "subject_id": "Q7403554",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Cape Mousse",
+      "object": "Antarctica",
+      "subject_id": "Q5034955",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Eights Coast",
+      "object": "Antarctica",
+      "subject_id": "Q2983456",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Totten Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q7828430",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Egypt",
+      "object": "Africa",
+      "subject_id": "Q79",
+      "object_id": "Q15"
+    },
+    {
+      "subject": "Kondofrey Heights",
+      "object": "Antarctica",
+      "subject_id": "Q6429013",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Fendley Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q5443302",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Cape Colbeck",
+      "object": "Antarctica",
+      "subject_id": "Q1990087",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Ryder Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q7384910",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Moscow",
+      "object": "Europe",
+      "subject_id": "Q649",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Thiruvananthapuram",
+      "object": "Asia",
+      "subject_id": "Q167715",
+      "object_id": "Q48"
+    },
+    {
+      "subject": "Clark Mountains",
+      "object": "Antarctica",
+      "subject_id": "Q5127334",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Kama River",
+      "object": "Europe",
+      "subject_id": "Q11648095",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Senegambia Confederation",
+      "object": "Africa",
+      "subject_id": "Q828443",
+      "object_id": "Q15"
+    },
+    {
+      "subject": "San Marino",
+      "object": "Europe",
+      "subject_id": "Q238",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Cape Barne",
+      "object": "Antarctica",
+      "subject_id": "Q2564151",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Finland",
+      "object": "Europe",
+      "subject_id": "Q33",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "United Kingdom",
+      "object": "Europe",
+      "subject_id": "Q145",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Indian Antarctic Program",
+      "object": "Antarctica",
+      "subject_id": "Q3348675",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Douro",
+      "object": "Europe",
+      "subject_id": "Q14299",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Corner Cliffs",
+      "object": "Antarctica",
+      "subject_id": "Q5171603",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Mountaineer Range",
+      "object": "Antarctica",
+      "subject_id": "Q6925644",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Tile Ridge",
+      "object": "Antarctica",
+      "subject_id": "Q7802114",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Lebanon",
+      "object": "Asia",
+      "subject_id": "Q822",
+      "object_id": "Q48"
+    },
+    {
+      "subject": "Howchin Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q15220583",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Slovakia",
+      "object": "Europe",
+      "subject_id": "Q214",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Elkhorn Ridge",
+      "object": "Antarctica",
+      "subject_id": "Q5364277",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Victory Mountains",
+      "object": "Antarctica",
+      "subject_id": "Q7608101",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Slab Point",
+      "object": "Antarctica",
+      "subject_id": "Q7538357",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "French Southern and Antarctic Lands",
+      "object": "Antarctica",
+      "subject_id": "Q129003",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Kurze Mountains",
+      "object": "Antarctica",
+      "subject_id": "Q3428275",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Barker Range",
+      "object": "Antarctica",
+      "subject_id": "Q4860964",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Davis Sea",
+      "object": "Antarctica",
+      "subject_id": "Q509321",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Despotate of Epirus",
+      "object": "Europe",
+      "subject_id": "Q187684",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Palmer Land",
+      "object": "Antarctica",
+      "subject_id": "Q1551170",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Bermel Escarpment",
+      "object": "Antarctica",
+      "subject_id": "Q4892568",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Trinity Peninsula",
+      "object": "Antarctica",
+      "subject_id": "Q2038835",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Carlini Station",
+      "object": "Antarctica",
+      "subject_id": "Q1710747",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Moubray Bay",
+      "object": "Antarctica",
+      "subject_id": "Q6918859",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Trakiya Heights",
+      "object": "Antarctica",
+      "subject_id": "Q7833070",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Taylor Valley",
+      "object": "Antarctica",
+      "subject_id": "Q530131",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Williams Hills",
+      "object": "Antarctica",
+      "subject_id": "Q8021038",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Mitchell Peninsula",
+      "object": "Antarctica",
+      "subject_id": "Q2680668",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Rajkot",
+      "object": "Asia",
+      "subject_id": "Q11854",
+      "object_id": "Q48"
+    },
+    {
+      "subject": "Lavoisier Island",
+      "object": "Antarctica",
+      "subject_id": "Q3108669",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Douglas Peaks",
+      "object": "Antarctica",
+      "subject_id": "Q1252422",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Morris Rock",
+      "object": "Antarctica",
+      "subject_id": "Q6913871",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "North Holland",
+      "object": "Europe",
+      "subject_id": "Q701",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Cape Shirreff",
+      "object": "Antarctica",
+      "subject_id": "Q3359478",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Kirkpatrick Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q6415810",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Principality of Sealand",
+      "object": "Europe",
+      "subject_id": "Q13706",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Mayotte",
+      "object": "Africa",
+      "subject_id": "Q17063",
+      "object_id": "Q15"
+    },
+    {
+      "subject": "Mount Hallgren",
+      "object": "Antarctica",
+      "subject_id": "Q6921036",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Cape Evans",
+      "object": "Antarctica",
+      "subject_id": "Q1634141",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Brunt Ice Shelf",
+      "object": "Antarctica",
+      "subject_id": "Q994192",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Borchgrevink Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q3108275",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Mule Peninsula",
+      "object": "Antarctica",
+      "subject_id": "Q15221173",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Mount Schuyler",
+      "object": "Antarctica",
+      "subject_id": "Q6923519",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Detaille Island",
+      "object": "Antarctica",
+      "subject_id": "Q1201098",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Gerlache Strait",
+      "object": "Antarctica",
+      "subject_id": "N/A",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Payer Mountains",
+      "object": "Antarctica",
+      "subject_id": "Q5483345",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Angola",
+      "object": "Africa",
+      "subject_id": "Q916",
+      "object_id": "Q15"
+    },
+    {
+      "subject": "Frostlendet Valley",
+      "object": "Antarctica",
+      "subject_id": "Q5506215",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Doyran Heights",
+      "object": "Antarctica",
+      "subject_id": "Q5303809",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Flatvaer Islands",
+      "object": "Antarctica",
+      "subject_id": "Q5458010",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Mount Cocks",
+      "object": "Antarctica",
+      "subject_id": "Q3861461",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Scotia Bay",
+      "object": "Antarctica",
+      "subject_id": "Q7435583",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Shebelle River",
+      "object": "Africa",
+      "subject_id": "Q141915",
+      "object_id": "Q15"
+    },
+    {
+      "subject": "Peshtera Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q7171395",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Planet Heights",
+      "object": "Antarctica",
+      "subject_id": "Q7201107",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Mount Berlin",
+      "object": "Antarctica",
+      "subject_id": "Q645451",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "British Empire",
+      "object": "Americas",
+      "subject_id": "Q8680",
+      "object_id": "Q828"
+    },
+    {
+      "subject": "Lemaire Island",
+      "object": "Antarctica",
+      "subject_id": "Q6520997",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Russell East Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q7381481",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Khabarovsk",
+      "object": "Asia",
+      "subject_id": "Q4454",
+      "object_id": "Q48"
+    },
+    {
+      "subject": "Lillie Range",
+      "object": "Antarctica",
+      "subject_id": "Q6548276",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Montenegro",
+      "object": "Europe",
+      "subject_id": "Q236",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Bigourdan Fjord",
+      "object": "Antarctica",
+      "subject_id": "Q261115",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Saint Petersburg",
+      "object": "Europe",
+      "subject_id": "Q656",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Millerand Island",
+      "object": "Antarctica",
+      "subject_id": "Q3077754",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Molar Massif",
+      "object": "Antarctica",
+      "subject_id": "Q6895676",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Hippocrates Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q5768418",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Kuwait",
+      "object": "Asia",
+      "subject_id": "Q817",
+      "object_id": "Q48"
+    },
+    {
+      "subject": "Mount Farrell",
+      "object": "Antarctica",
+      "subject_id": "Q8535740",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Deep Freeze Range",
+      "object": "Antarctica",
+      "subject_id": "Q5250195",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Curzon Islands",
+      "object": "Antarctica",
+      "subject_id": "Q5196140",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Mount Tyree",
+      "object": "Antarctica",
+      "subject_id": "Q1950776",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Kochi",
+      "object": "Asia",
+      "subject_id": "Q1800",
+      "object_id": "Q48"
+    },
+    {
+      "subject": "Denmark",
+      "object": "Europe",
+      "subject_id": "Q35",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Turkey",
+      "object": "Asia",
+      "subject_id": "Q43",
+      "object_id": "Q48"
+    },
+    {
+      "subject": "Miziya Peak",
+      "object": "Antarctica",
+      "subject_id": "Q6884641",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Brahms Inlet",
+      "object": "Antarctica",
+      "subject_id": "Q278334",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Demay Point",
+      "object": "Antarctica",
+      "subject_id": "Q581639",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Aleko Rock",
+      "object": "Antarctica",
+      "subject_id": "Q707445",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Cape Ducorps",
+      "object": "Antarctica",
+      "subject_id": "Q983104",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Antarctic Treaty System",
+      "object": "Antarctica",
+      "subject_id": "Q182814",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Mount Harker",
+      "object": "Antarctica",
+      "subject_id": "Q6921058",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Brialmont Cove",
+      "object": "Antarctica",
+      "subject_id": "Q86625",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Atlantic Club Ridge",
+      "object": "Antarctica",
+      "subject_id": "Q4816363",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Seychelles",
+      "object": "Africa",
+      "subject_id": "Q1042",
+      "object_id": "Q15"
+    },
+    {
+      "subject": "Hull Bay",
+      "object": "Antarctica",
+      "subject_id": "Q281509",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Sartorius Point",
+      "object": "Antarctica",
+      "subject_id": "Q488360",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Darwin Mountains",
+      "object": "Antarctica",
+      "subject_id": "Q5226004",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Samuel Point",
+      "object": "Antarctica",
+      "subject_id": "Q706992",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Damavand",
+      "object": "Asia",
+      "subject_id": "Q745055",
+      "object_id": "Q48"
+    },
+    {
+      "subject": "Greece",
+      "object": "Europe",
+      "subject_id": "Q41",
+      "object_id": "Q46"
+    },
+    {
+      "subject": "Ninnis Glacier",
+      "object": "Antarctica",
+      "subject_id": "Q1132039",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Edward VIII Bay",
+      "object": "Antarctica",
+      "subject_id": "Q141648",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Quartz Hills",
+      "object": "Antarctica",
+      "subject_id": "Q7269384",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Signy Island",
+      "object": "Antarctica",
+      "subject_id": "Q2060501",
+      "object_id": "Q51"
+    },
+    {
+      "subject": "Lake Baikal",
+      "object": "Asia",
+      "subject_id": "Q5513",
+      "object_id": "Q48"
+    },
+    {
+      "subject": "Penney Bay",
+      "object": "Antarctica",
+      "subject_id": "Q281451",
+      "object_id": "Q51"
+    }
+  ]
+}

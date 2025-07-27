@@ -1,0 +1,3380 @@
+{
+  "name": "person_plays_position_in_sport",
+  "prompt_templates": [
+    "No esporte, {} joga como"
+  ],
+  "samples": [
+    {
+      "subject": "Percy Snow",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Pantelis Kafes",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Ruud Gullit",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Elrio van Heerden",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Lars Ricken",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Karl Mecklenburg",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Iosif Rotariu",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "John Navarre",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Thurman Munson",
+      "object": "receptor (beisebol)"
+    },
+    {
+      "subject": "Evan Dimas Darmono",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Jonathan Osorio",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Martina Voss-Tecklenburg",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Nigel de Jong",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Corky Miller",
+      "object": "receptor (beisebol)"
+    },
+    {
+      "subject": "Antonio Valencia",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Tarvaris Jackson",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Kamohelo Mokotjo",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Florent Cuvelier",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Daniel Royer",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Nick Greisen",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Massimo Ficcadenti",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Damon Huard",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Scot Brantley",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Chase Clement",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Mark Herrmann",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Lalrindika Ralte",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Gianluigi Lentini",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Casey Matthews",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Trey DePriest",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Jiloan Hamad",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Graham Dorrans",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Jonas Mouton",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Stan Gelbaugh",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Enrico Cucchi",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Teddy Bridgewater",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Thomas von Heesen",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Glenn Hoddle",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Bobby Bell",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Marco Verratti",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Andrew Jacobson",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Robert Griffin III",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Jonathan Goff",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Manuel Ruiz Sosa",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Ivan Gudelj",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Bryan Hughes",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "George Mihai Florescu",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Graham Barrow",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Ricardo Faty",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Marcus Mariota",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Gianluca Gaudino",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Andreas Ivanschitz",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Clete Thomas",
+      "object": "defensor externo"
+    },
+    {
+      "subject": "Conor Thomas",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Wesley Sneijder",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Drew Stanton",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Angelos Basinas",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Johnny Lujack",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Wayne Corden",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Magdi Abdelghani",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Ricardo Ribeiro Fernandes",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Jonathan Quinn",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Browning Nagle",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Earl Morrall",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Gabriel Heinze",
+      "object": "zagueiro"
+    },
+    {
+      "subject": "Joe Torre",
+      "object": "receptor (beisebol)"
+    },
+    {
+      "subject": "Lars Bender",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Jim Magilton",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Fabio Pecchia",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Jim Hardy",
+      "object": "quarterback"
+    },
+    {
+      "subject": "John Elway",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Eugeneson Lyngdoh",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Thomas \"Hollywood\" Henderson",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Kevin Siegrist",
+      "object": "arremessador"
+    },
+    {
+      "subject": "Joe Magrane",
+      "object": "arremessador"
+    },
+    {
+      "subject": "Mike Garcia",
+      "object": "arremessador"
+    },
+    {
+      "subject": "Wesley Lopes Beltrame",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Jordon Dizon",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Alberto Rivera Pizarro",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Lerin Duarte",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Derrick Brooks",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Joey Gathright",
+      "object": "defensor externo"
+    },
+    {
+      "subject": "Bob Allison",
+      "object": "defensor externo"
+    },
+    {
+      "subject": "Francis Coquelin",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Gary Kubiak",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Glenn Foley",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Marcus Marek",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Jamal Mahmoud",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Glen Trifiro",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Chandler Harnish",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Johan Gastien",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Mike Stratton",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Markus Halsti",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Claudio Marchisio",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Dan Morgan",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Pontus Wernbloom",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Odise Roshi",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Tim Hiller",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Ron Jaworski",
+      "object": "quarterback"
+    },
+    {
+      "subject": "D'Qwell Jackson",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Steven Nzonzi",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Francisco Liriano",
+      "object": "arremessador"
+    },
+    {
+      "subject": "Mo Lewis",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Edmondo Fabbri",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Giacomo Tedesco",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Ty Detmer",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Luca Vigiani",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Isaac Cuenca",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Kris Griffin",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Ray Nitschke",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Robert Marve",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Rich Gannon",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Ray Lewis",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Altin Lala",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Anders Limpar",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Mesut Bakkal",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Marc Fitzpatrick",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Daniel Gygax",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Buck Martinez",
+      "object": "receptor (beisebol)"
+    },
+    {
+      "subject": "Cory Wade",
+      "object": "arremessador"
+    },
+    {
+      "subject": "Ali Jabbari",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Taylor Heinicke",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Derek Lowe",
+      "object": "arremessador"
+    },
+    {
+      "subject": "Konstantin Vassiljev",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Darren Murphy",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Frank Mobley",
+      "object": "avançado"
+    },
+    {
+      "subject": "Miguel Jones",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Kailee Wong",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Johnny Unitas",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Tommy Kramer",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Kevin Kampl",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Miguel Batista",
+      "object": "arremessador"
+    },
+    {
+      "subject": "Paul Justin",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Selim Bouadla",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Doriva",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Fernando De Napoli",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Antonio Comi",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Todd Marinovich",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Jim Bouton",
+      "object": "arremessador"
+    },
+    {
+      "subject": "Runar Berg",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Lonnie Smith",
+      "object": "defensor externo"
+    },
+    {
+      "subject": "Erin Henderson",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Dennis Franklin",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Luis del Sol",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Yohan Cabaye",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Guy Moussi",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Yannick Cahuzac",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Dan McGwire",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Luke French",
+      "object": "arremessador"
+    },
+    {
+      "subject": "Bruno Conti",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Barry Zito",
+      "object": "arremessador"
+    },
+    {
+      "subject": "Kevin Kolb",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Ken O'Brien",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Johan Santana",
+      "object": "arremessador"
+    },
+    {
+      "subject": "David Rocastle",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Seth Smith",
+      "object": "defensor externo"
+    },
+    {
+      "subject": "Kerlon Moura Souza",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Ervin Bulku",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Mehdi Taouil",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Fred Lynn",
+      "object": "defensor externo"
+    },
+    {
+      "subject": "Victor Wanyama",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Tommy Taylor",
+      "object": "avançado"
+    },
+    {
+      "subject": "Milton Blanco",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Mark Malone",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Paul Ince",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Lang Campbell",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Josh Beckett",
+      "object": "arremessador"
+    },
+    {
+      "subject": "Lou Saban",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Raffaele Palladino",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Corey Moore",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Jim Plunkett",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Vadis Odjidja-Ofoe",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Emanuele Giaccherini",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Mike Tomczak",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Gary Beban",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Tony Conigliaro",
+      "object": "defensor externo"
+    },
+    {
+      "subject": "Matt Szczur",
+      "object": "defensor externo"
+    },
+    {
+      "subject": "Dave Winfield",
+      "object": "defensor externo"
+    },
+    {
+      "subject": "Mark McKeever",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Gustavo Barros Schelotto",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Heath Shuler",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Riccardo Maspero",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Zito",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Darren Currie",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Michel Platini",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Jeffrey Monakana",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Farhad Majidi",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Viktor Klonaridis",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Maniche",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Pia Wunderlich",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Horace Fairhurst",
+      "object": "zagueiro"
+    },
+    {
+      "subject": "Youssouf Hersi",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Keith Peacock",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Jim Edmonds",
+      "object": "defensor externo"
+    },
+    {
+      "subject": "Drew Storen",
+      "object": "arremessador"
+    },
+    {
+      "subject": "Scott Allan",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Guilherme Finkler",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Eugen Polanski",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Dont'a Hightower",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Ulrich Le Pen",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Teddy Lehman",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Graham Taylor",
+      "object": "zagueiro"
+    },
+    {
+      "subject": "Christian Noboa",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Jason Trusnik",
+      "object": "linebacker"
+    },
+    {
+      "subject": "David Degen",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Curt Flood",
+      "object": "defensor externo"
+    },
+    {
+      "subject": "Tsuyoshi Shinjo",
+      "object": "defensor externo"
+    },
+    {
+      "subject": "Travis Lulay",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Glenn Roeder",
+      "object": "zagueiro"
+    },
+    {
+      "subject": "John Stofa",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Mike Piazza",
+      "object": "receptor (beisebol)"
+    },
+    {
+      "subject": "Massimo Murdocca",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Tommy Harper",
+      "object": "defensor externo"
+    },
+    {
+      "subject": "Koke",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Daniele Franceschini",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Arben Minga",
+      "object": "avançado"
+    },
+    {
+      "subject": "Jeff Kemp",
+      "object": "quarterback"
+    },
+    {
+      "subject": "John Harkes",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Lee Roy Jordan",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Anders Ågnes Konradsen",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Mohammed Noor",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Joanna Lohman",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Diego Fuser",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Sylvain Legwinski",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Zinedine Zidane",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Alessio Tacchinardi",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Akin Ayodele",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Roger Clemens",
+      "object": "arremessador"
+    },
+    {
+      "subject": "Pep Guardiola",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Nenad Bjelica",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Terna Nande",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Lorenzo Crisetig",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Victor Sikora",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Norm Snead",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Rickey Jackson",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Drew Henson",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Pat Swilling",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Otto Graham",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Albin Ekdal",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Rich Ingold",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Troy Aikman",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Bobby Garrett",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Alexi Ogando",
+      "object": "arremessador"
+    },
+    {
+      "subject": "Ralph Milne",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Tom De Mul",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Steve DeOssie",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Antonio Cabrini",
+      "object": "zagueiro"
+    },
+    {
+      "subject": "Robbie Earle",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Ricky Stanzi",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Joao Plata",
+      "object": "avançado"
+    },
+    {
+      "subject": "Kyle Farnsworth",
+      "object": "arremessador"
+    },
+    {
+      "subject": "Joe Ferguson",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Randall Cunningham",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Alex Smith",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Bert Jones",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Joe Pisarcik",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Archie Gemmill",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Bettina Wiegmann",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Marco Etcheverry",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Toumani Diagouraga",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Greg Maddux",
+      "object": "arremessador"
+    },
+    {
+      "subject": "Jonathan Lucroy",
+      "object": "receptor (beisebol)"
+    },
+    {
+      "subject": "Jake Rudock",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Luis Tiant",
+      "object": "arremessador"
+    },
+    {
+      "subject": "Philip Rivers",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Craig Monroe",
+      "object": "defensor externo"
+    },
+    {
+      "subject": "Greg Lloyd, Sr.",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Kevin Eakin",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Giovanni Stroppa",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Karim Abdul Razak",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Paulo Henrique Ganso",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Gary Gardner",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Neil Redfearn",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Ivo Wortmann",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Vince Coleman",
+      "object": "defensor externo"
+    },
+    {
+      "subject": "Jorge Luis Pinto",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "John Grabow",
+      "object": "arremessador"
+    },
+    {
+      "subject": "Mohd Noor Ali",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Fabian Frei",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Daniele De Rossi",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Johnny Baldwin",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Dick Radatz",
+      "object": "arremessador"
+    },
+    {
+      "subject": "Jim Kelly",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Al Dekdebrun",
+      "object": "quarterback"
+    },
+    {
+      "subject": "O'Brien Schofield",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Dallas Keuchel",
+      "object": "arremessador"
+    },
+    {
+      "subject": "Sebastian Rode",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Marcus Randall",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Sean Salisbury",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Andrew Luck",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Michael Laudrup",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Angelo Crowell",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Anthony Obodai",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Connor Halliday",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Damon Allen",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Paulo Almeida",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Rodney Strasser",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Eric Kresser",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Barry Bannan",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Ryan Giggs",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Emanuele Filippini",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Renato Buso",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Xavier Margairaz",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Brian Cushing",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Kiki Cuyler",
+      "object": "defensor externo"
+    },
+    {
+      "subject": "Schellas Hyndman",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Aaron Murray",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Eli Whiteside",
+      "object": "receptor (beisebol)"
+    },
+    {
+      "subject": "Dan LeFevour",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Abou Diaby",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "John Smoltz",
+      "object": "arremessador"
+    },
+    {
+      "subject": "Yasmani Grandal",
+      "object": "receptor (beisebol)"
+    },
+    {
+      "subject": "Bob Lemon",
+      "object": "arremessador"
+    },
+    {
+      "subject": "Zach Mettenberger",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Kendrell Bell",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Gabriele Oriali",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Elvis Grbac",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Joel Obi",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Juninho Paulista",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Casey Weldon",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Mojtaba Jabbari",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Aleksandar Katai",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Jorge Luis Campos",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Charlie Conerly",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Thomas Pinault",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Flemming Nielsen",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Pietro Fanna",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Kevin Thomson",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Jim Druckenmiller",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Otis Wilson",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Henry Burris",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Dan Alexa",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Simon Rolfes",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "David Batty",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "James Laurinaitis",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Chad Hutchinson",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Dewey Selmon",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Fernando Torres",
+      "object": "avançado"
+    },
+    {
+      "subject": "Rodney Sneijder",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Jordan Gross",
+      "object": "Offensive tackle"
+    },
+    {
+      "subject": "Mike Pawlawski",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Ralph Guglielmi",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Logan Thomas",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Jason Campbell",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Daniel Berg Hestad",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Pietro Maiellaro",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Ryan Shazier",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Georgios Fotakis",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Jelani Jenkins",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Bryan Robson",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "EJ Manuel",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Todd Helton",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Romuald Boco",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Dennis Shaw",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Carlos Alberto Alves Garcia",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Hong-Chih Kuo",
+      "object": "arremessador"
+    },
+    {
+      "subject": "Kiko Alonso",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Landon Johnson",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Unai Emery",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Suat Kaya",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Dean Furman",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Yannick Bapupa",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Jocelyn Gourvennec",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "May Mahlangu",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Tim Raines",
+      "object": "defensor externo"
+    },
+    {
+      "subject": "Colin Kaepernick",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Alex Teixeira",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Ludovic Sylvestre",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Erik Kramer",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Boof Bonser",
+      "object": "arremessador"
+    },
+    {
+      "subject": "Wolfram Wuttke",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Philip Hellquist",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Miralem Sulejmani",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Davide Fontolan",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Jim Bagby, Sr.",
+      "object": "arremessador"
+    },
+    {
+      "subject": "Yogi Berra",
+      "object": "receptor (beisebol)"
+    },
+    {
+      "subject": "Miguel Marcos Madera",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Leung Tsz Chun",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Rick Monday",
+      "object": "defensor externo"
+    },
+    {
+      "subject": "Eugene Lockhart",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Chan Ho Park",
+      "object": "arremessador"
+    },
+    {
+      "subject": "Roy Halladay",
+      "object": "arremessador"
+    },
+    {
+      "subject": "Lamberto Zauli",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Bruce Gradkowski",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Peter Tom Willis",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Paolo Sammarco",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Pirri",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Doug Buffone",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Davide Biondini",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Anthony Maggiacomo",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Khaseem Greene",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Axel Witsel",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Nelson Cruz",
+      "object": "defensor externo"
+    },
+    {
+      "subject": "Tom Flores",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Tyler Palko",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Vernon Wells",
+      "object": "defensor externo"
+    },
+    {
+      "subject": "Jessie Tuggle",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Augustine Azuka Okocha",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Rickey Foggie",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Leon Day",
+      "object": "arremessador"
+    },
+    {
+      "subject": "Giuseppe Furino",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Martin Kuhl",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Don Meredith",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Shawn Crable",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Manti Te'o",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Juan Fernando Quintero",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Vince Young",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Ernie Whitt",
+      "object": "receptor (beisebol)"
+    },
+    {
+      "subject": "Thierry Omeyer",
+      "object": "guarda-redes"
+    },
+    {
+      "subject": "Virgil Carter",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Francisco Lima",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Andrew Walter",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Todd Blackledge",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Renato Augusto",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Matt Herges",
+      "object": "arremessador"
+    },
+    {
+      "subject": "Marquis Cooper",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Logan Verrett",
+      "object": "arremessador"
+    },
+    {
+      "subject": "Erik Komatsu",
+      "object": "defensor externo"
+    },
+    {
+      "subject": "Jonathan Santana",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Vincent Laban",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Garret Anderson",
+      "object": "defensor externo"
+    },
+    {
+      "subject": "Giuliano Victor de Paula",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Darrin Fletcher",
+      "object": "receptor (beisebol)"
+    },
+    {
+      "subject": "Gale Gilbert",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Roger Staubach",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Brad Wilkerson",
+      "object": "defensor externo"
+    },
+    {
+      "subject": "Johan Arneng",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Rick Mirer",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Felix Magath",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Damien Plessis",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Jean-Paul Kalala",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Shane Matthews",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Chin-hui Tsao",
+      "object": "arremessador"
+    },
+    {
+      "subject": "Gus Poyet",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Diniyar Bilyaletdinov",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Luke O'Brien",
+      "object": "zagueiro"
+    },
+    {
+      "subject": "Santi Cazorla",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Pat Haden",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Mark Bresciano",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Duncan Edwards",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Chip Banks",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Christoph Kramer",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Giancarlo Marocchi",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Jone Samuelsen",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Manny Mota",
+      "object": "defensor externo"
+    },
+    {
+      "subject": "Benito Santiago",
+      "object": "receptor (beisebol)"
+    },
+    {
+      "subject": "Hugh Millen",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Sergio Canales Madrazo",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Collette McCallum",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Javid Imamverdiyev",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Giuseppe Dossena",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Isaiah Osbourne",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Koki Mizuno",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Steve Castle",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Massimiliano Cappioli",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Fred Thurston",
+      "object": "guard"
+    },
+    {
+      "subject": "Milt Plum",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Faris Haroun",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Francesco Parravicini",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Ross Verba",
+      "object": "guard"
+    },
+    {
+      "subject": "Charlie Robertson",
+      "object": "arremessador"
+    },
+    {
+      "subject": "Gary Stills",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Brad Van Pelt",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Russell Bromage",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Darren Fletcher",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Cullen Finnerty",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Tedy Bruschi",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Jean-Pierre Roy",
+      "object": "arremessador"
+    },
+    {
+      "subject": "Cody Pickett",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Candy Cummings",
+      "object": "arremessador"
+    },
+    {
+      "subject": "Brian Bosworth",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Tommy Nobis",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Jewel Raja",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Mark Kinsella",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Nilton Fernandes",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Jim Hart",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Junior Stanislas",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Wil Nieves",
+      "object": "receptor (beisebol)"
+    },
+    {
+      "subject": "Saleem Rasheed",
+      "object": "linebacker"
+    },
+    {
+      "subject": "George Best",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Panagiotis Kone",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "JD Closser",
+      "object": "receptor (beisebol)"
+    },
+    {
+      "subject": "Bill Bergey",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Mike Teel",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Mike Scioscia",
+      "object": "receptor (beisebol)"
+    },
+    {
+      "subject": "Carlos Lee",
+      "object": "defensor externo"
+    },
+    {
+      "subject": "Ronnie Ekelund",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Bobby Hebert",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Birkir Bjarnason",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Florin Cernat",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Vicente Engonga",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Jerod Mayo",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Tommie Frazier",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Kurt Warner",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Miguel Pérez Cuesta",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Arnie Herber",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Dick Wood",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Datsakorn Thonglao",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Kenny Demens",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Geoff Bent",
+      "object": "zagueiro"
+    },
+    {
+      "subject": "Carlos Humberto Paredes",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Jay Bruce",
+      "object": "defensor externo"
+    },
+    {
+      "subject": "Jerry Sisemore",
+      "object": "Offensive tackle"
+    },
+    {
+      "subject": "Johnny Vander Meer",
+      "object": "arremessador"
+    },
+    {
+      "subject": "Steve Grogan",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Steve MacKenzie",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Angelo Bertelli",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Jason Jennings",
+      "object": "arremessador"
+    },
+    {
+      "subject": "Roy Sproson",
+      "object": "zagueiro"
+    },
+    {
+      "subject": "Ryan Harley",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Diogo Ferreira",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Marty Schottenheimer",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Melanie Behringer",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Kyle Boller",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Arthur Milton",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Andrea Orlandi",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Mehdi Abeid",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Jon-Paul McGovern",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Mark Sanchez",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Zac Robinson",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Jamie Winborn",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Esteban Vigo",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Don McPherson",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Marcelo Mattos",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Rinku Singh",
+      "object": "arremessador"
+    },
+    {
+      "subject": "Tony Gwynn",
+      "object": "defensor externo"
+    },
+    {
+      "subject": "Jason Puncheon",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Constantinos Makrides",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Garrett Gilbert",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Brian Steen Nielsen",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Jonathan Greening",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Angelo Palombo",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Dontrelle Willis",
+      "object": "arremessador"
+    },
+    {
+      "subject": "Jim Sorgi",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Rick Ankiel",
+      "object": "arremessador"
+    },
+    {
+      "subject": "Andrico Hines",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Cho Hyung-ik",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Kim Bokamper",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Owain Tudur Jones",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Nordin Amrabat",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Emiljano Vila",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Gaetano D'Agostino",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Jesse Marsch",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Kim Vilfort",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Amiran Mujiri",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Jonathan Urretaviscaya",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Gary Cuozzo",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Vegard Skogheim",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Ken Gunn",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Josip Skoko",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Rufus Alexander",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Ioan Lupescu",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Juan Cuadrado",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Kingsley Coman",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Carlos Rodon",
+      "object": "arremessador"
+    },
+    {
+      "subject": "Marco Tardelli",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "David Whitehurst",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Sam Crawford",
+      "object": "defensor externo"
+    },
+    {
+      "subject": "Tobias Grahn",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Jeff Ulbrich",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Joe Montana",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Joel Zumaya",
+      "object": "arremessador"
+    },
+    {
+      "subject": "Libor Sionko",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Lyndon Andrews",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Shane Ray",
+      "object": "linebacker"
+    },
+    {
+      "subject": "LaMarr Woodley",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Rene Tosoni",
+      "object": "defensor externo"
+    },
+    {
+      "subject": "Abdel Sattar Sabry",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Quentin Groves",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Giovanni Tedesco",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Les Horvath",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Selim Benachour",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Garba Lawal",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Juan Rodrigo Rojas",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Don Cardwell",
+      "object": "arremessador"
+    },
+    {
+      "subject": "Travis Blackley",
+      "object": "arremessador"
+    },
+    {
+      "subject": "Craig Erickson",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Ju Yingzhi",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Yaghoub Karimi",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Marc Overmars",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Joel Stave",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Rivaldo",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Yannick Carter",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Seth Maness",
+      "object": "arremessador"
+    },
+    {
+      "subject": "Mark Walters",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Mike Trout",
+      "object": "defensor externo"
+    },
+    {
+      "subject": "Andre Tippett",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Michael Boley",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Ahmad Brooks",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Antonino D'Agostino",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Antonio Candreva",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Garrincha",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Caleb TerBush",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Kelly Stouffer",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Fabian Ernst",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Mason Foster",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Iago Falque",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Marat Izmailov",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Kyle Orton",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Oliver Makor",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Robert Prytz",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Pablo Cepellini",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Conan Byrne",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Mathieu Flamini",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Kostas Katsouranis",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Poon Yiu Cheuk",
+      "object": "zagueiro"
+    },
+    {
+      "subject": "McDonald Mariga",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Don Trull",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Braden Looper",
+      "object": "arremessador"
+    },
+    {
+      "subject": "Shamweel Qasim",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Marques Tuiasosopo",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Ilsinho",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Juan Joseph",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Carlos Manuel",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Bob John",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Karim El Ahmadi",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Ichiro Suzuki",
+      "object": "defensor externo"
+    },
+    {
+      "subject": "Tommy John",
+      "object": "arremessador"
+    },
+    {
+      "subject": "Domenico Morfeo",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Steve Barber",
+      "object": "arremessador"
+    },
+    {
+      "subject": "Brian Bogusevic",
+      "object": "defensor externo"
+    },
+    {
+      "subject": "Luke Vercollone",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Ricardo Gallego",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Ahmad Hatifi",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Angelo Orlando",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Lee Bell",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Juan Pablo Galavis",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Paul Harsley",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Michael Conforto",
+      "object": "defensor externo"
+    },
+    {
+      "subject": "CC Sabathia",
+      "object": "arremessador"
+    },
+    {
+      "subject": "Stefano Fiore",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Rusney Castillo",
+      "object": "defensor externo"
+    },
+    {
+      "subject": "Eusebio Di Francesco",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Joel Lindpere",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Ben Roethlisberger",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Brandon Jenkins (football player)",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Cornell Brown",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Jesper Olsen",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Shane Boyd",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Scott Dreisbach",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Vern Law",
+      "object": "arremessador"
+    },
+    {
+      "subject": "Marcelo Nascimento da Costa",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Ali Karimi",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Jack Balmer",
+      "object": "avançado"
+    },
+    {
+      "subject": "Moise Fokou",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Alwyn George",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Frank Watkin",
+      "object": "avançado"
+    },
+    {
+      "subject": "Colby Cameron",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Angelo Colombo",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Aaron Rodgers",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Scott Milanovich",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Christy Mathewson",
+      "object": "arremessador"
+    },
+    {
+      "subject": "Geoffrey Kondogbia",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Fabio Capello",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Nate Robertson",
+      "object": "arremessador"
+    },
+    {
+      "subject": "John Reaves",
+      "object": "quarterback"
+    },
+    {
+      "subject": "John Parker Wilson",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Dany N'Guessan",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Joe Kapp",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Marc Crosas",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Graeme Souness",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Faysal Shayesteh",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Javier Espinosa",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Archie Manning",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Paulo Bento",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Bob Griese",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Frank Lampard",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Jean Prouff",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Mike Holmgren",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Tiago Mendes",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Kerry Collins",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Lavonte David",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Giuliano Giannichedda",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Daniele Dessena",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Beniamino Vignola",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Matt Flynn",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Greg Buttle",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Von Miller",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Rasmus Lindgren",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Trent Green",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Alessio Cerci",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Stephone Anthony",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Carson Coffman",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Ryan Lindley",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Joe Paterno",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Ubaldo Righetti",
+      "object": "zagueiro"
+    },
+    {
+      "subject": "Blaine Gabbert",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Walter Johnson",
+      "object": "arremessador"
+    },
+    {
+      "subject": "Zeke Bratkowski",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Jacob Mellis",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Wilber Marshall",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Luke Kuechly",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Massimiliano Esposito",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Simone Barone",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Pedro Beato",
+      "object": "arremessador"
+    },
+    {
+      "subject": "Jeff Francis",
+      "object": "arremessador"
+    },
+    {
+      "subject": "Fernando Soriano",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Adilson dos Santos",
+      "object": "zagueiro"
+    },
+    {
+      "subject": "Bill Kenney",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Tommy Docherty",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Ray Houghton",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Don Horn",
+      "object": "quarterback"
+    },
+    {
+      "subject": "John Brantley",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Pablo de Lucas",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Tim Tebow",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Tom Ramsey",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Daniel Caligiuri",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Lee Cattermole",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Ben Mauk",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Don Majkowski",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Jock Stein",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Jair da Rosa Pinto",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Steve McNair",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Youssouf Mulumbu",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Keith Rivers",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Tim Borowski",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Shane Greene",
+      "object": "arremessador"
+    },
+    {
+      "subject": "Dave Ragone",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Adam Weber",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Tarek Yehia",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Makoto Hasebe",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Quinn Gray",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Mule Haas",
+      "object": "defensor externo"
+    },
+    {
+      "subject": "David Beckham",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Jeff Rutledge",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Warren Sapp",
+      "object": "Offensive tackle"
+    },
+    {
+      "subject": "John Huarte",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Jean Luciano",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Gareth Barry",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Hatem Ben Arfa",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Fabio Celestini",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Jay Cutler",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Ricardo Villa",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Craig Breslow",
+      "object": "arremessador"
+    },
+    {
+      "subject": "Yutaka Enatsu",
+      "object": "arremessador"
+    },
+    {
+      "subject": "Randall Azofeifa",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Gary Danielson",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Dan Fouts",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Bryan Holaday",
+      "object": "receptor (beisebol)"
+    },
+    {
+      "subject": "Mariano Rivera",
+      "object": "Closer"
+    },
+    {
+      "subject": "Rory Delap",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Morgan Schneiderlin",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Serhiy Kovalets",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Carlos Valderrama",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Diego Maradona",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Massimiliano Allegri",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Agostino Di Bartolomei",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Zico",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Tim Hasselbeck",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Frankie Albert",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Scott Sinclair",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Ted McMinn",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Adnan Januzaj",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Ryan Leaf",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Gaizka Garitano Aguirre",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Jeff George",
+      "object": "quarterback"
+    },
+    {
+      "subject": "DeWayne Wise",
+      "object": "defensor externo"
+    },
+    {
+      "subject": "Pascal Feindouno",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Vincenzo Italiano",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Luca Danilo Fusi",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Josh Gibson",
+      "object": "receptor (beisebol)"
+    },
+    {
+      "subject": "Angelo Di Livio",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Miguel Montero",
+      "object": "receptor (beisebol)"
+    },
+    {
+      "subject": "Bakary Sako",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Sean Glennon",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Damiano Tommasi",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Francisco Cervelli",
+      "object": "receptor (beisebol)"
+    },
+    {
+      "subject": "Scott Hatteberg",
+      "object": "receptor (beisebol)"
+    },
+    {
+      "subject": "Ryan Mallett",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Willie McFaul",
+      "object": "guarda-redes"
+    },
+    {
+      "subject": "Mohd Amirul Hadi Zainal",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Darren Daulton",
+      "object": "receptor (beisebol)"
+    },
+    {
+      "subject": "Eusebio Castigliano",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Nolan Ryan",
+      "object": "arremessador"
+    },
+    {
+      "subject": "Chuck Fusina",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Enos Slaughter",
+      "object": "defensor externo"
+    },
+    {
+      "subject": "Atlee Hammaker",
+      "object": "arremessador"
+    },
+    {
+      "subject": "Don Larsen",
+      "object": "arremessador"
+    },
+    {
+      "subject": "Oscar Albuquerque",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "David Carabott",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Danny Trevathan",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Josh McCown",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Giuseppe Baresi",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Éric Djemba-Djemba",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Drake Britton",
+      "object": "arremessador"
+    },
+    {
+      "subject": "Matt Chatham",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Marvin Mitchell",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Connor Cook",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Dan Conners",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Calum Chambers",
+      "object": "zagueiro"
+    },
+    {
+      "subject": "Sean Payton",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Paulo Sousa",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Junior Seau",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Matt Hasselbeck",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Stephen McGee",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Matt Holland",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Ernesto Lazzatti",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Anderson Luís de Abreu Oliveira",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Mike Hampton",
+      "object": "arremessador"
+    },
+    {
+      "subject": "Egil Olsen",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Jordan Norberto",
+      "object": "arremessador"
+    },
+    {
+      "subject": "Martin Coleman",
+      "object": "guarda-redes"
+    },
+    {
+      "subject": "Jim Zorn",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Luke Chadwick",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Nils Liedholm",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Pat Corrales",
+      "object": "receptor (beisebol)"
+    },
+    {
+      "subject": "Abner Dalrymple",
+      "object": "defensor externo"
+    },
+    {
+      "subject": "Ryan Fraser",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Brian Maisonneuve",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Brian Labone",
+      "object": "zagueiro"
+    },
+    {
+      "subject": "Derrick Thomas",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Gary Hogeboom",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Chuck Howley",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Francesco Bolzoni",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Jean Makoun",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Rudy Carpenter",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Mikel Alonso",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Kirk Rueter",
+      "object": "arremessador"
+    },
+    {
+      "subject": "Manny Ramirez",
+      "object": "defensor externo"
+    },
+    {
+      "subject": "Henk ten Cate",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Masaichi Kaneda",
+      "object": "arremessador"
+    },
+    {
+      "subject": "Ross Barkley",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Daunte Culpepper",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Lee Sharpe",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Randy Gradishar",
+      "object": "linebacker"
+    },
+    {
+      "subject": "Pud Galvin",
+      "object": "arremessador"
+    },
+    {
+      "subject": "Carlos Alberto Torres",
+      "object": "zagueiro"
+    },
+    {
+      "subject": "Woodrow Dantzler",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Drew Brees",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Garry Unger",
+      "object": "Centro"
+    },
+    {
+      "subject": "Bobby Layne",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Joe Nuxhall",
+      "object": "arremessador"
+    },
+    {
+      "subject": "Kalu Uche",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Kevin Craft",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Martin Ericsson",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Joe Theismann",
+      "object": "quarterback"
+    },
+    {
+      "subject": "Bob Meusel",
+      "object": "defensor externo"
+    },
+    {
+      "subject": "Ben Bennett",
+      "object": "quarterback"
+    },
+    {
+      "subject": "David Mendes da Silva",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Andrea Pirlo",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Kerry Zavagnin",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Almen Abdi",
+      "object": "Meio-campista"
+    },
+    {
+      "subject": "Corey Patterson",
+      "object": "defensor externo"
+    },
+    {
+      "subject": "Bong Jung-keun",
+      "object": "arremessador"
+    }
+  ]
+}

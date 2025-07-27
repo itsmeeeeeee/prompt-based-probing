@@ -1,0 +1,2104 @@
+{
+    "name": "landmark in country_10shot_perm0",
+    "prompt_templates": [
+        "torre Eiffel si trova nel paese Francia.\nStatua della Libertà si trova nel paese Stati Uniti d'America.\nCristo Redentore si trova nel paese Brasile.\nBig Ben si trova nel paese Regno Unito.\nGrande muraglia cinese si trova nel paese Cina.\nOpera di Sydney si trova nel paese Australia.\nTaj Mahal si trova nel paese India.\nFuji si trova nel paese Giappone.\nBurj Khalifa si trova nel paese Emirati Arabi Uniti.\nColosseo si trova nel paese Italia.\n{} si trova nel paese"
+    ],
+    "samples": [
+        {
+            "subject": "Università Autonoma di Madrid",
+            "object": "Spagna"
+        },
+        {
+            "subject": "Počepskij rajon",
+            "object": "Russia"
+        },
+        {
+            "subject": "stazione di Wanne-Eickel Centrale",
+            "object": "Germania"
+        },
+        {
+            "subject": "Hohenlohe-Langenburg",
+            "object": "Germania"
+        },
+        {
+            "subject": "Bastille",
+            "object": "Francia"
+        },
+        {
+            "subject": "Šablykinskij rajon",
+            "object": "Russia"
+        },
+        {
+            "subject": "Metropolitana di Manila",
+            "object": "Filippine"
+        },
+        {
+            "subject": "Valdemarsvik",
+            "object": "Svezia"
+        },
+        {
+            "subject": "Ozumba",
+            "object": "Messico"
+        },
+        {
+            "subject": "Piper Verlag",
+            "object": "Germania"
+        },
+        {
+            "subject": "Attingal",
+            "object": "India"
+        },
+        {
+            "subject": "georgiani",
+            "object": "Azerbaigian"
+        },
+        {
+            "subject": "distretto di Tehri Garhwal",
+            "object": "India"
+        },
+        {
+            "subject": "Eirodziesma",
+            "object": "Lettonia"
+        },
+        {
+            "subject": "Olot",
+            "object": "Spagna"
+        },
+        {
+            "subject": "Darmstadt",
+            "object": "Germania"
+        },
+        {
+            "subject": "Adliswil",
+            "object": "Svizzera"
+        },
+        {
+            "subject": "Junnar",
+            "object": "India"
+        },
+        {
+            "subject": "Ba Football Club",
+            "object": "Figi"
+        },
+        {
+            "subject": "Yoro",
+            "object": "Honduras"
+        },
+        {
+            "subject": "Monti Knockmealdown",
+            "object": "Irlanda"
+        },
+        {
+            "subject": "Calw",
+            "object": "Germania"
+        },
+        {
+            "subject": "Gazzola",
+            "object": "Italia"
+        },
+        {
+            "subject": "Giochi della XVII Olimpiade",
+            "object": "Italia"
+        },
+        {
+            "subject": "Borovskij rajon",
+            "object": "Russia"
+        },
+        {
+            "subject": "Eibenstock",
+            "object": "Germania"
+        },
+        {
+            "subject": "Università di Kyoto",
+            "object": "Giappone"
+        },
+        {
+            "subject": "baia",
+            "object": "Filippine"
+        },
+        {
+            "subject": "Kosi",
+            "object": "Nepal"
+        },
+        {
+            "subject": "Kfar Giladi",
+            "object": "Israele"
+        },
+        {
+            "subject": "Monti Mandara",
+            "object": "Nigeria"
+        },
+        {
+            "subject": "Agios Dimitrios",
+            "object": "Grecia"
+        },
+        {
+            "subject": "Imsland",
+            "object": "Norvegia"
+        },
+        {
+            "subject": "Dwarka",
+            "object": "India"
+        },
+        {
+            "subject": "Hultsfred",
+            "object": "Svezia"
+        },
+        {
+            "subject": "Al Daayen",
+            "object": "Qatar"
+        },
+        {
+            "subject": "Pontecorvo",
+            "object": "Italia"
+        },
+        {
+            "subject": "Acolman",
+            "object": "Messico"
+        },
+        {
+            "subject": "Astrid Lindgren Memorial Award",
+            "object": "Svezia"
+        },
+        {
+            "subject": "Nova Friburgo",
+            "object": "Brasile"
+        },
+        {
+            "subject": "Sarpsborg 08 Fotballforening",
+            "object": "Norvegia"
+        },
+        {
+            "subject": "Kika",
+            "object": "Germania"
+        },
+        {
+            "subject": "distretto di Giurgiu",
+            "object": "Romania"
+        },
+        {
+            "subject": "Parco nazionale della Mauricie",
+            "object": "Canada"
+        },
+        {
+            "subject": "Maybach-Motorenbau",
+            "object": "Germania"
+        },
+        {
+            "subject": "Chasavjurt",
+            "object": "Russia"
+        },
+        {
+            "subject": "Capolago",
+            "object": "Svizzera"
+        },
+        {
+            "subject": "Ateneo de Madrid",
+            "object": "Spagna"
+        },
+        {
+            "subject": "Monti Pilis",
+            "object": "Ungheria"
+        },
+        {
+            "subject": "terremoto e maremoto dell'Oceano Indiano del 2004",
+            "object": "Indonesia"
+        },
+        {
+            "subject": "Carpentras",
+            "object": "Francia"
+        },
+        {
+            "subject": "Nerjungri",
+            "object": "Russia"
+        },
+        {
+            "subject": "Nuova Inghilterra",
+            "object": "Australia"
+        },
+        {
+            "subject": "Bad Vilbel",
+            "object": "Germania"
+        },
+        {
+            "subject": "Daua",
+            "object": "Somalia"
+        },
+        {
+            "subject": "Kayunga",
+            "object": "Uganda"
+        },
+        {
+            "subject": "Polizia ellenica",
+            "object": "Grecia"
+        },
+        {
+            "subject": "Distretto di Kamikita",
+            "object": "Giappone"
+        },
+        {
+            "subject": "Club Aurora",
+            "object": "Bolivia"
+        },
+        {
+            "subject": "Bobolice",
+            "object": "Polonia"
+        },
+        {
+            "subject": "provincia di Sakarya",
+            "object": "Turchia"
+        },
+        {
+            "subject": "Zwiefalten",
+            "object": "Germania"
+        },
+        {
+            "subject": "Narman",
+            "object": "Turchia"
+        },
+        {
+            "subject": "Bliesgau",
+            "object": "Germania"
+        },
+        {
+            "subject": "Iximche",
+            "object": "Guatemala"
+        },
+        {
+            "subject": "Altopiano della Turingia",
+            "object": "Germania"
+        },
+        {
+            "subject": "Bernheze",
+            "object": "Paesi Bassi"
+        },
+        {
+            "subject": "Tursi",
+            "object": "Italia"
+        },
+        {
+            "subject": "Kalvola",
+            "object": "Finlandia"
+        },
+        {
+            "subject": "Registro",
+            "object": "Brasile"
+        },
+        {
+            "subject": "Augusta Raurica",
+            "object": "Svizzera"
+        },
+        {
+            "subject": "Bilbao",
+            "object": "Spagna"
+        },
+        {
+            "subject": "Peremyšljany",
+            "object": "Ucraina"
+        },
+        {
+            "subject": "Singel",
+            "object": "Paesi Bassi"
+        },
+        {
+            "subject": "comune di Lund",
+            "object": "Svezia"
+        },
+        {
+            "subject": "Borgo San Martino",
+            "object": "Italia"
+        },
+        {
+            "subject": "Moi International Sports Centre",
+            "object": "Kenya"
+        },
+        {
+            "subject": "distretto di Dumka",
+            "object": "India"
+        },
+        {
+            "subject": "Eredivisie",
+            "object": "Paesi Bassi"
+        },
+        {
+            "subject": "distretto di Subarnapur",
+            "object": "India"
+        },
+        {
+            "subject": "abbazia di Pannonhalma",
+            "object": "Ungheria"
+        },
+        {
+            "subject": "Cork GAA",
+            "object": "Irlanda"
+        },
+        {
+            "subject": "Hohenwestedt",
+            "object": "Germania"
+        },
+        {
+            "subject": "Westerburg",
+            "object": "Germania"
+        },
+        {
+            "subject": "Zulia",
+            "object": "Venezuela"
+        },
+        {
+            "subject": "Virgin Classics Records",
+            "object": "Francia"
+        },
+        {
+            "subject": "Partito Popolare per la Libertà e la Democrazia",
+            "object": "Paesi Bassi"
+        },
+        {
+            "subject": "Imperia",
+            "object": "Italia"
+        },
+        {
+            "subject": "Gammalsvenskby",
+            "object": "Ucraina"
+        },
+        {
+            "subject": "Regio Yacht Club Svedese",
+            "object": "Svezia"
+        },
+        {
+            "subject": "Palais de l'Industrie",
+            "object": "Francia"
+        },
+        {
+            "subject": "Le Puy Foot 43 Auvergne",
+            "object": "Francia"
+        },
+        {
+            "subject": "Kahrizak",
+            "object": "Iran"
+        },
+        {
+            "subject": "Bouygues Télécom",
+            "object": "Francia"
+        },
+        {
+            "subject": "Governo Rutte II",
+            "object": "Paesi Bassi"
+        },
+        {
+            "subject": "Mahalangur Himal",
+            "object": "Nepal"
+        },
+        {
+            "subject": "Piano Delta",
+            "object": "Paesi Bassi"
+        },
+        {
+            "subject": "Davan",
+            "object": "Iran"
+        },
+        {
+            "subject": "Residenza di Monaco di Baviera",
+            "object": "Germania"
+        },
+        {
+            "subject": "Marugame",
+            "object": "Giappone"
+        },
+        {
+            "subject": "Lutvannet",
+            "object": "Norvegia"
+        },
+        {
+            "subject": "Istituto Alfred Wegener per la ricerca marina e polare",
+            "object": "Germania"
+        },
+        {
+            "subject": "TUIfly Nordic",
+            "object": "Svezia"
+        },
+        {
+            "subject": "Pakpattan",
+            "object": "Pakistan"
+        },
+        {
+            "subject": "provincia di Kanchanaburi",
+            "object": "Thailandia"
+        },
+        {
+            "subject": "Lleida",
+            "object": "Spagna"
+        },
+        {
+            "subject": "Saint-Jacques-de-la-Lande",
+            "object": "Francia"
+        },
+        {
+            "subject": "Higashikagawa",
+            "object": "Giappone"
+        },
+        {
+            "subject": "distretto rurale di Mirbag-e Shomali",
+            "object": "Iran"
+        },
+        {
+            "subject": "Cocconato",
+            "object": "Italia"
+        },
+        {
+            "subject": "Arve",
+            "object": "Francia"
+        },
+        {
+            "subject": "Idalio",
+            "object": "Cipro"
+        },
+        {
+            "subject": "Nuri",
+            "object": "Sudan"
+        },
+        {
+            "subject": "abbazia di Pontigny",
+            "object": "Francia"
+        },
+        {
+            "subject": "Kununurra",
+            "object": "Australia"
+        },
+        {
+            "subject": "distretto di Hardoi",
+            "object": "India"
+        },
+        {
+            "subject": "Trento",
+            "object": "Italia"
+        },
+        {
+            "subject": "Kadrina",
+            "object": "Estonia"
+        },
+        {
+            "subject": "distretto di Sidhi",
+            "object": "India"
+        },
+        {
+            "subject": "Santo Stefano d'Aveto",
+            "object": "Italia"
+        },
+        {
+            "subject": "Colleville-Montgomery",
+            "object": "Francia"
+        },
+        {
+            "subject": "Piove di Sacco",
+            "object": "Italia"
+        },
+        {
+            "subject": "Penisola di Doberai",
+            "object": "Indonesia"
+        },
+        {
+            "subject": "Global",
+            "object": "Canada"
+        },
+        {
+            "subject": "Idrettslaget Brodd",
+            "object": "Norvegia"
+        },
+        {
+            "subject": "Sommariva del Bosco",
+            "object": "Italia"
+        },
+        {
+            "subject": "Grobbendonk",
+            "object": "Belgio"
+        },
+        {
+            "subject": "Camera dei Rappresentanti di Cipro",
+            "object": "Libia"
+        },
+        {
+            "subject": "Ust'-Katav",
+            "object": "Russia"
+        },
+        {
+            "subject": "Pietra runica di Stentoften",
+            "object": "Svezia"
+        },
+        {
+            "subject": "Alte Nationalgalerie",
+            "object": "Germania"
+        },
+        {
+            "subject": "distretto di Gefara",
+            "object": "Libia"
+        },
+        {
+            "subject": "Ljig",
+            "object": "Serbia"
+        },
+        {
+            "subject": "Nižneserginskij rajon",
+            "object": "Russia"
+        },
+        {
+            "subject": "Vierlingsbeek",
+            "object": "Paesi Bassi"
+        },
+        {
+            "subject": "San Canzian d'Isonzo",
+            "object": "Italia"
+        },
+        {
+            "subject": "Stara Zagora",
+            "object": "Bulgaria"
+        },
+        {
+            "subject": "Federazione calcistica della Polonia",
+            "object": "Polonia"
+        },
+        {
+            "subject": "Simeulue",
+            "object": "Indonesia"
+        },
+        {
+            "subject": "Tinguiririca",
+            "object": "Cile"
+        },
+        {
+            "subject": "Cayeux-sur-Mer",
+            "object": "Francia"
+        },
+        {
+            "subject": "Mittag-Leffler Institute",
+            "object": "Svezia"
+        },
+        {
+            "subject": "Ethnikos Dimokratikos Ellinikos Syndesmos",
+            "object": "Grecia"
+        },
+        {
+            "subject": "Indo",
+            "object": "India"
+        },
+        {
+            "subject": "stazione di Lindholm",
+            "object": "Danimarca"
+        },
+        {
+            "subject": "aree tribali di amministrazione federale",
+            "object": "Pakistan"
+        },
+        {
+            "subject": "Guldborg",
+            "object": "Danimarca"
+        },
+        {
+            "subject": "Risod",
+            "object": "India"
+        },
+        {
+            "subject": "Bad Schwalbach",
+            "object": "Germania"
+        },
+        {
+            "subject": "Lambunao",
+            "object": "Filippine"
+        },
+        {
+            "subject": "Futbol'ny Klub Haradzeja",
+            "object": "Bielorussia"
+        },
+        {
+            "subject": "Loppa",
+            "object": "Norvegia"
+        },
+        {
+            "subject": "Entzheim",
+            "object": "Francia"
+        },
+        {
+            "subject": "Strada trans-africana 2",
+            "object": "Nigeria"
+        },
+        {
+            "subject": "Umarex",
+            "object": "Germania"
+        },
+        {
+            "subject": "Cunter",
+            "object": "Svizzera"
+        },
+        {
+            "subject": "Tarn e Garonna",
+            "object": "Francia"
+        },
+        {
+            "subject": "Gavrilovo-Posadskij rajon",
+            "object": "Russia"
+        },
+        {
+            "subject": "Bangarapet",
+            "object": "India"
+        },
+        {
+            "subject": "arcidiocesi di Lubiana",
+            "object": "Slovenia"
+        },
+        {
+            "subject": "arcidiocesi di Lucca",
+            "object": "Italia"
+        },
+        {
+            "subject": "Bannu",
+            "object": "Pakistan"
+        },
+        {
+            "subject": "Zarajskij rajon",
+            "object": "Russia"
+        },
+        {
+            "subject": "Tienen",
+            "object": "Belgio"
+        },
+        {
+            "subject": "distretto di Karimnagar",
+            "object": "India"
+        },
+        {
+            "subject": "Guillaumes",
+            "object": "Francia"
+        },
+        {
+            "subject": "Rottumerplaat",
+            "object": "Paesi Bassi"
+        },
+        {
+            "subject": "Art Gallery of Ontario",
+            "object": "Canada"
+        },
+        {
+            "subject": "Caserma Taksim",
+            "object": "Turchia"
+        },
+        {
+            "subject": "distretto di Huachocolpa",
+            "object": "Perù"
+        },
+        {
+            "subject": "Cerchio di Goseck",
+            "object": "Germania"
+        },
+        {
+            "subject": "Aden",
+            "object": "Yemen"
+        },
+        {
+            "subject": "cattedrale dei Santi Pietro e Paolo",
+            "object": "Lituania"
+        },
+        {
+            "subject": "Rantum",
+            "object": "Germania"
+        },
+        {
+            "subject": "governatorato di al-Hasaka",
+            "object": "Siria"
+        },
+        {
+            "subject": "Amarkantak",
+            "object": "India"
+        },
+        {
+            "subject": "baia di Manila",
+            "object": "Filippine"
+        },
+        {
+            "subject": "Beauvais",
+            "object": "Francia"
+        },
+        {
+            "subject": "distretto rurale di Gavork-e Nalin",
+            "object": "Iran"
+        },
+        {
+            "subject": "strada europea E25",
+            "object": "Lussemburgo"
+        },
+        {
+            "subject": "comune catastale",
+            "object": "Paesi Bassi"
+        },
+        {
+            "subject": "Stara Kornica",
+            "object": "Polonia"
+        },
+        {
+            "subject": "Annweiler am Trifels",
+            "object": "Germania"
+        },
+        {
+            "subject": "Circuit des Ardennes",
+            "object": "Belgio"
+        },
+        {
+            "subject": "Tempio del Sole di Konarak",
+            "object": "India"
+        },
+        {
+            "subject": "Leitrim",
+            "object": "Irlanda"
+        },
+        {
+            "subject": "Kalinowo",
+            "object": "Polonia"
+        },
+        {
+            "subject": "Bjurholm",
+            "object": "Svezia"
+        },
+        {
+            "subject": "Veyrier",
+            "object": "Svizzera"
+        },
+        {
+            "subject": "Pindamonhangaba",
+            "object": "Brasile"
+        },
+        {
+            "subject": "Bad Camberg",
+            "object": "Germania"
+        },
+        {
+            "subject": "Montemitro",
+            "object": "Italia"
+        },
+        {
+            "subject": "Ikaalinen",
+            "object": "Finlandia"
+        },
+        {
+            "subject": "Club Deportivo Eldense",
+            "object": "Spagna"
+        },
+        {
+            "subject": "Rio Quente",
+            "object": "Brasile"
+        },
+        {
+            "subject": "Wismar",
+            "object": "Germania"
+        },
+        {
+            "subject": "Stretto di Naruto",
+            "object": "Giappone"
+        },
+        {
+            "subject": "ABC Futebol Clube",
+            "object": "Brasile"
+        },
+        {
+            "subject": "Sadr City",
+            "object": "Iraq"
+        },
+        {
+            "subject": "Palladam",
+            "object": "India"
+        },
+        {
+            "subject": "Aspropotamo",
+            "object": "Grecia"
+        },
+        {
+            "subject": "FC Anker Wismar",
+            "object": "Germania"
+        },
+        {
+            "subject": "parco nazionale di Sapo",
+            "object": "Liberia"
+        },
+        {
+            "subject": "Poissy",
+            "object": "Francia"
+        },
+        {
+            "subject": "Shichikashuku",
+            "object": "Giappone"
+        },
+        {
+            "subject": "Bhinmal",
+            "object": "India"
+        },
+        {
+            "subject": "Bourg-la-Reine",
+            "object": "Francia"
+        },
+        {
+            "subject": "Università di Nagoya",
+            "object": "Giappone"
+        },
+        {
+            "subject": "distretto rurale di Shakhenat",
+            "object": "Iran"
+        },
+        {
+            "subject": "Soalala",
+            "object": "Madagascar"
+        },
+        {
+            "subject": "Leszno",
+            "object": "Polonia"
+        },
+        {
+            "subject": "battaglia di Montereau",
+            "object": "Francia"
+        },
+        {
+            "subject": "distretto di Theni",
+            "object": "India"
+        },
+        {
+            "subject": "Piazza al Serchio",
+            "object": "Italia"
+        },
+        {
+            "subject": "Ruhla",
+            "object": "Germania"
+        },
+        {
+            "subject": "shahrestān di Langrud",
+            "object": "Iran"
+        },
+        {
+            "subject": "Ufa",
+            "object": "Russia"
+        },
+        {
+            "subject": "diocesi di Ulpiana",
+            "object": "Kosovo"
+        },
+        {
+            "subject": "L'Escala",
+            "object": "Spagna"
+        },
+        {
+            "subject": "circondario di Hohenlohe",
+            "object": "Germania"
+        },
+        {
+            "subject": "Distretto di Bunda",
+            "object": "Tanzania"
+        },
+        {
+            "subject": "Mbale",
+            "object": "Uganda"
+        },
+        {
+            "subject": "Habitat 67",
+            "object": "Canada"
+        },
+        {
+            "subject": "Hrtkovci",
+            "object": "Croazia"
+        },
+        {
+            "subject": "CNH Industrial",
+            "object": "Paesi Bassi"
+        },
+        {
+            "subject": "Moscato d'Asti",
+            "object": "Italia"
+        },
+        {
+            "subject": "Distretto di Uda",
+            "object": "Giappone"
+        },
+        {
+            "subject": "Sabrata",
+            "object": "Libia"
+        },
+        {
+            "subject": "Movimento Nazionale Libero",
+            "object": "Bahamas"
+        },
+        {
+            "subject": "Shoranur",
+            "object": "India"
+        },
+        {
+            "subject": "Komaričskij rajon",
+            "object": "Russia"
+        },
+        {
+            "subject": "Niederweningen",
+            "object": "Svizzera"
+        },
+        {
+            "subject": "voivodato di Tarnobrzeg",
+            "object": "Polonia"
+        },
+        {
+            "subject": "aeroporto di Wabush",
+            "object": "Canada"
+        },
+        {
+            "subject": "Lahti",
+            "object": "Finlandia"
+        },
+        {
+            "subject": "stazione di Kitakami",
+            "object": "Giappone"
+        },
+        {
+            "subject": "Vaujany",
+            "object": "Francia"
+        },
+        {
+            "subject": "Tartesso",
+            "object": "Spagna"
+        },
+        {
+            "subject": "Vinkeveen",
+            "object": "Paesi Bassi"
+        },
+        {
+            "subject": "strade asiatiche",
+            "object": "India"
+        },
+        {
+            "subject": "Università di Saragozza",
+            "object": "Spagna"
+        },
+        {
+            "subject": "Breege",
+            "object": "Germania"
+        },
+        {
+            "subject": "Beneden Merwede",
+            "object": "Paesi Bassi"
+        },
+        {
+            "subject": "Prieto Diaz",
+            "object": "Filippine"
+        },
+        {
+            "subject": "Hitachinaka",
+            "object": "Giappone"
+        },
+        {
+            "subject": "Villa La Pietra",
+            "object": "Italia"
+        },
+        {
+            "subject": "Papanasam",
+            "object": "India"
+        },
+        {
+            "subject": "capoeira",
+            "object": "Brasile"
+        },
+        {
+            "subject": "stretto di Kerč'",
+            "object": "Russia"
+        },
+        {
+            "subject": "Bolpur",
+            "object": "India"
+        },
+        {
+            "subject": "Meždurečenskij rajon",
+            "object": "Russia"
+        },
+        {
+            "subject": "Eurostat",
+            "object": "Lussemburgo"
+        },
+        {
+            "subject": "Kharga",
+            "object": "Egitto"
+        },
+        {
+            "subject": "Pokrzywnica",
+            "object": "Polonia"
+        },
+        {
+            "subject": "Fischenthal",
+            "object": "Svizzera"
+        },
+        {
+            "subject": "Fawkner",
+            "object": "Australia"
+        },
+        {
+            "subject": "Didymoteicho",
+            "object": "Grecia"
+        },
+        {
+            "subject": "altopiano Transilvanico",
+            "object": "Romania"
+        },
+        {
+            "subject": "Warlubie",
+            "object": "Polonia"
+        },
+        {
+            "subject": "Aeroporto di Istanbul",
+            "object": "Turchia"
+        },
+        {
+            "subject": "linea Ginza",
+            "object": "Giappone"
+        },
+        {
+            "subject": "Landskrona Boll och Idrottsällskap",
+            "object": "Svezia"
+        },
+        {
+            "subject": "Noyon",
+            "object": "Francia"
+        },
+        {
+            "subject": "Facit",
+            "object": "Svezia"
+        },
+        {
+            "subject": "Perpignano",
+            "object": "Francia"
+        },
+        {
+            "subject": "Podosfairikos Athlitikos Omilos Atromitos Piraeus",
+            "object": "Grecia"
+        },
+        {
+            "subject": "Dewa",
+            "object": "Giappone"
+        },
+        {
+            "subject": "provincia di Bilecik",
+            "object": "Turchia"
+        },
+        {
+            "subject": "Grimaldi Industri",
+            "object": "Svezia"
+        },
+        {
+            "subject": "distretto di Ambatofinandrahana",
+            "object": "Madagascar"
+        },
+        {
+            "subject": "Sarnia",
+            "object": "Canada"
+        },
+        {
+            "subject": "Al-Suwayq",
+            "object": "Oman"
+        },
+        {
+            "subject": "Capo Sudest",
+            "object": "Australia"
+        },
+        {
+            "subject": "abbazia di Echternach",
+            "object": "Lussemburgo"
+        },
+        {
+            "subject": "Carretera nacional N-340",
+            "object": "Spagna"
+        },
+        {
+            "subject": "European Physical Society",
+            "object": "Francia"
+        },
+        {
+            "subject": "Band-e Kaisar",
+            "object": "Iran"
+        },
+        {
+            "subject": "Valvasone",
+            "object": "Italia"
+        },
+        {
+            "subject": "distretto di Korea",
+            "object": "India"
+        },
+        {
+            "subject": "distretto di Scheibbs",
+            "object": "Austria"
+        },
+        {
+            "subject": "Birendranagara",
+            "object": "Nepal"
+        },
+        {
+            "subject": "Longatico",
+            "object": "Slovenia"
+        },
+        {
+            "subject": "Toulouges",
+            "object": "Francia"
+        },
+        {
+            "subject": "Puerto Maldonado",
+            "object": "Perù"
+        },
+        {
+            "subject": "Novokujbyševsk",
+            "object": "Russia"
+        },
+        {
+            "subject": "Adare Manor",
+            "object": "Irlanda"
+        },
+        {
+            "subject": "Flieden",
+            "object": "Germania"
+        },
+        {
+            "subject": "Frasnes-lez-Anvaing",
+            "object": "Belgio"
+        },
+        {
+            "subject": "Lamongan",
+            "object": "Indonesia"
+        },
+        {
+            "subject": "Golfo di Botnia",
+            "object": "Finlandia"
+        },
+        {
+            "subject": "Partito per la Libertà",
+            "object": "Paesi Bassi"
+        },
+        {
+            "subject": "Santa Cruz de Mompox",
+            "object": "Colombia"
+        },
+        {
+            "subject": "Carlow",
+            "object": "Irlanda"
+        },
+        {
+            "subject": "Università Nazionale Federico Villarreal",
+            "object": "Perù"
+        },
+        {
+            "subject": "Mumij Troll'",
+            "object": "Russia"
+        },
+        {
+            "subject": "Tillia Tepe",
+            "object": "Afghanistan"
+        },
+        {
+            "subject": "lingua dei segni danese",
+            "object": "Danimarca"
+        },
+        {
+            "subject": "Linimo",
+            "object": "Giappone"
+        },
+        {
+            "subject": "Expo 1986",
+            "object": "Canada"
+        },
+        {
+            "subject": "Chaville",
+            "object": "Francia"
+        },
+        {
+            "subject": "Lannemezan",
+            "object": "Francia"
+        },
+        {
+            "subject": "strade asiatiche",
+            "object": "Turchia"
+        },
+        {
+            "subject": "Guggenheim Museum Bilbao",
+            "object": "Spagna"
+        },
+        {
+            "subject": "ERT World",
+            "object": "Grecia"
+        },
+        {
+            "subject": "Madala",
+            "object": "India"
+        },
+        {
+            "subject": "viadotto di Garabit",
+            "object": "Francia"
+        },
+        {
+            "subject": "Democratici 66",
+            "object": "Paesi Bassi"
+        },
+        {
+            "subject": "Rathen",
+            "object": "Germania"
+        },
+        {
+            "subject": "Hornnes",
+            "object": "Norvegia"
+        },
+        {
+            "subject": "distretto di Lerik",
+            "object": "Azerbaigian"
+        },
+        {
+            "subject": "Buda",
+            "object": "Ungheria"
+        },
+        {
+            "subject": "Waldshut-Tiengen",
+            "object": "Germania"
+        },
+        {
+            "subject": "Les Bons Villers",
+            "object": "Belgio"
+        },
+        {
+            "subject": "Askola",
+            "object": "Finlandia"
+        },
+        {
+            "subject": "isola Wellington",
+            "object": "Cile"
+        },
+        {
+            "subject": "Distretto di Kume",
+            "object": "Giappone"
+        },
+        {
+            "subject": "Simdega",
+            "object": "India"
+        },
+        {
+            "subject": "Honavar",
+            "object": "India"
+        },
+        {
+            "subject": "Romano d'Ezzelino",
+            "object": "Italia"
+        },
+        {
+            "subject": "Buchan",
+            "object": "Australia"
+        },
+        {
+            "subject": "Monaco di Baviera",
+            "object": "Germania"
+        },
+        {
+            "subject": "cattedrale di Tampere",
+            "object": "Finlandia"
+        },
+        {
+            "subject": "distretto di Sonitpur",
+            "object": "India"
+        },
+        {
+            "subject": "Chancelade",
+            "object": "Francia"
+        },
+        {
+            "subject": "diga di Boguchany",
+            "object": "Russia"
+        },
+        {
+            "subject": "distretto rurale di Veysian",
+            "object": "Iran"
+        },
+        {
+            "subject": ".af",
+            "object": "Afghanistan"
+        },
+        {
+            "subject": "Himno Nacional Argentino",
+            "object": "Argentina"
+        },
+        {
+            "subject": "Hagenow",
+            "object": "Germania"
+        },
+        {
+            "subject": "deserto di La Guajira",
+            "object": "Colombia"
+        },
+        {
+            "subject": "Helmbrechts",
+            "object": "Germania"
+        },
+        {
+            "subject": "Sciaffusa",
+            "object": "Svizzera"
+        },
+        {
+            "subject": "Ovada",
+            "object": "Italia"
+        },
+        {
+            "subject": "Zelenčukskaja",
+            "object": "Russia"
+        },
+        {
+            "subject": "Canale di Kazinga",
+            "object": "Uganda"
+        },
+        {
+            "subject": "Wazin",
+            "object": "Libia"
+        },
+        {
+            "subject": "Tiv",
+            "object": "Nigeria"
+        },
+        {
+            "subject": "Cubagua",
+            "object": "Venezuela"
+        },
+        {
+            "subject": "Centro Nobel per la pace",
+            "object": "Norvegia"
+        },
+        {
+            "subject": "Frosinone",
+            "object": "Italia"
+        },
+        {
+            "subject": "distretto di Chol Kiri",
+            "object": "Cambogia"
+        },
+        {
+            "subject": "Plougonven",
+            "object": "Francia"
+        },
+        {
+            "subject": "Piedecuesta",
+            "object": "Colombia"
+        },
+        {
+            "subject": "distretto rurale di Khorramdarreh",
+            "object": "Iran"
+        },
+        {
+            "subject": "Gjerpen",
+            "object": "Norvegia"
+        },
+        {
+            "subject": "Schleitheim",
+            "object": "Svizzera"
+        },
+        {
+            "subject": "Thiruvattaru",
+            "object": "India"
+        },
+        {
+            "subject": "provincia di Guelma",
+            "object": "Algeria"
+        },
+        {
+            "subject": "Laslea",
+            "object": "Romania"
+        },
+        {
+            "subject": "Ogrodzieniec",
+            "object": "Polonia"
+        },
+        {
+            "subject": "Democratici Cristiani Finlandesi",
+            "object": "Finlandia"
+        },
+        {
+            "subject": "Teshie",
+            "object": "Ghana"
+        },
+        {
+            "subject": "Distretto di Tirebolu",
+            "object": "Turchia"
+        },
+        {
+            "subject": "Villars-Burquin",
+            "object": "Svizzera"
+        },
+        {
+            "subject": "Provincia del Berar",
+            "object": "India"
+        },
+        {
+            "subject": "Avord",
+            "object": "Francia"
+        },
+        {
+            "subject": "Carpazi",
+            "object": "Austria"
+        },
+        {
+            "subject": "Sardent",
+            "object": "Francia"
+        },
+        {
+            "subject": "Vernayaz",
+            "object": "Svizzera"
+        },
+        {
+            "subject": "Sorkwity",
+            "object": "Polonia"
+        },
+        {
+            "subject": "Pacentro",
+            "object": "Italia"
+        },
+        {
+            "subject": "Entracque",
+            "object": "Italia"
+        },
+        {
+            "subject": "Castellamonte",
+            "object": "Italia"
+        },
+        {
+            "subject": "Borghetto di Vara",
+            "object": "Italia"
+        },
+        {
+            "subject": "Nkawkaw",
+            "object": "Ghana"
+        },
+        {
+            "subject": "Distretto di Sialkot",
+            "object": "Pakistan"
+        },
+        {
+            "subject": "Montiel",
+            "object": "Spagna"
+        },
+        {
+            "subject": "Public Broadcasting Services",
+            "object": "Malta"
+        },
+        {
+            "subject": "Catalogna",
+            "object": "Spagna"
+        },
+        {
+            "subject": "Hersbruck",
+            "object": "Germania"
+        },
+        {
+            "subject": "Turaida",
+            "object": "Lettonia"
+        },
+        {
+            "subject": "Marstrand",
+            "object": "Svezia"
+        },
+        {
+            "subject": "Windischeschenbach",
+            "object": "Germania"
+        },
+        {
+            "subject": "Parco nazionale del Langtang",
+            "object": "Nepal"
+        },
+        {
+            "subject": "Porto Azzurro",
+            "object": "Italia"
+        },
+        {
+            "subject": "Ariake Coliseum",
+            "object": "Giappone"
+        },
+        {
+            "subject": "comune distrettuale di Jonava",
+            "object": "Lituania"
+        },
+        {
+            "subject": "castello d'Albertis",
+            "object": "Italia"
+        },
+        {
+            "subject": "Koninklijke Sport Vereniging Roeselare",
+            "object": "Belgio"
+        },
+        {
+            "subject": "Ruthweiler",
+            "object": "Germania"
+        },
+        {
+            "subject": "Steppa eurasiatica",
+            "object": "Ucraina"
+        },
+        {
+            "subject": "Kapar",
+            "object": "Malaysia"
+        },
+        {
+            "subject": "diga di Pandoh",
+            "object": "India"
+        },
+        {
+            "subject": "Krestcy",
+            "object": "Russia"
+        },
+        {
+            "subject": "Staatliche Antikensammlungen",
+            "object": "Germania"
+        },
+        {
+            "subject": "distretto di Madona",
+            "object": "Lettonia"
+        },
+        {
+            "subject": "Morawica",
+            "object": "Polonia"
+        },
+        {
+            "subject": "Distretto di Pamukkale",
+            "object": "Turchia"
+        },
+        {
+            "subject": "elezioni parlamentari in Belgio del 2010",
+            "object": "Belgio"
+        },
+        {
+            "subject": "Himmelbjerget",
+            "object": "Danimarca"
+        },
+        {
+            "subject": "strada prefetturale",
+            "object": "Giappone"
+        },
+        {
+            "subject": "Kafriya",
+            "object": "Siria"
+        },
+        {
+            "subject": "Abu Simbel",
+            "object": "Egitto"
+        },
+        {
+            "subject": "Hammarby Idrottsförening Damfotbollsförening",
+            "object": "Svezia"
+        },
+        {
+            "subject": "Putivl'",
+            "object": "Ucraina"
+        },
+        {
+            "subject": "Val Passiria",
+            "object": "Italia"
+        },
+        {
+            "subject": "Sanlih E-Television",
+            "object": "Taiwan"
+        },
+        {
+            "subject": "Beckingen",
+            "object": "Germania"
+        },
+        {
+            "subject": "Issenheim",
+            "object": "Francia"
+        },
+        {
+            "subject": "Bug Occidentale",
+            "object": "Bielorussia"
+        },
+        {
+            "subject": "Maella",
+            "object": "Spagna"
+        },
+        {
+            "subject": "Villigen",
+            "object": "Svizzera"
+        },
+        {
+            "subject": "Pazhayangadi",
+            "object": "India"
+        },
+        {
+            "subject": "contea di Nyeri",
+            "object": "Kenya"
+        },
+        {
+            "subject": "Fuerzas Armadas de España",
+            "object": "Spagna"
+        },
+        {
+            "subject": "Capdenac",
+            "object": "Francia"
+        },
+        {
+            "subject": "chiesa di Santo Spirito in Sassia",
+            "object": "Italia"
+        },
+        {
+            "subject": "Isola Grande della Terra del Fuoco",
+            "object": "Argentina"
+        },
+        {
+            "subject": "distretto di Tovuz",
+            "object": "Azerbaigian"
+        },
+        {
+            "subject": "Bispebjerg",
+            "object": "Danimarca"
+        },
+        {
+            "subject": "Nintendo",
+            "object": "Giappone"
+        },
+        {
+            "subject": "Unione Pan-Ucraina \"Libertà\"",
+            "object": "Ucraina"
+        },
+        {
+            "subject": "Verbandsgemeinde Lauterecken-Wolfstein",
+            "object": "Germania"
+        },
+        {
+            "subject": "Gobardanga",
+            "object": "India"
+        },
+        {
+            "subject": "chiesa di Santa Gaianè",
+            "object": "Armenia"
+        },
+        {
+            "subject": "parco nazionale di Panna",
+            "object": "India"
+        },
+        {
+            "subject": "Campionati del mondo di corsa campestre 2004",
+            "object": "Belgio"
+        },
+        {
+            "subject": "Gurdwara Bangla Sahib",
+            "object": "India"
+        },
+        {
+            "subject": "Hispaniola",
+            "object": "Haiti"
+        },
+        {
+            "subject": "Vermilion",
+            "object": "Canada"
+        },
+        {
+            "subject": "Isola Dovarese",
+            "object": "Italia"
+        },
+        {
+            "subject": "Distretto di Castrovirreyna",
+            "object": "Perù"
+        },
+        {
+            "subject": "Colombes",
+            "object": "Francia"
+        },
+        {
+            "subject": "Tovarnik",
+            "object": "Croazia"
+        },
+        {
+            "subject": "Opel",
+            "object": "Germania"
+        },
+        {
+            "subject": "Orichiv",
+            "object": "Ucraina"
+        },
+        {
+            "subject": "territorio della Kamčatka",
+            "object": "Russia"
+        },
+        {
+            "subject": "Grianan di Aileach",
+            "object": "Irlanda"
+        },
+        {
+            "subject": "Carelia orientale",
+            "object": "Russia"
+        },
+        {
+            "subject": "Siquijor",
+            "object": "Filippine"
+        },
+        {
+            "subject": "Mukhed",
+            "object": "India"
+        },
+        {
+            "subject": "municipio di Tartu",
+            "object": "Estonia"
+        },
+        {
+            "subject": "Palupera",
+            "object": "Estonia"
+        },
+        {
+            "subject": "Bamiyan",
+            "object": "Afghanistan"
+        },
+        {
+            "subject": "Gaiola",
+            "object": "Italia"
+        },
+        {
+            "subject": "Territorio del Nord",
+            "object": "Australia"
+        },
+        {
+            "subject": "Leiria",
+            "object": "Portogallo"
+        },
+        {
+            "subject": "Pully",
+            "object": "Svizzera"
+        },
+        {
+            "subject": "Jemappes",
+            "object": "Belgio"
+        },
+        {
+            "subject": "Olsztyn",
+            "object": "Polonia"
+        },
+        {
+            "subject": "Taranto FC 1927",
+            "object": "Italia"
+        },
+        {
+            "subject": "Nea Zichni",
+            "object": "Grecia"
+        },
+        {
+            "subject": "Le Fuilet",
+            "object": "Francia"
+        },
+        {
+            "subject": "shahrestān di Kovsar",
+            "object": "Iran"
+        },
+        {
+            "subject": "Darfur Occidentale",
+            "object": "Sudan"
+        },
+        {
+            "subject": "Kuomintang",
+            "object": "Taiwan"
+        },
+        {
+            "subject": "Casiquiare",
+            "object": "Venezuela"
+        },
+        {
+            "subject": "Tesco Organisation",
+            "object": "Germania"
+        },
+        {
+            "subject": "CFMJ",
+            "object": "Canada"
+        },
+        {
+            "subject": "distretto rurale di Mahur Berenji",
+            "object": "Iran"
+        },
+        {
+            "subject": "Konarzyny",
+            "object": "Polonia"
+        },
+        {
+            "subject": "Ichchapuram",
+            "object": "India"
+        },
+        {
+            "subject": "Aventino",
+            "object": "Italia"
+        },
+        {
+            "subject": "plaza de Cibeles",
+            "object": "Spagna"
+        },
+        {
+            "subject": "Fluminense Football Club",
+            "object": "Brasile"
+        },
+        {
+            "subject": "Hancavičy",
+            "object": "Bielorussia"
+        },
+        {
+            "subject": "Dornbirn",
+            "object": "Austria"
+        },
+        {
+            "subject": "Ghatanji",
+            "object": "India"
+        },
+        {
+            "subject": "Partito di unità nazionale",
+            "object": "Kenya"
+        },
+        {
+            "subject": "Oshawa",
+            "object": "Canada"
+        },
+        {
+            "subject": "Ledaal",
+            "object": "Norvegia"
+        },
+        {
+            "subject": "Menen",
+            "object": "Belgio"
+        },
+        {
+            "subject": "Ikuno-ku",
+            "object": "Giappone"
+        },
+        {
+            "subject": "Velbert",
+            "object": "Germania"
+        },
+        {
+            "subject": "stazione di Olten",
+            "object": "Svizzera"
+        },
+        {
+            "subject": "Sportvereinigung Ried von 1912",
+            "object": "Austria"
+        },
+        {
+            "subject": "regione metropolitana di Rio de Janeiro",
+            "object": "Brasile"
+        },
+        {
+            "subject": "Eerbeek",
+            "object": "Paesi Bassi"
+        },
+        {
+            "subject": "circondario di Biberach",
+            "object": "Germania"
+        },
+        {
+            "subject": "Bad Wildungen",
+            "object": "Germania"
+        },
+        {
+            "subject": "Distretto di Minamiakita",
+            "object": "Giappone"
+        },
+        {
+            "subject": "Televisie Radio Omroep Stichting",
+            "object": "Paesi Bassi"
+        },
+        {
+            "subject": "abbazia San Pietro di Moissac",
+            "object": "Francia"
+        },
+        {
+            "subject": "Tempes",
+            "object": "Grecia"
+        },
+        {
+            "subject": "Steenwijk",
+            "object": "Paesi Bassi"
+        },
+        {
+            "subject": "Chmil'nyk",
+            "object": "Ucraina"
+        },
+        {
+            "subject": "Batteria Lascaris",
+            "object": "Malta"
+        },
+        {
+            "subject": "Alpokalja",
+            "object": "Ungheria"
+        },
+        {
+            "subject": "Pragersko",
+            "object": "Slovenia"
+        },
+        {
+            "subject": "Ausa",
+            "object": "India"
+        },
+        {
+            "subject": "Larsmo",
+            "object": "Finlandia"
+        },
+        {
+            "subject": "arcidiocesi di Gatineau",
+            "object": "Canada"
+        },
+        {
+            "subject": "Aeroporto Internazionale Indira Gandhi",
+            "object": "India"
+        },
+        {
+            "subject": "Dundalk",
+            "object": "Irlanda"
+        },
+        {
+            "subject": "IJmuiden",
+            "object": "Paesi Bassi"
+        },
+        {
+            "subject": "autodromo internazionale del Mugello",
+            "object": "Italia"
+        },
+        {
+            "subject": "Belgian Post Group",
+            "object": "Belgio"
+        },
+        {
+            "subject": "Enghien-les-Bains",
+            "object": "Francia"
+        },
+        {
+            "subject": "distretto rurale di Lajran",
+            "object": "Iran"
+        },
+        {
+            "subject": "Badoc",
+            "object": "Filippine"
+        },
+        {
+            "subject": "circondario dell'Oder-Sprea",
+            "object": "Germania"
+        },
+        {
+            "subject": "Osservatorio Vesuviano",
+            "object": "Italia"
+        },
+        {
+            "subject": "Colle dell'Agnello",
+            "object": "Italia"
+        },
+        {
+            "subject": "Nova Levante",
+            "object": "Italia"
+        },
+        {
+            "subject": "Kretinga",
+            "object": "Lituania"
+        },
+        {
+            "subject": "Lipscani",
+            "object": "Romania"
+        },
+        {
+            "subject": "Emscher",
+            "object": "Germania"
+        },
+        {
+            "subject": "Morshi",
+            "object": "India"
+        },
+        {
+            "subject": "Wiener Singakademie",
+            "object": "Austria"
+        },
+        {
+            "subject": "Baturyn",
+            "object": "Ucraina"
+        },
+        {
+            "subject": "Monti Hida",
+            "object": "Giappone"
+        },
+        {
+            "subject": "moschea di Parigi",
+            "object": "Francia"
+        },
+        {
+            "subject": "provincia di Llanquihue",
+            "object": "Cile"
+        },
+        {
+            "subject": "Zuiderzee",
+            "object": "Paesi Bassi"
+        },
+        {
+            "subject": "Illertissen",
+            "object": "Germania"
+        },
+        {
+            "subject": "KBC Bank",
+            "object": "Belgio"
+        },
+        {
+            "subject": "distretto di Soalala",
+            "object": "Madagascar"
+        },
+        {
+            "subject": "Valea lui Mihai",
+            "object": "Romania"
+        },
+        {
+            "subject": "shahrestān di Sahneh",
+            "object": "Iran"
+        },
+        {
+            "subject": "distretto di Legnica",
+            "object": "Polonia"
+        },
+        {
+            "subject": "Al-Ahmad",
+            "object": "Kuwait"
+        },
+        {
+            "subject": "Kleczew",
+            "object": "Polonia"
+        },
+        {
+            "subject": "1C Company",
+            "object": "Russia"
+        },
+        {
+            "subject": "Università di Berna",
+            "object": "Svizzera"
+        },
+        {
+            "subject": "Palana",
+            "object": "Russia"
+        },
+        {
+            "subject": "Bastia",
+            "object": "Francia"
+        },
+        {
+            "subject": "Nauders",
+            "object": "Austria"
+        },
+        {
+            "subject": "Bzura",
+            "object": "Polonia"
+        },
+        {
+            "subject": "Emba",
+            "object": "Kazakistan"
+        },
+        {
+            "subject": "Tatsuno",
+            "object": "Giappone"
+        },
+        {
+            "subject": "Siemiatycze",
+            "object": "Polonia"
+        },
+        {
+            "subject": "Pampilhosa da Serra",
+            "object": "Portogallo"
+        },
+        {
+            "subject": "Ostermundigen",
+            "object": "Svizzera"
+        },
+        {
+            "subject": "Wallmerod",
+            "object": "Germania"
+        }
+    ]
+}

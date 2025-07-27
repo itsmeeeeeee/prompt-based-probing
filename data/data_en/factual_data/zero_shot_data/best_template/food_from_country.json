@@ -1,0 +1,31 @@
+{
+  "relation": "food_from_country",
+  "template_scores": {
+    "{} originates from": {
+      "average_first_token_prob": 0.12828776041666667,
+      "reliability": 0.0,
+      "overall_score": 0.0
+    },
+    "{} is from the country of": {
+      "average_first_token_prob": 0.47215169270833335,
+      "reliability": 0.5666666666666667,
+      "overall_score": 0.26755262586805556
+    },
+    "{} is a food from": {
+      "average_first_token_prob": 0.2103515625,
+      "reliability": 0.03333333333333333,
+      "overall_score": 0.00701171875
+    },
+    "{} is a traditional dish from": {
+      "average_first_token_prob": 0.25099283854166665,
+      "reliability": 0.06666666666666667,
+      "overall_score": 0.016732855902777777
+    }
+  },
+  "best_template": "{} is from the country of",
+  "best_template_metrics": {
+    "average_first_token_prob": 0.47215169270833335,
+    "reliability": 0.5666666666666667,
+    "overall_score": 0.26755262586805556
+  }
+}

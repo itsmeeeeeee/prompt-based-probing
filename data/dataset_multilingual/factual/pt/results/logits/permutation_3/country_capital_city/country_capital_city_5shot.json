@@ -1,0 +1,3406 @@
+[
+  {
+    "prompt": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de Estados Unidos é",
+    "generated_prefix": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de Estados Unidos é",
+    "gold_token": " Washington",
+    "predicted_top1_token": " Washington",
+    "token_pos_in_answer": 0,
+    "gold_logit": 20.078125,
+    "gold_prob_percent": 97.02,
+    "first_token_prob": 0.97021484375,
+    "second_token_prob": 0.016693115234375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Washington",
+        "logit": 20.078125,
+        "probability_percent": 97.02
+      },
+      {
+        "rank": 1,
+        "token": " Nova",
+        "logit": 16.015625,
+        "probability_percent": 1.67
+      },
+      {
+        "rank": 2,
+        "token": " a",
+        "logit": 13.2109375,
+        "probability_percent": 0.1
+      },
+      {
+        "rank": 3,
+        "token": " Washing",
+        "logit": 12.4921875,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 4,
+        "token": " Wash",
+        "logit": 12.4765625,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 5,
+        "token": " o",
+        "logit": 12.375,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 6,
+        "token": " Fil",
+        "logit": 12.1796875,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 7,
+        "token": "Washington",
+        "logit": 12.1171875,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 8,
+        "token": " DC",
+        "logit": 11.859375,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 9,
+        "token": " N",
+        "logit": 11.59375,
+        "probability_percent": 0.02
+      }
+    ]
+  },
+  {
+    "prompt": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de Estados Unidos é",
+    "generated_prefix": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de Estados Unidos é Washington",
+    "gold_token": ",",
+    "predicted_top1_token": ".\n",
+    "token_pos_in_answer": 1,
+    "gold_logit": 18.671875,
+    "gold_prob_percent": 12.37,
+    "first_token_prob": 0.97021484375,
+    "second_token_prob": 0.016693115234375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": ".\n",
+        "logit": 20.09375,
+        "probability_percent": 51.27
+      },
+      {
+        "rank": 1,
+        "token": " D",
+        "logit": 19.109375,
+        "probability_percent": 19.17
+      },
+      {
+        "rank": 2,
+        "token": ",",
+        "logit": 18.671875,
+        "probability_percent": 12.37
+      },
+      {
+        "rank": 3,
+        "token": " DC",
+        "logit": 18.484375,
+        "probability_percent": 10.25
+      },
+      {
+        "rank": 4,
+        "token": ".\n\n",
+        "logit": 17.09375,
+        "probability_percent": 2.55
+      },
+      {
+        "rank": 5,
+        "token": ".",
+        "logit": 16.1875,
+        "probability_percent": 1.03
+      },
+      {
+        "rank": 6,
+        "token": " (",
+        "logit": 15.9921875,
+        "probability_percent": 0.85
+      },
+      {
+        "rank": 7,
+        "token": "\n",
+        "logit": 15.6953125,
+        "probability_percent": 0.63
+      },
+      {
+        "rank": 8,
+        "token": " .\n",
+        "logit": 15.1640625,
+        "probability_percent": 0.37
+      },
+      {
+        "rank": 9,
+        "token": " e",
+        "logit": 14.9609375,
+        "probability_percent": 0.3
+      }
+    ]
+  },
+  {
+    "prompt": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de Estados Unidos é",
+    "generated_prefix": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de Estados Unidos é Washington.\n",
+    "gold_token": " D",
+    "predicted_top1_token": "A",
+    "token_pos_in_answer": 2,
+    "gold_logit": 2.037109375,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.97021484375,
+    "second_token_prob": 0.016693115234375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "A",
+        "logit": 16.9375,
+        "probability_percent": 60.45
+      },
+      {
+        "rank": 1,
+        "token": "O",
+        "logit": 14.25,
+        "probability_percent": 4.11
+      },
+      {
+        "rank": 2,
+        "token": "###",
+        "logit": 13.421875,
+        "probability_percent": 1.8
+      },
+      {
+        "rank": 3,
+        "token": "##",
+        "logit": 13.140625,
+        "probability_percent": 1.36
+      },
+      {
+        "rank": 4,
+        "token": "*",
+        "logit": 12.84375,
+        "probability_percent": 1.01
+      },
+      {
+        "rank": 5,
+        "token": "E",
+        "logit": 12.59375,
+        "probability_percent": 0.79
+      },
+      {
+        "rank": 6,
+        "token": "Res",
+        "logit": 12.578125,
+        "probability_percent": 0.77
+      },
+      {
+        "rank": 7,
+        "token": "B",
+        "logit": 12.546875,
+        "probability_percent": 0.75
+      },
+      {
+        "rank": 8,
+        "token": "1",
+        "logit": 12.5,
+        "probability_percent": 0.72
+      },
+      {
+        "rank": 9,
+        "token": "Os",
+        "logit": 12.4375,
+        "probability_percent": 0.67
+      }
+    ]
+  },
+  {
+    "prompt": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de Estados Unidos é",
+    "generated_prefix": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de Estados Unidos é Washington.\nA",
+    "gold_token": ".C",
+    "predicted_top1_token": " capital",
+    "token_pos_in_answer": 3,
+    "gold_logit": 4.484375,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.97021484375,
+    "second_token_prob": 0.016693115234375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " capital",
+        "logit": 17.359375,
+        "probability_percent": 92.43
+      },
+      {
+        "rank": 1,
+        "token": " cidade",
+        "logit": 12.8828125,
+        "probability_percent": 1.05
+      },
+      {
+        "rank": 2,
+        "token": " resposta",
+        "logit": 12.046875,
+        "probability_percent": 0.46
+      },
+      {
+        "rank": 3,
+        "token": "pen",
+        "logit": 11.3359375,
+        "probability_percent": 0.22
+      },
+      {
+        "rank": 4,
+        "token": " Capital",
+        "logit": 11.2578125,
+        "probability_percent": 0.21
+      },
+      {
+        "rank": 5,
+        "token": " principal",
+        "logit": 10.9296875,
+        "probability_percent": 0.15
+      },
+      {
+        "rank": 6,
+        "token": "qui",
+        "logit": 10.8046875,
+        "probability_percent": 0.13
+      },
+      {
+        "rank": 7,
+        "token": "inda",
+        "logit": 10.765625,
+        "probability_percent": 0.13
+      },
+      {
+        "rank": 8,
+        "token": " palavra",
+        "logit": 10.7578125,
+        "probability_percent": 0.13
+      },
+      {
+        "rank": 9,
+        "token": "gor",
+        "logit": 10.671875,
+        "probability_percent": 0.12
+      }
+    ]
+  },
+  {
+    "prompt": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de Estados Unidos é",
+    "generated_prefix": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de Estados Unidos é Washington.\nA capital",
+    "gold_token": ".",
+    "predicted_top1_token": " de",
+    "token_pos_in_answer": 4,
+    "gold_logit": 7.0703125,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.97021484375,
+    "second_token_prob": 0.016693115234375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " de",
+        "logit": 21.265625,
+        "probability_percent": 75.68
+      },
+      {
+        "rank": 1,
+        "token": " da",
+        "logit": 19.5,
+        "probability_percent": 12.95
+      },
+      {
+        "rank": 2,
+        "token": " do",
+        "logit": 19.296875,
+        "probability_percent": 10.57
+      },
+      {
+        "rank": 3,
+        "token": " dos",
+        "logit": 15.078125,
+        "probability_percent": 0.16
+      },
+      {
+        "rank": 4,
+        "token": " das",
+        "logit": 14.5859375,
+        "probability_percent": 0.1
+      },
+      {
+        "rank": 5,
+        "token": " e",
+        "logit": 13.8359375,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 6,
+        "token": " d",
+        "logit": 13.4609375,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 7,
+        "token": " europe",
+        "logit": 13.2421875,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 8,
+        "token": " brasile",
+        "logit": 13.1171875,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 9,
+        "token": " ch",
+        "logit": 12.8125,
+        "probability_percent": 0.02
+      }
+    ]
+  },
+  {
+    "prompt": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de Canadá é",
+    "generated_prefix": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de Canadá é",
+    "gold_token": " Ottawa",
+    "predicted_top1_token": " Ottawa",
+    "token_pos_in_answer": 0,
+    "gold_logit": 19.546875,
+    "gold_prob_percent": 81.98,
+    "first_token_prob": 0.81982421875,
+    "second_token_prob": 0.1126708984375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Ottawa",
+        "logit": 19.546875,
+        "probability_percent": 81.98
+      },
+      {
+        "rank": 1,
+        "token": " Ott",
+        "logit": 17.5625,
+        "probability_percent": 11.27
+      },
+      {
+        "rank": 2,
+        "token": " Ont",
+        "logit": 15.625,
+        "probability_percent": 1.62
+      },
+      {
+        "rank": 3,
+        "token": " Toronto",
+        "logit": 15.359375,
+        "probability_percent": 1.24
+      },
+      {
+        "rank": 4,
+        "token": " Ot",
+        "logit": 14.4921875,
+        "probability_percent": 0.52
+      },
+      {
+        "rank": 5,
+        "token": " Montreal",
+        "logit": 14.2421875,
+        "probability_percent": 0.41
+      },
+      {
+        "rank": 6,
+        "token": " Ontario",
+        "logit": 14.078125,
+        "probability_percent": 0.35
+      },
+      {
+        "rank": 7,
+        "token": " a",
+        "logit": 14.0,
+        "probability_percent": 0.32
+      },
+      {
+        "rank": 8,
+        "token": " Can",
+        "logit": 13.6328125,
+        "probability_percent": 0.22
+      },
+      {
+        "rank": 9,
+        "token": " Quebec",
+        "logit": 13.5390625,
+        "probability_percent": 0.2
+      }
+    ]
+  },
+  {
+    "prompt": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de México é",
+    "generated_prefix": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de México é",
+    "gold_token": " C",
+    "predicted_top1_token": " C",
+    "token_pos_in_answer": 0,
+    "gold_logit": 17.609375,
+    "gold_prob_percent": 87.79,
+    "first_token_prob": 0.8779296875,
+    "second_token_prob": 0.032470703125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " C",
+        "logit": 17.609375,
+        "probability_percent": 87.79
+      },
+      {
+        "rank": 1,
+        "token": " México",
+        "logit": 14.3125,
+        "probability_percent": 3.25
+      },
+      {
+        "rank": 2,
+        "token": " a",
+        "logit": 13.484375,
+        "probability_percent": 1.42
+      },
+      {
+        "rank": 3,
+        "token": " M",
+        "logit": 13.0078125,
+        "probability_percent": 0.88
+      },
+      {
+        "rank": 4,
+        "token": " T",
+        "logit": 12.453125,
+        "probability_percent": 0.51
+      },
+      {
+        "rank": 5,
+        "token": " Mexico",
+        "logit": 12.203125,
+        "probability_percent": 0.39
+      },
+      {
+        "rank": 6,
+        "token": " Washington",
+        "logit": 12.1171875,
+        "probability_percent": 0.36
+      },
+      {
+        "rank": 7,
+        "token": " Dist",
+        "logit": 11.6484375,
+        "probability_percent": 0.23
+      },
+      {
+        "rank": 8,
+        "token": " Nova",
+        "logit": 11.59375,
+        "probability_percent": 0.21
+      },
+      {
+        "rank": 9,
+        "token": " La",
+        "logit": 11.5703125,
+        "probability_percent": 0.21
+      }
+    ]
+  },
+  {
+    "prompt": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de México é",
+    "generated_prefix": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de México é C",
+    "gold_token": "idade",
+    "predicted_top1_token": "idade",
+    "token_pos_in_answer": 1,
+    "gold_logit": 21.3125,
+    "gold_prob_percent": 99.8,
+    "first_token_prob": 0.8779296875,
+    "second_token_prob": 0.032470703125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "idade",
+        "logit": 21.3125,
+        "probability_percent": 99.8
+      },
+      {
+        "rank": 1,
+        "token": "idades",
+        "logit": 13.65625,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 2,
+        "token": "uid",
+        "logit": 13.640625,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 3,
+        "token": ".",
+        "logit": 11.984375,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 4,
+        "token": "itt",
+        "logit": 11.90625,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 5,
+        "token": "idad",
+        "logit": 11.859375,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 6,
+        "token": "oyo",
+        "logit": 11.640625,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 7,
+        "token": "DM",
+        "logit": 11.6328125,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 8,
+        "token": "id",
+        "logit": 11.203125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "í",
+        "logit": 11.0703125,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de México é",
+    "generated_prefix": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de México é Cidade",
+    "gold_token": " do",
+    "predicted_top1_token": " do",
+    "token_pos_in_answer": 2,
+    "gold_logit": 21.578125,
+    "gold_prob_percent": 96.53,
+    "first_token_prob": 0.8779296875,
+    "second_token_prob": 0.032470703125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " do",
+        "logit": 21.578125,
+        "probability_percent": 96.53
+      },
+      {
+        "rank": 1,
+        "token": " de",
+        "logit": 18.1875,
+        "probability_percent": 3.25
+      },
+      {
+        "rank": 2,
+        "token": " México",
+        "logit": 13.640625,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 3,
+        "token": "\n",
+        "logit": 13.21875,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 4,
+        "token": " Do",
+        "logit": 12.8203125,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 5,
+        "token": " da",
+        "logit": 12.7890625,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 6,
+        "token": "-do",
+        "logit": 11.90625,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 7,
+        "token": " ",
+        "logit": 11.7890625,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 8,
+        "token": " del",
+        "logit": 11.5625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": " M",
+        "logit": 11.453125,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de México é",
+    "generated_prefix": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de México é Cidade do",
+    "gold_token": " México",
+    "predicted_top1_token": " México",
+    "token_pos_in_answer": 3,
+    "gold_logit": 20.90625,
+    "gold_prob_percent": 99.76,
+    "first_token_prob": 0.8779296875,
+    "second_token_prob": 0.032470703125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " México",
+        "logit": 20.90625,
+        "probability_percent": 99.76
+      },
+      {
+        "rank": 1,
+        "token": " M",
+        "logit": 13.7109375,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 2,
+        "token": " Mexico",
+        "logit": 13.421875,
+        "probability_percent": 0.06
+      },
+      {
+        "rank": 3,
+        "token": " Mex",
+        "logit": 13.2578125,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 4,
+        "token": "\n",
+        "logit": 12.046875,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 5,
+        "token": " Mé",
+        "logit": 11.671875,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 6,
+        "token": " Me",
+        "logit": 10.7890625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": " Cab",
+        "logit": 10.359375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": " Estado",
+        "logit": 9.8984375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": " Mundo",
+        "logit": 9.8671875,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de Argentina é",
+    "generated_prefix": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de Argentina é",
+    "gold_token": " Buenos",
+    "predicted_top1_token": " Buenos",
+    "token_pos_in_answer": 0,
+    "gold_logit": 19.140625,
+    "gold_prob_percent": 95.9,
+    "first_token_prob": 0.958984375,
+    "second_token_prob": 0.01049041748046875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Buenos",
+        "logit": 19.140625,
+        "probability_percent": 95.9
+      },
+      {
+        "rank": 1,
+        "token": " B",
+        "logit": 14.625,
+        "probability_percent": 1.05
+      },
+      {
+        "rank": 2,
+        "token": " La",
+        "logit": 13.6875,
+        "probability_percent": 0.41
+      },
+      {
+        "rank": 3,
+        "token": " a",
+        "logit": 13.359375,
+        "probability_percent": 0.3
+      },
+      {
+        "rank": 4,
+        "token": " C",
+        "logit": 13.0546875,
+        "probability_percent": 0.22
+      },
+      {
+        "rank": 5,
+        "token": " Bog",
+        "logit": 12.3203125,
+        "probability_percent": 0.1
+      },
+      {
+        "rank": 6,
+        "token": " o",
+        "logit": 12.1796875,
+        "probability_percent": 0.09
+      },
+      {
+        "rank": 7,
+        "token": " Br",
+        "logit": 12.1796875,
+        "probability_percent": 0.09
+      },
+      {
+        "rank": 8,
+        "token": "\n",
+        "logit": 12.171875,
+        "probability_percent": 0.09
+      },
+      {
+        "rank": 9,
+        "token": " Có",
+        "logit": 12.015625,
+        "probability_percent": 0.08
+      }
+    ]
+  },
+  {
+    "prompt": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de Argentina é",
+    "generated_prefix": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de Argentina é Buenos",
+    "gold_token": " Aires",
+    "predicted_top1_token": " Aires",
+    "token_pos_in_answer": 1,
+    "gold_logit": 23.703125,
+    "gold_prob_percent": 99.8,
+    "first_token_prob": 0.958984375,
+    "second_token_prob": 0.01049041748046875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Aires",
+        "logit": 23.703125,
+        "probability_percent": 99.8
+      },
+      {
+        "rank": 1,
+        "token": "-A",
+        "logit": 16.140625,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 2,
+        "token": " A",
+        "logit": 15.5078125,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 3,
+        "token": "\n",
+        "logit": 15.2890625,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 4,
+        "token": " a",
+        "logit": 15.0390625,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 5,
+        "token": " Ay",
+        "logit": 14.8359375,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 6,
+        "token": " Ai",
+        "logit": 13.9140625,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 7,
+        "token": "A",
+        "logit": 13.5078125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": " AI",
+        "logit": 13.5078125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": " Á",
+        "logit": 13.421875,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de Chile é",
+    "generated_prefix": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de Chile é",
+    "gold_token": " Santiago",
+    "predicted_top1_token": " Santiago",
+    "token_pos_in_answer": 0,
+    "gold_logit": 20.203125,
+    "gold_prob_percent": 96.92,
+    "first_token_prob": 0.96923828125,
+    "second_token_prob": 0.0120086669921875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Santiago",
+        "logit": 20.203125,
+        "probability_percent": 96.92
+      },
+      {
+        "rank": 1,
+        "token": " São",
+        "logit": 15.8125,
+        "probability_percent": 1.2
+      },
+      {
+        "rank": 2,
+        "token": " S",
+        "logit": 14.9765625,
+        "probability_percent": 0.52
+      },
+      {
+        "rank": 3,
+        "token": " Val",
+        "logit": 14.6640625,
+        "probability_percent": 0.38
+      },
+      {
+        "rank": 4,
+        "token": " San",
+        "logit": 13.1796875,
+        "probability_percent": 0.09
+      },
+      {
+        "rank": 5,
+        "token": " La",
+        "logit": 13.0859375,
+        "probability_percent": 0.08
+      },
+      {
+        "rank": 6,
+        "token": "\n",
+        "logit": 12.6171875,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 7,
+        "token": " a",
+        "logit": 12.4453125,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 8,
+        "token": " Buenos",
+        "logit": 12.28125,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 9,
+        "token": " Lima",
+        "logit": 12.15625,
+        "probability_percent": 0.03
+      }
+    ]
+  },
+  {
+    "prompt": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de Peru é",
+    "generated_prefix": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de Peru é",
+    "gold_token": " Lima",
+    "predicted_top1_token": " Lima",
+    "token_pos_in_answer": 0,
+    "gold_logit": 19.765625,
+    "gold_prob_percent": 94.78,
+    "first_token_prob": 0.94775390625,
+    "second_token_prob": 0.0201416015625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Lima",
+        "logit": 19.765625,
+        "probability_percent": 94.78
+      },
+      {
+        "rank": 1,
+        "token": " L",
+        "logit": 15.9140625,
+        "probability_percent": 2.01
+      },
+      {
+        "rank": 2,
+        "token": " Lis",
+        "logit": 14.8828125,
+        "probability_percent": 0.72
+      },
+      {
+        "rank": 3,
+        "token": " Lime",
+        "logit": 14.5390625,
+        "probability_percent": 0.51
+      },
+      {
+        "rank": 4,
+        "token": " C",
+        "logit": 13.9765625,
+        "probability_percent": 0.29
+      },
+      {
+        "rank": 5,
+        "token": " Lim",
+        "logit": 13.84375,
+        "probability_percent": 0.25
+      },
+      {
+        "rank": 6,
+        "token": " Li",
+        "logit": 13.4609375,
+        "probability_percent": 0.17
+      },
+      {
+        "rank": 7,
+        "token": " Lu",
+        "logit": 13.3515625,
+        "probability_percent": 0.16
+      },
+      {
+        "rank": 8,
+        "token": " Car",
+        "logit": 13.1953125,
+        "probability_percent": 0.13
+      },
+      {
+        "rank": 9,
+        "token": " Lil",
+        "logit": 12.8515625,
+        "probability_percent": 0.09
+      }
+    ]
+  },
+  {
+    "prompt": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de Venezuela é",
+    "generated_prefix": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de Venezuela é",
+    "gold_token": " Car",
+    "predicted_top1_token": " Car",
+    "token_pos_in_answer": 0,
+    "gold_logit": 18.625,
+    "gold_prob_percent": 95.26,
+    "first_token_prob": 0.95263671875,
+    "second_token_prob": 0.0204010009765625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Car",
+        "logit": 18.625,
+        "probability_percent": 95.26
+      },
+      {
+        "rank": 1,
+        "token": " C",
+        "logit": 14.78125,
+        "probability_percent": 2.04
+      },
+      {
+        "rank": 2,
+        "token": " Cab",
+        "logit": 12.90625,
+        "probability_percent": 0.31
+      },
+      {
+        "rank": 3,
+        "token": " Ciudad",
+        "logit": 12.90625,
+        "probability_percent": 0.31
+      },
+      {
+        "rank": 4,
+        "token": " Mar",
+        "logit": 12.6171875,
+        "probability_percent": 0.23
+      },
+      {
+        "rank": 5,
+        "token": " Porto",
+        "logit": 12.4921875,
+        "probability_percent": 0.21
+      },
+      {
+        "rank": 6,
+        "token": " Ca",
+        "logit": 11.6171875,
+        "probability_percent": 0.09
+      },
+      {
+        "rank": 7,
+        "token": "\n",
+        "logit": 11.25,
+        "probability_percent": 0.06
+      },
+      {
+        "rank": 8,
+        "token": " Cara",
+        "logit": 11.25,
+        "probability_percent": 0.06
+      },
+      {
+        "rank": 9,
+        "token": " Mai",
+        "logit": 11.171875,
+        "probability_percent": 0.06
+      }
+    ]
+  },
+  {
+    "prompt": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de Venezuela é",
+    "generated_prefix": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de Venezuela é Car",
+    "gold_token": "acas",
+    "predicted_top1_token": "acas",
+    "token_pos_in_answer": 1,
+    "gold_logit": 23.09375,
+    "gold_prob_percent": 98.78,
+    "first_token_prob": 0.95263671875,
+    "second_token_prob": 0.0204010009765625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "acas",
+        "logit": 23.09375,
+        "probability_percent": 98.78
+      },
+      {
+        "rank": 1,
+        "token": "ac",
+        "logit": 17.890625,
+        "probability_percent": 0.54
+      },
+      {
+        "rank": 2,
+        "token": "aca",
+        "logit": 16.90625,
+        "probability_percent": 0.2
+      },
+      {
+        "rank": 3,
+        "token": "á",
+        "logit": 16.390625,
+        "probability_percent": 0.12
+      },
+      {
+        "rank": 4,
+        "token": "aque",
+        "logit": 16.09375,
+        "probability_percent": 0.09
+      },
+      {
+        "rank": 5,
+        "token": "ab",
+        "logit": 15.3515625,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 6,
+        "token": "acus",
+        "logit": 15.3515625,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 7,
+        "token": "aqu",
+        "logit": 14.84375,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 8,
+        "token": "ác",
+        "logit": 14.5390625,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 9,
+        "token": "cas",
+        "logit": 14.484375,
+        "probability_percent": 0.02
+      }
+    ]
+  },
+  {
+    "prompt": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de Espanha é",
+    "generated_prefix": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de Espanha é",
+    "gold_token": " Madrid",
+    "predicted_top1_token": " Mad",
+    "token_pos_in_answer": 0,
+    "gold_logit": 19.234375,
+    "gold_prob_percent": 45.92,
+    "first_token_prob": 0.50439453125,
+    "second_token_prob": 0.459228515625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Mad",
+        "logit": 19.328125,
+        "probability_percent": 50.44
+      },
+      {
+        "rank": 1,
+        "token": " Madrid",
+        "logit": 19.234375,
+        "probability_percent": 45.92
+      },
+      {
+        "rank": 2,
+        "token": " M",
+        "logit": 15.5234375,
+        "probability_percent": 1.12
+      },
+      {
+        "rank": 3,
+        "token": " Lis",
+        "logit": 14.734375,
+        "probability_percent": 0.51
+      },
+      {
+        "rank": 4,
+        "token": " Barcelona",
+        "logit": 14.34375,
+        "probability_percent": 0.35
+      },
+      {
+        "rank": 5,
+        "token": " E",
+        "logit": 14.1953125,
+        "probability_percent": 0.3
+      },
+      {
+        "rank": 6,
+        "token": " Se",
+        "logit": 13.25,
+        "probability_percent": 0.12
+      },
+      {
+        "rank": 7,
+        "token": " a",
+        "logit": 12.984375,
+        "probability_percent": 0.09
+      },
+      {
+        "rank": 8,
+        "token": "Mad",
+        "logit": 12.8984375,
+        "probability_percent": 0.08
+      },
+      {
+        "rank": 9,
+        "token": " Ma",
+        "logit": 12.7109375,
+        "probability_percent": 0.07
+      }
+    ]
+  },
+  {
+    "prompt": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de França é",
+    "generated_prefix": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de França é",
+    "gold_token": " Paris",
+    "predicted_top1_token": " Paris",
+    "token_pos_in_answer": 0,
+    "gold_logit": 21.234375,
+    "gold_prob_percent": 98.1,
+    "first_token_prob": 0.98095703125,
+    "second_token_prob": 0.0139923095703125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Paris",
+        "logit": 21.234375,
+        "probability_percent": 98.1
+      },
+      {
+        "rank": 1,
+        "token": " Par",
+        "logit": 16.984375,
+        "probability_percent": 1.4
+      },
+      {
+        "rank": 2,
+        "token": " a",
+        "logit": 13.6328125,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 3,
+        "token": " Lis",
+        "logit": 13.546875,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 4,
+        "token": " P",
+        "logit": 13.3671875,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 5,
+        "token": " Fran",
+        "logit": 12.984375,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 6,
+        "token": "Paris",
+        "logit": 12.875,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 7,
+        "token": " A",
+        "logit": 12.5625,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 8,
+        "token": " PAR",
+        "logit": 12.390625,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 9,
+        "token": "\n",
+        "logit": 12.15625,
+        "probability_percent": 0.01
+      }
+    ]
+  },
+  {
+    "prompt": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de Alemanha é",
+    "generated_prefix": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de Alemanha é",
+    "gold_token": " Ber",
+    "predicted_top1_token": " Ber",
+    "token_pos_in_answer": 0,
+    "gold_logit": 20.9375,
+    "gold_prob_percent": 97.61,
+    "first_token_prob": 0.97607421875,
+    "second_token_prob": 0.01392364501953125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Ber",
+        "logit": 20.9375,
+        "probability_percent": 97.61
+      },
+      {
+        "rank": 1,
+        "token": " Bon",
+        "logit": 16.6875,
+        "probability_percent": 1.39
+      },
+      {
+        "rank": 2,
+        "token": " Berlin",
+        "logit": 14.96875,
+        "probability_percent": 0.25
+      },
+      {
+        "rank": 3,
+        "token": " B",
+        "logit": 14.5390625,
+        "probability_percent": 0.16
+      },
+      {
+        "rank": 4,
+        "token": " M",
+        "logit": 13.8828125,
+        "probability_percent": 0.08
+      },
+      {
+        "rank": 5,
+        "token": " a",
+        "logit": 13.5,
+        "probability_percent": 0.06
+      },
+      {
+        "rank": 6,
+        "token": " Br",
+        "logit": 13.4609375,
+        "probability_percent": 0.06
+      },
+      {
+        "rank": 7,
+        "token": " Frankfurt",
+        "logit": 13.21875,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 8,
+        "token": " Col",
+        "logit": 12.7734375,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 9,
+        "token": " H",
+        "logit": 12.609375,
+        "probability_percent": 0.02
+      }
+    ]
+  },
+  {
+    "prompt": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de Alemanha é",
+    "generated_prefix": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de Alemanha é Ber",
+    "gold_token": "lim",
+    "predicted_top1_token": "lim",
+    "token_pos_in_answer": 1,
+    "gold_logit": 23.953125,
+    "gold_prob_percent": 100.0,
+    "first_token_prob": 0.97607421875,
+    "second_token_prob": 0.01392364501953125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "lim",
+        "logit": 23.953125,
+        "probability_percent": 100.0
+      },
+      {
+        "rank": 1,
+        "token": "l",
+        "logit": 14.296875,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 2,
+        "token": "im",
+        "logit": 13.6875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 3,
+        "token": "li",
+        "logit": 13.3203125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 4,
+        "token": " lim",
+        "logit": 13.2734375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 5,
+        "token": "lín",
+        "logit": 13.0703125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": "ch",
+        "logit": 12.765625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": "ling",
+        "logit": 11.3359375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "-l",
+        "logit": 11.2109375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "gh",
+        "logit": 11.109375,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de Itália é",
+    "generated_prefix": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de Itália é",
+    "gold_token": " Roma",
+    "predicted_top1_token": " Roma",
+    "token_pos_in_answer": 0,
+    "gold_logit": 18.671875,
+    "gold_prob_percent": 94.58,
+    "first_token_prob": 0.94580078125,
+    "second_token_prob": 0.015533447265625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Roma",
+        "logit": 18.671875,
+        "probability_percent": 94.58
+      },
+      {
+        "rank": 1,
+        "token": " Flo",
+        "logit": 14.5625,
+        "probability_percent": 1.55
+      },
+      {
+        "rank": 2,
+        "token": " Mil",
+        "logit": 13.6796875,
+        "probability_percent": 0.64
+      },
+      {
+        "rank": 3,
+        "token": " V",
+        "logit": 13.40625,
+        "probability_percent": 0.49
+      },
+      {
+        "rank": 4,
+        "token": " R",
+        "logit": 13.3125,
+        "probability_percent": 0.45
+      },
+      {
+        "rank": 5,
+        "token": " Ná",
+        "logit": 12.9453125,
+        "probability_percent": 0.31
+      },
+      {
+        "rank": 6,
+        "token": " a",
+        "logit": 12.90625,
+        "probability_percent": 0.3
+      },
+      {
+        "rank": 7,
+        "token": " Tur",
+        "logit": 12.328125,
+        "probability_percent": 0.17
+      },
+      {
+        "rank": 8,
+        "token": " Rom",
+        "logit": 12.2265625,
+        "probability_percent": 0.15
+      },
+      {
+        "rank": 9,
+        "token": " Rome",
+        "logit": 11.9375,
+        "probability_percent": 0.11
+      }
+    ]
+  },
+  {
+    "prompt": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de Rússia é",
+    "generated_prefix": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de Rússia é",
+    "gold_token": " Mos",
+    "predicted_top1_token": " Mos",
+    "token_pos_in_answer": 0,
+    "gold_logit": 19.671875,
+    "gold_prob_percent": 87.84,
+    "first_token_prob": 0.87841796875,
+    "second_token_prob": 0.08172607421875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Mos",
+        "logit": 19.671875,
+        "probability_percent": 87.84
+      },
+      {
+        "rank": 1,
+        "token": " São",
+        "logit": 17.296875,
+        "probability_percent": 8.17
+      },
+      {
+        "rank": 2,
+        "token": " M",
+        "logit": 15.6171875,
+        "probability_percent": 1.52
+      },
+      {
+        "rank": 3,
+        "token": " San",
+        "logit": 14.7578125,
+        "probability_percent": 0.65
+      },
+      {
+        "rank": 4,
+        "token": " S",
+        "logit": 14.3984375,
+        "probability_percent": 0.45
+      },
+      {
+        "rank": 5,
+        "token": " Moscow",
+        "logit": 13.359375,
+        "probability_percent": 0.16
+      },
+      {
+        "rank": 6,
+        "token": " Sant",
+        "logit": 13.21875,
+        "probability_percent": 0.14
+      },
+      {
+        "rank": 7,
+        "token": " C",
+        "logit": 12.6875,
+        "probability_percent": 0.08
+      },
+      {
+        "rank": 8,
+        "token": " a",
+        "logit": 12.4453125,
+        "probability_percent": 0.06
+      },
+      {
+        "rank": 9,
+        "token": " St",
+        "logit": 12.28125,
+        "probability_percent": 0.05
+      }
+    ]
+  },
+  {
+    "prompt": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de Rússia é",
+    "generated_prefix": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de Rússia é Mos",
+    "gold_token": "c",
+    "predicted_top1_token": "cou",
+    "token_pos_in_answer": 1,
+    "gold_logit": 21.6875,
+    "gold_prob_percent": 10.36,
+    "first_token_prob": 0.87841796875,
+    "second_token_prob": 0.08172607421875,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "cou",
+        "logit": 23.84375,
+        "probability_percent": 89.5
+      },
+      {
+        "rank": 1,
+        "token": "c",
+        "logit": 21.6875,
+        "probability_percent": 10.36
+      },
+      {
+        "rank": 2,
+        "token": "cu",
+        "logit": 16.28125,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 3,
+        "token": "cov",
+        "logit": 16.046875,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 4,
+        "token": "ca",
+        "logit": 14.5625,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 5,
+        "token": "k",
+        "logit": 13.1171875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": "coc",
+        "logit": 13.0859375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": "co",
+        "logit": 13.0546875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "cul",
+        "logit": 12.96875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "quito",
+        "logit": 12.6953125,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de Rússia é",
+    "generated_prefix": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de Rússia é Moscou",
+    "gold_token": "ovo",
+    "predicted_top1_token": ".\n",
+    "token_pos_in_answer": 2,
+    "gold_logit": 3.94921875,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.87841796875,
+    "second_token_prob": 0.08172607421875,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": ".\n",
+        "logit": 22.265625,
+        "probability_percent": 91.31
+      },
+      {
+        "rank": 1,
+        "token": ".\n\n",
+        "logit": 19.109375,
+        "probability_percent": 3.89
+      },
+      {
+        "rank": 2,
+        "token": ".",
+        "logit": 18.59375,
+        "probability_percent": 2.32
+      },
+      {
+        "rank": 3,
+        "token": "\n",
+        "logit": 17.296875,
+        "probability_percent": 0.63
+      },
+      {
+        "rank": 4,
+        "token": " (",
+        "logit": 16.78125,
+        "probability_percent": 0.38
+      },
+      {
+        "rank": 5,
+        "token": ",",
+        "logit": 16.765625,
+        "probability_percent": 0.37
+      },
+      {
+        "rank": 6,
+        "token": " .\n",
+        "logit": 16.0625,
+        "probability_percent": 0.18
+      },
+      {
+        "rank": 7,
+        "token": " e",
+        "logit": 15.9453125,
+        "probability_percent": 0.16
+      },
+      {
+        "rank": 8,
+        "token": ".\n\n\n",
+        "logit": 15.15625,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 9,
+        "token": ",\n",
+        "logit": 14.3828125,
+        "probability_percent": 0.03
+      }
+    ]
+  },
+  {
+    "prompt": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de China é",
+    "generated_prefix": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de China é",
+    "gold_token": " Pe",
+    "predicted_top1_token": " Pe",
+    "token_pos_in_answer": 0,
+    "gold_logit": 20.03125,
+    "gold_prob_percent": 96.44,
+    "first_token_prob": 0.96435546875,
+    "second_token_prob": 0.01354217529296875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Pe",
+        "logit": 20.03125,
+        "probability_percent": 96.44
+      },
+      {
+        "rank": 1,
+        "token": " P",
+        "logit": 15.765625,
+        "probability_percent": 1.35
+      },
+      {
+        "rank": 2,
+        "token": " Beijing",
+        "logit": 14.9609375,
+        "probability_percent": 0.61
+      },
+      {
+        "rank": 3,
+        "token": " Pé",
+        "logit": 14.4453125,
+        "probability_percent": 0.36
+      },
+      {
+        "rank": 4,
+        "token": " Be",
+        "logit": 14.0078125,
+        "probability_percent": 0.23
+      },
+      {
+        "rank": 5,
+        "token": " Pek",
+        "logit": 13.9609375,
+        "probability_percent": 0.22
+      },
+      {
+        "rank": 6,
+        "token": " X",
+        "logit": 13.8515625,
+        "probability_percent": 0.2
+      },
+      {
+        "rank": 7,
+        "token": " T",
+        "logit": 12.8359375,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 8,
+        "token": " Nan",
+        "logit": 12.3203125,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 9,
+        "token": " Tian",
+        "logit": 12.1875,
+        "probability_percent": 0.04
+      }
+    ]
+  },
+  {
+    "prompt": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de China é",
+    "generated_prefix": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de China é Pe",
+    "gold_token": "qu",
+    "predicted_top1_token": "qu",
+    "token_pos_in_answer": 1,
+    "gold_logit": 23.78125,
+    "gold_prob_percent": 99.02,
+    "first_token_prob": 0.96435546875,
+    "second_token_prob": 0.01354217529296875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "qu",
+        "logit": 23.78125,
+        "probability_percent": 99.02
+      },
+      {
+        "rank": 1,
+        "token": "quin",
+        "logit": 19.078125,
+        "probability_percent": 0.9
+      },
+      {
+        "rank": 2,
+        "token": "qui",
+        "logit": 14.8515625,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 3,
+        "token": "que",
+        "logit": 14.6015625,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 4,
+        "token": "ix",
+        "logit": 14.1953125,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 5,
+        "token": "iqu",
+        "logit": 14.1640625,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 6,
+        "token": "-qu",
+        "logit": 13.8671875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": "Qu",
+        "logit": 13.703125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "ixe",
+        "logit": 13.6015625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "ixin",
+        "logit": 13.125,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de China é",
+    "generated_prefix": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de China é Pequ",
+    "gold_token": "im",
+    "predicted_top1_token": "im",
+    "token_pos_in_answer": 2,
+    "gold_logit": 25.046875,
+    "gold_prob_percent": 99.9,
+    "first_token_prob": 0.96435546875,
+    "second_token_prob": 0.01354217529296875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "im",
+        "logit": 25.046875,
+        "probability_percent": 99.9
+      },
+      {
+        "rank": 1,
+        "token": "ín",
+        "logit": 18.078125,
+        "probability_percent": 0.09
+      },
+      {
+        "rank": 2,
+        "token": "inho",
+        "logit": 14.53125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 3,
+        "token": "ino",
+        "logit": 13.7109375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 4,
+        "token": "ím",
+        "logit": 13.7109375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 5,
+        "token": "ena",
+        "logit": 13.0234375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": "eno",
+        "logit": 12.65625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": "inh",
+        "logit": 12.6640625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "í",
+        "logit": 12.59375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "ão",
+        "logit": 12.5078125,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de Japão é",
+    "generated_prefix": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de Japão é",
+    "gold_token": " T",
+    "predicted_top1_token": " T",
+    "token_pos_in_answer": 0,
+    "gold_logit": 19.265625,
+    "gold_prob_percent": 94.14,
+    "first_token_prob": 0.94140625,
+    "second_token_prob": 0.0298004150390625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " T",
+        "logit": 19.265625,
+        "probability_percent": 94.14
+      },
+      {
+        "rank": 1,
+        "token": " Tok",
+        "logit": 15.8125,
+        "probability_percent": 2.98
+      },
+      {
+        "rank": 2,
+        "token": " Tokyo",
+        "logit": 14.7578125,
+        "probability_percent": 1.04
+      },
+      {
+        "rank": 3,
+        "token": " To",
+        "logit": 13.7421875,
+        "probability_percent": 0.38
+      },
+      {
+        "rank": 4,
+        "token": " Tom",
+        "logit": 12.4140625,
+        "probability_percent": 0.1
+      },
+      {
+        "rank": 5,
+        "token": " S",
+        "logit": 12.125,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 6,
+        "token": "\n",
+        "logit": 12.03125,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 7,
+        "token": " Te",
+        "logit": 11.8984375,
+        "probability_percent": 0.06
+      },
+      {
+        "rank": 8,
+        "token": " Pe",
+        "logit": 11.5546875,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 9,
+        "token": " O",
+        "logit": 11.5390625,
+        "probability_percent": 0.04
+      }
+    ]
+  },
+  {
+    "prompt": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de Japão é",
+    "generated_prefix": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de Japão é T",
+    "gold_token": "ó",
+    "predicted_top1_token": "ó",
+    "token_pos_in_answer": 1,
+    "gold_logit": 23.546875,
+    "gold_prob_percent": 99.9,
+    "first_token_prob": 0.94140625,
+    "second_token_prob": 0.0298004150390625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ó",
+        "logit": 23.546875,
+        "probability_percent": 99.9
+      },
+      {
+        "rank": 1,
+        "token": "ô",
+        "logit": 16.25,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 2,
+        "token": "ò",
+        "logit": 14.2734375,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 3,
+        "token": "ō",
+        "logit": 13.3046875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 4,
+        "token": "ói",
+        "logit": 12.53125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 5,
+        "token": "Ó",
+        "logit": 12.328125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": "ód",
+        "logit": 11.4140625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": " ó",
+        "logit": 11.0,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "í",
+        "logit": 10.859375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "óc",
+        "logit": 10.8359375,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de Japão é",
+    "generated_prefix": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de Japão é Tó",
+    "gold_token": "qu",
+    "predicted_top1_token": "qu",
+    "token_pos_in_answer": 2,
+    "gold_logit": 20.171875,
+    "gold_prob_percent": 99.41,
+    "first_token_prob": 0.94140625,
+    "second_token_prob": 0.0298004150390625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "qu",
+        "logit": 20.171875,
+        "probability_percent": 99.41
+      },
+      {
+        "rank": 1,
+        "token": "que",
+        "logit": 13.9921875,
+        "probability_percent": 0.21
+      },
+      {
+        "rank": 2,
+        "token": "qui",
+        "logit": 13.1328125,
+        "probability_percent": 0.09
+      },
+      {
+        "rank": 3,
+        "token": "k",
+        "logit": 12.421875,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 4,
+        "token": "quia",
+        "logit": 11.8984375,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 5,
+        "token": "ky",
+        "logit": 11.75,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 6,
+        "token": "quin",
+        "logit": 11.7421875,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 7,
+        "token": "QUI",
+        "logit": 11.515625,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 8,
+        "token": "cu",
+        "logit": 11.21875,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 9,
+        "token": "quo",
+        "logit": 11.125,
+        "probability_percent": 0.01
+      }
+    ]
+  },
+  {
+    "prompt": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de Japão é",
+    "generated_prefix": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de Japão é Tóqu",
+    "gold_token": "io",
+    "predicted_top1_token": "io",
+    "token_pos_in_answer": 3,
+    "gold_logit": 27.46875,
+    "gold_prob_percent": 100.0,
+    "first_token_prob": 0.94140625,
+    "second_token_prob": 0.0298004150390625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "io",
+        "logit": 27.46875,
+        "probability_percent": 100.0
+      },
+      {
+        "rank": 1,
+        "token": "ió",
+        "logit": 16.234375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 2,
+        "token": "ío",
+        "logit": 15.3984375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 3,
+        "token": "ios",
+        "logit": 15.125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 4,
+        "token": "IO",
+        "logit": 15.1171875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 5,
+        "token": "iro",
+        "logit": 14.90625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": "ico",
+        "logit": 14.2421875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": " io",
+        "logit": 14.1953125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "iao",
+        "logit": 14.171875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "inho",
+        "logit": 13.4453125,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de Coreia do Sul é",
+    "generated_prefix": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de Coreia do Sul é",
+    "gold_token": " Se",
+    "predicted_top1_token": " Se",
+    "token_pos_in_answer": 0,
+    "gold_logit": 18.984375,
+    "gold_prob_percent": 95.46,
+    "first_token_prob": 0.95458984375,
+    "second_token_prob": 0.012298583984375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Se",
+        "logit": 18.984375,
+        "probability_percent": 95.46
+      },
+      {
+        "rank": 1,
+        "token": " Sé",
+        "logit": 14.6328125,
+        "probability_percent": 1.23
+      },
+      {
+        "rank": 2,
+        "token": " Seoul",
+        "logit": 14.2265625,
+        "probability_percent": 0.82
+      },
+      {
+        "rank": 3,
+        "token": " Pe",
+        "logit": 13.7890625,
+        "probability_percent": 0.53
+      },
+      {
+        "rank": 4,
+        "token": " S",
+        "logit": 13.6328125,
+        "probability_percent": 0.45
+      },
+      {
+        "rank": 5,
+        "token": " C",
+        "logit": 13.1328125,
+        "probability_percent": 0.27
+      },
+      {
+        "rank": 6,
+        "token": " a",
+        "logit": 12.6796875,
+        "probability_percent": 0.17
+      },
+      {
+        "rank": 7,
+        "token": " Core",
+        "logit": 11.984375,
+        "probability_percent": 0.09
+      },
+      {
+        "rank": 8,
+        "token": " Su",
+        "logit": 11.921875,
+        "probability_percent": 0.08
+      },
+      {
+        "rank": 9,
+        "token": " Bus",
+        "logit": 11.609375,
+        "probability_percent": 0.06
+      }
+    ]
+  },
+  {
+    "prompt": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de Coreia do Sul é",
+    "generated_prefix": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de Coreia do Sul é Se",
+    "gold_token": "ul",
+    "predicted_top1_token": "ul",
+    "token_pos_in_answer": 1,
+    "gold_logit": 22.5625,
+    "gold_prob_percent": 96.73,
+    "first_token_prob": 0.95458984375,
+    "second_token_prob": 0.012298583984375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ul",
+        "logit": 22.5625,
+        "probability_percent": 96.73
+      },
+      {
+        "rank": 1,
+        "token": "ú",
+        "logit": 18.9375,
+        "probability_percent": 2.58
+      },
+      {
+        "rank": 2,
+        "token": "u",
+        "logit": 16.15625,
+        "probability_percent": 0.16
+      },
+      {
+        "rank": 3,
+        "token": "ula",
+        "logit": 16.109375,
+        "probability_percent": 0.15
+      },
+      {
+        "rank": 4,
+        "token": "ong",
+        "logit": 14.953125,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 5,
+        "token": "uls",
+        "logit": 14.953125,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 6,
+        "token": "ül",
+        "logit": 14.78125,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 7,
+        "token": "ulo",
+        "logit": 14.6796875,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 8,
+        "token": "o",
+        "logit": 14.6484375,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 9,
+        "token": "ol",
+        "logit": 14.375,
+        "probability_percent": 0.03
+      }
+    ]
+  },
+  {
+    "prompt": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de Índia é",
+    "generated_prefix": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de Índia é",
+    "gold_token": " Nova",
+    "predicted_top1_token": " Nova",
+    "token_pos_in_answer": 0,
+    "gold_logit": 19.3125,
+    "gold_prob_percent": 93.26,
+    "first_token_prob": 0.9326171875,
+    "second_token_prob": 0.024658203125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Nova",
+        "logit": 19.3125,
+        "probability_percent": 93.26
+      },
+      {
+        "rank": 1,
+        "token": " Delhi",
+        "logit": 15.6796875,
+        "probability_percent": 2.47
+      },
+      {
+        "rank": 2,
+        "token": " Cal",
+        "logit": 15.0625,
+        "probability_percent": 1.33
+      },
+      {
+        "rank": 3,
+        "token": " Nov",
+        "logit": 14.1328125,
+        "probability_percent": 0.52
+      },
+      {
+        "rank": 4,
+        "token": " Bomb",
+        "logit": 13.8515625,
+        "probability_percent": 0.4
+      },
+      {
+        "rank": 5,
+        "token": " New",
+        "logit": 13.609375,
+        "probability_percent": 0.31
+      },
+      {
+        "rank": 6,
+        "token": " N",
+        "logit": 13.296875,
+        "probability_percent": 0.23
+      },
+      {
+        "rank": 7,
+        "token": " Del",
+        "logit": 12.859375,
+        "probability_percent": 0.15
+      },
+      {
+        "rank": 8,
+        "token": " De",
+        "logit": 12.5859375,
+        "probability_percent": 0.11
+      },
+      {
+        "rank": 9,
+        "token": " Mumbai",
+        "logit": 12.2265625,
+        "probability_percent": 0.08
+      }
+    ]
+  },
+  {
+    "prompt": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de Índia é",
+    "generated_prefix": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de Índia é Nova",
+    "gold_token": " Del",
+    "predicted_top1_token": " Delhi",
+    "token_pos_in_answer": 1,
+    "gold_logit": 16.109375,
+    "gold_prob_percent": 20.21,
+    "first_token_prob": 0.9326171875,
+    "second_token_prob": 0.024658203125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Delhi",
+        "logit": 16.828125,
+        "probability_percent": 41.48
+      },
+      {
+        "rank": 1,
+        "token": " Del",
+        "logit": 16.109375,
+        "probability_percent": 20.21
+      },
+      {
+        "rank": 2,
+        "token": " Dé",
+        "logit": 16.109375,
+        "probability_percent": 20.21
+      },
+      {
+        "rank": 3,
+        "token": " D",
+        "logit": 15.2109375,
+        "probability_percent": 8.23
+      },
+      {
+        "rank": 4,
+        "token": " De",
+        "logit": 15.109375,
+        "probability_percent": 7.43
+      },
+      {
+        "rank": 5,
+        "token": "-D",
+        "logit": 12.46875,
+        "probability_percent": 0.53
+      },
+      {
+        "rank": 6,
+        "token": " Goa",
+        "logit": 11.4296875,
+        "probability_percent": 0.19
+      },
+      {
+        "rank": 7,
+        "token": "\n",
+        "logit": 11.34375,
+        "probability_percent": 0.17
+      },
+      {
+        "rank": 8,
+        "token": " del",
+        "logit": 10.921875,
+        "probability_percent": 0.11
+      },
+      {
+        "rank": 9,
+        "token": "-",
+        "logit": 10.7890625,
+        "probability_percent": 0.1
+      }
+    ]
+  },
+  {
+    "prompt": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de Índia é",
+    "generated_prefix": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de Índia é Nova Delhi",
+    "gold_token": "i",
+    "predicted_top1_token": ".\n",
+    "token_pos_in_answer": 2,
+    "gold_logit": 6.48046875,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.9326171875,
+    "second_token_prob": 0.024658203125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": ".\n",
+        "logit": 22.640625,
+        "probability_percent": 93.07
+      },
+      {
+        "rank": 1,
+        "token": ".\n\n",
+        "logit": 19.234375,
+        "probability_percent": 3.09
+      },
+      {
+        "rank": 2,
+        "token": ".",
+        "logit": 18.65625,
+        "probability_percent": 1.73
+      },
+      {
+        "rank": 3,
+        "token": "\n",
+        "logit": 17.75,
+        "probability_percent": 0.7
+      },
+      {
+        "rank": 4,
+        "token": " (",
+        "logit": 16.90625,
+        "probability_percent": 0.3
+      },
+      {
+        "rank": 5,
+        "token": ",",
+        "logit": 16.875,
+        "probability_percent": 0.29
+      },
+      {
+        "rank": 6,
+        "token": " .\n",
+        "logit": 16.5625,
+        "probability_percent": 0.21
+      },
+      {
+        "rank": 7,
+        "token": " e",
+        "logit": 15.6953125,
+        "probability_percent": 0.09
+      },
+      {
+        "rank": 8,
+        "token": ";\n",
+        "logit": 15.0234375,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 9,
+        "token": ",\n",
+        "logit": 14.875,
+        "probability_percent": 0.04
+      }
+    ]
+  },
+  {
+    "prompt": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de Paquistão é",
+    "generated_prefix": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de Paquistão é",
+    "gold_token": " Islamabad",
+    "predicted_top1_token": " Islamabad",
+    "token_pos_in_answer": 0,
+    "gold_logit": 16.984375,
+    "gold_prob_percent": 72.51,
+    "first_token_prob": 0.72509765625,
+    "second_token_prob": 0.1341552734375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Islamabad",
+        "logit": 16.984375,
+        "probability_percent": 72.51
+      },
+      {
+        "rank": 1,
+        "token": " Isl",
+        "logit": 15.296875,
+        "probability_percent": 13.42
+      },
+      {
+        "rank": 2,
+        "token": " Is",
+        "logit": 13.8359375,
+        "probability_percent": 3.11
+      },
+      {
+        "rank": 3,
+        "token": " Islam",
+        "logit": 13.1484375,
+        "probability_percent": 1.57
+      },
+      {
+        "rank": 4,
+        "token": " is",
+        "logit": 12.6640625,
+        "probability_percent": 0.96
+      },
+      {
+        "rank": 5,
+        "token": " L",
+        "logit": 12.296875,
+        "probability_percent": 0.67
+      },
+      {
+        "rank": 6,
+        "token": " isl",
+        "logit": 12.2734375,
+        "probability_percent": 0.65
+      },
+      {
+        "rank": 7,
+        "token": " Il",
+        "logit": 12.1171875,
+        "probability_percent": 0.56
+      },
+      {
+        "rank": 8,
+        "token": " I",
+        "logit": 11.8515625,
+        "probability_percent": 0.43
+      },
+      {
+        "rank": 9,
+        "token": " La",
+        "logit": 11.8515625,
+        "probability_percent": 0.43
+      }
+    ]
+  },
+  {
+    "prompt": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de Nigéria é",
+    "generated_prefix": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de Nigéria é",
+    "gold_token": " Abu",
+    "predicted_top1_token": " Lagos",
+    "token_pos_in_answer": 0,
+    "gold_logit": 17.46875,
+    "gold_prob_percent": 25.22,
+    "first_token_prob": 0.449462890625,
+    "second_token_prob": 0.252197265625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Lagos",
+        "logit": 18.046875,
+        "probability_percent": 44.95
+      },
+      {
+        "rank": 1,
+        "token": " Abu",
+        "logit": 17.46875,
+        "probability_percent": 25.22
+      },
+      {
+        "rank": 2,
+        "token": " Ab",
+        "logit": 17.046875,
+        "probability_percent": 16.54
+      },
+      {
+        "rank": 3,
+        "token": " L",
+        "logit": 16.0625,
+        "probability_percent": 6.18
+      },
+      {
+        "rank": 4,
+        "token": " Lu",
+        "logit": 14.171875,
+        "probability_percent": 0.93
+      },
+      {
+        "rank": 5,
+        "token": " A",
+        "logit": 13.890625,
+        "probability_percent": 0.7
+      },
+      {
+        "rank": 6,
+        "token": " Abe",
+        "logit": 13.7265625,
+        "probability_percent": 0.6
+      },
+      {
+        "rank": 7,
+        "token": " Lag",
+        "logit": 13.578125,
+        "probability_percent": 0.52
+      },
+      {
+        "rank": 8,
+        "token": " O",
+        "logit": 12.921875,
+        "probability_percent": 0.27
+      },
+      {
+        "rank": 9,
+        "token": " C",
+        "logit": 12.859375,
+        "probability_percent": 0.25
+      }
+    ]
+  },
+  {
+    "prompt": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de Nigéria é",
+    "generated_prefix": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de Nigéria é Lagos",
+    "gold_token": "ja",
+    "predicted_top1_token": ".\n",
+    "token_pos_in_answer": 1,
+    "gold_logit": 7.5234375,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.449462890625,
+    "second_token_prob": 0.252197265625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": ".\n",
+        "logit": 21.78125,
+        "probability_percent": 91.85
+      },
+      {
+        "rank": 1,
+        "token": ".\n\n",
+        "logit": 18.640625,
+        "probability_percent": 3.97
+      },
+      {
+        "rank": 2,
+        "token": ".",
+        "logit": 17.796875,
+        "probability_percent": 1.71
+      },
+      {
+        "rank": 3,
+        "token": "\n",
+        "logit": 17.078125,
+        "probability_percent": 0.83
+      },
+      {
+        "rank": 4,
+        "token": ",",
+        "logit": 16.234375,
+        "probability_percent": 0.36
+      },
+      {
+        "rank": 5,
+        "token": " (",
+        "logit": 16.078125,
+        "probability_percent": 0.31
+      },
+      {
+        "rank": 6,
+        "token": " .\n",
+        "logit": 15.7109375,
+        "probability_percent": 0.21
+      },
+      {
+        "rank": 7,
+        "token": " e",
+        "logit": 15.296875,
+        "probability_percent": 0.14
+      },
+      {
+        "rank": 8,
+        "token": ",\n",
+        "logit": 14.03125,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 9,
+        "token": "\n\n",
+        "logit": 13.9453125,
+        "probability_percent": 0.04
+      }
+    ]
+  },
+  {
+    "prompt": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de Egito é",
+    "generated_prefix": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de Egito é",
+    "gold_token": " Cairo",
+    "predicted_top1_token": " Cairo",
+    "token_pos_in_answer": 0,
+    "gold_logit": 16.796875,
+    "gold_prob_percent": 67.14,
+    "first_token_prob": 0.67138671875,
+    "second_token_prob": 0.1312255859375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Cairo",
+        "logit": 16.796875,
+        "probability_percent": 67.14
+      },
+      {
+        "rank": 1,
+        "token": " C",
+        "logit": 15.1640625,
+        "probability_percent": 13.12
+      },
+      {
+        "rank": 2,
+        "token": " Ca",
+        "logit": 13.609375,
+        "probability_percent": 2.77
+      },
+      {
+        "rank": 3,
+        "token": " o",
+        "logit": 13.5625,
+        "probability_percent": 2.64
+      },
+      {
+        "rank": 4,
+        "token": " El",
+        "logit": 13.3359375,
+        "probability_percent": 2.11
+      },
+      {
+        "rank": 5,
+        "token": " Lux",
+        "logit": 13.015625,
+        "probability_percent": 1.53
+      },
+      {
+        "rank": 6,
+        "token": " Lis",
+        "logit": 12.84375,
+        "probability_percent": 1.29
+      },
+      {
+        "rank": 7,
+        "token": " O",
+        "logit": 12.8125,
+        "probability_percent": 1.25
+      },
+      {
+        "rank": 8,
+        "token": " a",
+        "logit": 11.671875,
+        "probability_percent": 0.4
+      },
+      {
+        "rank": 9,
+        "token": " Al",
+        "logit": 11.3828125,
+        "probability_percent": 0.3
+      }
+    ]
+  },
+  {
+    "prompt": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de Arábia Saudita é",
+    "generated_prefix": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de Arábia Saudita é",
+    "gold_token": " Ri",
+    "predicted_top1_token": " Ri",
+    "token_pos_in_answer": 0,
+    "gold_logit": 17.734375,
+    "gold_prob_percent": 67.87,
+    "first_token_prob": 0.6787109375,
+    "second_token_prob": 0.265869140625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Ri",
+        "logit": 17.734375,
+        "probability_percent": 67.87
+      },
+      {
+        "rank": 1,
+        "token": " R",
+        "logit": 16.796875,
+        "probability_percent": 26.59
+      },
+      {
+        "rank": 2,
+        "token": " Riyadh",
+        "logit": 14.109375,
+        "probability_percent": 1.81
+      },
+      {
+        "rank": 3,
+        "token": " Riy",
+        "logit": 12.9921875,
+        "probability_percent": 0.59
+      },
+      {
+        "rank": 4,
+        "token": " C",
+        "logit": 12.53125,
+        "probability_percent": 0.37
+      },
+      {
+        "rank": 5,
+        "token": " a",
+        "logit": 12.28125,
+        "probability_percent": 0.29
+      },
+      {
+        "rank": 6,
+        "token": " M",
+        "logit": 11.890625,
+        "probability_percent": 0.2
+      },
+      {
+        "rank": 7,
+        "token": " J",
+        "logit": 11.8203125,
+        "probability_percent": 0.18
+      },
+      {
+        "rank": 8,
+        "token": " Rio",
+        "logit": 11.40625,
+        "probability_percent": 0.12
+      },
+      {
+        "rank": 9,
+        "token": " RI",
+        "logit": 11.3671875,
+        "probability_percent": 0.12
+      }
+    ]
+  },
+  {
+    "prompt": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de Arábia Saudita é",
+    "generated_prefix": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de Arábia Saudita é Ri",
+    "gold_token": "ade",
+    "predicted_top1_token": "ade",
+    "token_pos_in_answer": 1,
+    "gold_logit": 21.609375,
+    "gold_prob_percent": 79.74,
+    "first_token_prob": 0.6787109375,
+    "second_token_prob": 0.265869140625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ade",
+        "logit": 21.609375,
+        "probability_percent": 79.74
+      },
+      {
+        "rank": 1,
+        "token": "ad",
+        "logit": 20.21875,
+        "probability_percent": 19.85
+      },
+      {
+        "rank": 2,
+        "token": "ada",
+        "logit": 15.8046875,
+        "probability_percent": 0.24
+      },
+      {
+        "rank": 3,
+        "token": "ado",
+        "logit": 13.7109375,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 4,
+        "token": "ades",
+        "logit": 13.6875,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 5,
+        "token": "adh",
+        "logit": 13.515625,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 6,
+        "token": "agem",
+        "logit": 12.0078125,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 7,
+        "token": "adem",
+        "logit": 11.953125,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 8,
+        "token": "abe",
+        "logit": 11.9453125,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 9,
+        "token": "adin",
+        "logit": 11.7890625,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de Turquia é",
+    "generated_prefix": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de Turquia é",
+    "gold_token": " Anc",
+    "predicted_top1_token": " Ist",
+    "token_pos_in_answer": 0,
+    "gold_logit": 14.359375,
+    "gold_prob_percent": 0.81,
+    "first_token_prob": 0.7041015625,
+    "second_token_prob": 0.140869140625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Ist",
+        "logit": 18.828125,
+        "probability_percent": 70.41
+      },
+      {
+        "rank": 1,
+        "token": " Est",
+        "logit": 17.21875,
+        "probability_percent": 14.09
+      },
+      {
+        "rank": 2,
+        "token": " An",
+        "logit": 16.5,
+        "probability_percent": 6.86
+      },
+      {
+        "rank": 3,
+        "token": " Ankara",
+        "logit": 16.375,
+        "probability_percent": 6.06
+      },
+      {
+        "rank": 4,
+        "token": " Anc",
+        "logit": 14.359375,
+        "probability_percent": 0.81
+      },
+      {
+        "rank": 5,
+        "token": " Istanbul",
+        "logit": 13.9296875,
+        "probability_percent": 0.52
+      },
+      {
+        "rank": 6,
+        "token": " Constantin",
+        "logit": 13.234375,
+        "probability_percent": 0.26
+      },
+      {
+        "rank": 7,
+        "token": " I",
+        "logit": 12.0625,
+        "probability_percent": 0.08
+      },
+      {
+        "rank": 8,
+        "token": " Anast",
+        "logit": 11.734375,
+        "probability_percent": 0.06
+      },
+      {
+        "rank": 9,
+        "token": " A",
+        "logit": 11.625,
+        "probability_percent": 0.05
+      }
+    ]
+  },
+  {
+    "prompt": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de Turquia é",
+    "generated_prefix": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de Turquia é Ist",
+    "gold_token": "ara",
+    "predicted_top1_token": "amb",
+    "token_pos_in_answer": 1,
+    "gold_logit": 6.046875,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.7041015625,
+    "second_token_prob": 0.140869140625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "amb",
+        "logit": 21.078125,
+        "probability_percent": 99.51
+      },
+      {
+        "rank": 1,
+        "token": "â",
+        "logit": 15.3046875,
+        "probability_percent": 0.31
+      },
+      {
+        "rank": 2,
+        "token": "amba",
+        "logit": 12.890625,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 3,
+        "token": "ab",
+        "logit": 12.6875,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 4,
+        "token": "ana",
+        "logit": 12.171875,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 5,
+        "token": "ão",
+        "logit": 12.0546875,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 6,
+        "token": "ã",
+        "logit": 11.890625,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 7,
+        "token": "AMB",
+        "logit": 11.7890625,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 8,
+        "token": "ano",
+        "logit": 11.4921875,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 9,
+        "token": "emb",
+        "logit": 11.4140625,
+        "probability_percent": 0.01
+      }
+    ]
+  },
+  {
+    "prompt": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de Austrália é",
+    "generated_prefix": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de Austrália é",
+    "gold_token": " Camb",
+    "predicted_top1_token": " Canberra",
+    "token_pos_in_answer": 0,
+    "gold_logit": 9.1484375,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.71435546875,
+    "second_token_prob": 0.2213134765625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Canberra",
+        "logit": 19.125,
+        "probability_percent": 71.44
+      },
+      {
+        "rank": 1,
+        "token": " Can",
+        "logit": 17.953125,
+        "probability_percent": 22.13
+      },
+      {
+        "rank": 2,
+        "token": " Sydney",
+        "logit": 15.421875,
+        "probability_percent": 1.76
+      },
+      {
+        "rank": 3,
+        "token": " C",
+        "logit": 15.375,
+        "probability_percent": 1.68
+      },
+      {
+        "rank": 4,
+        "token": " Sidney",
+        "logit": 14.0234375,
+        "probability_percent": 0.43
+      },
+      {
+        "rank": 5,
+        "token": " S",
+        "logit": 13.65625,
+        "probability_percent": 0.3
+      },
+      {
+        "rank": 6,
+        "token": " Melbourne",
+        "logit": 13.5390625,
+        "probability_percent": 0.27
+      },
+      {
+        "rank": 7,
+        "token": " a",
+        "logit": 13.2109375,
+        "probability_percent": 0.19
+      },
+      {
+        "rank": 8,
+        "token": " Brisbane",
+        "logit": 13.109375,
+        "probability_percent": 0.17
+      },
+      {
+        "rank": 9,
+        "token": " Austr",
+        "logit": 12.8046875,
+        "probability_percent": 0.13
+      }
+    ]
+  },
+  {
+    "prompt": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de Austrália é",
+    "generated_prefix": "A capital de Países Baixos é Amesterdão.\nA capital de Dinamarca é Copenhaga.\nA capital de Finlândia é Helsínquia.\nA capital de Suíça é Berna.\nA capital de Noruega é Oslo.\nA capital de Austrália é Canberra",
+    "gold_token": "erra",
+    "predicted_top1_token": ".\n",
+    "token_pos_in_answer": 1,
+    "gold_logit": 3.80078125,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.71435546875,
+    "second_token_prob": 0.2213134765625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": ".\n",
+        "logit": 22.5625,
+        "probability_percent": 93.55
+      },
+      {
+        "rank": 1,
+        "token": ".\n\n",
+        "logit": 19.0625,
+        "probability_percent": 2.83
+      },
+      {
+        "rank": 2,
+        "token": ".",
+        "logit": 18.296875,
+        "probability_percent": 1.31
+      },
+      {
+        "rank": 3,
+        "token": "\n",
+        "logit": 17.671875,
+        "probability_percent": 0.7
+      },
+      {
+        "rank": 4,
+        "token": ",",
+        "logit": 16.953125,
+        "probability_percent": 0.34
+      },
+      {
+        "rank": 5,
+        "token": " .\n",
+        "logit": 16.859375,
+        "probability_percent": 0.31
+      },
+      {
+        "rank": 6,
+        "token": " (",
+        "logit": 16.671875,
+        "probability_percent": 0.26
+      },
+      {
+        "rank": 7,
+        "token": " e",
+        "logit": 15.3671875,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 8,
+        "token": ".\n\n\n",
+        "logit": 14.8046875,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 9,
+        "token": ",\n",
+        "logit": 14.796875,
+        "probability_percent": 0.04
+      }
+    ]
+  }
+]

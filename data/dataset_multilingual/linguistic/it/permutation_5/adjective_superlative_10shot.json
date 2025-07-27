@@ -1,0 +1,328 @@
+{
+    "name": "adjective superlative_10shot_perm5",
+    "prompt_templates": [
+        "La forma superlativa di costoso è costosissimo.\nLa forma superlativa di bizzarro è bizarrissimo.\nLa forma superlativa di antico è antichissimo.\nLa forma superlativa di interessante è interessantissimo.\nLa forma superlativa di astuto è astutissimo.\nLa forma superlativa di pericoloso è pericolosissimo.\nLa forma superlativa di efficiente è efficientissimo.\nLa forma superlativa di popolare è popolarissimo.\nLa forma superlativa di abbronzato è abbronzatissimo.\nLa forma superlativa di strano è stranissimo.\nLa forma superlativa di {} è"
+    ],
+    "samples": [
+        {
+            "subject": "arrabbiato",
+            "object": "il più arrabbiato"
+        },
+        {
+            "subject": "cattivo",
+            "object": "il peggiore"
+        },
+        {
+            "subject": "grande",
+            "object": "il più grande"
+        },
+        {
+            "subject": "coraggioso",
+            "object": "il più coraggioso"
+        },
+        {
+            "subject": "luminoso",
+            "object": "il più luminoso"
+        },
+        {
+            "subject": "calmo",
+            "object": "il più calmo"
+        },
+        {
+            "subject": "economico",
+            "object": "il più economico"
+        },
+        {
+            "subject": "pulito",
+            "object": "il più pulito"
+        },
+        {
+            "subject": "freddo",
+            "object": "il più freddo"
+        },
+        {
+            "subject": "pazzo",
+            "object": "il più pazzo"
+        },
+        {
+            "subject": "crudele",
+            "object": "crudelissimo"
+        },
+        {
+            "subject": "scuro",
+            "object": "scurissimo"
+        },
+        {
+            "subject": "profondo",
+            "object": "profondissimo"
+        },
+        {
+            "subject": "sporco",
+            "object": "sporcissimo"
+        },
+        {
+            "subject": "secco",
+            "object": "seccissimo"
+        },
+        {
+            "subject": "noioso",
+            "object": "noiosissimo"
+        },
+        {
+            "subject": "facile",
+            "object": "facilissimo"
+        },
+        {
+            "subject": "veloce",
+            "object": "velocissimo"
+        },
+        {
+            "subject": "feroce",
+            "object": "ferocissimo"
+        },
+        {
+            "subject": "fresco",
+            "object": "freschissimo"
+        },
+        {
+            "subject": "amichevole",
+            "object": "amichevolissimo"
+        },
+        {
+            "subject": "pieno",
+            "object": "pienissimo"
+        },
+        {
+            "subject": "divertente",
+            "object": "divertentissimo"
+        },
+        {
+            "subject": "gentile",
+            "object": "gentilissimo"
+        },
+        {
+            "subject": "buono",
+            "object": "migliore"
+        },
+        {
+            "subject": "grande",
+            "object": "grandissimo"
+        },
+        {
+            "subject": "felice",
+            "object": "felicissimo"
+        },
+        {
+            "subject": "duro",
+            "object": "durissimo"
+        },
+        {
+            "subject": "sano",
+            "object": "sanissimo"
+        },
+        {
+            "subject": "pesante",
+            "object": "pesantissimo"
+        },
+        {
+            "subject": "alto",
+            "object": "altissimo"
+        },
+        {
+            "subject": "caldo",
+            "object": "caldissimo"
+        },
+        {
+            "subject": "affamato",
+            "object": "affamatissimo"
+        },
+        {
+            "subject": "gentile",
+            "object": "gentilissimo"
+        },
+        {
+            "subject": "grande",
+            "object": "grandissimo"
+        },
+        {
+            "subject": "pigro",
+            "object": "pigrissimo"
+        },
+        {
+            "subject": "leggero",
+            "object": "leggerissimo"
+        },
+        {
+            "subject": "piccolo",
+            "object": "più piccolo"
+        },
+        {
+            "subject": "lungo",
+            "object": "lunghissimo"
+        },
+        {
+            "subject": "forte",
+            "object": "fortissimo"
+        },
+        {
+            "subject": "basso",
+            "object": "bassissimo"
+        },
+        {
+            "subject": "pazzo",
+            "object": "pazzissimo"
+        },
+        {
+            "subject": "cattivo",
+            "object": "cattivissimo"
+        },
+        {
+            "subject": "disordinato",
+            "object": "disordinatissimo"
+        },
+        {
+            "subject": "stretto",
+            "object": "strettissimo"
+        },
+        {
+            "subject": "vicino",
+            "object": "vicinissimo"
+        },
+        {
+            "subject": "nuovo",
+            "object": "nuovissimo"
+        },
+        {
+            "subject": "vecchio",
+            "object": "vecchissimo"
+        },
+        {
+            "subject": "cortese",
+            "object": "cortesissimo"
+        },
+        {
+            "subject": "povero",
+            "object": "poverissimo"
+        },
+        {
+            "subject": "veloce",
+            "object": "velocissimo"
+        },
+        {
+            "subject": "silenzioso",
+            "object": "silenziosissimo"
+        },
+        {
+            "subject": "ricco",
+            "object": "ricchissimo"
+        },
+        {
+            "subject": "triste",
+            "object": "tristissimo"
+        },
+        {
+            "subject": "sicuro",
+            "object": "sicurissimo"
+        },
+        {
+            "subject": "corto",
+            "object": "cortissimo"
+        },
+        {
+            "subject": "timido",
+            "object": "timidissimo"
+        },
+        {
+            "subject": "semplice",
+            "object": "semplicissimo"
+        },
+        {
+            "subject": "lento",
+            "object": "lentissimo"
+        },
+        {
+            "subject": "piccolo",
+            "object": "piccolissimo"
+        },
+        {
+            "subject": "intelligente",
+            "object": "intelligentissimo"
+        },
+        {
+            "subject": "liscio",
+            "object": "liscissimo"
+        },
+        {
+            "subject": "forte",
+            "object": "fortissimo"
+        },
+        {
+            "subject": "dolce",
+            "object": "dolcissimo"
+        },
+        {
+            "subject": "alto",
+            "object": "altissimo"
+        },
+        {
+            "subject": "spesso",
+            "object": "spessissimo"
+        },
+        {
+            "subject": "sottile",
+            "object": "sottilissimo"
+        },
+        {
+            "subject": "piccolo",
+            "object": "piccolissimo"
+        },
+        {
+            "subject": "duro",
+            "object": "durissimo"
+        },
+        {
+            "subject": "vero",
+            "object": "verissimo"
+        },
+        {
+            "subject": "brutto",
+            "object": "bruttissimo"
+        },
+        {
+            "subject": "debole",
+            "object": "debolissimo"
+        },
+        {
+            "subject": "bagnato",
+            "object": "bagnatissimo"
+        },
+        {
+            "subject": "ampio",
+            "object": "amplissimo"
+        },
+        {
+            "subject": "selvaggio",
+            "object": "selvaggissimo"
+        },
+        {
+            "subject": "saggio",
+            "object": "saggissimo"
+        },
+        {
+            "subject": "spiritoso",
+            "object": "spiritosissimo"
+        },
+        {
+            "subject": "sbagliato",
+            "object": "sbagliatissimo"
+        },
+        {
+            "subject": "giovane",
+            "object": "giovanissimo"
+        },
+        {
+            "subject": "piccante",
+            "object": "piccantissimo"
+        }
+    ]
+}

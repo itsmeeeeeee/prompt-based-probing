@@ -1,0 +1,31 @@
+{
+  "relation": "product_by_company",
+  "template_scores": {
+    "{} was created by": {
+      "average_first_token_prob": 0.16865954636613983,
+      "reliability": 0.16475095785440613,
+      "overall_score": 0.027786821815111162
+    },
+    "{} is a product of": {
+      "average_first_token_prob": 0.21672999356441572,
+      "reliability": 0.038314176245210725,
+      "overall_score": 0.00830383117105041
+    },
+    "{} is a product developed by ": {
+      "average_first_token_prob": 0.022326356149724617,
+      "reliability": 0.04980842911877394,
+      "overall_score": 0.0011120407277640614
+    },
+    "{} was built by": {
+      "average_first_token_prob": 0.1376104245240661,
+      "reliability": 0.09770114942528736,
+      "overall_score": 0.01344469664890301
+    }
+  },
+  "best_template": "{} was created by",
+  "best_template_metrics": {
+    "average_first_token_prob": 0.16865954636613983,
+    "reliability": 0.16475095785440613,
+    "overall_score": 0.027786821815111162
+  }
+}

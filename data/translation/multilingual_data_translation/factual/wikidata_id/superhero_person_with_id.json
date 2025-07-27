@@ -1,0 +1,619 @@
+{
+  "name": "superhero person",
+  "prompt_templates": [
+    "{}'s secret identity is",
+    "{}'s true identity is",
+    "The real name of {} is"
+  ],
+  "prompt_templates_zs": [
+    "What is {}'s secret identity? Their name is"
+  ],
+  "properties": {
+    "relation_type": "factual",
+    "domain_name": "superhero",
+    "range_name": "person",
+    "symmetric": false
+  },
+  "samples": [
+    {
+      "subject": "Superman",
+      "object": "Clark Kent",
+      "subject_id": "Q79015",
+      "object_id": "Q774772"
+    },
+    {
+      "subject": "Batman",
+      "object": "Bruce Wayne",
+      "subject_id": "Q2695156",
+      "object_id": "Q94496874"
+    },
+    {
+      "subject": "Wonder Woman",
+      "object": "Diana Prince",
+      "subject_id": "Q10853350",
+      "object_id": "Q5271277"
+    },
+    {
+      "subject": "Spider-Man",
+      "object": "Peter Parker",
+      "subject_id": "Q79037",
+      "object_id": "Q23991129"
+    },
+    {
+      "subject": "Iron Man",
+      "object": "Tony Stark",
+      "subject_id": "Q192724",
+      "object_id": "Q23894967"
+    },
+    {
+      "subject": "Captain America",
+      "object": "Steve Rogers",
+      "subject_id": "Q190679",
+      "object_id": "Q24022098"
+    },
+    {
+      "subject": "The Flash",
+      "object": "Barry Allen",
+      "subject_id": "Q23562553",
+      "object_id": "Q808998"
+    },
+    {
+      "subject": "Green Lantern",
+      "object": "Hal Jordan",
+      "subject_id": "Q32884",
+      "object_id": "Q2345627"
+    },
+    {
+      "subject": "Green Arrow",
+      "object": "Oliver Queen",
+      "subject_id": "Q611993",
+      "object_id": "Q19866576"
+    },
+    {
+      "subject": "Aquaman",
+      "object": "Arthur Curry",
+      "subject_id": "Q623059",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Daredevil",
+      "object": "Matt Murdock",
+      "subject_id": "Q327553",
+      "object_id": "Q110414906"
+    },
+    {
+      "subject": "Cyclops",
+      "object": "Scott Summers",
+      "subject_id": "Q1421606",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Storm",
+      "object": "Ororo Munroe",
+      "subject_id": "Q16883888",
+      "object_id": "Q125179131"
+    },
+    {
+      "subject": "Mr. Fantastic",
+      "object": "Reed Richards",
+      "subject_id": "Q108657412",
+      "object_id": "Q63761245"
+    },
+    {
+      "subject": "Invisible Woman",
+      "object": "Sue Storm",
+      "subject_id": "Q510450",
+      "object_id": "Q133697747"
+    },
+    {
+      "subject": "Human Torch",
+      "object": "Johnny Storm",
+      "subject_id": "Q584585",
+      "object_id": "Q125179116"
+    },
+    {
+      "subject": "The Thing",
+      "object": "Ben Grimm",
+      "subject_id": "Q210756",
+      "object_id": "Q63761223"
+    },
+    {
+      "subject": "Kid Flash",
+      "object": "Wally West",
+      "subject_id": "Q3196369",
+      "object_id": "Q100952596"
+    },
+    {
+      "subject": "Nightwing",
+      "object": "Dick Grayson",
+      "subject_id": "Q686623",
+      "object_id": "Q660051"
+    },
+    {
+      "subject": "Shazam",
+      "object": "Billy Batson",
+      "subject_id": "Q1195495",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Green Lantern",
+      "object": "Kyle Rayner",
+      "subject_id": "Q32884",
+      "object_id": "Q302550"
+    },
+    {
+      "subject": "Red Robin",
+      "object": "Tim Drake",
+      "subject_id": "Q22086582",
+      "object_id": "Q1076696"
+    },
+    {
+      "subject": "Red Hood",
+      "object": "Jason Todd",
+      "subject_id": "Q2143880",
+      "object_id": "Q1087546"
+    },
+    {
+      "subject": "Catwoman",
+      "object": "Selina Kyle",
+      "subject_id": "Q92776707",
+      "object_id": "Q64026997"
+    },
+    {
+      "subject": "Phoenix",
+      "object": "Jean Grey",
+      "subject_id": "Q10441",
+      "object_id": "Q5350072"
+    },
+    {
+      "subject": "Wolverine",
+      "object": "Logan Howlett",
+      "subject_id": "Q112110379",
+      "object_id": "Q6667074"
+    },
+    {
+      "subject": "Supergirl",
+      "object": "Kara Zor-El",
+      "subject_id": "Q18844732",
+      "object_id": "Q738569"
+    },
+    {
+      "subject": "Black Widow",
+      "object": "Natasha Romanoff",
+      "subject_id": "Q23894626",
+      "object_id": "Q23895063"
+    },
+    {
+      "subject": "Hawkeye",
+      "object": "Clint Barton",
+      "subject_id": "Q19095",
+      "object_id": "Q24026688"
+    },
+    {
+      "subject": "Captain Marvel",
+      "object": "Carol Danvers",
+      "subject_id": "Q23781129",
+      "object_id": "Q726756"
+    },
+    {
+      "subject": "She-Hulk",
+      "object": "Jennifer Walters",
+      "subject_id": "Q677627",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Spider-Woman",
+      "object": "Jessica Drew",
+      "subject_id": "Q20979395",
+      "object_id": "Q1188309"
+    },
+    {
+      "subject": "Spider-Man",
+      "object": "Miles Morales",
+      "subject_id": "Q79037",
+      "object_id": "Q59826"
+    },
+    {
+      "subject": "Ms. Marvel",
+      "object": "Kamala Khan",
+      "subject_id": "Q84712813",
+      "object_id": "Q15208946"
+    },
+    {
+      "subject": "Falcon",
+      "object": "Sam Wilson",
+      "subject_id": "Q7884398",
+      "object_id": "Q105955627"
+    },
+    {
+      "subject": "Black Panther",
+      "object": "T'Challa",
+      "subject_id": "Q4921421",
+      "object_id": "Q24004885"
+    },
+    {
+      "subject": "Doctor Strange",
+      "object": "Stephen Strange",
+      "subject_id": "Q18406872",
+      "object_id": "Q24034722"
+    },
+    {
+      "subject": "Ant-Man",
+      "object": "Hank Pym",
+      "subject_id": "Q5901134",
+      "object_id": "Q24265423"
+    },
+    {
+      "subject": "Wasp",
+      "object": "Janet Van Dyne",
+      "subject_id": "Q37574354",
+      "object_id": "Q27067914"
+    },
+    {
+      "subject": "Blue Beetle",
+      "object": "Jaime Reyes",
+      "subject_id": "Q107808351",
+      "object_id": "Q71336022"
+    },
+    {
+      "subject": "Batgirl",
+      "object": "Cassandra Cain",
+      "subject_id": "Q753713",
+      "object_id": "Q427647"
+    },
+    {
+      "subject": "Spoiler",
+      "object": "Stephanie Brown",
+      "subject_id": "Q77852",
+      "object_id": "Q287548"
+    },
+    {
+      "subject": "Oracle",
+      "object": "Barbara Gordon",
+      "subject_id": "Q19900",
+      "object_id": "Q194705"
+    },
+    {
+      "subject": "Power Man",
+      "object": "Luke Cage",
+      "subject_id": "Q17014311",
+      "object_id": "Q20646602"
+    },
+    {
+      "subject": "Iron Fist",
+      "object": "Danny Rand",
+      "subject_id": "Q21148896",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Jewel",
+      "object": "Jessica Jones",
+      "subject_id": "Q229018",
+      "object_id": "Q104572099"
+    },
+    {
+      "subject": "Starfire",
+      "object": "Koriand'r",
+      "subject_id": "Q947384",
+      "object_id": "Q73163122"
+    },
+    {
+      "subject": "Cyborg",
+      "object": "Victor Stone",
+      "subject_id": "Q235799",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Raven",
+      "object": "Rachel Roth",
+      "subject_id": "Q16881896",
+      "object_id": "Q1418753"
+    },
+    {
+      "subject": "Beast Boy",
+      "object": "Garfield Logan",
+      "subject_id": "Q575227",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Batwoman",
+      "object": "Kate Kane",
+      "subject_id": "Q63607949",
+      "object_id": "Q2469992"
+    },
+    {
+      "subject": "Arsenal",
+      "object": "Roy Harper",
+      "subject_id": "Q81669",
+      "object_id": "Q365670"
+    },
+    {
+      "subject": "Gambit",
+      "object": "Remy LeBeau",
+      "subject_id": "Q208544",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Iceman",
+      "object": "Bobby Drake",
+      "subject_id": "Q838088",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Shadowcat",
+      "object": "Kitty Pryde",
+      "subject_id": "N/A",
+      "object_id": "Q547306"
+    },
+    {
+      "subject": "Hellblazer",
+      "object": "John Constantine",
+      "subject_id": "Q1035139",
+      "object_id": "Q56227493"
+    },
+    {
+      "subject": "Green Lantern",
+      "object": "Alan Scott",
+      "subject_id": "Q32884",
+      "object_id": "Q1563019"
+    },
+    {
+      "subject": "The Flash",
+      "object": "Jay Garrick",
+      "subject_id": "Q23562553",
+      "object_id": "Q1120560"
+    },
+    {
+      "subject": "Blue Beetle",
+      "object": "Ted Kord",
+      "subject_id": "Q107808351",
+      "object_id": "Q1765094"
+    },
+    {
+      "subject": "Booster Gold",
+      "object": "Michael Jon Carter",
+      "subject_id": "Q391201",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Huntress",
+      "object": "Helena Bertinelli",
+      "subject_id": "Q114471",
+      "object_id": "Q93384289"
+    },
+    {
+      "subject": "Zatanna",
+      "object": "Zatanna Zatara",
+      "subject_id": "Q860922",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Martian Manhunter",
+      "object": "J'onn J'onzz",
+      "subject_id": "Q675179",
+      "object_id": "Q91264008"
+    },
+    {
+      "subject": "Black Canary",
+      "object": "Dinah Lance",
+      "subject_id": "Q599124",
+      "object_id": "Q91104379"
+    },
+    {
+      "subject": "Firestar",
+      "object": "Angelica Jones",
+      "subject_id": "Q126184326",
+      "object_id": "Q4762664"
+    },
+    {
+      "subject": "Silver Surfer",
+      "object": "Norrin Radd",
+      "subject_id": "Q95153",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Nightcrawler",
+      "object": "Kurt Wagner",
+      "subject_id": "Q5342183",
+      "object_id": "Q103332"
+    },
+    {
+      "subject": "Professor X",
+      "object": "Charles Xavier",
+      "subject_id": "Q838076",
+      "object_id": "Q105350971"
+    },
+    {
+      "subject": "Beast",
+      "object": "Hank McCoy",
+      "subject_id": "Q4876846",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Colossus",
+      "object": "Piotr Rasputin",
+      "subject_id": "Q60374769",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Mister Miracle",
+      "object": "Scott Free",
+      "subject_id": "Q2365204",
+      "object_id": "Q114463654"
+    },
+    {
+      "subject": "Big Barda",
+      "object": "Big Barda",
+      "subject_id": "Q2723865",
+      "object_id": "Q2723865"
+    },
+    {
+      "subject": "Firestorm",
+      "object": "Ronnie Raymond",
+      "subject_id": "Q1419023",
+      "object_id": "Q6111992"
+    },
+    {
+      "subject": "Blue Power Ranger",
+      "object": "Billy Cranston",
+      "subject_id": "N/A",
+      "object_id": "Q4912412"
+    },
+    {
+      "subject": "Green Lantern",
+      "object": "Simon Baz",
+      "subject_id": "Q32884",
+      "object_id": "Q5300252"
+    },
+    {
+      "subject": "Green Lantern",
+      "object": "Jessica Cruz",
+      "subject_id": "Q32884",
+      "object_id": "Q24896878"
+    },
+    {
+      "subject": "Wildcat",
+      "object": "Ted Grant",
+      "subject_id": "Q37438190",
+      "object_id": "Q526770"
+    },
+    {
+      "subject": "Hawkman",
+      "object": "Carter Hall",
+      "subject_id": "Q2359610",
+      "object_id": "Q55483743"
+    },
+    {
+      "subject": "Hawkgirl",
+      "object": "Kendra Saunders",
+      "subject_id": "Q2210354",
+      "object_id": "Q97623551"
+    },
+    {
+      "subject": "Black Lightning",
+      "object": "Jefferson Pierce",
+      "subject_id": "Q27949231",
+      "object_id": "Q110483281"
+    },
+    {
+      "subject": "Green Arrow",
+      "object": "Connor Hawke",
+      "subject_id": "Q611993",
+      "object_id": "Q1090971"
+    },
+    {
+      "subject": "Ravager",
+      "object": "Rose Wilson",
+      "subject_id": "Q124070185",
+      "object_id": "Q610337"
+    },
+    {
+      "subject": "Wonder Girl",
+      "object": "Cassandra Sandsmark",
+      "subject_id": "Q919576",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Tim Hunter",
+      "object": "Tim Hunter",
+      "subject_id": "Q108300131",
+      "object_id": "Q108300131"
+    },
+    {
+      "subject": "Winter Soldier",
+      "object": "Bucky Barnes",
+      "subject_id": "Q8026319",
+      "object_id": "Q23991694"
+    },
+    {
+      "subject": "Captain Britain",
+      "object": "Brian Braddock",
+      "subject_id": "Q2405949",
+      "object_id": "Q113988109"
+    },
+    {
+      "subject": "Pixie",
+      "object": "Megan Gwynn",
+      "subject_id": "Q1144339",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "X-23",
+      "object": "Laura Kinney",
+      "subject_id": "Q1872439",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Spider-Girl",
+      "object": "Anya Corazon",
+      "subject_id": "Q2186500",
+      "object_id": "N/A"
+    },
+    {
+      "subject": "Robin",
+      "object": "Damian Wayne",
+      "subject_id": "Q1158139",
+      "object_id": "Q660695"
+    },
+    {
+      "subject": "Nightwing",
+      "object": "Kyle Higgins",
+      "subject_id": "Q686623",
+      "object_id": "Q6451179"
+    },
+    {
+      "subject": "Brawn",
+      "object": "Amadeus Cho",
+      "subject_id": "Q4958482",
+      "object_id": "Q4739036"
+    },
+    {
+      "subject": "Ghost Rider",
+      "object": "Robbie Reyes",
+      "subject_id": "Q41754",
+      "object_id": "Q28432946"
+    },
+    {
+      "subject": "The Atom",
+      "object": "Ray Palmer",
+      "subject_id": "Q20670221",
+      "object_id": "Q89374608"
+    },
+    {
+      "subject": "The Atom",
+      "object": "Ryan Choi",
+      "subject_id": "Q20670221",
+      "object_id": "Q91027382"
+    },
+    {
+      "subject": "Drax the Destroyer",
+      "object": "Arthur Douglas",
+      "subject_id": "Q898039",
+      "object_id": "Q4798494"
+    },
+    {
+      "subject": "Groot",
+      "object": "Groot",
+      "subject_id": "Q13188347",
+      "object_id": "Q13188347"
+    },
+    {
+      "subject": "Rocket",
+      "object": "Rocket Raccoon",
+      "subject_id": "Q41291",
+      "object_id": "Q638476"
+    },
+    {
+      "subject": "Gamora",
+      "object": "Gamora",
+      "subject_id": "Q2721152",
+      "object_id": "Q2721152"
+    },
+    {
+      "subject": "Star-Lord",
+      "object": "Peter Quill",
+      "subject_id": "Q3496918",
+      "object_id": "Q24050065"
+    }
+  ]
+}

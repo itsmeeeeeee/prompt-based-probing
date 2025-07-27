@@ -1,0 +1,31 @@
+{
+  "relation": "city_in_country",
+  "template_scores": {
+    "{} is part of": {
+      "average_first_token_prob": 0.0,
+      "reliability": 0.0,
+      "overall_score": 0.0
+    },
+    "{} is in the country of": {
+      "average_first_token_prob": 0.5996907552083334,
+      "reliability": 0.6666666666666666,
+      "overall_score": 0.3997938368055556
+    },
+    "{} exists within the country of": {
+      "average_first_token_prob": 0.6406521267361112,
+      "reliability": 0.7037037037037037,
+      "overall_score": 0.45082927436985604
+    },
+    "{} is part of the nation called": {
+      "average_first_token_prob": 0.6222692418981481,
+      "reliability": 0.6666666666666666,
+      "overall_score": 0.41484616126543206
+    }
+  },
+  "best_template": "{} exists within the country of",
+  "best_template_metrics": {
+    "average_first_token_prob": 0.6406521267361112,
+    "reliability": 0.7037037037037037,
+    "overall_score": 0.45082927436985604
+  }
+}

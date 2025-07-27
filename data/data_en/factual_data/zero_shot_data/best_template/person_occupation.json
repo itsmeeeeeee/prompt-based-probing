@@ -1,0 +1,31 @@
+{
+  "relation": "person_occupation",
+  "template_scores": {
+    "{} works as a": {
+      "average_first_token_prob": 0.005175219964458359,
+      "reliability": 0.025578562728380026,
+      "overall_score": 0.00013237468849406278
+    },
+    "By profession, {} is a": {
+      "average_first_token_prob": 0.03760791550890682,
+      "reliability": 0.06455542021924482,
+      "overall_score": 0.002427794789247334
+    },
+    "{} works in the profession of ": {
+      "average_first_token_prob": 0.0,
+      "reliability": 0.0,
+      "overall_score": 0.0
+    },
+    "{} is employed as a": {
+      "average_first_token_prob": 0.0013381456196235536,
+      "reliability": 0.010962241169305725,
+      "overall_score": 1.4669075001963439e-05
+    }
+  },
+  "best_template": "By profession, {} is a",
+  "best_template_metrics": {
+    "average_first_token_prob": 0.03760791550890682,
+    "reliability": 0.06455542021924482,
+    "overall_score": 0.002427794789247334
+  }
+}

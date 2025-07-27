@@ -1,0 +1,3036 @@
+[
+  {
+    "prompt": "The capital city of Norway is Oslo.\nThe capital city of United States is",
+    "generated_prefix": "The capital city of Norway is Oslo.\nThe capital city of United States is",
+    "gold_token": " Washington",
+    "predicted_top1_token": " Washington",
+    "token_pos_in_answer": 0,
+    "gold_logit": 20.578125,
+    "gold_prob_percent": 94.82,
+    "first_token_prob": 0.9482421875,
+    "second_token_prob": 0.00820159912109375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Washington",
+        "logit": 20.578125,
+        "probability_percent": 94.82
+      },
+      {
+        "rank": 1,
+        "token": " New",
+        "logit": 15.828125,
+        "probability_percent": 0.82
+      },
+      {
+        "rank": 2,
+        "token": " .\n",
+        "logit": 14.0234375,
+        "probability_percent": 0.13
+      },
+      {
+        "rank": 3,
+        "token": " Anch",
+        "logit": 13.96875,
+        "probability_percent": 0.13
+      },
+      {
+        "rank": 4,
+        "token": " none",
+        "logit": 13.84375,
+        "probability_percent": 0.11
+      },
+      {
+        "rank": 5,
+        "token": " An",
+        "logit": 13.765625,
+        "probability_percent": 0.1
+      },
+      {
+        "rank": 6,
+        "token": " Philadelphia",
+        "logit": 13.53125,
+        "probability_percent": 0.08
+      },
+      {
+        "rank": 7,
+        "token": " United",
+        "logit": 13.5234375,
+        "probability_percent": 0.08
+      },
+      {
+        "rank": 8,
+        "token": " Atlanta",
+        "logit": 13.5,
+        "probability_percent": 0.08
+      },
+      {
+        "rank": 9,
+        "token": " ______",
+        "logit": 13.3359375,
+        "probability_percent": 0.07
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Norway is Oslo.\nThe capital city of United States is",
+    "generated_prefix": "The capital city of Norway is Oslo.\nThe capital city of United States is Washington",
+    "gold_token": " D",
+    "predicted_top1_token": ".\n",
+    "token_pos_in_answer": 1,
+    "gold_logit": 20.609375,
+    "gold_prob_percent": 31.54,
+    "first_token_prob": 0.9482421875,
+    "second_token_prob": 0.00820159912109375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": ".\n",
+        "logit": 20.71875,
+        "probability_percent": 35.21
+      },
+      {
+        "rank": 1,
+        "token": " D",
+        "logit": 20.609375,
+        "probability_percent": 31.54
+      },
+      {
+        "rank": 2,
+        "token": ",",
+        "logit": 20.109375,
+        "probability_percent": 19.13
+      },
+      {
+        "rank": 3,
+        "token": " DC",
+        "logit": 19.328125,
+        "probability_percent": 8.76
+      },
+      {
+        "rank": 4,
+        "token": ".",
+        "logit": 17.90625,
+        "probability_percent": 2.11
+      },
+      {
+        "rank": 5,
+        "token": "\n",
+        "logit": 16.734375,
+        "probability_percent": 0.65
+      },
+      {
+        "rank": 6,
+        "token": " (",
+        "logit": 16.6875,
+        "probability_percent": 0.62
+      },
+      {
+        "rank": 7,
+        "token": " .\n",
+        "logit": 16.6875,
+        "probability_percent": 0.62
+      },
+      {
+        "rank": 8,
+        "token": " District",
+        "logit": 15.25,
+        "probability_percent": 0.15
+      },
+      {
+        "rank": 9,
+        "token": ",D",
+        "logit": 15.1015625,
+        "probability_percent": 0.13
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Norway is Oslo.\nThe capital city of United States is",
+    "generated_prefix": "The capital city of Norway is Oslo.\nThe capital city of United States is Washington.\n",
+    "gold_token": ".C",
+    "predicted_top1_token": "The",
+    "token_pos_in_answer": 2,
+    "gold_logit": 4.3828125,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.9482421875,
+    "second_token_prob": 0.00820159912109375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "The",
+        "logit": 19.46875,
+        "probability_percent": 75.24
+      },
+      {
+        "rank": 1,
+        "token": "What",
+        "logit": 15.265625,
+        "probability_percent": 1.12
+      },
+      {
+        "rank": 2,
+        "token": "Capital",
+        "logit": 15.0234375,
+        "probability_percent": 0.88
+      },
+      {
+        "rank": 3,
+        "token": "Which",
+        "logit": 14.8359375,
+        "probability_percent": 0.73
+      },
+      {
+        "rank": 4,
+        "token": "A",
+        "logit": 14.421875,
+        "probability_percent": 0.48
+      },
+      {
+        "rank": 5,
+        "token": "Q",
+        "logit": 14.0859375,
+        "probability_percent": 0.35
+      },
+      {
+        "rank": 6,
+        "token": "Nor",
+        "logit": 14.0859375,
+        "probability_percent": 0.35
+      },
+      {
+        "rank": 7,
+        "token": "In",
+        "logit": 14.046875,
+        "probability_percent": 0.33
+      },
+      {
+        "rank": 8,
+        "token": "There",
+        "logit": 14.015625,
+        "probability_percent": 0.32
+      },
+      {
+        "rank": 9,
+        "token": "This",
+        "logit": 13.78125,
+        "probability_percent": 0.25
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Norway is Oslo.\nThe capital city of United States is",
+    "generated_prefix": "The capital city of Norway is Oslo.\nThe capital city of United States is Washington.\nThe",
+    "gold_token": ".",
+    "predicted_top1_token": " capital",
+    "token_pos_in_answer": 3,
+    "gold_logit": 5.78125,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.9482421875,
+    "second_token_prob": 0.00820159912109375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " capital",
+        "logit": 21.9375,
+        "probability_percent": 94.92
+      },
+      {
+        "rank": 1,
+        "token": " population",
+        "logit": 17.203125,
+        "probability_percent": 0.83
+      },
+      {
+        "rank": 2,
+        "token": " country",
+        "logit": 16.234375,
+        "probability_percent": 0.32
+      },
+      {
+        "rank": 3,
+        "token": " largest",
+        "logit": 15.9375,
+        "probability_percent": 0.24
+      },
+      {
+        "rank": 4,
+        "token": " national",
+        "logit": 15.9296875,
+        "probability_percent": 0.23
+      },
+      {
+        "rank": 5,
+        "token": " currency",
+        "logit": 15.609375,
+        "probability_percent": 0.17
+      },
+      {
+        "rank": 6,
+        "token": " name",
+        "logit": 15.484375,
+        "probability_percent": 0.15
+      },
+      {
+        "rank": 7,
+        "token": " state",
+        "logit": 15.046875,
+        "probability_percent": 0.1
+      },
+      {
+        "rank": 8,
+        "token": " Capital",
+        "logit": 14.8203125,
+        "probability_percent": 0.08
+      },
+      {
+        "rank": 9,
+        "token": " total",
+        "logit": 14.7890625,
+        "probability_percent": 0.07
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Norway is Oslo.\nThe capital city of Canada is",
+    "generated_prefix": "The capital city of Norway is Oslo.\nThe capital city of Canada is",
+    "gold_token": " Ottawa",
+    "predicted_top1_token": " Ottawa",
+    "token_pos_in_answer": 0,
+    "gold_logit": 19.921875,
+    "gold_prob_percent": 87.11,
+    "first_token_prob": 0.87109375,
+    "second_token_prob": 0.02471923828125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Ottawa",
+        "logit": 19.921875,
+        "probability_percent": 87.11
+      },
+      {
+        "rank": 1,
+        "token": " Toronto",
+        "logit": 16.359375,
+        "probability_percent": 2.47
+      },
+      {
+        "rank": 2,
+        "token": " Quebec",
+        "logit": 15.3984375,
+        "probability_percent": 0.95
+      },
+      {
+        "rank": 3,
+        "token": " Victoria",
+        "logit": 15.3828125,
+        "probability_percent": 0.93
+      },
+      {
+        "rank": 4,
+        "token": " Montreal",
+        "logit": 15.1875,
+        "probability_percent": 0.77
+      },
+      {
+        "rank": 5,
+        "token": " Ott",
+        "logit": 15.0,
+        "probability_percent": 0.63
+      },
+      {
+        "rank": 6,
+        "token": " Edmonton",
+        "logit": 14.96875,
+        "probability_percent": 0.62
+      },
+      {
+        "rank": 7,
+        "token": " Winnipeg",
+        "logit": 14.8984375,
+        "probability_percent": 0.57
+      },
+      {
+        "rank": 8,
+        "token": " Ontario",
+        "logit": 14.6484375,
+        "probability_percent": 0.45
+      },
+      {
+        "rank": 9,
+        "token": " Vancouver",
+        "logit": 14.609375,
+        "probability_percent": 0.43
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Norway is Oslo.\nThe capital city of Mexico is",
+    "generated_prefix": "The capital city of Norway is Oslo.\nThe capital city of Mexico is",
+    "gold_token": " Mexico",
+    "predicted_top1_token": " Mexico",
+    "token_pos_in_answer": 0,
+    "gold_logit": 20.6875,
+    "gold_prob_percent": 96.58,
+    "first_token_prob": 0.9658203125,
+    "second_token_prob": 0.003482818603515625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Mexico",
+        "logit": 20.6875,
+        "probability_percent": 96.58
+      },
+      {
+        "rank": 1,
+        "token": " Ciudad",
+        "logit": 15.0625,
+        "probability_percent": 0.35
+      },
+      {
+        "rank": 2,
+        "token": " México",
+        "logit": 14.609375,
+        "probability_percent": 0.22
+      },
+      {
+        "rank": 3,
+        "token": " Madrid",
+        "logit": 14.4453125,
+        "probability_percent": 0.19
+      },
+      {
+        "rank": 4,
+        "token": " T",
+        "logit": 13.84375,
+        "probability_percent": 0.1
+      },
+      {
+        "rank": 5,
+        "token": "\n",
+        "logit": 13.734375,
+        "probability_percent": 0.09
+      },
+      {
+        "rank": 6,
+        "token": " .\n",
+        "logit": 13.6796875,
+        "probability_percent": 0.09
+      },
+      {
+        "rank": 7,
+        "token": " ",
+        "logit": 13.65625,
+        "probability_percent": 0.09
+      },
+      {
+        "rank": 8,
+        "token": " the",
+        "logit": 13.5546875,
+        "probability_percent": 0.08
+      },
+      {
+        "rank": 9,
+        "token": " none",
+        "logit": 13.3984375,
+        "probability_percent": 0.07
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Norway is Oslo.\nThe capital city of Mexico is",
+    "generated_prefix": "The capital city of Norway is Oslo.\nThe capital city of Mexico is Mexico",
+    "gold_token": " City",
+    "predicted_top1_token": " City",
+    "token_pos_in_answer": 1,
+    "gold_logit": 22.453125,
+    "gold_prob_percent": 94.24,
+    "first_token_prob": 0.9658203125,
+    "second_token_prob": 0.003482818603515625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " City",
+        "logit": 22.453125,
+        "probability_percent": 94.24
+      },
+      {
+        "rank": 1,
+        "token": ".\n",
+        "logit": 18.484375,
+        "probability_percent": 1.78
+      },
+      {
+        "rank": 2,
+        "token": " city",
+        "logit": 18.359375,
+        "probability_percent": 1.57
+      },
+      {
+        "rank": 3,
+        "token": ",",
+        "logit": 18.046875,
+        "probability_percent": 1.15
+      },
+      {
+        "rank": 4,
+        "token": " D",
+        "logit": 17.203125,
+        "probability_percent": 0.49
+      },
+      {
+        "rank": 5,
+        "token": "\n",
+        "logit": 15.7421875,
+        "probability_percent": 0.11
+      },
+      {
+        "rank": 6,
+        "token": " DF",
+        "logit": 15.6171875,
+        "probability_percent": 0.1
+      },
+      {
+        "rank": 7,
+        "token": " (",
+        "logit": 15.4921875,
+        "probability_percent": 0.09
+      },
+      {
+        "rank": 8,
+        "token": ".",
+        "logit": 15.3984375,
+        "probability_percent": 0.08
+      },
+      {
+        "rank": 9,
+        "token": " .\n",
+        "logit": 14.984375,
+        "probability_percent": 0.05
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Norway is Oslo.\nThe capital city of Brazil is",
+    "generated_prefix": "The capital city of Norway is Oslo.\nThe capital city of Brazil is",
+    "gold_token": " Bras",
+    "predicted_top1_token": " Bras",
+    "token_pos_in_answer": 0,
+    "gold_logit": 20.875,
+    "gold_prob_percent": 92.82,
+    "first_token_prob": 0.92822265625,
+    "second_token_prob": 0.0293731689453125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Bras",
+        "logit": 20.875,
+        "probability_percent": 92.82
+      },
+      {
+        "rank": 1,
+        "token": " Rio",
+        "logit": 17.421875,
+        "probability_percent": 2.94
+      },
+      {
+        "rank": 2,
+        "token": " Br",
+        "logit": 16.0,
+        "probability_percent": 0.71
+      },
+      {
+        "rank": 3,
+        "token": " Brazil",
+        "logit": 15.8984375,
+        "probability_percent": 0.64
+      },
+      {
+        "rank": 4,
+        "token": " São",
+        "logit": 15.5703125,
+        "probability_percent": 0.46
+      },
+      {
+        "rank": 5,
+        "token": " Sao",
+        "logit": 15.3828125,
+        "probability_percent": 0.38
+      },
+      {
+        "rank": 6,
+        "token": " Bel",
+        "logit": 15.0859375,
+        "probability_percent": 0.28
+      },
+      {
+        "rank": 7,
+        "token": " ",
+        "logit": 13.9140625,
+        "probability_percent": 0.09
+      },
+      {
+        "rank": 8,
+        "token": " Salvador",
+        "logit": 13.671875,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 9,
+        "token": "\n",
+        "logit": 13.578125,
+        "probability_percent": 0.06
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Norway is Oslo.\nThe capital city of Brazil is",
+    "generated_prefix": "The capital city of Norway is Oslo.\nThe capital city of Brazil is Bras",
+    "gold_token": "\\u",
+    "predicted_top1_token": "ilia",
+    "token_pos_in_answer": 1,
+    "gold_logit": 8.453125,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.92822265625,
+    "second_token_prob": 0.0293731689453125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ilia",
+        "logit": 20.65625,
+        "probability_percent": 73.83
+      },
+      {
+        "rank": 1,
+        "token": "ília",
+        "logit": 19.578125,
+        "probability_percent": 25.12
+      },
+      {
+        "rank": 2,
+        "token": "Ã",
+        "logit": 15.0390625,
+        "probability_percent": 0.27
+      },
+      {
+        "rank": 3,
+        "token": "í",
+        "logit": 14.3515625,
+        "probability_percent": 0.13
+      },
+      {
+        "rank": 4,
+        "token": "lia",
+        "logit": 14.171875,
+        "probability_percent": 0.11
+      },
+      {
+        "rank": 5,
+        "token": "ile",
+        "logit": 13.7578125,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 6,
+        "token": "ili",
+        "logit": 13.4296875,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 7,
+        "token": "?",
+        "logit": 13.09375,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 8,
+        "token": "�",
+        "logit": 12.953125,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 9,
+        "token": "ila",
+        "logit": 12.8515625,
+        "probability_percent": 0.03
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Norway is Oslo.\nThe capital city of Brazil is",
+    "generated_prefix": "The capital city of Norway is Oslo.\nThe capital city of Brazil is Brasilia",
+    "gold_token": "00",
+    "predicted_top1_token": ".\n",
+    "token_pos_in_answer": 2,
+    "gold_logit": 4.3125,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.92822265625,
+    "second_token_prob": 0.0293731689453125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": ".\n",
+        "logit": 22.625,
+        "probability_percent": 89.26
+      },
+      {
+        "rank": 1,
+        "token": ".",
+        "logit": 20.09375,
+        "probability_percent": 7.1
+      },
+      {
+        "rank": 2,
+        "token": "\n",
+        "logit": 18.71875,
+        "probability_percent": 1.8
+      },
+      {
+        "rank": 3,
+        "token": " .\n",
+        "logit": 17.46875,
+        "probability_percent": 0.51
+      },
+      {
+        "rank": 4,
+        "token": ",",
+        "logit": 17.078125,
+        "probability_percent": 0.35
+      },
+      {
+        "rank": 5,
+        "token": " and",
+        "logit": 16.328125,
+        "probability_percent": 0.16
+      },
+      {
+        "rank": 6,
+        "token": " (",
+        "logit": 16.15625,
+        "probability_percent": 0.14
+      },
+      {
+        "rank": 7,
+        "token": "<|end_of_text|>",
+        "logit": 15.6015625,
+        "probability_percent": 0.08
+      },
+      {
+        "rank": 8,
+        "token": " .",
+        "logit": 15.515625,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 9,
+        "token": "..\n",
+        "logit": 14.546875,
+        "probability_percent": 0.03
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Norway is Oslo.\nThe capital city of Brazil is",
+    "generated_prefix": "The capital city of Norway is Oslo.\nThe capital city of Brazil is Brasilia.\n",
+    "gold_token": "ed",
+    "predicted_top1_token": "The",
+    "token_pos_in_answer": 3,
+    "gold_logit": 7.1796875,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.92822265625,
+    "second_token_prob": 0.0293731689453125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "The",
+        "logit": 19.890625,
+        "probability_percent": 78.76
+      },
+      {
+        "rank": 1,
+        "token": "What",
+        "logit": 15.59375,
+        "probability_percent": 1.07
+      },
+      {
+        "rank": 2,
+        "token": "Which",
+        "logit": 15.40625,
+        "probability_percent": 0.89
+      },
+      {
+        "rank": 3,
+        "token": "Capital",
+        "logit": 15.0546875,
+        "probability_percent": 0.63
+      },
+      {
+        "rank": 4,
+        "token": "A",
+        "logit": 14.859375,
+        "probability_percent": 0.51
+      },
+      {
+        "rank": 5,
+        "token": "In",
+        "logit": 14.5625,
+        "probability_percent": 0.38
+      },
+      {
+        "rank": 6,
+        "token": "B",
+        "logit": 14.2890625,
+        "probability_percent": 0.29
+      },
+      {
+        "rank": 7,
+        "token": "There",
+        "logit": 14.203125,
+        "probability_percent": 0.27
+      },
+      {
+        "rank": 8,
+        "token": "Q",
+        "logit": 14.1875,
+        "probability_percent": 0.26
+      },
+      {
+        "rank": 9,
+        "token": "Nor",
+        "logit": 14.109375,
+        "probability_percent": 0.24
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Norway is Oslo.\nThe capital city of Brazil is",
+    "generated_prefix": "The capital city of Norway is Oslo.\nThe capital city of Brazil is Brasilia.\nThe",
+    "gold_token": "lia",
+    "predicted_top1_token": " capital",
+    "token_pos_in_answer": 4,
+    "gold_logit": 3.330078125,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.92822265625,
+    "second_token_prob": 0.0293731689453125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " capital",
+        "logit": 22.21875,
+        "probability_percent": 96.73
+      },
+      {
+        "rank": 1,
+        "token": " population",
+        "logit": 16.78125,
+        "probability_percent": 0.42
+      },
+      {
+        "rank": 2,
+        "token": " largest",
+        "logit": 15.9140625,
+        "probability_percent": 0.18
+      },
+      {
+        "rank": 3,
+        "token": " country",
+        "logit": 15.796875,
+        "probability_percent": 0.16
+      },
+      {
+        "rank": 4,
+        "token": " national",
+        "logit": 15.7265625,
+        "probability_percent": 0.15
+      },
+      {
+        "rank": 5,
+        "token": " name",
+        "logit": 15.4140625,
+        "probability_percent": 0.11
+      },
+      {
+        "rank": 6,
+        "token": " Capital",
+        "logit": 15.203125,
+        "probability_percent": 0.09
+      },
+      {
+        "rank": 7,
+        "token": " currency",
+        "logit": 15.0234375,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 8,
+        "token": " state",
+        "logit": 14.6640625,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 9,
+        "token": " city",
+        "logit": 14.625,
+        "probability_percent": 0.05
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Norway is Oslo.\nThe capital city of Argentina is",
+    "generated_prefix": "The capital city of Norway is Oslo.\nThe capital city of Argentina is",
+    "gold_token": " Buenos",
+    "predicted_top1_token": " Buenos",
+    "token_pos_in_answer": 0,
+    "gold_logit": 20.40625,
+    "gold_prob_percent": 96.14,
+    "first_token_prob": 0.96142578125,
+    "second_token_prob": 0.0081939697265625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Buenos",
+        "logit": 20.40625,
+        "probability_percent": 96.14
+      },
+      {
+        "rank": 1,
+        "token": " La",
+        "logit": 15.640625,
+        "probability_percent": 0.82
+      },
+      {
+        "rank": 2,
+        "token": " Buen",
+        "logit": 14.28125,
+        "probability_percent": 0.21
+      },
+      {
+        "rank": 3,
+        "token": " Argentina",
+        "logit": 13.75,
+        "probability_percent": 0.12
+      },
+      {
+        "rank": 4,
+        "token": " Ciudad",
+        "logit": 13.71875,
+        "probability_percent": 0.12
+      },
+      {
+        "rank": 5,
+        "token": " ",
+        "logit": 13.6796875,
+        "probability_percent": 0.12
+      },
+      {
+        "rank": 6,
+        "token": " B",
+        "logit": 13.5859375,
+        "probability_percent": 0.1
+      },
+      {
+        "rank": 7,
+        "token": "\n",
+        "logit": 13.5625,
+        "probability_percent": 0.1
+      },
+      {
+        "rank": 8,
+        "token": " the",
+        "logit": 13.0390625,
+        "probability_percent": 0.06
+      },
+      {
+        "rank": 9,
+        "token": " .\n",
+        "logit": 12.9296875,
+        "probability_percent": 0.05
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Norway is Oslo.\nThe capital city of Argentina is",
+    "generated_prefix": "The capital city of Norway is Oslo.\nThe capital city of Argentina is Buenos",
+    "gold_token": " Aires",
+    "predicted_top1_token": " Aires",
+    "token_pos_in_answer": 1,
+    "gold_logit": 23.5625,
+    "gold_prob_percent": 99.12,
+    "first_token_prob": 0.96142578125,
+    "second_token_prob": 0.0081939697265625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Aires",
+        "logit": 23.5625,
+        "probability_percent": 99.12
+      },
+      {
+        "rank": 1,
+        "token": " A",
+        "logit": 18.046875,
+        "probability_percent": 0.4
+      },
+      {
+        "rank": 2,
+        "token": "-A",
+        "logit": 17.0625,
+        "probability_percent": 0.15
+      },
+      {
+        "rank": 3,
+        "token": " a",
+        "logit": 16.4375,
+        "probability_percent": 0.08
+      },
+      {
+        "rank": 4,
+        "token": " Ay",
+        "logit": 16.125,
+        "probability_percent": 0.06
+      },
+      {
+        "rank": 5,
+        "token": "A",
+        "logit": 15.53125,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 6,
+        "token": ".\n",
+        "logit": 15.109375,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 7,
+        "token": " A",
+        "logit": 15.078125,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 8,
+        "token": "\n",
+        "logit": 15.0625,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 9,
+        "token": " AI",
+        "logit": 14.6796875,
+        "probability_percent": 0.01
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Norway is Oslo.\nThe capital city of Chile is",
+    "generated_prefix": "The capital city of Norway is Oslo.\nThe capital city of Chile is",
+    "gold_token": " Santiago",
+    "predicted_top1_token": " Santiago",
+    "token_pos_in_answer": 0,
+    "gold_logit": 20.40625,
+    "gold_prob_percent": 96.48,
+    "first_token_prob": 0.96484375,
+    "second_token_prob": 0.0028629302978515625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Santiago",
+        "logit": 20.40625,
+        "probability_percent": 96.48
+      },
+      {
+        "rank": 1,
+        "token": " San",
+        "logit": 14.5859375,
+        "probability_percent": 0.29
+      },
+      {
+        "rank": 2,
+        "token": " La",
+        "logit": 14.53125,
+        "probability_percent": 0.27
+      },
+      {
+        "rank": 3,
+        "token": " Val",
+        "logit": 14.453125,
+        "probability_percent": 0.25
+      },
+      {
+        "rank": 4,
+        "token": " ",
+        "logit": 14.28125,
+        "probability_percent": 0.21
+      },
+      {
+        "rank": 5,
+        "token": "\n",
+        "logit": 13.7734375,
+        "probability_percent": 0.13
+      },
+      {
+        "rank": 6,
+        "token": " Ant",
+        "logit": 13.6328125,
+        "probability_percent": 0.11
+      },
+      {
+        "rank": 7,
+        "token": " Santa",
+        "logit": 13.59375,
+        "probability_percent": 0.11
+      },
+      {
+        "rank": 8,
+        "token": " Chile",
+        "logit": 13.46875,
+        "probability_percent": 0.09
+      },
+      {
+        "rank": 9,
+        "token": " S",
+        "logit": 13.09375,
+        "probability_percent": 0.06
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Norway is Oslo.\nThe capital city of Peru is",
+    "generated_prefix": "The capital city of Norway is Oslo.\nThe capital city of Peru is",
+    "gold_token": " Lima",
+    "predicted_top1_token": " Lima",
+    "token_pos_in_answer": 0,
+    "gold_logit": 20.828125,
+    "gold_prob_percent": 98.1,
+    "first_token_prob": 0.98095703125,
+    "second_token_prob": 0.004299163818359375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Lima",
+        "logit": 20.828125,
+        "probability_percent": 98.1
+      },
+      {
+        "rank": 1,
+        "token": " La",
+        "logit": 15.3984375,
+        "probability_percent": 0.43
+      },
+      {
+        "rank": 2,
+        "token": " L",
+        "logit": 13.796875,
+        "probability_percent": 0.09
+      },
+      {
+        "rank": 3,
+        "token": "\n",
+        "logit": 13.5,
+        "probability_percent": 0.06
+      },
+      {
+        "rank": 4,
+        "token": " .\n",
+        "logit": 13.390625,
+        "probability_percent": 0.06
+      },
+      {
+        "rank": 5,
+        "token": " the",
+        "logit": 13.3671875,
+        "probability_percent": 0.06
+      },
+      {
+        "rank": 6,
+        "token": " Are",
+        "logit": 13.3125,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 7,
+        "token": " Lim",
+        "logit": 13.1640625,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 8,
+        "token": " ",
+        "logit": 13.0625,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 9,
+        "token": " Lu",
+        "logit": 12.984375,
+        "probability_percent": 0.04
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Norway is Oslo.\nThe capital city of Colombia is",
+    "generated_prefix": "The capital city of Norway is Oslo.\nThe capital city of Colombia is",
+    "gold_token": " Bog",
+    "predicted_top1_token": " Bog",
+    "token_pos_in_answer": 0,
+    "gold_logit": 19.875,
+    "gold_prob_percent": 95.41,
+    "first_token_prob": 0.9541015625,
+    "second_token_prob": 0.004421234130859375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Bog",
+        "logit": 19.875,
+        "probability_percent": 95.41
+      },
+      {
+        "rank": 1,
+        "token": " Cart",
+        "logit": 14.5,
+        "probability_percent": 0.44
+      },
+      {
+        "rank": 2,
+        "token": " Santa",
+        "logit": 14.46875,
+        "probability_percent": 0.43
+      },
+      {
+        "rank": 3,
+        "token": " Barr",
+        "logit": 13.890625,
+        "probability_percent": 0.24
+      },
+      {
+        "rank": 4,
+        "token": " B",
+        "logit": 13.7734375,
+        "probability_percent": 0.21
+      },
+      {
+        "rank": 5,
+        "token": " B",
+        "logit": 13.5625,
+        "probability_percent": 0.17
+      },
+      {
+        "rank": 6,
+        "token": " the",
+        "logit": 13.46875,
+        "probability_percent": 0.16
+      },
+      {
+        "rank": 7,
+        "token": " ",
+        "logit": 13.46875,
+        "probability_percent": 0.16
+      },
+      {
+        "rank": 8,
+        "token": "\n",
+        "logit": 13.1171875,
+        "probability_percent": 0.11
+      },
+      {
+        "rank": 9,
+        "token": " Buenos",
+        "logit": 12.90625,
+        "probability_percent": 0.09
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Norway is Oslo.\nThe capital city of Colombia is",
+    "generated_prefix": "The capital city of Norway is Oslo.\nThe capital city of Colombia is Bog",
+    "gold_token": "ot",
+    "predicted_top1_token": "ota",
+    "token_pos_in_answer": 1,
+    "gold_logit": 23.515625,
+    "gold_prob_percent": 32.64,
+    "first_token_prob": 0.9541015625,
+    "second_token_prob": 0.004421234130859375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ota",
+        "logit": 24.234375,
+        "probability_percent": 66.94
+      },
+      {
+        "rank": 1,
+        "token": "ot",
+        "logit": 23.515625,
+        "probability_percent": 32.64
+      },
+      {
+        "rank": 2,
+        "token": "ata",
+        "logit": 18.359375,
+        "probability_percent": 0.19
+      },
+      {
+        "rank": 3,
+        "token": "at",
+        "logit": 16.921875,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 4,
+        "token": "oti",
+        "logit": 16.140625,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 5,
+        "token": "otas",
+        "logit": 16.109375,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 6,
+        "token": "oto",
+        "logit": 15.9765625,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 7,
+        "token": "otta",
+        "logit": 15.765625,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 8,
+        "token": "ó",
+        "logit": 15.5234375,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 9,
+        "token": "ót",
+        "logit": 14.53125,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Norway is Oslo.\nThe capital city of Colombia is",
+    "generated_prefix": "The capital city of Norway is Oslo.\nThe capital city of Colombia is Bogota",
+    "gold_token": "\\u",
+    "predicted_top1_token": ".\n",
+    "token_pos_in_answer": 2,
+    "gold_logit": 6.10546875,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.9541015625,
+    "second_token_prob": 0.004421234130859375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": ".\n",
+        "logit": 21.8125,
+        "probability_percent": 88.09
+      },
+      {
+        "rank": 1,
+        "token": ".",
+        "logit": 19.296875,
+        "probability_percent": 7.12
+      },
+      {
+        "rank": 2,
+        "token": "\n",
+        "logit": 18.078125,
+        "probability_percent": 2.1
+      },
+      {
+        "rank": 3,
+        "token": " .\n",
+        "logit": 17.125,
+        "probability_percent": 0.81
+      },
+      {
+        "rank": 4,
+        "token": ",",
+        "logit": 16.265625,
+        "probability_percent": 0.34
+      },
+      {
+        "rank": 5,
+        "token": " (",
+        "logit": 15.765625,
+        "probability_percent": 0.21
+      },
+      {
+        "rank": 6,
+        "token": " and",
+        "logit": 15.5390625,
+        "probability_percent": 0.17
+      },
+      {
+        "rank": 7,
+        "token": "́",
+        "logit": 15.09375,
+        "probability_percent": 0.11
+      },
+      {
+        "rank": 8,
+        "token": " .",
+        "logit": 15.0703125,
+        "probability_percent": 0.1
+      },
+      {
+        "rank": 9,
+        "token": "'.\n",
+        "logit": 14.8671875,
+        "probability_percent": 0.08
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Norway is Oslo.\nThe capital city of Colombia is",
+    "generated_prefix": "The capital city of Norway is Oslo.\nThe capital city of Colombia is Bogota.\n",
+    "gold_token": "00",
+    "predicted_top1_token": "The",
+    "token_pos_in_answer": 3,
+    "gold_logit": 7.796875,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.9541015625,
+    "second_token_prob": 0.004421234130859375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "The",
+        "logit": 19.953125,
+        "probability_percent": 77.78
+      },
+      {
+        "rank": 1,
+        "token": "What",
+        "logit": 15.703125,
+        "probability_percent": 1.11
+      },
+      {
+        "rank": 2,
+        "token": "Which",
+        "logit": 15.25,
+        "probability_percent": 0.7
+      },
+      {
+        "rank": 3,
+        "token": "A",
+        "logit": 15.0390625,
+        "probability_percent": 0.57
+      },
+      {
+        "rank": 4,
+        "token": "B",
+        "logit": 15.0,
+        "probability_percent": 0.55
+      },
+      {
+        "rank": 5,
+        "token": "Capital",
+        "logit": 14.96875,
+        "probability_percent": 0.53
+      },
+      {
+        "rank": 6,
+        "token": "In",
+        "logit": 14.671875,
+        "probability_percent": 0.4
+      },
+      {
+        "rank": 7,
+        "token": "Col",
+        "logit": 14.4140625,
+        "probability_percent": 0.31
+      },
+      {
+        "rank": 8,
+        "token": "C",
+        "logit": 14.28125,
+        "probability_percent": 0.27
+      },
+      {
+        "rank": 9,
+        "token": "There",
+        "logit": 14.203125,
+        "probability_percent": 0.25
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Norway is Oslo.\nThe capital city of Colombia is",
+    "generated_prefix": "The capital city of Norway is Oslo.\nThe capital city of Colombia is Bogota.\nThe",
+    "gold_token": "e",
+    "predicted_top1_token": " capital",
+    "token_pos_in_answer": 4,
+    "gold_logit": 6.28515625,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.9541015625,
+    "second_token_prob": 0.004421234130859375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " capital",
+        "logit": 22.171875,
+        "probability_percent": 96.73
+      },
+      {
+        "rank": 1,
+        "token": " population",
+        "logit": 16.734375,
+        "probability_percent": 0.42
+      },
+      {
+        "rank": 2,
+        "token": " country",
+        "logit": 15.8203125,
+        "probability_percent": 0.17
+      },
+      {
+        "rank": 3,
+        "token": " largest",
+        "logit": 15.7265625,
+        "probability_percent": 0.15
+      },
+      {
+        "rank": 4,
+        "token": " national",
+        "logit": 15.625,
+        "probability_percent": 0.14
+      },
+      {
+        "rank": 5,
+        "token": " name",
+        "logit": 15.28125,
+        "probability_percent": 0.1
+      },
+      {
+        "rank": 6,
+        "token": " currency",
+        "logit": 15.0078125,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 7,
+        "token": " Capital",
+        "logit": 14.890625,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 8,
+        "token": " city",
+        "logit": 14.7109375,
+        "probability_percent": 0.06
+      },
+      {
+        "rank": 9,
+        "token": " state",
+        "logit": 14.65625,
+        "probability_percent": 0.05
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Norway is Oslo.\nThe capital city of Colombia is",
+    "generated_prefix": "The capital city of Norway is Oslo.\nThe capital city of Colombia is Bogota.\nThe capital",
+    "gold_token": "1",
+    "predicted_top1_token": " city",
+    "token_pos_in_answer": 5,
+    "gold_logit": 6.30078125,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.9541015625,
+    "second_token_prob": 0.004421234130859375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " city",
+        "logit": 25.484375,
+        "probability_percent": 99.61
+      },
+      {
+        "rank": 1,
+        "token": " of",
+        "logit": 19.671875,
+        "probability_percent": 0.3
+      },
+      {
+        "rank": 2,
+        "token": " cities",
+        "logit": 17.265625,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 3,
+        "token": " and",
+        "logit": 16.921875,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 4,
+        "token": " City",
+        "logit": 16.53125,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 5,
+        "token": " is",
+        "logit": 16.109375,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 6,
+        "token": " country",
+        "logit": 16.09375,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 7,
+        "token": " capital",
+        "logit": 15.234375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "city",
+        "logit": 14.875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": " town",
+        "logit": 14.71875,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Norway is Oslo.\nThe capital city of Venezuela is",
+    "generated_prefix": "The capital city of Norway is Oslo.\nThe capital city of Venezuela is",
+    "gold_token": " Car",
+    "predicted_top1_token": " Car",
+    "token_pos_in_answer": 0,
+    "gold_logit": 20.703125,
+    "gold_prob_percent": 98.14,
+    "first_token_prob": 0.9814453125,
+    "second_token_prob": 0.0023403167724609375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Car",
+        "logit": 20.703125,
+        "probability_percent": 98.14
+      },
+      {
+        "rank": 1,
+        "token": " La",
+        "logit": 14.6640625,
+        "probability_percent": 0.23
+      },
+      {
+        "rank": 2,
+        "token": " Ciudad",
+        "logit": 14.4375,
+        "probability_percent": 0.19
+      },
+      {
+        "rank": 3,
+        "token": " Mar",
+        "logit": 14.3359375,
+        "probability_percent": 0.17
+      },
+      {
+        "rank": 4,
+        "token": " Puerto",
+        "logit": 13.9453125,
+        "probability_percent": 0.11
+      },
+      {
+        "rank": 5,
+        "token": " Barcelona",
+        "logit": 13.2890625,
+        "probability_percent": 0.06
+      },
+      {
+        "rank": 6,
+        "token": " ",
+        "logit": 13.1796875,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 7,
+        "token": "\n",
+        "logit": 12.7890625,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 8,
+        "token": " Los",
+        "logit": 12.6953125,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 9,
+        "token": " car",
+        "logit": 12.5546875,
+        "probability_percent": 0.03
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Norway is Oslo.\nThe capital city of Venezuela is",
+    "generated_prefix": "The capital city of Norway is Oslo.\nThe capital city of Venezuela is Car",
+    "gold_token": "acas",
+    "predicted_top1_token": "acas",
+    "token_pos_in_answer": 1,
+    "gold_logit": 25.0625,
+    "gold_prob_percent": 99.76,
+    "first_token_prob": 0.9814453125,
+    "second_token_prob": 0.0023403167724609375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "acas",
+        "logit": 25.0625,
+        "probability_percent": 99.76
+      },
+      {
+        "rank": 1,
+        "token": "acus",
+        "logit": 18.0625,
+        "probability_percent": 0.09
+      },
+      {
+        "rank": 2,
+        "token": "ac",
+        "logit": 17.6875,
+        "probability_percent": 0.06
+      },
+      {
+        "rank": 3,
+        "token": "ab",
+        "logit": 16.484375,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 4,
+        "token": "aca",
+        "logit": 16.25,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 5,
+        "token": "cas",
+        "logit": 16.21875,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 6,
+        "token": "aque",
+        "logit": 15.171875,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 7,
+        "token": "acao",
+        "logit": 14.9375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "á",
+        "logit": 14.5625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "aqu",
+        "logit": 14.4453125,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Norway is Oslo.\nThe capital city of Spain is",
+    "generated_prefix": "The capital city of Norway is Oslo.\nThe capital city of Spain is",
+    "gold_token": " Madrid",
+    "predicted_top1_token": " Madrid",
+    "token_pos_in_answer": 0,
+    "gold_logit": 21.9375,
+    "gold_prob_percent": 98.05,
+    "first_token_prob": 0.98046875,
+    "second_token_prob": 0.0051422119140625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Madrid",
+        "logit": 21.9375,
+        "probability_percent": 98.05
+      },
+      {
+        "rank": 1,
+        "token": " Barcelona",
+        "logit": 16.6875,
+        "probability_percent": 0.51
+      },
+      {
+        "rank": 2,
+        "token": " Mad",
+        "logit": 14.953125,
+        "probability_percent": 0.09
+      },
+      {
+        "rank": 3,
+        "token": " ",
+        "logit": 14.828125,
+        "probability_percent": 0.08
+      },
+      {
+        "rank": 4,
+        "token": " Pal",
+        "logit": 14.7421875,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 5,
+        "token": " Spain",
+        "logit": 14.7109375,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 6,
+        "token": " Se",
+        "logit": 14.4453125,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 7,
+        "token": " Oslo",
+        "logit": 14.125,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 8,
+        "token": " Valencia",
+        "logit": 14.078125,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 9,
+        "token": "\n",
+        "logit": 13.96875,
+        "probability_percent": 0.03
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Norway is Oslo.\nThe capital city of France is",
+    "generated_prefix": "The capital city of Norway is Oslo.\nThe capital city of France is",
+    "gold_token": " Paris",
+    "predicted_top1_token": " Paris",
+    "token_pos_in_answer": 0,
+    "gold_logit": 21.9375,
+    "gold_prob_percent": 98.97,
+    "first_token_prob": 0.98974609375,
+    "second_token_prob": 0.00045371055603027344,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Paris",
+        "logit": 21.9375,
+        "probability_percent": 98.97
+      },
+      {
+        "rank": 1,
+        "token": " ",
+        "logit": 14.25,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 2,
+        "token": "\n",
+        "logit": 13.875,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 3,
+        "token": " Str",
+        "logit": 13.84375,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 4,
+        "token": " P",
+        "logit": 13.734375,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 5,
+        "token": " Oslo",
+        "logit": 13.6875,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 6,
+        "token": " paris",
+        "logit": 13.5859375,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 7,
+        "token": ",",
+        "logit": 13.5703125,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 8,
+        "token": " Lyon",
+        "logit": 13.5390625,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 9,
+        "token": " the",
+        "logit": 13.3515625,
+        "probability_percent": 0.02
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Norway is Oslo.\nThe capital city of Germany is",
+    "generated_prefix": "The capital city of Norway is Oslo.\nThe capital city of Germany is",
+    "gold_token": " Berlin",
+    "predicted_top1_token": " Berlin",
+    "token_pos_in_answer": 0,
+    "gold_logit": 21.421875,
+    "gold_prob_percent": 95.9,
+    "first_token_prob": 0.958984375,
+    "second_token_prob": 0.01389312744140625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Berlin",
+        "logit": 21.421875,
+        "probability_percent": 95.9
+      },
+      {
+        "rank": 1,
+        "token": " Bon",
+        "logit": 17.1875,
+        "probability_percent": 1.39
+      },
+      {
+        "rank": 2,
+        "token": " Ber",
+        "logit": 15.765625,
+        "probability_percent": 0.34
+      },
+      {
+        "rank": 3,
+        "token": " Munich",
+        "logit": 15.3046875,
+        "probability_percent": 0.21
+      },
+      {
+        "rank": 4,
+        "token": " Frankfurt",
+        "logit": 15.03125,
+        "probability_percent": 0.16
+      },
+      {
+        "rank": 5,
+        "token": " Hamburg",
+        "logit": 14.2578125,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 6,
+        "token": " ",
+        "logit": 14.2265625,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 7,
+        "token": "\n",
+        "logit": 14.1796875,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 8,
+        "token": " Germany",
+        "logit": 14.1484375,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 9,
+        "token": " B",
+        "logit": 14.0625,
+        "probability_percent": 0.06
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Norway is Oslo.\nThe capital city of Italy is",
+    "generated_prefix": "The capital city of Norway is Oslo.\nThe capital city of Italy is",
+    "gold_token": " Rome",
+    "predicted_top1_token": " Rome",
+    "token_pos_in_answer": 0,
+    "gold_logit": 21.703125,
+    "gold_prob_percent": 97.85,
+    "first_token_prob": 0.978515625,
+    "second_token_prob": 0.00482177734375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Rome",
+        "logit": 21.703125,
+        "probability_percent": 97.85
+      },
+      {
+        "rank": 1,
+        "token": " Roma",
+        "logit": 16.390625,
+        "probability_percent": 0.48
+      },
+      {
+        "rank": 2,
+        "token": " Florence",
+        "logit": 15.4453125,
+        "probability_percent": 0.19
+      },
+      {
+        "rank": 3,
+        "token": " Milan",
+        "logit": 14.9296875,
+        "probability_percent": 0.11
+      },
+      {
+        "rank": 4,
+        "token": " Vatican",
+        "logit": 14.890625,
+        "probability_percent": 0.11
+      },
+      {
+        "rank": 5,
+        "token": " Pal",
+        "logit": 14.6640625,
+        "probability_percent": 0.09
+      },
+      {
+        "rank": 6,
+        "token": " Naples",
+        "logit": 14.578125,
+        "probability_percent": 0.08
+      },
+      {
+        "rank": 7,
+        "token": " Tur",
+        "logit": 14.2265625,
+        "probability_percent": 0.06
+      },
+      {
+        "rank": 8,
+        "token": " Italy",
+        "logit": 14.1875,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 9,
+        "token": " ",
+        "logit": 14.015625,
+        "probability_percent": 0.04
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Norway is Oslo.\nThe capital city of Russia is",
+    "generated_prefix": "The capital city of Norway is Oslo.\nThe capital city of Russia is",
+    "gold_token": " Moscow",
+    "predicted_top1_token": " Moscow",
+    "token_pos_in_answer": 0,
+    "gold_logit": 20.75,
+    "gold_prob_percent": 96.48,
+    "first_token_prob": 0.96484375,
+    "second_token_prob": 0.00991058349609375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Moscow",
+        "logit": 20.75,
+        "probability_percent": 96.48
+      },
+      {
+        "rank": 1,
+        "token": " Mos",
+        "logit": 16.171875,
+        "probability_percent": 0.99
+      },
+      {
+        "rank": 2,
+        "token": " Saint",
+        "logit": 14.828125,
+        "probability_percent": 0.26
+      },
+      {
+        "rank": 3,
+        "token": " St",
+        "logit": 14.6796875,
+        "probability_percent": 0.22
+      },
+      {
+        "rank": 4,
+        "token": " ",
+        "logit": 13.984375,
+        "probability_percent": 0.11
+      },
+      {
+        "rank": 5,
+        "token": " M",
+        "logit": 13.953125,
+        "probability_percent": 0.11
+      },
+      {
+        "rank": 6,
+        "token": "\n",
+        "logit": 13.7421875,
+        "probability_percent": 0.09
+      },
+      {
+        "rank": 7,
+        "token": " the",
+        "logit": 13.1328125,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 8,
+        "token": " none",
+        "logit": 13.109375,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 9,
+        "token": " ",
+        "logit": 12.9296875,
+        "probability_percent": 0.04
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Norway is Oslo.\nThe capital city of China is",
+    "generated_prefix": "The capital city of Norway is Oslo.\nThe capital city of China is",
+    "gold_token": " Beijing",
+    "predicted_top1_token": " Beijing",
+    "token_pos_in_answer": 0,
+    "gold_logit": 20.609375,
+    "gold_prob_percent": 95.02,
+    "first_token_prob": 0.9501953125,
+    "second_token_prob": 0.004947662353515625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Beijing",
+        "logit": 20.609375,
+        "probability_percent": 95.02
+      },
+      {
+        "rank": 1,
+        "token": " Be",
+        "logit": 15.3515625,
+        "probability_percent": 0.49
+      },
+      {
+        "rank": 2,
+        "token": " Shanghai",
+        "logit": 15.1171875,
+        "probability_percent": 0.39
+      },
+      {
+        "rank": 3,
+        "token": " Hong",
+        "logit": 14.9375,
+        "probability_percent": 0.33
+      },
+      {
+        "rank": 4,
+        "token": " P",
+        "logit": 14.8984375,
+        "probability_percent": 0.31
+      },
+      {
+        "rank": 5,
+        "token": " Taipei",
+        "logit": 14.3671875,
+        "probability_percent": 0.18
+      },
+      {
+        "rank": 6,
+        "token": " Nan",
+        "logit": 14.3203125,
+        "probability_percent": 0.18
+      },
+      {
+        "rank": 7,
+        "token": " Bei",
+        "logit": 13.8984375,
+        "probability_percent": 0.12
+      },
+      {
+        "rank": 8,
+        "token": " Tian",
+        "logit": 13.8203125,
+        "probability_percent": 0.11
+      },
+      {
+        "rank": 9,
+        "token": " X",
+        "logit": 13.7890625,
+        "probability_percent": 0.1
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Norway is Oslo.\nThe capital city of Japan is",
+    "generated_prefix": "The capital city of Norway is Oslo.\nThe capital city of Japan is",
+    "gold_token": " Tokyo",
+    "predicted_top1_token": " Tokyo",
+    "token_pos_in_answer": 0,
+    "gold_logit": 21.09375,
+    "gold_prob_percent": 97.61,
+    "first_token_prob": 0.97607421875,
+    "second_token_prob": 0.002437591552734375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Tokyo",
+        "logit": 21.09375,
+        "probability_percent": 97.61
+      },
+      {
+        "rank": 1,
+        "token": " Kyoto",
+        "logit": 15.1015625,
+        "probability_percent": 0.24
+      },
+      {
+        "rank": 2,
+        "token": " Tok",
+        "logit": 15.015625,
+        "probability_percent": 0.22
+      },
+      {
+        "rank": 3,
+        "token": " Osaka",
+        "logit": 14.78125,
+        "probability_percent": 0.18
+      },
+      {
+        "rank": 4,
+        "token": " T",
+        "logit": 14.6484375,
+        "probability_percent": 0.15
+      },
+      {
+        "rank": 5,
+        "token": " ",
+        "logit": 14.0,
+        "probability_percent": 0.08
+      },
+      {
+        "rank": 6,
+        "token": "\n",
+        "logit": 13.703125,
+        "probability_percent": 0.06
+      },
+      {
+        "rank": 7,
+        "token": " Nag",
+        "logit": 13.5625,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 8,
+        "token": " N",
+        "logit": 13.5234375,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 9,
+        "token": " Toy",
+        "logit": 13.359375,
+        "probability_percent": 0.04
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Norway is Oslo.\nThe capital city of South Korea is",
+    "generated_prefix": "The capital city of Norway is Oslo.\nThe capital city of South Korea is",
+    "gold_token": " Seoul",
+    "predicted_top1_token": " Seoul",
+    "token_pos_in_answer": 0,
+    "gold_logit": 21.234375,
+    "gold_prob_percent": 98.05,
+    "first_token_prob": 0.98046875,
+    "second_token_prob": 0.006504058837890625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Seoul",
+        "logit": 21.234375,
+        "probability_percent": 98.05
+      },
+      {
+        "rank": 1,
+        "token": " Se",
+        "logit": 16.21875,
+        "probability_percent": 0.65
+      },
+      {
+        "rank": 2,
+        "token": " South",
+        "logit": 14.546875,
+        "probability_percent": 0.12
+      },
+      {
+        "rank": 3,
+        "token": " Pyongyang",
+        "logit": 14.53125,
+        "probability_percent": 0.12
+      },
+      {
+        "rank": 4,
+        "token": " Bus",
+        "logit": 14.2578125,
+        "probability_percent": 0.09
+      },
+      {
+        "rank": 5,
+        "token": " ",
+        "logit": 14.046875,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 6,
+        "token": " S",
+        "logit": 13.59375,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 7,
+        "token": "\n",
+        "logit": 13.4609375,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 8,
+        "token": " Tokyo",
+        "logit": 12.921875,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 9,
+        "token": " Py",
+        "logit": 12.8125,
+        "probability_percent": 0.02
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Norway is Oslo.\nThe capital city of India is",
+    "generated_prefix": "The capital city of Norway is Oslo.\nThe capital city of India is",
+    "gold_token": " New",
+    "predicted_top1_token": " New",
+    "token_pos_in_answer": 0,
+    "gold_logit": 19.75,
+    "gold_prob_percent": 75.49,
+    "first_token_prob": 0.7548828125,
+    "second_token_prob": 0.1907958984375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " New",
+        "logit": 19.75,
+        "probability_percent": 75.49
+      },
+      {
+        "rank": 1,
+        "token": " Delhi",
+        "logit": 18.375,
+        "probability_percent": 19.08
+      },
+      {
+        "rank": 2,
+        "token": " Kolkata",
+        "logit": 14.5,
+        "probability_percent": 0.4
+      },
+      {
+        "rank": 3,
+        "token": " Mumbai",
+        "logit": 14.3828125,
+        "probability_percent": 0.35
+      },
+      {
+        "rank": 4,
+        "token": " Chennai",
+        "logit": 14.1015625,
+        "probability_percent": 0.27
+      },
+      {
+        "rank": 5,
+        "token": " Chand",
+        "logit": 13.921875,
+        "probability_percent": 0.22
+      },
+      {
+        "rank": 6,
+        "token": " Bangalore",
+        "logit": 13.71875,
+        "probability_percent": 0.18
+      },
+      {
+        "rank": 7,
+        "token": "\n",
+        "logit": 13.4296875,
+        "probability_percent": 0.14
+      },
+      {
+        "rank": 8,
+        "token": " ",
+        "logit": 13.3515625,
+        "probability_percent": 0.13
+      },
+      {
+        "rank": 9,
+        "token": " ______",
+        "logit": 13.1171875,
+        "probability_percent": 0.1
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Norway is Oslo.\nThe capital city of India is",
+    "generated_prefix": "The capital city of Norway is Oslo.\nThe capital city of India is New",
+    "gold_token": " Delhi",
+    "predicted_top1_token": " Delhi",
+    "token_pos_in_answer": 1,
+    "gold_logit": 22.6875,
+    "gold_prob_percent": 97.8,
+    "first_token_prob": 0.7548828125,
+    "second_token_prob": 0.1907958984375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Delhi",
+        "logit": 22.6875,
+        "probability_percent": 97.8
+      },
+      {
+        "rank": 1,
+        "token": " De",
+        "logit": 18.296875,
+        "probability_percent": 1.21
+      },
+      {
+        "rank": 2,
+        "token": " Del",
+        "logit": 16.96875,
+        "probability_percent": 0.32
+      },
+      {
+        "rank": 3,
+        "token": "-D",
+        "logit": 15.9609375,
+        "probability_percent": 0.12
+      },
+      {
+        "rank": 4,
+        "token": "Del",
+        "logit": 15.4296875,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 5,
+        "token": " del",
+        "logit": 15.3203125,
+        "probability_percent": 0.06
+      },
+      {
+        "rank": 6,
+        "token": " D",
+        "logit": 15.171875,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 7,
+        "token": "\n",
+        "logit": 14.734375,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 8,
+        "token": " ",
+        "logit": 14.578125,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 9,
+        "token": " York",
+        "logit": 14.453125,
+        "probability_percent": 0.03
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Norway is Oslo.\nThe capital city of Pakistan is",
+    "generated_prefix": "The capital city of Norway is Oslo.\nThe capital city of Pakistan is",
+    "gold_token": " Islamabad",
+    "predicted_top1_token": " Islamabad",
+    "token_pos_in_answer": 0,
+    "gold_logit": 20.859375,
+    "gold_prob_percent": 96.39,
+    "first_token_prob": 0.9638671875,
+    "second_token_prob": 0.00930023193359375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Islamabad",
+        "logit": 20.859375,
+        "probability_percent": 96.39
+      },
+      {
+        "rank": 1,
+        "token": " Karachi",
+        "logit": 16.21875,
+        "probability_percent": 0.93
+      },
+      {
+        "rank": 2,
+        "token": " Raw",
+        "logit": 15.2265625,
+        "probability_percent": 0.34
+      },
+      {
+        "rank": 3,
+        "token": " Islam",
+        "logit": 15.1171875,
+        "probability_percent": 0.31
+      },
+      {
+        "rank": 4,
+        "token": " is",
+        "logit": 15.0625,
+        "probability_percent": 0.29
+      },
+      {
+        "rank": 5,
+        "token": " Lahore",
+        "logit": 14.640625,
+        "probability_percent": 0.19
+      },
+      {
+        "rank": 6,
+        "token": " ",
+        "logit": 14.0078125,
+        "probability_percent": 0.1
+      },
+      {
+        "rank": 7,
+        "token": " Pakistan",
+        "logit": 13.828125,
+        "probability_percent": 0.09
+      },
+      {
+        "rank": 8,
+        "token": " Is",
+        "logit": 13.7109375,
+        "probability_percent": 0.08
+      },
+      {
+        "rank": 9,
+        "token": " Isl",
+        "logit": 13.375,
+        "probability_percent": 0.05
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Norway is Oslo.\nThe capital city of Nigeria is",
+    "generated_prefix": "The capital city of Norway is Oslo.\nThe capital city of Nigeria is",
+    "gold_token": " Abu",
+    "predicted_top1_token": " Abu",
+    "token_pos_in_answer": 0,
+    "gold_logit": 21.0625,
+    "gold_prob_percent": 95.85,
+    "first_token_prob": 0.95849609375,
+    "second_token_prob": 0.027191162109375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Abu",
+        "logit": 21.0625,
+        "probability_percent": 95.85
+      },
+      {
+        "rank": 1,
+        "token": " Lagos",
+        "logit": 17.5,
+        "probability_percent": 2.72
+      },
+      {
+        "rank": 2,
+        "token": " Ab",
+        "logit": 14.9609375,
+        "probability_percent": 0.21
+      },
+      {
+        "rank": 3,
+        "token": " Kad",
+        "logit": 13.828125,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 4,
+        "token": "\n",
+        "logit": 13.59375,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 5,
+        "token": " ",
+        "logit": 13.3046875,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 6,
+        "token": " none",
+        "logit": 13.171875,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 7,
+        "token": " K",
+        "logit": 13.0546875,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 8,
+        "token": " Abe",
+        "logit": 12.9375,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 9,
+        "token": " Nigeria",
+        "logit": 12.921875,
+        "probability_percent": 0.03
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Norway is Oslo.\nThe capital city of Nigeria is",
+    "generated_prefix": "The capital city of Norway is Oslo.\nThe capital city of Nigeria is Abu",
+    "gold_token": "ja",
+    "predicted_top1_token": "ja",
+    "token_pos_in_answer": 1,
+    "gold_logit": 24.46875,
+    "gold_prob_percent": 99.95,
+    "first_token_prob": 0.95849609375,
+    "second_token_prob": 0.027191162109375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ja",
+        "logit": 24.46875,
+        "probability_percent": 99.95
+      },
+      {
+        "rank": 1,
+        "token": " Dhabi",
+        "logit": 16.09375,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 2,
+        "token": "JA",
+        "logit": 14.3125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 3,
+        "token": "ju",
+        "logit": 14.0703125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 4,
+        "token": "-J",
+        "logit": 13.8671875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 5,
+        "token": "ji",
+        "logit": 13.828125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": " Ja",
+        "logit": 13.6875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": "\n",
+        "logit": 13.515625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "jah",
+        "logit": 12.8828125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": ".\n",
+        "logit": 12.8359375,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Norway is Oslo.\nThe capital city of Egypt is",
+    "generated_prefix": "The capital city of Norway is Oslo.\nThe capital city of Egypt is",
+    "gold_token": " Cairo",
+    "predicted_top1_token": " Cairo",
+    "token_pos_in_answer": 0,
+    "gold_logit": 20.34375,
+    "gold_prob_percent": 97.27,
+    "first_token_prob": 0.97265625,
+    "second_token_prob": 0.001605987548828125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Cairo",
+        "logit": 20.34375,
+        "probability_percent": 97.27
+      },
+      {
+        "rank": 1,
+        "token": " Alexandria",
+        "logit": 13.9375,
+        "probability_percent": 0.16
+      },
+      {
+        "rank": 2,
+        "token": " cairo",
+        "logit": 13.1875,
+        "probability_percent": 0.08
+      },
+      {
+        "rank": 3,
+        "token": " Add",
+        "logit": 13.15625,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 4,
+        "token": " Egypt",
+        "logit": 13.0859375,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 5,
+        "token": " Paris",
+        "logit": 13.0703125,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 6,
+        "token": " ",
+        "logit": 13.0390625,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 7,
+        "token": "\n",
+        "logit": 12.90625,
+        "probability_percent": 0.06
+      },
+      {
+        "rank": 8,
+        "token": " Abu",
+        "logit": 12.8203125,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 9,
+        "token": " Lux",
+        "logit": 12.7421875,
+        "probability_percent": 0.05
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Norway is Oslo.\nThe capital city of Saudi Arabia is",
+    "generated_prefix": "The capital city of Norway is Oslo.\nThe capital city of Saudi Arabia is",
+    "gold_token": " Riyadh",
+    "predicted_top1_token": " Riyadh",
+    "token_pos_in_answer": 0,
+    "gold_logit": 20.90625,
+    "gold_prob_percent": 97.22,
+    "first_token_prob": 0.97216796875,
+    "second_token_prob": 0.007419586181640625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Riyadh",
+        "logit": 20.90625,
+        "probability_percent": 97.22
+      },
+      {
+        "rank": 1,
+        "token": " Riy",
+        "logit": 16.03125,
+        "probability_percent": 0.74
+      },
+      {
+        "rank": 2,
+        "token": " J",
+        "logit": 14.453125,
+        "probability_percent": 0.15
+      },
+      {
+        "rank": 3,
+        "token": " ",
+        "logit": 14.3515625,
+        "probability_percent": 0.14
+      },
+      {
+        "rank": 4,
+        "token": " Ri",
+        "logit": 14.171875,
+        "probability_percent": 0.12
+      },
+      {
+        "rank": 5,
+        "token": " Saudi",
+        "logit": 13.9140625,
+        "probability_percent": 0.09
+      },
+      {
+        "rank": 6,
+        "token": " R",
+        "logit": 13.859375,
+        "probability_percent": 0.08
+      },
+      {
+        "rank": 7,
+        "token": " Me",
+        "logit": 13.765625,
+        "probability_percent": 0.08
+      },
+      {
+        "rank": 8,
+        "token": " also",
+        "logit": 13.546875,
+        "probability_percent": 0.06
+      },
+      {
+        "rank": 9,
+        "token": " R",
+        "logit": 13.515625,
+        "probability_percent": 0.06
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Norway is Oslo.\nThe capital city of Turkey is",
+    "generated_prefix": "The capital city of Norway is Oslo.\nThe capital city of Turkey is",
+    "gold_token": " Ankara",
+    "predicted_top1_token": " Ankara",
+    "token_pos_in_answer": 0,
+    "gold_logit": 20.546875,
+    "gold_prob_percent": 89.55,
+    "first_token_prob": 0.8955078125,
+    "second_token_prob": 0.06591796875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Ankara",
+        "logit": 20.546875,
+        "probability_percent": 89.55
+      },
+      {
+        "rank": 1,
+        "token": " Istanbul",
+        "logit": 17.9375,
+        "probability_percent": 6.59
+      },
+      {
+        "rank": 2,
+        "token": " An",
+        "logit": 16.453125,
+        "probability_percent": 1.49
+      },
+      {
+        "rank": 3,
+        "token": " ",
+        "logit": 14.125,
+        "probability_percent": 0.15
+      },
+      {
+        "rank": 4,
+        "token": " Turkey",
+        "logit": 14.109375,
+        "probability_percent": 0.14
+      },
+      {
+        "rank": 5,
+        "token": " İstanbul",
+        "logit": 13.9921875,
+        "probability_percent": 0.13
+      },
+      {
+        "rank": 6,
+        "token": " an",
+        "logit": 13.359375,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 7,
+        "token": " Ank",
+        "logit": 13.1640625,
+        "probability_percent": 0.06
+      },
+      {
+        "rank": 8,
+        "token": "\n",
+        "logit": 13.0859375,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 9,
+        "token": " ",
+        "logit": 13.0703125,
+        "probability_percent": 0.05
+      }
+    ]
+  },
+  {
+    "prompt": "The capital city of Norway is Oslo.\nThe capital city of Australia is",
+    "generated_prefix": "The capital city of Norway is Oslo.\nThe capital city of Australia is",
+    "gold_token": " Canberra",
+    "predicted_top1_token": " Canberra",
+    "token_pos_in_answer": 0,
+    "gold_logit": 20.75,
+    "gold_prob_percent": 90.87,
+    "first_token_prob": 0.90869140625,
+    "second_token_prob": 0.0399169921875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Canberra",
+        "logit": 20.75,
+        "probability_percent": 90.87
+      },
+      {
+        "rank": 1,
+        "token": " Sydney",
+        "logit": 17.625,
+        "probability_percent": 3.99
+      },
+      {
+        "rank": 2,
+        "token": " Melbourne",
+        "logit": 16.484375,
+        "probability_percent": 1.28
+      },
+      {
+        "rank": 3,
+        "token": " Perth",
+        "logit": 15.953125,
+        "probability_percent": 0.75
+      },
+      {
+        "rank": 4,
+        "token": " Brisbane",
+        "logit": 15.546875,
+        "probability_percent": 0.5
+      },
+      {
+        "rank": 5,
+        "token": " Can",
+        "logit": 15.359375,
+        "probability_percent": 0.41
+      },
+      {
+        "rank": 6,
+        "token": " Adelaide",
+        "logit": 14.4140625,
+        "probability_percent": 0.16
+      },
+      {
+        "rank": 7,
+        "token": " Darwin",
+        "logit": 14.3359375,
+        "probability_percent": 0.15
+      },
+      {
+        "rank": 8,
+        "token": " Wellington",
+        "logit": 14.09375,
+        "probability_percent": 0.12
+      },
+      {
+        "rank": 9,
+        "token": " Australia",
+        "logit": 13.9140625,
+        "probability_percent": 0.1
+      }
+    ]
+  }
+]

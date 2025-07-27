@@ -1,0 +1,26 @@
+{
+  "relation": "person_band_lead_singer",
+  "template_scores": {
+    "{} is the lead singer of": {
+      "average_first_token_prob": 0.02149600074404762,
+      "reliability": 0.0,
+      "overall_score": 0.0
+    },
+    "{} performs as the lead singer of": {
+      "average_first_token_prob": 0.20970517113095238,
+      "reliability": 0.047619047619047616,
+      "overall_score": 0.009985960530045352
+    },
+    "{} is the lead vocalist of": {
+      "average_first_token_prob": 0.0,
+      "reliability": 0.0,
+      "overall_score": 0.0
+    }
+  },
+  "best_template": "{} performs as the lead singer of",
+  "best_template_metrics": {
+    "average_first_token_prob": 0.20970517113095238,
+    "reliability": 0.047619047619047616,
+    "overall_score": 0.009985960530045352
+  }
+}

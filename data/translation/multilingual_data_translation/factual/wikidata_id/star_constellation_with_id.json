@@ -1,0 +1,2193 @@
+{
+  "name": "star constellation",
+  "prompt_templates": [
+    "{} is part of the constellation named",
+    "{} belongs to the star group ",
+    "{} is in the constellation of"
+  ],
+  "prompt_templates_zs": [
+    "What is the name of the constellation that {} is part of? It is part of",
+    "{} is part of the constellation named",
+    "What is the name of the constellation that {} belongs to? It belongs to"
+  ],
+  "properties": {
+    "relation_type": "factual",
+    "domain_name": "star",
+    "range_name": "constellation",
+    "symmetric": false
+  },
+  "samples": [
+    {
+      "subject": "Sirius",
+      "object": "Canis Major",
+      "subject_id": "Q27349673",
+      "object_id": "Q10538"
+    },
+    {
+      "subject": "Vega",
+      "object": "Lyra",
+      "subject_id": "Q17049943",
+      "object_id": "Q10484"
+    },
+    {
+      "subject": "Arcturus",
+      "object": "Boötes",
+      "subject_id": "Q12985",
+      "object_id": "Q8667"
+    },
+    {
+      "subject": "Capella",
+      "object": "Auriga",
+      "subject_id": "Q37435774",
+      "object_id": "Q10476"
+    },
+    {
+      "subject": "Procyon",
+      "object": "Canis Minor",
+      "subject_id": "Q148856",
+      "object_id": "Q9305"
+    },
+    {
+      "subject": "Altair",
+      "object": "Aquila",
+      "subject_id": "Q12975",
+      "object_id": "Q10586"
+    },
+    {
+      "subject": "Aldebaran",
+      "object": "Taurus",
+      "subject_id": "Q2623410",
+      "object_id": "Q10570"
+    },
+    {
+      "subject": "Antares",
+      "object": "Scorpius",
+      "subject_id": "Q113662422",
+      "object_id": "Q8865"
+    },
+    {
+      "subject": "Fomalhaut",
+      "object": "Piscis Austrinus",
+      "subject_id": "Q13169",
+      "object_id": "Q10409"
+    },
+    {
+      "subject": "Deneb",
+      "object": "Cygnus",
+      "subject_id": "Q12179",
+      "object_id": "Q8921"
+    },
+    {
+      "subject": "Castor",
+      "object": "Gemini",
+      "subject_id": "Q18648001",
+      "object_id": "Q8923"
+    },
+    {
+      "subject": "Mizar",
+      "object": "Ursa Major",
+      "subject_id": "Q774335",
+      "object_id": "Q8918"
+    },
+    {
+      "subject": "Dubhe",
+      "object": "Ursa Major",
+      "subject_id": "Q3715754",
+      "object_id": "Q8918"
+    },
+    {
+      "subject": "Alcor",
+      "object": "Ursa Major",
+      "subject_id": "Q13088",
+      "object_id": "Q8918"
+    },
+    {
+      "subject": "Alphecca",
+      "object": "Corona Borealis",
+      "subject_id": "Q14046",
+      "object_id": "Q10406"
+    },
+    {
+      "subject": "Zubenelgenubi",
+      "object": "Libra",
+      "subject_id": "N/A",
+      "object_id": "Q10580"
+    },
+    {
+      "subject": "Gacrux",
+      "object": "Crux",
+      "subject_id": "Q14233",
+      "object_id": "Q10542"
+    },
+    {
+      "subject": "Alnair",
+      "object": "Grus",
+      "subject_id": "Q4734049",
+      "object_id": "Q10563"
+    },
+    {
+      "subject": "Shaula",
+      "object": "Scorpius",
+      "subject_id": "Q78603928",
+      "object_id": "Q8865"
+    },
+    {
+      "subject": "Kaus Australis",
+      "object": "Sagittarius",
+      "subject_id": "N/A",
+      "object_id": "Q8866"
+    },
+    {
+      "subject": "Diphda",
+      "object": "Cetus",
+      "subject_id": "N/A",
+      "object_id": "Q8839"
+    },
+    {
+      "subject": "Schedar",
+      "object": "Cassiopeia",
+      "subject_id": "Q122795641",
+      "object_id": "Q10464"
+    },
+    {
+      "subject": "Mirfak",
+      "object": "Perseus",
+      "subject_id": "Q52320714",
+      "object_id": "Q10511"
+    },
+    {
+      "subject": "Theta2 Orionis",
+      "object": "Orion",
+      "subject_id": "Q3990377",
+      "object_id": "Q8860"
+    },
+    {
+      "subject": "Chi1 Orionis",
+      "object": "Orion",
+      "subject_id": "Q284907",
+      "object_id": "Q8860"
+    },
+    {
+      "subject": "Gliese 570A",
+      "object": "Libra",
+      "subject_id": "Q1195589",
+      "object_id": "Q10580"
+    },
+    {
+      "subject": "Iota Persei",
+      "object": "Perseus",
+      "subject_id": "Q1195617",
+      "object_id": "Q10511"
+    },
+    {
+      "subject": "Pi3 Orionis",
+      "object": "Orion",
+      "subject_id": "Q14216",
+      "object_id": "Q8860"
+    },
+    {
+      "subject": "23 Librae",
+      "object": "Libra",
+      "subject_id": "Q216257",
+      "object_id": "Q10580"
+    },
+    {
+      "subject": "Mu Leonis",
+      "object": "Leo",
+      "subject_id": "Q1153864",
+      "object_id": "Q606764"
+    },
+    {
+      "subject": "Theta Persei",
+      "object": "Perseus",
+      "subject_id": "Q93461753",
+      "object_id": "Q10511"
+    },
+    {
+      "subject": "Theta1 Orionis B",
+      "object": "Orion",
+      "subject_id": "Q3990372",
+      "object_id": "Q8860"
+    },
+    {
+      "subject": "Gliese 581",
+      "object": "Libra",
+      "subject_id": "Q15718",
+      "object_id": "Q10580"
+    },
+    {
+      "subject": "83 Leonis A",
+      "object": "Leo",
+      "subject_id": "Q76447810",
+      "object_id": "Q606764"
+    },
+    {
+      "subject": "Phi2 Orionis",
+      "object": "Orion",
+      "subject_id": "Q2069016",
+      "object_id": "Q8860"
+    },
+    {
+      "subject": "Gliese 205",
+      "object": "Orion",
+      "subject_id": "Q4039923",
+      "object_id": "Q8860"
+    },
+    {
+      "subject": "Theta1 Orionis C",
+      "object": "Orion",
+      "subject_id": "Q1196181",
+      "object_id": "Q8860"
+    },
+    {
+      "subject": "Wolf 359",
+      "object": "Leo",
+      "subject_id": "Q291301",
+      "object_id": "Q606764"
+    },
+    {
+      "subject": "Rigel",
+      "object": "Orion",
+      "subject_id": "Q37250936",
+      "object_id": "Q8860"
+    },
+    {
+      "subject": "V520 Persei",
+      "object": "Perseus",
+      "subject_id": "Q24950337",
+      "object_id": "Q10511"
+    },
+    {
+      "subject": "Betelgeuse",
+      "object": "Orion",
+      "subject_id": "Q12124",
+      "object_id": "Q8860"
+    },
+    {
+      "subject": "Iota Orionis",
+      "object": "Orion",
+      "subject_id": "Q14029",
+      "object_id": "Q8860"
+    },
+    {
+      "subject": "Algol",
+      "object": "Perseus",
+      "subject_id": "Q188436",
+      "object_id": "Q10511"
+    },
+    {
+      "subject": "AD Leonis",
+      "object": "Leo",
+      "subject_id": "Q1328616",
+      "object_id": "Q606764"
+    },
+    {
+      "subject": "Gamma Librae",
+      "object": "Libra",
+      "subject_id": "Q13811",
+      "object_id": "Q10580"
+    },
+    {
+      "subject": "Denebola",
+      "object": "Leo",
+      "subject_id": "Q13015",
+      "object_id": "Q606764"
+    },
+    {
+      "subject": "NGC 1275",
+      "object": "Perseus",
+      "subject_id": "Q497687",
+      "object_id": "Q10511"
+    },
+    {
+      "subject": "Alpha Persei",
+      "object": "Perseus",
+      "subject_id": "Q13790",
+      "object_id": "Q10511"
+    },
+    {
+      "subject": "Epsilon Leonis",
+      "object": "Leo",
+      "subject_id": "Q14205",
+      "object_id": "Q606764"
+    },
+    {
+      "subject": "Kappa Persei",
+      "object": "Perseus",
+      "subject_id": "Q1758874",
+      "object_id": "Q10511"
+    },
+    {
+      "subject": "Gliese 436",
+      "object": "Leo",
+      "subject_id": "N/A",
+      "object_id": "Q606764"
+    },
+    {
+      "subject": "Gamma Leonis A",
+      "object": "Leo",
+      "subject_id": "Q14203",
+      "object_id": "Q606764"
+    },
+    {
+      "subject": "71 Orionis",
+      "object": "Orion",
+      "subject_id": "Q3599718",
+      "object_id": "Q8860"
+    },
+    {
+      "subject": "89 Leonis",
+      "object": "Leo",
+      "subject_id": "Q5681154",
+      "object_id": "Q606764"
+    },
+    {
+      "subject": "Omicron Leonis",
+      "object": "Leo",
+      "subject_id": "Q637953",
+      "object_id": "Q606764"
+    },
+    {
+      "subject": "35 Leonis",
+      "object": "Leo",
+      "subject_id": "Q15939645",
+      "object_id": "Q606764"
+    },
+    {
+      "subject": "37 Librae",
+      "object": "Libra",
+      "subject_id": "Q3598948",
+      "object_id": "Q10580"
+    },
+    {
+      "subject": "50 Persei E",
+      "object": "Perseus",
+      "subject_id": "Q8179459",
+      "object_id": "Q10511"
+    },
+    {
+      "subject": "Theta Leonis",
+      "object": "Leo",
+      "subject_id": "N/A",
+      "object_id": "Q606764"
+    },
+    {
+      "subject": "Gliese 436 b",
+      "object": "Leo",
+      "subject_id": "Q842110",
+      "object_id": "Q606764"
+    },
+    {
+      "subject": "Gliese 204",
+      "object": "Orion",
+      "subject_id": "Q3772273",
+      "object_id": "Q8860"
+    },
+    {
+      "subject": "X Persei",
+      "object": "Perseus",
+      "subject_id": "Q4597650",
+      "object_id": "Q10511"
+    },
+    {
+      "subject": "11 Librae",
+      "object": "Libra",
+      "subject_id": "Q3597208",
+      "object_id": "Q10580"
+    },
+    {
+      "subject": "Gliese 402",
+      "object": "Leo",
+      "subject_id": "Q4037782",
+      "object_id": "Q606764"
+    },
+    {
+      "subject": "29 Orionis",
+      "object": "Orion",
+      "subject_id": "Q3598697",
+      "object_id": "Q8860"
+    },
+    {
+      "subject": "48 Librae",
+      "object": "Libra",
+      "subject_id": "Q3599167",
+      "object_id": "Q10580"
+    },
+    {
+      "subject": "4C 01.28",
+      "object": "Leo",
+      "subject_id": "Q88093524",
+      "object_id": "Q606764"
+    },
+    {
+      "subject": "Alnilam",
+      "object": "Orion",
+      "subject_id": "Q13070",
+      "object_id": "Q8860"
+    },
+    {
+      "subject": "12 Persei",
+      "object": "Perseus",
+      "subject_id": "Q4548726",
+      "object_id": "Q10511"
+    },
+    {
+      "subject": "40 Leonis",
+      "object": "Leo",
+      "subject_id": "Q4637405",
+      "object_id": "Q606764"
+    },
+    {
+      "subject": "Bellatrix",
+      "object": "Orion",
+      "subject_id": "Q10427866",
+      "object_id": "Q8860"
+    },
+    {
+      "subject": "Alpha1 Librae",
+      "object": "Libra",
+      "subject_id": "Q3612958",
+      "object_id": "Q10580"
+    },
+    {
+      "subject": "Eta Leonis",
+      "object": "Leo",
+      "subject_id": "Q14208",
+      "object_id": "Q606764"
+    },
+    {
+      "subject": "Mintaka",
+      "object": "Orion",
+      "subject_id": "Q680341",
+      "object_id": "Q8860"
+    },
+    {
+      "subject": "Iota Leonis",
+      "object": "Leo",
+      "subject_id": "N/A",
+      "object_id": "Q606764"
+    },
+    {
+      "subject": "Tau Persei",
+      "object": "Perseus",
+      "subject_id": "Q3304510",
+      "object_id": "Q10511"
+    },
+    {
+      "subject": "39 Leonis",
+      "object": "Leo",
+      "subject_id": "Q5652156",
+      "object_id": "Q606764"
+    },
+    {
+      "subject": "Mu Orionis",
+      "object": "Orion",
+      "subject_id": "Q6848312",
+      "object_id": "Q8860"
+    },
+    {
+      "subject": "V1386 Ori",
+      "object": "Orion",
+      "subject_id": "Q66530882",
+      "object_id": "Q8860"
+    },
+    {
+      "subject": "49 Librae",
+      "object": "Libra",
+      "subject_id": "Q3599178",
+      "object_id": "Q10580"
+    },
+    {
+      "subject": "Xi Persei",
+      "object": "Perseus",
+      "subject_id": "Q1194275",
+      "object_id": "Q10511"
+    },
+    {
+      "subject": "Phi Persei",
+      "object": "Perseus",
+      "subject_id": "Q3181188",
+      "object_id": "Q10511"
+    },
+    {
+      "subject": "Delta Leonis",
+      "object": "Leo",
+      "subject_id": "N/A",
+      "object_id": "Q606764"
+    },
+    {
+      "subject": "88 Leonis",
+      "object": "Leo",
+      "subject_id": "Q5653066",
+      "object_id": "Q606764"
+    },
+    {
+      "subject": "QSO B1514-24",
+      "object": "Libra",
+      "subject_id": "Q94926493",
+      "object_id": "Q10580"
+    },
+    {
+      "subject": "Regulus",
+      "object": "Leo",
+      "subject_id": "Q208716",
+      "object_id": "Q606764"
+    },
+    {
+      "subject": "Zeta Leonis",
+      "object": "Leo",
+      "subject_id": "Q14207",
+      "object_id": "Q606764"
+    },
+    {
+      "subject": "Gliese 555",
+      "object": "Libra",
+      "subject_id": "Q5890738",
+      "object_id": "Q10580"
+    },
+    {
+      "subject": "16 Orionis",
+      "object": "Orion",
+      "subject_id": "Q6848199",
+      "object_id": "Q8860"
+    },
+    {
+      "subject": "Delta Librae",
+      "object": "Libra",
+      "subject_id": "Q227536",
+      "object_id": "Q10580"
+    },
+    {
+      "subject": "Sigma Orionis",
+      "object": "Orion",
+      "subject_id": "Q14224",
+      "object_id": "Q8860"
+    },
+    {
+      "subject": "93 Leonis",
+      "object": "Leo",
+      "subject_id": "Q4645899",
+      "object_id": "Q606764"
+    },
+    {
+      "subject": "Theta Librae",
+      "object": "Libra",
+      "subject_id": "Q2403386",
+      "object_id": "Q10580"
+    },
+    {
+      "subject": "Rho Leonis",
+      "object": "Leo",
+      "subject_id": "Q2984438",
+      "object_id": "Q606764"
+    },
+    {
+      "subject": "74 Orionis",
+      "object": "Orion",
+      "subject_id": "Q3599762",
+      "object_id": "Q8860"
+    },
+    {
+      "subject": "Ross 47",
+      "object": "Orion",
+      "subject_id": "Q15881478",
+      "object_id": "Q8860"
+    },
+    {
+      "subject": "54 Persei",
+      "object": "Perseus",
+      "subject_id": "Q4640485",
+      "object_id": "Q10511"
+    },
+    {
+      "subject": "Iota1 Librae",
+      "object": "Libra",
+      "subject_id": "Q611785",
+      "object_id": "Q10580"
+    },
+    {
+      "subject": "Alpha2 Librae",
+      "object": "Libra",
+      "subject_id": "Q12065240",
+      "object_id": "Q10580"
+    },
+    {
+      "subject": "Mu Persei",
+      "object": "Perseus",
+      "subject_id": "Q5176859",
+      "object_id": "Q10511"
+    },
+    {
+      "subject": "Eta Persei",
+      "object": "Perseus",
+      "subject_id": "Q1434398",
+      "object_id": "Q10511"
+    },
+    {
+      "subject": "Saiph",
+      "object": "Orion",
+      "subject_id": "Q14028",
+      "object_id": "Q8860"
+    },
+    {
+      "subject": "22 Orionis",
+      "object": "Orion",
+      "subject_id": "Q2892567",
+      "object_id": "Q8860"
+    },
+    {
+      "subject": "Pi1 Orionis",
+      "object": "Orion",
+      "subject_id": "Q3901783",
+      "object_id": "Q8860"
+    },
+    {
+      "subject": "Tau Leonis",
+      "object": "Leo",
+      "subject_id": "Q5175799",
+      "object_id": "Q606764"
+    },
+    {
+      "subject": "Gliese 179",
+      "object": "Orion",
+      "subject_id": "Q1109429",
+      "object_id": "Q8860"
+    },
+    {
+      "subject": "9 Persei",
+      "object": "Perseus",
+      "subject_id": "Q9555148",
+      "object_id": "Q10511"
+    },
+    {
+      "subject": "Sigma Persei",
+      "object": "Perseus",
+      "subject_id": "Q5176893",
+      "object_id": "Q10511"
+    },
+    {
+      "subject": "48 Persei",
+      "object": "Perseus",
+      "subject_id": "Q4638661",
+      "object_id": "Q10511"
+    },
+    {
+      "subject": "Epsilon Librae",
+      "object": "Libra",
+      "subject_id": "Q1749112",
+      "object_id": "Q10580"
+    },
+    {
+      "subject": "51 Pegasi",
+      "object": "Pegasus",
+      "subject_id": "Q14265",
+      "object_id": "Q8864"
+    },
+    {
+      "subject": "Beta Virginis",
+      "object": "Virgo",
+      "subject_id": "N/A",
+      "object_id": "Q8842"
+    },
+    {
+      "subject": "61 Virginis",
+      "object": "Virgo",
+      "subject_id": "Q81069",
+      "object_id": "Q8842"
+    },
+    {
+      "subject": "Iota Piscium",
+      "object": "Pisces",
+      "subject_id": "Q1326919",
+      "object_id": "Q8679"
+    },
+    {
+      "subject": "70 Virginis",
+      "object": "Virgo",
+      "subject_id": "Q262076",
+      "object_id": "Q8842"
+    },
+    {
+      "subject": "54 Piscium A",
+      "object": "Pisces",
+      "subject_id": "Q243613",
+      "object_id": "Q8679"
+    },
+    {
+      "subject": "107 Piscium",
+      "object": "Pisces",
+      "subject_id": "Q1195635",
+      "object_id": "Q8679"
+    },
+    {
+      "subject": "HN Pegasi",
+      "object": "Pegasus",
+      "subject_id": "Q4040284",
+      "object_id": "Q8864"
+    },
+    {
+      "subject": "59 Virginis",
+      "object": "Virgo",
+      "subject_id": "Q5652679",
+      "object_id": "Q8842"
+    },
+    {
+      "subject": "85 Pegasi",
+      "object": "Pegasus",
+      "subject_id": "Q384288",
+      "object_id": "Q8864"
+    },
+    {
+      "subject": "Epsilon Virginis",
+      "object": "Virgo",
+      "subject_id": "N/A",
+      "object_id": "Q8842"
+    },
+    {
+      "subject": "Xi Pegasi",
+      "object": "Pegasus",
+      "subject_id": "Q4262086",
+      "object_id": "Q8864"
+    },
+    {
+      "subject": "U Sagittarii",
+      "object": "Sagittarius",
+      "subject_id": "Q5645086",
+      "object_id": "Q8866"
+    },
+    {
+      "subject": "Sigma Pegasi",
+      "object": "Pegasus",
+      "subject_id": "Q10371430",
+      "object_id": "Q8864"
+    },
+    {
+      "subject": "Gliese 908",
+      "object": "Pisces",
+      "subject_id": "Q4034736",
+      "object_id": "Q8679"
+    },
+    {
+      "subject": "Gamma Piscium",
+      "object": "Pisces",
+      "subject_id": "Q14070",
+      "object_id": "Q8679"
+    },
+    {
+      "subject": "Omicron Virginis",
+      "object": "Virgo",
+      "subject_id": "Q5178973",
+      "object_id": "Q8842"
+    },
+    {
+      "subject": "Iota Virginis",
+      "object": "Virgo",
+      "subject_id": "Q2144471",
+      "object_id": "Q8842"
+    },
+    {
+      "subject": "Epsilon Pegasi",
+      "object": "Pegasus",
+      "subject_id": "Q14255",
+      "object_id": "Q8864"
+    },
+    {
+      "subject": "Gumala",
+      "object": "Sagittarius",
+      "subject_id": "Q1280098",
+      "object_id": "Q8866"
+    },
+    {
+      "subject": "Ross 128",
+      "object": "Virgo",
+      "subject_id": "Q926610",
+      "object_id": "Q8842"
+    },
+    {
+      "subject": "Messier 87",
+      "object": "Virgo",
+      "subject_id": "Q14041",
+      "object_id": "Q8842"
+    },
+    {
+      "subject": "Iota Pegasi",
+      "object": "Pegasus",
+      "subject_id": "Q1367410",
+      "object_id": "Q8864"
+    },
+    {
+      "subject": "16 Virginis",
+      "object": "Virgo",
+      "subject_id": "Q9546786",
+      "object_id": "Q8842"
+    },
+    {
+      "subject": "15 Pegasi",
+      "object": "Pegasus",
+      "subject_id": "Q2743352",
+      "object_id": "Q8864"
+    },
+    {
+      "subject": "109 Piscium",
+      "object": "Pisces",
+      "subject_id": "Q169016",
+      "object_id": "Q8679"
+    },
+    {
+      "subject": "112 Piscium",
+      "object": "Pisces",
+      "subject_id": "Q5649732",
+      "object_id": "Q8679"
+    },
+    {
+      "subject": "Mu Pegasi",
+      "object": "Pegasus",
+      "subject_id": "Q66477278",
+      "object_id": "Q8864"
+    },
+    {
+      "subject": "35 Pegasi",
+      "object": "Pegasus",
+      "subject_id": "Q2743457",
+      "object_id": "Q8864"
+    },
+    {
+      "subject": "Gliese 514",
+      "object": "Virgo",
+      "subject_id": "Q15964975",
+      "object_id": "Q8842"
+    },
+    {
+      "subject": "BD+17 4708",
+      "object": "Pegasus",
+      "subject_id": "Q90460780",
+      "object_id": "Q8864"
+    },
+    {
+      "subject": "Chi Virginis",
+      "object": "Virgo",
+      "subject_id": "Q1153065",
+      "object_id": "Q8842"
+    },
+    {
+      "subject": "DT Virginis",
+      "object": "Virgo",
+      "subject_id": "Q951640",
+      "object_id": "Q8842"
+    },
+    {
+      "subject": "Theta Piscium",
+      "object": "Pisces",
+      "subject_id": "Q3231617",
+      "object_id": "Q8679"
+    },
+    {
+      "subject": "Mu Piscium",
+      "object": "Pisces",
+      "subject_id": "Q5177136",
+      "object_id": "Q8679"
+    },
+    {
+      "subject": "Gamma Pegasi",
+      "object": "Pegasus",
+      "subject_id": "Q954716",
+      "object_id": "Q8864"
+    },
+    {
+      "subject": "Beta Pegasi",
+      "object": "Pegasus",
+      "subject_id": "Q14258",
+      "object_id": "Q8864"
+    },
+    {
+      "subject": "Gliese 880",
+      "object": "Pegasus",
+      "subject_id": "Q5880973",
+      "object_id": "Q8864"
+    },
+    {
+      "subject": "9 Sagittarii",
+      "object": "Sagittarius",
+      "subject_id": "Q4646432",
+      "object_id": "Q8866"
+    },
+    {
+      "subject": "Nu Piscium",
+      "object": "Pisces",
+      "subject_id": "Q1069067",
+      "object_id": "Q8679"
+    },
+    {
+      "subject": "34 Pegasi",
+      "object": "Pegasus",
+      "subject_id": "Q10928738",
+      "object_id": "Q8864"
+    },
+    {
+      "subject": "Spica",
+      "object": "Virgo",
+      "subject_id": "Q13008",
+      "object_id": "Q8842"
+    },
+    {
+      "subject": "53 Virginis",
+      "object": "Virgo",
+      "subject_id": "Q55602835",
+      "object_id": "Q8842"
+    },
+    {
+      "subject": "Eta Pegasi",
+      "object": "Pegasus",
+      "subject_id": "Q1417104",
+      "object_id": "Q8864"
+    },
+    {
+      "subject": "Phi Virginis",
+      "object": "Virgo",
+      "subject_id": "Q1089316",
+      "object_id": "Q8842"
+    },
+    {
+      "subject": "17 Virginis",
+      "object": "Virgo",
+      "subject_id": "Q5650977",
+      "object_id": "Q8842"
+    },
+    {
+      "subject": "56 Pegasi",
+      "object": "Pegasus",
+      "subject_id": "Q4640719",
+      "object_id": "Q8864"
+    },
+    {
+      "subject": "Lambda Sagittarii",
+      "object": "Sagittarius",
+      "subject_id": "Q14040",
+      "object_id": "Q8866"
+    },
+    {
+      "subject": "Lambda Pegasi",
+      "object": "Pegasus",
+      "subject_id": "Q3299933",
+      "object_id": "Q8864"
+    },
+    {
+      "subject": "Upsilon Pegasi",
+      "object": "Pegasus",
+      "subject_id": "Q5176760",
+      "object_id": "Q8864"
+    },
+    {
+      "subject": "Van Maanen's star",
+      "object": "Pisces",
+      "subject_id": "Q868692",
+      "object_id": "Q8679"
+    },
+    {
+      "subject": "Delta Virginis",
+      "object": "Virgo",
+      "subject_id": "N/A",
+      "object_id": "Q8842"
+    },
+    {
+      "subject": "3C 273",
+      "object": "Virgo",
+      "subject_id": "Q229318",
+      "object_id": "Q8842"
+    },
+    {
+      "subject": "II Pegasi",
+      "object": "Pegasus",
+      "subject_id": "Q5176684",
+      "object_id": "Q8864"
+    },
+    {
+      "subject": "7 Piscium",
+      "object": "Pisces",
+      "subject_id": "Q4643865",
+      "object_id": "Q8679"
+    },
+    {
+      "subject": "1 Pegasi",
+      "object": "Pegasus",
+      "subject_id": "Q2743705",
+      "object_id": "Q8864"
+    },
+    {
+      "subject": "Ross 154",
+      "object": "Sagittarius",
+      "subject_id": "Q611552",
+      "object_id": "Q8866"
+    },
+    {
+      "subject": "Mu Virginis",
+      "object": "Virgo",
+      "subject_id": "Q14202",
+      "object_id": "Q8842"
+    },
+    {
+      "subject": "70 Pegasi",
+      "object": "Pegasus",
+      "subject_id": "Q4643011",
+      "object_id": "Q8864"
+    },
+    {
+      "subject": "Epsilon Piscium",
+      "object": "Pisces",
+      "subject_id": "Q1069112",
+      "object_id": "Q8679"
+    },
+    {
+      "subject": "Kappa Piscium",
+      "object": "Pisces",
+      "subject_id": "Q2705426",
+      "object_id": "Q8679"
+    },
+    {
+      "subject": "1RXS J141146.2-123634",
+      "object": "Virgo",
+      "subject_id": "Q80650829",
+      "object_id": "Q8842"
+    },
+    {
+      "subject": "Omega Sagittarii",
+      "object": "Sagittarius",
+      "subject_id": "Q1720188",
+      "object_id": "Q8866"
+    },
+    {
+      "subject": "Omicron Piscium",
+      "object": "Pisces",
+      "subject_id": "Q1339867",
+      "object_id": "Q8679"
+    },
+    {
+      "subject": "Theta Pegasi",
+      "object": "Pegasus",
+      "subject_id": "Q800204",
+      "object_id": "Q8864"
+    },
+    {
+      "subject": "Eta Piscium",
+      "object": "Pisces",
+      "subject_id": "Q14068",
+      "object_id": "Q8679"
+    },
+    {
+      "subject": "5 Piscium",
+      "object": "Pisces",
+      "subject_id": "Q9553772",
+      "object_id": "Q8679"
+    },
+    {
+      "subject": "EO Psc",
+      "object": "Pisces",
+      "subject_id": "Q66630981",
+      "object_id": "Q8679"
+    },
+    {
+      "subject": "Gamma Virginis A",
+      "object": "Virgo",
+      "subject_id": "Q14197",
+      "object_id": "Q8842"
+    },
+    {
+      "subject": "Omicron Pegasi",
+      "object": "Pegasus",
+      "subject_id": "Q5176735",
+      "object_id": "Q8864"
+    },
+    {
+      "subject": "Wolf 424",
+      "object": "Virgo",
+      "subject_id": "Q1328338",
+      "object_id": "Q8842"
+    },
+    {
+      "subject": "BD+09 2636",
+      "object": "Virgo",
+      "subject_id": "Q86408621",
+      "object_id": "Q8842"
+    },
+    {
+      "subject": "MT Pegasi",
+      "object": "Pegasus",
+      "subject_id": "Q5988414",
+      "object_id": "Q8864"
+    },
+    {
+      "subject": "Rho Virginis",
+      "object": "Virgo",
+      "subject_id": "Q3020619",
+      "object_id": "Q8842"
+    },
+    {
+      "subject": "Nu Virginis",
+      "object": "Virgo",
+      "subject_id": "Q3306433",
+      "object_id": "Q8842"
+    },
+    {
+      "subject": "BD+26 4251",
+      "object": "Pegasus",
+      "subject_id": "Q85150411",
+      "object_id": "Q8864"
+    },
+    {
+      "subject": "BD+08 4887",
+      "object": "Pegasus",
+      "subject_id": "Q93687788",
+      "object_id": "Q8864"
+    },
+    {
+      "subject": "Mu Sagittarii",
+      "object": "Sagittarius",
+      "subject_id": "Q2482706",
+      "object_id": "Q8866"
+    },
+    {
+      "subject": "Tau Sagittarii",
+      "object": "Sagittarius",
+      "subject_id": "Q3179839",
+      "object_id": "Q8866"
+    },
+    {
+      "subject": "Tau Piscium",
+      "object": "Pisces",
+      "subject_id": "Q5177201",
+      "object_id": "Q8679"
+    },
+    {
+      "subject": "Xi Piscium",
+      "object": "Pisces",
+      "subject_id": "Q5177228",
+      "object_id": "Q8679"
+    },
+    {
+      "subject": "Gliese 536",
+      "object": "Virgo",
+      "subject_id": "Q28154719",
+      "object_id": "Q8842"
+    },
+    {
+      "subject": "V* PX Vir",
+      "object": "Virgo",
+      "subject_id": "N/A",
+      "object_id": "Q8842"
+    },
+    {
+      "subject": "4C 06.69",
+      "object": "Pegasus",
+      "subject_id": "Q86433288",
+      "object_id": "Q8864"
+    },
+    {
+      "subject": "20 Piscium",
+      "object": "Pisces",
+      "subject_id": "Q10929070",
+      "object_id": "Q8679"
+    },
+    {
+      "subject": "Zeta Virginis",
+      "object": "Virgo",
+      "subject_id": "Q14199",
+      "object_id": "Q8842"
+    },
+    {
+      "subject": "33 Virginis",
+      "object": "Virgo",
+      "subject_id": "Q14861084",
+      "object_id": "Q8842"
+    },
+    {
+      "subject": "Gliese 486",
+      "object": "Virgo",
+      "subject_id": "N/A",
+      "object_id": "Q8842"
+    },
+    {
+      "subject": "Theta Virginis",
+      "object": "Virgo",
+      "subject_id": "Q5179020",
+      "object_id": "Q8842"
+    },
+    {
+      "subject": "Wolf 433",
+      "object": "Virgo",
+      "subject_id": "Q88418833",
+      "object_id": "Q8842"
+    },
+    {
+      "subject": "4C 04.42",
+      "object": "Virgo",
+      "subject_id": "Q90859529",
+      "object_id": "Q8842"
+    },
+    {
+      "subject": "Pollux",
+      "object": "Gemini",
+      "subject_id": "Q21446536",
+      "object_id": "Q8923"
+    },
+    {
+      "subject": "Mu Herculis A",
+      "object": "Hercules",
+      "subject_id": "Q1195626",
+      "object_id": "Q10448"
+    },
+    {
+      "subject": "72 Herculis",
+      "object": "Hercules",
+      "subject_id": "Q522600",
+      "object_id": "Q10448"
+    },
+    {
+      "subject": "Zeta Herculis",
+      "object": "Hercules",
+      "subject_id": "Q13341",
+      "object_id": "Q10448"
+    },
+    {
+      "subject": "Chi Herculis",
+      "object": "Hercules",
+      "subject_id": "Q5095067",
+      "object_id": "Q10448"
+    },
+    {
+      "subject": "110 Herculis",
+      "object": "Hercules",
+      "subject_id": "Q4547257",
+      "object_id": "Q10448"
+    },
+    {
+      "subject": "14 Herculis",
+      "object": "Hercules",
+      "subject_id": "Q190997",
+      "object_id": "Q10448"
+    },
+    {
+      "subject": "99 Herculis",
+      "object": "Hercules",
+      "subject_id": "Q8179836",
+      "object_id": "Q10448"
+    },
+    {
+      "subject": "Epsilon Indi A",
+      "object": "Indus",
+      "subject_id": "Q15705",
+      "object_id": "Q10450"
+    },
+    {
+      "subject": "Eta Herculis",
+      "object": "Hercules",
+      "subject_id": "Q3059196",
+      "object_id": "Q10448"
+    },
+    {
+      "subject": "Gliese 349",
+      "object": "Hydra",
+      "subject_id": "Q1069654",
+      "object_id": "Q10578"
+    },
+    {
+      "subject": "Beta Herculis",
+      "object": "Hercules",
+      "subject_id": "Q13337",
+      "object_id": "Q10448"
+    },
+    {
+      "subject": "Rho Geminorum",
+      "object": "Gemini",
+      "subject_id": "Q613469",
+      "object_id": "Q8923"
+    },
+    {
+      "subject": "Xi Herculis",
+      "object": "Hercules",
+      "subject_id": "Q3063131",
+      "object_id": "Q10448"
+    },
+    {
+      "subject": "Kappa Geminorum",
+      "object": "Gemini",
+      "subject_id": "Q2526773",
+      "object_id": "Q8923"
+    },
+    {
+      "subject": "Gliese 649",
+      "object": "Hercules",
+      "subject_id": "Q5175117",
+      "object_id": "Q10448"
+    },
+    {
+      "subject": "Nu Indi",
+      "object": "Indus",
+      "subject_id": "Q9049854",
+      "object_id": "Q10450"
+    },
+    {
+      "subject": "Gamma Geminorum",
+      "object": "Gemini",
+      "subject_id": "Q14238",
+      "object_id": "Q8923"
+    },
+    {
+      "subject": "Alphard",
+      "object": "Hydra",
+      "subject_id": "Q22255807",
+      "object_id": "Q10578"
+    },
+    {
+      "subject": "Gliese 251",
+      "object": "Gemini",
+      "subject_id": "Q4039908",
+      "object_id": "Q8923"
+    },
+    {
+      "subject": "Iota Geminorum",
+      "object": "Gemini",
+      "subject_id": "Q2711940",
+      "object_id": "Q8923"
+    },
+    {
+      "subject": "OU Geminorum",
+      "object": "Gemini",
+      "subject_id": "Q5174921",
+      "object_id": "Q8923"
+    },
+    {
+      "subject": "Delta Herculis",
+      "object": "Hercules",
+      "subject_id": "Q13347",
+      "object_id": "Q10448"
+    },
+    {
+      "subject": "Gliese 686",
+      "object": "Hercules",
+      "subject_id": "Q5880937",
+      "object_id": "Q10448"
+    },
+    {
+      "subject": "Xi Hydrae",
+      "object": "Hydra",
+      "subject_id": "Q1029059",
+      "object_id": "Q10578"
+    },
+    {
+      "subject": "Zeta Hydrae",
+      "object": "Hydra",
+      "subject_id": "Q1029070",
+      "object_id": "Q10578"
+    },
+    {
+      "subject": "Sigma Geminorum",
+      "object": "Gemini",
+      "subject_id": "Q943622",
+      "object_id": "Q8923"
+    },
+    {
+      "subject": "Theta Hydrae",
+      "object": "Hydra",
+      "subject_id": "Q1029146",
+      "object_id": "Q10578"
+    },
+    {
+      "subject": "Iota Herculis",
+      "object": "Hercules",
+      "subject_id": "Q4121460",
+      "object_id": "Q10448"
+    },
+    {
+      "subject": "Gamma Herculis",
+      "object": "Hercules",
+      "subject_id": "Q3043036",
+      "object_id": "Q10448"
+    },
+    {
+      "subject": "Epsilon Hydrae",
+      "object": "Hydra",
+      "subject_id": "Q1028788",
+      "object_id": "Q10578"
+    },
+    {
+      "subject": "Zeta Geminorum",
+      "object": "Gemini",
+      "subject_id": "Q502119",
+      "object_id": "Q8923"
+    },
+    {
+      "subject": "Omega Herculis",
+      "object": "Hercules",
+      "subject_id": "Q1759003",
+      "object_id": "Q10448"
+    },
+    {
+      "subject": "109 Herculis",
+      "object": "Hercules",
+      "subject_id": "Q4357894",
+      "object_id": "Q10448"
+    },
+    {
+      "subject": "V774 Herculis",
+      "object": "Hercules",
+      "subject_id": "Q91881031",
+      "object_id": "Q10448"
+    },
+    {
+      "subject": "Delta Geminorum",
+      "object": "Gemini",
+      "subject_id": "Q505787",
+      "object_id": "Q8923"
+    },
+    {
+      "subject": "Rho Indi",
+      "object": "Indus",
+      "subject_id": "Q1634469",
+      "object_id": "Q10450"
+    },
+    {
+      "subject": "V401 Hya",
+      "object": "Hydra",
+      "subject_id": "N/A",
+      "object_id": "Q10578"
+    },
+    {
+      "subject": "Epsilon Geminorum",
+      "object": "Gemini",
+      "subject_id": "Q1416569",
+      "object_id": "Q8923"
+    },
+    {
+      "subject": "YY Geminorum",
+      "object": "Gemini",
+      "subject_id": "Q89177075",
+      "object_id": "Q8923"
+    },
+    {
+      "subject": "Gamma Hydrae",
+      "object": "Hydra",
+      "subject_id": "Q2732974",
+      "object_id": "Q10578"
+    },
+    {
+      "subject": "Phi Herculis",
+      "object": "Hercules",
+      "subject_id": "Q5175156",
+      "object_id": "Q10448"
+    },
+    {
+      "subject": "Lambda Hydrae",
+      "object": "Hydra",
+      "subject_id": "Q1028353",
+      "object_id": "Q10578"
+    },
+    {
+      "subject": "37 Geminorum",
+      "object": "Gemini",
+      "subject_id": "Q1358479",
+      "object_id": "Q8923"
+    },
+    {
+      "subject": "89 Herculis",
+      "object": "Hercules",
+      "subject_id": "Q4645135",
+      "object_id": "Q10448"
+    },
+    {
+      "subject": "BD+18 3423",
+      "object": "Hercules",
+      "subject_id": "Q91692368",
+      "object_id": "Q10448"
+    },
+    {
+      "subject": "Tau Geminorum",
+      "object": "Gemini",
+      "subject_id": "Q940511",
+      "object_id": "Q8923"
+    },
+    {
+      "subject": "V377 Geminorum",
+      "object": "Gemini",
+      "subject_id": "Q66530875",
+      "object_id": "Q8923"
+    },
+    {
+      "subject": "BD+42 2667",
+      "object": "Hercules",
+      "subject_id": "Q78196889",
+      "object_id": "Q10448"
+    },
+    {
+      "subject": "Nu Herculis",
+      "object": "Hercules",
+      "subject_id": "Q3304062",
+      "object_id": "Q10448"
+    },
+    {
+      "subject": "* del Gem",
+      "object": "Gemini",
+      "subject_id": "Q98541000",
+      "object_id": "Q8923"
+    },
+    {
+      "subject": "39 Geminorum",
+      "object": "Gemini",
+      "subject_id": "Q15939711",
+      "object_id": "Q8923"
+    },
+    {
+      "subject": "Pi Herculis",
+      "object": "Hercules",
+      "subject_id": "Q2700715",
+      "object_id": "Q10448"
+    },
+    {
+      "subject": "Gliese 453",
+      "object": "Hydra",
+      "subject_id": "Q1070364",
+      "object_id": "Q10578"
+    },
+    {
+      "subject": "Kappa Herculis A",
+      "object": "Hercules",
+      "subject_id": "Q1851733",
+      "object_id": "Q10448"
+    },
+    {
+      "subject": "Upsilon1 Hydrae",
+      "object": "Hydra",
+      "subject_id": "Q5175375",
+      "object_id": "Q10578"
+    },
+    {
+      "subject": "Xi Geminorum",
+      "object": "Gemini",
+      "subject_id": "Q450766",
+      "object_id": "Q8923"
+    },
+    {
+      "subject": "30 Geminorum",
+      "object": "Gemini",
+      "subject_id": "Q4634503",
+      "object_id": "Q8923"
+    },
+    {
+      "subject": "V647 Herculis",
+      "object": "Hercules",
+      "subject_id": "Q91819650",
+      "object_id": "Q10448"
+    },
+    {
+      "subject": "QSO J0738+1742",
+      "object": "Gemini",
+      "subject_id": "Q88234893",
+      "object_id": "Q8923"
+    },
+    {
+      "subject": "Iota Hydrae",
+      "object": "Hydra",
+      "subject_id": "Q942373",
+      "object_id": "Q10578"
+    },
+    {
+      "subject": "V* LQ Hya",
+      "object": "Hydra",
+      "subject_id": "N/A",
+      "object_id": "Q10578"
+    },
+    {
+      "subject": "Upsilon Geminorum",
+      "object": "Gemini",
+      "subject_id": "Q5250310",
+      "object_id": "Q8923"
+    },
+    {
+      "subject": "Furuhjelm 46",
+      "object": "Hercules",
+      "subject_id": "Q2549338",
+      "object_id": "Q10448"
+    },
+    {
+      "subject": "111 Herculis",
+      "object": "Hercules",
+      "subject_id": "Q4547313",
+      "object_id": "Q10448"
+    },
+    {
+      "subject": "Nu Hydrae",
+      "object": "Hydra",
+      "subject_id": "Q1028799",
+      "object_id": "Q10578"
+    },
+    {
+      "subject": "81 Geminorum",
+      "object": "Gemini",
+      "subject_id": "Q4644537",
+      "object_id": "Q8923"
+    },
+    {
+      "subject": "Tau Herculis",
+      "object": "Hercules",
+      "subject_id": "Q3232652",
+      "object_id": "Q10448"
+    },
+    {
+      "subject": "Markarian 501",
+      "object": "Hercules",
+      "subject_id": "Q6770566",
+      "object_id": "Q10448"
+    },
+    {
+      "subject": "V1090 Herculis",
+      "object": "Hercules",
+      "subject_id": "Q66651734",
+      "object_id": "Q10448"
+    },
+    {
+      "subject": "1 Geminorum",
+      "object": "Gemini",
+      "subject_id": "Q135507",
+      "object_id": "Q8923"
+    },
+    {
+      "subject": "Gliese 433",
+      "object": "Hydra",
+      "subject_id": "Q1154982",
+      "object_id": "Q10578"
+    },
+    {
+      "subject": "Eta Geminorum",
+      "object": "Gemini",
+      "subject_id": "Q505752",
+      "object_id": "Q8923"
+    },
+    {
+      "subject": "Mu Geminorum",
+      "object": "Gemini",
+      "subject_id": "Q66497320",
+      "object_id": "Q8923"
+    },
+    {
+      "subject": "87 Herculis",
+      "object": "Hercules",
+      "subject_id": "Q10878942",
+      "object_id": "Q10448"
+    },
+    {
+      "subject": "Ross 889",
+      "object": "Hydra",
+      "subject_id": "Q97322928",
+      "object_id": "Q10578"
+    },
+    {
+      "subject": "Upsilon Andromedae",
+      "object": "Andromeda",
+      "subject_id": "Q848579",
+      "object_id": "Q9256"
+    },
+    {
+      "subject": "Mu Cassiopeiae",
+      "object": "Cassiopeia",
+      "subject_id": "Q682966",
+      "object_id": "Q10464"
+    },
+    {
+      "subject": "rho01 Cnc",
+      "object": "Cancer",
+      "subject_id": "Q66477294",
+      "object_id": "Q8849"
+    },
+    {
+      "subject": "Eta Cassiopeiae",
+      "object": "Cassiopeia",
+      "subject_id": "Q13605",
+      "object_id": "Q10464"
+    },
+    {
+      "subject": "GX Andromedae",
+      "object": "Andromeda",
+      "subject_id": "Q1143156",
+      "object_id": "Q9256"
+    },
+    {
+      "subject": "V987 Cassiopeiae",
+      "object": "Cassiopeia",
+      "subject_id": "Q2460297",
+      "object_id": "Q10464"
+    },
+    {
+      "subject": "Milky Way",
+      "object": "Cassiopeia",
+      "subject_id": "Q321",
+      "object_id": "Q10464"
+    },
+    {
+      "subject": "91 Aquarii",
+      "object": "Aquarius",
+      "subject_id": "Q284836",
+      "object_id": "Q10576"
+    },
+    {
+      "subject": "Andromeda",
+      "object": "Andromeda",
+      "subject_id": "Q9256",
+      "object_id": "Q9256"
+    },
+    {
+      "subject": "Gliese 876",
+      "object": "Aquarius",
+      "subject_id": "Q740780",
+      "object_id": "Q10576"
+    },
+    {
+      "subject": "Chi Cancri",
+      "object": "Cancer",
+      "subject_id": "Q2609100",
+      "object_id": "Q8849"
+    },
+    {
+      "subject": "Epsilon Andromedae",
+      "object": "Andromeda",
+      "subject_id": "Q536806",
+      "object_id": "Q9256"
+    },
+    {
+      "subject": "Lambda Andromedae",
+      "object": "Andromeda",
+      "subject_id": "Q749234",
+      "object_id": "Q9256"
+    },
+    {
+      "subject": "GJ 28",
+      "object": "Andromeda",
+      "subject_id": "N/A",
+      "object_id": "Q9256"
+    },
+    {
+      "subject": "Alpha Andromedae",
+      "object": "Andromeda",
+      "subject_id": "Q13039",
+      "object_id": "Q9256"
+    },
+    {
+      "subject": "14 Andromedae",
+      "object": "Andromeda",
+      "subject_id": "Q940004",
+      "object_id": "Q9256"
+    },
+    {
+      "subject": "Ross 248",
+      "object": "Andromeda",
+      "subject_id": "Q749072",
+      "object_id": "Q9256"
+    },
+    {
+      "subject": "11 Aquarii",
+      "object": "Aquarius",
+      "subject_id": "Q2399753",
+      "object_id": "Q10576"
+    },
+    {
+      "subject": "Delta Andromedae",
+      "object": "Andromeda",
+      "subject_id": "Q13061",
+      "object_id": "Q9256"
+    },
+    {
+      "subject": "Phi Cassiopeiae",
+      "object": "Cassiopeia",
+      "subject_id": "Q3304278",
+      "object_id": "Q10464"
+    },
+    {
+      "subject": "Alpha Cassiopeiae",
+      "object": "Cassiopeia",
+      "subject_id": "Q13108",
+      "object_id": "Q10464"
+    },
+    {
+      "subject": "Beta Andromedae",
+      "object": "Andromeda",
+      "subject_id": "Q13043",
+      "object_id": "Q9256"
+    },
+    {
+      "subject": "Upsilon2 Cassiopeiae",
+      "object": "Cassiopeia",
+      "subject_id": "Q5097587",
+      "object_id": "Q10464"
+    },
+    {
+      "subject": "V453 Andromedae",
+      "object": "Andromeda",
+      "subject_id": "Q66613512",
+      "object_id": "Q9256"
+    },
+    {
+      "subject": "Zeta Andromedae",
+      "object": "Andromeda",
+      "subject_id": "Q1202327",
+      "object_id": "Q9256"
+    },
+    {
+      "subject": "Psi2 Cancri",
+      "object": "Cancer",
+      "subject_id": "Q2403444",
+      "object_id": "Q8849"
+    },
+    {
+      "subject": "51 Andromedae",
+      "object": "Andromeda",
+      "subject_id": "Q242272",
+      "object_id": "Q9256"
+    },
+    {
+      "subject": "Gliese 849",
+      "object": "Aquarius",
+      "subject_id": "Q955530",
+      "object_id": "Q10576"
+    },
+    {
+      "subject": "Beta Cancri",
+      "object": "Cancer",
+      "subject_id": "Q13766",
+      "object_id": "Q8849"
+    },
+    {
+      "subject": "Beta Cassiopeiae",
+      "object": "Cassiopeia",
+      "subject_id": "Q13594",
+      "object_id": "Q10464"
+    },
+    {
+      "subject": "Mu2 Cancri",
+      "object": "Cancer",
+      "subject_id": "Q5174140",
+      "object_id": "Q8849"
+    },
+    {
+      "subject": "Gliese 49",
+      "object": "Cassiopeia",
+      "subject_id": "Q5880906",
+      "object_id": "Q10464"
+    },
+    {
+      "subject": "GQ Andromedae",
+      "object": "Andromeda",
+      "subject_id": "Q89986209",
+      "object_id": "Q9256"
+    },
+    {
+      "subject": "Beta Aquarii",
+      "object": "Aquarius",
+      "subject_id": "Q13243",
+      "object_id": "Q10576"
+    },
+    {
+      "subject": "5 Andromedae",
+      "object": "Andromeda",
+      "subject_id": "Q1051945",
+      "object_id": "Q9256"
+    },
+    {
+      "subject": "Navi",
+      "object": "Cassiopeia",
+      "subject_id": "Q37463251",
+      "object_id": "Q10464"
+    },
+    {
+      "subject": "94 Aquarii A",
+      "object": "Aquarius",
+      "subject_id": "Q2607823",
+      "object_id": "Q10576"
+    },
+    {
+      "subject": "6 Persei",
+      "object": "Andromeda",
+      "subject_id": "Q2399549",
+      "object_id": "Q9256"
+    },
+    {
+      "subject": "Alpha Aquarii",
+      "object": "Aquarius",
+      "subject_id": "Q13246",
+      "object_id": "Q10576"
+    },
+    {
+      "subject": "Delta Cancri",
+      "object": "Cancer",
+      "subject_id": "Q15706",
+      "object_id": "Q8849"
+    },
+    {
+      "subject": "Kappa Cancri",
+      "object": "Cancer",
+      "subject_id": "Q2608450",
+      "object_id": "Q8849"
+    },
+    {
+      "subject": "BD+38 4955",
+      "object": "Andromeda",
+      "subject_id": "Q91421820",
+      "object_id": "Q9256"
+    },
+    {
+      "subject": "Gliese 90",
+      "object": "Cassiopeia",
+      "subject_id": "Q15875765",
+      "object_id": "Q10464"
+    },
+    {
+      "subject": "Pi Andromedae",
+      "object": "Andromeda",
+      "subject_id": "Q1347986",
+      "object_id": "Q9256"
+    },
+    {
+      "subject": "Gamma¹ Andromedae",
+      "object": "Andromeda",
+      "subject_id": "Q13046",
+      "object_id": "Q9256"
+    },
+    {
+      "subject": "Iota Cancri A",
+      "object": "Cancer",
+      "subject_id": "Q2333595",
+      "object_id": "Q8849"
+    },
+    {
+      "subject": "QSO B2134+0028",
+      "object": "Aquarius",
+      "subject_id": "N/A",
+      "object_id": "Q10576"
+    },
+    {
+      "subject": "Omega Andromedae",
+      "object": "Andromeda",
+      "subject_id": "Q1208296",
+      "object_id": "Q9256"
+    },
+    {
+      "subject": "Buna",
+      "object": "Andromeda",
+      "subject_id": "Q37306868",
+      "object_id": "Q9256"
+    },
+    {
+      "subject": "44 Andromedae",
+      "object": "Andromeda",
+      "subject_id": "Q2607763",
+      "object_id": "Q9256"
+    },
+    {
+      "subject": "3 Andromedae",
+      "object": "Andromeda",
+      "subject_id": "Q1187579",
+      "object_id": "Q9256"
+    },
+    {
+      "subject": "Chi Cassiopeiae",
+      "object": "Cassiopeia",
+      "subject_id": "Q5095048",
+      "object_id": "Q10464"
+    },
+    {
+      "subject": "6 Andromedae",
+      "object": "Andromeda",
+      "subject_id": "Q1051937",
+      "object_id": "Q9256"
+    },
+    {
+      "subject": "28 Andromedae",
+      "object": "Andromeda",
+      "subject_id": "Q2720509",
+      "object_id": "Q9256"
+    },
+    {
+      "subject": "Zeta Cassiopeiae",
+      "object": "Cassiopeia",
+      "subject_id": "Q2663502",
+      "object_id": "Q10464"
+    },
+    {
+      "subject": "Pi Aquarii",
+      "object": "Aquarius",
+      "subject_id": "Q1194554",
+      "object_id": "Q10576"
+    },
+    {
+      "subject": "HZ Aquarii",
+      "object": "Aquarius",
+      "subject_id": "Q86704929",
+      "object_id": "Q10576"
+    },
+    {
+      "subject": "7C 082754.29+242103.00",
+      "object": "Cancer",
+      "subject_id": "Q84748495",
+      "object_id": "Q8849"
+    },
+    {
+      "subject": "Kappa Andromedae",
+      "object": "Andromeda",
+      "subject_id": "Q574570",
+      "object_id": "Q9256"
+    },
+    {
+      "subject": "Sigma3 Cancri A",
+      "object": "Cancer",
+      "subject_id": "Q1749316",
+      "object_id": "Q8849"
+    },
+    {
+      "subject": "81 Cancri AB",
+      "object": "Cancer",
+      "subject_id": "Q3599937",
+      "object_id": "Q8849"
+    },
+    {
+      "subject": "Xi Andromedae",
+      "object": "Andromeda",
+      "subject_id": "Q356632",
+      "object_id": "Q9256"
+    },
+    {
+      "subject": "FF Andromedae",
+      "object": "Andromeda",
+      "subject_id": "Q5853952",
+      "object_id": "Q9256"
+    },
+    {
+      "subject": "GN Andromedae",
+      "object": "Andromeda",
+      "subject_id": "Q98537993",
+      "object_id": "Q9256"
+    },
+    {
+      "subject": "Kappa Cassiopeiae",
+      "object": "Cassiopeia",
+      "subject_id": "Q303684",
+      "object_id": "Q10464"
+    },
+    {
+      "subject": "Omicron Andromedae",
+      "object": "Andromeda",
+      "subject_id": "Q1347977",
+      "object_id": "Q9256"
+    },
+    {
+      "subject": "BD+47 612",
+      "object": "Andromeda",
+      "subject_id": "Q67856853",
+      "object_id": "Q9256"
+    },
+    {
+      "subject": "Delta Cassiopeiae",
+      "object": "Cassiopeia",
+      "subject_id": "Q13597",
+      "object_id": "Q10464"
+    },
+    {
+      "subject": "Epsilon Aquarii",
+      "object": "Aquarius",
+      "subject_id": "Q1501569",
+      "object_id": "Q10576"
+    },
+    {
+      "subject": "75 Cancri",
+      "object": "Cancer",
+      "subject_id": "Q2403417",
+      "object_id": "Q8849"
+    },
+    {
+      "subject": "Mu Andromedae",
+      "object": "Andromeda",
+      "subject_id": "Q1150445",
+      "object_id": "Q9256"
+    },
+    {
+      "subject": "1 Aquarii",
+      "object": "Aquarius",
+      "subject_id": "Q2607799",
+      "object_id": "Q10576"
+    },
+    {
+      "subject": "Theta Aquarii",
+      "object": "Aquarius",
+      "subject_id": "Q337846",
+      "object_id": "Q10576"
+    },
+    {
+      "subject": "BD+59 2723",
+      "object": "Cassiopeia",
+      "subject_id": "Q91631895",
+      "object_id": "Q10464"
+    },
+    {
+      "subject": "108 Aquarii",
+      "object": "Aquarius",
+      "subject_id": "Q3280807",
+      "object_id": "Q10576"
+    },
+    {
+      "subject": "BD+10 1857",
+      "object": "Cancer",
+      "subject_id": "Q87097894",
+      "object_id": "Q8849"
+    },
+    {
+      "subject": "Psi Andromedae",
+      "object": "Andromeda",
+      "subject_id": "Q1209083",
+      "object_id": "Q9256"
+    },
+    {
+      "subject": "Eta Andromedae",
+      "object": "Andromeda",
+      "subject_id": "Q1359139",
+      "object_id": "Q9256"
+    },
+    {
+      "subject": "96 Aquarii",
+      "object": "Aquarius",
+      "subject_id": "Q1747908",
+      "object_id": "Q10576"
+    },
+    {
+      "subject": "Gamma Aquarii",
+      "object": "Aquarius",
+      "subject_id": "Q1146408",
+      "object_id": "Q10576"
+    },
+    {
+      "subject": "12 Andromedae",
+      "object": "Andromeda",
+      "subject_id": "Q2399764",
+      "object_id": "Q9256"
+    },
+    {
+      "subject": "56 Andromedae",
+      "object": "Andromeda",
+      "subject_id": "Q2608909",
+      "object_id": "Q9256"
+    },
+    {
+      "subject": "Omicron Cassiopeiae",
+      "object": "Cassiopeia",
+      "subject_id": "Q3304216",
+      "object_id": "Q10464"
+    },
+    {
+      "subject": "EZ Aquarii",
+      "object": "Aquarius",
+      "subject_id": "Q955526",
+      "object_id": "Q10576"
+    },
+    {
+      "subject": "FK Aquarii",
+      "object": "Aquarius",
+      "subject_id": "Q5853994",
+      "object_id": "Q10576"
+    }
+  ]
+}

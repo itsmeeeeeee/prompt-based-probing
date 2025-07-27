@@ -1,0 +1,201 @@
+{
+  "name": "food from country",
+  "prompt_templates": [
+    "{} originates from",
+    "{} is from the country of",
+    "{} is a food from",
+    "{} is a traditional dish from"
+  ],
+  "prompt_templates_zs": [
+    "What is the country of origin for {}? It originates from",
+    "{} originates from the country of"
+  ],
+  "properties": {
+    "relation_type": "factual",
+    "domain_name": "food",
+    "range_name": "country",
+    "symmetric": false
+  },
+  "samples": [
+    {
+      "subject": "Pizza",
+      "object": "Italy",
+      "subject_id": "Q177",
+      "object_id": "Q38"
+    },
+    {
+      "subject": "Sushi",
+      "object": "Japan",
+      "subject_id": "Q46383",
+      "object_id": "Q17"
+    },
+    {
+      "subject": "Tacos",
+      "object": "Mexico",
+      "subject_id": "Q191655",
+      "object_id": "Q96"
+    },
+    {
+      "subject": "Baguette",
+      "object": "France",
+      "subject_id": "Q208172",
+      "object_id": "Q142"
+    },
+    {
+      "subject": "Poutine",
+      "object": "Canada",
+      "subject_id": "Q396184",
+      "object_id": "Q16"
+    },
+    {
+      "subject": "Paella",
+      "object": "Spain",
+      "subject_id": "Q212121",
+      "object_id": "Q29"
+    },
+    {
+      "subject": "Chimichurri",
+      "object": "Argentina",
+      "subject_id": "Q1073142",
+      "object_id": "Q414"
+    },
+    {
+      "subject": "Baklava",
+      "object": "Turkey",
+      "subject_id": "Q187495",
+      "object_id": "Q43"
+    },
+    {
+      "subject": "Feijoada",
+      "object": "Brazil",
+      "subject_id": "Q878189",
+      "object_id": "Q155"
+    },
+    {
+      "subject": "Borscht",
+      "object": "Ukraine",
+      "subject_id": "Q4551",
+      "object_id": "Q212"
+    },
+    {
+      "subject": "Fish and Chips",
+      "object": "United Kingdom",
+      "subject_id": "Q203925",
+      "object_id": "Q145"
+    },
+    {
+      "subject": "Dim Sum",
+      "object": "China",
+      "subject_id": "Q339836",
+      "object_id": "Q148"
+    },
+    {
+      "subject": "Kimchi",
+      "object": "South Korea",
+      "subject_id": "Q141898",
+      "object_id": "Q884"
+    },
+    {
+      "subject": "Goulash",
+      "object": "Hungary",
+      "subject_id": "Q205762",
+      "object_id": "Q28"
+    },
+    {
+      "subject": "Pierogi",
+      "object": "Poland",
+      "subject_id": "Q697800",
+      "object_id": "Q36"
+    },
+    {
+      "subject": "Pho",
+      "object": "Vietnam",
+      "subject_id": "N/A",
+      "object_id": "Q881"
+    },
+    {
+      "subject": "Hummus",
+      "object": "Lebanon",
+      "subject_id": "Q241987",
+      "object_id": "Q822"
+    },
+    {
+      "subject": "Gyro",
+      "object": "Greece",
+      "subject_id": "Q124831161",
+      "object_id": "Q41"
+    },
+    {
+      "subject": "Masala Dosa",
+      "object": "India",
+      "subject_id": "Q11771087",
+      "object_id": "Q668"
+    },
+    {
+      "subject": "Rendang",
+      "object": "Indonesia",
+      "subject_id": "Q1520293",
+      "object_id": "Q252"
+    },
+    {
+      "subject": "Moussaka",
+      "object": "Greece",
+      "subject_id": "Q206918",
+      "object_id": "Q41"
+    },
+    {
+      "subject": "Pavlova",
+      "object": "New Zealand",
+      "subject_id": "Q1419824",
+      "object_id": "Q664"
+    },
+    {
+      "subject": "Shawarma",
+      "object": "Middle East",
+      "subject_id": "Q3412448",
+      "object_id": "Q7204"
+    },
+    {
+      "subject": "Falafel",
+      "object": "Middle East",
+      "subject_id": "Q188788",
+      "object_id": "Q7204"
+    },
+    {
+      "subject": "Ceviche",
+      "object": "Peru",
+      "subject_id": "Q1057953",
+      "object_id": "Q419"
+    },
+    {
+      "subject": "Biryani",
+      "object": "India",
+      "subject_id": "Q271555",
+      "object_id": "Q668"
+    },
+    {
+      "subject": "Wiener Schnitzel",
+      "object": "Austria",
+      "subject_id": "Q6497852",
+      "object_id": "Q40"
+    },
+    {
+      "subject": "Fondue",
+      "object": "Switzerland",
+      "subject_id": "Q190531",
+      "object_id": "Q39"
+    },
+    {
+      "subject": "Pad Thai",
+      "object": "Thailand",
+      "subject_id": "Q730298",
+      "object_id": "Q869"
+    },
+    {
+      "subject": "Miso Soup",
+      "object": "Japan",
+      "subject_id": "Q471866",
+      "object_id": "Q17"
+    }
+  ]
+}

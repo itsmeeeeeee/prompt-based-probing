@@ -1,0 +1,26 @@
+{
+  "relation": "person_plays_instrument",
+  "template_scores": {
+    "{} plays the": {
+      "average_first_token_prob": 0.027638158370644494,
+      "reliability": 0.15009746588693956,
+      "overall_score": 0.004148417533215645
+    },
+    "{} is an instrumentalist on the": {
+      "average_first_token_prob": 0.09472126802738182,
+      "reliability": 0.4171539961013645,
+      "overall_score": 0.039513355473410734
+    },
+    "{} performs with the": {
+      "average_first_token_prob": 5.26472838998538e-05,
+      "reliability": 0.001949317738791423,
+      "overall_score": 1.026262844051731e-07
+    }
+  },
+  "best_template": "{} is an instrumentalist on the",
+  "best_template_metrics": {
+    "average_first_token_prob": 0.09472126802738182,
+    "reliability": 0.4171539961013645,
+    "overall_score": 0.039513355473410734
+  }
+}

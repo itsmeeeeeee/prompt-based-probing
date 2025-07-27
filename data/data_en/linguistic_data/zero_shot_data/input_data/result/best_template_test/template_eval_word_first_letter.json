@@ -1,0 +1,26 @@
+{
+  "relation": "word_first_letter",
+  "template_scores": {
+    "{} starts with the letter": {
+      "average_first_token_prob": 0.1067794863119165,
+      "reliability": 0.5103734439834025,
+      "overall_score": 0.0544974141757914
+    },
+    "What letter does {} begin with?": {
+      "average_first_token_prob": 0.0014344528008298756,
+      "reliability": 0.0,
+      "overall_score": 0.0
+    },
+    "Identify the first letter of the word {}.": {
+      "average_first_token_prob": 0.0,
+      "reliability": 0.0,
+      "overall_score": 0.0
+    }
+  },
+  "best_template": "{} starts with the letter",
+  "best_template_metrics": {
+    "average_first_token_prob": 0.1067794863119165,
+    "reliability": 0.5103734439834025,
+    "overall_score": 0.0544974141757914
+  }
+}

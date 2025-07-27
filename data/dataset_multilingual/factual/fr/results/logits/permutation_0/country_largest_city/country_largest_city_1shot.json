@@ -1,0 +1,2444 @@
+[
+  {
+    "prompt": "La ville la plus peuplée de Norvège est Oslo.\nLa ville la plus peuplée de États-Unis est",
+    "generated_prefix": "La ville la plus peuplée de Norvège est Oslo.\nLa ville la plus peuplée de États-Unis est",
+    "gold_token": " New",
+    "predicted_top1_token": " New",
+    "token_pos_in_answer": 0,
+    "gold_logit": 18.765625,
+    "gold_prob_percent": 84.42,
+    "first_token_prob": 0.84423828125,
+    "second_token_prob": 0.051513671875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " New",
+        "logit": 18.765625,
+        "probability_percent": 84.42
+      },
+      {
+        "rank": 1,
+        "token": " Los",
+        "logit": 15.96875,
+        "probability_percent": 5.15
+      },
+      {
+        "rank": 2,
+        "token": " Chicago",
+        "logit": 14.359375,
+        "probability_percent": 1.03
+      },
+      {
+        "rank": 3,
+        "token": " la",
+        "logit": 14.1796875,
+        "probability_percent": 0.86
+      },
+      {
+        "rank": 4,
+        "token": " Houston",
+        "logit": 14.0,
+        "probability_percent": 0.72
+      },
+      {
+        "rank": 5,
+        "token": " le",
+        "logit": 13.9375,
+        "probability_percent": 0.68
+      },
+      {
+        "rank": 6,
+        "token": " É",
+        "logit": 13.328125,
+        "probability_percent": 0.37
+      },
+      {
+        "rank": 7,
+        "token": " Dallas",
+        "logit": 13.15625,
+        "probability_percent": 0.31
+      },
+      {
+        "rank": 8,
+        "token": " N",
+        "logit": 13.078125,
+        "probability_percent": 0.29
+      },
+      {
+        "rank": 9,
+        "token": " La",
+        "logit": 12.9140625,
+        "probability_percent": 0.24
+      }
+    ]
+  },
+  {
+    "prompt": "La ville la plus peuplée de Norvège est Oslo.\nLa ville la plus peuplée de États-Unis est",
+    "generated_prefix": "La ville la plus peuplée de Norvège est Oslo.\nLa ville la plus peuplée de États-Unis est New",
+    "gold_token": " York",
+    "predicted_top1_token": " York",
+    "token_pos_in_answer": 1,
+    "gold_logit": 22.578125,
+    "gold_prob_percent": 98.68,
+    "first_token_prob": 0.84423828125,
+    "second_token_prob": 0.051513671875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " York",
+        "logit": 22.578125,
+        "probability_percent": 98.68
+      },
+      {
+        "rank": 1,
+        "token": "-Y",
+        "logit": 17.875,
+        "probability_percent": 0.89
+      },
+      {
+        "rank": 2,
+        "token": " york",
+        "logit": 15.796875,
+        "probability_percent": 0.11
+      },
+      {
+        "rank": 3,
+        "token": " ",
+        "logit": 15.3515625,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 4,
+        "token": "York",
+        "logit": 15.328125,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 5,
+        "token": " Y",
+        "logit": 14.828125,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 6,
+        "token": " Orleans",
+        "logit": 14.265625,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 7,
+        "token": " Jersey",
+        "logit": 13.25,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 8,
+        "token": " Your",
+        "logit": 13.2265625,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 9,
+        "token": "\n",
+        "logit": 13.1875,
+        "probability_percent": 0.01
+      }
+    ]
+  },
+  {
+    "prompt": "La ville la plus peuplée de Norvège est Oslo.\nLa ville la plus peuplée de république populaire de Chine est",
+    "generated_prefix": "La ville la plus peuplée de Norvège est Oslo.\nLa ville la plus peuplée de république populaire de Chine est",
+    "gold_token": " Shanghai",
+    "predicted_top1_token": " Ch",
+    "token_pos_in_answer": 0,
+    "gold_logit": 16.484375,
+    "gold_prob_percent": 21.77,
+    "first_token_prob": 0.2281494140625,
+    "second_token_prob": 0.224609375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Ch",
+        "logit": 16.53125,
+        "probability_percent": 22.81
+      },
+      {
+        "rank": 1,
+        "token": " Pé",
+        "logit": 16.515625,
+        "probability_percent": 22.46
+      },
+      {
+        "rank": 2,
+        "token": " Shanghai",
+        "logit": 16.484375,
+        "probability_percent": 21.77
+      },
+      {
+        "rank": 3,
+        "token": " Sh",
+        "logit": 14.671875,
+        "probability_percent": 3.55
+      },
+      {
+        "rank": 4,
+        "token": " Wu",
+        "logit": 14.328125,
+        "probability_percent": 2.52
+      },
+      {
+        "rank": 5,
+        "token": " Guang",
+        "logit": 14.2265625,
+        "probability_percent": 2.28
+      },
+      {
+        "rank": 6,
+        "token": " la",
+        "logit": 13.984375,
+        "probability_percent": 1.79
+      },
+      {
+        "rank": 7,
+        "token": " Cheng",
+        "logit": 13.9609375,
+        "probability_percent": 1.75
+      },
+      {
+        "rank": 8,
+        "token": " Tian",
+        "logit": 13.8359375,
+        "probability_percent": 1.54
+      },
+      {
+        "rank": 9,
+        "token": " Beijing",
+        "logit": 13.421875,
+        "probability_percent": 1.02
+      }
+    ]
+  },
+  {
+    "prompt": "La ville la plus peuplée de Norvège est Oslo.\nLa ville la plus peuplée de Japon est",
+    "generated_prefix": "La ville la plus peuplée de Norvège est Oslo.\nLa ville la plus peuplée de Japon est",
+    "gold_token": " Tokyo",
+    "predicted_top1_token": " Tokyo",
+    "token_pos_in_answer": 0,
+    "gold_logit": 18.390625,
+    "gold_prob_percent": 77.29,
+    "first_token_prob": 0.77294921875,
+    "second_token_prob": 0.061492919921875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Tokyo",
+        "logit": 18.390625,
+        "probability_percent": 77.29
+      },
+      {
+        "rank": 1,
+        "token": " Osaka",
+        "logit": 15.859375,
+        "probability_percent": 6.15
+      },
+      {
+        "rank": 2,
+        "token": " T",
+        "logit": 14.859375,
+        "probability_percent": 2.26
+      },
+      {
+        "rank": 3,
+        "token": " la",
+        "logit": 14.7578125,
+        "probability_percent": 2.04
+      },
+      {
+        "rank": 4,
+        "token": " Yok",
+        "logit": 14.6640625,
+        "probability_percent": 1.86
+      },
+      {
+        "rank": 5,
+        "token": " S",
+        "logit": 14.546875,
+        "probability_percent": 1.65
+      },
+      {
+        "rank": 6,
+        "token": " Kyoto",
+        "logit": 14.2890625,
+        "probability_percent": 1.28
+      },
+      {
+        "rank": 7,
+        "token": " Tok",
+        "logit": 14.2734375,
+        "probability_percent": 1.26
+      },
+      {
+        "rank": 8,
+        "token": " F",
+        "logit": 14.046875,
+        "probability_percent": 1.0
+      },
+      {
+        "rank": 9,
+        "token": " Ch",
+        "logit": 13.1953125,
+        "probability_percent": 0.43
+      }
+    ]
+  },
+  {
+    "prompt": "La ville la plus peuplée de Norvège est Oslo.\nLa ville la plus peuplée de Russie est",
+    "generated_prefix": "La ville la plus peuplée de Norvège est Oslo.\nLa ville la plus peuplée de Russie est",
+    "gold_token": " Mos",
+    "predicted_top1_token": " Mos",
+    "token_pos_in_answer": 0,
+    "gold_logit": 18.359375,
+    "gold_prob_percent": 84.08,
+    "first_token_prob": 0.8408203125,
+    "second_token_prob": 0.0943603515625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Mos",
+        "logit": 18.359375,
+        "probability_percent": 84.08
+      },
+      {
+        "rank": 1,
+        "token": " Saint",
+        "logit": 16.171875,
+        "probability_percent": 9.44
+      },
+      {
+        "rank": 2,
+        "token": " S",
+        "logit": 13.8671875,
+        "probability_percent": 0.94
+      },
+      {
+        "rank": 3,
+        "token": " Moscow",
+        "logit": 13.7265625,
+        "probability_percent": 0.82
+      },
+      {
+        "rank": 4,
+        "token": " la",
+        "logit": 12.96875,
+        "probability_percent": 0.38
+      },
+      {
+        "rank": 5,
+        "token": " St",
+        "logit": 12.6640625,
+        "probability_percent": 0.28
+      },
+      {
+        "rank": 6,
+        "token": " M",
+        "logit": 12.390625,
+        "probability_percent": 0.22
+      },
+      {
+        "rank": 7,
+        "token": " Magn",
+        "logit": 12.3203125,
+        "probability_percent": 0.2
+      },
+      {
+        "rank": 8,
+        "token": " Sé",
+        "logit": 12.296875,
+        "probability_percent": 0.2
+      },
+      {
+        "rank": 9,
+        "token": " T",
+        "logit": 12.046875,
+        "probability_percent": 0.15
+      }
+    ]
+  },
+  {
+    "prompt": "La ville la plus peuplée de Norvège est Oslo.\nLa ville la plus peuplée de Russie est",
+    "generated_prefix": "La ville la plus peuplée de Norvège est Oslo.\nLa ville la plus peuplée de Russie est Mos",
+    "gold_token": "cou",
+    "predicted_top1_token": "cou",
+    "token_pos_in_answer": 1,
+    "gold_logit": 22.875,
+    "gold_prob_percent": 99.9,
+    "first_token_prob": 0.8408203125,
+    "second_token_prob": 0.0943603515625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "cou",
+        "logit": 22.875,
+        "probability_percent": 99.9
+      },
+      {
+        "rank": 1,
+        "token": "c",
+        "logit": 14.8984375,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 2,
+        "token": "k",
+        "logit": 14.6015625,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 3,
+        "token": "kou",
+        "logit": 14.1015625,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 4,
+        "token": " cou",
+        "logit": 13.3359375,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 5,
+        "token": "kova",
+        "logit": 13.28125,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 6,
+        "token": "ca",
+        "logit": 12.25,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": "kov",
+        "logit": 12.0625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "co",
+        "logit": 11.9609375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "cov",
+        "logit": 11.484375,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "La ville la plus peuplée de Norvège est Oslo.\nLa ville la plus peuplée de Inde est",
+    "generated_prefix": "La ville la plus peuplée de Norvège est Oslo.\nLa ville la plus peuplée de Inde est",
+    "gold_token": " Bombay",
+    "predicted_top1_token": " Mumbai",
+    "token_pos_in_answer": 0,
+    "gold_logit": 14.6328125,
+    "gold_prob_percent": 5.36,
+    "first_token_prob": 0.2459716796875,
+    "second_token_prob": 0.137939453125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Mumbai",
+        "logit": 16.15625,
+        "probability_percent": 24.6
+      },
+      {
+        "rank": 1,
+        "token": " Delhi",
+        "logit": 15.578125,
+        "probability_percent": 13.79
+      },
+      {
+        "rank": 2,
+        "token": " Cal",
+        "logit": 15.2734375,
+        "probability_percent": 10.17
+      },
+      {
+        "rank": 3,
+        "token": " Bangalore",
+        "logit": 14.8671875,
+        "probability_percent": 6.77
+      },
+      {
+        "rank": 4,
+        "token": " Bombay",
+        "logit": 14.6328125,
+        "probability_percent": 5.36
+      },
+      {
+        "rank": 5,
+        "token": " M",
+        "logit": 14.078125,
+        "probability_percent": 3.08
+      },
+      {
+        "rank": 6,
+        "token": " New",
+        "logit": 13.9453125,
+        "probability_percent": 2.7
+      },
+      {
+        "rank": 7,
+        "token": " Hyderabad",
+        "logit": 13.671875,
+        "probability_percent": 2.05
+      },
+      {
+        "rank": 8,
+        "token": " Gu",
+        "logit": 13.4375,
+        "probability_percent": 1.62
+      },
+      {
+        "rank": 9,
+        "token": " Ag",
+        "logit": 13.4140625,
+        "probability_percent": 1.59
+      }
+    ]
+  },
+  {
+    "prompt": "La ville la plus peuplée de Norvège est Oslo.\nLa ville la plus peuplée de Brésil est",
+    "generated_prefix": "La ville la plus peuplée de Norvège est Oslo.\nLa ville la plus peuplée de Brésil est",
+    "gold_token": " São",
+    "predicted_top1_token": " São",
+    "token_pos_in_answer": 0,
+    "gold_logit": 18.609375,
+    "gold_prob_percent": 53.66,
+    "first_token_prob": 0.53662109375,
+    "second_token_prob": 0.2271728515625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " São",
+        "logit": 18.609375,
+        "probability_percent": 53.66
+      },
+      {
+        "rank": 1,
+        "token": " Rio",
+        "logit": 17.75,
+        "probability_percent": 22.72
+      },
+      {
+        "rank": 2,
+        "token": " Sao",
+        "logit": 16.390625,
+        "probability_percent": 5.83
+      },
+      {
+        "rank": 3,
+        "token": " Bras",
+        "logit": 15.8984375,
+        "probability_percent": 3.57
+      },
+      {
+        "rank": 4,
+        "token": " Bel",
+        "logit": 15.6328125,
+        "probability_percent": 2.73
+      },
+      {
+        "rank": 5,
+        "token": " Salvador",
+        "logit": 15.546875,
+        "probability_percent": 2.51
+      },
+      {
+        "rank": 6,
+        "token": " le",
+        "logit": 14.9296875,
+        "probability_percent": 1.35
+      },
+      {
+        "rank": 7,
+        "token": " Br",
+        "logit": 14.71875,
+        "probability_percent": 1.1
+      },
+      {
+        "rank": 8,
+        "token": " Porto",
+        "logit": 14.328125,
+        "probability_percent": 0.74
+      },
+      {
+        "rank": 9,
+        "token": " la",
+        "logit": 14.2734375,
+        "probability_percent": 0.7
+      }
+    ]
+  },
+  {
+    "prompt": "La ville la plus peuplée de Norvège est Oslo.\nLa ville la plus peuplée de Brésil est",
+    "generated_prefix": "La ville la plus peuplée de Norvège est Oslo.\nLa ville la plus peuplée de Brésil est São",
+    "gold_token": " Paulo",
+    "predicted_top1_token": " Paulo",
+    "token_pos_in_answer": 1,
+    "gold_logit": 23.328125,
+    "gold_prob_percent": 99.61,
+    "first_token_prob": 0.53662109375,
+    "second_token_prob": 0.2271728515625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Paulo",
+        "logit": 23.328125,
+        "probability_percent": 99.61
+      },
+      {
+        "rank": 1,
+        "token": " Paolo",
+        "logit": 16.78125,
+        "probability_percent": 0.14
+      },
+      {
+        "rank": 2,
+        "token": " Bern",
+        "logit": 16.046875,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 3,
+        "token": " José",
+        "logit": 15.6640625,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 4,
+        "token": " Lu",
+        "logit": 15.1328125,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 5,
+        "token": " Paul",
+        "logit": 14.46875,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 6,
+        "token": " ",
+        "logit": 14.4140625,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 7,
+        "token": " Salvador",
+        "logit": 14.2578125,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 8,
+        "token": " Ca",
+        "logit": 13.921875,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 9,
+        "token": " Gon",
+        "logit": 13.828125,
+        "probability_percent": 0.01
+      }
+    ]
+  },
+  {
+    "prompt": "La ville la plus peuplée de Norvège est Oslo.\nLa ville la plus peuplée de Australie est",
+    "generated_prefix": "La ville la plus peuplée de Norvège est Oslo.\nLa ville la plus peuplée de Australie est",
+    "gold_token": " Sydney",
+    "predicted_top1_token": " Sydney",
+    "token_pos_in_answer": 0,
+    "gold_logit": 18.109375,
+    "gold_prob_percent": 55.13,
+    "first_token_prob": 0.55126953125,
+    "second_token_prob": 0.2646484375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Sydney",
+        "logit": 18.109375,
+        "probability_percent": 55.13
+      },
+      {
+        "rank": 1,
+        "token": " Melbourne",
+        "logit": 17.375,
+        "probability_percent": 26.46
+      },
+      {
+        "rank": 2,
+        "token": " Canberra",
+        "logit": 15.4765625,
+        "probability_percent": 3.96
+      },
+      {
+        "rank": 3,
+        "token": " Brisbane",
+        "logit": 15.3515625,
+        "probability_percent": 3.5
+      },
+      {
+        "rank": 4,
+        "token": " Perth",
+        "logit": 14.859375,
+        "probability_percent": 2.14
+      },
+      {
+        "rank": 5,
+        "token": " la",
+        "logit": 14.40625,
+        "probability_percent": 1.36
+      },
+      {
+        "rank": 6,
+        "token": " Sidney",
+        "logit": 14.1484375,
+        "probability_percent": 1.05
+      },
+      {
+        "rank": 7,
+        "token": " le",
+        "logit": 13.671875,
+        "probability_percent": 0.65
+      },
+      {
+        "rank": 8,
+        "token": " Cair",
+        "logit": 13.484375,
+        "probability_percent": 0.54
+      },
+      {
+        "rank": 9,
+        "token": " Sy",
+        "logit": 13.0390625,
+        "probability_percent": 0.35
+      }
+    ]
+  },
+  {
+    "prompt": "La ville la plus peuplée de Norvège est Oslo.\nLa ville la plus peuplée de Canada est",
+    "generated_prefix": "La ville la plus peuplée de Norvège est Oslo.\nLa ville la plus peuplée de Canada est",
+    "gold_token": " Toronto",
+    "predicted_top1_token": " Toronto",
+    "token_pos_in_answer": 0,
+    "gold_logit": 18.59375,
+    "gold_prob_percent": 48.54,
+    "first_token_prob": 0.4853515625,
+    "second_token_prob": 0.281005859375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Toronto",
+        "logit": 18.59375,
+        "probability_percent": 48.54
+      },
+      {
+        "rank": 1,
+        "token": " Mon",
+        "logit": 18.046875,
+        "probability_percent": 28.1
+      },
+      {
+        "rank": 2,
+        "token": " la",
+        "logit": 16.578125,
+        "probability_percent": 6.47
+      },
+      {
+        "rank": 3,
+        "token": " le",
+        "logit": 16.09375,
+        "probability_percent": 3.99
+      },
+      {
+        "rank": 4,
+        "token": " Vancouver",
+        "logit": 15.8046875,
+        "probability_percent": 2.98
+      },
+      {
+        "rank": 5,
+        "token": " Calgary",
+        "logit": 15.0703125,
+        "probability_percent": 1.43
+      },
+      {
+        "rank": 6,
+        "token": " Québec",
+        "logit": 14.5234375,
+        "probability_percent": 0.83
+      },
+      {
+        "rank": 7,
+        "token": " Saint",
+        "logit": 14.3671875,
+        "probability_percent": 0.71
+      },
+      {
+        "rank": 8,
+        "token": " l",
+        "logit": 14.0234375,
+        "probability_percent": 0.5
+      },
+      {
+        "rank": 9,
+        "token": " Ottawa",
+        "logit": 13.75,
+        "probability_percent": 0.38
+      }
+    ]
+  },
+  {
+    "prompt": "La ville la plus peuplée de Norvège est Oslo.\nLa ville la plus peuplée de Royaume-Uni est",
+    "generated_prefix": "La ville la plus peuplée de Norvège est Oslo.\nLa ville la plus peuplée de Royaume-Uni est",
+    "gold_token": " Lond",
+    "predicted_top1_token": " Lond",
+    "token_pos_in_answer": 0,
+    "gold_logit": 18.734375,
+    "gold_prob_percent": 90.33,
+    "first_token_prob": 0.9033203125,
+    "second_token_prob": 0.016937255859375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Lond",
+        "logit": 18.734375,
+        "probability_percent": 90.33
+      },
+      {
+        "rank": 1,
+        "token": " Birmingham",
+        "logit": 14.7578125,
+        "probability_percent": 1.69
+      },
+      {
+        "rank": 2,
+        "token": " Liverpool",
+        "logit": 14.2421875,
+        "probability_percent": 1.01
+      },
+      {
+        "rank": 3,
+        "token": " l",
+        "logit": 13.8203125,
+        "probability_percent": 0.66
+      },
+      {
+        "rank": 4,
+        "token": " la",
+        "logit": 13.7734375,
+        "probability_percent": 0.63
+      },
+      {
+        "rank": 5,
+        "token": " London",
+        "logit": 13.6015625,
+        "probability_percent": 0.53
+      },
+      {
+        "rank": 6,
+        "token": " Leeds",
+        "logit": 13.3359375,
+        "probability_percent": 0.41
+      },
+      {
+        "rank": 7,
+        "token": " Manchester",
+        "logit": 13.25,
+        "probability_percent": 0.37
+      },
+      {
+        "rank": 8,
+        "token": " É",
+        "logit": 13.0859375,
+        "probability_percent": 0.32
+      },
+      {
+        "rank": 9,
+        "token": " le",
+        "logit": 12.9921875,
+        "probability_percent": 0.29
+      }
+    ]
+  },
+  {
+    "prompt": "La ville la plus peuplée de Norvège est Oslo.\nLa ville la plus peuplée de Royaume-Uni est",
+    "generated_prefix": "La ville la plus peuplée de Norvège est Oslo.\nLa ville la plus peuplée de Royaume-Uni est Lond",
+    "gold_token": "res",
+    "predicted_top1_token": "res",
+    "token_pos_in_answer": 1,
+    "gold_logit": 24.15625,
+    "gold_prob_percent": 99.9,
+    "first_token_prob": 0.9033203125,
+    "second_token_prob": 0.016937255859375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "res",
+        "logit": 24.15625,
+        "probability_percent": 99.9
+      },
+      {
+        "rank": 1,
+        "token": "resse",
+        "logit": 16.53125,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 2,
+        "token": "re",
+        "logit": 14.703125,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 3,
+        "token": "ra",
+        "logit": 14.3515625,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 4,
+        "token": "es",
+        "logit": 14.0546875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 5,
+        "token": "resh",
+        "logit": 13.2265625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": " res",
+        "logit": 13.046875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": "ress",
+        "logit": 12.7265625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "ès",
+        "logit": 12.625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "ras",
+        "logit": 12.5078125,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "La ville la plus peuplée de Norvège est Oslo.\nLa ville la plus peuplée de France est",
+    "generated_prefix": "La ville la plus peuplée de Norvège est Oslo.\nLa ville la plus peuplée de France est",
+    "gold_token": " Paris",
+    "predicted_top1_token": " Paris",
+    "token_pos_in_answer": 0,
+    "gold_logit": 19.046875,
+    "gold_prob_percent": 77.39,
+    "first_token_prob": 0.77392578125,
+    "second_token_prob": 0.0841064453125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Paris",
+        "logit": 19.046875,
+        "probability_percent": 77.39
+      },
+      {
+        "rank": 1,
+        "token": " Marseille",
+        "logit": 16.828125,
+        "probability_percent": 8.41
+      },
+      {
+        "rank": 2,
+        "token": " Lyon",
+        "logit": 16.390625,
+        "probability_percent": 5.43
+      },
+      {
+        "rank": 3,
+        "token": " L",
+        "logit": 15.5,
+        "probability_percent": 2.23
+      },
+      {
+        "rank": 4,
+        "token": " la",
+        "logit": 14.1953125,
+        "probability_percent": 0.6
+      },
+      {
+        "rank": 5,
+        "token": " Saint",
+        "logit": 13.8671875,
+        "probability_percent": 0.44
+      },
+      {
+        "rank": 6,
+        "token": " Bordeaux",
+        "logit": 13.734375,
+        "probability_percent": 0.38
+      },
+      {
+        "rank": 7,
+        "token": " T",
+        "logit": 13.5703125,
+        "probability_percent": 0.32
+      },
+      {
+        "rank": 8,
+        "token": " M",
+        "logit": 13.2265625,
+        "probability_percent": 0.23
+      },
+      {
+        "rank": 9,
+        "token": " Le",
+        "logit": 13.1953125,
+        "probability_percent": 0.22
+      }
+    ]
+  },
+  {
+    "prompt": "La ville la plus peuplée de Norvège est Oslo.\nLa ville la plus peuplée de Allemagne est",
+    "generated_prefix": "La ville la plus peuplée de Norvège est Oslo.\nLa ville la plus peuplée de Allemagne est",
+    "gold_token": " Berlin",
+    "predicted_top1_token": " Berlin",
+    "token_pos_in_answer": 0,
+    "gold_logit": 18.359375,
+    "gold_prob_percent": 66.11,
+    "first_token_prob": 0.6611328125,
+    "second_token_prob": 0.136474609375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Berlin",
+        "logit": 18.359375,
+        "probability_percent": 66.11
+      },
+      {
+        "rank": 1,
+        "token": " H",
+        "logit": 16.78125,
+        "probability_percent": 13.65
+      },
+      {
+        "rank": 2,
+        "token": " Munich",
+        "logit": 15.703125,
+        "probability_percent": 4.64
+      },
+      {
+        "rank": 3,
+        "token": " Cologne",
+        "logit": 15.6171875,
+        "probability_percent": 4.26
+      },
+      {
+        "rank": 4,
+        "token": " Franc",
+        "logit": 14.453125,
+        "probability_percent": 1.33
+      },
+      {
+        "rank": 5,
+        "token": " D",
+        "logit": 14.2578125,
+        "probability_percent": 1.09
+      },
+      {
+        "rank": 6,
+        "token": " Stuttgart",
+        "logit": 14.2578125,
+        "probability_percent": 1.09
+      },
+      {
+        "rank": 7,
+        "token": " B",
+        "logit": 14.2265625,
+        "probability_percent": 1.06
+      },
+      {
+        "rank": 8,
+        "token": " Ber",
+        "logit": 14.109375,
+        "probability_percent": 0.94
+      },
+      {
+        "rank": 9,
+        "token": " Han",
+        "logit": 13.578125,
+        "probability_percent": 0.55
+      }
+    ]
+  },
+  {
+    "prompt": "La ville la plus peuplée de Norvège est Oslo.\nLa ville la plus peuplée de Italie est",
+    "generated_prefix": "La ville la plus peuplée de Norvège est Oslo.\nLa ville la plus peuplée de Italie est",
+    "gold_token": " Rome",
+    "predicted_top1_token": " Rome",
+    "token_pos_in_answer": 0,
+    "gold_logit": 18.40625,
+    "gold_prob_percent": 62.26,
+    "first_token_prob": 0.62255859375,
+    "second_token_prob": 0.1783447265625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Rome",
+        "logit": 18.40625,
+        "probability_percent": 62.26
+      },
+      {
+        "rank": 1,
+        "token": " Milan",
+        "logit": 17.15625,
+        "probability_percent": 17.83
+      },
+      {
+        "rank": 2,
+        "token": " Naples",
+        "logit": 15.75,
+        "probability_percent": 4.37
+      },
+      {
+        "rank": 3,
+        "token": " la",
+        "logit": 15.1875,
+        "probability_percent": 2.49
+      },
+      {
+        "rank": 4,
+        "token": " Florence",
+        "logit": 15.109375,
+        "probability_percent": 2.3
+      },
+      {
+        "rank": 5,
+        "token": " Tur",
+        "logit": 14.9609375,
+        "probability_percent": 1.99
+      },
+      {
+        "rank": 6,
+        "token": " Ven",
+        "logit": 14.8046875,
+        "probability_percent": 1.7
+      },
+      {
+        "rank": 7,
+        "token": " V",
+        "logit": 14.015625,
+        "probability_percent": 0.77
+      },
+      {
+        "rank": 8,
+        "token": " le",
+        "logit": 13.3671875,
+        "probability_percent": 0.4
+      },
+      {
+        "rank": 9,
+        "token": " B",
+        "logit": 13.2578125,
+        "probability_percent": 0.36
+      }
+    ]
+  },
+  {
+    "prompt": "La ville la plus peuplée de Norvège est Oslo.\nLa ville la plus peuplée de Mexique est",
+    "generated_prefix": "La ville la plus peuplée de Norvège est Oslo.\nLa ville la plus peuplée de Mexique est",
+    "gold_token": " Mexico",
+    "predicted_top1_token": " Mexico",
+    "token_pos_in_answer": 0,
+    "gold_logit": 17.546875,
+    "gold_prob_percent": 62.4,
+    "first_token_prob": 0.6240234375,
+    "second_token_prob": 0.10186767578125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Mexico",
+        "logit": 17.546875,
+        "probability_percent": 62.4
+      },
+      {
+        "rank": 1,
+        "token": " la",
+        "logit": 15.734375,
+        "probability_percent": 10.19
+      },
+      {
+        "rank": 2,
+        "token": " Gu",
+        "logit": 15.1953125,
+        "probability_percent": 5.94
+      },
+      {
+        "rank": 3,
+        "token": " Mex",
+        "logit": 14.59375,
+        "probability_percent": 3.26
+      },
+      {
+        "rank": 4,
+        "token": " le",
+        "logit": 14.2578125,
+        "probability_percent": 2.33
+      },
+      {
+        "rank": 5,
+        "token": " Ciudad",
+        "logit": 13.9453125,
+        "probability_percent": 1.7
+      },
+      {
+        "rank": 6,
+        "token": " T",
+        "logit": 13.8125,
+        "probability_percent": 1.49
+      },
+      {
+        "rank": 7,
+        "token": " La",
+        "logit": 13.7890625,
+        "probability_percent": 1.46
+      },
+      {
+        "rank": 8,
+        "token": " Monter",
+        "logit": 13.375,
+        "probability_percent": 0.96
+      },
+      {
+        "rank": 9,
+        "token": " Le",
+        "logit": 13.3046875,
+        "probability_percent": 0.9
+      }
+    ]
+  },
+  {
+    "prompt": "La ville la plus peuplée de Norvège est Oslo.\nLa ville la plus peuplée de Corée du Sud est",
+    "generated_prefix": "La ville la plus peuplée de Norvège est Oslo.\nLa ville la plus peuplée de Corée du Sud est",
+    "gold_token": " Sé",
+    "predicted_top1_token": " Sé",
+    "token_pos_in_answer": 0,
+    "gold_logit": 19.21875,
+    "gold_prob_percent": 92.33,
+    "first_token_prob": 0.92333984375,
+    "second_token_prob": 0.017181396484375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Sé",
+        "logit": 19.21875,
+        "probability_percent": 92.33
+      },
+      {
+        "rank": 1,
+        "token": " In",
+        "logit": 15.234375,
+        "probability_percent": 1.72
+      },
+      {
+        "rank": 2,
+        "token": " Seoul",
+        "logit": 15.0703125,
+        "probability_percent": 1.46
+      },
+      {
+        "rank": 3,
+        "token": " Se",
+        "logit": 14.859375,
+        "probability_percent": 1.18
+      },
+      {
+        "rank": 4,
+        "token": " la",
+        "logit": 14.7265625,
+        "probability_percent": 1.03
+      },
+      {
+        "rank": 5,
+        "token": " Bus",
+        "logit": 14.0703125,
+        "probability_percent": 0.54
+      },
+      {
+        "rank": 6,
+        "token": " Da",
+        "logit": 12.765625,
+        "probability_percent": 0.15
+      },
+      {
+        "rank": 7,
+        "token": " Soul",
+        "logit": 12.5390625,
+        "probability_percent": 0.12
+      },
+      {
+        "rank": 8,
+        "token": " le",
+        "logit": 12.453125,
+        "probability_percent": 0.11
+      },
+      {
+        "rank": 9,
+        "token": " Su",
+        "logit": 12.4296875,
+        "probability_percent": 0.1
+      }
+    ]
+  },
+  {
+    "prompt": "La ville la plus peuplée de Norvège est Oslo.\nLa ville la plus peuplée de Corée du Sud est",
+    "generated_prefix": "La ville la plus peuplée de Norvège est Oslo.\nLa ville la plus peuplée de Corée du Sud est Sé",
+    "gold_token": "oul",
+    "predicted_top1_token": "oul",
+    "token_pos_in_answer": 1,
+    "gold_logit": 22.703125,
+    "gold_prob_percent": 98.93,
+    "first_token_prob": 0.92333984375,
+    "second_token_prob": 0.017181396484375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "oul",
+        "logit": 22.703125,
+        "probability_percent": 98.93
+      },
+      {
+        "rank": 1,
+        "token": "ou",
+        "logit": 17.5,
+        "probability_percent": 0.54
+      },
+      {
+        "rank": 2,
+        "token": "ul",
+        "logit": 16.6875,
+        "probability_percent": 0.24
+      },
+      {
+        "rank": 3,
+        "token": "ong",
+        "logit": 15.9609375,
+        "probability_percent": 0.12
+      },
+      {
+        "rank": 4,
+        "token": "ould",
+        "logit": 15.0234375,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 5,
+        "token": "jong",
+        "logit": 14.71875,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 6,
+        "token": "o",
+        "logit": 14.53125,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 7,
+        "token": "j",
+        "logit": 13.75,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 8,
+        "token": "ongs",
+        "logit": 13.0078125,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 9,
+        "token": "os",
+        "logit": 12.84375,
+        "probability_percent": 0.01
+      }
+    ]
+  },
+  {
+    "prompt": "La ville la plus peuplée de Norvège est Oslo.\nLa ville la plus peuplée de Turquie est",
+    "generated_prefix": "La ville la plus peuplée de Norvège est Oslo.\nLa ville la plus peuplée de Turquie est",
+    "gold_token": " Istanbul",
+    "predicted_top1_token": " Istanbul",
+    "token_pos_in_answer": 0,
+    "gold_logit": 18.53125,
+    "gold_prob_percent": 90.87,
+    "first_token_prob": 0.90869140625,
+    "second_token_prob": 0.04815673828125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Istanbul",
+        "logit": 18.53125,
+        "probability_percent": 90.87
+      },
+      {
+        "rank": 1,
+        "token": " Ankara",
+        "logit": 15.59375,
+        "probability_percent": 4.82
+      },
+      {
+        "rank": 2,
+        "token": " İstanbul",
+        "logit": 13.375,
+        "probability_percent": 0.52
+      },
+      {
+        "rank": 3,
+        "token": " An",
+        "logit": 12.71875,
+        "probability_percent": 0.27
+      },
+      {
+        "rank": 4,
+        "token": " Saint",
+        "logit": 12.71875,
+        "probability_percent": 0.27
+      },
+      {
+        "rank": 5,
+        "token": " Ist",
+        "logit": 12.3984375,
+        "probability_percent": 0.2
+      },
+      {
+        "rank": 6,
+        "token": " l",
+        "logit": 12.3203125,
+        "probability_percent": 0.18
+      },
+      {
+        "rank": 7,
+        "token": " Constantin",
+        "logit": 12.1875,
+        "probability_percent": 0.16
+      },
+      {
+        "rank": 8,
+        "token": " la",
+        "logit": 12.125,
+        "probability_percent": 0.15
+      },
+      {
+        "rank": 9,
+        "token": " Iz",
+        "logit": 11.9921875,
+        "probability_percent": 0.13
+      }
+    ]
+  },
+  {
+    "prompt": "La ville la plus peuplée de Norvège est Oslo.\nLa ville la plus peuplée de Espagne est",
+    "generated_prefix": "La ville la plus peuplée de Norvège est Oslo.\nLa ville la plus peuplée de Espagne est",
+    "gold_token": " Madrid",
+    "predicted_top1_token": " Madrid",
+    "token_pos_in_answer": 0,
+    "gold_logit": 18.625,
+    "gold_prob_percent": 48.73,
+    "first_token_prob": 0.4873046875,
+    "second_token_prob": 0.42333984375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Madrid",
+        "logit": 18.625,
+        "probability_percent": 48.73
+      },
+      {
+        "rank": 1,
+        "token": " Bar",
+        "logit": 18.484375,
+        "probability_percent": 42.33
+      },
+      {
+        "rank": 2,
+        "token": " Sé",
+        "logit": 15.71875,
+        "probability_percent": 2.67
+      },
+      {
+        "rank": 3,
+        "token": " Val",
+        "logit": 14.6875,
+        "probability_percent": 0.95
+      },
+      {
+        "rank": 4,
+        "token": " la",
+        "logit": 14.5,
+        "probability_percent": 0.79
+      },
+      {
+        "rank": 5,
+        "token": " M",
+        "logit": 14.078125,
+        "probability_percent": 0.52
+      },
+      {
+        "rank": 6,
+        "token": " Sar",
+        "logit": 13.7109375,
+        "probability_percent": 0.36
+      },
+      {
+        "rank": 7,
+        "token": " Barcelona",
+        "logit": 13.6640625,
+        "probability_percent": 0.34
+      },
+      {
+        "rank": 8,
+        "token": " La",
+        "logit": 13.578125,
+        "probability_percent": 0.31
+      },
+      {
+        "rank": 9,
+        "token": " Mad",
+        "logit": 13.5390625,
+        "probability_percent": 0.3
+      }
+    ]
+  },
+  {
+    "prompt": "La ville la plus peuplée de Norvège est Oslo.\nLa ville la plus peuplée de Argentine est",
+    "generated_prefix": "La ville la plus peuplée de Norvège est Oslo.\nLa ville la plus peuplée de Argentine est",
+    "gold_token": " Buenos",
+    "predicted_top1_token": " Buenos",
+    "token_pos_in_answer": 0,
+    "gold_logit": 19.3125,
+    "gold_prob_percent": 88.82,
+    "first_token_prob": 0.88818359375,
+    "second_token_prob": 0.019317626953125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Buenos",
+        "logit": 19.3125,
+        "probability_percent": 88.82
+      },
+      {
+        "rank": 1,
+        "token": " la",
+        "logit": 15.484375,
+        "probability_percent": 1.93
+      },
+      {
+        "rank": 2,
+        "token": " La",
+        "logit": 15.3125,
+        "probability_percent": 1.63
+      },
+      {
+        "rank": 3,
+        "token": " Ros",
+        "logit": 14.59375,
+        "probability_percent": 0.79
+      },
+      {
+        "rank": 4,
+        "token": " Có",
+        "logit": 14.59375,
+        "probability_percent": 0.79
+      },
+      {
+        "rank": 5,
+        "token": " Cord",
+        "logit": 14.1796875,
+        "probability_percent": 0.52
+      },
+      {
+        "rank": 6,
+        "token": " Bah",
+        "logit": 14.1328125,
+        "probability_percent": 0.5
+      },
+      {
+        "rank": 7,
+        "token": " B",
+        "logit": 14.078125,
+        "probability_percent": 0.47
+      },
+      {
+        "rank": 8,
+        "token": " M",
+        "logit": 13.6640625,
+        "probability_percent": 0.31
+      },
+      {
+        "rank": 9,
+        "token": " Ciudad",
+        "logit": 13.6484375,
+        "probability_percent": 0.31
+      }
+    ]
+  },
+  {
+    "prompt": "La ville la plus peuplée de Norvège est Oslo.\nLa ville la plus peuplée de Argentine est",
+    "generated_prefix": "La ville la plus peuplée de Norvège est Oslo.\nLa ville la plus peuplée de Argentine est Buenos",
+    "gold_token": " Aires",
+    "predicted_top1_token": " Aires",
+    "token_pos_in_answer": 1,
+    "gold_logit": 23.578125,
+    "gold_prob_percent": 99.51,
+    "first_token_prob": 0.88818359375,
+    "second_token_prob": 0.019317626953125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Aires",
+        "logit": 23.578125,
+        "probability_percent": 99.51
+      },
+      {
+        "rank": 1,
+        "token": "-A",
+        "logit": 17.734375,
+        "probability_percent": 0.29
+      },
+      {
+        "rank": 2,
+        "token": " a",
+        "logit": 16.25,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 3,
+        "token": " A",
+        "logit": 16.140625,
+        "probability_percent": 0.06
+      },
+      {
+        "rank": 4,
+        "token": " A",
+        "logit": 14.984375,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 5,
+        "token": " Ay",
+        "logit": 14.6796875,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 6,
+        "token": "\n",
+        "logit": 14.328125,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 7,
+        "token": " ",
+        "logit": 14.1015625,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 8,
+        "token": " AI",
+        "logit": 13.703125,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 9,
+        "token": "A",
+        "logit": 13.6328125,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "La ville la plus peuplée de Norvège est Oslo.\nLa ville la plus peuplée de Afrique du Sud est",
+    "generated_prefix": "La ville la plus peuplée de Norvège est Oslo.\nLa ville la plus peuplée de Afrique du Sud est",
+    "gold_token": " Johannes",
+    "predicted_top1_token": " Johannesburg",
+    "token_pos_in_answer": 0,
+    "gold_logit": 14.8515625,
+    "gold_prob_percent": 11.75,
+    "first_token_prob": 0.4755859375,
+    "second_token_prob": 0.11749267578125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Johannesburg",
+        "logit": 16.25,
+        "probability_percent": 47.56
+      },
+      {
+        "rank": 1,
+        "token": " Johannes",
+        "logit": 14.8515625,
+        "probability_percent": 11.75
+      },
+      {
+        "rank": 2,
+        "token": " le",
+        "logit": 14.046875,
+        "probability_percent": 5.26
+      },
+      {
+        "rank": 3,
+        "token": " T",
+        "logit": 13.78125,
+        "probability_percent": 4.03
+      },
+      {
+        "rank": 4,
+        "token": " Pret",
+        "logit": 13.703125,
+        "probability_percent": 3.73
+      },
+      {
+        "rank": 5,
+        "token": " Dur",
+        "logit": 13.5390625,
+        "probability_percent": 3.16
+      },
+      {
+        "rank": 6,
+        "token": " Cape",
+        "logit": 13.390625,
+        "probability_percent": 2.73
+      },
+      {
+        "rank": 7,
+        "token": " Le",
+        "logit": 12.84375,
+        "probability_percent": 1.58
+      },
+      {
+        "rank": 8,
+        "token": " S",
+        "logit": 12.8203125,
+        "probability_percent": 1.54
+      },
+      {
+        "rank": 9,
+        "token": " J",
+        "logit": 12.765625,
+        "probability_percent": 1.46
+      }
+    ]
+  },
+  {
+    "prompt": "La ville la plus peuplée de Norvège est Oslo.\nLa ville la plus peuplée de Afrique du Sud est",
+    "generated_prefix": "La ville la plus peuplée de Norvège est Oslo.\nLa ville la plus peuplée de Afrique du Sud est Johannesburg",
+    "gold_token": "bourg",
+    "predicted_top1_token": ".\n",
+    "token_pos_in_answer": 1,
+    "gold_logit": 6.09375,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.4755859375,
+    "second_token_prob": 0.11749267578125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": ".\n",
+        "logit": 21.75,
+        "probability_percent": 82.23
+      },
+      {
+        "rank": 1,
+        "token": ".",
+        "logit": 19.453125,
+        "probability_percent": 8.27
+      },
+      {
+        "rank": 2,
+        "token": ".\n\n",
+        "logit": 18.625,
+        "probability_percent": 3.61
+      },
+      {
+        "rank": 3,
+        "token": "\n",
+        "logit": 17.578125,
+        "probability_percent": 1.27
+      },
+      {
+        "rank": 4,
+        "token": ",",
+        "logit": 17.5625,
+        "probability_percent": 1.25
+      },
+      {
+        "rank": 5,
+        "token": " .\n",
+        "logit": 17.453125,
+        "probability_percent": 1.12
+      },
+      {
+        "rank": 6,
+        "token": " (",
+        "logit": 16.578125,
+        "probability_percent": 0.47
+      },
+      {
+        "rank": 7,
+        "token": " et",
+        "logit": 16.421875,
+        "probability_percent": 0.4
+      },
+      {
+        "rank": 8,
+        "token": " .",
+        "logit": 15.5390625,
+        "probability_percent": 0.17
+      },
+      {
+        "rank": 9,
+        "token": " ou",
+        "logit": 14.703125,
+        "probability_percent": 0.07
+      }
+    ]
+  },
+  {
+    "prompt": "La ville la plus peuplée de Norvège est Oslo.\nLa ville la plus peuplée de Pologne est",
+    "generated_prefix": "La ville la plus peuplée de Norvège est Oslo.\nLa ville la plus peuplée de Pologne est",
+    "gold_token": " Var",
+    "predicted_top1_token": " Var",
+    "token_pos_in_answer": 0,
+    "gold_logit": 18.015625,
+    "gold_prob_percent": 70.51,
+    "first_token_prob": 0.705078125,
+    "second_token_prob": 0.04437255859375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Var",
+        "logit": 18.015625,
+        "probability_percent": 70.51
+      },
+      {
+        "rank": 1,
+        "token": " Cr",
+        "logit": 15.25,
+        "probability_percent": 4.44
+      },
+      {
+        "rank": 2,
+        "token": " G",
+        "logit": 15.1875,
+        "probability_percent": 4.17
+      },
+      {
+        "rank": 3,
+        "token": " la",
+        "logit": 15.0078125,
+        "probability_percent": 3.48
+      },
+      {
+        "rank": 4,
+        "token": " Warsaw",
+        "logit": 14.5859375,
+        "probability_percent": 2.28
+      },
+      {
+        "rank": 5,
+        "token": " V",
+        "logit": 14.5625,
+        "probability_percent": 2.23
+      },
+      {
+        "rank": 6,
+        "token": " �",
+        "logit": 14.5,
+        "probability_percent": 2.1
+      },
+      {
+        "rank": 7,
+        "token": " W",
+        "logit": 13.9140625,
+        "probability_percent": 1.17
+      },
+      {
+        "rank": 8,
+        "token": " Wars",
+        "logit": 13.734375,
+        "probability_percent": 0.97
+      },
+      {
+        "rank": 9,
+        "token": " Poz",
+        "logit": 13.5703125,
+        "probability_percent": 0.83
+      }
+    ]
+  },
+  {
+    "prompt": "La ville la plus peuplée de Norvège est Oslo.\nLa ville la plus peuplée de Pologne est",
+    "generated_prefix": "La ville la plus peuplée de Norvège est Oslo.\nLa ville la plus peuplée de Pologne est Var",
+    "gold_token": "so",
+    "predicted_top1_token": "so",
+    "token_pos_in_answer": 1,
+    "gold_logit": 22.984375,
+    "gold_prob_percent": 99.9,
+    "first_token_prob": 0.705078125,
+    "second_token_prob": 0.04437255859375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "so",
+        "logit": 22.984375,
+        "probability_percent": 99.9
+      },
+      {
+        "rank": 1,
+        "token": "sov",
+        "logit": 15.2578125,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 2,
+        "token": "sole",
+        "logit": 14.046875,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 3,
+        "token": "š",
+        "logit": 13.0859375,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 4,
+        "token": "SO",
+        "logit": 12.875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 5,
+        "token": "ss",
+        "logit": 12.6484375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": "ș",
+        "logit": 12.4609375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": "è",
+        "logit": 12.359375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "ş",
+        "logit": 12.1015625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "σο",
+        "logit": 11.984375,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "La ville la plus peuplée de Norvège est Oslo.\nLa ville la plus peuplée de Pologne est",
+    "generated_prefix": "La ville la plus peuplée de Norvège est Oslo.\nLa ville la plus peuplée de Pologne est Varso",
+    "gold_token": "vie",
+    "predicted_top1_token": "vie",
+    "token_pos_in_answer": 2,
+    "gold_logit": 20.640625,
+    "gold_prob_percent": 99.46,
+    "first_token_prob": 0.705078125,
+    "second_token_prob": 0.04437255859375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "vie",
+        "logit": 20.640625,
+        "probability_percent": 99.46
+      },
+      {
+        "rank": 1,
+        "token": "via",
+        "logit": 15.0,
+        "probability_percent": 0.35
+      },
+      {
+        "rank": 2,
+        "token": "ve",
+        "logit": 13.5234375,
+        "probability_percent": 0.08
+      },
+      {
+        "rank": 3,
+        "token": "wie",
+        "logit": 12.015625,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 4,
+        "token": "vio",
+        "logit": 11.8203125,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 5,
+        "token": "vic",
+        "logit": 11.328125,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 6,
+        "token": "ie",
+        "logit": 11.25,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 7,
+        "token": "e",
+        "logit": 11.0078125,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 8,
+        "token": "vi",
+        "logit": 11.0,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 9,
+        "token": "vice",
+        "logit": 10.75,
+        "probability_percent": 0.01
+      }
+    ]
+  },
+  {
+    "prompt": "La ville la plus peuplée de Norvège est Oslo.\nLa ville la plus peuplée de Nigeria est",
+    "generated_prefix": "La ville la plus peuplée de Norvège est Oslo.\nLa ville la plus peuplée de Nigeria est",
+    "gold_token": " Lagos",
+    "predicted_top1_token": " Lagos",
+    "token_pos_in_answer": 0,
+    "gold_logit": 18.625,
+    "gold_prob_percent": 82.86,
+    "first_token_prob": 0.82861328125,
+    "second_token_prob": 0.04425048828125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Lagos",
+        "logit": 18.625,
+        "probability_percent": 82.86
+      },
+      {
+        "rank": 1,
+        "token": " K",
+        "logit": 15.6953125,
+        "probability_percent": 4.43
+      },
+      {
+        "rank": 2,
+        "token": " I",
+        "logit": 14.9453125,
+        "probability_percent": 2.09
+      },
+      {
+        "rank": 3,
+        "token": " Abu",
+        "logit": 14.3828125,
+        "probability_percent": 1.19
+      },
+      {
+        "rank": 4,
+        "token": " l",
+        "logit": 14.3515625,
+        "probability_percent": 1.15
+      },
+      {
+        "rank": 5,
+        "token": " L",
+        "logit": 14.3046875,
+        "probability_percent": 1.1
+      },
+      {
+        "rank": 6,
+        "token": " Ab",
+        "logit": 13.546875,
+        "probability_percent": 0.52
+      },
+      {
+        "rank": 7,
+        "token": " Ike",
+        "logit": 13.296875,
+        "probability_percent": 0.4
+      },
+      {
+        "rank": 8,
+        "token": " la",
+        "logit": 13.1796875,
+        "probability_percent": 0.36
+      },
+      {
+        "rank": 9,
+        "token": " Il",
+        "logit": 13.1328125,
+        "probability_percent": 0.34
+      }
+    ]
+  },
+  {
+    "prompt": "La ville la plus peuplée de Norvège est Oslo.\nLa ville la plus peuplée de Nouvelle-Zélande est",
+    "generated_prefix": "La ville la plus peuplée de Norvège est Oslo.\nLa ville la plus peuplée de Nouvelle-Zélande est",
+    "gold_token": " Auckland",
+    "predicted_top1_token": " Auckland",
+    "token_pos_in_answer": 0,
+    "gold_logit": 19.34375,
+    "gold_prob_percent": 90.97,
+    "first_token_prob": 0.90966796875,
+    "second_token_prob": 0.047454833984375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Auckland",
+        "logit": 19.34375,
+        "probability_percent": 90.97
+      },
+      {
+        "rank": 1,
+        "token": " Wellington",
+        "logit": 16.390625,
+        "probability_percent": 4.75
+      },
+      {
+        "rank": 2,
+        "token": " la",
+        "logit": 14.5703125,
+        "probability_percent": 0.77
+      },
+      {
+        "rank": 3,
+        "token": " l",
+        "logit": 14.328125,
+        "probability_percent": 0.6
+      },
+      {
+        "rank": 4,
+        "token": " Christ",
+        "logit": 13.71875,
+        "probability_percent": 0.33
+      },
+      {
+        "rank": 5,
+        "token": " T",
+        "logit": 13.453125,
+        "probability_percent": 0.25
+      },
+      {
+        "rank": 6,
+        "token": " A",
+        "logit": 13.3125,
+        "probability_percent": 0.22
+      },
+      {
+        "rank": 7,
+        "token": " d",
+        "logit": 12.5546875,
+        "probability_percent": 0.1
+      },
+      {
+        "rank": 8,
+        "token": " le",
+        "logit": 12.359375,
+        "probability_percent": 0.08
+      },
+      {
+        "rank": 9,
+        "token": " W",
+        "logit": 12.0390625,
+        "probability_percent": 0.06
+      }
+    ]
+  },
+  {
+    "prompt": "La ville la plus peuplée de Norvège est Oslo.\nLa ville la plus peuplée de Suisse est",
+    "generated_prefix": "La ville la plus peuplée de Norvège est Oslo.\nLa ville la plus peuplée de Suisse est",
+    "gold_token": " Zurich",
+    "predicted_top1_token": " B",
+    "token_pos_in_answer": 0,
+    "gold_logit": 16.421875,
+    "gold_prob_percent": 20.51,
+    "first_token_prob": 0.427490234375,
+    "second_token_prob": 0.205078125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " B",
+        "logit": 17.15625,
+        "probability_percent": 42.75
+      },
+      {
+        "rank": 1,
+        "token": " Zurich",
+        "logit": 16.421875,
+        "probability_percent": 20.51
+      },
+      {
+        "rank": 2,
+        "token": " Gen",
+        "logit": 15.78125,
+        "probability_percent": 10.81
+      },
+      {
+        "rank": 3,
+        "token": " Ber",
+        "logit": 15.640625,
+        "probability_percent": 9.39
+      },
+      {
+        "rank": 4,
+        "token": " la",
+        "logit": 14.8515625,
+        "probability_percent": 4.27
+      },
+      {
+        "rank": 5,
+        "token": " La",
+        "logit": 14.71875,
+        "probability_percent": 3.74
+      },
+      {
+        "rank": 6,
+        "token": " Z",
+        "logit": 14.2265625,
+        "probability_percent": 2.28
+      },
+      {
+        "rank": 7,
+        "token": " le",
+        "logit": 12.8671875,
+        "probability_percent": 0.59
+      },
+      {
+        "rank": 8,
+        "token": " Luc",
+        "logit": 12.5625,
+        "probability_percent": 0.43
+      },
+      {
+        "rank": 9,
+        "token": " Berlin",
+        "logit": 12.40625,
+        "probability_percent": 0.37
+      }
+    ]
+  },
+  {
+    "prompt": "La ville la plus peuplée de Norvège est Oslo.\nLa ville la plus peuplée de Pays-Bas est",
+    "generated_prefix": "La ville la plus peuplée de Norvège est Oslo.\nLa ville la plus peuplée de Pays-Bas est",
+    "gold_token": " Amsterdam",
+    "predicted_top1_token": " Amsterdam",
+    "token_pos_in_answer": 0,
+    "gold_logit": 18.859375,
+    "gold_prob_percent": 88.67,
+    "first_token_prob": 0.88671875,
+    "second_token_prob": 0.050811767578125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Amsterdam",
+        "logit": 18.859375,
+        "probability_percent": 88.67
+      },
+      {
+        "rank": 1,
+        "token": " Rotterdam",
+        "logit": 16.0,
+        "probability_percent": 5.08
+      },
+      {
+        "rank": 2,
+        "token": " Am",
+        "logit": 14.4765625,
+        "probability_percent": 1.11
+      },
+      {
+        "rank": 3,
+        "token": " la",
+        "logit": 14.3359375,
+        "probability_percent": 0.96
+      },
+      {
+        "rank": 4,
+        "token": " E",
+        "logit": 13.7734375,
+        "probability_percent": 0.55
+      },
+      {
+        "rank": 5,
+        "token": " La",
+        "logit": 13.3828125,
+        "probability_percent": 0.37
+      },
+      {
+        "rank": 6,
+        "token": " l",
+        "logit": 13.2890625,
+        "probability_percent": 0.34
+      },
+      {
+        "rank": 7,
+        "token": " U",
+        "logit": 13.234375,
+        "probability_percent": 0.32
+      },
+      {
+        "rank": 8,
+        "token": " Ha",
+        "logit": 12.859375,
+        "probability_percent": 0.22
+      },
+      {
+        "rank": 9,
+        "token": " Gron",
+        "logit": 12.84375,
+        "probability_percent": 0.22
+      }
+    ]
+  },
+  {
+    "prompt": "La ville la plus peuplée de Norvège est Oslo.\nLa ville la plus peuplée de Pakistan est",
+    "generated_prefix": "La ville la plus peuplée de Norvège est Oslo.\nLa ville la plus peuplée de Pakistan est",
+    "gold_token": " Karachi",
+    "predicted_top1_token": " Karachi",
+    "token_pos_in_answer": 0,
+    "gold_logit": 19.171875,
+    "gold_prob_percent": 85.3,
+    "first_token_prob": 0.85302734375,
+    "second_token_prob": 0.048126220703125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Karachi",
+        "logit": 19.171875,
+        "probability_percent": 85.3
+      },
+      {
+        "rank": 1,
+        "token": " Islamabad",
+        "logit": 16.296875,
+        "probability_percent": 4.81
+      },
+      {
+        "rank": 2,
+        "token": " Lahore",
+        "logit": 16.171875,
+        "probability_percent": 4.25
+      },
+      {
+        "rank": 3,
+        "token": " Kar",
+        "logit": 14.8046875,
+        "probability_percent": 1.08
+      },
+      {
+        "rank": 4,
+        "token": " la",
+        "logit": 14.6640625,
+        "probability_percent": 0.94
+      },
+      {
+        "rank": 5,
+        "token": " Gu",
+        "logit": 13.328125,
+        "probability_percent": 0.25
+      },
+      {
+        "rank": 6,
+        "token": " Raw",
+        "logit": 13.1796875,
+        "probability_percent": 0.21
+      },
+      {
+        "rank": 7,
+        "token": " K",
+        "logit": 13.109375,
+        "probability_percent": 0.2
+      },
+      {
+        "rank": 8,
+        "token": " Hyderabad",
+        "logit": 12.9765625,
+        "probability_percent": 0.17
+      },
+      {
+        "rank": 9,
+        "token": " Lah",
+        "logit": 12.8671875,
+        "probability_percent": 0.16
+      }
+    ]
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "relation": "country_language",
+  "template_scores": {
+    "People in {} speak": {
+      "average_first_token_prob": 0.14371744791666666,
+      "reliability": 0.4583333333333333,
+      "overall_score": 0.06587049696180555
+    },
+    "The language used in {} is": {
+      "average_first_token_prob": 0.32625579833984375,
+      "reliability": 0.9166666666666666,
+      "overall_score": 0.29906781514485675
+    },
+    "In {}, the primary language is": {
+      "average_first_token_prob": 0.8399658203125,
+      "reliability": 0.875,
+      "overall_score": 0.7349700927734375
+    },
+    "The official language of {} is": {
+      "average_first_token_prob": 0.83544921875,
+      "reliability": 0.8333333333333334,
+      "overall_score": 0.6962076822916667
+    },
+    "{}'s main language is": {
+      "average_first_token_prob": 0.8318277994791666,
+      "reliability": 0.875,
+      "overall_score": 0.7278493245442708
+    }
+  },
+  "best_template": "In {}, the primary language is",
+  "best_template_metrics": {
+    "average_first_token_prob": 0.8399658203125,
+    "reliability": 0.875,
+    "overall_score": 0.7349700927734375
+  }
+}

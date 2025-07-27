@@ -1,0 +1,5182 @@
+[
+  {
+    "prompt": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nNova Iorque está localizado no país",
+    "generated_prefix": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nNova Iorque está localizado no país",
+    "gold_token": " Estados",
+    "predicted_top1_token": " Estados",
+    "token_pos_in_answer": 0,
+    "gold_logit": 21.1875,
+    "gold_prob_percent": 93.21,
+    "first_token_prob": 0.93212890625,
+    "second_token_prob": 0.038482666015625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Estados",
+        "logit": 21.1875,
+        "probability_percent": 93.21
+      },
+      {
+        "rank": 1,
+        "token": " EU",
+        "logit": 18.0,
+        "probability_percent": 3.85
+      },
+      {
+        "rank": 2,
+        "token": " Est",
+        "logit": 16.3125,
+        "probability_percent": 0.71
+      },
+      {
+        "rank": 3,
+        "token": " USA",
+        "logit": 16.265625,
+        "probability_percent": 0.68
+      },
+      {
+        "rank": 4,
+        "token": " E",
+        "logit": 16.078125,
+        "probability_percent": 0.56
+      },
+      {
+        "rank": 5,
+        "token": " dos",
+        "logit": 14.734375,
+        "probability_percent": 0.15
+      },
+      {
+        "rank": 6,
+        "token": " América",
+        "logit": 14.453125,
+        "probability_percent": 0.11
+      },
+      {
+        "rank": 7,
+        "token": " Estado",
+        "logit": 14.09375,
+        "probability_percent": 0.08
+      },
+      {
+        "rank": 8,
+        "token": " Brasil",
+        "logit": 13.5859375,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 9,
+        "token": " Re",
+        "logit": 13.296875,
+        "probability_percent": 0.03
+      }
+    ]
+  },
+  {
+    "prompt": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nNova Iorque está localizado no país",
+    "generated_prefix": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nNova Iorque está localizado no país Estados",
+    "gold_token": " Unidos",
+    "predicted_top1_token": " Unidos",
+    "token_pos_in_answer": 1,
+    "gold_logit": 24.703125,
+    "gold_prob_percent": 99.85,
+    "first_token_prob": 0.93212890625,
+    "second_token_prob": 0.038482666015625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Unidos",
+        "logit": 24.703125,
+        "probability_percent": 99.85
+      },
+      {
+        "rank": 1,
+        "token": " Un",
+        "logit": 17.953125,
+        "probability_percent": 0.12
+      },
+      {
+        "rank": 2,
+        "token": " un",
+        "logit": 15.1953125,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 3,
+        "token": " Uni",
+        "logit": 14.6484375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 4,
+        "token": "-",
+        "logit": 14.390625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 5,
+        "token": "-Un",
+        "logit": 14.21875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": "\n",
+        "logit": 13.90625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": ".\n",
+        "logit": 13.75,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": " da",
+        "logit": 13.5,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "un",
+        "logit": 13.4140625,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nRio de Janeiro está localizado no país",
+    "generated_prefix": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nRio de Janeiro está localizado no país",
+    "gold_token": " Brasil",
+    "predicted_top1_token": " Brasil",
+    "token_pos_in_answer": 0,
+    "gold_logit": 23.203125,
+    "gold_prob_percent": 99.46,
+    "first_token_prob": 0.99462890625,
+    "second_token_prob": 0.0027942657470703125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Brasil",
+        "logit": 23.203125,
+        "probability_percent": 99.46
+      },
+      {
+        "rank": 1,
+        "token": " Brazil",
+        "logit": 17.328125,
+        "probability_percent": 0.28
+      },
+      {
+        "rank": 2,
+        "token": " Br",
+        "logit": 16.78125,
+        "probability_percent": 0.16
+      },
+      {
+        "rank": 3,
+        "token": " Bras",
+        "logit": 14.3046875,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 4,
+        "token": "\n",
+        "logit": 13.4765625,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 5,
+        "token": " Argentina",
+        "logit": 13.171875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": " Estados",
+        "logit": 13.09375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": " Braz",
+        "logit": 13.078125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": " ",
+        "logit": 13.0703125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": " México",
+        "logit": 12.859375,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nBuenos Aires está localizado no país",
+    "generated_prefix": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nBuenos Aires está localizado no país",
+    "gold_token": " Argentina",
+    "predicted_top1_token": " Argentina",
+    "token_pos_in_answer": 0,
+    "gold_logit": 22.875,
+    "gold_prob_percent": 98.73,
+    "first_token_prob": 0.9873046875,
+    "second_token_prob": 0.007541656494140625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Argentina",
+        "logit": 22.875,
+        "probability_percent": 98.73
+      },
+      {
+        "rank": 1,
+        "token": " Arg",
+        "logit": 18.0,
+        "probability_percent": 0.75
+      },
+      {
+        "rank": 2,
+        "token": " Ar",
+        "logit": 16.703125,
+        "probability_percent": 0.21
+      },
+      {
+        "rank": 3,
+        "token": " Argentine",
+        "logit": 15.4140625,
+        "probability_percent": 0.06
+      },
+      {
+        "rank": 4,
+        "token": " Ur",
+        "logit": 14.84375,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 5,
+        "token": " Brasil",
+        "logit": 14.5078125,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 6,
+        "token": " América",
+        "logit": 14.40625,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 7,
+        "token": " Á",
+        "logit": 14.390625,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 8,
+        "token": " Chile",
+        "logit": 14.265625,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 9,
+        "token": "Argentina",
+        "logit": 14.1796875,
+        "probability_percent": 0.02
+      }
+    ]
+  },
+  {
+    "prompt": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nCidade do México está localizado no país",
+    "generated_prefix": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nCidade do México está localizado no país",
+    "gold_token": " México",
+    "predicted_top1_token": " México",
+    "token_pos_in_answer": 0,
+    "gold_logit": 21.609375,
+    "gold_prob_percent": 97.71,
+    "first_token_prob": 0.97705078125,
+    "second_token_prob": 0.01192474365234375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " México",
+        "logit": 21.609375,
+        "probability_percent": 97.71
+      },
+      {
+        "rank": 1,
+        "token": " M",
+        "logit": 17.203125,
+        "probability_percent": 1.19
+      },
+      {
+        "rank": 2,
+        "token": " Mex",
+        "logit": 15.875,
+        "probability_percent": 0.32
+      },
+      {
+        "rank": 3,
+        "token": " Mexico",
+        "logit": 15.34375,
+        "probability_percent": 0.19
+      },
+      {
+        "rank": 4,
+        "token": " Mé",
+        "logit": 15.234375,
+        "probability_percent": 0.17
+      },
+      {
+        "rank": 5,
+        "token": " Estados",
+        "logit": 15.15625,
+        "probability_percent": 0.15
+      },
+      {
+        "rank": 6,
+        "token": " Brasil",
+        "logit": 13.7734375,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 7,
+        "token": " América",
+        "logit": 12.953125,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 8,
+        "token": " Guatemala",
+        "logit": 12.90625,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 9,
+        "token": " E",
+        "logit": 12.6015625,
+        "probability_percent": 0.01
+      }
+    ]
+  },
+  {
+    "prompt": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nSão Paulo está localizado no país",
+    "generated_prefix": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nSão Paulo está localizado no país",
+    "gold_token": " Brasil",
+    "predicted_top1_token": " Brasil",
+    "token_pos_in_answer": 0,
+    "gold_logit": 23.390625,
+    "gold_prob_percent": 99.41,
+    "first_token_prob": 0.994140625,
+    "second_token_prob": 0.0027065277099609375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Brasil",
+        "logit": 23.390625,
+        "probability_percent": 99.41
+      },
+      {
+        "rank": 1,
+        "token": " Brazil",
+        "logit": 17.484375,
+        "probability_percent": 0.27
+      },
+      {
+        "rank": 2,
+        "token": " Br",
+        "logit": 17.296875,
+        "probability_percent": 0.22
+      },
+      {
+        "rank": 3,
+        "token": " Bras",
+        "logit": 14.2265625,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 4,
+        "token": " Chile",
+        "logit": 13.671875,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 5,
+        "token": " Braz",
+        "logit": 13.5390625,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 6,
+        "token": " ",
+        "logit": 13.453125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": " Argentina",
+        "logit": 13.375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "\n",
+        "logit": 13.2421875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": " Estados",
+        "logit": 13.140625,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nLos Angeles está localizado no país",
+    "generated_prefix": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nLos Angeles está localizado no país",
+    "gold_token": " Estados",
+    "predicted_top1_token": " Estados",
+    "token_pos_in_answer": 0,
+    "gold_logit": 21.078125,
+    "gold_prob_percent": 93.16,
+    "first_token_prob": 0.931640625,
+    "second_token_prob": 0.029937744140625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Estados",
+        "logit": 21.078125,
+        "probability_percent": 93.16
+      },
+      {
+        "rank": 1,
+        "token": " EU",
+        "logit": 17.640625,
+        "probability_percent": 2.99
+      },
+      {
+        "rank": 2,
+        "token": " E",
+        "logit": 16.453125,
+        "probability_percent": 0.91
+      },
+      {
+        "rank": 3,
+        "token": " USA",
+        "logit": 16.453125,
+        "probability_percent": 0.91
+      },
+      {
+        "rank": 4,
+        "token": " Est",
+        "logit": 16.359375,
+        "probability_percent": 0.83
+      },
+      {
+        "rank": 5,
+        "token": " dos",
+        "logit": 15.1171875,
+        "probability_percent": 0.24
+      },
+      {
+        "rank": 6,
+        "token": " América",
+        "logit": 14.125,
+        "probability_percent": 0.09
+      },
+      {
+        "rank": 7,
+        "token": " México",
+        "logit": 13.71875,
+        "probability_percent": 0.06
+      },
+      {
+        "rank": 8,
+        "token": " Estado",
+        "logit": 13.671875,
+        "probability_percent": 0.06
+      },
+      {
+        "rank": 9,
+        "token": " Brasil",
+        "logit": 13.5859375,
+        "probability_percent": 0.05
+      }
+    ]
+  },
+  {
+    "prompt": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nLos Angeles está localizado no país",
+    "generated_prefix": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nLos Angeles está localizado no país Estados",
+    "gold_token": " Unidos",
+    "predicted_top1_token": " Unidos",
+    "token_pos_in_answer": 1,
+    "gold_logit": 24.75,
+    "gold_prob_percent": 99.85,
+    "first_token_prob": 0.931640625,
+    "second_token_prob": 0.029937744140625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Unidos",
+        "logit": 24.75,
+        "probability_percent": 99.85
+      },
+      {
+        "rank": 1,
+        "token": " Un",
+        "logit": 18.0,
+        "probability_percent": 0.12
+      },
+      {
+        "rank": 2,
+        "token": " un",
+        "logit": 15.421875,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 3,
+        "token": "-",
+        "logit": 14.65625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 4,
+        "token": "-Un",
+        "logit": 14.640625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 5,
+        "token": " Uni",
+        "logit": 14.578125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": "\n",
+        "logit": 13.9765625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": "un",
+        "logit": 13.78125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": ".\n",
+        "logit": 13.78125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "Un",
+        "logit": 13.3359375,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nSão Petersburgo está localizado no país",
+    "generated_prefix": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nSão Petersburgo está localizado no país",
+    "gold_token": " R",
+    "predicted_top1_token": " R",
+    "token_pos_in_answer": 0,
+    "gold_logit": 20.25,
+    "gold_prob_percent": 98.73,
+    "first_token_prob": 0.9873046875,
+    "second_token_prob": 0.0024662017822265625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " R",
+        "logit": 20.25,
+        "probability_percent": 98.73
+      },
+      {
+        "rank": 1,
+        "token": " Fed",
+        "logit": 14.2578125,
+        "probability_percent": 0.25
+      },
+      {
+        "rank": 2,
+        "token": " Russ",
+        "logit": 13.8046875,
+        "probability_percent": 0.16
+      },
+      {
+        "rank": 3,
+        "token": " Russia",
+        "logit": 13.7578125,
+        "probability_percent": 0.15
+      },
+      {
+        "rank": 4,
+        "token": " Rus",
+        "logit": 13.5859375,
+        "probability_percent": 0.13
+      },
+      {
+        "rank": 5,
+        "token": " Brasil",
+        "logit": 13.0078125,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 6,
+        "token": " Russo",
+        "logit": 12.453125,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 7,
+        "token": " Rep",
+        "logit": 11.90625,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 8,
+        "token": " Uni",
+        "logit": 11.8046875,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 9,
+        "token": " C",
+        "logit": 11.78125,
+        "probability_percent": 0.02
+      }
+    ]
+  },
+  {
+    "prompt": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nSão Petersburgo está localizado no país",
+    "generated_prefix": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nSão Petersburgo está localizado no país R",
+    "gold_token": "ú",
+    "predicted_top1_token": "ú",
+    "token_pos_in_answer": 1,
+    "gold_logit": 21.640625,
+    "gold_prob_percent": 99.95,
+    "first_token_prob": 0.9873046875,
+    "second_token_prob": 0.0024662017822265625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ú",
+        "logit": 21.640625,
+        "probability_percent": 99.95
+      },
+      {
+        "rank": 1,
+        "token": "Ú",
+        "logit": 12.5546875,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 2,
+        "token": ".F",
+        "logit": 11.6484375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 3,
+        "token": ".",
+        "logit": 10.71875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 4,
+        "token": "ess",
+        "logit": 10.703125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 5,
+        "token": "á",
+        "logit": 10.296875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": "FS",
+        "logit": 10.1015625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": "f",
+        "logit": 10.0625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "ús",
+        "logit": 10.03125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": " F",
+        "logit": 9.9765625,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nSão Petersburgo está localizado no país",
+    "generated_prefix": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nSão Petersburgo está localizado no país Rú",
+    "gold_token": "ss",
+    "predicted_top1_token": "ss",
+    "token_pos_in_answer": 2,
+    "gold_logit": 23.1875,
+    "gold_prob_percent": 99.95,
+    "first_token_prob": 0.9873046875,
+    "second_token_prob": 0.0024662017822265625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ss",
+        "logit": 23.1875,
+        "probability_percent": 99.95
+      },
+      {
+        "rank": 1,
+        "token": "ssi",
+        "logit": 13.3125,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 2,
+        "token": "uss",
+        "logit": 12.640625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 3,
+        "token": "SS",
+        "logit": 12.6015625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 4,
+        "token": "sss",
+        "logit": 12.078125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 5,
+        "token": "ussia",
+        "logit": 12.0390625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": " ss",
+        "logit": 11.9375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": "us",
+        "logit": 11.78125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "rus",
+        "logit": 11.7734375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "st",
+        "logit": 11.625,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nSão Petersburgo está localizado no país",
+    "generated_prefix": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nSão Petersburgo está localizado no país Rúss",
+    "gold_token": "ia",
+    "predicted_top1_token": "ia",
+    "token_pos_in_answer": 3,
+    "gold_logit": 26.8125,
+    "gold_prob_percent": 100.0,
+    "first_token_prob": 0.9873046875,
+    "second_token_prob": 0.0024662017822265625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ia",
+        "logit": 26.8125,
+        "probability_percent": 100.0
+      },
+      {
+        "rank": 1,
+        "token": "iam",
+        "logit": 15.4609375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 2,
+        "token": "ian",
+        "logit": 15.4453125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 3,
+        "token": "ica",
+        "logit": 14.90625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 4,
+        "token": "ias",
+        "logit": 14.84375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 5,
+        "token": "cia",
+        "logit": 14.53125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": ".\n",
+        "logit": 14.375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": "iac",
+        "logit": 13.671875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": " ia",
+        "logit": 13.578125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "iana",
+        "logit": 13.2890625,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nSão Francisco está localizado no país",
+    "generated_prefix": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nSão Francisco está localizado no país",
+    "gold_token": " Estados",
+    "predicted_top1_token": " Estados",
+    "token_pos_in_answer": 0,
+    "gold_logit": 20.5625,
+    "gold_prob_percent": 87.01,
+    "first_token_prob": 0.8701171875,
+    "second_token_prob": 0.0809326171875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Estados",
+        "logit": 20.5625,
+        "probability_percent": 87.01
+      },
+      {
+        "rank": 1,
+        "token": " EU",
+        "logit": 18.1875,
+        "probability_percent": 8.09
+      },
+      {
+        "rank": 2,
+        "token": " E",
+        "logit": 16.21875,
+        "probability_percent": 1.13
+      },
+      {
+        "rank": 3,
+        "token": " Est",
+        "logit": 15.9921875,
+        "probability_percent": 0.9
+      },
+      {
+        "rank": 4,
+        "token": " USA",
+        "logit": 15.96875,
+        "probability_percent": 0.88
+      },
+      {
+        "rank": 5,
+        "token": " Brasil",
+        "logit": 14.9296875,
+        "probability_percent": 0.31
+      },
+      {
+        "rank": 6,
+        "token": " dos",
+        "logit": 13.9375,
+        "probability_percent": 0.12
+      },
+      {
+        "rank": 7,
+        "token": " México",
+        "logit": 13.9140625,
+        "probability_percent": 0.11
+      },
+      {
+        "rank": 8,
+        "token": " São",
+        "logit": 13.703125,
+        "probability_percent": 0.09
+      },
+      {
+        "rank": 9,
+        "token": " Calif",
+        "logit": 13.625,
+        "probability_percent": 0.08
+      }
+    ]
+  },
+  {
+    "prompt": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nSão Francisco está localizado no país",
+    "generated_prefix": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nSão Francisco está localizado no país Estados",
+    "gold_token": " Unidos",
+    "predicted_top1_token": " Unidos",
+    "token_pos_in_answer": 1,
+    "gold_logit": 24.53125,
+    "gold_prob_percent": 99.9,
+    "first_token_prob": 0.8701171875,
+    "second_token_prob": 0.0809326171875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Unidos",
+        "logit": 24.53125,
+        "probability_percent": 99.9
+      },
+      {
+        "rank": 1,
+        "token": " Un",
+        "logit": 17.4375,
+        "probability_percent": 0.08
+      },
+      {
+        "rank": 2,
+        "token": " un",
+        "logit": 14.7265625,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 3,
+        "token": " Uni",
+        "logit": 14.4609375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 4,
+        "token": "-",
+        "logit": 14.2890625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 5,
+        "token": ".\n",
+        "logit": 14.0859375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": "-Un",
+        "logit": 14.0859375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": "\n",
+        "logit": 13.8046875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": " da",
+        "logit": 13.4609375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": " Feder",
+        "logit": 13.421875,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nCidade de Ho Chi Minh está localizado no país",
+    "generated_prefix": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nCidade de Ho Chi Minh está localizado no país",
+    "gold_token": " Viet",
+    "predicted_top1_token": " Viet",
+    "token_pos_in_answer": 0,
+    "gold_logit": 19.84375,
+    "gold_prob_percent": 89.84,
+    "first_token_prob": 0.8984375,
+    "second_token_prob": 0.09033203125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Viet",
+        "logit": 19.84375,
+        "probability_percent": 89.84
+      },
+      {
+        "rank": 1,
+        "token": " Vietnam",
+        "logit": 17.546875,
+        "probability_percent": 9.03
+      },
+      {
+        "rank": 2,
+        "token": " Vi",
+        "logit": 13.6796875,
+        "probability_percent": 0.19
+      },
+      {
+        "rank": 3,
+        "token": " Cam",
+        "logit": 13.515625,
+        "probability_percent": 0.16
+      },
+      {
+        "rank": 4,
+        "token": " Vit",
+        "logit": 12.625,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 5,
+        "token": " Tail",
+        "logit": 12.4609375,
+        "probability_percent": 0.06
+      },
+      {
+        "rank": 6,
+        "token": " Việt",
+        "logit": 12.3671875,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 7,
+        "token": " Rep",
+        "logit": 12.1484375,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 8,
+        "token": "Viet",
+        "logit": 12.1171875,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 9,
+        "token": " V",
+        "logit": 12.078125,
+        "probability_percent": 0.04
+      }
+    ]
+  },
+  {
+    "prompt": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nCidade de Ho Chi Minh está localizado no país",
+    "generated_prefix": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nCidade de Ho Chi Minh está localizado no país Viet",
+    "gold_token": "name",
+    "predicted_top1_token": "n",
+    "token_pos_in_answer": 1,
+    "gold_logit": 16.203125,
+    "gold_prob_percent": 48.66,
+    "first_token_prob": 0.8984375,
+    "second_token_prob": 0.09033203125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "n",
+        "logit": 16.21875,
+        "probability_percent": 49.41
+      },
+      {
+        "rank": 1,
+        "token": "name",
+        "logit": 16.203125,
+        "probability_percent": 48.66
+      },
+      {
+        "rank": 2,
+        "token": " Nam",
+        "logit": 10.7578125,
+        "probability_percent": 0.21
+      },
+      {
+        "rank": 3,
+        "token": "names",
+        "logit": 10.375,
+        "probability_percent": 0.14
+      },
+      {
+        "rank": 4,
+        "token": "nám",
+        "logit": 10.3203125,
+        "probability_percent": 0.14
+      },
+      {
+        "rank": 5,
+        "token": "nome",
+        "logit": 10.0390625,
+        "probability_percent": 0.1
+      },
+      {
+        "rank": 6,
+        "token": "man",
+        "logit": 9.8828125,
+        "probability_percent": 0.09
+      },
+      {
+        "rank": 7,
+        "token": "in",
+        "logit": 9.8671875,
+        "probability_percent": 0.09
+      },
+      {
+        "rank": 8,
+        "token": "ná",
+        "logit": 9.2265625,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 9,
+        "token": "ão",
+        "logit": 9.03125,
+        "probability_percent": 0.04
+      }
+    ]
+  },
+  {
+    "prompt": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nKuala Lumpur está localizado no país",
+    "generated_prefix": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nKuala Lumpur está localizado no país",
+    "gold_token": " Mal",
+    "predicted_top1_token": " Mal",
+    "token_pos_in_answer": 0,
+    "gold_logit": 20.703125,
+    "gold_prob_percent": 96.04,
+    "first_token_prob": 0.96044921875,
+    "second_token_prob": 0.0187225341796875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Mal",
+        "logit": 20.703125,
+        "probability_percent": 96.04
+      },
+      {
+        "rank": 1,
+        "token": " M",
+        "logit": 16.765625,
+        "probability_percent": 1.87
+      },
+      {
+        "rank": 2,
+        "token": " Malaysia",
+        "logit": 16.3125,
+        "probability_percent": 1.19
+      },
+      {
+        "rank": 3,
+        "token": " Malay",
+        "logit": 14.2265625,
+        "probability_percent": 0.15
+      },
+      {
+        "rank": 4,
+        "token": " Malays",
+        "logit": 13.90625,
+        "probability_percent": 0.11
+      },
+      {
+        "rank": 5,
+        "token": " My",
+        "logit": 13.21875,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 6,
+        "token": " mal",
+        "logit": 13.203125,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 7,
+        "token": " Ind",
+        "logit": 13.1015625,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 8,
+        "token": " Singap",
+        "logit": 13.0390625,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 9,
+        "token": " Tail",
+        "logit": 12.953125,
+        "probability_percent": 0.04
+      }
+    ]
+  },
+  {
+    "prompt": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nKuala Lumpur está localizado no país",
+    "generated_prefix": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nKuala Lumpur está localizado no país Mal",
+    "gold_token": "ás",
+    "predicted_top1_token": "ás",
+    "token_pos_in_answer": 1,
+    "gold_logit": 24.09375,
+    "gold_prob_percent": 99.8,
+    "first_token_prob": 0.96044921875,
+    "second_token_prob": 0.0187225341796875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ás",
+        "logit": 24.09375,
+        "probability_percent": 99.8
+      },
+      {
+        "rank": 1,
+        "token": "asia",
+        "logit": 16.640625,
+        "probability_percent": 0.06
+      },
+      {
+        "rank": 2,
+        "token": "és",
+        "logit": 16.5625,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 3,
+        "token": "ais",
+        "logit": 16.40625,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 4,
+        "token": "á",
+        "logit": 15.828125,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 5,
+        "token": "as",
+        "logit": 14.9609375,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 6,
+        "token": "é",
+        "logit": 14.7109375,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 7,
+        "token": "éc",
+        "logit": 12.9140625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "ária",
+        "logit": 12.5859375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "asi",
+        "logit": 12.1796875,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nKuala Lumpur está localizado no país",
+    "generated_prefix": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nKuala Lumpur está localizado no país Malás",
+    "gold_token": "ia",
+    "predicted_top1_token": "ia",
+    "token_pos_in_answer": 2,
+    "gold_logit": 29.8125,
+    "gold_prob_percent": 100.0,
+    "first_token_prob": 0.96044921875,
+    "second_token_prob": 0.0187225341796875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ia",
+        "logit": 29.8125,
+        "probability_percent": 100.0
+      },
+      {
+        "rank": 1,
+        "token": "ias",
+        "logit": 19.53125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 2,
+        "token": " ia",
+        "logit": 15.703125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 3,
+        "token": "IA",
+        "logit": 15.2578125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 4,
+        "token": "ía",
+        "logit": 15.0625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 5,
+        "token": "io",
+        "logit": 14.4921875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": "iais",
+        "logit": 14.5546875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": "iam",
+        "logit": 13.6640625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "iae",
+        "logit": 13.7109375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "ica",
+        "logit": 12.796875,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nAbu Dhabi está localizado no país",
+    "generated_prefix": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nAbu Dhabi está localizado no país",
+    "gold_token": " Em",
+    "predicted_top1_token": " Em",
+    "token_pos_in_answer": 0,
+    "gold_logit": 17.03125,
+    "gold_prob_percent": 80.08,
+    "first_token_prob": 0.80078125,
+    "second_token_prob": 0.068359375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Em",
+        "logit": 17.03125,
+        "probability_percent": 80.08
+      },
+      {
+        "rank": 1,
+        "token": " Uni",
+        "logit": 14.5703125,
+        "probability_percent": 6.84
+      },
+      {
+        "rank": 2,
+        "token": " Ar",
+        "logit": 13.6796875,
+        "probability_percent": 2.81
+      },
+      {
+        "rank": 3,
+        "token": " UAE",
+        "logit": 13.3125,
+        "probability_percent": 1.94
+      },
+      {
+        "rank": 4,
+        "token": " Estados",
+        "logit": 12.9296875,
+        "probability_percent": 1.33
+      },
+      {
+        "rank": 5,
+        "token": " United",
+        "logit": 12.203125,
+        "probability_percent": 0.64
+      },
+      {
+        "rank": 6,
+        "token": " Un",
+        "logit": 12.09375,
+        "probability_percent": 0.57
+      },
+      {
+        "rank": 7,
+        "token": " Abu",
+        "logit": 11.859375,
+        "probability_percent": 0.45
+      },
+      {
+        "rank": 8,
+        "token": " E",
+        "logit": 11.7734375,
+        "probability_percent": 0.42
+      },
+      {
+        "rank": 9,
+        "token": " C",
+        "logit": 11.7109375,
+        "probability_percent": 0.39
+      }
+    ]
+  },
+  {
+    "prompt": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nAbu Dhabi está localizado no país",
+    "generated_prefix": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nAbu Dhabi está localizado no país Em",
+    "gold_token": "ir",
+    "predicted_top1_token": "ir",
+    "token_pos_in_answer": 1,
+    "gold_logit": 21.484375,
+    "gold_prob_percent": 99.85,
+    "first_token_prob": 0.80078125,
+    "second_token_prob": 0.068359375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ir",
+        "logit": 21.484375,
+        "probability_percent": 99.85
+      },
+      {
+        "rank": 1,
+        "token": "irate",
+        "logit": 14.2890625,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 2,
+        "token": "í",
+        "logit": 12.484375,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 3,
+        "token": "ire",
+        "logit": 12.3828125,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 4,
+        "token": "irá",
+        "logit": 12.2265625,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 5,
+        "token": "ira",
+        "logit": 12.0703125,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 6,
+        "token": "irt",
+        "logit": 11.4296875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": "bar",
+        "logit": 11.421875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "ília",
+        "logit": 11.0546875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": " Ir",
+        "logit": 10.65625,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nAbu Dhabi está localizado no país",
+    "generated_prefix": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nAbu Dhabi está localizado no país Emir",
+    "gold_token": "ados",
+    "predicted_top1_token": "ados",
+    "token_pos_in_answer": 2,
+    "gold_logit": 21.609375,
+    "gold_prob_percent": 98.88,
+    "first_token_prob": 0.80078125,
+    "second_token_prob": 0.068359375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ados",
+        "logit": 21.609375,
+        "probability_percent": 98.88
+      },
+      {
+        "rank": 1,
+        "token": "atos",
+        "logit": 16.71875,
+        "probability_percent": 0.74
+      },
+      {
+        "rank": 2,
+        "token": "ado",
+        "logit": 15.359375,
+        "probability_percent": 0.19
+      },
+      {
+        "rank": 3,
+        "token": " dos",
+        "logit": 14.5859375,
+        "probability_percent": 0.09
+      },
+      {
+        "rank": 4,
+        "token": "adas",
+        "logit": 13.9921875,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 5,
+        "token": "ADOS",
+        "logit": 12.6875,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 6,
+        "token": "ada",
+        "logit": 12.6640625,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 7,
+        "token": "dos",
+        "logit": 12.078125,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 8,
+        "token": "atas",
+        "logit": 11.5546875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "ad",
+        "logit": 11.4609375,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nAbu Dhabi está localizado no país",
+    "generated_prefix": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nAbu Dhabi está localizado no país Emirados",
+    "gold_token": " Á",
+    "predicted_top1_token": " Á",
+    "token_pos_in_answer": 3,
+    "gold_logit": 20.25,
+    "gold_prob_percent": 99.41,
+    "first_token_prob": 0.80078125,
+    "second_token_prob": 0.068359375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Á",
+        "logit": 20.25,
+        "probability_percent": 99.41
+      },
+      {
+        "rank": 1,
+        "token": " Arab",
+        "logit": 14.296875,
+        "probability_percent": 0.26
+      },
+      {
+        "rank": 2,
+        "token": " á",
+        "logit": 13.5859375,
+        "probability_percent": 0.13
+      },
+      {
+        "rank": 3,
+        "token": " Unidos",
+        "logit": 12.96875,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 4,
+        "token": "Á",
+        "logit": 12.265625,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 5,
+        "token": " Ar",
+        "logit": 11.625,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 6,
+        "token": "á",
+        "logit": 10.890625,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 7,
+        "token": ".\n",
+        "logit": 10.2109375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "\n",
+        "logit": 9.859375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": " Arabic",
+        "logit": 9.609375,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nAbu Dhabi está localizado no país",
+    "generated_prefix": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nAbu Dhabi está localizado no país Emirados Á",
+    "gold_token": "rab",
+    "predicted_top1_token": "rab",
+    "token_pos_in_answer": 4,
+    "gold_logit": 22.03125,
+    "gold_prob_percent": 99.76,
+    "first_token_prob": 0.80078125,
+    "second_token_prob": 0.068359375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "rab",
+        "logit": 22.03125,
+        "probability_percent": 99.76
+      },
+      {
+        "rank": 1,
+        "token": "r",
+        "logit": 16.015625,
+        "probability_percent": 0.24
+      },
+      {
+        "rank": 2,
+        "token": "rá",
+        "logit": 12.0625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 3,
+        "token": "ra",
+        "logit": 11.8203125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 4,
+        "token": "ar",
+        "logit": 11.5625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 5,
+        "token": "раб",
+        "logit": 10.2890625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": "ró",
+        "logit": 10.0,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": "ras",
+        "logit": 9.7265625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "rát",
+        "logit": 9.6640625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "ραβ",
+        "logit": 9.5859375,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nAbu Dhabi está localizado no país",
+    "generated_prefix": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nAbu Dhabi está localizado no país Emirados Árab",
+    "gold_token": "es",
+    "predicted_top1_token": "es",
+    "token_pos_in_answer": 5,
+    "gold_logit": 26.28125,
+    "gold_prob_percent": 100.0,
+    "first_token_prob": 0.80078125,
+    "second_token_prob": 0.068359375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "es",
+        "logit": 26.28125,
+        "probability_percent": 100.0
+      },
+      {
+        "rank": 1,
+        "token": "esc",
+        "logit": 16.65625,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 2,
+        "token": "os",
+        "logit": 15.25,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 3,
+        "token": "icos",
+        "logit": 14.546875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 4,
+        "token": "ies",
+        "logit": 13.0390625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 5,
+        "token": "as",
+        "logit": 12.5703125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": "ês",
+        "logit": 12.453125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": "esh",
+        "logit": 12.140625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "eses",
+        "logit": 12.0234375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "is",
+        "logit": 11.8984375,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nAbu Dhabi está localizado no país",
+    "generated_prefix": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nAbu Dhabi está localizado no país Emirados Árabes",
+    "gold_token": " Unidos",
+    "predicted_top1_token": " Unidos",
+    "token_pos_in_answer": 6,
+    "gold_logit": 20.015625,
+    "gold_prob_percent": 99.17,
+    "first_token_prob": 0.80078125,
+    "second_token_prob": 0.068359375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Unidos",
+        "logit": 20.015625,
+        "probability_percent": 99.17
+      },
+      {
+        "rank": 1,
+        "token": ".\n",
+        "logit": 14.921875,
+        "probability_percent": 0.61
+      },
+      {
+        "rank": 2,
+        "token": "\n",
+        "logit": 12.53125,
+        "probability_percent": 0.06
+      },
+      {
+        "rank": 3,
+        "token": " Un",
+        "logit": 12.0390625,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 4,
+        "token": ".",
+        "logit": 11.6484375,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 5,
+        "token": " do",
+        "logit": 11.03125,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 6,
+        "token": " .\n",
+        "logit": 10.734375,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 7,
+        "token": " Ú",
+        "logit": 10.734375,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 8,
+        "token": " Uni",
+        "logit": 10.59375,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 9,
+        "token": ",",
+        "logit": 10.4609375,
+        "probability_percent": 0.01
+      }
+    ]
+  },
+  {
+    "prompt": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nCidade do Cabo está localizado no país",
+    "generated_prefix": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nCidade do Cabo está localizado no país",
+    "gold_token": " Á",
+    "predicted_top1_token": " Á",
+    "token_pos_in_answer": 0,
+    "gold_logit": 20.640625,
+    "gold_prob_percent": 98.58,
+    "first_token_prob": 0.98583984375,
+    "second_token_prob": 0.0027904510498046875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Á",
+        "logit": 20.640625,
+        "probability_percent": 98.58
+      },
+      {
+        "rank": 1,
+        "token": " Africa",
+        "logit": 14.7734375,
+        "probability_percent": 0.28
+      },
+      {
+        "rank": 2,
+        "token": " Rep",
+        "logit": 14.1953125,
+        "probability_percent": 0.16
+      },
+      {
+        "rank": 3,
+        "token": " Sul",
+        "logit": 14.171875,
+        "probability_percent": 0.15
+      },
+      {
+        "rank": 4,
+        "token": " Sud",
+        "logit": 14.0,
+        "probability_percent": 0.13
+      },
+      {
+        "rank": 5,
+        "token": " S",
+        "logit": 13.8515625,
+        "probability_percent": 0.11
+      },
+      {
+        "rank": 6,
+        "token": " Af",
+        "logit": 13.8046875,
+        "probability_percent": 0.11
+      },
+      {
+        "rank": 7,
+        "token": " Afr",
+        "logit": 13.125,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 8,
+        "token": " Nam",
+        "logit": 13.0078125,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 9,
+        "token": " sul",
+        "logit": 12.5234375,
+        "probability_percent": 0.03
+      }
+    ]
+  },
+  {
+    "prompt": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nCidade do Cabo está localizado no país",
+    "generated_prefix": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nCidade do Cabo está localizado no país Á",
+    "gold_token": "frica",
+    "predicted_top1_token": "frica",
+    "token_pos_in_answer": 1,
+    "gold_logit": 23.921875,
+    "gold_prob_percent": 99.95,
+    "first_token_prob": 0.98583984375,
+    "second_token_prob": 0.0027904510498046875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "frica",
+        "logit": 23.921875,
+        "probability_percent": 99.95
+      },
+      {
+        "rank": 1,
+        "token": "fr",
+        "logit": 14.65625,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 2,
+        "token": "ustria",
+        "logit": 14.484375,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 3,
+        "token": "f",
+        "logit": 14.421875,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 4,
+        "token": "car",
+        "logit": 13.296875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 5,
+        "token": "s",
+        "logit": 13.1953125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": "rea",
+        "logit": 11.921875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": "gua",
+        "logit": 11.75,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "tica",
+        "logit": 11.109375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": " fr",
+        "logit": 11.03125,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nCidade do Cabo está localizado no país",
+    "generated_prefix": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nCidade do Cabo está localizado no país África",
+    "gold_token": " do",
+    "predicted_top1_token": " do",
+    "token_pos_in_answer": 2,
+    "gold_logit": 21.296875,
+    "gold_prob_percent": 99.76,
+    "first_token_prob": 0.98583984375,
+    "second_token_prob": 0.0027904510498046875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " do",
+        "logit": 21.296875,
+        "probability_percent": 99.76
+      },
+      {
+        "rank": 1,
+        "token": ".\n",
+        "logit": 14.4140625,
+        "probability_percent": 0.1
+      },
+      {
+        "rank": 2,
+        "token": " Do",
+        "logit": 13.6015625,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 3,
+        "token": "\n",
+        "logit": 12.0078125,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 4,
+        "token": " Austral",
+        "logit": 11.9296875,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 5,
+        "token": ",",
+        "logit": 11.921875,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 6,
+        "token": ".",
+        "logit": 11.671875,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 7,
+        "token": " o",
+        "logit": 11.40625,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 8,
+        "token": " del",
+        "logit": 11.375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": " Austr",
+        "logit": 11.3671875,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nCidade do Cabo está localizado no país",
+    "generated_prefix": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nCidade do Cabo está localizado no país África do",
+    "gold_token": " Sul",
+    "predicted_top1_token": " Sul",
+    "token_pos_in_answer": 3,
+    "gold_logit": 20.03125,
+    "gold_prob_percent": 99.37,
+    "first_token_prob": 0.98583984375,
+    "second_token_prob": 0.0027904510498046875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Sul",
+        "logit": 20.03125,
+        "probability_percent": 99.37
+      },
+      {
+        "rank": 1,
+        "token": " sul",
+        "logit": 14.546875,
+        "probability_percent": 0.41
+      },
+      {
+        "rank": 2,
+        "token": " Sud",
+        "logit": 12.5625,
+        "probability_percent": 0.06
+      },
+      {
+        "rank": 3,
+        "token": " S",
+        "logit": 12.5,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 4,
+        "token": "\n",
+        "logit": 11.265625,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 5,
+        "token": " Su",
+        "logit": 10.4453125,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 6,
+        "token": " Norte",
+        "logit": 10.34375,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 7,
+        "token": " ",
+        "logit": 10.0859375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": " Cab",
+        "logit": 9.984375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": " Sur",
+        "logit": 9.9453125,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nNova Deli está localizado no país",
+    "generated_prefix": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nNova Deli está localizado no país",
+    "gold_token": " �",
+    "predicted_top1_token": " �",
+    "token_pos_in_answer": 0,
+    "gold_logit": 18.921875,
+    "gold_prob_percent": 86.43,
+    "first_token_prob": 0.8642578125,
+    "second_token_prob": 0.08294677734375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " �",
+        "logit": 18.921875,
+        "probability_percent": 86.43
+      },
+      {
+        "rank": 1,
+        "token": " Ind",
+        "logit": 16.578125,
+        "probability_percent": 8.29
+      },
+      {
+        "rank": 2,
+        "token": " India",
+        "logit": 15.078125,
+        "probability_percent": 1.85
+      },
+      {
+        "rank": 3,
+        "token": " Tail",
+        "logit": 13.6640625,
+        "probability_percent": 0.45
+      },
+      {
+        "rank": 4,
+        "token": " Indonesia",
+        "logit": 13.3359375,
+        "probability_percent": 0.32
+      },
+      {
+        "rank": 5,
+        "token": " Brasil",
+        "logit": 12.6328125,
+        "probability_percent": 0.16
+      },
+      {
+        "rank": 6,
+        "token": " Rep",
+        "logit": 12.5625,
+        "probability_percent": 0.15
+      },
+      {
+        "rank": 7,
+        "token": " Nova",
+        "logit": 12.5625,
+        "probability_percent": 0.15
+      },
+      {
+        "rank": 8,
+        "token": " Pa",
+        "logit": 12.484375,
+        "probability_percent": 0.14
+      },
+      {
+        "rank": 9,
+        "token": " Bangladesh",
+        "logit": 12.2734375,
+        "probability_percent": 0.11
+      }
+    ]
+  },
+  {
+    "prompt": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nNova Deli está localizado no país",
+    "generated_prefix": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nNova Deli está localizado no país �",
+    "gold_token": "�",
+    "predicted_top1_token": "�",
+    "token_pos_in_answer": 1,
+    "gold_logit": 24.125,
+    "gold_prob_percent": 100.0,
+    "first_token_prob": 0.8642578125,
+    "second_token_prob": 0.08294677734375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "�",
+        "logit": 24.125,
+        "probability_percent": 100.0
+      },
+      {
+        "rank": 1,
+        "token": "�",
+        "logit": 12.3359375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 2,
+        "token": "�",
+        "logit": 12.203125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 3,
+        "token": "�",
+        "logit": 11.8359375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 4,
+        "token": "�",
+        "logit": 11.4609375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 5,
+        "token": "�",
+        "logit": 11.3046875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": "�ng",
+        "logit": 11.125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": "�",
+        "logit": 11.0,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "",
+        "logit": 10.8671875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "�",
+        "logit": 10.59375,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nNova Deli está localizado no país",
+    "generated_prefix": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nNova Deli está localizado no país Í",
+    "gold_token": "nd",
+    "predicted_top1_token": "nd",
+    "token_pos_in_answer": 2,
+    "gold_logit": 27.84375,
+    "gold_prob_percent": 100.0,
+    "first_token_prob": 0.8642578125,
+    "second_token_prob": 0.08294677734375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "nd",
+        "logit": 27.84375,
+        "probability_percent": 100.0
+      },
+      {
+        "rank": 1,
+        "token": "ndo",
+        "logit": 16.046875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 2,
+        "token": "ND",
+        "logit": 15.828125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 3,
+        "token": "нд",
+        "logit": 15.0390625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 4,
+        "token": "nda",
+        "logit": 14.5859375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 5,
+        "token": " nd",
+        "logit": 14.53125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": "n",
+        "logit": 14.109375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": "nc",
+        "logit": 13.3203125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "nde",
+        "logit": 13.0546875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "ndon",
+        "logit": 12.9375,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nNova Deli está localizado no país",
+    "generated_prefix": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nNova Deli está localizado no país Índ",
+    "gold_token": "ia",
+    "predicted_top1_token": "ia",
+    "token_pos_in_answer": 3,
+    "gold_logit": 28.09375,
+    "gold_prob_percent": 99.9,
+    "first_token_prob": 0.8642578125,
+    "second_token_prob": 0.08294677734375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ia",
+        "logit": 28.09375,
+        "probability_percent": 99.9
+      },
+      {
+        "rank": 1,
+        "token": "ias",
+        "logit": 21.140625,
+        "probability_percent": 0.1
+      },
+      {
+        "rank": 2,
+        "token": "ica",
+        "logit": 17.484375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 3,
+        "token": "onesia",
+        "logit": 15.09375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 4,
+        "token": "iac",
+        "logit": 14.9765625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 5,
+        "token": "io",
+        "logit": 14.953125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": "ea",
+        "logit": 14.9609375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": " ia",
+        "logit": 14.96875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "iais",
+        "logit": 14.859375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "es",
+        "logit": 14.6875,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nLas Vegas está localizado no país",
+    "generated_prefix": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nLas Vegas está localizado no país",
+    "gold_token": " Estados",
+    "predicted_top1_token": " Estados",
+    "token_pos_in_answer": 0,
+    "gold_logit": 20.515625,
+    "gold_prob_percent": 87.4,
+    "first_token_prob": 0.8740234375,
+    "second_token_prob": 0.055877685546875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Estados",
+        "logit": 20.515625,
+        "probability_percent": 87.4
+      },
+      {
+        "rank": 1,
+        "token": " EU",
+        "logit": 17.765625,
+        "probability_percent": 5.59
+      },
+      {
+        "rank": 2,
+        "token": " E",
+        "logit": 16.703125,
+        "probability_percent": 1.93
+      },
+      {
+        "rank": 3,
+        "token": " USA",
+        "logit": 16.578125,
+        "probability_percent": 1.7
+      },
+      {
+        "rank": 4,
+        "token": " Est",
+        "logit": 16.578125,
+        "probability_percent": 1.7
+      },
+      {
+        "rank": 5,
+        "token": " dos",
+        "logit": 14.6171875,
+        "probability_percent": 0.24
+      },
+      {
+        "rank": 6,
+        "token": " América",
+        "logit": 13.546875,
+        "probability_percent": 0.08
+      },
+      {
+        "rank": 7,
+        "token": " Estado",
+        "logit": 13.3984375,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 8,
+        "token": " United",
+        "logit": 13.1328125,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 9,
+        "token": " ",
+        "logit": 13.125,
+        "probability_percent": 0.05
+      }
+    ]
+  },
+  {
+    "prompt": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nLas Vegas está localizado no país",
+    "generated_prefix": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nLas Vegas está localizado no país Estados",
+    "gold_token": " Unidos",
+    "predicted_top1_token": " Unidos",
+    "token_pos_in_answer": 1,
+    "gold_logit": 24.5625,
+    "gold_prob_percent": 99.9,
+    "first_token_prob": 0.8740234375,
+    "second_token_prob": 0.055877685546875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Unidos",
+        "logit": 24.5625,
+        "probability_percent": 99.9
+      },
+      {
+        "rank": 1,
+        "token": " Un",
+        "logit": 17.46875,
+        "probability_percent": 0.08
+      },
+      {
+        "rank": 2,
+        "token": " un",
+        "logit": 15.0,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 3,
+        "token": "-",
+        "logit": 14.359375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 4,
+        "token": " Uni",
+        "logit": 14.34375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 5,
+        "token": "-Un",
+        "logit": 14.2109375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": ".\n",
+        "logit": 13.84375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": "\n",
+        "logit": 13.734375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": " da",
+        "logit": 13.4375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "un",
+        "logit": 13.15625,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nHong Kong está localizado no país",
+    "generated_prefix": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nHong Kong está localizado no país",
+    "gold_token": " China",
+    "predicted_top1_token": " China",
+    "token_pos_in_answer": 0,
+    "gold_logit": 18.359375,
+    "gold_prob_percent": 59.23,
+    "first_token_prob": 0.59228515625,
+    "second_token_prob": 0.31689453125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " China",
+        "logit": 18.359375,
+        "probability_percent": 59.23
+      },
+      {
+        "rank": 1,
+        "token": " Hong",
+        "logit": 17.734375,
+        "probability_percent": 31.69
+      },
+      {
+        "rank": 2,
+        "token": " Rep",
+        "logit": 15.5390625,
+        "probability_percent": 3.53
+      },
+      {
+        "rank": 3,
+        "token": " Ch",
+        "logit": 14.4296875,
+        "probability_percent": 1.16
+      },
+      {
+        "rank": 4,
+        "token": " X",
+        "logit": 13.6484375,
+        "probability_percent": 0.53
+      },
+      {
+        "rank": 5,
+        "token": " Core",
+        "logit": 13.140625,
+        "probability_percent": 0.32
+      },
+      {
+        "rank": 6,
+        "token": " Chin",
+        "logit": 12.9375,
+        "probability_percent": 0.26
+      },
+      {
+        "rank": 7,
+        "token": " Hon",
+        "logit": 12.5546875,
+        "probability_percent": 0.18
+      },
+      {
+        "rank": 8,
+        "token": " Tail",
+        "logit": 12.2421875,
+        "probability_percent": 0.13
+      },
+      {
+        "rank": 9,
+        "token": " Mac",
+        "logit": 12.234375,
+        "probability_percent": 0.13
+      }
+    ]
+  },
+  {
+    "prompt": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nTel Aviv está localizado no país",
+    "generated_prefix": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nTel Aviv está localizado no país",
+    "gold_token": " Israel",
+    "predicted_top1_token": " Israel",
+    "token_pos_in_answer": 0,
+    "gold_logit": 21.65625,
+    "gold_prob_percent": 98.88,
+    "first_token_prob": 0.98876953125,
+    "second_token_prob": 0.00487518310546875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Israel",
+        "logit": 21.65625,
+        "probability_percent": 98.88
+      },
+      {
+        "rank": 1,
+        "token": " Is",
+        "logit": 16.34375,
+        "probability_percent": 0.49
+      },
+      {
+        "rank": 2,
+        "token": " Palest",
+        "logit": 15.0546875,
+        "probability_percent": 0.13
+      },
+      {
+        "rank": 3,
+        "token": " �",
+        "logit": 14.71875,
+        "probability_percent": 0.1
+      },
+      {
+        "rank": 4,
+        "token": " Estado",
+        "logit": 14.4296875,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 5,
+        "token": " I",
+        "logit": 14.0859375,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 6,
+        "token": " Isl",
+        "logit": 13.4375,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 7,
+        "token": " Israeli",
+        "logit": 13.421875,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 8,
+        "token": " Pa",
+        "logit": 13.25,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 9,
+        "token": " ",
+        "logit": 12.75,
+        "probability_percent": 0.01
+      }
+    ]
+  },
+  {
+    "prompt": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nJoanesburgo está localizado no país",
+    "generated_prefix": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nJoanesburgo está localizado no país",
+    "gold_token": " Á",
+    "predicted_top1_token": " Á",
+    "token_pos_in_answer": 0,
+    "gold_logit": 20.75,
+    "gold_prob_percent": 98.83,
+    "first_token_prob": 0.98828125,
+    "second_token_prob": 0.0023555755615234375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Á",
+        "logit": 20.75,
+        "probability_percent": 98.83
+      },
+      {
+        "rank": 1,
+        "token": " Africa",
+        "logit": 14.7109375,
+        "probability_percent": 0.24
+      },
+      {
+        "rank": 2,
+        "token": " Rep",
+        "logit": 14.203125,
+        "probability_percent": 0.14
+      },
+      {
+        "rank": 3,
+        "token": " Af",
+        "logit": 14.1953125,
+        "probability_percent": 0.14
+      },
+      {
+        "rank": 4,
+        "token": " Sud",
+        "logit": 13.7109375,
+        "probability_percent": 0.09
+      },
+      {
+        "rank": 5,
+        "token": " Sul",
+        "logit": 13.6953125,
+        "probability_percent": 0.09
+      },
+      {
+        "rank": 6,
+        "token": " Afr",
+        "logit": 13.5625,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 7,
+        "token": " S",
+        "logit": 13.515625,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 8,
+        "token": " Z",
+        "logit": 12.703125,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 9,
+        "token": " South",
+        "logit": 12.21875,
+        "probability_percent": 0.02
+      }
+    ]
+  },
+  {
+    "prompt": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nJoanesburgo está localizado no país",
+    "generated_prefix": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nJoanesburgo está localizado no país Á",
+    "gold_token": "frica",
+    "predicted_top1_token": "frica",
+    "token_pos_in_answer": 1,
+    "gold_logit": 24.25,
+    "gold_prob_percent": 99.95,
+    "first_token_prob": 0.98828125,
+    "second_token_prob": 0.0023555755615234375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "frica",
+        "logit": 24.25,
+        "probability_percent": 99.95
+      },
+      {
+        "rank": 1,
+        "token": "fr",
+        "logit": 15.6328125,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 2,
+        "token": "f",
+        "logit": 15.0859375,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 3,
+        "token": "ustria",
+        "logit": 14.1015625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 4,
+        "token": "s",
+        "logit": 13.8359375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 5,
+        "token": "car",
+        "logit": 13.453125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": "rea",
+        "logit": 12.5,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": " fr",
+        "logit": 12.03125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "gua",
+        "logit": 11.15625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "l",
+        "logit": 11.0625,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nJoanesburgo está localizado no país",
+    "generated_prefix": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nJoanesburgo está localizado no país África",
+    "gold_token": " do",
+    "predicted_top1_token": " do",
+    "token_pos_in_answer": 2,
+    "gold_logit": 21.078125,
+    "gold_prob_percent": 99.76,
+    "first_token_prob": 0.98828125,
+    "second_token_prob": 0.0023555755615234375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " do",
+        "logit": 21.078125,
+        "probability_percent": 99.76
+      },
+      {
+        "rank": 1,
+        "token": ".\n",
+        "logit": 13.8359375,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 2,
+        "token": " Do",
+        "logit": 13.3671875,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 3,
+        "token": "\n",
+        "logit": 12.0,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 4,
+        "token": ",",
+        "logit": 11.953125,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 5,
+        "token": ".",
+        "logit": 11.4609375,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 6,
+        "token": " o",
+        "logit": 11.25,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 7,
+        "token": " del",
+        "logit": 10.953125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "-do",
+        "logit": 10.875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": " e",
+        "logit": 10.7890625,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nJoanesburgo está localizado no país",
+    "generated_prefix": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nJoanesburgo está localizado no país África do",
+    "gold_token": " Sul",
+    "predicted_top1_token": " Sul",
+    "token_pos_in_answer": 3,
+    "gold_logit": 20.28125,
+    "gold_prob_percent": 99.56,
+    "first_token_prob": 0.98828125,
+    "second_token_prob": 0.0023555755615234375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Sul",
+        "logit": 20.28125,
+        "probability_percent": 99.56
+      },
+      {
+        "rank": 1,
+        "token": " sul",
+        "logit": 14.3046875,
+        "probability_percent": 0.25
+      },
+      {
+        "rank": 2,
+        "token": " Sud",
+        "logit": 13.046875,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 3,
+        "token": " S",
+        "logit": 12.65625,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 4,
+        "token": "\n",
+        "logit": 11.3984375,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 5,
+        "token": " Norte",
+        "logit": 10.8046875,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 6,
+        "token": " Su",
+        "logit": 10.078125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": " ",
+        "logit": 9.9453125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": " South",
+        "logit": 9.59375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": " Sur",
+        "logit": 9.5859375,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nSão Domingos está localizado no país",
+    "generated_prefix": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nSão Domingos está localizado no país",
+    "gold_token": " Rep",
+    "predicted_top1_token": " Rep",
+    "token_pos_in_answer": 0,
+    "gold_logit": 19.65625,
+    "gold_prob_percent": 86.28,
+    "first_token_prob": 0.86279296875,
+    "second_token_prob": 0.03143310546875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Rep",
+        "logit": 19.65625,
+        "probability_percent": 86.28
+      },
+      {
+        "rank": 1,
+        "token": " Haiti",
+        "logit": 16.34375,
+        "probability_percent": 3.14
+      },
+      {
+        "rank": 2,
+        "token": " Domin",
+        "logit": 15.5625,
+        "probability_percent": 1.44
+      },
+      {
+        "rank": 3,
+        "token": " Hait",
+        "logit": 15.5,
+        "probability_percent": 1.35
+      },
+      {
+        "rank": 4,
+        "token": " Brasil",
+        "logit": 15.2734375,
+        "probability_percent": 1.08
+      },
+      {
+        "rank": 5,
+        "token": " Santo",
+        "logit": 15.046875,
+        "probability_percent": 0.86
+      },
+      {
+        "rank": 6,
+        "token": " São",
+        "logit": 14.8359375,
+        "probability_percent": 0.7
+      },
+      {
+        "rank": 7,
+        "token": " Dominican",
+        "logit": 14.8125,
+        "probability_percent": 0.68
+      },
+      {
+        "rank": 8,
+        "token": " Dom",
+        "logit": 14.2734375,
+        "probability_percent": 0.4
+      },
+      {
+        "rank": 9,
+        "token": " Estados",
+        "logit": 14.015625,
+        "probability_percent": 0.31
+      }
+    ]
+  },
+  {
+    "prompt": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nSão Domingos está localizado no país",
+    "generated_prefix": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nSão Domingos está localizado no país Rep",
+    "gold_token": "ública",
+    "predicted_top1_token": "ública",
+    "token_pos_in_answer": 1,
+    "gold_logit": 20.40625,
+    "gold_prob_percent": 99.76,
+    "first_token_prob": 0.86279296875,
+    "second_token_prob": 0.03143310546875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ública",
+        "logit": 20.40625,
+        "probability_percent": 99.76
+      },
+      {
+        "rank": 1,
+        "token": ".",
+        "logit": 13.9140625,
+        "probability_percent": 0.15
+      },
+      {
+        "rank": 2,
+        "token": "ú",
+        "logit": 12.203125,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 3,
+        "token": "úb",
+        "logit": 12.1796875,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 4,
+        "token": "ub",
+        "logit": 11.984375,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 5,
+        "token": ".\n",
+        "logit": 10.1953125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": "Ú",
+        "logit": 9.671875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": "ubb",
+        "logit": 9.0234375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "�",
+        "logit": 9.015625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "Ã",
+        "logit": 8.4453125,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nSão Domingos está localizado no país",
+    "generated_prefix": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nSão Domingos está localizado no país República",
+    "gold_token": " Dominic",
+    "predicted_top1_token": " Dominic",
+    "token_pos_in_answer": 2,
+    "gold_logit": 21.21875,
+    "gold_prob_percent": 98.93,
+    "first_token_prob": 0.86279296875,
+    "second_token_prob": 0.03143310546875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Dominic",
+        "logit": 21.21875,
+        "probability_percent": 98.93
+      },
+      {
+        "rank": 1,
+        "token": " Domin",
+        "logit": 15.578125,
+        "probability_percent": 0.35
+      },
+      {
+        "rank": 2,
+        "token": " Democr",
+        "logit": 15.078125,
+        "probability_percent": 0.21
+      },
+      {
+        "rank": 3,
+        "token": " Dom",
+        "logit": 14.6171875,
+        "probability_percent": 0.13
+      },
+      {
+        "rank": 4,
+        "token": " do",
+        "logit": 14.578125,
+        "probability_percent": 0.13
+      },
+      {
+        "rank": 5,
+        "token": " domin",
+        "logit": 14.5390625,
+        "probability_percent": 0.12
+      },
+      {
+        "rank": 6,
+        "token": " Dominican",
+        "logit": 13.2265625,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 7,
+        "token": " da",
+        "logit": 12.6796875,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 8,
+        "token": " Doming",
+        "logit": 12.65625,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 9,
+        "token": " Popular",
+        "logit": 11.984375,
+        "probability_percent": 0.01
+      }
+    ]
+  },
+  {
+    "prompt": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nSão Domingos está localizado no país",
+    "generated_prefix": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nSão Domingos está localizado no país República Dominic",
+    "gold_token": "ana",
+    "predicted_top1_token": "ana",
+    "token_pos_in_answer": 3,
+    "gold_logit": 24.765625,
+    "gold_prob_percent": 99.76,
+    "first_token_prob": 0.86279296875,
+    "second_token_prob": 0.03143310546875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ana",
+        "logit": 24.765625,
+        "probability_percent": 99.76
+      },
+      {
+        "rank": 1,
+        "token": "ano",
+        "logit": 18.53125,
+        "probability_percent": 0.2
+      },
+      {
+        "rank": 2,
+        "token": ".\n",
+        "logit": 15.6953125,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 3,
+        "token": "ã",
+        "logit": 15.2109375,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 4,
+        "token": "iana",
+        "logit": 15.0234375,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 5,
+        "token": "ão",
+        "logit": 14.4375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": "na",
+        "logit": 14.0546875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": "anna",
+        "logit": 13.140625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "á",
+        "logit": 13.125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "ána",
+        "logit": 13.0390625,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nPorto Príncipe está localizado no país",
+    "generated_prefix": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nPorto Príncipe está localizado no país",
+    "gold_token": " Haiti",
+    "predicted_top1_token": " Haiti",
+    "token_pos_in_answer": 0,
+    "gold_logit": 18.734375,
+    "gold_prob_percent": 59.08,
+    "first_token_prob": 0.5908203125,
+    "second_token_prob": 0.197998046875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Haiti",
+        "logit": 18.734375,
+        "probability_percent": 59.08
+      },
+      {
+        "rank": 1,
+        "token": " Hait",
+        "logit": 17.640625,
+        "probability_percent": 19.8
+      },
+      {
+        "rank": 2,
+        "token": " Rep",
+        "logit": 17.53125,
+        "probability_percent": 17.75
+      },
+      {
+        "rank": 3,
+        "token": " Cuba",
+        "logit": 13.9765625,
+        "probability_percent": 0.51
+      },
+      {
+        "rank": 4,
+        "token": " H",
+        "logit": 13.796875,
+        "probability_percent": 0.42
+      },
+      {
+        "rank": 5,
+        "token": " Ha",
+        "logit": 13.75,
+        "probability_percent": 0.4
+      },
+      {
+        "rank": 6,
+        "token": " Costa",
+        "logit": 13.171875,
+        "probability_percent": 0.23
+      },
+      {
+        "rank": 7,
+        "token": " Qu",
+        "logit": 12.890625,
+        "probability_percent": 0.17
+      },
+      {
+        "rank": 8,
+        "token": " Cab",
+        "logit": 12.890625,
+        "probability_percent": 0.17
+      },
+      {
+        "rank": 9,
+        "token": " Gu",
+        "logit": 12.1171875,
+        "probability_percent": 0.08
+      }
+    ]
+  },
+  {
+    "prompt": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nSantiago de Chile está localizado no país",
+    "generated_prefix": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nSantiago de Chile está localizado no país",
+    "gold_token": " Chile",
+    "predicted_top1_token": " Chile",
+    "token_pos_in_answer": 0,
+    "gold_logit": 22.453125,
+    "gold_prob_percent": 99.61,
+    "first_token_prob": 0.99609375,
+    "second_token_prob": 0.00159454345703125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Chile",
+        "logit": 22.453125,
+        "probability_percent": 99.61
+      },
+      {
+        "rank": 1,
+        "token": " Ch",
+        "logit": 16.015625,
+        "probability_percent": 0.16
+      },
+      {
+        "rank": 2,
+        "token": " Chili",
+        "logit": 15.1015625,
+        "probability_percent": 0.06
+      },
+      {
+        "rank": 3,
+        "token": " C",
+        "logit": 14.1796875,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 4,
+        "token": " Rep",
+        "logit": 13.8515625,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 5,
+        "token": " X",
+        "logit": 13.203125,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 6,
+        "token": " Brasil",
+        "logit": 13.1796875,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 7,
+        "token": " Argentina",
+        "logit": 13.1171875,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 8,
+        "token": " Il",
+        "logit": 12.2890625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": " Peru",
+        "logit": 12.1015625,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nCidade do Panamá está localizado no país",
+    "generated_prefix": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nCidade do Panamá está localizado no país",
+    "gold_token": " Pan",
+    "predicted_top1_token": " Pan",
+    "token_pos_in_answer": 0,
+    "gold_logit": 22.125,
+    "gold_prob_percent": 98.49,
+    "first_token_prob": 0.98486328125,
+    "second_token_prob": 0.00763702392578125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Pan",
+        "logit": 22.125,
+        "probability_percent": 98.49
+      },
+      {
+        "rank": 1,
+        "token": " Pa",
+        "logit": 17.265625,
+        "probability_percent": 0.76
+      },
+      {
+        "rank": 2,
+        "token": " Panama",
+        "logit": 16.09375,
+        "probability_percent": 0.24
+      },
+      {
+        "rank": 3,
+        "token": " Rep",
+        "logit": 15.1875,
+        "probability_percent": 0.1
+      },
+      {
+        "rank": 4,
+        "token": " C",
+        "logit": 14.8125,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 5,
+        "token": " Estados",
+        "logit": 14.0625,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 6,
+        "token": " P",
+        "logit": 13.7578125,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 7,
+        "token": " Costa",
+        "logit": 13.7578125,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 8,
+        "token": " América",
+        "logit": 13.609375,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 9,
+        "token": " Par",
+        "logit": 13.3125,
+        "probability_percent": 0.01
+      }
+    ]
+  },
+  {
+    "prompt": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nCidade do Panamá está localizado no país",
+    "generated_prefix": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nCidade do Panamá está localizado no país Pan",
+    "gold_token": "am",
+    "predicted_top1_token": "am",
+    "token_pos_in_answer": 1,
+    "gold_logit": 22.921875,
+    "gold_prob_percent": 99.85,
+    "first_token_prob": 0.98486328125,
+    "second_token_prob": 0.00763702392578125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "am",
+        "logit": 22.921875,
+        "probability_percent": 99.85
+      },
+      {
+        "rank": 1,
+        "token": "em",
+        "logit": 14.3671875,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 2,
+        "token": "ã",
+        "logit": 14.046875,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 3,
+        "token": " América",
+        "logit": 13.59375,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 4,
+        "token": "orama",
+        "logit": 13.40625,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 5,
+        "token": "âm",
+        "logit": 12.9453125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": "ame",
+        "logit": 12.9140625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": "amar",
+        "logit": 12.6484375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "ema",
+        "logit": 12.4453125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "aman",
+        "logit": 12.421875,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nCidade do Panamá está localizado no país",
+    "generated_prefix": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nCidade do Panamá está localizado no país Panam",
+    "gold_token": "á",
+    "predicted_top1_token": "á",
+    "token_pos_in_answer": 2,
+    "gold_logit": 23.578125,
+    "gold_prob_percent": 99.85,
+    "first_token_prob": 0.98486328125,
+    "second_token_prob": 0.00763702392578125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "á",
+        "logit": 23.578125,
+        "probability_percent": 99.85
+      },
+      {
+        "rank": 1,
+        "token": "ã",
+        "logit": 16.625,
+        "probability_percent": 0.1
+      },
+      {
+        "rank": 2,
+        "token": ".\n",
+        "logit": 15.1015625,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 3,
+        "token": "Á",
+        "logit": 14.0546875,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 4,
+        "token": "ão",
+        "logit": 13.84375,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 5,
+        "token": "â",
+        "logit": 12.78125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": "\n",
+        "logit": 12.6640625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": "Ã",
+        "logit": 12.6484375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "à",
+        "logit": 12.5234375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "ă",
+        "logit": 12.5,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nSiem Reap está localizado no país",
+    "generated_prefix": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nSiem Reap está localizado no país",
+    "gold_token": " Cam",
+    "predicted_top1_token": " Cam",
+    "token_pos_in_answer": 0,
+    "gold_logit": 18.703125,
+    "gold_prob_percent": 85.69,
+    "first_token_prob": 0.85693359375,
+    "second_token_prob": 0.09765625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Cam",
+        "logit": 18.703125,
+        "probability_percent": 85.69
+      },
+      {
+        "rank": 1,
+        "token": " Camb",
+        "logit": 16.53125,
+        "probability_percent": 9.77
+      },
+      {
+        "rank": 2,
+        "token": " Tail",
+        "logit": 14.5546875,
+        "probability_percent": 1.35
+      },
+      {
+        "rank": 3,
+        "token": " Cambodia",
+        "logit": 14.34375,
+        "probability_percent": 1.1
+      },
+      {
+        "rank": 4,
+        "token": " C",
+        "logit": 13.59375,
+        "probability_percent": 0.52
+      },
+      {
+        "rank": 5,
+        "token": " Qu",
+        "logit": 12.7890625,
+        "probability_percent": 0.23
+      },
+      {
+        "rank": 6,
+        "token": " Laos",
+        "logit": 12.5546875,
+        "probability_percent": 0.18
+      },
+      {
+        "rank": 7,
+        "token": " Camp",
+        "logit": 11.921875,
+        "probability_percent": 0.1
+      },
+      {
+        "rank": 8,
+        "token": " Viet",
+        "logit": 11.5390625,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 9,
+        "token": " Rep",
+        "logit": 11.3359375,
+        "probability_percent": 0.05
+      }
+    ]
+  },
+  {
+    "prompt": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nSiem Reap está localizado no país",
+    "generated_prefix": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nSiem Reap está localizado no país Cam",
+    "gold_token": "bo",
+    "predicted_top1_token": "bo",
+    "token_pos_in_answer": 1,
+    "gold_logit": 20.03125,
+    "gold_prob_percent": 99.51,
+    "first_token_prob": 0.85693359375,
+    "second_token_prob": 0.09765625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "bo",
+        "logit": 20.03125,
+        "probability_percent": 99.51
+      },
+      {
+        "rank": 1,
+        "token": "boa",
+        "logit": 13.8046875,
+        "probability_percent": 0.2
+      },
+      {
+        "rank": 2,
+        "token": "ar",
+        "logit": 12.90625,
+        "probability_percent": 0.08
+      },
+      {
+        "rank": 3,
+        "token": "box",
+        "logit": 12.5234375,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 4,
+        "token": "boy",
+        "logit": 11.046875,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 5,
+        "token": "Bo",
+        "logit": 11.015625,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 6,
+        "token": " Bo",
+        "logit": 10.84375,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 7,
+        "token": "ões",
+        "logit": 10.6796875,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 8,
+        "token": "od",
+        "logit": 10.65625,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 9,
+        "token": " bo",
+        "logit": 10.3984375,
+        "probability_percent": 0.01
+      }
+    ]
+  },
+  {
+    "prompt": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nSiem Reap está localizado no país",
+    "generated_prefix": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nSiem Reap está localizado no país Cambo",
+    "gold_token": "ja",
+    "predicted_top1_token": "ja",
+    "token_pos_in_answer": 2,
+    "gold_logit": 21.109375,
+    "gold_prob_percent": 99.8,
+    "first_token_prob": 0.85693359375,
+    "second_token_prob": 0.09765625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ja",
+        "logit": 21.109375,
+        "probability_percent": 99.8
+      },
+      {
+        "rank": 1,
+        "token": "ya",
+        "logit": 14.1015625,
+        "probability_percent": 0.09
+      },
+      {
+        "rank": 2,
+        "token": "JA",
+        "logit": 12.890625,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 3,
+        "token": "j",
+        "logit": 12.71875,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 4,
+        "token": "cha",
+        "logit": 12.1328125,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 5,
+        "token": "jas",
+        "logit": 12.1328125,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 6,
+        "token": "ia",
+        "logit": 11.9765625,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 7,
+        "token": " já",
+        "logit": 11.703125,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 8,
+        "token": " ja",
+        "logit": 10.96875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "ém",
+        "logit": 10.890625,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nCasablanca está localizado no país",
+    "generated_prefix": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nCasablanca está localizado no país",
+    "gold_token": " Mar",
+    "predicted_top1_token": " Mar",
+    "token_pos_in_answer": 0,
+    "gold_logit": 21.71875,
+    "gold_prob_percent": 99.02,
+    "first_token_prob": 0.990234375,
+    "second_token_prob": 0.0026340484619140625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Mar",
+        "logit": 21.71875,
+        "probability_percent": 99.02
+      },
+      {
+        "rank": 1,
+        "token": " Arg",
+        "logit": 15.7890625,
+        "probability_percent": 0.26
+      },
+      {
+        "rank": 2,
+        "token": " Morocco",
+        "logit": 15.2109375,
+        "probability_percent": 0.15
+      },
+      {
+        "rank": 3,
+        "token": " Marr",
+        "logit": 15.046875,
+        "probability_percent": 0.13
+      },
+      {
+        "rank": 4,
+        "token": " Mor",
+        "logit": 14.78125,
+        "probability_percent": 0.1
+      },
+      {
+        "rank": 5,
+        "token": " Mag",
+        "logit": 13.703125,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 6,
+        "token": " M",
+        "logit": 13.609375,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 7,
+        "token": " Maurit",
+        "logit": 13.4921875,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 8,
+        "token": " E",
+        "logit": 13.2421875,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 9,
+        "token": " Argentina",
+        "logit": 13.1328125,
+        "probability_percent": 0.02
+      }
+    ]
+  },
+  {
+    "prompt": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nCasablanca está localizado no país",
+    "generated_prefix": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nCasablanca está localizado no país Mar",
+    "gold_token": "ro",
+    "predicted_top1_token": "ro",
+    "token_pos_in_answer": 1,
+    "gold_logit": 22.015625,
+    "gold_prob_percent": 99.8,
+    "first_token_prob": 0.990234375,
+    "second_token_prob": 0.0026340484619140625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ro",
+        "logit": 22.015625,
+        "probability_percent": 99.8
+      },
+      {
+        "rank": 1,
+        "token": "oco",
+        "logit": 14.6796875,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 2,
+        "token": "roc",
+        "logit": 14.4609375,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 3,
+        "token": "oc",
+        "logit": 14.1171875,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 4,
+        "token": "ço",
+        "logit": 12.859375,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 5,
+        "token": "ra",
+        "logit": 12.6953125,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 6,
+        "token": "ó",
+        "logit": 12.6328125,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 7,
+        "token": "occo",
+        "logit": 12.2109375,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 8,
+        "token": "inho",
+        "logit": 11.8671875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "re",
+        "logit": 11.3515625,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nCasablanca está localizado no país",
+    "generated_prefix": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nCasablanca está localizado no país Marro",
+    "gold_token": "cos",
+    "predicted_top1_token": "cos",
+    "token_pos_in_answer": 2,
+    "gold_logit": 24.28125,
+    "gold_prob_percent": 100.0,
+    "first_token_prob": 0.990234375,
+    "second_token_prob": 0.0026340484619140625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "cos",
+        "logit": 24.28125,
+        "probability_percent": 100.0
+      },
+      {
+        "rank": 1,
+        "token": "qu",
+        "logit": 14.7421875,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 2,
+        "token": "co",
+        "logit": 14.515625,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 3,
+        "token": "kos",
+        "logit": 14.0390625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 4,
+        "token": "can",
+        "logit": 13.015625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 5,
+        "token": "que",
+        "logit": 12.5625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": "ques",
+        "logit": 12.1171875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": "ços",
+        "logit": 11.7734375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": " Cos",
+        "logit": 11.6484375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "cs",
+        "logit": 11.28125,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nSan Juan está localizado no país",
+    "generated_prefix": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nSan Juan está localizado no país",
+    "gold_token": " Porto",
+    "predicted_top1_token": " Porto",
+    "token_pos_in_answer": 0,
+    "gold_logit": 19.234375,
+    "gold_prob_percent": 76.22,
+    "first_token_prob": 0.76220703125,
+    "second_token_prob": 0.0791015625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Porto",
+        "logit": 19.234375,
+        "probability_percent": 76.22
+      },
+      {
+        "rank": 1,
+        "token": " Puerto",
+        "logit": 16.96875,
+        "probability_percent": 7.91
+      },
+      {
+        "rank": 2,
+        "token": " Estados",
+        "logit": 16.875,
+        "probability_percent": 7.2
+      },
+      {
+        "rank": 3,
+        "token": " Rep",
+        "logit": 15.46875,
+        "probability_percent": 1.76
+      },
+      {
+        "rank": 4,
+        "token": " E",
+        "logit": 14.8046875,
+        "probability_percent": 0.91
+      },
+      {
+        "rank": 5,
+        "token": " Venezuela",
+        "logit": 14.453125,
+        "probability_percent": 0.64
+      },
+      {
+        "rank": 6,
+        "token": " Pan",
+        "logit": 14.2578125,
+        "probability_percent": 0.53
+      },
+      {
+        "rank": 7,
+        "token": " México",
+        "logit": 14.1875,
+        "probability_percent": 0.49
+      },
+      {
+        "rank": 8,
+        "token": " Portugal",
+        "logit": 13.984375,
+        "probability_percent": 0.4
+      },
+      {
+        "rank": 9,
+        "token": " Argentina",
+        "logit": 13.90625,
+        "probability_percent": 0.37
+      }
+    ]
+  },
+  {
+    "prompt": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nSan Juan está localizado no país",
+    "generated_prefix": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nSan Juan está localizado no país Porto",
+    "gold_token": " Rico",
+    "predicted_top1_token": " Rico",
+    "token_pos_in_answer": 1,
+    "gold_logit": 21.546875,
+    "gold_prob_percent": 99.66,
+    "first_token_prob": 0.76220703125,
+    "second_token_prob": 0.0791015625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Rico",
+        "logit": 21.546875,
+        "probability_percent": 99.66
+      },
+      {
+        "rank": 1,
+        "token": "-R",
+        "logit": 14.5859375,
+        "probability_percent": 0.09
+      },
+      {
+        "rank": 2,
+        "token": " Rica",
+        "logit": 14.171875,
+        "probability_percent": 0.06
+      },
+      {
+        "rank": 3,
+        "token": " Ric",
+        "logit": 14.0390625,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 4,
+        "token": " R",
+        "logit": 13.9921875,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 5,
+        "token": "-",
+        "logit": 12.6015625,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 6,
+        "token": " Rican",
+        "logit": 12.140625,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 7,
+        "token": " Rio",
+        "logit": 11.9609375,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 8,
+        "token": " Ri",
+        "logit": 11.8203125,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 9,
+        "token": "R",
+        "logit": 11.40625,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nCosta Rica está localizado no país",
+    "generated_prefix": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nCosta Rica está localizado no país",
+    "gold_token": " San",
+    "predicted_top1_token": " Costa",
+    "token_pos_in_answer": 0,
+    "gold_logit": 10.6171875,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.96923828125,
+    "second_token_prob": 0.005245208740234375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Costa",
+        "logit": 21.0625,
+        "probability_percent": 96.92
+      },
+      {
+        "rank": 1,
+        "token": " América",
+        "logit": 15.84375,
+        "probability_percent": 0.52
+      },
+      {
+        "rank": 2,
+        "token": " Rep",
+        "logit": 15.7109375,
+        "probability_percent": 0.46
+      },
+      {
+        "rank": 3,
+        "token": " Pan",
+        "logit": 15.28125,
+        "probability_percent": 0.3
+      },
+      {
+        "rank": 4,
+        "token": " Estados",
+        "logit": 14.78125,
+        "probability_percent": 0.18
+      },
+      {
+        "rank": 5,
+        "token": " costa",
+        "logit": 14.1640625,
+        "probability_percent": 0.1
+      },
+      {
+        "rank": 6,
+        "token": " Guatemala",
+        "logit": 14.109375,
+        "probability_percent": 0.09
+      },
+      {
+        "rank": 7,
+        "token": " Pa",
+        "logit": 14.09375,
+        "probability_percent": 0.09
+      },
+      {
+        "rank": 8,
+        "token": ".\n",
+        "logit": 13.90625,
+        "probability_percent": 0.08
+      },
+      {
+        "rank": 9,
+        "token": " Centro",
+        "logit": 13.6953125,
+        "probability_percent": 0.06
+      }
+    ]
+  },
+  {
+    "prompt": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nCosta Rica está localizado no país",
+    "generated_prefix": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nCosta Rica está localizado no país Costa",
+    "gold_token": " José",
+    "predicted_top1_token": " Rica",
+    "token_pos_in_answer": 1,
+    "gold_logit": 4.4765625,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.96923828125,
+    "second_token_prob": 0.005245208740234375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Rica",
+        "logit": 22.625,
+        "probability_percent": 99.17
+      },
+      {
+        "rank": 1,
+        "token": " do",
+        "logit": 17.25,
+        "probability_percent": 0.46
+      },
+      {
+        "rank": 2,
+        "token": "-R",
+        "logit": 15.6015625,
+        "probability_percent": 0.09
+      },
+      {
+        "rank": 3,
+        "token": " da",
+        "logit": 15.046875,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 4,
+        "token": "R",
+        "logit": 14.9296875,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 5,
+        "token": " R",
+        "logit": 13.984375,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 6,
+        "token": " r",
+        "logit": 13.8359375,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 7,
+        "token": " de",
+        "logit": 13.8203125,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 8,
+        "token": " Rico",
+        "logit": 13.6875,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 9,
+        "token": ".\n",
+        "logit": 13.578125,
+        "probability_percent": 0.01
+      }
+    ]
+  },
+  {
+    "prompt": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nAdis Abeba está localizado no país",
+    "generated_prefix": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nAdis Abeba está localizado no país",
+    "gold_token": " E",
+    "predicted_top1_token": " E",
+    "token_pos_in_answer": 0,
+    "gold_logit": 17.921875,
+    "gold_prob_percent": 93.9,
+    "first_token_prob": 0.93896484375,
+    "second_token_prob": 0.02581787109375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " E",
+        "logit": 17.921875,
+        "probability_percent": 93.9
+      },
+      {
+        "rank": 1,
+        "token": " Et",
+        "logit": 14.328125,
+        "probability_percent": 2.58
+      },
+      {
+        "rank": 2,
+        "token": " Est",
+        "logit": 11.875,
+        "probability_percent": 0.22
+      },
+      {
+        "rank": 3,
+        "token": " É",
+        "logit": 11.859375,
+        "probability_percent": 0.22
+      },
+      {
+        "rank": 4,
+        "token": " �",
+        "logit": 11.65625,
+        "probability_percent": 0.18
+      },
+      {
+        "rank": 5,
+        "token": " Qu",
+        "logit": 11.640625,
+        "probability_percent": 0.18
+      },
+      {
+        "rank": 6,
+        "token": " Ethiopia",
+        "logit": 11.6328125,
+        "probability_percent": 0.17
+      },
+      {
+        "rank": 7,
+        "token": " It",
+        "logit": 11.59375,
+        "probability_percent": 0.17
+      },
+      {
+        "rank": 8,
+        "token": " Em",
+        "logit": 11.5703125,
+        "probability_percent": 0.16
+      },
+      {
+        "rank": 9,
+        "token": " Á",
+        "logit": 11.546875,
+        "probability_percent": 0.16
+      }
+    ]
+  },
+  {
+    "prompt": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nAdis Abeba está localizado no país",
+    "generated_prefix": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nAdis Abeba está localizado no país E",
+    "gold_token": "ti",
+    "predicted_top1_token": "ti",
+    "token_pos_in_answer": 1,
+    "gold_logit": 21.90625,
+    "gold_prob_percent": 97.95,
+    "first_token_prob": 0.93896484375,
+    "second_token_prob": 0.02581787109375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ti",
+        "logit": 21.90625,
+        "probability_percent": 97.95
+      },
+      {
+        "rank": 1,
+        "token": "rit",
+        "logit": 17.90625,
+        "probability_percent": 1.79
+      },
+      {
+        "rank": 2,
+        "token": "tn",
+        "logit": 15.515625,
+        "probability_percent": 0.16
+      },
+      {
+        "rank": 3,
+        "token": "ty",
+        "logit": 13.28125,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 4,
+        "token": "tí",
+        "logit": 13.0,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 5,
+        "token": "til",
+        "logit": 12.3046875,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 6,
+        "token": "iti",
+        "logit": 12.1953125,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 7,
+        "token": "gi",
+        "logit": 12.1640625,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 8,
+        "token": "sw",
+        "logit": 11.90625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "span",
+        "logit": 11.65625,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nAdis Abeba está localizado no país",
+    "generated_prefix": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nAdis Abeba está localizado no país Eti",
+    "gold_token": "ó",
+    "predicted_top1_token": "ó",
+    "token_pos_in_answer": 2,
+    "gold_logit": 21.546875,
+    "gold_prob_percent": 98.97,
+    "first_token_prob": 0.93896484375,
+    "second_token_prob": 0.02581787109375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ó",
+        "logit": 21.546875,
+        "probability_percent": 98.97
+      },
+      {
+        "rank": 1,
+        "token": "opia",
+        "logit": 16.578125,
+        "probability_percent": 0.69
+      },
+      {
+        "rank": 2,
+        "token": "ô",
+        "logit": 14.8828125,
+        "probability_percent": 0.13
+      },
+      {
+        "rank": 3,
+        "token": "op",
+        "logit": 13.953125,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 4,
+        "token": "ória",
+        "logit": 13.5625,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 5,
+        "token": "ú",
+        "logit": 13.484375,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 6,
+        "token": "Ó",
+        "logit": 13.4296875,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 7,
+        "token": "é",
+        "logit": 12.7109375,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 8,
+        "token": " ó",
+        "logit": 12.6015625,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 9,
+        "token": "í",
+        "logit": 12.484375,
+        "probability_percent": 0.01
+      }
+    ]
+  },
+  {
+    "prompt": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nAdis Abeba está localizado no país",
+    "generated_prefix": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nAdis Abeba está localizado no país Etió",
+    "gold_token": "p",
+    "predicted_top1_token": "p",
+    "token_pos_in_answer": 3,
+    "gold_logit": 20.296875,
+    "gold_prob_percent": 98.97,
+    "first_token_prob": 0.93896484375,
+    "second_token_prob": 0.02581787109375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "p",
+        "logit": 20.296875,
+        "probability_percent": 98.97
+      },
+      {
+        "rank": 1,
+        "token": "pi",
+        "logit": 14.7890625,
+        "probability_percent": 0.4
+      },
+      {
+        "rank": 2,
+        "token": "pio",
+        "logit": 14.2578125,
+        "probability_percent": 0.24
+      },
+      {
+        "rank": 3,
+        "token": "via",
+        "logit": 12.84375,
+        "probability_percent": 0.06
+      },
+      {
+        "rank": 4,
+        "token": "opia",
+        "logit": 12.4921875,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 5,
+        "token": "bia",
+        "logit": 12.359375,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 6,
+        "token": "pios",
+        "logit": 12.3515625,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 7,
+        "token": "pis",
+        "logit": 12.203125,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 8,
+        "token": "pa",
+        "logit": 12.015625,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 9,
+        "token": "phia",
+        "logit": 11.390625,
+        "probability_percent": 0.01
+      }
+    ]
+  },
+  {
+    "prompt": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nAdis Abeba está localizado no país",
+    "generated_prefix": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nAdis Abeba está localizado no país Etióp",
+    "gold_token": "ia",
+    "predicted_top1_token": "ia",
+    "token_pos_in_answer": 4,
+    "gold_logit": 27.984375,
+    "gold_prob_percent": 100.0,
+    "first_token_prob": 0.93896484375,
+    "second_token_prob": 0.02581787109375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ia",
+        "logit": 27.984375,
+        "probability_percent": 100.0
+      },
+      {
+        "rank": 1,
+        "token": "ía",
+        "logit": 17.65625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 2,
+        "token": "ria",
+        "logit": 16.96875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 3,
+        "token": "ica",
+        "logit": 16.59375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 4,
+        "token": "ian",
+        "logit": 16.09375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 5,
+        "token": " ia",
+        "logit": 15.984375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": "ias",
+        "logit": 15.5,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": "ida",
+        "logit": 15.1328125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "IA",
+        "logit": 14.640625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "í",
+        "logit": 14.3125,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nPunta Cana está localizado no país",
+    "generated_prefix": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nPunta Cana está localizado no país",
+    "gold_token": " Rep",
+    "predicted_top1_token": " Rep",
+    "token_pos_in_answer": 0,
+    "gold_logit": 20.0625,
+    "gold_prob_percent": 93.31,
+    "first_token_prob": 0.93310546875,
+    "second_token_prob": 0.010528564453125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Rep",
+        "logit": 20.0625,
+        "probability_percent": 93.31
+      },
+      {
+        "rank": 1,
+        "token": " Dominican",
+        "logit": 15.578125,
+        "probability_percent": 1.05
+      },
+      {
+        "rank": 2,
+        "token": " Haiti",
+        "logit": 15.4765625,
+        "probability_percent": 0.95
+      },
+      {
+        "rank": 3,
+        "token": " Domin",
+        "logit": 15.3359375,
+        "probability_percent": 0.83
+      },
+      {
+        "rank": 4,
+        "token": " Dom",
+        "logit": 14.8828125,
+        "probability_percent": 0.53
+      },
+      {
+        "rank": 5,
+        "token": " Republic",
+        "logit": 14.0859375,
+        "probability_percent": 0.24
+      },
+      {
+        "rank": 6,
+        "token": " Estados",
+        "logit": 14.0859375,
+        "probability_percent": 0.24
+      },
+      {
+        "rank": 7,
+        "token": " Hait",
+        "logit": 14.0078125,
+        "probability_percent": 0.22
+      },
+      {
+        "rank": 8,
+        "token": " Dominic",
+        "logit": 13.9296875,
+        "probability_percent": 0.2
+      },
+      {
+        "rank": 9,
+        "token": " Cuba",
+        "logit": 13.8671875,
+        "probability_percent": 0.19
+      }
+    ]
+  },
+  {
+    "prompt": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nPunta Cana está localizado no país",
+    "generated_prefix": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nPunta Cana está localizado no país Rep",
+    "gold_token": "ública",
+    "predicted_top1_token": "ública",
+    "token_pos_in_answer": 1,
+    "gold_logit": 20.640625,
+    "gold_prob_percent": 99.8,
+    "first_token_prob": 0.93310546875,
+    "second_token_prob": 0.010528564453125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ública",
+        "logit": 20.640625,
+        "probability_percent": 99.8
+      },
+      {
+        "rank": 1,
+        "token": ".",
+        "logit": 13.75,
+        "probability_percent": 0.1
+      },
+      {
+        "rank": 2,
+        "token": "ú",
+        "logit": 12.421875,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 3,
+        "token": "úb",
+        "logit": 12.421875,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 4,
+        "token": "ub",
+        "logit": 11.5234375,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 5,
+        "token": ".\n",
+        "logit": 9.953125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": "Ú",
+        "logit": 9.8203125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": "�",
+        "logit": 9.53125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "ubb",
+        "logit": 9.078125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "Ã",
+        "logit": 8.9140625,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nPunta Cana está localizado no país",
+    "generated_prefix": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nPunta Cana está localizado no país República",
+    "gold_token": " Dominic",
+    "predicted_top1_token": " Dominic",
+    "token_pos_in_answer": 2,
+    "gold_logit": 21.390625,
+    "gold_prob_percent": 99.12,
+    "first_token_prob": 0.93310546875,
+    "second_token_prob": 0.010528564453125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Dominic",
+        "logit": 21.390625,
+        "probability_percent": 99.12
+      },
+      {
+        "rank": 1,
+        "token": " Domin",
+        "logit": 15.8125,
+        "probability_percent": 0.37
+      },
+      {
+        "rank": 2,
+        "token": " Dom",
+        "logit": 15.03125,
+        "probability_percent": 0.17
+      },
+      {
+        "rank": 3,
+        "token": " domin",
+        "logit": 14.53125,
+        "probability_percent": 0.1
+      },
+      {
+        "rank": 4,
+        "token": " Democr",
+        "logit": 14.015625,
+        "probability_percent": 0.06
+      },
+      {
+        "rank": 5,
+        "token": " do",
+        "logit": 13.7265625,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 6,
+        "token": " Doming",
+        "logit": 13.3125,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 7,
+        "token": " Dominican",
+        "logit": 13.2421875,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 8,
+        "token": " da",
+        "logit": 12.5078125,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 9,
+        "token": " D",
+        "logit": 12.109375,
+        "probability_percent": 0.01
+      }
+    ]
+  },
+  {
+    "prompt": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nPunta Cana está localizado no país",
+    "generated_prefix": "Madrid está localizado no país Espanha.\nCairo está localizado no país Egito.\nAtenas está localizado no país Grécia.\nLisboa está localizado no país Portugal.\nTóquio está localizado no país Japão.\nRoma está localizado no país Itália.\nParis está localizado no país França.\nToronto está localizado no país Canadá.\nBerlim está localizado no país Alemanha.\nSeul está localizado no país Coreia do Sul.\nPunta Cana está localizado no país República Dominic",
+    "gold_token": "ana",
+    "predicted_top1_token": "ana",
+    "token_pos_in_answer": 3,
+    "gold_logit": 25.1875,
+    "gold_prob_percent": 99.85,
+    "first_token_prob": 0.93310546875,
+    "second_token_prob": 0.010528564453125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ana",
+        "logit": 25.1875,
+        "probability_percent": 99.85
+      },
+      {
+        "rank": 1,
+        "token": "ano",
+        "logit": 18.53125,
+        "probability_percent": 0.13
+      },
+      {
+        "rank": 2,
+        "token": ".\n",
+        "logit": 15.46875,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 3,
+        "token": "iana",
+        "logit": 15.296875,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 4,
+        "token": "na",
+        "logit": 15.09375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 5,
+        "token": "ã",
+        "logit": 14.765625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": "anna",
+        "logit": 13.609375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": "ão",
+        "logit": 13.5703125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "ána",
+        "logit": 13.5234375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "á",
+        "logit": 13.2734375,
+        "probability_percent": 0.0
+      }
+    ]
+  }
+]

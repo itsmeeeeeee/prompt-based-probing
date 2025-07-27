@@ -1,0 +1,2060 @@
+{
+    "name": "person plays instrument_10shot_perm3",
+    "prompt_templates": [
+        "Herbie Hancock è strumentista sul/sulla pianoforte.\nElton John è strumentista sul/sulla pianoforte.\nYuja Wang è strumentista sul/sulla pianoforte.\nRavi Shankar è strumentista sul/sulla sitar.\nB.B. King è strumentista sul/sulla chitarra.\nJohn Coltrane è strumentista sul/sulla sassofono.\nTina Guo è strumentista sul/sulla violoncello.\nDavid Garrett è strumentista sul/sulla violino.\nLouis Armstrong è strumentista sul/sulla tromba.\nRingo Starr è strumentista sul/sulla batteria.\n{} è strumentista sul/sulla"
+    ],
+    "samples": [
+        {
+            "subject": "Toko Yasuda",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Tom Fletcher",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Mark Isham",
+            "object": "tromba"
+        },
+        {
+            "subject": "Alain Lanty",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Victor Merzhanov",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Tom Waits",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Micko Larkin",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Keith Emerson",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Glen Ballard",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Terry Trotter",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Roy Paci",
+            "object": "tromba"
+        },
+        {
+            "subject": "Vitaly Margulis",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Josephine Wiggs",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Johan De Farfalla",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Mike Scaccia",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Arthur Grumiaux",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Larry Knechtel",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Andor Toth",
+            "object": "violino"
+        },
+        {
+            "subject": "John Cipollina",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Robert Fripp",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Gidon Kremer",
+            "object": "violino"
+        },
+        {
+            "subject": "Kye Palmer",
+            "object": "tromba"
+        },
+        {
+            "subject": "Heather Trost",
+            "object": "violino"
+        },
+        {
+            "subject": "Nick Didkovsky",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Herbie Nichols",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Jean-Jacques Goldman",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "John Fogerty",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Matthieu Chedid",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Roger Ingram",
+            "object": "tromba"
+        },
+        {
+            "subject": "Brad Delson",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Pepeu Gomes",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Hilary Hahn",
+            "object": "violino"
+        },
+        {
+            "subject": "Chris Daughtry",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Lil Hardin Armstrong",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Dizzy Reed",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Mark O'Connor",
+            "object": "violino"
+        },
+        {
+            "subject": "Meshell Ndegeocello",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Chris Thile",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Tadd Dameron",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Drew Shirley",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Charlie Palmieri",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "James Honeyman-Scott",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Sarah Cahill",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Luigi Dallapiccola",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Darol Anger",
+            "object": "violino"
+        },
+        {
+            "subject": "Pete Johnson",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Bert Joris",
+            "object": "tromba"
+        },
+        {
+            "subject": "Raimonds Pauls",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "David Gates",
+            "object": "violino"
+        },
+        {
+            "subject": "The Edge",
+            "object": "chitarra"
+        },
+        {
+            "subject": "George Gershwin",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Manos Hatzidakis",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Gina Birch",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Cheyenne Kimball",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Peter Head",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Alberto Nepomuceno",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Idrees Sulieman",
+            "object": "tromba"
+        },
+        {
+            "subject": "Steve Marriott",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Harold Craxton",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Martin Gordon",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Jeanne Lamon",
+            "object": "violino"
+        },
+        {
+            "subject": "George Martin",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Michael Mantler",
+            "object": "tromba"
+        },
+        {
+            "subject": "Yuriy Oliynyk",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Nita Strauss",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Ma Sicong",
+            "object": "violino"
+        },
+        {
+            "subject": "Ted Dwane",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Pete Lesperance",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Melvyn Gale",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Rick Braun",
+            "object": "tromba"
+        },
+        {
+            "subject": "Franz Liszt",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Bud Scott",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Itzhak Perlman",
+            "object": "violino"
+        },
+        {
+            "subject": "Alice Coltrane",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Maud Powell",
+            "object": "violino"
+        },
+        {
+            "subject": "Elvis Presley",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Geirr Tveitt",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Mercer Ellington",
+            "object": "tromba"
+        },
+        {
+            "subject": "Clifford Curzon",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Russell Gunn",
+            "object": "tromba"
+        },
+        {
+            "subject": "Brian May",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Yfrah Neaman",
+            "object": "violino"
+        },
+        {
+            "subject": "Vlatko Stefanovski",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Yvonne Hubert",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Friedrich Gulda",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Dave Hernandez",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Wolfgang Sawallisch",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Sheryl Crow",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Cat Stevens",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Toshiko Akiyoshi",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Curley Weaver",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Cyril Scott",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Al Haig",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Britney Spears",
+            "object": "canto"
+        },
+        {
+            "subject": "Millard Powers",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Ingrid Jensen",
+            "object": "tromba"
+        },
+        {
+            "subject": "Anna Yesipova",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Julian Lennon",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Noel Mewton-Wood",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Shmuel Ashkenasi",
+            "object": "violino"
+        },
+        {
+            "subject": "Soozie Tyrell",
+            "object": "violino"
+        },
+        {
+            "subject": "Liam Gallagher",
+            "object": "chitarra"
+        },
+        {
+            "subject": "George Duke",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Tony Ashton",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Ludovico Einaudi",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Skylar Grey",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Yves Nat",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Edvard Grieg",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Anthony Plog",
+            "object": "tromba"
+        },
+        {
+            "subject": "Gunnar Andreas Berg",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Melissa Etheridge",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Ray Charles",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Mike Shinoda",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Hank Jones",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Anson Funderburgh",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Jack Sheldon",
+            "object": "tromba"
+        },
+        {
+            "subject": "Georgie Fame",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Christopher O'Riley",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Norman Petty",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Buster Harding",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Guy Picciotto",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Speckled Red",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Corky Siegel",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Thomas Dybdahl",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Lubka Kolessa",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Bernhard Sekles",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Doc Severinsen",
+            "object": "tromba"
+        },
+        {
+            "subject": "Edward MacDowell",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Bix Beiderbecke",
+            "object": "tromba"
+        },
+        {
+            "subject": "Howlin' Wolf",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Frank London",
+            "object": "tromba"
+        },
+        {
+            "subject": "Leonard Cohen",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Ernest Chausson",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Bella Davidovich",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Bennie Moten",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Baaba Maal",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Matthew Tuck",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Sunnyland Slim",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Nigel Pulsford",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Don Grolnick",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Sean O'Hagan",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Cezar Florin Ouatu",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Fred Mascherino",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Franz Anton Ries",
+            "object": "violino"
+        },
+        {
+            "subject": "Arthur Rubinstein",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Al Schnier",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Henry Schradieck",
+            "object": "violino"
+        },
+        {
+            "subject": "Bradley Joseph",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Eric Clapton",
+            "object": "violino"
+        },
+        {
+            "subject": "Amund Maarud",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Jack Nitzsche",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Georges Mathias",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Eddie Harvey",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Carmell Jones",
+            "object": "tromba"
+        },
+        {
+            "subject": "George Enescu",
+            "object": "violino"
+        },
+        {
+            "subject": "Antonio Agri",
+            "object": "violino"
+        },
+        {
+            "subject": "Johannes Brahms",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Cornelius Jakhelln",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Linda Brava",
+            "object": "violino"
+        },
+        {
+            "subject": "Henning Kraggerud",
+            "object": "violino"
+        },
+        {
+            "subject": "Alan Rubin",
+            "object": "tromba"
+        },
+        {
+            "subject": "Marian McPartland",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Pinchas Zukerman",
+            "object": "violino"
+        },
+        {
+            "subject": "Jean-Joseph de Mondonville",
+            "object": "violino"
+        },
+        {
+            "subject": "Christopher Elton",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Ethelbert Nevin",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Sterling Morrison",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Raoul Pugno",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Martin McCarrick",
+            "object": "violino"
+        },
+        {
+            "subject": "Pete Jolly",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "David Isberg",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Earl Klugh",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Kaikhosru Shapurji Sorabji",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Kunnakudi Vaidyanathan",
+            "object": "violino"
+        },
+        {
+            "subject": "Kris Allen",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Theodor Leschetizky",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Carl Flesch",
+            "object": "violino"
+        },
+        {
+            "subject": "Clare Fischer",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Adam Deibert",
+            "object": "tromba"
+        },
+        {
+            "subject": "Ralph Alessi",
+            "object": "tromba"
+        },
+        {
+            "subject": "Count Basie",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Al Kooper",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Eric Clapton",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Maynard Ferguson",
+            "object": "tromba"
+        },
+        {
+            "subject": "Ry Cooder",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Shlomo Mintz",
+            "object": "violino"
+        },
+        {
+            "subject": "Johann Stamitz",
+            "object": "violino"
+        },
+        {
+            "subject": "Edmund Neupert",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "John Wesley",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Bob Gaudio",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Graham Parker",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Gerard Presencer",
+            "object": "tromba"
+        },
+        {
+            "subject": "Felix Weingartner",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Lady Gaga",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Malcolm Goldstein",
+            "object": "violino"
+        },
+        {
+            "subject": "Cipriani Potter",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Rodrigo Prats",
+            "object": "violino"
+        },
+        {
+            "subject": "Gideon Klein",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Friedrich Wieck",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Aaron Lee Tasjan",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Sergiu Luca",
+            "object": "violino"
+        },
+        {
+            "subject": "Frode Fjellheim",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Cor Fuhler",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Donald Tovey",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Jimmy Webb",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Lewis Kaplan",
+            "object": "violino"
+        },
+        {
+            "subject": "Alvino Rey",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Frederick Grinke",
+            "object": "violino"
+        },
+        {
+            "subject": "Bert Lown",
+            "object": "violino"
+        },
+        {
+            "subject": "Allen Toussaint",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Derek Paravicini",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Cary Hudson",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Tim Vesely",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Romero Lubambo",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Ignaz Schuppanzigh",
+            "object": "violino"
+        },
+        {
+            "subject": "Daniel Kobialka",
+            "object": "violino"
+        },
+        {
+            "subject": "Jimmy Page",
+            "object": "violino"
+        },
+        {
+            "subject": "Eddie Palmieri",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Otis Spann",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Kerry King",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Lars Frederiksen",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Gerry Beckley",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Andranik Madadian",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Guto Pryce",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Hal Russell",
+            "object": "tromba"
+        },
+        {
+            "subject": "Kid Thomas Valentine",
+            "object": "tromba"
+        },
+        {
+            "subject": "Nicke Andersson",
+            "object": "chitarra"
+        },
+        {
+            "subject": "John Petrucci",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Marcel Ciampi",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Mel Schacher",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Abdullah Ibrahim",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Eddie Jobson",
+            "object": "violino"
+        },
+        {
+            "subject": "Ken Lane",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Kathryn Selby",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Carla Kihlstedt",
+            "object": "violino"
+        },
+        {
+            "subject": "Frank Mills",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Rex Stewart",
+            "object": "tromba"
+        },
+        {
+            "subject": "Matt Riddle",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Lee Jong-hyun",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Michael Nyman",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Henri Gagnon",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Garth Brooks",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Emanuel Ax",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Lev Naumov",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Ed O'Brien",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Owen Bradley",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Freddie Hubbard",
+            "object": "tromba"
+        },
+        {
+            "subject": "Guy Barker",
+            "object": "tromba"
+        },
+        {
+            "subject": "Hamish Milne",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Les Claypool",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Leroy Jones",
+            "object": "tromba"
+        },
+        {
+            "subject": "Grant Kirkhope",
+            "object": "tromba"
+        },
+        {
+            "subject": "Andrew Pendlebury",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Floor Jansen",
+            "object": "violino"
+        },
+        {
+            "subject": "Henry Litolff",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Henri Herz",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Emmanuel Chabrier",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Ruggiero Ricci",
+            "object": "violino"
+        },
+        {
+            "subject": "Charlie Banacos",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Ashley Hutchings",
+            "object": "violino"
+        },
+        {
+            "subject": "Millard Powers",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Nikki Iles",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Erich Gruenberg",
+            "object": "violino"
+        },
+        {
+            "subject": "Ricky Skaggs",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Jack Kilcoyne",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Bi Ribeiro",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Tyshawn Sorey",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Dan Lukacinsky",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Claus Schall",
+            "object": "violino"
+        },
+        {
+            "subject": "Jill Tracy",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Scarlet Rivera",
+            "object": "violino"
+        },
+        {
+            "subject": "Marvin Stamm",
+            "object": "tromba"
+        },
+        {
+            "subject": "Herbert Fryer",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Boris Berman",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Antonio Vivaldi",
+            "object": "violino"
+        },
+        {
+            "subject": "Alberto Semprini",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Ruth Laredo",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Freddie Webster",
+            "object": "tromba"
+        },
+        {
+            "subject": "Jim Weider",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Teddy Wilson",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Jaap Spaanderman",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Harry Nilsson",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Lee Mavers",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Keith Tippett",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Stephin Merritt",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Henry Busse",
+            "object": "tromba"
+        },
+        {
+            "subject": "Nikolai Kapustin",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Finbarr Clancy",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Ray Bryant",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Ottmar Liebert",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Pino Palladino",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Hughie Thomasson",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Valery Sigalevitch",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Geoff Eales",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Bill Anschell",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Pietro Locatelli",
+            "object": "violino"
+        },
+        {
+            "subject": "John Mayall",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Sammy Price",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Anthony Burger",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Michael Denner",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Deborah Conway",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Marcelo Camelo",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Snakefinger",
+            "object": "violino"
+        },
+        {
+            "subject": "Charles-Valentin Alkan",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Aretha Franklin",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Fred Van Hove",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Peter Rainer",
+            "object": "violino"
+        },
+        {
+            "subject": "Toots Thielemans",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Hugh Laurie",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Darrell Leonard",
+            "object": "tromba"
+        },
+        {
+            "subject": "Karl Engel",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Tomoyasu Hotei",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Percy Grainger",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Clara Haskil",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Boris Belkin",
+            "object": "violino"
+        },
+        {
+            "subject": "Thad Jones",
+            "object": "tromba"
+        },
+        {
+            "subject": "Jimmy Rogers",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Marv Tarplin",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Tony Levin",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Robert Schumann",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Arthur Loesser",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Henryk Wieniawski",
+            "object": "violino"
+        },
+        {
+            "subject": "Bradford Cox",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Dave Sinclair",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Stephen Hough",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Robert Riefling",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Claude Delvincourt",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Kumbakonam Rajamanickam Pillai",
+            "object": "violino"
+        },
+        {
+            "subject": "Isaac Stern",
+            "object": "violino"
+        },
+        {
+            "subject": "Carolyn Franklin",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Mark Feldman",
+            "object": "violino"
+        },
+        {
+            "subject": "Dennis Coffey",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Horace Parlan",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Morten Harket",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Amelia Fletcher",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Tommy Cogbill",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Jamie Cook",
+            "object": "chitarra"
+        },
+        {
+            "subject": "William Bolcom",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Thelonious Monk",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Dwaram Venkataswamy Naidu",
+            "object": "violino"
+        },
+        {
+            "subject": "Tania Maria",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "John Mehegan",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Christine Ohlman",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Roy Hargrove",
+            "object": "tromba"
+        },
+        {
+            "subject": "Gwilym Simcock",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Ray Reach",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Roland Orzabal",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Billy Grammer",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Lee Loughnane",
+            "object": "tromba"
+        },
+        {
+            "subject": "Franz Schmidt",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Artur Balsam",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Bob Ralston",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Rod Argent",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Roy Shepherd",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Jane Getz",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Wynton Marsalis",
+            "object": "tromba"
+        },
+        {
+            "subject": "Jerry Donahue",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Albert Chamberland",
+            "object": "violino"
+        },
+        {
+            "subject": "Homero Francesch",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Louis Moreau Gottschalk",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Svend Asmussen",
+            "object": "violino"
+        },
+        {
+            "subject": "Ernesto Lecuona",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Compay Segundo",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Van Cliburn",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Tomaso Albinoni",
+            "object": "violino"
+        },
+        {
+            "subject": "Cow Cow Davenport",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Beck",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Chris Hillman",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Henry Halstead",
+            "object": "violino"
+        },
+        {
+            "subject": "Friedrich Kalkbrenner",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Alicia de Larrocha",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Jonas Berggren",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Paz Lenchantin",
+            "object": "violino"
+        },
+        {
+            "subject": "Doug Raney",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Frantz Jehin-Prume",
+            "object": "violino"
+        },
+        {
+            "subject": "Dan Sealey",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Paul McCartney",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Rick Wakeman",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Len Tuckey",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Beppe Gambetta",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Lester Bowie",
+            "object": "tromba"
+        },
+        {
+            "subject": "Meade Lux Lewis",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Terence Blanchard",
+            "object": "tromba"
+        },
+        {
+            "subject": "Diblo Dibala",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Rob Zombie",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Jared Leto",
+            "object": "violino"
+        },
+        {
+            "subject": "Jean-Jacques Kantorow",
+            "object": "violino"
+        },
+        {
+            "subject": "Mikhail Kopelman",
+            "object": "violino"
+        },
+        {
+            "subject": "Philip Glass",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Peter Laughner",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Aloys and Alfons Kontarsky",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Suna Kan",
+            "object": "violino"
+        },
+        {
+            "subject": "Jan Ladislav Dussek",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Red Nichols",
+            "object": "tromba"
+        },
+        {
+            "subject": "Dmitry Sitkovetsky",
+            "object": "violino"
+        },
+        {
+            "subject": "Neil Hagerty",
+            "object": "chitarra"
+        },
+        {
+            "subject": "John Hiatt",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Merl Saunders",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Sylvie Courvoisier",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Serge Gainsbourg",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Alexandre Lagoya",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Nat King Cole",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Sid Page",
+            "object": "violino"
+        },
+        {
+            "subject": "Giuseppe Torelli",
+            "object": "violino"
+        },
+        {
+            "subject": "Joe Walsh",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Ola Kvernberg",
+            "object": "violino"
+        },
+        {
+            "subject": "Peter Mandrup Lem",
+            "object": "violino"
+        },
+        {
+            "subject": "Willie Dixon",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Blind Willie McTell",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Anton Nel",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Pyotr Stolyarsky",
+            "object": "violino"
+        },
+        {
+            "subject": "Antonio Rolla",
+            "object": "violino"
+        },
+        {
+            "subject": "Oscar Levant",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Samuil Feinberg",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Duncan Druce",
+            "object": "violino"
+        },
+        {
+            "subject": "Johann Strauss I",
+            "object": "violino"
+        },
+        {
+            "subject": "Edin Karamazov",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Wes Montgomery",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Harry Sacksioni",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Giovanni Battista Viotti",
+            "object": "violino"
+        },
+        {
+            "subject": "Tom Barman",
+            "object": "violino"
+        },
+        {
+            "subject": "Leopold Godowsky",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Keith Sterling",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Marc Ribot",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Julian Rachlin",
+            "object": "violino"
+        },
+        {
+            "subject": "Fats Waller",
+            "object": "canto"
+        },
+        {
+            "subject": "Trev Thoms",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Al Hirt",
+            "object": "tromba"
+        },
+        {
+            "subject": "John Haggerty",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Phranc",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Franz Benda",
+            "object": "violino"
+        },
+        {
+            "subject": "Yehudi Menuhin",
+            "object": "violino"
+        },
+        {
+            "subject": "Norbert Brainin",
+            "object": "violino"
+        },
+        {
+            "subject": "Hamilton Harty",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "John D'earth",
+            "object": "tromba"
+        },
+        {
+            "subject": "Ronnie Drew",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Francis Poulenc",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Jason Rebello",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Rob Barrett",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Fanny Davies",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Marco Benevento",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Romain-Octave Pelletier I",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Joe Pass",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Gene Pitney",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Tim Gaines",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Cat Power",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Ryszard Bakst",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Wolfgang Dauner",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Derek Trucks",
+            "object": "diapositiva"
+        },
+        {
+            "subject": "Bob Alcivar",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Pat Sansone",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Alberto Guerrero",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Céline Dion",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Daniel Mongrain",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Nat Gonella",
+            "object": "tromba"
+        },
+        {
+            "subject": "Jimi Hendrix",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Tony Sales",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Mark Knopfler",
+            "object": "violino"
+        },
+        {
+            "subject": "Erik Truffaz",
+            "object": "tromba"
+        },
+        {
+            "subject": "Rubin Goldmark",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Ian Carr",
+            "object": "tromba"
+        },
+        {
+            "subject": "Billy Taylor",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Gustavo Laureano",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Dean Friedman",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Marin Alsop",
+            "object": "violino"
+        },
+        {
+            "subject": "Steve Kuhn",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Lonnie Brooks",
+            "object": "violino"
+        },
+        {
+            "subject": "Jon Eardley",
+            "object": "tromba"
+        },
+        {
+            "subject": "Kenneth Leighton",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Narciso Yepes",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Jared Leto",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Adam Devlin",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Francisco Canaro",
+            "object": "violino"
+        },
+        {
+            "subject": "Giuseppe Tartini",
+            "object": "violino"
+        },
+        {
+            "subject": "Don Fagerquist",
+            "object": "tromba"
+        },
+        {
+            "subject": "Karol Szymanowski",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Paul Anka",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Karl Klindworth",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "J. B. Hutto",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Tony Bevilacqua",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Carl Czerny",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Ivar Antonsen",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Leonard Bernstein",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Theodor Kullak",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Tom Fletcher",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Randy Newman",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Sidney De Paris",
+            "object": "tromba"
+        },
+        {
+            "subject": "Ivor McMahon",
+            "object": "violino"
+        },
+        {
+            "subject": "Louis Plaidy",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Wild Bill Davis",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Philip Fowke",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Henry Flynt",
+            "object": "violino"
+        },
+        {
+            "subject": "Ralph Towner",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Derek Trucks",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Arve Henriksen",
+            "object": "tromba"
+        },
+        {
+            "subject": "Jimmy McCracklin",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Andy Metcalfe",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Chris McGregor",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Nigel Butterley",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Emilio Pujol",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Henri Verbrugghen",
+            "object": "violino"
+        },
+        {
+            "subject": "Nadia Reisenberg",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Liz Phair",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Tomaso Antonio Vitali",
+            "object": "violino"
+        },
+        {
+            "subject": "Louis Prima",
+            "object": "tromba"
+        },
+        {
+            "subject": "Seth Lakeman",
+            "object": "violino"
+        },
+        {
+            "subject": "Max Rostal",
+            "object": "violino"
+        },
+        {
+            "subject": "Scott Klopfenstein",
+            "object": "tromba"
+        },
+        {
+            "subject": "Isadar",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Carla Bley",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Mike Shinoda",
+            "object": "chitarra"
+        },
+        {
+            "subject": "Terry Gibbs",
+            "object": "pianoforte"
+        },
+        {
+            "subject": "Gamal Abdel-Rahim",
+            "object": "pianoforte"
+        }
+    ]
+}

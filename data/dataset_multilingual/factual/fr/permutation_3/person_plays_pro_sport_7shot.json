@@ -1,0 +1,688 @@
+{
+    "name": "person plays pro sport_7shot_perm3",
+    "prompt_templates": [
+        "Kylian Mbappé pratique le sport de football.\nJayson Tatum pratique le sport de basket-ball.\nShohei Otani pratique le sport de baseball.\nJamie Dwyer pratique le sport de hockey.\nLuciana Aymar pratique le sport de hockey.\nAaron Judge pratique le sport de baseball.\nJosh Allen pratique le sport de football américain.\n{} pratique le sport de"
+    ],
+    "samples": [
+        {
+            "subject": "Roberto Clemente",
+            "object": "baseball"
+        },
+        {
+            "subject": "Hank Aaron",
+            "object": "baseball"
+        },
+        {
+            "subject": "Jari Kurri",
+            "object": "hockey"
+        },
+        {
+            "subject": "Zdeno Chára",
+            "object": "hockey"
+        },
+        {
+            "subject": "Peter Šťastný",
+            "object": "hockey"
+        },
+        {
+            "subject": "R.A. Dickey",
+            "object": "baseball"
+        },
+        {
+            "subject": "Luis Scola",
+            "object": "basket-ball"
+        },
+        {
+            "subject": "Satchel Paige",
+            "object": "baseball"
+        },
+        {
+            "subject": "Elton Brand",
+            "object": "basket-ball"
+        },
+        {
+            "subject": "Mariano Rivera",
+            "object": "baseball"
+        },
+        {
+            "subject": "Gary Carter",
+            "object": "baseball"
+        },
+        {
+            "subject": "Igor Larionov",
+            "object": "hockey"
+        },
+        {
+            "subject": "Dennis Rodman",
+            "object": "basket-ball"
+        },
+        {
+            "subject": "Šarūnas Jasikevičius",
+            "object": "basket-ball"
+        },
+        {
+            "subject": "Marián Hossa",
+            "object": "hockey"
+        },
+        {
+            "subject": "Moe Berg",
+            "object": "baseball"
+        },
+        {
+            "subject": "Arvydas Sabonis",
+            "object": "basket-ball"
+        },
+        {
+            "subject": "Willie Mays",
+            "object": "baseball"
+        },
+        {
+            "subject": "Magic Johnson",
+            "object": "basket-ball"
+        },
+        {
+            "subject": "Cy Young",
+            "object": "baseball"
+        },
+        {
+            "subject": "Jim Bunning",
+            "object": "baseball"
+        },
+        {
+            "subject": "Carlos Arroyo",
+            "object": "basket-ball"
+        },
+        {
+            "subject": "Ryan Smyth",
+            "object": "hockey"
+        },
+        {
+            "subject": "Joakim Noah",
+            "object": "basket-ball"
+        },
+        {
+            "subject": "Sergei Fedorov",
+            "object": "hockey"
+        },
+        {
+            "subject": "Chris Paul",
+            "object": "basket-ball"
+        },
+        {
+            "subject": "David Robinson",
+            "object": "basket-ball"
+        },
+        {
+            "subject": "Bobby Orr",
+            "object": "hockey"
+        },
+        {
+            "subject": "Bobby Hull",
+            "object": "hockey"
+        },
+        {
+            "subject": "Larry Doby",
+            "object": "baseball"
+        },
+        {
+            "subject": "Kareem Abdul-Jabbar",
+            "object": "basket-ball"
+        },
+        {
+            "subject": "Ty Cobb",
+            "object": "baseball"
+        },
+        {
+            "subject": "Vladimír Růžička",
+            "object": "hockey"
+        },
+        {
+            "subject": "Dennis Seidenberg",
+            "object": "hockey"
+        },
+        {
+            "subject": "Joe DiMaggio",
+            "object": "baseball"
+        },
+        {
+            "subject": "Dave DeBusschere",
+            "object": "baseball"
+        },
+        {
+            "subject": "Tony Gwynn",
+            "object": "baseball"
+        },
+        {
+            "subject": "Lou Gehrig",
+            "object": "baseball"
+        },
+        {
+            "subject": "Grant Hill",
+            "object": "basket-ball"
+        },
+        {
+            "subject": "Bill Bradley",
+            "object": "basket-ball"
+        },
+        {
+            "subject": "Michael Jordan",
+            "object": "basket-ball"
+        },
+        {
+            "subject": "Patrick Roy",
+            "object": "hockey"
+        },
+        {
+            "subject": "Alex Rodriguez",
+            "object": "baseball"
+        },
+        {
+            "subject": "Pedro Martinez",
+            "object": "baseball"
+        },
+        {
+            "subject": "Howie Morenz",
+            "object": "hockey"
+        },
+        {
+            "subject": "Warren Spahn",
+            "object": "baseball"
+        },
+        {
+            "subject": "Oscar Robertson",
+            "object": "basket-ball"
+        },
+        {
+            "subject": "Ken Dryden",
+            "object": "hockey"
+        },
+        {
+            "subject": "Eric Lindros",
+            "object": "hockey"
+        },
+        {
+            "subject": "Otto Graham",
+            "object": "basket-ball"
+        },
+        {
+            "subject": "John Olerud",
+            "object": "baseball"
+        },
+        {
+            "subject": "Pavel Datsyuk",
+            "object": "hockey"
+        },
+        {
+            "subject": "Christy Mathewson",
+            "object": "baseball"
+        },
+        {
+            "subject": "Shaquille O'Neal",
+            "object": "basket-ball"
+        },
+        {
+            "subject": "José Canseco",
+            "object": "baseball"
+        },
+        {
+            "subject": "Dirk Nowitzki",
+            "object": "basket-ball"
+        },
+        {
+            "subject": "Tim Horton",
+            "object": "hockey"
+        },
+        {
+            "subject": "Phil Esposito",
+            "object": "hockey"
+        },
+        {
+            "subject": "Bob Cousy",
+            "object": "basket-ball"
+        },
+        {
+            "subject": "Teemu Sälännä",
+            "object": "hockey"
+        },
+        {
+            "subject": "Connie Mack",
+            "object": "baseball"
+        },
+        {
+            "subject": "Ichiro Suzuki",
+            "object": "baseball"
+        },
+        {
+            "subject": "LeBron James",
+            "object": "basket-ball"
+        },
+        {
+            "subject": "Alexander Ovechkin",
+            "object": "hockey"
+        },
+        {
+            "subject": "Efren Navarro",
+            "object": "baseball"
+        },
+        {
+            "subject": "Scottie Pippen",
+            "object": "basket-ball"
+        },
+        {
+            "subject": "Marc Gasol",
+            "object": "basket-ball"
+        },
+        {
+            "subject": "Corey Perry",
+            "object": "hockey"
+        },
+        {
+            "subject": "Dražen Petrović",
+            "object": "basket-ball"
+        },
+        {
+            "subject": "Karl Malone",
+            "object": "basket-ball"
+        },
+        {
+            "subject": "Kevin Durant",
+            "object": "basket-ball"
+        },
+        {
+            "subject": "Bo Jackson",
+            "object": "baseball"
+        },
+        {
+            "subject": "Jiří Šlégr",
+            "object": "hockey"
+        },
+        {
+            "subject": "Alexei Kovalev",
+            "object": "hockey"
+        },
+        {
+            "subject": "George Halas",
+            "object": "baseball"
+        },
+        {
+            "subject": "Aleksandar Đorđević",
+            "object": "basket-ball"
+        },
+        {
+            "subject": "Pavol Demitra",
+            "object": "hockey"
+        },
+        {
+            "subject": "Stan Musial",
+            "object": "baseball"
+        },
+        {
+            "subject": "Billy Sunday",
+            "object": "baseball"
+        },
+        {
+            "subject": "Lionel Conacher",
+            "object": "hockey"
+        },
+        {
+            "subject": "Derek Jeter",
+            "object": "baseball"
+        },
+        {
+            "subject": "Honus Wagner",
+            "object": "baseball"
+        },
+        {
+            "subject": "Mickey Mantle",
+            "object": "baseball"
+        },
+        {
+            "subject": "Hakeem Olajuwon",
+            "object": "basket-ball"
+        },
+        {
+            "subject": "Allen Iverson",
+            "object": "basket-ball"
+        },
+        {
+            "subject": "Tom Seaver",
+            "object": "baseball"
+        },
+        {
+            "subject": "Tim Duncan",
+            "object": "basket-ball"
+        },
+        {
+            "subject": "Sergei Makarov",
+            "object": "hockey"
+        },
+        {
+            "subject": "Danny Ainge",
+            "object": "baseball"
+        },
+        {
+            "subject": "Barry Bonds",
+            "object": "baseball"
+        },
+        {
+            "subject": "Roy Campanella",
+            "object": "baseball"
+        },
+        {
+            "subject": "Kevin Love",
+            "object": "basket-ball"
+        },
+        {
+            "subject": "Wilt Chamberlain",
+            "object": "basket-ball"
+        },
+        {
+            "subject": "Steve Yzerman",
+            "object": "hockey"
+        },
+        {
+            "subject": "Ray Allen",
+            "object": "basket-ball"
+        },
+        {
+            "subject": "Frank Robinson",
+            "object": "baseball"
+        },
+        {
+            "subject": "Carlos Beltrán",
+            "object": "baseball"
+        },
+        {
+            "subject": "Terry Sawchuk",
+            "object": "hockey"
+        },
+        {
+            "subject": "Pete Rose",
+            "object": "baseball"
+        },
+        {
+            "subject": "Bob Gibson",
+            "object": "baseball"
+        },
+        {
+            "subject": "Steve Nash",
+            "object": "basket-ball"
+        },
+        {
+            "subject": "Willie Stargell",
+            "object": "baseball"
+        },
+        {
+            "subject": "Jarome Iginla",
+            "object": "hockey"
+        },
+        {
+            "subject": "Metta Sandiford-Artest",
+            "object": "basket-ball"
+        },
+        {
+            "subject": "Babe Ruth",
+            "object": "baseball"
+        },
+        {
+            "subject": "Gary Payton",
+            "object": "basket-ball"
+        },
+        {
+            "subject": "Brett Hull",
+            "object": "hockey"
+        },
+        {
+            "subject": "Mark Messier",
+            "object": "hockey"
+        },
+        {
+            "subject": "Kevin Garnett",
+            "object": "basket-ball"
+        },
+        {
+            "subject": "Tony Parker",
+            "object": "basket-ball"
+        },
+        {
+            "subject": "Moses Malone",
+            "object": "basket-ball"
+        },
+        {
+            "subject": "Jerry West",
+            "object": "basket-ball"
+        },
+        {
+            "subject": "Stan Mikita",
+            "object": "hockey"
+        },
+        {
+            "subject": "Jean Béliveau",
+            "object": "hockey"
+        },
+        {
+            "subject": "Dominik Hašek",
+            "object": "hockey"
+        },
+        {
+            "subject": "Ernie Banks",
+            "object": "baseball"
+        },
+        {
+            "subject": "Roger Maris",
+            "object": "baseball"
+        },
+        {
+            "subject": "Jaromír Jágr",
+            "object": "hockey"
+        },
+        {
+            "subject": "Larry Bird",
+            "object": "basket-ball"
+        },
+        {
+            "subject": "Kenny Lofton",
+            "object": "baseball"
+        },
+        {
+            "subject": "Nick Swisher",
+            "object": "baseball"
+        },
+        {
+            "subject": "Shane Doan",
+            "object": "hockey"
+        },
+        {
+            "subject": "Jacques Plante",
+            "object": "hockey"
+        },
+        {
+            "subject": "Olumide Oyedeji",
+            "object": "basket-ball"
+        },
+        {
+            "subject": "Daniel Santiago",
+            "object": "basket-ball"
+        },
+        {
+            "subject": "Evgeni Malkin",
+            "object": "hockey"
+        },
+        {
+            "subject": "Ilya Kovalchuk",
+            "object": "hockey"
+        },
+        {
+            "subject": "Peter Forsberg",
+            "object": "hockey"
+        },
+        {
+            "subject": "Boris Diaw",
+            "object": "basket-ball"
+        },
+        {
+            "subject": "Nate Schierholtz",
+            "object": "baseball"
+        },
+        {
+            "subject": "Julius Erving",
+            "object": "basket-ball"
+        },
+        {
+            "subject": "Maurice Richard",
+            "object": "hockey"
+        },
+        {
+            "subject": "Rick Barry",
+            "object": "basket-ball"
+        },
+        {
+            "subject": "Ivan Hlinka",
+            "object": "hockey"
+        },
+        {
+            "subject": "Jason Kidd",
+            "object": "basket-ball"
+        },
+        {
+            "subject": "Guy Lafleur",
+            "object": "hockey"
+        },
+        {
+            "subject": "Kobe Bryant",
+            "object": "basket-ball"
+        },
+        {
+            "subject": "Dwight Howard",
+            "object": "basket-ball"
+        },
+        {
+            "subject": "Clayton Kershaw",
+            "object": "baseball"
+        },
+        {
+            "subject": "Dwyane Wade",
+            "object": "basket-ball"
+        },
+        {
+            "subject": "Yu Darvish",
+            "object": "baseball"
+        },
+        {
+            "subject": "Casey Stengel",
+            "object": "baseball"
+        },
+        {
+            "subject": "Raimo Helminen",
+            "object": "hockey"
+        },
+        {
+            "subject": "Carmelo Anthony",
+            "object": "basket-ball"
+        },
+        {
+            "subject": "Pau Gasol",
+            "object": "basket-ball"
+        },
+        {
+            "subject": "Sidney Crosby",
+            "object": "hockey"
+        },
+        {
+            "subject": "Frank Mahovlich",
+            "object": "hockey"
+        },
+        {
+            "subject": "Phil Jackson",
+            "object": "basket-ball"
+        },
+        {
+            "subject": "Gordie Howe",
+            "object": "hockey"
+        },
+        {
+            "subject": "Patrick Ewing",
+            "object": "basket-ball"
+        },
+        {
+            "subject": "Jim Thorpe",
+            "object": "baseball"
+        },
+        {
+            "subject": "Dave Winfield",
+            "object": "baseball"
+        },
+        {
+            "subject": "Yogi Berra",
+            "object": "baseball"
+        },
+        {
+            "subject": "Ted Williams",
+            "object": "baseball"
+        },
+        {
+            "subject": "Wayne Gretzky",
+            "object": "hockey"
+        },
+        {
+            "subject": "Rick Fox",
+            "object": "basket-ball"
+        },
+        {
+            "subject": "Deion Sanders",
+            "object": "baseball"
+        },
+        {
+            "subject": "David Andersen",
+            "object": "basket-ball"
+        },
+        {
+            "subject": "Hank Greenberg",
+            "object": "baseball"
+        },
+        {
+            "subject": "Viacheslav Fetisov",
+            "object": "hockey"
+        },
+        {
+            "subject": "Mario Lemieux",
+            "object": "hockey"
+        },
+        {
+            "subject": "Stephen Curry",
+            "object": "basket-ball"
+        },
+        {
+            "subject": "Chuck Connors",
+            "object": "baseball"
+        },
+        {
+            "subject": "Bill Russell",
+            "object": "basket-ball"
+        },
+        {
+            "subject": "Jackie Robinson",
+            "object": "baseball"
+        },
+        {
+            "subject": "Charles Barkley",
+            "object": "basket-ball"
+        },
+        {
+            "subject": "Paul Kariya",
+            "object": "hockey"
+        },
+        {
+            "subject": "Yao Ming",
+            "object": "basket-ball"
+        },
+        {
+            "subject": "Joe Garagiola Sr.",
+            "object": "baseball"
+        },
+        {
+            "subject": "Pavel Bure",
+            "object": "hockey"
+        }
+    ]
+}

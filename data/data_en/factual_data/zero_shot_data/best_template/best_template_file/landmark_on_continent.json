@@ -1,0 +1,784 @@
+{
+    "name": "landmark_on_continent",
+    "prompt_templates": [
+        "{} can be found on the continent of"
+    ],
+    "samples": [
+        {
+            "subject": "Kalahari Desert",
+            "object": "Africa"
+        },
+        {
+            "subject": "Suvorov Glacier",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Mount Karisimbi",
+            "object": "Africa"
+        },
+        {
+            "subject": "Annamalai University",
+            "object": "Asia"
+        },
+        {
+            "subject": "Afghanistan",
+            "object": "Asia"
+        },
+        {
+            "subject": "Indira Gandhi National Open University",
+            "object": "Asia"
+        },
+        {
+            "subject": "Niger",
+            "object": "Africa"
+        },
+        {
+            "subject": "Eureka Glacier",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Himachal Pradesh",
+            "object": "Asia"
+        },
+        {
+            "subject": "Namibia",
+            "object": "Africa"
+        },
+        {
+            "subject": "Shackleton Ice Shelf",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Seal Nunataks",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Monte San Giorgio",
+            "object": "Europe"
+        },
+        {
+            "subject": "Alsace-Lorraine",
+            "object": "Europe"
+        },
+        {
+            "subject": "Nile",
+            "object": "Africa"
+        },
+        {
+            "subject": "Queen Maud Land",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Grossglockner",
+            "object": "Europe"
+        },
+        {
+            "subject": "Moldova",
+            "object": "Europe"
+        },
+        {
+            "subject": "Dennistoun Glacier",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "South Pole Traverse",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Whitehall Glacier",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Chukotka Autonomous Okrug",
+            "object": "Asia"
+        },
+        {
+            "subject": "United Kingdom of the Netherlands",
+            "object": "Europe"
+        },
+        {
+            "subject": "Emmanuel Glacier",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Tajikistan",
+            "object": "Asia"
+        },
+        {
+            "subject": "Gambia River",
+            "object": "Africa"
+        },
+        {
+            "subject": "Skelton Glacier",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Austria-Hungary",
+            "object": "Europe"
+        },
+        {
+            "subject": "Hood Glacier",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Antarctic Plateau",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Bertram Glacier",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Blaiklock Glacier",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Wallonia",
+            "object": "Europe"
+        },
+        {
+            "subject": "English Channel",
+            "object": "Europe"
+        },
+        {
+            "subject": "Liberia",
+            "object": "Africa"
+        },
+        {
+            "subject": "Guinea-Bissau",
+            "object": "Africa"
+        },
+        {
+            "subject": "Catalonia",
+            "object": "Europe"
+        },
+        {
+            "subject": "Berwick Glacier",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Jammu and Kashmir",
+            "object": "Asia"
+        },
+        {
+            "subject": "Noll Glacier",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "British Graham Land Expedition",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Nyamuragira",
+            "object": "Africa"
+        },
+        {
+            "subject": "Germany",
+            "object": "Europe"
+        },
+        {
+            "subject": "Balochistan",
+            "object": "Asia"
+        },
+        {
+            "subject": "Kanchenjunga",
+            "object": "Asia"
+        },
+        {
+            "subject": "Eswatini",
+            "object": "Africa"
+        },
+        {
+            "subject": "Moubray Glacier",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Metropolitan France",
+            "object": "Europe"
+        },
+        {
+            "subject": "Jhelum River",
+            "object": "Asia"
+        },
+        {
+            "subject": "United Arab Emirates",
+            "object": "Asia"
+        },
+        {
+            "subject": "Beaglehole Glacier",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Hinkley Glacier",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Grossman Nunataks",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Benin",
+            "object": "Africa"
+        },
+        {
+            "subject": "Mozambique",
+            "object": "Africa"
+        },
+        {
+            "subject": "Rennick Glacier",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "South Korea",
+            "object": "Asia"
+        },
+        {
+            "subject": "Foundation Ice Stream",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Yugoslavia",
+            "object": "Europe"
+        },
+        {
+            "subject": "Sykes Glacier",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Contell Glacier",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Panega Glacier",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Ireland",
+            "object": "Europe"
+        },
+        {
+            "subject": "Scotland",
+            "object": "Europe"
+        },
+        {
+            "subject": "George VI Ice Shelf",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Chandigarh",
+            "object": "Asia"
+        },
+        {
+            "subject": "Reeves Glacier",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Mariner Glacier",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Turkmenistan",
+            "object": "Asia"
+        },
+        {
+            "subject": "Helsinki",
+            "object": "Europe"
+        },
+        {
+            "subject": "Lambert Glacier",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Karonga",
+            "object": "Africa"
+        },
+        {
+            "subject": "Mauritius",
+            "object": "Africa"
+        },
+        {
+            "subject": "Leverett Glacier",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Daugava River",
+            "object": "Europe"
+        },
+        {
+            "subject": "Kirkby Glacier",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Ancient Greece",
+            "object": "Europe"
+        },
+        {
+            "subject": "Bellingshausen Sea",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Cape Royds",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Getz Ice Shelf",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "United Kingdom of Great Britain and Ireland",
+            "object": "Europe"
+        },
+        {
+            "subject": "Kaloyan Nunatak",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Cambodia",
+            "object": "Asia"
+        },
+        {
+            "subject": "Griffith Glacier",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Juan Carlos I Antarctic Base",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Sudan",
+            "object": "Africa"
+        },
+        {
+            "subject": "Butler Glacier",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "The Hague",
+            "object": "Europe"
+        },
+        {
+            "subject": "Rufiji River",
+            "object": "Africa"
+        },
+        {
+            "subject": "Lake Vostok",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Holdsworth Glacier",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Katowice",
+            "object": "Europe"
+        },
+        {
+            "subject": "Irrawaddy River",
+            "object": "Asia"
+        },
+        {
+            "subject": "Czechoslovakia",
+            "object": "Europe"
+        },
+        {
+            "subject": "Whillans Ice Stream",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Somalia",
+            "object": "Africa"
+        },
+        {
+            "subject": "Lucy Glacier",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Antarctic ice sheet",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Denton Glacier",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Debenham Glacier",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "New Delhi",
+            "object": "Asia"
+        },
+        {
+            "subject": "Siple Dome",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Madagascar",
+            "object": "Africa"
+        },
+        {
+            "subject": "Wales",
+            "object": "Europe"
+        },
+        {
+            "subject": "Rayner Glacier",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Thimphu",
+            "object": "Asia"
+        },
+        {
+            "subject": "Tashkent",
+            "object": "Asia"
+        },
+        {
+            "subject": "Crosswell Glacier",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Hong Kong",
+            "object": "Asia"
+        },
+        {
+            "subject": "Rambo Nunataks",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Cape Filchner",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Strom Glacier",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Lyon Nunataks",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Mertz Glacier",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Shackleton Range",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Arctowski Peninsula",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "La Grange Nunataks",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Marie Byrd Land",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Mulock Glacier",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Iran",
+            "object": "Asia"
+        },
+        {
+            "subject": "McMurdo Station",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Eritrea",
+            "object": "Africa"
+        },
+        {
+            "subject": "Riiser-Larsen Ice Shelf",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "North Macedonia",
+            "object": "Europe"
+        },
+        {
+            "subject": "Yoruba religion",
+            "object": "Africa"
+        },
+        {
+            "subject": "Shimla",
+            "object": "Asia"
+        },
+        {
+            "subject": "Struma Glacier",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Willan Nunatak",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Slovenia",
+            "object": "Europe"
+        },
+        {
+            "subject": "Bransfield Strait",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Terra Nova Bay",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Cameroon",
+            "object": "Africa"
+        },
+        {
+            "subject": "Nigeria",
+            "object": "Africa"
+        },
+        {
+            "subject": "Mount Cameroon",
+            "object": "Africa"
+        },
+        {
+            "subject": "Congo basin",
+            "object": "Africa"
+        },
+        {
+            "subject": "Tallinn",
+            "object": "Europe"
+        },
+        {
+            "subject": "Djibouti",
+            "object": "Africa"
+        },
+        {
+            "subject": "Morocco",
+            "object": "Africa"
+        },
+        {
+            "subject": "Beaumont Glacier",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Forster Ice Piedmont",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Keltie Glacier",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Comoros",
+            "object": "Africa"
+        },
+        {
+            "subject": "Equatorial Guinea",
+            "object": "Africa"
+        },
+        {
+            "subject": "Portugal",
+            "object": "Europe"
+        },
+        {
+            "subject": "Bulgaria",
+            "object": "Europe"
+        },
+        {
+            "subject": "KU Leuven",
+            "object": "Europe"
+        },
+        {
+            "subject": "Bosnia and Herzegovina",
+            "object": "Europe"
+        },
+        {
+            "subject": "Cape Adare",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Lesotho",
+            "object": "Africa"
+        },
+        {
+            "subject": "Burundi",
+            "object": "Africa"
+        },
+        {
+            "subject": "Estonia",
+            "object": "Europe"
+        },
+        {
+            "subject": "Mali",
+            "object": "Africa"
+        },
+        {
+            "subject": "Rutford Ice Stream",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Benson Glacier",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Nepal",
+            "object": "Asia"
+        },
+        {
+            "subject": "Niger River",
+            "object": "Africa"
+        },
+        {
+            "subject": "Austria",
+            "object": "Europe"
+        },
+        {
+            "subject": "Congo Free State",
+            "object": "Africa"
+        },
+        {
+            "subject": "Ol Doinyo Lengai",
+            "object": "Africa"
+        },
+        {
+            "subject": "Switzerland",
+            "object": "Europe"
+        },
+        {
+            "subject": "Andersson Island",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Gibraltar",
+            "object": "Europe"
+        },
+        {
+            "subject": "Drygalski Mountains",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Kouilou-Niari River",
+            "object": "Africa"
+        },
+        {
+            "subject": "Cosgrove Ice Shelf",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Fleming Glacier",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Bowman Glacier",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Thailand",
+            "object": "Asia"
+        },
+        {
+            "subject": "Splettstoesser Glacier",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Vernadsky Research Base",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Irish Free State",
+            "object": "Europe"
+        },
+        {
+            "subject": "Totten Glacier",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Fendley Glacier",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Thiruvananthapuram",
+            "object": "Asia"
+        },
+        {
+            "subject": "Senegambia Confederation",
+            "object": "Africa"
+        },
+        {
+            "subject": "San Marino",
+            "object": "Europe"
+        },
+        {
+            "subject": "Finland",
+            "object": "Europe"
+        },
+        {
+            "subject": "United Kingdom",
+            "object": "Europe"
+        },
+        {
+            "subject": "Slovakia",
+            "object": "Europe"
+        },
+        {
+            "subject": "French Southern and Antarctic Lands",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "North Holland",
+            "object": "Europe"
+        },
+        {
+            "subject": "Kirkpatrick Glacier",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Mayotte",
+            "object": "Africa"
+        },
+        {
+            "subject": "Brunt Ice Shelf",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Borchgrevink Glacier",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Gerlache Strait",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Angola",
+            "object": "Africa"
+        },
+        {
+            "subject": "Montenegro",
+            "object": "Europe"
+        },
+        {
+            "subject": "Hippocrates Glacier",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Kuwait",
+            "object": "Asia"
+        },
+        {
+            "subject": "Denmark",
+            "object": "Europe"
+        },
+        {
+            "subject": "Antarctic Treaty System",
+            "object": "Antarctica"
+        },
+        {
+            "subject": "Seychelles",
+            "object": "Africa"
+        },
+        {
+            "subject": "Greece",
+            "object": "Europe"
+        }
+    ]
+}

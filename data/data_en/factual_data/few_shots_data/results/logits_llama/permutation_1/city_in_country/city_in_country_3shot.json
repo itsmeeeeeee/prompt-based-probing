@@ -1,0 +1,2888 @@
+[
+  {
+    "prompt": "Paris exists within the country of France.\nBerlin exists within the country of Germany.\nTokyo exists within the country of Japan.\nNew York City exists within the country of",
+    "generated_prefix": "Paris exists within the country of France.\nBerlin exists within the country of Germany.\nTokyo exists within the country of Japan.\nNew York City exists within the country of",
+    "gold_token": " United",
+    "predicted_top1_token": " the",
+    "token_pos_in_answer": 0,
+    "gold_logit": 20.625,
+    "gold_prob_percent": 10.01,
+    "first_token_prob": 0.81201171875,
+    "second_token_prob": 0.10009765625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " the",
+        "logit": 22.71875,
+        "probability_percent": 81.2
+      },
+      {
+        "rank": 1,
+        "token": " United",
+        "logit": 20.625,
+        "probability_percent": 10.01
+      },
+      {
+        "rank": 2,
+        "token": " USA",
+        "logit": 19.390625,
+        "probability_percent": 2.91
+      },
+      {
+        "rank": 3,
+        "token": " The",
+        "logit": 19.046875,
+        "probability_percent": 2.06
+      },
+      {
+        "rank": 4,
+        "token": " America",
+        "logit": 18.75,
+        "probability_percent": 1.53
+      },
+      {
+        "rank": 5,
+        "token": " New",
+        "logit": 18.453125,
+        "probability_percent": 1.14
+      },
+      {
+        "rank": 6,
+        "token": " U",
+        "logit": 16.59375,
+        "probability_percent": 0.18
+      },
+      {
+        "rank": 7,
+        "token": " US",
+        "logit": 15.8203125,
+        "probability_percent": 0.08
+      },
+      {
+        "rank": 8,
+        "token": "\n",
+        "logit": 15.6640625,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 9,
+        "token": " ",
+        "logit": 15.59375,
+        "probability_percent": 0.07
+      }
+    ]
+  },
+  {
+    "prompt": "Paris exists within the country of France.\nBerlin exists within the country of Germany.\nTokyo exists within the country of Japan.\nNew York City exists within the country of",
+    "generated_prefix": "Paris exists within the country of France.\nBerlin exists within the country of Germany.\nTokyo exists within the country of Japan.\nNew York City exists within the country of the",
+    "gold_token": " States",
+    "predicted_top1_token": " United",
+    "token_pos_in_answer": 1,
+    "gold_logit": 15.8359375,
+    "gold_prob_percent": 0.02,
+    "first_token_prob": 0.81201171875,
+    "second_token_prob": 0.10009765625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " United",
+        "logit": 24.40625,
+        "probability_percent": 93.75
+      },
+      {
+        "rank": 1,
+        "token": " USA",
+        "logit": 21.203125,
+        "probability_percent": 3.81
+      },
+      {
+        "rank": 2,
+        "token": " U",
+        "logit": 20.0,
+        "probability_percent": 1.14
+      },
+      {
+        "rank": 3,
+        "token": " US",
+        "logit": 19.734375,
+        "probability_percent": 0.88
+      },
+      {
+        "rank": 4,
+        "token": " united",
+        "logit": 17.21875,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 5,
+        "token": " Un",
+        "logit": 17.03125,
+        "probability_percent": 0.06
+      },
+      {
+        "rank": 6,
+        "token": " ",
+        "logit": 16.484375,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 7,
+        "token": " Unt",
+        "logit": 16.25,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 8,
+        "token": " State",
+        "logit": 16.0,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 9,
+        "token": " UNITED",
+        "logit": 15.9375,
+        "probability_percent": 0.02
+      }
+    ]
+  },
+  {
+    "prompt": "Paris exists within the country of France.\nBerlin exists within the country of Germany.\nTokyo exists within the country of Japan.\nRio de Janeiro exists within the country of",
+    "generated_prefix": "Paris exists within the country of France.\nBerlin exists within the country of Germany.\nTokyo exists within the country of Japan.\nRio de Janeiro exists within the country of",
+    "gold_token": " Brazil",
+    "predicted_top1_token": " Brazil",
+    "token_pos_in_answer": 0,
+    "gold_logit": 23.40625,
+    "gold_prob_percent": 98.49,
+    "first_token_prob": 0.98486328125,
+    "second_token_prob": 0.00800323486328125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Brazil",
+        "logit": 23.40625,
+        "probability_percent": 98.49
+      },
+      {
+        "rank": 1,
+        "token": " Brasil",
+        "logit": 18.59375,
+        "probability_percent": 0.8
+      },
+      {
+        "rank": 2,
+        "token": "\n",
+        "logit": 16.0625,
+        "probability_percent": 0.06
+      },
+      {
+        "rank": 3,
+        "token": " the",
+        "logit": 15.9140625,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 4,
+        "token": " ",
+        "logit": 15.671875,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 5,
+        "token": " Br",
+        "logit": 15.578125,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 6,
+        "token": " South",
+        "logit": 15.375,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 7,
+        "token": "...\n",
+        "logit": 15.2890625,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 8,
+        "token": "…\n",
+        "logit": 15.03125,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 9,
+        "token": " Bras",
+        "logit": 14.765625,
+        "probability_percent": 0.02
+      }
+    ]
+  },
+  {
+    "prompt": "Paris exists within the country of France.\nBerlin exists within the country of Germany.\nTokyo exists within the country of Japan.\nBuenos Aires exists within the country of",
+    "generated_prefix": "Paris exists within the country of France.\nBerlin exists within the country of Germany.\nTokyo exists within the country of Japan.\nBuenos Aires exists within the country of",
+    "gold_token": " Argentina",
+    "predicted_top1_token": " Argentina",
+    "token_pos_in_answer": 0,
+    "gold_logit": 23.125,
+    "gold_prob_percent": 98.68,
+    "first_token_prob": 0.98681640625,
+    "second_token_prob": 0.0016813278198242188,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Argentina",
+        "logit": 23.125,
+        "probability_percent": 98.68
+      },
+      {
+        "rank": 1,
+        "token": " Arg",
+        "logit": 16.75,
+        "probability_percent": 0.17
+      },
+      {
+        "rank": 2,
+        "token": " the",
+        "logit": 16.328125,
+        "probability_percent": 0.11
+      },
+      {
+        "rank": 3,
+        "token": " Argentine",
+        "logit": 16.109375,
+        "probability_percent": 0.09
+      },
+      {
+        "rank": 4,
+        "token": "\n",
+        "logit": 16.015625,
+        "probability_percent": 0.08
+      },
+      {
+        "rank": 5,
+        "token": " ",
+        "logit": 15.859375,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 6,
+        "token": " South",
+        "logit": 15.6171875,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 7,
+        "token": " Uruguay",
+        "logit": 15.5859375,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 8,
+        "token": "Argentina",
+        "logit": 15.0859375,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 9,
+        "token": " Brazil",
+        "logit": 15.046875,
+        "probability_percent": 0.03
+      }
+    ]
+  },
+  {
+    "prompt": "Paris exists within the country of France.\nBerlin exists within the country of Germany.\nTokyo exists within the country of Japan.\nMexico City exists within the country of",
+    "generated_prefix": "Paris exists within the country of France.\nBerlin exists within the country of Germany.\nTokyo exists within the country of Japan.\nMexico City exists within the country of",
+    "gold_token": " Mexico",
+    "predicted_top1_token": " Mexico",
+    "token_pos_in_answer": 0,
+    "gold_logit": 23.609375,
+    "gold_prob_percent": 98.97,
+    "first_token_prob": 0.98974609375,
+    "second_token_prob": 0.00269317626953125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Mexico",
+        "logit": 23.609375,
+        "probability_percent": 98.97
+      },
+      {
+        "rank": 1,
+        "token": " México",
+        "logit": 17.703125,
+        "probability_percent": 0.27
+      },
+      {
+        "rank": 2,
+        "token": " the",
+        "logit": 16.84375,
+        "probability_percent": 0.11
+      },
+      {
+        "rank": 3,
+        "token": " Mex",
+        "logit": 16.0,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 4,
+        "token": " M",
+        "logit": 15.984375,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 5,
+        "token": "\n",
+        "logit": 15.890625,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 6,
+        "token": " ",
+        "logit": 15.8125,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 7,
+        "token": "...\n",
+        "logit": 15.6484375,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 8,
+        "token": "…\n",
+        "logit": 15.4453125,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 9,
+        "token": " mexico",
+        "logit": 15.328125,
+        "probability_percent": 0.03
+      }
+    ]
+  },
+  {
+    "prompt": "Paris exists within the country of France.\nBerlin exists within the country of Germany.\nTokyo exists within the country of Japan.\nSão Paulo exists within the country of",
+    "generated_prefix": "Paris exists within the country of France.\nBerlin exists within the country of Germany.\nTokyo exists within the country of Japan.\nSão Paulo exists within the country of",
+    "gold_token": " Brazil",
+    "predicted_top1_token": " Brazil",
+    "token_pos_in_answer": 0,
+    "gold_logit": 23.609375,
+    "gold_prob_percent": 98.39,
+    "first_token_prob": 0.98388671875,
+    "second_token_prob": 0.009796142578125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Brazil",
+        "logit": 23.609375,
+        "probability_percent": 98.39
+      },
+      {
+        "rank": 1,
+        "token": " Brasil",
+        "logit": 19.0,
+        "probability_percent": 0.98
+      },
+      {
+        "rank": 2,
+        "token": " the",
+        "logit": 16.3125,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 3,
+        "token": " ",
+        "logit": 16.234375,
+        "probability_percent": 0.06
+      },
+      {
+        "rank": 4,
+        "token": "\n",
+        "logit": 15.7421875,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 5,
+        "token": " Br",
+        "logit": 15.4609375,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 6,
+        "token": " South",
+        "logit": 15.3203125,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 7,
+        "token": " São",
+        "logit": 15.3203125,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 8,
+        "token": "...\n",
+        "logit": 15.1953125,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 9,
+        "token": " Argentina",
+        "logit": 14.953125,
+        "probability_percent": 0.02
+      }
+    ]
+  },
+  {
+    "prompt": "Paris exists within the country of France.\nBerlin exists within the country of Germany.\nTokyo exists within the country of Japan.\nLos Angeles exists within the country of",
+    "generated_prefix": "Paris exists within the country of France.\nBerlin exists within the country of Germany.\nTokyo exists within the country of Japan.\nLos Angeles exists within the country of",
+    "gold_token": " United",
+    "predicted_top1_token": " the",
+    "token_pos_in_answer": 0,
+    "gold_logit": 20.953125,
+    "gold_prob_percent": 16.72,
+    "first_token_prob": 0.62158203125,
+    "second_token_prob": 0.167236328125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " the",
+        "logit": 22.265625,
+        "probability_percent": 62.16
+      },
+      {
+        "rank": 1,
+        "token": " United",
+        "logit": 20.953125,
+        "probability_percent": 16.72
+      },
+      {
+        "rank": 2,
+        "token": " California",
+        "logit": 20.25,
+        "probability_percent": 8.28
+      },
+      {
+        "rank": 3,
+        "token": " USA",
+        "logit": 20.078125,
+        "probability_percent": 6.97
+      },
+      {
+        "rank": 4,
+        "token": " America",
+        "logit": 18.828125,
+        "probability_percent": 2.0
+      },
+      {
+        "rank": 5,
+        "token": " The",
+        "logit": 18.65625,
+        "probability_percent": 1.68
+      },
+      {
+        "rank": 6,
+        "token": " U",
+        "logit": 17.3125,
+        "probability_percent": 0.44
+      },
+      {
+        "rank": 7,
+        "token": " Mexico",
+        "logit": 17.296875,
+        "probability_percent": 0.43
+      },
+      {
+        "rank": 8,
+        "token": " US",
+        "logit": 16.40625,
+        "probability_percent": 0.18
+      },
+      {
+        "rank": 9,
+        "token": "\n",
+        "logit": 15.546875,
+        "probability_percent": 0.08
+      }
+    ]
+  },
+  {
+    "prompt": "Paris exists within the country of France.\nBerlin exists within the country of Germany.\nTokyo exists within the country of Japan.\nLos Angeles exists within the country of",
+    "generated_prefix": "Paris exists within the country of France.\nBerlin exists within the country of Germany.\nTokyo exists within the country of Japan.\nLos Angeles exists within the country of the",
+    "gold_token": " States",
+    "predicted_top1_token": " United",
+    "token_pos_in_answer": 1,
+    "gold_logit": 15.7578125,
+    "gold_prob_percent": 0.03,
+    "first_token_prob": 0.62158203125,
+    "second_token_prob": 0.167236328125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " United",
+        "logit": 23.921875,
+        "probability_percent": 89.16
+      },
+      {
+        "rank": 1,
+        "token": " USA",
+        "logit": 21.390625,
+        "probability_percent": 7.09
+      },
+      {
+        "rank": 2,
+        "token": " U",
+        "logit": 20.0,
+        "probability_percent": 1.77
+      },
+      {
+        "rank": 3,
+        "token": " US",
+        "logit": 19.609375,
+        "probability_percent": 1.19
+      },
+      {
+        "rank": 4,
+        "token": " Un",
+        "logit": 17.765625,
+        "probability_percent": 0.19
+      },
+      {
+        "rank": 5,
+        "token": " united",
+        "logit": 17.5625,
+        "probability_percent": 0.15
+      },
+      {
+        "rank": 6,
+        "token": " Unt",
+        "logit": 16.28125,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 7,
+        "token": " ",
+        "logit": 15.96875,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 8,
+        "token": " UNITED",
+        "logit": 15.8203125,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 9,
+        "token": " State",
+        "logit": 15.7890625,
+        "probability_percent": 0.03
+      }
+    ]
+  },
+  {
+    "prompt": "Paris exists within the country of France.\nBerlin exists within the country of Germany.\nTokyo exists within the country of Japan.\nSaint Petersburg exists within the country of",
+    "generated_prefix": "Paris exists within the country of France.\nBerlin exists within the country of Germany.\nTokyo exists within the country of Japan.\nSaint Petersburg exists within the country of",
+    "gold_token": " Russia",
+    "predicted_top1_token": " Russia",
+    "token_pos_in_answer": 0,
+    "gold_logit": 23.3125,
+    "gold_prob_percent": 98.54,
+    "first_token_prob": 0.9853515625,
+    "second_token_prob": 0.004154205322265625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Russia",
+        "logit": 23.3125,
+        "probability_percent": 98.54
+      },
+      {
+        "rank": 1,
+        "token": " the",
+        "logit": 17.84375,
+        "probability_percent": 0.42
+      },
+      {
+        "rank": 2,
+        "token": " Russian",
+        "logit": 17.765625,
+        "probability_percent": 0.38
+      },
+      {
+        "rank": 3,
+        "token": "\n",
+        "logit": 15.6328125,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 4,
+        "token": " ",
+        "logit": 15.5859375,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 5,
+        "token": " The",
+        "logit": 15.4609375,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 6,
+        "token": " Ukraine",
+        "logit": 15.4140625,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 7,
+        "token": " Belarus",
+        "logit": 15.09375,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 8,
+        "token": " Russ",
+        "logit": 14.875,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 9,
+        "token": " (",
+        "logit": 14.8125,
+        "probability_percent": 0.02
+      }
+    ]
+  },
+  {
+    "prompt": "Paris exists within the country of France.\nBerlin exists within the country of Germany.\nTokyo exists within the country of Japan.\nSan Francisco exists within the country of",
+    "generated_prefix": "Paris exists within the country of France.\nBerlin exists within the country of Germany.\nTokyo exists within the country of Japan.\nSan Francisco exists within the country of",
+    "gold_token": " United",
+    "predicted_top1_token": " the",
+    "token_pos_in_answer": 0,
+    "gold_logit": 21.03125,
+    "gold_prob_percent": 23.67,
+    "first_token_prob": 0.435302734375,
+    "second_token_prob": 0.2366943359375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " the",
+        "logit": 21.640625,
+        "probability_percent": 43.53
+      },
+      {
+        "rank": 1,
+        "token": " United",
+        "logit": 21.03125,
+        "probability_percent": 23.67
+      },
+      {
+        "rank": 2,
+        "token": " California",
+        "logit": 20.6875,
+        "probability_percent": 16.78
+      },
+      {
+        "rank": 3,
+        "token": " USA",
+        "logit": 20.140625,
+        "probability_percent": 9.72
+      },
+      {
+        "rank": 4,
+        "token": " America",
+        "logit": 18.5,
+        "probability_percent": 1.88
+      },
+      {
+        "rank": 5,
+        "token": " The",
+        "logit": 18.203125,
+        "probability_percent": 1.4
+      },
+      {
+        "rank": 6,
+        "token": " U",
+        "logit": 17.390625,
+        "probability_percent": 0.62
+      },
+      {
+        "rank": 7,
+        "token": " US",
+        "logit": 16.828125,
+        "probability_percent": 0.35
+      },
+      {
+        "rank": 8,
+        "token": " San",
+        "logit": 16.453125,
+        "probability_percent": 0.24
+      },
+      {
+        "rank": 9,
+        "token": " Mexico",
+        "logit": 16.421875,
+        "probability_percent": 0.24
+      }
+    ]
+  },
+  {
+    "prompt": "Paris exists within the country of France.\nBerlin exists within the country of Germany.\nTokyo exists within the country of Japan.\nSan Francisco exists within the country of",
+    "generated_prefix": "Paris exists within the country of France.\nBerlin exists within the country of Germany.\nTokyo exists within the country of Japan.\nSan Francisco exists within the country of the",
+    "gold_token": " States",
+    "predicted_top1_token": " United",
+    "token_pos_in_answer": 1,
+    "gold_logit": 15.984375,
+    "gold_prob_percent": 0.04,
+    "first_token_prob": 0.435302734375,
+    "second_token_prob": 0.2366943359375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " United",
+        "logit": 23.578125,
+        "probability_percent": 88.57
+      },
+      {
+        "rank": 1,
+        "token": " USA",
+        "logit": 21.0625,
+        "probability_percent": 7.15
+      },
+      {
+        "rank": 2,
+        "token": " U",
+        "logit": 19.796875,
+        "probability_percent": 2.02
+      },
+      {
+        "rank": 3,
+        "token": " US",
+        "logit": 19.3125,
+        "probability_percent": 1.24
+      },
+      {
+        "rank": 4,
+        "token": " Un",
+        "logit": 17.578125,
+        "probability_percent": 0.22
+      },
+      {
+        "rank": 5,
+        "token": " united",
+        "logit": 17.453125,
+        "probability_percent": 0.19
+      },
+      {
+        "rank": 6,
+        "token": " State",
+        "logit": 16.046875,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 7,
+        "token": " States",
+        "logit": 15.984375,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 8,
+        "token": " Unt",
+        "logit": 15.9453125,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 9,
+        "token": " Americas",
+        "logit": 15.6953125,
+        "probability_percent": 0.03
+      }
+    ]
+  },
+  {
+    "prompt": "Paris exists within the country of France.\nBerlin exists within the country of Germany.\nTokyo exists within the country of Japan.\nHo Chi Minh City exists within the country of",
+    "generated_prefix": "Paris exists within the country of France.\nBerlin exists within the country of Germany.\nTokyo exists within the country of Japan.\nHo Chi Minh City exists within the country of",
+    "gold_token": " Vietnam",
+    "predicted_top1_token": " Vietnam",
+    "token_pos_in_answer": 0,
+    "gold_logit": 22.625,
+    "gold_prob_percent": 92.24,
+    "first_token_prob": 0.92236328125,
+    "second_token_prob": 0.0657958984375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Vietnam",
+        "logit": 22.625,
+        "probability_percent": 92.24
+      },
+      {
+        "rank": 1,
+        "token": " Viet",
+        "logit": 19.984375,
+        "probability_percent": 6.58
+      },
+      {
+        "rank": 2,
+        "token": " the",
+        "logit": 16.234375,
+        "probability_percent": 0.15
+      },
+      {
+        "rank": 3,
+        "token": " Cambodia",
+        "logit": 16.15625,
+        "probability_percent": 0.14
+      },
+      {
+        "rank": 4,
+        "token": " South",
+        "logit": 15.8203125,
+        "probability_percent": 0.1
+      },
+      {
+        "rank": 5,
+        "token": " ",
+        "logit": 15.53125,
+        "probability_percent": 0.08
+      },
+      {
+        "rank": 6,
+        "token": "\n",
+        "logit": 15.3671875,
+        "probability_percent": 0.06
+      },
+      {
+        "rank": 7,
+        "token": " Socialist",
+        "logit": 14.9765625,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 8,
+        "token": " The",
+        "logit": 14.8125,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 9,
+        "token": " Việt",
+        "logit": 14.7890625,
+        "probability_percent": 0.04
+      }
+    ]
+  },
+  {
+    "prompt": "Paris exists within the country of France.\nBerlin exists within the country of Germany.\nTokyo exists within the country of Japan.\nKuala Lumpur exists within the country of",
+    "generated_prefix": "Paris exists within the country of France.\nBerlin exists within the country of Germany.\nTokyo exists within the country of Japan.\nKuala Lumpur exists within the country of",
+    "gold_token": " Malaysia",
+    "predicted_top1_token": " Malaysia",
+    "token_pos_in_answer": 0,
+    "gold_logit": 23.703125,
+    "gold_prob_percent": 99.07,
+    "first_token_prob": 0.99072265625,
+    "second_token_prob": 0.002826690673828125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Malaysia",
+        "logit": 23.703125,
+        "probability_percent": 99.07
+      },
+      {
+        "rank": 1,
+        "token": " Mal",
+        "logit": 17.84375,
+        "probability_percent": 0.28
+      },
+      {
+        "rank": 2,
+        "token": " ",
+        "logit": 16.46875,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 3,
+        "token": "\n",
+        "logit": 16.15625,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 4,
+        "token": " the",
+        "logit": 15.9921875,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 5,
+        "token": "...\n",
+        "logit": 15.34375,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 6,
+        "token": " Singapore",
+        "logit": 15.296875,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 7,
+        "token": " Indonesia",
+        "logit": 15.25,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 8,
+        "token": " Malay",
+        "logit": 15.1953125,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 9,
+        "token": " malaysia",
+        "logit": 15.0703125,
+        "probability_percent": 0.02
+      }
+    ]
+  },
+  {
+    "prompt": "Paris exists within the country of France.\nBerlin exists within the country of Germany.\nTokyo exists within the country of Japan.\nAbu Dhabi exists within the country of",
+    "generated_prefix": "Paris exists within the country of France.\nBerlin exists within the country of Germany.\nTokyo exists within the country of Japan.\nAbu Dhabi exists within the country of",
+    "gold_token": " United",
+    "predicted_top1_token": " United",
+    "token_pos_in_answer": 0,
+    "gold_logit": 21.15625,
+    "gold_prob_percent": 57.71,
+    "first_token_prob": 0.5771484375,
+    "second_token_prob": 0.294677734375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " United",
+        "logit": 21.15625,
+        "probability_percent": 57.71
+      },
+      {
+        "rank": 1,
+        "token": " the",
+        "logit": 20.484375,
+        "probability_percent": 29.47
+      },
+      {
+        "rank": 2,
+        "token": " UAE",
+        "logit": 19.25,
+        "probability_percent": 8.58
+      },
+      {
+        "rank": 3,
+        "token": " The",
+        "logit": 17.609375,
+        "probability_percent": 1.66
+      },
+      {
+        "rank": 4,
+        "token": " U",
+        "logit": 16.421875,
+        "probability_percent": 0.51
+      },
+      {
+        "rank": 5,
+        "token": " Abu",
+        "logit": 16.328125,
+        "probability_percent": 0.46
+      },
+      {
+        "rank": 6,
+        "token": " ",
+        "logit": 14.9453125,
+        "probability_percent": 0.12
+      },
+      {
+        "rank": 7,
+        "token": "\n",
+        "logit": 14.890625,
+        "probability_percent": 0.11
+      },
+      {
+        "rank": 8,
+        "token": " Dubai",
+        "logit": 14.7109375,
+        "probability_percent": 0.09
+      },
+      {
+        "rank": 9,
+        "token": " Oman",
+        "logit": 14.3046875,
+        "probability_percent": 0.06
+      }
+    ]
+  },
+  {
+    "prompt": "Paris exists within the country of France.\nBerlin exists within the country of Germany.\nTokyo exists within the country of Japan.\nAbu Dhabi exists within the country of",
+    "generated_prefix": "Paris exists within the country of France.\nBerlin exists within the country of Germany.\nTokyo exists within the country of Japan.\nAbu Dhabi exists within the country of United",
+    "gold_token": " Arab",
+    "predicted_top1_token": " Arab",
+    "token_pos_in_answer": 1,
+    "gold_logit": 24.125,
+    "gold_prob_percent": 99.41,
+    "first_token_prob": 0.5771484375,
+    "second_token_prob": 0.294677734375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Arab",
+        "logit": 24.125,
+        "probability_percent": 99.41
+      },
+      {
+        "rank": 1,
+        "token": " Arabic",
+        "logit": 17.6875,
+        "probability_percent": 0.16
+      },
+      {
+        "rank": 2,
+        "token": " arab",
+        "logit": 16.875,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 3,
+        "token": " Arabs",
+        "logit": 16.875,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 4,
+        "token": " Emirates",
+        "logit": 16.03125,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 5,
+        "token": " Arabia",
+        "logit": 16.0,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 6,
+        "token": " Ar",
+        "logit": 15.9921875,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 7,
+        "token": " Arabian",
+        "logit": 15.984375,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 8,
+        "token": "-A",
+        "logit": 15.9296875,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 9,
+        "token": " ",
+        "logit": 15.46875,
+        "probability_percent": 0.02
+      }
+    ]
+  },
+  {
+    "prompt": "Paris exists within the country of France.\nBerlin exists within the country of Germany.\nTokyo exists within the country of Japan.\nAbu Dhabi exists within the country of",
+    "generated_prefix": "Paris exists within the country of France.\nBerlin exists within the country of Germany.\nTokyo exists within the country of Japan.\nAbu Dhabi exists within the country of United Arab",
+    "gold_token": " Emirates",
+    "predicted_top1_token": " Emirates",
+    "token_pos_in_answer": 2,
+    "gold_logit": 22.875,
+    "gold_prob_percent": 98.93,
+    "first_token_prob": 0.5771484375,
+    "second_token_prob": 0.294677734375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Emirates",
+        "logit": 22.875,
+        "probability_percent": 98.93
+      },
+      {
+        "rank": 1,
+        "token": " Em",
+        "logit": 17.46875,
+        "probability_percent": 0.44
+      },
+      {
+        "rank": 2,
+        "token": " em",
+        "logit": 16.265625,
+        "probability_percent": 0.13
+      },
+      {
+        "rank": 3,
+        "token": "\n",
+        "logit": 15.46875,
+        "probability_percent": 0.06
+      },
+      {
+        "rank": 4,
+        "token": " of",
+        "logit": 15.3671875,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 5,
+        "token": " Emer",
+        "logit": 15.203125,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 6,
+        "token": ".\n",
+        "logit": 15.078125,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 7,
+        "token": " E",
+        "logit": 15.0625,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 8,
+        "token": " Emin",
+        "logit": 14.6953125,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 9,
+        "token": "...\n",
+        "logit": 14.671875,
+        "probability_percent": 0.03
+      }
+    ]
+  },
+  {
+    "prompt": "Paris exists within the country of France.\nBerlin exists within the country of Germany.\nTokyo exists within the country of Japan.\nCape Town exists within the country of",
+    "generated_prefix": "Paris exists within the country of France.\nBerlin exists within the country of Germany.\nTokyo exists within the country of Japan.\nCape Town exists within the country of",
+    "gold_token": " South",
+    "predicted_top1_token": " South",
+    "token_pos_in_answer": 0,
+    "gold_logit": 23.5,
+    "gold_prob_percent": 98.78,
+    "first_token_prob": 0.98779296875,
+    "second_token_prob": 0.0019989013671875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " South",
+        "logit": 23.5,
+        "probability_percent": 98.78
+      },
+      {
+        "rank": 1,
+        "token": " Africa",
+        "logit": 17.296875,
+        "probability_percent": 0.2
+      },
+      {
+        "rank": 2,
+        "token": " the",
+        "logit": 16.8125,
+        "probability_percent": 0.12
+      },
+      {
+        "rank": 3,
+        "token": " Nam",
+        "logit": 16.515625,
+        "probability_percent": 0.09
+      },
+      {
+        "rank": 4,
+        "token": " Republic",
+        "logit": 16.359375,
+        "probability_percent": 0.08
+      },
+      {
+        "rank": 5,
+        "token": " SA",
+        "logit": 16.1875,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 6,
+        "token": " Cape",
+        "logit": 16.1875,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 7,
+        "token": "\n",
+        "logit": 15.9765625,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 8,
+        "token": " S",
+        "logit": 15.78125,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 9,
+        "token": " ",
+        "logit": 15.6484375,
+        "probability_percent": 0.04
+      }
+    ]
+  },
+  {
+    "prompt": "Paris exists within the country of France.\nBerlin exists within the country of Germany.\nTokyo exists within the country of Japan.\nCape Town exists within the country of",
+    "generated_prefix": "Paris exists within the country of France.\nBerlin exists within the country of Germany.\nTokyo exists within the country of Japan.\nCape Town exists within the country of South",
+    "gold_token": " Africa",
+    "predicted_top1_token": " Africa",
+    "token_pos_in_answer": 1,
+    "gold_logit": 24.515625,
+    "gold_prob_percent": 99.51,
+    "first_token_prob": 0.98779296875,
+    "second_token_prob": 0.0019989013671875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Africa",
+        "logit": 24.515625,
+        "probability_percent": 99.51
+      },
+      {
+        "rank": 1,
+        "token": "-A",
+        "logit": 18.359375,
+        "probability_percent": 0.21
+      },
+      {
+        "rank": 2,
+        "token": "\n",
+        "logit": 16.5,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 3,
+        "token": " Afrika",
+        "logit": 16.484375,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 4,
+        "token": " ",
+        "logit": 16.453125,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 5,
+        "token": "Africa",
+        "logit": 16.28125,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 6,
+        "token": " African",
+        "logit": 16.21875,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 7,
+        "token": " africa",
+        "logit": 16.078125,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 8,
+        "token": "_A",
+        "logit": 15.6171875,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 9,
+        "token": " Af",
+        "logit": 15.4921875,
+        "probability_percent": 0.01
+      }
+    ]
+  },
+  {
+    "prompt": "Paris exists within the country of France.\nBerlin exists within the country of Germany.\nTokyo exists within the country of Japan.\nNew Delhi exists within the country of",
+    "generated_prefix": "Paris exists within the country of France.\nBerlin exists within the country of Germany.\nTokyo exists within the country of Japan.\nNew Delhi exists within the country of",
+    "gold_token": " India",
+    "predicted_top1_token": " India",
+    "token_pos_in_answer": 0,
+    "gold_logit": 23.484375,
+    "gold_prob_percent": 99.22,
+    "first_token_prob": 0.9921875,
+    "second_token_prob": 0.0009188652038574219,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " India",
+        "logit": 23.484375,
+        "probability_percent": 99.22
+      },
+      {
+        "rank": 1,
+        "token": " the",
+        "logit": 16.5,
+        "probability_percent": 0.09
+      },
+      {
+        "rank": 2,
+        "token": " ",
+        "logit": 16.078125,
+        "probability_percent": 0.06
+      },
+      {
+        "rank": 3,
+        "token": "\n",
+        "logit": 15.875,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 4,
+        "token": " india",
+        "logit": 15.8203125,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 5,
+        "token": " Pakistan",
+        "logit": 15.71875,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 6,
+        "token": " Republic",
+        "logit": 15.59375,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 7,
+        "token": " IND",
+        "logit": 15.2265625,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 8,
+        "token": " Indi",
+        "logit": 15.1875,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 9,
+        "token": "India",
+        "logit": 15.0625,
+        "probability_percent": 0.02
+      }
+    ]
+  },
+  {
+    "prompt": "Paris exists within the country of France.\nBerlin exists within the country of Germany.\nTokyo exists within the country of Japan.\nLas Vegas exists within the country of",
+    "generated_prefix": "Paris exists within the country of France.\nBerlin exists within the country of Germany.\nTokyo exists within the country of Japan.\nLas Vegas exists within the country of",
+    "gold_token": " United",
+    "predicted_top1_token": " Nevada",
+    "token_pos_in_answer": 0,
+    "gold_logit": 20.453125,
+    "gold_prob_percent": 13.95,
+    "first_token_prob": 0.4296875,
+    "second_token_prob": 0.300048828125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Nevada",
+        "logit": 21.578125,
+        "probability_percent": 42.97
+      },
+      {
+        "rank": 1,
+        "token": " the",
+        "logit": 21.21875,
+        "probability_percent": 30.0
+      },
+      {
+        "rank": 2,
+        "token": " United",
+        "logit": 20.453125,
+        "probability_percent": 13.95
+      },
+      {
+        "rank": 3,
+        "token": " USA",
+        "logit": 19.859375,
+        "probability_percent": 7.7
+      },
+      {
+        "rank": 4,
+        "token": " America",
+        "logit": 18.578125,
+        "probability_percent": 2.14
+      },
+      {
+        "rank": 5,
+        "token": " The",
+        "logit": 17.71875,
+        "probability_percent": 0.91
+      },
+      {
+        "rank": 6,
+        "token": " U",
+        "logit": 17.234375,
+        "probability_percent": 0.56
+      },
+      {
+        "rank": 7,
+        "token": " US",
+        "logit": 16.640625,
+        "probability_percent": 0.31
+      },
+      {
+        "rank": 8,
+        "token": " New",
+        "logit": 15.6015625,
+        "probability_percent": 0.11
+      },
+      {
+        "rank": 9,
+        "token": " Mexico",
+        "logit": 15.2734375,
+        "probability_percent": 0.08
+      }
+    ]
+  },
+  {
+    "prompt": "Paris exists within the country of France.\nBerlin exists within the country of Germany.\nTokyo exists within the country of Japan.\nLas Vegas exists within the country of",
+    "generated_prefix": "Paris exists within the country of France.\nBerlin exists within the country of Germany.\nTokyo exists within the country of Japan.\nLas Vegas exists within the country of Nevada",
+    "gold_token": " States",
+    "predicted_top1_token": ".\n",
+    "token_pos_in_answer": 1,
+    "gold_logit": 10.5234375,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.4296875,
+    "second_token_prob": 0.300048828125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": ".\n",
+        "logit": 22.78125,
+        "probability_percent": 88.04
+      },
+      {
+        "rank": 1,
+        "token": ",",
+        "logit": 19.859375,
+        "probability_percent": 4.74
+      },
+      {
+        "rank": 2,
+        "token": ".",
+        "logit": 19.109375,
+        "probability_percent": 2.24
+      },
+      {
+        "rank": 3,
+        "token": " (",
+        "logit": 18.484375,
+        "probability_percent": 1.2
+      },
+      {
+        "rank": 4,
+        "token": " in",
+        "logit": 18.421875,
+        "probability_percent": 1.13
+      },
+      {
+        "rank": 5,
+        "token": "\n",
+        "logit": 18.21875,
+        "probability_percent": 0.92
+      },
+      {
+        "rank": 6,
+        "token": " and",
+        "logit": 16.890625,
+        "probability_percent": 0.24
+      },
+      {
+        "rank": 7,
+        "token": " within",
+        "logit": 16.75,
+        "probability_percent": 0.21
+      },
+      {
+        "rank": 8,
+        "token": " .\n",
+        "logit": 16.578125,
+        "probability_percent": 0.18
+      },
+      {
+        "rank": 9,
+        "token": ",\n",
+        "logit": 16.078125,
+        "probability_percent": 0.11
+      }
+    ]
+  },
+  {
+    "prompt": "Paris exists within the country of France.\nBerlin exists within the country of Germany.\nTokyo exists within the country of Japan.\nHong Kong exists within the country of",
+    "generated_prefix": "Paris exists within the country of France.\nBerlin exists within the country of Germany.\nTokyo exists within the country of Japan.\nHong Kong exists within the country of",
+    "gold_token": " China",
+    "predicted_top1_token": " China",
+    "token_pos_in_answer": 0,
+    "gold_logit": 21.609375,
+    "gold_prob_percent": 82.67,
+    "first_token_prob": 0.82666015625,
+    "second_token_prob": 0.11724853515625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " China",
+        "logit": 21.609375,
+        "probability_percent": 82.67
+      },
+      {
+        "rank": 1,
+        "token": " Hong",
+        "logit": 19.65625,
+        "probability_percent": 11.72
+      },
+      {
+        "rank": 2,
+        "token": " the",
+        "logit": 17.640625,
+        "probability_percent": 1.56
+      },
+      {
+        "rank": 3,
+        "token": " People",
+        "logit": 17.15625,
+        "probability_percent": 0.96
+      },
+      {
+        "rank": 4,
+        "token": " Main",
+        "logit": 15.984375,
+        "probability_percent": 0.3
+      },
+      {
+        "rank": 5,
+        "token": " The",
+        "logit": 15.6171875,
+        "probability_percent": 0.21
+      },
+      {
+        "rank": 6,
+        "token": " Japan",
+        "logit": 15.6015625,
+        "probability_percent": 0.2
+      },
+      {
+        "rank": 7,
+        "token": " Taiwan",
+        "logit": 15.421875,
+        "probability_percent": 0.17
+      },
+      {
+        "rank": 8,
+        "token": " mainland",
+        "logit": 15.421875,
+        "probability_percent": 0.17
+      },
+      {
+        "rank": 9,
+        "token": " Greater",
+        "logit": 15.0390625,
+        "probability_percent": 0.12
+      }
+    ]
+  },
+  {
+    "prompt": "Paris exists within the country of France.\nBerlin exists within the country of Germany.\nTokyo exists within the country of Japan.\nTel Aviv exists within the country of",
+    "generated_prefix": "Paris exists within the country of France.\nBerlin exists within the country of Germany.\nTokyo exists within the country of Japan.\nTel Aviv exists within the country of",
+    "gold_token": " Israel",
+    "predicted_top1_token": " Israel",
+    "token_pos_in_answer": 0,
+    "gold_logit": 23.171875,
+    "gold_prob_percent": 98.88,
+    "first_token_prob": 0.98876953125,
+    "second_token_prob": 0.0020313262939453125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Israel",
+        "logit": 23.171875,
+        "probability_percent": 98.88
+      },
+      {
+        "rank": 1,
+        "token": " Palestine",
+        "logit": 16.984375,
+        "probability_percent": 0.2
+      },
+      {
+        "rank": 2,
+        "token": " Is",
+        "logit": 16.90625,
+        "probability_percent": 0.19
+      },
+      {
+        "rank": 3,
+        "token": " the",
+        "logit": 16.4375,
+        "probability_percent": 0.12
+      },
+      {
+        "rank": 4,
+        "token": "\n",
+        "logit": 15.6484375,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 5,
+        "token": " ",
+        "logit": 15.640625,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 6,
+        "token": "...\n",
+        "logit": 15.0390625,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 7,
+        "token": " State",
+        "logit": 14.78125,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 8,
+        "token": " The",
+        "logit": 14.671875,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 9,
+        "token": " Israeli",
+        "logit": 14.546875,
+        "probability_percent": 0.02
+      }
+    ]
+  },
+  {
+    "prompt": "Paris exists within the country of France.\nBerlin exists within the country of Germany.\nTokyo exists within the country of Japan.\nJohannesburg exists within the country of",
+    "generated_prefix": "Paris exists within the country of France.\nBerlin exists within the country of Germany.\nTokyo exists within the country of Japan.\nJohannesburg exists within the country of",
+    "gold_token": " South",
+    "predicted_top1_token": " South",
+    "token_pos_in_answer": 0,
+    "gold_logit": 23.21875,
+    "gold_prob_percent": 98.68,
+    "first_token_prob": 0.98681640625,
+    "second_token_prob": 0.002124786376953125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " South",
+        "logit": 23.21875,
+        "probability_percent": 98.68
+      },
+      {
+        "rank": 1,
+        "token": " Africa",
+        "logit": 17.078125,
+        "probability_percent": 0.21
+      },
+      {
+        "rank": 2,
+        "token": " Republic",
+        "logit": 16.53125,
+        "probability_percent": 0.12
+      },
+      {
+        "rank": 3,
+        "token": " the",
+        "logit": 16.515625,
+        "probability_percent": 0.12
+      },
+      {
+        "rank": 4,
+        "token": "\n",
+        "logit": 16.0625,
+        "probability_percent": 0.08
+      },
+      {
+        "rank": 5,
+        "token": " S",
+        "logit": 15.9453125,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 6,
+        "token": " SA",
+        "logit": 15.78125,
+        "probability_percent": 0.06
+      },
+      {
+        "rank": 7,
+        "token": " ",
+        "logit": 15.453125,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 8,
+        "token": " Southern",
+        "logit": 15.34375,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 9,
+        "token": " Nam",
+        "logit": 15.1796875,
+        "probability_percent": 0.03
+      }
+    ]
+  },
+  {
+    "prompt": "Paris exists within the country of France.\nBerlin exists within the country of Germany.\nTokyo exists within the country of Japan.\nJohannesburg exists within the country of",
+    "generated_prefix": "Paris exists within the country of France.\nBerlin exists within the country of Germany.\nTokyo exists within the country of Japan.\nJohannesburg exists within the country of South",
+    "gold_token": " Africa",
+    "predicted_top1_token": " Africa",
+    "token_pos_in_answer": 1,
+    "gold_logit": 24.375,
+    "gold_prob_percent": 99.37,
+    "first_token_prob": 0.98681640625,
+    "second_token_prob": 0.002124786376953125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Africa",
+        "logit": 24.375,
+        "probability_percent": 99.37
+      },
+      {
+        "rank": 1,
+        "token": "-A",
+        "logit": 18.5,
+        "probability_percent": 0.28
+      },
+      {
+        "rank": 2,
+        "token": "Africa",
+        "logit": 16.734375,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 3,
+        "token": " Afrika",
+        "logit": 16.625,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 4,
+        "token": " africa",
+        "logit": 16.5625,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 5,
+        "token": " ",
+        "logit": 16.40625,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 6,
+        "token": "\n",
+        "logit": 16.390625,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 7,
+        "token": " African",
+        "logit": 16.375,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 8,
+        "token": "_A",
+        "logit": 16.296875,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 9,
+        "token": " Afr",
+        "logit": 15.4140625,
+        "probability_percent": 0.01
+      }
+    ]
+  },
+  {
+    "prompt": "Paris exists within the country of France.\nBerlin exists within the country of Germany.\nTokyo exists within the country of Japan.\nSanto Domingo exists within the country of",
+    "generated_prefix": "Paris exists within the country of France.\nBerlin exists within the country of Germany.\nTokyo exists within the country of Japan.\nSanto Domingo exists within the country of",
+    "gold_token": " Dominican",
+    "predicted_top1_token": " Dominican",
+    "token_pos_in_answer": 0,
+    "gold_logit": 21.375,
+    "gold_prob_percent": 72.85,
+    "first_token_prob": 0.728515625,
+    "second_token_prob": 0.208740234375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Dominican",
+        "logit": 21.375,
+        "probability_percent": 72.85
+      },
+      {
+        "rank": 1,
+        "token": " the",
+        "logit": 20.125,
+        "probability_percent": 20.87
+      },
+      {
+        "rank": 2,
+        "token": " The",
+        "logit": 17.640625,
+        "probability_percent": 1.74
+      },
+      {
+        "rank": 3,
+        "token": " Domin",
+        "logit": 17.453125,
+        "probability_percent": 1.44
+      },
+      {
+        "rank": 4,
+        "token": " Republic",
+        "logit": 15.703125,
+        "probability_percent": 0.25
+      },
+      {
+        "rank": 5,
+        "token": " Santo",
+        "logit": 15.6484375,
+        "probability_percent": 0.24
+      },
+      {
+        "rank": 6,
+        "token": " DR",
+        "logit": 15.421875,
+        "probability_percent": 0.19
+      },
+      {
+        "rank": 7,
+        "token": " Mexico",
+        "logit": 15.3359375,
+        "probability_percent": 0.17
+      },
+      {
+        "rank": 8,
+        "token": " Dominic",
+        "logit": 15.296875,
+        "probability_percent": 0.17
+      },
+      {
+        "rank": 9,
+        "token": "\n",
+        "logit": 15.2578125,
+        "probability_percent": 0.16
+      }
+    ]
+  },
+  {
+    "prompt": "Paris exists within the country of France.\nBerlin exists within the country of Germany.\nTokyo exists within the country of Japan.\nSanto Domingo exists within the country of",
+    "generated_prefix": "Paris exists within the country of France.\nBerlin exists within the country of Germany.\nTokyo exists within the country of Japan.\nSanto Domingo exists within the country of Dominican",
+    "gold_token": " Republic",
+    "predicted_top1_token": " Republic",
+    "token_pos_in_answer": 1,
+    "gold_logit": 22.890625,
+    "gold_prob_percent": 97.66,
+    "first_token_prob": 0.728515625,
+    "second_token_prob": 0.208740234375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Republic",
+        "logit": 22.890625,
+        "probability_percent": 97.66
+      },
+      {
+        "rank": 1,
+        "token": " Rep",
+        "logit": 17.9375,
+        "probability_percent": 0.69
+      },
+      {
+        "rank": 2,
+        "token": ".\n",
+        "logit": 17.796875,
+        "probability_percent": 0.6
+      },
+      {
+        "rank": 3,
+        "token": " republic",
+        "logit": 17.53125,
+        "probability_percent": 0.46
+      },
+      {
+        "rank": 4,
+        "token": "\n",
+        "logit": 16.03125,
+        "probability_percent": 0.1
+      },
+      {
+        "rank": 5,
+        "token": "Republic",
+        "logit": 15.765625,
+        "probability_percent": 0.08
+      },
+      {
+        "rank": 6,
+        "token": " Republican",
+        "logit": 15.46875,
+        "probability_percent": 0.06
+      },
+      {
+        "rank": 7,
+        "token": " Re",
+        "logit": 14.765625,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 8,
+        "token": " ",
+        "logit": 14.625,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 9,
+        "token": "re",
+        "logit": 14.375,
+        "probability_percent": 0.02
+      }
+    ]
+  },
+  {
+    "prompt": "Paris exists within the country of France.\nBerlin exists within the country of Germany.\nTokyo exists within the country of Japan.\nPort-au-Prince exists within the country of",
+    "generated_prefix": "Paris exists within the country of France.\nBerlin exists within the country of Germany.\nTokyo exists within the country of Japan.\nPort-au-Prince exists within the country of",
+    "gold_token": " Haiti",
+    "predicted_top1_token": " Haiti",
+    "token_pos_in_answer": 0,
+    "gold_logit": 23.25,
+    "gold_prob_percent": 98.78,
+    "first_token_prob": 0.98779296875,
+    "second_token_prob": 0.00264739990234375,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Haiti",
+        "logit": 23.25,
+        "probability_percent": 98.78
+      },
+      {
+        "rank": 1,
+        "token": " the",
+        "logit": 17.328125,
+        "probability_percent": 0.26
+      },
+      {
+        "rank": 2,
+        "token": " Ha",
+        "logit": 16.984375,
+        "probability_percent": 0.19
+      },
+      {
+        "rank": 3,
+        "token": " H",
+        "logit": 16.765625,
+        "probability_percent": 0.15
+      },
+      {
+        "rank": 4,
+        "token": " Hait",
+        "logit": 16.578125,
+        "probability_percent": 0.13
+      },
+      {
+        "rank": 5,
+        "token": "\n",
+        "logit": 15.828125,
+        "probability_percent": 0.06
+      },
+      {
+        "rank": 6,
+        "token": " ",
+        "logit": 15.203125,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 7,
+        "token": " The",
+        "logit": 15.1875,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 8,
+        "token": " H",
+        "logit": 15.109375,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 9,
+        "token": " Hispan",
+        "logit": 15.0625,
+        "probability_percent": 0.03
+      }
+    ]
+  },
+  {
+    "prompt": "Paris exists within the country of France.\nBerlin exists within the country of Germany.\nTokyo exists within the country of Japan.\nSantiago de Chile exists within the country of",
+    "generated_prefix": "Paris exists within the country of France.\nBerlin exists within the country of Germany.\nTokyo exists within the country of Japan.\nSantiago de Chile exists within the country of",
+    "gold_token": " Chile",
+    "predicted_top1_token": " Chile",
+    "token_pos_in_answer": 0,
+    "gold_logit": 23.21875,
+    "gold_prob_percent": 99.02,
+    "first_token_prob": 0.990234375,
+    "second_token_prob": 0.002269744873046875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Chile",
+        "logit": 23.21875,
+        "probability_percent": 99.02
+      },
+      {
+        "rank": 1,
+        "token": " Chili",
+        "logit": 17.140625,
+        "probability_percent": 0.23
+      },
+      {
+        "rank": 2,
+        "token": " the",
+        "logit": 16.21875,
+        "probability_percent": 0.09
+      },
+      {
+        "rank": 3,
+        "token": "\n",
+        "logit": 16.0,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 4,
+        "token": " ",
+        "logit": 16.0,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 5,
+        "token": " Ch",
+        "logit": 15.6015625,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 6,
+        "token": "...\n",
+        "logit": 15.046875,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 7,
+        "token": " Colombia",
+        "logit": 14.96875,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 8,
+        "token": "…\n",
+        "logit": 14.5234375,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 9,
+        "token": " ch",
+        "logit": 14.4140625,
+        "probability_percent": 0.01
+      }
+    ]
+  },
+  {
+    "prompt": "Paris exists within the country of France.\nBerlin exists within the country of Germany.\nTokyo exists within the country of Japan.\nPanama City exists within the country of",
+    "generated_prefix": "Paris exists within the country of France.\nBerlin exists within the country of Germany.\nTokyo exists within the country of Japan.\nPanama City exists within the country of",
+    "gold_token": " Panama",
+    "predicted_top1_token": " Panama",
+    "token_pos_in_answer": 0,
+    "gold_logit": 22.71875,
+    "gold_prob_percent": 97.95,
+    "first_token_prob": 0.9794921875,
+    "second_token_prob": 0.006809234619140625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Panama",
+        "logit": 22.71875,
+        "probability_percent": 97.95
+      },
+      {
+        "rank": 1,
+        "token": " Pan",
+        "logit": 17.75,
+        "probability_percent": 0.68
+      },
+      {
+        "rank": 2,
+        "token": " the",
+        "logit": 16.5,
+        "probability_percent": 0.2
+      },
+      {
+        "rank": 3,
+        "token": "\n",
+        "logit": 15.859375,
+        "probability_percent": 0.1
+      },
+      {
+        "rank": 4,
+        "token": " ",
+        "logit": 15.7109375,
+        "probability_percent": 0.09
+      },
+      {
+        "rank": 5,
+        "token": " Colombia",
+        "logit": 15.28125,
+        "probability_percent": 0.06
+      },
+      {
+        "rank": 6,
+        "token": "…\n",
+        "logit": 15.140625,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 7,
+        "token": "...\n",
+        "logit": 15.0859375,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 8,
+        "token": " Costa",
+        "logit": 15.0,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 9,
+        "token": ",",
+        "logit": 14.921875,
+        "probability_percent": 0.04
+      }
+    ]
+  },
+  {
+    "prompt": "Paris exists within the country of France.\nBerlin exists within the country of Germany.\nTokyo exists within the country of Japan.\nSiem Reap exists within the country of",
+    "generated_prefix": "Paris exists within the country of France.\nBerlin exists within the country of Germany.\nTokyo exists within the country of Japan.\nSiem Reap exists within the country of",
+    "gold_token": " Cambodia",
+    "predicted_top1_token": " Cambodia",
+    "token_pos_in_answer": 0,
+    "gold_logit": 22.5,
+    "gold_prob_percent": 98.49,
+    "first_token_prob": 0.98486328125,
+    "second_token_prob": 0.0020236968994140625,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Cambodia",
+        "logit": 22.5,
+        "probability_percent": 98.49
+      },
+      {
+        "rank": 1,
+        "token": " Camb",
+        "logit": 16.3125,
+        "probability_percent": 0.2
+      },
+      {
+        "rank": 2,
+        "token": " Kamp",
+        "logit": 16.078125,
+        "probability_percent": 0.16
+      },
+      {
+        "rank": 3,
+        "token": " the",
+        "logit": 15.6875,
+        "probability_percent": 0.11
+      },
+      {
+        "rank": 4,
+        "token": " Kingdom",
+        "logit": 15.4375,
+        "probability_percent": 0.08
+      },
+      {
+        "rank": 5,
+        "token": " Thailand",
+        "logit": 15.2734375,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 6,
+        "token": " Kh",
+        "logit": 15.1015625,
+        "probability_percent": 0.06
+      },
+      {
+        "rank": 7,
+        "token": "\n",
+        "logit": 15.0625,
+        "probability_percent": 0.06
+      },
+      {
+        "rank": 8,
+        "token": " ",
+        "logit": 14.9453125,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 9,
+        "token": " Si",
+        "logit": 14.7421875,
+        "probability_percent": 0.04
+      }
+    ]
+  },
+  {
+    "prompt": "Paris exists within the country of France.\nBerlin exists within the country of Germany.\nTokyo exists within the country of Japan.\nCasablanca exists within the country of",
+    "generated_prefix": "Paris exists within the country of France.\nBerlin exists within the country of Germany.\nTokyo exists within the country of Japan.\nCasablanca exists within the country of",
+    "gold_token": " Morocco",
+    "predicted_top1_token": " Morocco",
+    "token_pos_in_answer": 0,
+    "gold_logit": 22.234375,
+    "gold_prob_percent": 97.31,
+    "first_token_prob": 0.97314453125,
+    "second_token_prob": 0.00635528564453125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Morocco",
+        "logit": 22.234375,
+        "probability_percent": 97.31
+      },
+      {
+        "rank": 1,
+        "token": " Mor",
+        "logit": 17.203125,
+        "probability_percent": 0.64
+      },
+      {
+        "rank": 2,
+        "token": " Mar",
+        "logit": 16.6875,
+        "probability_percent": 0.38
+      },
+      {
+        "rank": 3,
+        "token": " the",
+        "logit": 15.75,
+        "probability_percent": 0.15
+      },
+      {
+        "rank": 4,
+        "token": " Algeria",
+        "logit": 15.609375,
+        "probability_percent": 0.13
+      },
+      {
+        "rank": 5,
+        "token": " ",
+        "logit": 15.5078125,
+        "probability_percent": 0.12
+      },
+      {
+        "rank": 6,
+        "token": "\n",
+        "logit": 15.3828125,
+        "probability_percent": 0.1
+      },
+      {
+        "rank": 7,
+        "token": " Maurit",
+        "logit": 15.3203125,
+        "probability_percent": 0.1
+      },
+      {
+        "rank": 8,
+        "token": " France",
+        "logit": 15.25,
+        "probability_percent": 0.09
+      },
+      {
+        "rank": 9,
+        "token": " Marr",
+        "logit": 14.5390625,
+        "probability_percent": 0.04
+      }
+    ]
+  },
+  {
+    "prompt": "Paris exists within the country of France.\nBerlin exists within the country of Germany.\nTokyo exists within the country of Japan.\nSan Juan exists within the country of",
+    "generated_prefix": "Paris exists within the country of France.\nBerlin exists within the country of Germany.\nTokyo exists within the country of Japan.\nSan Juan exists within the country of",
+    "gold_token": " Puerto",
+    "predicted_top1_token": " Puerto",
+    "token_pos_in_answer": 0,
+    "gold_logit": 22.53125,
+    "gold_prob_percent": 95.02,
+    "first_token_prob": 0.9501953125,
+    "second_token_prob": 0.022003173828125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Puerto",
+        "logit": 22.53125,
+        "probability_percent": 95.02
+      },
+      {
+        "rank": 1,
+        "token": " the",
+        "logit": 18.765625,
+        "probability_percent": 2.2
+      },
+      {
+        "rank": 2,
+        "token": " United",
+        "logit": 16.84375,
+        "probability_percent": 0.32
+      },
+      {
+        "rank": 3,
+        "token": " Mexico",
+        "logit": 16.515625,
+        "probability_percent": 0.23
+      },
+      {
+        "rank": 4,
+        "token": " San",
+        "logit": 16.484375,
+        "probability_percent": 0.22
+      },
+      {
+        "rank": 5,
+        "token": " Panama",
+        "logit": 16.40625,
+        "probability_percent": 0.21
+      },
+      {
+        "rank": 6,
+        "token": " The",
+        "logit": 15.8828125,
+        "probability_percent": 0.12
+      },
+      {
+        "rank": 7,
+        "token": " Spain",
+        "logit": 15.7890625,
+        "probability_percent": 0.11
+      },
+      {
+        "rank": 8,
+        "token": " USA",
+        "logit": 15.453125,
+        "probability_percent": 0.08
+      },
+      {
+        "rank": 9,
+        "token": " PR",
+        "logit": 15.453125,
+        "probability_percent": 0.08
+      }
+    ]
+  },
+  {
+    "prompt": "Paris exists within the country of France.\nBerlin exists within the country of Germany.\nTokyo exists within the country of Japan.\nSan Juan exists within the country of",
+    "generated_prefix": "Paris exists within the country of France.\nBerlin exists within the country of Germany.\nTokyo exists within the country of Japan.\nSan Juan exists within the country of Puerto",
+    "gold_token": " Rico",
+    "predicted_top1_token": " Rico",
+    "token_pos_in_answer": 1,
+    "gold_logit": 23.578125,
+    "gold_prob_percent": 99.66,
+    "first_token_prob": 0.9501953125,
+    "second_token_prob": 0.022003173828125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Rico",
+        "logit": 23.578125,
+        "probability_percent": 99.66
+      },
+      {
+        "rank": 1,
+        "token": " Rica",
+        "logit": 16.4375,
+        "probability_percent": 0.08
+      },
+      {
+        "rank": 2,
+        "token": " Ric",
+        "logit": 16.09375,
+        "probability_percent": 0.06
+      },
+      {
+        "rank": 3,
+        "token": ".\n",
+        "logit": 15.484375,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 4,
+        "token": "-R",
+        "logit": 15.375,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 5,
+        "token": " R",
+        "logit": 15.0625,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 6,
+        "token": "\n",
+        "logit": 14.9609375,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 7,
+        "token": " rico",
+        "logit": 14.6796875,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 8,
+        "token": "R",
+        "logit": 14.2421875,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 9,
+        "token": " R",
+        "logit": 14.234375,
+        "probability_percent": 0.01
+      }
+    ]
+  },
+  {
+    "prompt": "Paris exists within the country of France.\nBerlin exists within the country of Germany.\nTokyo exists within the country of Japan.\nCosta Rica exists within the country of",
+    "generated_prefix": "Paris exists within the country of France.\nBerlin exists within the country of Germany.\nTokyo exists within the country of Japan.\nCosta Rica exists within the country of",
+    "gold_token": " San",
+    "predicted_top1_token": " Central",
+    "token_pos_in_answer": 0,
+    "gold_logit": 14.28125,
+    "gold_prob_percent": 0.08,
+    "first_token_prob": 0.73291015625,
+    "second_token_prob": 0.1234130859375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Central",
+        "logit": 21.109375,
+        "probability_percent": 73.29
+      },
+      {
+        "rank": 1,
+        "token": " Costa",
+        "logit": 19.328125,
+        "probability_percent": 12.34
+      },
+      {
+        "rank": 2,
+        "token": " Latin",
+        "logit": 18.40625,
+        "probability_percent": 4.91
+      },
+      {
+        "rank": 3,
+        "token": " South",
+        "logit": 17.40625,
+        "probability_percent": 1.81
+      },
+      {
+        "rank": 4,
+        "token": " North",
+        "logit": 17.25,
+        "probability_percent": 1.54
+      },
+      {
+        "rank": 5,
+        "token": " the",
+        "logit": 16.921875,
+        "probability_percent": 1.11
+      },
+      {
+        "rank": 6,
+        "token": " America",
+        "logit": 16.359375,
+        "probability_percent": 0.63
+      },
+      {
+        "rank": 7,
+        "token": " Mexico",
+        "logit": 15.890625,
+        "probability_percent": 0.4
+      },
+      {
+        "rank": 8,
+        "token": " Nicaragua",
+        "logit": 15.578125,
+        "probability_percent": 0.29
+      },
+      {
+        "rank": 9,
+        "token": " M",
+        "logit": 15.265625,
+        "probability_percent": 0.21
+      }
+    ]
+  },
+  {
+    "prompt": "Paris exists within the country of France.\nBerlin exists within the country of Germany.\nTokyo exists within the country of Japan.\nCosta Rica exists within the country of",
+    "generated_prefix": "Paris exists within the country of France.\nBerlin exists within the country of Germany.\nTokyo exists within the country of Japan.\nCosta Rica exists within the country of Central",
+    "gold_token": " José",
+    "predicted_top1_token": " America",
+    "token_pos_in_answer": 1,
+    "gold_logit": 5.44140625,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.73291015625,
+    "second_token_prob": 0.1234130859375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " America",
+        "logit": 22.96875,
+        "probability_percent": 98.39
+      },
+      {
+        "rank": 1,
+        "token": " American",
+        "logit": 17.28125,
+        "probability_percent": 0.33
+      },
+      {
+        "rank": 2,
+        "token": " and",
+        "logit": 16.796875,
+        "probability_percent": 0.21
+      },
+      {
+        "rank": 3,
+        "token": "America",
+        "logit": 16.796875,
+        "probability_percent": 0.21
+      },
+      {
+        "rank": 4,
+        "token": "-Americ",
+        "logit": 16.328125,
+        "probability_percent": 0.13
+      },
+      {
+        "rank": 5,
+        "token": " Americas",
+        "logit": 16.046875,
+        "probability_percent": 0.1
+      },
+      {
+        "rank": 6,
+        "token": ".\n",
+        "logit": 15.765625,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 7,
+        "token": "\n",
+        "logit": 15.453125,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 8,
+        "token": " america",
+        "logit": 15.390625,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 9,
+        "token": " ",
+        "logit": 15.2109375,
+        "probability_percent": 0.04
+      }
+    ]
+  },
+  {
+    "prompt": "Paris exists within the country of France.\nBerlin exists within the country of Germany.\nTokyo exists within the country of Japan.\nAddis Ababa exists within the country of",
+    "generated_prefix": "Paris exists within the country of France.\nBerlin exists within the country of Germany.\nTokyo exists within the country of Japan.\nAddis Ababa exists within the country of",
+    "gold_token": " Ethiopia",
+    "predicted_top1_token": " Ethiopia",
+    "token_pos_in_answer": 0,
+    "gold_logit": 22.609375,
+    "gold_prob_percent": 97.85,
+    "first_token_prob": 0.978515625,
+    "second_token_prob": 0.00859832763671875,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Ethiopia",
+        "logit": 22.609375,
+        "probability_percent": 97.85
+      },
+      {
+        "rank": 1,
+        "token": " E",
+        "logit": 17.875,
+        "probability_percent": 0.86
+      },
+      {
+        "rank": 2,
+        "token": " the",
+        "logit": 15.8984375,
+        "probability_percent": 0.12
+      },
+      {
+        "rank": 3,
+        "token": " Africa",
+        "logit": 15.8046875,
+        "probability_percent": 0.11
+      },
+      {
+        "rank": 4,
+        "token": " Eth",
+        "logit": 15.78125,
+        "probability_percent": 0.11
+      },
+      {
+        "rank": 5,
+        "token": " ",
+        "logit": 15.3828125,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 6,
+        "token": "\n",
+        "logit": 15.1875,
+        "probability_percent": 0.06
+      },
+      {
+        "rank": 7,
+        "token": " Add",
+        "logit": 15.078125,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 8,
+        "token": " Ethi",
+        "logit": 14.96875,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 9,
+        "token": " Somalia",
+        "logit": 14.9453125,
+        "probability_percent": 0.05
+      }
+    ]
+  },
+  {
+    "prompt": "Paris exists within the country of France.\nBerlin exists within the country of Germany.\nTokyo exists within the country of Japan.\nPunta Cana exists within the country of",
+    "generated_prefix": "Paris exists within the country of France.\nBerlin exists within the country of Germany.\nTokyo exists within the country of Japan.\nPunta Cana exists within the country of",
+    "gold_token": " Dominican",
+    "predicted_top1_token": " Dominican",
+    "token_pos_in_answer": 0,
+    "gold_logit": 21.34375,
+    "gold_prob_percent": 80.22,
+    "first_token_prob": 0.80224609375,
+    "second_token_prob": 0.11376953125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Dominican",
+        "logit": 21.34375,
+        "probability_percent": 80.22
+      },
+      {
+        "rank": 1,
+        "token": " the",
+        "logit": 19.390625,
+        "probability_percent": 11.38
+      },
+      {
+        "rank": 2,
+        "token": " The",
+        "logit": 17.703125,
+        "probability_percent": 2.1
+      },
+      {
+        "rank": 3,
+        "token": " Cuba",
+        "logit": 17.109375,
+        "probability_percent": 1.16
+      },
+      {
+        "rank": 4,
+        "token": " Haiti",
+        "logit": 16.71875,
+        "probability_percent": 0.79
+      },
+      {
+        "rank": 5,
+        "token": " Domin",
+        "logit": 16.609375,
+        "probability_percent": 0.7
+      },
+      {
+        "rank": 6,
+        "token": " Republic",
+        "logit": 16.03125,
+        "probability_percent": 0.4
+      },
+      {
+        "rank": 7,
+        "token": " Mexico",
+        "logit": 15.8125,
+        "probability_percent": 0.32
+      },
+      {
+        "rank": 8,
+        "token": " DR",
+        "logit": 15.3984375,
+        "probability_percent": 0.21
+      },
+      {
+        "rank": 9,
+        "token": " Honduras",
+        "logit": 15.3671875,
+        "probability_percent": 0.2
+      }
+    ]
+  },
+  {
+    "prompt": "Paris exists within the country of France.\nBerlin exists within the country of Germany.\nTokyo exists within the country of Japan.\nPunta Cana exists within the country of",
+    "generated_prefix": "Paris exists within the country of France.\nBerlin exists within the country of Germany.\nTokyo exists within the country of Japan.\nPunta Cana exists within the country of Dominican",
+    "gold_token": " Republic",
+    "predicted_top1_token": " Republic",
+    "token_pos_in_answer": 1,
+    "gold_logit": 23.0625,
+    "gold_prob_percent": 98.19,
+    "first_token_prob": 0.80224609375,
+    "second_token_prob": 0.11376953125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Republic",
+        "logit": 23.0625,
+        "probability_percent": 98.19
+      },
+      {
+        "rank": 1,
+        "token": ".\n",
+        "logit": 17.890625,
+        "probability_percent": 0.56
+      },
+      {
+        "rank": 2,
+        "token": " Rep",
+        "logit": 17.75,
+        "probability_percent": 0.48
+      },
+      {
+        "rank": 3,
+        "token": " republic",
+        "logit": 17.25,
+        "probability_percent": 0.29
+      },
+      {
+        "rank": 4,
+        "token": "\n",
+        "logit": 15.9375,
+        "probability_percent": 0.08
+      },
+      {
+        "rank": 5,
+        "token": " Republican",
+        "logit": 15.84375,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 6,
+        "token": "Republic",
+        "logit": 15.234375,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 7,
+        "token": " Re",
+        "logit": 14.6875,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 8,
+        "token": "-",
+        "logit": 14.3828125,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 9,
+        "token": " ",
+        "logit": 14.3046875,
+        "probability_percent": 0.02
+      }
+    ]
+  }
+]

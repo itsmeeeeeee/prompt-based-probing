@@ -1,0 +1,26 @@
+{
+  "relation": "superhero_person",
+  "template_scores": {
+    "{}'s secret identity is": {
+      "average_first_token_prob": 0.0208721923828125,
+      "reliability": 0.05,
+      "overall_score": 0.001043609619140625
+    },
+    "{}'s true identity is": {
+      "average_first_token_prob": 0.009404296875,
+      "reliability": 0.01,
+      "overall_score": 9.404296875000001e-05
+    },
+    "The real name of {} is": {
+      "average_first_token_prob": 0.308677978515625,
+      "reliability": 0.44,
+      "overall_score": 0.13581831054687502
+    }
+  },
+  "best_template": "The real name of {} is",
+  "best_template_metrics": {
+    "average_first_token_prob": 0.308677978515625,
+    "reliability": 0.44,
+    "overall_score": 0.13581831054687502
+  }
+}

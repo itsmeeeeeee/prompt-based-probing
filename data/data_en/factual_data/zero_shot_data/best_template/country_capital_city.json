@@ -1,0 +1,31 @@
+{
+  "relation": "country_capital_city",
+  "template_scores": {
+    "The capital city of {} is": {
+      "average_first_token_prob": 0.5375264485677084,
+      "reliability": 0.75,
+      "overall_score": 0.40314483642578125
+    },
+    "The capital of {} is": {
+      "average_first_token_prob": 0.5563557942708334,
+      "reliability": 0.625,
+      "overall_score": 0.34772237141927087
+    },
+    "{} serves as the capital city of": {
+      "average_first_token_prob": 0.0,
+      "reliability": 0.0,
+      "overall_score": 0.0
+    },
+    "{} is officially the capital of": {
+      "average_first_token_prob": 0.0,
+      "reliability": 0.0,
+      "overall_score": 0.0
+    }
+  },
+  "best_template": "The capital city of {} is",
+  "best_template_metrics": {
+    "average_first_token_prob": 0.5375264485677084,
+    "reliability": 0.75,
+    "overall_score": 0.40314483642578125
+  }
+}

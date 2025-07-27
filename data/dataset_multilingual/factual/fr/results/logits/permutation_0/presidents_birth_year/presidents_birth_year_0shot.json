@@ -1,0 +1,4220 @@
+[
+  {
+    "prompt": "John Adams est né(e) à",
+    "generated_prefix": "John Adams est né(e) à",
+    "gold_token": " ",
+    "predicted_top1_token": " Bra",
+    "token_pos_in_answer": 0,
+    "gold_logit": 13.125,
+    "gold_prob_percent": 5.41,
+    "first_token_prob": 0.41552734375,
+    "second_token_prob": 0.1092529296875,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Bra",
+        "logit": 15.1640625,
+        "probability_percent": 41.55
+      },
+      {
+        "rank": 1,
+        "token": " le",
+        "logit": 13.828125,
+        "probability_percent": 10.93
+      },
+      {
+        "rank": 2,
+        "token": " Quincy",
+        "logit": 13.4140625,
+        "probability_percent": 7.22
+      },
+      {
+        "rank": 3,
+        "token": " Boston",
+        "logit": 13.40625,
+        "probability_percent": 7.17
+      },
+      {
+        "rank": 4,
+        "token": " ",
+        "logit": 13.125,
+        "probability_percent": 5.41
+      },
+      {
+        "rank": 5,
+        "token": " l",
+        "logit": 12.875,
+        "probability_percent": 4.21
+      },
+      {
+        "rank": 6,
+        "token": " la",
+        "logit": 12.84375,
+        "probability_percent": 4.08
+      },
+      {
+        "rank": 7,
+        "token": " ma",
+        "logit": 12.125,
+        "probability_percent": 1.99
+      },
+      {
+        "rank": 8,
+        "token": " Al",
+        "logit": 11.234375,
+        "probability_percent": 0.82
+      },
+      {
+        "rank": 9,
+        "token": " une",
+        "logit": 11.125,
+        "probability_percent": 0.73
+      }
+    ]
+  },
+  {
+    "prompt": "John Adams est né(e) à",
+    "generated_prefix": "John Adams est né(e) à Bra",
+    "gold_token": "173",
+    "predicted_top1_token": "intree",
+    "token_pos_in_answer": 1,
+    "gold_logit": 1.189453125,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.41552734375,
+    "second_token_prob": 0.1092529296875,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "intree",
+        "logit": 21.765625,
+        "probability_percent": 99.9
+      },
+      {
+        "rank": 1,
+        "token": "ff",
+        "logit": 13.9296875,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 2,
+        "token": "unsch",
+        "logit": 12.6171875,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 3,
+        "token": "ford",
+        "logit": 12.0625,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 4,
+        "token": "e",
+        "logit": 11.5859375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 5,
+        "token": "int",
+        "logit": 11.3203125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": "ley",
+        "logit": 10.7578125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": "em",
+        "logit": 10.671875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "ze",
+        "logit": 10.4453125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "is",
+        "logit": 10.375,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "John Adams est né(e) à",
+    "generated_prefix": "John Adams est né(e) à Braintree",
+    "gold_token": "5",
+    "predicted_top1_token": ",",
+    "token_pos_in_answer": 2,
+    "gold_logit": 5.96484375,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.41552734375,
+    "second_token_prob": 0.1092529296875,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": ",",
+        "logit": 18.046875,
+        "probability_percent": 35.64
+      },
+      {
+        "rank": 1,
+        "token": " (",
+        "logit": 18.03125,
+        "probability_percent": 35.08
+      },
+      {
+        "rank": 2,
+        "token": " dans",
+        "logit": 16.671875,
+        "probability_percent": 9.01
+      },
+      {
+        "rank": 3,
+        "token": " le",
+        "logit": 16.09375,
+        "probability_percent": 5.06
+      },
+      {
+        "rank": 4,
+        "token": " en",
+        "logit": 15.8203125,
+        "probability_percent": 3.85
+      },
+      {
+        "rank": 5,
+        "token": ".",
+        "logit": 14.8125,
+        "probability_percent": 1.4
+      },
+      {
+        "rank": 6,
+        "token": "\n",
+        "logit": 14.4375,
+        "probability_percent": 0.97
+      },
+      {
+        "rank": 7,
+        "token": " ,",
+        "logit": 14.3828125,
+        "probability_percent": 0.91
+      },
+      {
+        "rank": 8,
+        "token": " au",
+        "logit": 14.265625,
+        "probability_percent": 0.81
+      },
+      {
+        "rank": 9,
+        "token": ".\n",
+        "logit": 13.9453125,
+        "probability_percent": 0.59
+      }
+    ]
+  },
+  {
+    "prompt": "Thomas Jefferson est né(e) à",
+    "generated_prefix": "Thomas Jefferson est né(e) à",
+    "gold_token": " ",
+    "predicted_top1_token": " Sh",
+    "token_pos_in_answer": 0,
+    "gold_logit": 12.765625,
+    "gold_prob_percent": 5.81,
+    "first_token_prob": 0.7021484375,
+    "second_token_prob": 0.058074951171875,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Sh",
+        "logit": 15.2578125,
+        "probability_percent": 70.21
+      },
+      {
+        "rank": 1,
+        "token": " ",
+        "logit": 12.765625,
+        "probability_percent": 5.81
+      },
+      {
+        "rank": 2,
+        "token": " l",
+        "logit": 12.046875,
+        "probability_percent": 2.83
+      },
+      {
+        "rank": 3,
+        "token": " Shen",
+        "logit": 11.796875,
+        "probability_percent": 2.2
+      },
+      {
+        "rank": 4,
+        "token": " la",
+        "logit": 11.5,
+        "probability_percent": 1.64
+      },
+      {
+        "rank": 5,
+        "token": " Charlottesville",
+        "logit": 11.0703125,
+        "probability_percent": 1.07
+      },
+      {
+        "rank": 6,
+        "token": " ",
+        "logit": 10.7578125,
+        "probability_percent": 0.78
+      },
+      {
+        "rank": 7,
+        "token": " Al",
+        "logit": 10.75,
+        "probability_percent": 0.77
+      },
+      {
+        "rank": 8,
+        "token": " \n",
+        "logit": 10.7265625,
+        "probability_percent": 0.76
+      },
+      {
+        "rank": 9,
+        "token": " Virgin",
+        "logit": 10.578125,
+        "probability_percent": 0.65
+      }
+    ]
+  },
+  {
+    "prompt": "Thomas Jefferson est né(e) à",
+    "generated_prefix": "Thomas Jefferson est né(e) à Sh",
+    "gold_token": "174",
+    "predicted_top1_token": "ad",
+    "token_pos_in_answer": 1,
+    "gold_logit": 2.205078125,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.7021484375,
+    "second_token_prob": 0.058074951171875,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ad",
+        "logit": 22.78125,
+        "probability_percent": 99.85
+      },
+      {
+        "rank": 1,
+        "token": "ady",
+        "logit": 14.703125,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 2,
+        "token": "adb",
+        "logit": 13.9609375,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 3,
+        "token": "ire",
+        "logit": 13.5546875,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 4,
+        "token": "rew",
+        "logit": 13.4609375,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 5,
+        "token": "adi",
+        "logit": 13.25,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 6,
+        "token": "ado",
+        "logit": 13.109375,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 7,
+        "token": "AD",
+        "logit": 13.09375,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 8,
+        "token": "ads",
+        "logit": 12.8125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "adr",
+        "logit": 12.5234375,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "Thomas Jefferson est né(e) à",
+    "generated_prefix": "Thomas Jefferson est né(e) à Shad",
+    "gold_token": "3",
+    "predicted_top1_token": "well",
+    "token_pos_in_answer": 2,
+    "gold_logit": 2.548828125,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.7021484375,
+    "second_token_prob": 0.058074951171875,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "well",
+        "logit": 23.15625,
+        "probability_percent": 99.95
+      },
+      {
+        "rank": 1,
+        "token": "worth",
+        "logit": 13.8359375,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 2,
+        "token": "ys",
+        "logit": 13.5078125,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 3,
+        "token": "wel",
+        "logit": 13.28125,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 4,
+        "token": "ew",
+        "logit": 13.1328125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 5,
+        "token": "sworth",
+        "logit": 13.1015625,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": "wick",
+        "logit": 12.234375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": "w",
+        "logit": 12.03125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": " well",
+        "logit": 11.9453125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": " Wells",
+        "logit": 11.5625,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "James Madison est né(e) à",
+    "generated_prefix": "James Madison est né(e) à",
+    "gold_token": " ",
+    "predicted_top1_token": " Port",
+    "token_pos_in_answer": 0,
+    "gold_logit": 11.96875,
+    "gold_prob_percent": 2.44,
+    "first_token_prob": 0.65576171875,
+    "second_token_prob": 0.07769775390625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Port",
+        "logit": 15.2578125,
+        "probability_percent": 65.58
+      },
+      {
+        "rank": 1,
+        "token": " Mont",
+        "logit": 13.125,
+        "probability_percent": 7.77
+      },
+      {
+        "rank": 2,
+        "token": " l",
+        "logit": 12.6484375,
+        "probability_percent": 4.82
+      },
+      {
+        "rank": 3,
+        "token": " le",
+        "logit": 12.328125,
+        "probability_percent": 3.5
+      },
+      {
+        "rank": 4,
+        "token": " la",
+        "logit": 12.15625,
+        "probability_percent": 2.95
+      },
+      {
+        "rank": 5,
+        "token": " ",
+        "logit": 11.96875,
+        "probability_percent": 2.44
+      },
+      {
+        "rank": 6,
+        "token": " Orange",
+        "logit": 11.328125,
+        "probability_percent": 1.29
+      },
+      {
+        "rank": 7,
+        "token": " Virgin",
+        "logit": 11.1640625,
+        "probability_percent": 1.09
+      },
+      {
+        "rank": 8,
+        "token": " Va",
+        "logit": 10.7734375,
+        "probability_percent": 0.74
+      },
+      {
+        "rank": 9,
+        "token": " G",
+        "logit": 10.5,
+        "probability_percent": 0.56
+      }
+    ]
+  },
+  {
+    "prompt": "James Madison est né(e) à",
+    "generated_prefix": "James Madison est né(e) à Port",
+    "gold_token": "175",
+    "predicted_top1_token": " Conway",
+    "token_pos_in_answer": 1,
+    "gold_logit": -0.96923828125,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.65576171875,
+    "second_token_prob": 0.07769775390625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Conway",
+        "logit": 16.328125,
+        "probability_percent": 86.77
+      },
+      {
+        "rank": 1,
+        "token": " Royal",
+        "logit": 13.671875,
+        "probability_percent": 6.09
+      },
+      {
+        "rank": 2,
+        "token": " Tobacco",
+        "logit": 12.375,
+        "probability_percent": 1.67
+      },
+      {
+        "rank": 3,
+        "token": "ob",
+        "logit": 11.9609375,
+        "probability_percent": 1.1
+      },
+      {
+        "rank": 4,
+        "token": " William",
+        "logit": 10.28125,
+        "probability_percent": 0.21
+      },
+      {
+        "rank": 5,
+        "token": "-Con",
+        "logit": 10.171875,
+        "probability_percent": 0.18
+      },
+      {
+        "rank": 6,
+        "token": "-",
+        "logit": 9.828125,
+        "probability_percent": 0.13
+      },
+      {
+        "rank": 7,
+        "token": " Concord",
+        "logit": 9.734375,
+        "probability_percent": 0.12
+      },
+      {
+        "rank": 8,
+        "token": "sm",
+        "logit": 9.6796875,
+        "probability_percent": 0.11
+      },
+      {
+        "rank": 9,
+        "token": "smouth",
+        "logit": 9.65625,
+        "probability_percent": 0.11
+      }
+    ]
+  },
+  {
+    "prompt": "James Madison est né(e) à",
+    "generated_prefix": "James Madison est né(e) à Port Conway",
+    "gold_token": "1",
+    "predicted_top1_token": ",",
+    "token_pos_in_answer": 2,
+    "gold_logit": 7.4765625,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.65576171875,
+    "second_token_prob": 0.07769775390625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": ",",
+        "logit": 18.0,
+        "probability_percent": 39.65
+      },
+      {
+        "rank": 1,
+        "token": " (",
+        "logit": 17.359375,
+        "probability_percent": 20.89
+      },
+      {
+        "rank": 2,
+        "token": " dans",
+        "logit": 16.859375,
+        "probability_percent": 12.67
+      },
+      {
+        "rank": 3,
+        "token": " le",
+        "logit": 16.53125,
+        "probability_percent": 9.12
+      },
+      {
+        "rank": 4,
+        "token": " en",
+        "logit": 16.296875,
+        "probability_percent": 7.22
+      },
+      {
+        "rank": 5,
+        "token": " ,",
+        "logit": 14.40625,
+        "probability_percent": 1.09
+      },
+      {
+        "rank": 6,
+        "token": " près",
+        "logit": 14.234375,
+        "probability_percent": 0.92
+      },
+      {
+        "rank": 7,
+        "token": " au",
+        "logit": 14.0078125,
+        "probability_percent": 0.73
+      },
+      {
+        "rank": 8,
+        "token": ".",
+        "logit": 13.9921875,
+        "probability_percent": 0.72
+      },
+      {
+        "rank": 9,
+        "token": "\n",
+        "logit": 13.84375,
+        "probability_percent": 0.62
+      }
+    ]
+  },
+  {
+    "prompt": "James Monroe est né(e) à",
+    "generated_prefix": "James Monroe est né(e) à",
+    "gold_token": " ",
+    "predicted_top1_token": " Washington",
+    "token_pos_in_answer": 0,
+    "gold_logit": 13.4453125,
+    "gold_prob_percent": 15.67,
+    "first_token_prob": 0.268798828125,
+    "second_token_prob": 0.15673828125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Washington",
+        "logit": 13.984375,
+        "probability_percent": 26.88
+      },
+      {
+        "rank": 1,
+        "token": " ",
+        "logit": 13.4453125,
+        "probability_percent": 15.67
+      },
+      {
+        "rank": 2,
+        "token": " l",
+        "logit": 12.2734375,
+        "probability_percent": 4.86
+      },
+      {
+        "rank": 3,
+        "token": " New",
+        "logit": 12.0625,
+        "probability_percent": 3.93
+      },
+      {
+        "rank": 4,
+        "token": " la",
+        "logit": 11.609375,
+        "probability_percent": 2.5
+      },
+      {
+        "rank": 5,
+        "token": " Al",
+        "logit": 11.3828125,
+        "probability_percent": 1.99
+      },
+      {
+        "rank": 6,
+        "token": " Alb",
+        "logit": 11.2890625,
+        "probability_percent": 1.81
+      },
+      {
+        "rank": 7,
+        "token": " le",
+        "logit": 11.2265625,
+        "probability_percent": 1.7
+      },
+      {
+        "rank": 8,
+        "token": " Mary",
+        "logit": 10.7890625,
+        "probability_percent": 1.1
+      },
+      {
+        "rank": 9,
+        "token": " D",
+        "logit": 10.671875,
+        "probability_percent": 0.98
+      }
+    ]
+  },
+  {
+    "prompt": "James Monroe est né(e) à",
+    "generated_prefix": "James Monroe est né(e) à Washington",
+    "gold_token": "175",
+    "predicted_top1_token": ",",
+    "token_pos_in_answer": 1,
+    "gold_logit": 1.6572265625,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.268798828125,
+    "second_token_prob": 0.15673828125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": ",",
+        "logit": 16.09375,
+        "probability_percent": 24.21
+      },
+      {
+        "rank": 1,
+        "token": " le",
+        "logit": 15.765625,
+        "probability_percent": 17.43
+      },
+      {
+        "rank": 2,
+        "token": " (",
+        "logit": 15.6171875,
+        "probability_percent": 15.03
+      },
+      {
+        "rank": 3,
+        "token": " D",
+        "logit": 15.1328125,
+        "probability_percent": 9.26
+      },
+      {
+        "rank": 4,
+        "token": " DC",
+        "logit": 14.8359375,
+        "probability_percent": 6.88
+      },
+      {
+        "rank": 5,
+        "token": " dans",
+        "logit": 14.671875,
+        "probability_percent": 5.84
+      },
+      {
+        "rank": 6,
+        "token": " en",
+        "logit": 14.296875,
+        "probability_percent": 4.01
+      },
+      {
+        "rank": 7,
+        "token": ".",
+        "logit": 14.078125,
+        "probability_percent": 3.23
+      },
+      {
+        "rank": 8,
+        "token": "\n",
+        "logit": 13.6875,
+        "probability_percent": 2.18
+      },
+      {
+        "rank": 9,
+        "token": ".\n",
+        "logit": 13.3359375,
+        "probability_percent": 1.54
+      }
+    ]
+  },
+  {
+    "prompt": "James Monroe est né(e) à",
+    "generated_prefix": "James Monroe est né(e) à Washington,",
+    "gold_token": "8",
+    "predicted_top1_token": " D",
+    "token_pos_in_answer": 2,
+    "gold_logit": 3.412109375,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.268798828125,
+    "second_token_prob": 0.15673828125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " D",
+        "logit": 16.125,
+        "probability_percent": 22.64
+      },
+      {
+        "rank": 1,
+        "token": " le",
+        "logit": 15.859375,
+        "probability_percent": 17.37
+      },
+      {
+        "rank": 2,
+        "token": " dans",
+        "logit": 15.8046875,
+        "probability_percent": 16.44
+      },
+      {
+        "rank": 3,
+        "token": " District",
+        "logit": 15.703125,
+        "probability_percent": 14.86
+      },
+      {
+        "rank": 4,
+        "token": " DC",
+        "logit": 14.890625,
+        "probability_percent": 6.59
+      },
+      {
+        "rank": 5,
+        "token": " en",
+        "logit": 13.9609375,
+        "probability_percent": 2.6
+      },
+      {
+        "rank": 6,
+        "token": " capit",
+        "logit": 13.1875,
+        "probability_percent": 1.2
+      },
+      {
+        "rank": 7,
+        "token": " É",
+        "logit": 13.0859375,
+        "probability_percent": 1.08
+      },
+      {
+        "rank": 8,
+        "token": " (",
+        "logit": 12.8828125,
+        "probability_percent": 0.89
+      },
+      {
+        "rank": 9,
+        "token": " Washington",
+        "logit": 12.859375,
+        "probability_percent": 0.86
+      }
+    ]
+  },
+  {
+    "prompt": "John Quincy Adams est né(e) à",
+    "generated_prefix": "John Quincy Adams est né(e) à",
+    "gold_token": " ",
+    "predicted_top1_token": " Bra",
+    "token_pos_in_answer": 0,
+    "gold_logit": 12.9375,
+    "gold_prob_percent": 1.14,
+    "first_token_prob": 0.370849609375,
+    "second_token_prob": 0.3173828125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Bra",
+        "logit": 16.421875,
+        "probability_percent": 37.08
+      },
+      {
+        "rank": 1,
+        "token": " Quincy",
+        "logit": 16.265625,
+        "probability_percent": 31.74
+      },
+      {
+        "rank": 2,
+        "token": " Boston",
+        "logit": 15.4765625,
+        "probability_percent": 14.42
+      },
+      {
+        "rank": 3,
+        "token": " Br",
+        "logit": 13.3203125,
+        "probability_percent": 1.67
+      },
+      {
+        "rank": 4,
+        "token": " ",
+        "logit": 12.9375,
+        "probability_percent": 1.14
+      },
+      {
+        "rank": 5,
+        "token": " la",
+        "logit": 12.328125,
+        "probability_percent": 0.62
+      },
+      {
+        "rank": 6,
+        "token": " le",
+        "logit": 12.21875,
+        "probability_percent": 0.55
+      },
+      {
+        "rank": 7,
+        "token": " Lond",
+        "logit": 12.203125,
+        "probability_percent": 0.55
+      },
+      {
+        "rank": 8,
+        "token": " l",
+        "logit": 12.1015625,
+        "probability_percent": 0.49
+      },
+      {
+        "rank": 9,
+        "token": " N",
+        "logit": 12.0546875,
+        "probability_percent": 0.47
+      }
+    ]
+  },
+  {
+    "prompt": "John Quincy Adams est né(e) à",
+    "generated_prefix": "John Quincy Adams est né(e) à Bra",
+    "gold_token": "176",
+    "predicted_top1_token": "intree",
+    "token_pos_in_answer": 1,
+    "gold_logit": 1.9560546875,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.370849609375,
+    "second_token_prob": 0.3173828125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "intree",
+        "logit": 22.09375,
+        "probability_percent": 99.95
+      },
+      {
+        "rank": 1,
+        "token": "ff",
+        "logit": 12.8125,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 2,
+        "token": "int",
+        "logit": 12.390625,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 3,
+        "token": "em",
+        "logit": 12.0546875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 4,
+        "token": "unsch",
+        "logit": 11.953125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 5,
+        "token": "e",
+        "logit": 11.5,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": "ley",
+        "logit": 11.46875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": "ze",
+        "logit": 10.9921875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "iles",
+        "logit": 10.6171875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "ford",
+        "logit": 10.6015625,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "John Quincy Adams est né(e) à",
+    "generated_prefix": "John Quincy Adams est né(e) à Braintree",
+    "gold_token": "7",
+    "predicted_top1_token": " (",
+    "token_pos_in_answer": 2,
+    "gold_logit": 6.1796875,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.370849609375,
+    "second_token_prob": 0.3173828125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " (",
+        "logit": 18.265625,
+        "probability_percent": 38.06
+      },
+      {
+        "rank": 1,
+        "token": ",",
+        "logit": 18.1875,
+        "probability_percent": 35.21
+      },
+      {
+        "rank": 2,
+        "token": " le",
+        "logit": 16.65625,
+        "probability_percent": 7.61
+      },
+      {
+        "rank": 3,
+        "token": " dans",
+        "logit": 16.5625,
+        "probability_percent": 6.93
+      },
+      {
+        "rank": 4,
+        "token": " en",
+        "logit": 15.71875,
+        "probability_percent": 2.98
+      },
+      {
+        "rank": 5,
+        "token": ".",
+        "logit": 14.796875,
+        "probability_percent": 1.19
+      },
+      {
+        "rank": 6,
+        "token": " ,",
+        "logit": 14.375,
+        "probability_percent": 0.78
+      },
+      {
+        "rank": 7,
+        "token": " près",
+        "logit": 14.140625,
+        "probability_percent": 0.62
+      },
+      {
+        "rank": 8,
+        "token": " au",
+        "logit": 14.1015625,
+        "probability_percent": 0.59
+      },
+      {
+        "rank": 9,
+        "token": ".\n",
+        "logit": 13.9921875,
+        "probability_percent": 0.53
+      }
+    ]
+  },
+  {
+    "prompt": "Andrew Jackson est né(e) à",
+    "generated_prefix": "Andrew Jackson est né(e) à",
+    "gold_token": " ",
+    "predicted_top1_token": " la",
+    "token_pos_in_answer": 0,
+    "gold_logit": 10.953125,
+    "gold_prob_percent": 4.64,
+    "first_token_prob": 0.13427734375,
+    "second_token_prob": 0.1322021484375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " la",
+        "logit": 12.015625,
+        "probability_percent": 13.43
+      },
+      {
+        "rank": 1,
+        "token": " Nashville",
+        "logit": 12.0,
+        "probability_percent": 13.22
+      },
+      {
+        "rank": 2,
+        "token": " Wax",
+        "logit": 11.8125,
+        "probability_percent": 10.96
+      },
+      {
+        "rank": 3,
+        "token": " le",
+        "logit": 11.265625,
+        "probability_percent": 6.34
+      },
+      {
+        "rank": 4,
+        "token": " Knoxville",
+        "logit": 11.25,
+        "probability_percent": 6.24
+      },
+      {
+        "rank": 5,
+        "token": " ",
+        "logit": 10.953125,
+        "probability_percent": 4.64
+      },
+      {
+        "rank": 6,
+        "token": " Washington",
+        "logit": 10.90625,
+        "probability_percent": 4.43
+      },
+      {
+        "rank": 7,
+        "token": " Raleigh",
+        "logit": 10.109375,
+        "probability_percent": 2.0
+      },
+      {
+        "rank": 8,
+        "token": " l",
+        "logit": 9.8828125,
+        "probability_percent": 1.59
+      },
+      {
+        "rank": 9,
+        "token": " les",
+        "logit": 9.6875,
+        "probability_percent": 1.31
+      }
+    ]
+  },
+  {
+    "prompt": "Andrew Jackson est né(e) à",
+    "generated_prefix": "Andrew Jackson est né(e) à la",
+    "gold_token": "176",
+    "predicted_top1_token": " fin",
+    "token_pos_in_answer": 1,
+    "gold_logit": -0.3642578125,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.13427734375,
+    "second_token_prob": 0.1322021484375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " fin",
+        "logit": 12.0703125,
+        "probability_percent": 15.03
+      },
+      {
+        "rank": 1,
+        "token": " ville",
+        "logit": 10.8046875,
+        "probability_percent": 4.24
+      },
+      {
+        "rank": 2,
+        "token": " place",
+        "logit": 10.71875,
+        "probability_percent": 3.89
+      },
+      {
+        "rank": 3,
+        "token": " maison",
+        "logit": 10.6796875,
+        "probability_percent": 3.74
+      },
+      {
+        "rank": 4,
+        "token": " suite",
+        "logit": 10.625,
+        "probability_percent": 3.54
+      },
+      {
+        "rank": 5,
+        "token": " Maison",
+        "logit": 10.53125,
+        "probability_percent": 3.22
+      },
+      {
+        "rank": 6,
+        "token": " date",
+        "logit": 10.453125,
+        "probability_percent": 2.98
+      },
+      {
+        "rank": 7,
+        "token": " même",
+        "logit": 10.0625,
+        "probability_percent": 2.02
+      },
+      {
+        "rank": 8,
+        "token": " ",
+        "logit": 10.0,
+        "probability_percent": 1.9
+      },
+      {
+        "rank": 9,
+        "token": " camp",
+        "logit": 9.828125,
+        "probability_percent": 1.6
+      }
+    ]
+  },
+  {
+    "prompt": "Andrew Jackson est né(e) à",
+    "generated_prefix": "Andrew Jackson est né(e) à la fin",
+    "gold_token": "7",
+    "predicted_top1_token": " du",
+    "token_pos_in_answer": 2,
+    "gold_logit": 3.83203125,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.13427734375,
+    "second_token_prob": 0.1322021484375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " du",
+        "logit": 20.234375,
+        "probability_percent": 56.84
+      },
+      {
+        "rank": 1,
+        "token": " de",
+        "logit": 19.59375,
+        "probability_percent": 29.96
+      },
+      {
+        "rank": 2,
+        "token": " des",
+        "logit": 18.28125,
+        "probability_percent": 8.06
+      },
+      {
+        "rank": 3,
+        "token": " d",
+        "logit": 17.015625,
+        "probability_percent": 2.27
+      },
+      {
+        "rank": 4,
+        "token": " ",
+        "logit": 15.3828125,
+        "probability_percent": 0.44
+      },
+      {
+        "rank": 5,
+        "token": "\n",
+        "logit": 14.71875,
+        "probability_percent": 0.23
+      },
+      {
+        "rank": 6,
+        "token": " déc",
+        "logit": 14.71875,
+        "probability_percent": 0.23
+      },
+      {
+        "rank": 7,
+        "token": " (",
+        "logit": 14.59375,
+        "probability_percent": 0.2
+      },
+      {
+        "rank": 8,
+        "token": " novembre",
+        "logit": 14.3671875,
+        "probability_percent": 0.16
+      },
+      {
+        "rank": 9,
+        "token": ",",
+        "logit": 13.828125,
+        "probability_percent": 0.09
+      }
+    ]
+  },
+  {
+    "prompt": "Martin Van Buren est né(e) à",
+    "generated_prefix": "Martin Van Buren est né(e) à",
+    "gold_token": " ",
+    "predicted_top1_token": " New",
+    "token_pos_in_answer": 0,
+    "gold_logit": 13.390625,
+    "gold_prob_percent": 2.98,
+    "first_token_prob": 0.07855224609375,
+    "second_token_prob": 0.029815673828125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " New",
+        "logit": 14.359375,
+        "probability_percent": 7.86
+      },
+      {
+        "rank": 1,
+        "token": " ",
+        "logit": 13.390625,
+        "probability_percent": 2.98
+      },
+      {
+        "rank": 2,
+        "token": " Amsterdam",
+        "logit": 13.1953125,
+        "probability_percent": 2.45
+      },
+      {
+        "rank": 3,
+        "token": "\n",
+        "logit": 12.96875,
+        "probability_percent": 1.96
+      },
+      {
+        "rank": 4,
+        "token": " Albany",
+        "logit": 12.84375,
+        "probability_percent": 1.73
+      },
+      {
+        "rank": 5,
+        "token": " Sch",
+        "logit": 12.3125,
+        "probability_percent": 1.01
+      },
+      {
+        "rank": 6,
+        "token": " l",
+        "logit": 12.3046875,
+        "probability_percent": 1.01
+      },
+      {
+        "rank": 7,
+        "token": " B",
+        "logit": 12.296875,
+        "probability_percent": 1.0
+      },
+      {
+        "rank": 8,
+        "token": " (",
+        "logit": 12.2734375,
+        "probability_percent": 0.98
+      },
+      {
+        "rank": 9,
+        "token": " Fort",
+        "logit": 12.2578125,
+        "probability_percent": 0.96
+      }
+    ]
+  },
+  {
+    "prompt": "Martin Van Buren est né(e) à",
+    "generated_prefix": "Martin Van Buren est né(e) à New",
+    "gold_token": "178",
+    "predicted_top1_token": " York",
+    "token_pos_in_answer": 1,
+    "gold_logit": 1.3271484375,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.07855224609375,
+    "second_token_prob": 0.029815673828125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " York",
+        "logit": 17.578125,
+        "probability_percent": 54.74
+      },
+      {
+        "rank": 1,
+        "token": " Brunswick",
+        "logit": 15.5078125,
+        "probability_percent": 6.9
+      },
+      {
+        "rank": 2,
+        "token": " Jersey",
+        "logit": 15.09375,
+        "probability_percent": 4.57
+      },
+      {
+        "rank": 3,
+        "token": "burgh",
+        "logit": 14.828125,
+        "probability_percent": 3.5
+      },
+      {
+        "rank": 4,
+        "token": "-Y",
+        "logit": 14.515625,
+        "probability_percent": 2.56
+      },
+      {
+        "rank": 5,
+        "token": " Roch",
+        "logit": 14.3984375,
+        "probability_percent": 2.28
+      },
+      {
+        "rank": 6,
+        "token": " London",
+        "logit": 13.9609375,
+        "probability_percent": 1.47
+      },
+      {
+        "rank": 7,
+        "token": " Haven",
+        "logit": 13.8671875,
+        "probability_percent": 1.34
+      },
+      {
+        "rank": 8,
+        "token": " Lebanon",
+        "logit": 13.75,
+        "probability_percent": 1.19
+      },
+      {
+        "rank": 9,
+        "token": " Berlin",
+        "logit": 13.5,
+        "probability_percent": 0.93
+      }
+    ]
+  },
+  {
+    "prompt": "Martin Van Buren est né(e) à",
+    "generated_prefix": "Martin Van Buren est né(e) à New York",
+    "gold_token": "2",
+    "predicted_top1_token": ",",
+    "token_pos_in_answer": 2,
+    "gold_logit": 6.10546875,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.07855224609375,
+    "second_token_prob": 0.029815673828125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": ",",
+        "logit": 16.515625,
+        "probability_percent": 18.81
+      },
+      {
+        "rank": 1,
+        "token": " le",
+        "logit": 16.375,
+        "probability_percent": 16.35
+      },
+      {
+        "rank": 2,
+        "token": " (",
+        "logit": 16.015625,
+        "probability_percent": 11.41
+      },
+      {
+        "rank": 3,
+        "token": ".",
+        "logit": 15.8984375,
+        "probability_percent": 10.15
+      },
+      {
+        "rank": 4,
+        "token": ".\n",
+        "logit": 15.2890625,
+        "probability_percent": 5.52
+      },
+      {
+        "rank": 5,
+        "token": " et",
+        "logit": 15.21875,
+        "probability_percent": 5.14
+      },
+      {
+        "rank": 6,
+        "token": " City",
+        "logit": 15.140625,
+        "probability_percent": 4.76
+      },
+      {
+        "rank": 7,
+        "token": ".\n\n",
+        "logit": 15.046875,
+        "probability_percent": 4.33
+      },
+      {
+        "rank": 8,
+        "token": " dans",
+        "logit": 14.890625,
+        "probability_percent": 3.7
+      },
+      {
+        "rank": 9,
+        "token": " en",
+        "logit": 14.8046875,
+        "probability_percent": 3.4
+      }
+    ]
+  },
+  {
+    "prompt": "William Henry Harrison est né(e) à",
+    "generated_prefix": "William Henry Harrison est né(e) à",
+    "gold_token": " ",
+    "predicted_top1_token": " la",
+    "token_pos_in_answer": 0,
+    "gold_logit": 12.1953125,
+    "gold_prob_percent": 5.18,
+    "first_token_prob": 0.165771484375,
+    "second_token_prob": 0.1474609375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " la",
+        "logit": 13.359375,
+        "probability_percent": 16.58
+      },
+      {
+        "rank": 1,
+        "token": " Washington",
+        "logit": 13.2421875,
+        "probability_percent": 14.75
+      },
+      {
+        "rank": 2,
+        "token": " North",
+        "logit": 13.1796875,
+        "probability_percent": 13.85
+      },
+      {
+        "rank": 3,
+        "token": " V",
+        "logit": 12.7265625,
+        "probability_percent": 8.81
+      },
+      {
+        "rank": 4,
+        "token": " ",
+        "logit": 12.1953125,
+        "probability_percent": 5.18
+      },
+      {
+        "rank": 5,
+        "token": " le",
+        "logit": 11.9296875,
+        "probability_percent": 3.97
+      },
+      {
+        "rank": 6,
+        "token": " Berkeley",
+        "logit": 11.546875,
+        "probability_percent": 2.71
+      },
+      {
+        "rank": 7,
+        "token": " Cory",
+        "logit": 11.3203125,
+        "probability_percent": 2.16
+      },
+      {
+        "rank": 8,
+        "token": " Cor",
+        "logit": 11.109375,
+        "probability_percent": 1.75
+      },
+      {
+        "rank": 9,
+        "token": " Fil",
+        "logit": 10.6640625,
+        "probability_percent": 1.12
+      }
+    ]
+  },
+  {
+    "prompt": "William Henry Harrison est né(e) à",
+    "generated_prefix": "William Henry Harrison est né(e) à la",
+    "gold_token": "177",
+    "predicted_top1_token": " maison",
+    "token_pos_in_answer": 1,
+    "gold_logit": -0.888671875,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.165771484375,
+    "second_token_prob": 0.1474609375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " maison",
+        "logit": 12.3828125,
+        "probability_percent": 19.91
+      },
+      {
+        "rank": 1,
+        "token": " ville",
+        "logit": 11.9140625,
+        "probability_percent": 12.46
+      },
+      {
+        "rank": 2,
+        "token": " fin",
+        "logit": 10.9375,
+        "probability_percent": 4.69
+      },
+      {
+        "rank": 3,
+        "token": " Maison",
+        "logit": 10.859375,
+        "probability_percent": 4.34
+      },
+      {
+        "rank": 4,
+        "token": " clin",
+        "logit": 10.5625,
+        "probability_percent": 3.23
+      },
+      {
+        "rank": 5,
+        "token": " ",
+        "logit": 10.5078125,
+        "probability_percent": 3.05
+      },
+      {
+        "rank": 6,
+        "token": " Casa",
+        "logit": 10.1171875,
+        "probability_percent": 2.07
+      },
+      {
+        "rank": 7,
+        "token": " Clin",
+        "logit": 10.0390625,
+        "probability_percent": 1.91
+      },
+      {
+        "rank": 8,
+        "token": " place",
+        "logit": 9.8828125,
+        "probability_percent": 1.63
+      },
+      {
+        "rank": 9,
+        "token": " Villa",
+        "logit": 9.7421875,
+        "probability_percent": 1.42
+      }
+    ]
+  },
+  {
+    "prompt": "William Henry Harrison est né(e) à",
+    "generated_prefix": "William Henry Harrison est né(e) à la maison",
+    "gold_token": "3",
+    "predicted_top1_token": " de",
+    "token_pos_in_answer": 2,
+    "gold_logit": 3.3359375,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.165771484375,
+    "second_token_prob": 0.1474609375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " de",
+        "logit": 15.5234375,
+        "probability_percent": 31.01
+      },
+      {
+        "rank": 1,
+        "token": " famil",
+        "logit": 15.3125,
+        "probability_percent": 25.1
+      },
+      {
+        "rank": 2,
+        "token": " n",
+        "logit": 14.2890625,
+        "probability_percent": 9.02
+      },
+      {
+        "rank": 3,
+        "token": " d",
+        "logit": 13.765625,
+        "probability_percent": 5.35
+      },
+      {
+        "rank": 4,
+        "token": " du",
+        "logit": 13.2890625,
+        "probability_percent": 3.32
+      },
+      {
+        "rank": 5,
+        "token": " des",
+        "logit": 13.1953125,
+        "probability_percent": 3.02
+      },
+      {
+        "rank": 6,
+        "token": " no",
+        "logit": 12.9296875,
+        "probability_percent": 2.32
+      },
+      {
+        "rank": 7,
+        "token": " White",
+        "logit": 12.4140625,
+        "probability_percent": 1.38
+      },
+      {
+        "rank": 8,
+        "token": ",",
+        "logit": 12.390625,
+        "probability_percent": 1.35
+      },
+      {
+        "rank": 9,
+        "token": " ",
+        "logit": 12.2890625,
+        "probability_percent": 1.22
+      }
+    ]
+  },
+  {
+    "prompt": "Richard Nixon est né(e) à",
+    "generated_prefix": "Richard Nixon est né(e) à",
+    "gold_token": " ",
+    "predicted_top1_token": " Y",
+    "token_pos_in_answer": 0,
+    "gold_logit": 10.4140625,
+    "gold_prob_percent": 2.07,
+    "first_token_prob": 0.50927734375,
+    "second_token_prob": 0.094970703125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Y",
+        "logit": 13.6171875,
+        "probability_percent": 50.93
+      },
+      {
+        "rank": 1,
+        "token": " Hy",
+        "logit": 11.9375,
+        "probability_percent": 9.5
+      },
+      {
+        "rank": 2,
+        "token": " Hyde",
+        "logit": 11.53125,
+        "probability_percent": 6.33
+      },
+      {
+        "rank": 3,
+        "token": " New",
+        "logit": 11.3046875,
+        "probability_percent": 5.04
+      },
+      {
+        "rank": 4,
+        "token": " l",
+        "logit": 10.7265625,
+        "probability_percent": 2.83
+      },
+      {
+        "rank": 5,
+        "token": " Gu",
+        "logit": 10.5,
+        "probability_percent": 2.26
+      },
+      {
+        "rank": 6,
+        "token": " ",
+        "logit": 10.4140625,
+        "probability_percent": 2.07
+      },
+      {
+        "rank": 7,
+        "token": " San",
+        "logit": 9.9453125,
+        "probability_percent": 1.3
+      },
+      {
+        "rank": 8,
+        "token": " Rich",
+        "logit": 9.8828125,
+        "probability_percent": 1.22
+      },
+      {
+        "rank": 9,
+        "token": " Cal",
+        "logit": 9.234375,
+        "probability_percent": 0.64
+      }
+    ]
+  },
+  {
+    "prompt": "Richard Nixon est né(e) à",
+    "generated_prefix": "Richard Nixon est né(e) à Y",
+    "gold_token": "191",
+    "predicted_top1_token": "or",
+    "token_pos_in_answer": 1,
+    "gold_logit": 1.1259765625,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.50927734375,
+    "second_token_prob": 0.094970703125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "or",
+        "logit": 18.75,
+        "probability_percent": 98.29
+      },
+      {
+        "rank": 1,
+        "token": "ount",
+        "logit": 12.65625,
+        "probability_percent": 0.22
+      },
+      {
+        "rank": 2,
+        "token": "ank",
+        "logit": 12.46875,
+        "probability_percent": 0.18
+      },
+      {
+        "rank": 3,
+        "token": "alta",
+        "logit": 12.3125,
+        "probability_percent": 0.16
+      },
+      {
+        "rank": 4,
+        "token": "uma",
+        "logit": 11.765625,
+        "probability_percent": 0.09
+      },
+      {
+        "rank": 5,
+        "token": "on",
+        "logit": 11.6875,
+        "probability_percent": 0.08
+      },
+      {
+        "rank": 6,
+        "token": "ough",
+        "logit": 11.359375,
+        "probability_percent": 0.06
+      },
+      {
+        "rank": 7,
+        "token": "ps",
+        "logit": 11.015625,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 8,
+        "token": "ance",
+        "logit": 11.0078125,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 9,
+        "token": "oro",
+        "logit": 11.0078125,
+        "probability_percent": 0.04
+      }
+    ]
+  },
+  {
+    "prompt": "Richard Nixon est né(e) à",
+    "generated_prefix": "Richard Nixon est né(e) à Yor",
+    "gold_token": "3",
+    "predicted_top1_token": "ba",
+    "token_pos_in_answer": 2,
+    "gold_logit": 2.84375,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.50927734375,
+    "second_token_prob": 0.094970703125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ba",
+        "logit": 19.625,
+        "probability_percent": 99.66
+      },
+      {
+        "rank": 1,
+        "token": "ke",
+        "logit": 12.4453125,
+        "probability_percent": 0.08
+      },
+      {
+        "rank": 2,
+        "token": "bas",
+        "logit": 11.765625,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 3,
+        "token": "be",
+        "logit": 11.6953125,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 4,
+        "token": "BA",
+        "logit": 11.015625,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 5,
+        "token": "bad",
+        "logit": 10.3203125,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 6,
+        "token": "ck",
+        "logit": 9.9453125,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 7,
+        "token": " ba",
+        "logit": 9.765625,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 8,
+        "token": "uba",
+        "logit": 9.453125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "í",
+        "logit": 9.4375,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "John F. Kennedy est né(e) à",
+    "generated_prefix": "John F. Kennedy est né(e) à",
+    "gold_token": " ",
+    "predicted_top1_token": " ",
+    "token_pos_in_answer": 0,
+    "gold_logit": 12.9765625,
+    "gold_prob_percent": 21.77,
+    "first_token_prob": 0.2176513671875,
+    "second_token_prob": 0.19970703125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " ",
+        "logit": 12.9765625,
+        "probability_percent": 21.77
+      },
+      {
+        "rank": 1,
+        "token": " Brook",
+        "logit": 12.890625,
+        "probability_percent": 19.97
+      },
+      {
+        "rank": 2,
+        "token": " l",
+        "logit": 11.578125,
+        "probability_percent": 5.37
+      },
+      {
+        "rank": 3,
+        "token": " New",
+        "logit": 11.4453125,
+        "probability_percent": 4.71
+      },
+      {
+        "rank": 4,
+        "token": "\n",
+        "logit": 11.3125,
+        "probability_percent": 4.12
+      },
+      {
+        "rank": 5,
+        "token": " Boston",
+        "logit": 11.3046875,
+        "probability_percent": 4.09
+      },
+      {
+        "rank": 6,
+        "token": " Bronx",
+        "logit": 10.6328125,
+        "probability_percent": 2.09
+      },
+      {
+        "rank": 7,
+        "token": " :",
+        "logit": 10.0625,
+        "probability_percent": 1.18
+      },
+      {
+        "rank": 8,
+        "token": " ",
+        "logit": 10.0546875,
+        "probability_percent": 1.17
+      },
+      {
+        "rank": 9,
+        "token": ".",
+        "logit": 10.0,
+        "probability_percent": 1.11
+      }
+    ]
+  },
+  {
+    "prompt": "John F. Kennedy est né(e) à",
+    "generated_prefix": "John F. Kennedy est né(e) à ",
+    "gold_token": "191",
+    "predicted_top1_token": "192",
+    "token_pos_in_answer": 1,
+    "gold_logit": 16.625,
+    "gold_prob_percent": 4.6,
+    "first_token_prob": 0.2176513671875,
+    "second_token_prob": 0.19970703125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "192",
+        "logit": 16.75,
+        "probability_percent": 5.22
+      },
+      {
+        "rank": 1,
+        "token": "191",
+        "logit": 16.625,
+        "probability_percent": 4.6
+      },
+      {
+        "rank": 2,
+        "token": "190",
+        "logit": 16.421875,
+        "probability_percent": 3.76
+      },
+      {
+        "rank": 3,
+        "token": "5",
+        "logit": 16.265625,
+        "probability_percent": 3.21
+      },
+      {
+        "rank": 4,
+        "token": "10",
+        "logit": 16.0625,
+        "probability_percent": 2.62
+      },
+      {
+        "rank": 5,
+        "token": "87",
+        "logit": 16.0,
+        "probability_percent": 2.46
+      },
+      {
+        "rank": 6,
+        "token": "188",
+        "logit": 15.90625,
+        "probability_percent": 2.24
+      },
+      {
+        "rank": 7,
+        "token": "05",
+        "logit": 15.8203125,
+        "probability_percent": 2.06
+      },
+      {
+        "rank": 8,
+        "token": "00",
+        "logit": 15.796875,
+        "probability_percent": 2.01
+      },
+      {
+        "rank": 9,
+        "token": "9",
+        "logit": 15.6796875,
+        "probability_percent": 1.79
+      }
+    ]
+  },
+  {
+    "prompt": "John F. Kennedy est né(e) à",
+    "generated_prefix": "John F. Kennedy est né(e) à 192",
+    "gold_token": "7",
+    "predicted_top1_token": "7",
+    "token_pos_in_answer": 2,
+    "gold_logit": 19.15625,
+    "gold_prob_percent": 37.62,
+    "first_token_prob": 0.2176513671875,
+    "second_token_prob": 0.19970703125,
+    "is_top_1": 1,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "7",
+        "logit": 19.15625,
+        "probability_percent": 37.62
+      },
+      {
+        "rank": 1,
+        "token": "0",
+        "logit": 18.03125,
+        "probability_percent": 12.22
+      },
+      {
+        "rank": 2,
+        "token": "4",
+        "logit": 17.890625,
+        "probability_percent": 10.61
+      },
+      {
+        "rank": 3,
+        "token": "9",
+        "logit": 17.71875,
+        "probability_percent": 8.94
+      },
+      {
+        "rank": 4,
+        "token": "5",
+        "logit": 17.609375,
+        "probability_percent": 8.01
+      },
+      {
+        "rank": 5,
+        "token": "2",
+        "logit": 17.109375,
+        "probability_percent": 4.86
+      },
+      {
+        "rank": 6,
+        "token": "1",
+        "logit": 17.015625,
+        "probability_percent": 4.43
+      },
+      {
+        "rank": 7,
+        "token": "3",
+        "logit": 16.984375,
+        "probability_percent": 4.29
+      },
+      {
+        "rank": 8,
+        "token": "6",
+        "logit": 16.9375,
+        "probability_percent": 4.09
+      },
+      {
+        "rank": 9,
+        "token": "8",
+        "logit": 16.9375,
+        "probability_percent": 4.09
+      }
+    ]
+  },
+  {
+    "prompt": "Richard Nixon est né(e) à",
+    "generated_prefix": "Richard Nixon est né(e) à",
+    "gold_token": " ",
+    "predicted_top1_token": " Y",
+    "token_pos_in_answer": 0,
+    "gold_logit": 10.4140625,
+    "gold_prob_percent": 2.07,
+    "first_token_prob": 0.50927734375,
+    "second_token_prob": 0.094970703125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Y",
+        "logit": 13.6171875,
+        "probability_percent": 50.93
+      },
+      {
+        "rank": 1,
+        "token": " Hy",
+        "logit": 11.9375,
+        "probability_percent": 9.5
+      },
+      {
+        "rank": 2,
+        "token": " Hyde",
+        "logit": 11.53125,
+        "probability_percent": 6.33
+      },
+      {
+        "rank": 3,
+        "token": " New",
+        "logit": 11.3046875,
+        "probability_percent": 5.04
+      },
+      {
+        "rank": 4,
+        "token": " l",
+        "logit": 10.7265625,
+        "probability_percent": 2.83
+      },
+      {
+        "rank": 5,
+        "token": " Gu",
+        "logit": 10.5,
+        "probability_percent": 2.26
+      },
+      {
+        "rank": 6,
+        "token": " ",
+        "logit": 10.4140625,
+        "probability_percent": 2.07
+      },
+      {
+        "rank": 7,
+        "token": " San",
+        "logit": 9.9453125,
+        "probability_percent": 1.3
+      },
+      {
+        "rank": 8,
+        "token": " Rich",
+        "logit": 9.8828125,
+        "probability_percent": 1.22
+      },
+      {
+        "rank": 9,
+        "token": " Cal",
+        "logit": 9.234375,
+        "probability_percent": 0.64
+      }
+    ]
+  },
+  {
+    "prompt": "Richard Nixon est né(e) à",
+    "generated_prefix": "Richard Nixon est né(e) à Y",
+    "gold_token": "191",
+    "predicted_top1_token": "or",
+    "token_pos_in_answer": 1,
+    "gold_logit": 1.1259765625,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.50927734375,
+    "second_token_prob": 0.094970703125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "or",
+        "logit": 18.75,
+        "probability_percent": 98.29
+      },
+      {
+        "rank": 1,
+        "token": "ount",
+        "logit": 12.65625,
+        "probability_percent": 0.22
+      },
+      {
+        "rank": 2,
+        "token": "ank",
+        "logit": 12.46875,
+        "probability_percent": 0.18
+      },
+      {
+        "rank": 3,
+        "token": "alta",
+        "logit": 12.3125,
+        "probability_percent": 0.16
+      },
+      {
+        "rank": 4,
+        "token": "uma",
+        "logit": 11.765625,
+        "probability_percent": 0.09
+      },
+      {
+        "rank": 5,
+        "token": "on",
+        "logit": 11.6875,
+        "probability_percent": 0.08
+      },
+      {
+        "rank": 6,
+        "token": "ough",
+        "logit": 11.359375,
+        "probability_percent": 0.06
+      },
+      {
+        "rank": 7,
+        "token": "ps",
+        "logit": 11.015625,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 8,
+        "token": "ance",
+        "logit": 11.0078125,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 9,
+        "token": "oro",
+        "logit": 11.0078125,
+        "probability_percent": 0.04
+      }
+    ]
+  },
+  {
+    "prompt": "Richard Nixon est né(e) à",
+    "generated_prefix": "Richard Nixon est né(e) à Yor",
+    "gold_token": "3",
+    "predicted_top1_token": "ba",
+    "token_pos_in_answer": 2,
+    "gold_logit": 2.84375,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.50927734375,
+    "second_token_prob": 0.094970703125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ba",
+        "logit": 19.625,
+        "probability_percent": 99.66
+      },
+      {
+        "rank": 1,
+        "token": "ke",
+        "logit": 12.4453125,
+        "probability_percent": 0.08
+      },
+      {
+        "rank": 2,
+        "token": "bas",
+        "logit": 11.765625,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 3,
+        "token": "be",
+        "logit": 11.6953125,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 4,
+        "token": "BA",
+        "logit": 11.015625,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 5,
+        "token": "bad",
+        "logit": 10.3203125,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 6,
+        "token": "ck",
+        "logit": 9.9453125,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 7,
+        "token": " ba",
+        "logit": 9.765625,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 8,
+        "token": "uba",
+        "logit": 9.453125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "í",
+        "logit": 9.4375,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "Bill Clinton est né(e) à",
+    "generated_prefix": "Bill Clinton est né(e) à",
+    "gold_token": " ",
+    "predicted_top1_token": " Hope",
+    "token_pos_in_answer": 0,
+    "gold_logit": 12.640625,
+    "gold_prob_percent": 11.13,
+    "first_token_prob": 0.5654296875,
+    "second_token_prob": 0.111328125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Hope",
+        "logit": 14.265625,
+        "probability_percent": 56.54
+      },
+      {
+        "rank": 1,
+        "token": " ",
+        "logit": 12.640625,
+        "probability_percent": 11.13
+      },
+      {
+        "rank": 2,
+        "token": " New",
+        "logit": 12.2109375,
+        "probability_percent": 7.24
+      },
+      {
+        "rank": 3,
+        "token": " l",
+        "logit": 12.015625,
+        "probability_percent": 5.96
+      },
+      {
+        "rank": 4,
+        "token": " Newport",
+        "logit": 10.3984375,
+        "probability_percent": 1.18
+      },
+      {
+        "rank": 5,
+        "token": " ",
+        "logit": 10.328125,
+        "probability_percent": 1.1
+      },
+      {
+        "rank": 6,
+        "token": " \n",
+        "logit": 10.125,
+        "probability_percent": 0.9
+      },
+      {
+        "rank": 7,
+        "token": " Mon",
+        "logit": 10.109375,
+        "probability_percent": 0.89
+      },
+      {
+        "rank": 8,
+        "token": " Little",
+        "logit": 9.984375,
+        "probability_percent": 0.78
+      },
+      {
+        "rank": 9,
+        "token": " Nova",
+        "logit": 9.9375,
+        "probability_percent": 0.75
+      }
+    ]
+  },
+  {
+    "prompt": "Bill Clinton est né(e) à",
+    "generated_prefix": "Bill Clinton est né(e) à Hope",
+    "gold_token": "194",
+    "predicted_top1_token": ",",
+    "token_pos_in_answer": 1,
+    "gold_logit": 3.126953125,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.5654296875,
+    "second_token_prob": 0.111328125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": ",",
+        "logit": 15.421875,
+        "probability_percent": 22.58
+      },
+      {
+        "rank": 1,
+        "token": " dans",
+        "logit": 15.3984375,
+        "probability_percent": 22.06
+      },
+      {
+        "rank": 2,
+        "token": " (",
+        "logit": 15.171875,
+        "probability_percent": 17.59
+      },
+      {
+        "rank": 3,
+        "token": " au",
+        "logit": 14.796875,
+        "probability_percent": 12.09
+      },
+      {
+        "rank": 4,
+        "token": " en",
+        "logit": 13.7265625,
+        "probability_percent": 4.14
+      },
+      {
+        "rank": 5,
+        "token": " le",
+        "logit": 13.6875,
+        "probability_percent": 3.99
+      },
+      {
+        "rank": 6,
+        "token": ".",
+        "logit": 12.9140625,
+        "probability_percent": 1.84
+      },
+      {
+        "rank": 7,
+        "token": "\n",
+        "logit": 12.75,
+        "probability_percent": 1.56
+      },
+      {
+        "rank": 8,
+        "token": " à",
+        "logit": 12.625,
+        "probability_percent": 1.38
+      },
+      {
+        "rank": 9,
+        "token": " |\n",
+        "logit": 12.3359375,
+        "probability_percent": 1.03
+      }
+    ]
+  },
+  {
+    "prompt": "Bill Clinton est né(e) à",
+    "generated_prefix": "Bill Clinton est né(e) à Hope,",
+    "gold_token": "6",
+    "predicted_top1_token": " Arkansas",
+    "token_pos_in_answer": 2,
+    "gold_logit": 3.60546875,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.5654296875,
+    "second_token_prob": 0.111328125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Arkansas",
+        "logit": 17.484375,
+        "probability_percent": 32.4
+      },
+      {
+        "rank": 1,
+        "token": " dans",
+        "logit": 17.4375,
+        "probability_percent": 30.91
+      },
+      {
+        "rank": 2,
+        "token": " une",
+        "logit": 15.9375,
+        "probability_percent": 6.9
+      },
+      {
+        "rank": 3,
+        "token": " en",
+        "logit": 15.875,
+        "probability_percent": 6.48
+      },
+      {
+        "rank": 4,
+        "token": " un",
+        "logit": 15.2734375,
+        "probability_percent": 3.55
+      },
+      {
+        "rank": 5,
+        "token": " l",
+        "logit": 15.21875,
+        "probability_percent": 3.36
+      },
+      {
+        "rank": 6,
+        "token": " le",
+        "logit": 15.109375,
+        "probability_percent": 3.01
+      },
+      {
+        "rank": 7,
+        "token": " au",
+        "logit": 14.515625,
+        "probability_percent": 1.66
+      },
+      {
+        "rank": 8,
+        "token": " ",
+        "logit": 13.9609375,
+        "probability_percent": 0.96
+      },
+      {
+        "rank": 9,
+        "token": " ville",
+        "logit": 13.6171875,
+        "probability_percent": 0.68
+      }
+    ]
+  },
+  {
+    "prompt": "George W. Bush est né(e) à",
+    "generated_prefix": "George W. Bush est né(e) à",
+    "gold_token": " ",
+    "predicted_top1_token": " New",
+    "token_pos_in_answer": 0,
+    "gold_logit": 13.6640625,
+    "gold_prob_percent": 20.58,
+    "first_token_prob": 0.478515625,
+    "second_token_prob": 0.205810546875,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " New",
+        "logit": 14.5078125,
+        "probability_percent": 47.85
+      },
+      {
+        "rank": 1,
+        "token": " ",
+        "logit": 13.6640625,
+        "probability_percent": 20.58
+      },
+      {
+        "rank": 2,
+        "token": " Mid",
+        "logit": 12.484375,
+        "probability_percent": 6.32
+      },
+      {
+        "rank": 3,
+        "token": " Greenwich",
+        "logit": 11.4765625,
+        "probability_percent": 2.31
+      },
+      {
+        "rank": 4,
+        "token": " Nova",
+        "logit": 11.3828125,
+        "probability_percent": 2.1
+      },
+      {
+        "rank": 5,
+        "token": " :",
+        "logit": 11.0859375,
+        "probability_percent": 1.56
+      },
+      {
+        "rank": 6,
+        "token": "\n",
+        "logit": 10.5703125,
+        "probability_percent": 0.93
+      },
+      {
+        "rank": 7,
+        "token": " Milton",
+        "logit": 10.375,
+        "probability_percent": 0.77
+      },
+      {
+        "rank": 8,
+        "token": " ",
+        "logit": 10.3125,
+        "probability_percent": 0.72
+      },
+      {
+        "rank": 9,
+        "token": " Houston",
+        "logit": 10.265625,
+        "probability_percent": 0.69
+      }
+    ]
+  },
+  {
+    "prompt": "George W. Bush est né(e) à",
+    "generated_prefix": "George W. Bush est né(e) à New",
+    "gold_token": "194",
+    "predicted_top1_token": " Haven",
+    "token_pos_in_answer": 1,
+    "gold_logit": -1.7822265625,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.478515625,
+    "second_token_prob": 0.205810546875,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Haven",
+        "logit": 20.046875,
+        "probability_percent": 96.04
+      },
+      {
+        "rank": 1,
+        "token": " York",
+        "logit": 16.609375,
+        "probability_percent": 3.09
+      },
+      {
+        "rank": 2,
+        "token": " Hampshire",
+        "logit": 14.34375,
+        "probability_percent": 0.32
+      },
+      {
+        "rank": 3,
+        "token": " Can",
+        "logit": 13.5234375,
+        "probability_percent": 0.14
+      },
+      {
+        "rank": 4,
+        "token": " Orleans",
+        "logit": 12.734375,
+        "probability_percent": 0.06
+      },
+      {
+        "rank": 5,
+        "token": "haven",
+        "logit": 12.203125,
+        "probability_percent": 0.04
+      },
+      {
+        "rank": 6,
+        "token": " Jersey",
+        "logit": 12.09375,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 7,
+        "token": "bury",
+        "logit": 12.0625,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 8,
+        "token": " England",
+        "logit": 11.9765625,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 9,
+        "token": " Hartford",
+        "logit": 11.3125,
+        "probability_percent": 0.02
+      }
+    ]
+  },
+  {
+    "prompt": "George W. Bush est né(e) à",
+    "generated_prefix": "George W. Bush est né(e) à New Haven",
+    "gold_token": "6",
+    "predicted_top1_token": " dans",
+    "token_pos_in_answer": 2,
+    "gold_logit": 5.93359375,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.478515625,
+    "second_token_prob": 0.205810546875,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " dans",
+        "logit": 17.25,
+        "probability_percent": 28.86
+      },
+      {
+        "rank": 1,
+        "token": " (",
+        "logit": 17.1875,
+        "probability_percent": 27.1
+      },
+      {
+        "rank": 2,
+        "token": ",",
+        "logit": 16.828125,
+        "probability_percent": 18.92
+      },
+      {
+        "rank": 3,
+        "token": " au",
+        "logit": 15.609375,
+        "probability_percent": 5.59
+      },
+      {
+        "rank": 4,
+        "token": " en",
+        "logit": 15.0234375,
+        "probability_percent": 3.11
+      },
+      {
+        "rank": 5,
+        "token": ".",
+        "logit": 14.8671875,
+        "probability_percent": 2.66
+      },
+      {
+        "rank": 6,
+        "token": " le",
+        "logit": 14.78125,
+        "probability_percent": 2.44
+      },
+      {
+        "rank": 7,
+        "token": ".\n",
+        "logit": 14.46875,
+        "probability_percent": 1.79
+      },
+      {
+        "rank": 8,
+        "token": "\n",
+        "logit": 14.4375,
+        "probability_percent": 1.73
+      },
+      {
+        "rank": 9,
+        "token": " et",
+        "logit": 13.828125,
+        "probability_percent": 0.94
+      }
+    ]
+  },
+  {
+    "prompt": "Barack Obama est né(e) à",
+    "generated_prefix": "Barack Obama est né(e) à",
+    "gold_token": " ",
+    "predicted_top1_token": " Honolulu",
+    "token_pos_in_answer": 0,
+    "gold_logit": 13.0234375,
+    "gold_prob_percent": 2.49,
+    "first_token_prob": 0.63720703125,
+    "second_token_prob": 0.1151123046875,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Honolulu",
+        "logit": 16.265625,
+        "probability_percent": 63.72
+      },
+      {
+        "rank": 1,
+        "token": " Hawaii",
+        "logit": 14.5546875,
+        "probability_percent": 11.51
+      },
+      {
+        "rank": 2,
+        "token": " Haw",
+        "logit": 13.84375,
+        "probability_percent": 5.65
+      },
+      {
+        "rank": 3,
+        "token": " l",
+        "logit": 13.7109375,
+        "probability_percent": 4.95
+      },
+      {
+        "rank": 4,
+        "token": " ",
+        "logit": 13.0234375,
+        "probability_percent": 2.49
+      },
+      {
+        "rank": 5,
+        "token": " Chicago",
+        "logit": 12.3984375,
+        "probability_percent": 1.33
+      },
+      {
+        "rank": 6,
+        "token": " la",
+        "logit": 12.265625,
+        "probability_percent": 1.17
+      },
+      {
+        "rank": 7,
+        "token": " Hawai",
+        "logit": 12.1796875,
+        "probability_percent": 1.07
+      },
+      {
+        "rank": 8,
+        "token": "\n",
+        "logit": 11.390625,
+        "probability_percent": 0.49
+      },
+      {
+        "rank": 9,
+        "token": " K",
+        "logit": 11.125,
+        "probability_percent": 0.37
+      }
+    ]
+  },
+  {
+    "prompt": "Barack Obama est né(e) à",
+    "generated_prefix": "Barack Obama est né(e) à Honolulu",
+    "gold_token": "196",
+    "predicted_top1_token": ",",
+    "token_pos_in_answer": 1,
+    "gold_logit": 4.02734375,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.63720703125,
+    "second_token_prob": 0.1151123046875,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": ",",
+        "logit": 17.921875,
+        "probability_percent": 38.57
+      },
+      {
+        "rank": 1,
+        "token": " (",
+        "logit": 17.453125,
+        "probability_percent": 24.15
+      },
+      {
+        "rank": 2,
+        "token": " dans",
+        "logit": 16.734375,
+        "probability_percent": 11.77
+      },
+      {
+        "rank": 3,
+        "token": " le",
+        "logit": 15.703125,
+        "probability_percent": 4.2
+      },
+      {
+        "rank": 4,
+        "token": " en",
+        "logit": 15.59375,
+        "probability_percent": 3.76
+      },
+      {
+        "rank": 5,
+        "token": ".",
+        "logit": 15.0859375,
+        "probability_percent": 2.26
+      },
+      {
+        "rank": 6,
+        "token": " au",
+        "logit": 14.8515625,
+        "probability_percent": 1.79
+      },
+      {
+        "rank": 7,
+        "token": " ,",
+        "logit": 14.8203125,
+        "probability_percent": 1.73
+      },
+      {
+        "rank": 8,
+        "token": " aux",
+        "logit": 14.59375,
+        "probability_percent": 1.38
+      },
+      {
+        "rank": 9,
+        "token": "\n",
+        "logit": 14.5390625,
+        "probability_percent": 1.31
+      }
+    ]
+  },
+  {
+    "prompt": "Barack Obama est né(e) à",
+    "generated_prefix": "Barack Obama est né(e) à Honolulu,",
+    "gold_token": "1",
+    "predicted_top1_token": " Haw",
+    "token_pos_in_answer": 2,
+    "gold_logit": 5.578125,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.63720703125,
+    "second_token_prob": 0.1151123046875,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Haw",
+        "logit": 16.671875,
+        "probability_percent": 30.96
+      },
+      {
+        "rank": 1,
+        "token": " dans",
+        "logit": 15.953125,
+        "probability_percent": 15.09
+      },
+      {
+        "rank": 2,
+        "token": " Hawaii",
+        "logit": 15.6171875,
+        "probability_percent": 10.78
+      },
+      {
+        "rank": 3,
+        "token": " en",
+        "logit": 14.890625,
+        "probability_percent": 5.22
+      },
+      {
+        "rank": 4,
+        "token": " É",
+        "logit": 14.765625,
+        "probability_percent": 4.6
+      },
+      {
+        "rank": 5,
+        "token": " aux",
+        "logit": 14.7578125,
+        "probability_percent": 4.57
+      },
+      {
+        "rank": 6,
+        "token": " le",
+        "logit": 14.515625,
+        "probability_percent": 3.59
+      },
+      {
+        "rank": 7,
+        "token": " à",
+        "logit": 14.390625,
+        "probability_percent": 3.16
+      },
+      {
+        "rank": 8,
+        "token": " au",
+        "logit": 14.109375,
+        "probability_percent": 2.39
+      },
+      {
+        "rank": 9,
+        "token": " Hawai",
+        "logit": 13.640625,
+        "probability_percent": 1.49
+      }
+    ]
+  },
+  {
+    "prompt": "Jimmy Carter est né(e) à",
+    "generated_prefix": "Jimmy Carter est né(e) à",
+    "gold_token": " ",
+    "predicted_top1_token": " Plains",
+    "token_pos_in_answer": 0,
+    "gold_logit": 10.84375,
+    "gold_prob_percent": 0.88,
+    "first_token_prob": 0.5859375,
+    "second_token_prob": 0.0870361328125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Plains",
+        "logit": 15.0390625,
+        "probability_percent": 58.59
+      },
+      {
+        "rank": 1,
+        "token": " l",
+        "logit": 13.1328125,
+        "probability_percent": 8.7
+      },
+      {
+        "rank": 2,
+        "token": " Pl",
+        "logit": 12.9609375,
+        "probability_percent": 7.33
+      },
+      {
+        "rank": 3,
+        "token": " le",
+        "logit": 12.9140625,
+        "probability_percent": 6.99
+      },
+      {
+        "rank": 4,
+        "token": " Atlanta",
+        "logit": 11.421875,
+        "probability_percent": 1.57
+      },
+      {
+        "rank": 5,
+        "token": " les",
+        "logit": 11.2265625,
+        "probability_percent": 1.29
+      },
+      {
+        "rank": 6,
+        "token": " James",
+        "logit": 11.0703125,
+        "probability_percent": 1.11
+      },
+      {
+        "rank": 7,
+        "token": " Le",
+        "logit": 10.9296875,
+        "probability_percent": 0.96
+      },
+      {
+        "rank": 8,
+        "token": " la",
+        "logit": 10.875,
+        "probability_percent": 0.91
+      },
+      {
+        "rank": 9,
+        "token": " ",
+        "logit": 10.84375,
+        "probability_percent": 0.88
+      }
+    ]
+  },
+  {
+    "prompt": "Jimmy Carter est né(e) à",
+    "generated_prefix": "Jimmy Carter est né(e) à Plains",
+    "gold_token": "192",
+    "predicted_top1_token": ",",
+    "token_pos_in_answer": 1,
+    "gold_logit": 3.146484375,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.5859375,
+    "second_token_prob": 0.0870361328125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": ",",
+        "logit": 18.515625,
+        "probability_percent": 48.66
+      },
+      {
+        "rank": 1,
+        "token": " (",
+        "logit": 17.6875,
+        "probability_percent": 21.25
+      },
+      {
+        "rank": 2,
+        "token": " dans",
+        "logit": 16.859375,
+        "probability_percent": 9.28
+      },
+      {
+        "rank": 3,
+        "token": " en",
+        "logit": 16.75,
+        "probability_percent": 8.33
+      },
+      {
+        "rank": 4,
+        "token": ".",
+        "logit": 15.3046875,
+        "probability_percent": 1.96
+      },
+      {
+        "rank": 5,
+        "token": " le",
+        "logit": 15.015625,
+        "probability_percent": 1.47
+      },
+      {
+        "rank": 6,
+        "token": " ,",
+        "logit": 14.6171875,
+        "probability_percent": 0.99
+      },
+      {
+        "rank": 7,
+        "token": ".\n",
+        "logit": 14.609375,
+        "probability_percent": 0.98
+      },
+      {
+        "rank": 8,
+        "token": "\n",
+        "logit": 14.5625,
+        "probability_percent": 0.93
+      },
+      {
+        "rank": 9,
+        "token": " au",
+        "logit": 14.3828125,
+        "probability_percent": 0.78
+      }
+    ]
+  },
+  {
+    "prompt": "Jimmy Carter est né(e) à",
+    "generated_prefix": "Jimmy Carter est né(e) à Plains,",
+    "gold_token": "4",
+    "predicted_top1_token": " dans",
+    "token_pos_in_answer": 2,
+    "gold_logit": 4.15234375,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.5859375,
+    "second_token_prob": 0.0870361328125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " dans",
+        "logit": 17.453125,
+        "probability_percent": 47.56
+      },
+      {
+        "rank": 1,
+        "token": " en",
+        "logit": 16.390625,
+        "probability_percent": 16.43
+      },
+      {
+        "rank": 2,
+        "token": " G",
+        "logit": 15.109375,
+        "probability_percent": 4.56
+      },
+      {
+        "rank": 3,
+        "token": " un",
+        "logit": 14.8984375,
+        "probability_percent": 3.7
+      },
+      {
+        "rank": 4,
+        "token": " Georgia",
+        "logit": 14.859375,
+        "probability_percent": 3.56
+      },
+      {
+        "rank": 5,
+        "token": " le",
+        "logit": 14.78125,
+        "probability_percent": 3.29
+      },
+      {
+        "rank": 6,
+        "token": " au",
+        "logit": 14.4609375,
+        "probability_percent": 2.39
+      },
+      {
+        "rank": 7,
+        "token": " une",
+        "logit": 14.28125,
+        "probability_percent": 1.99
+      },
+      {
+        "rank": 8,
+        "token": " aux",
+        "logit": 14.25,
+        "probability_percent": 1.93
+      },
+      {
+        "rank": 9,
+        "token": " la",
+        "logit": 13.8515625,
+        "probability_percent": 1.3
+      }
+    ]
+  },
+  {
+    "prompt": "Ronald Reagan est né(e) à",
+    "generated_prefix": "Ronald Reagan est né(e) à",
+    "gold_token": " ",
+    "predicted_top1_token": " T",
+    "token_pos_in_answer": 0,
+    "gold_logit": 12.2109375,
+    "gold_prob_percent": 3.71,
+    "first_token_prob": 0.7392578125,
+    "second_token_prob": 0.046173095703125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " T",
+        "logit": 15.203125,
+        "probability_percent": 73.93
+      },
+      {
+        "rank": 1,
+        "token": " l",
+        "logit": 12.4296875,
+        "probability_percent": 4.62
+      },
+      {
+        "rank": 2,
+        "token": " ",
+        "logit": 12.2109375,
+        "probability_percent": 3.71
+      },
+      {
+        "rank": 3,
+        "token": " Chicago",
+        "logit": 11.484375,
+        "probability_percent": 1.79
+      },
+      {
+        "rank": 4,
+        "token": " San",
+        "logit": 11.2890625,
+        "probability_percent": 1.48
+      },
+      {
+        "rank": 5,
+        "token": " la",
+        "logit": 10.7109375,
+        "probability_percent": 0.83
+      },
+      {
+        "rank": 6,
+        "token": "\n",
+        "logit": 10.5,
+        "probability_percent": 0.67
+      },
+      {
+        "rank": 7,
+        "token": " Hollywood",
+        "logit": 10.5,
+        "probability_percent": 0.67
+      },
+      {
+        "rank": 8,
+        "token": " ",
+        "logit": 10.46875,
+        "probability_percent": 0.65
+      },
+      {
+        "rank": 9,
+        "token": " New",
+        "logit": 10.03125,
+        "probability_percent": 0.42
+      }
+    ]
+  },
+  {
+    "prompt": "Ronald Reagan est né(e) à",
+    "generated_prefix": "Ronald Reagan est né(e) à T",
+    "gold_token": "191",
+    "predicted_top1_token": "amp",
+    "token_pos_in_answer": 1,
+    "gold_logit": -0.11505126953125,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.7392578125,
+    "second_token_prob": 0.046173095703125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "amp",
+        "logit": 20.28125,
+        "probability_percent": 98.83
+      },
+      {
+        "rank": 1,
+        "token": "AMP",
+        "logit": 14.1015625,
+        "probability_percent": 0.2
+      },
+      {
+        "rank": 2,
+        "token": "ampa",
+        "logit": 13.8671875,
+        "probability_percent": 0.16
+      },
+      {
+        "rank": 3,
+        "token": "olu",
+        "logit": 13.546875,
+        "probability_percent": 0.12
+      },
+      {
+        "rank": 4,
+        "token": "amps",
+        "logit": 12.8984375,
+        "probability_percent": 0.06
+      },
+      {
+        "rank": 5,
+        "token": "ins",
+        "logit": 12.6015625,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 6,
+        "token": "aur",
+        "logit": 12.265625,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 7,
+        "token": "mp",
+        "logit": 12.1171875,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 8,
+        "token": "oto",
+        "logit": 12.09375,
+        "probability_percent": 0.03
+      },
+      {
+        "rank": 9,
+        "token": "uj",
+        "logit": 12.0,
+        "probability_percent": 0.03
+      }
+    ]
+  },
+  {
+    "prompt": "Ronald Reagan est né(e) à",
+    "generated_prefix": "Ronald Reagan est né(e) à Tamp",
+    "gold_token": "1",
+    "predicted_top1_token": "ico",
+    "token_pos_in_answer": 2,
+    "gold_logit": 5.23828125,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.7392578125,
+    "second_token_prob": 0.046173095703125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "ico",
+        "logit": 17.859375,
+        "probability_percent": 89.7
+      },
+      {
+        "rank": 1,
+        "token": "ique",
+        "logit": 14.109375,
+        "probability_percent": 2.11
+      },
+      {
+        "rank": 2,
+        "token": "ere",
+        "logit": 13.1328125,
+        "probability_percent": 0.79
+      },
+      {
+        "rank": 3,
+        "token": "ao",
+        "logit": 12.703125,
+        "probability_percent": 0.52
+      },
+      {
+        "rank": 4,
+        "token": "ic",
+        "logit": 12.6953125,
+        "probability_percent": 0.51
+      },
+      {
+        "rank": 5,
+        "token": "é",
+        "logit": 12.6171875,
+        "probability_percent": 0.47
+      },
+      {
+        "rank": 6,
+        "token": "ica",
+        "logit": 12.5078125,
+        "probability_percent": 0.43
+      },
+      {
+        "rank": 7,
+        "token": "ère",
+        "logit": 12.4609375,
+        "probability_percent": 0.41
+      },
+      {
+        "rank": 8,
+        "token": "as",
+        "logit": 12.390625,
+        "probability_percent": 0.38
+      },
+      {
+        "rank": 9,
+        "token": "\n",
+        "logit": 11.9609375,
+        "probability_percent": 0.25
+      }
+    ]
+  },
+  {
+    "prompt": "George H. W. Bush est né(e) à",
+    "generated_prefix": "George H. W. Bush est né(e) à",
+    "gold_token": " ",
+    "predicted_top1_token": " Milton",
+    "token_pos_in_answer": 0,
+    "gold_logit": 12.2734375,
+    "gold_prob_percent": 10.38,
+    "first_token_prob": 0.218017578125,
+    "second_token_prob": 0.154541015625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Milton",
+        "logit": 13.015625,
+        "probability_percent": 21.8
+      },
+      {
+        "rank": 1,
+        "token": " New",
+        "logit": 12.671875,
+        "probability_percent": 15.45
+      },
+      {
+        "rank": 2,
+        "token": " Mid",
+        "logit": 12.5,
+        "probability_percent": 13.01
+      },
+      {
+        "rank": 3,
+        "token": " ",
+        "logit": 12.2734375,
+        "probability_percent": 10.38
+      },
+      {
+        "rank": 4,
+        "token": " Greenwich",
+        "logit": 12.09375,
+        "probability_percent": 8.67
+      },
+      {
+        "rank": 5,
+        "token": "\n",
+        "logit": 10.421875,
+        "probability_percent": 1.63
+      },
+      {
+        "rank": 6,
+        "token": " Mil",
+        "logit": 10.1953125,
+        "probability_percent": 1.3
+      },
+      {
+        "rank": 7,
+        "token": " Massachusetts",
+        "logit": 9.9609375,
+        "probability_percent": 1.03
+      },
+      {
+        "rank": 8,
+        "token": " Nova",
+        "logit": 9.84375,
+        "probability_percent": 0.91
+      },
+      {
+        "rank": 9,
+        "token": " :",
+        "logit": 9.7734375,
+        "probability_percent": 0.85
+      }
+    ]
+  },
+  {
+    "prompt": "George H. W. Bush est né(e) à",
+    "generated_prefix": "George H. W. Bush est né(e) à Milton",
+    "gold_token": "192",
+    "predicted_top1_token": ",",
+    "token_pos_in_answer": 1,
+    "gold_logit": 1.78125,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.218017578125,
+    "second_token_prob": 0.154541015625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": ",",
+        "logit": 16.109375,
+        "probability_percent": 41.48
+      },
+      {
+        "rank": 1,
+        "token": " (",
+        "logit": 15.234375,
+        "probability_percent": 17.3
+      },
+      {
+        "rank": 2,
+        "token": " dans",
+        "logit": 14.5546875,
+        "probability_percent": 8.76
+      },
+      {
+        "rank": 3,
+        "token": ".",
+        "logit": 14.2421875,
+        "probability_percent": 6.41
+      },
+      {
+        "rank": 4,
+        "token": ".\n",
+        "logit": 13.9921875,
+        "probability_percent": 4.99
+      },
+      {
+        "rank": 5,
+        "token": "\n",
+        "logit": 13.3203125,
+        "probability_percent": 2.55
+      },
+      {
+        "rank": 6,
+        "token": " en",
+        "logit": 13.25,
+        "probability_percent": 2.38
+      },
+      {
+        "rank": 7,
+        "token": " |\n",
+        "logit": 12.890625,
+        "probability_percent": 1.66
+      },
+      {
+        "rank": 8,
+        "token": " le",
+        "logit": 12.546875,
+        "probability_percent": 1.18
+      },
+      {
+        "rank": 9,
+        "token": " ,",
+        "logit": 12.546875,
+        "probability_percent": 1.18
+      }
+    ]
+  },
+  {
+    "prompt": "George H. W. Bush est né(e) à",
+    "generated_prefix": "George H. W. Bush est né(e) à Milton,",
+    "gold_token": "4",
+    "predicted_top1_token": " dans",
+    "token_pos_in_answer": 2,
+    "gold_logit": 3.01953125,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.218017578125,
+    "second_token_prob": 0.154541015625,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " dans",
+        "logit": 16.3125,
+        "probability_percent": 42.55
+      },
+      {
+        "rank": 1,
+        "token": " Massachusetts",
+        "logit": 14.6875,
+        "probability_percent": 8.38
+      },
+      {
+        "rank": 2,
+        "token": " New",
+        "logit": 14.1015625,
+        "probability_percent": 4.66
+      },
+      {
+        "rank": 3,
+        "token": " Texas",
+        "logit": 14.1015625,
+        "probability_percent": 4.66
+      },
+      {
+        "rank": 4,
+        "token": " aux",
+        "logit": 13.9453125,
+        "probability_percent": 3.99
+      },
+      {
+        "rank": 5,
+        "token": " au",
+        "logit": 13.8515625,
+        "probability_percent": 3.63
+      },
+      {
+        "rank": 6,
+        "token": " É",
+        "logit": 13.7265625,
+        "probability_percent": 3.2
+      },
+      {
+        "rank": 7,
+        "token": " en",
+        "logit": 13.640625,
+        "probability_percent": 2.94
+      },
+      {
+        "rank": 8,
+        "token": " le",
+        "logit": 13.21875,
+        "probability_percent": 1.93
+      },
+      {
+        "rank": 9,
+        "token": " une",
+        "logit": 12.8828125,
+        "probability_percent": 1.38
+      }
+    ]
+  },
+  {
+    "prompt": "Joe Biden est né(e) à",
+    "generated_prefix": "Joe Biden est né(e) à",
+    "gold_token": " ",
+    "predicted_top1_token": " Scr",
+    "token_pos_in_answer": 0,
+    "gold_logit": 13.078125,
+    "gold_prob_percent": 17.79,
+    "first_token_prob": 0.4267578125,
+    "second_token_prob": 0.1778564453125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Scr",
+        "logit": 13.953125,
+        "probability_percent": 42.68
+      },
+      {
+        "rank": 1,
+        "token": " ",
+        "logit": 13.078125,
+        "probability_percent": 17.79
+      },
+      {
+        "rank": 2,
+        "token": " l",
+        "logit": 11.796875,
+        "probability_percent": 4.94
+      },
+      {
+        "rank": 3,
+        "token": " Wilmington",
+        "logit": 11.7421875,
+        "probability_percent": 4.68
+      },
+      {
+        "rank": 4,
+        "token": "\n",
+        "logit": 10.640625,
+        "probability_percent": 1.55
+      },
+      {
+        "rank": 5,
+        "token": " :",
+        "logit": 10.59375,
+        "probability_percent": 1.48
+      },
+      {
+        "rank": 6,
+        "token": " la",
+        "logit": 10.578125,
+        "probability_percent": 1.46
+      },
+      {
+        "rank": 7,
+        "token": " Harris",
+        "logit": 10.4921875,
+        "probability_percent": 1.34
+      },
+      {
+        "rank": 8,
+        "token": " ",
+        "logit": 10.15625,
+        "probability_percent": 0.96
+      },
+      {
+        "rank": 9,
+        "token": " Saint",
+        "logit": 9.8671875,
+        "probability_percent": 0.72
+      }
+    ]
+  },
+  {
+    "prompt": "Joe Biden est né(e) à",
+    "generated_prefix": "Joe Biden est né(e) à Scr",
+    "gold_token": "194",
+    "predicted_top1_token": "anton",
+    "token_pos_in_answer": 1,
+    "gold_logit": -1.1611328125,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.4267578125,
+    "second_token_prob": 0.1778564453125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": "anton",
+        "logit": 20.984375,
+        "probability_percent": 99.71
+      },
+      {
+        "rank": 1,
+        "token": "ant",
+        "logit": 14.875,
+        "probability_percent": 0.22
+      },
+      {
+        "rank": 2,
+        "token": "ants",
+        "logit": 12.421875,
+        "probability_percent": 0.02
+      },
+      {
+        "rank": 3,
+        "token": "antom",
+        "logit": 12.15625,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 4,
+        "token": "abble",
+        "logit": 11.875,
+        "probability_percent": 0.01
+      },
+      {
+        "rank": 5,
+        "token": "ugg",
+        "logit": 10.8203125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 6,
+        "token": " Antonio",
+        "logit": 10.53125,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 7,
+        "token": "unt",
+        "logit": 10.375,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 8,
+        "token": "ut",
+        "logit": 10.1171875,
+        "probability_percent": 0.0
+      },
+      {
+        "rank": 9,
+        "token": "apple",
+        "logit": 9.8828125,
+        "probability_percent": 0.0
+      }
+    ]
+  },
+  {
+    "prompt": "Joe Biden est né(e) à",
+    "generated_prefix": "Joe Biden est né(e) à Scranton",
+    "gold_token": "2",
+    "predicted_top1_token": ",",
+    "token_pos_in_answer": 2,
+    "gold_logit": 7.16015625,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.4267578125,
+    "second_token_prob": 0.1778564453125,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": ",",
+        "logit": 17.65625,
+        "probability_percent": 33.3
+      },
+      {
+        "rank": 1,
+        "token": " (",
+        "logit": 17.296875,
+        "probability_percent": 23.24
+      },
+      {
+        "rank": 2,
+        "token": " dans",
+        "logit": 17.015625,
+        "probability_percent": 17.54
+      },
+      {
+        "rank": 3,
+        "token": " en",
+        "logit": 16.5625,
+        "probability_percent": 11.15
+      },
+      {
+        "rank": 4,
+        "token": " au",
+        "logit": 14.9453125,
+        "probability_percent": 2.21
+      },
+      {
+        "rank": 5,
+        "token": " aux",
+        "logit": 14.578125,
+        "probability_percent": 1.53
+      },
+      {
+        "rank": 6,
+        "token": "\n",
+        "logit": 14.4453125,
+        "probability_percent": 1.34
+      },
+      {
+        "rank": 7,
+        "token": ".",
+        "logit": 14.3515625,
+        "probability_percent": 1.22
+      },
+      {
+        "rank": 8,
+        "token": " et",
+        "logit": 14.1875,
+        "probability_percent": 1.04
+      },
+      {
+        "rank": 9,
+        "token": " ,",
+        "logit": 14.140625,
+        "probability_percent": 0.99
+      }
+    ]
+  },
+  {
+    "prompt": "Franklin D. Roosevelt est né(e) à",
+    "generated_prefix": "Franklin D. Roosevelt est né(e) à",
+    "gold_token": " ",
+    "predicted_top1_token": " Hyde",
+    "token_pos_in_answer": 0,
+    "gold_logit": 13.1328125,
+    "gold_prob_percent": 10.27,
+    "first_token_prob": 0.6142578125,
+    "second_token_prob": 0.126708984375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Hyde",
+        "logit": 14.921875,
+        "probability_percent": 61.43
+      },
+      {
+        "rank": 1,
+        "token": " New",
+        "logit": 13.34375,
+        "probability_percent": 12.67
+      },
+      {
+        "rank": 2,
+        "token": " ",
+        "logit": 13.1328125,
+        "probability_percent": 10.27
+      },
+      {
+        "rank": 3,
+        "token": " l",
+        "logit": 11.6875,
+        "probability_percent": 2.42
+      },
+      {
+        "rank": 4,
+        "token": "\n",
+        "logit": 10.609375,
+        "probability_percent": 0.82
+      },
+      {
+        "rank": 5,
+        "token": " la",
+        "logit": 10.5859375,
+        "probability_percent": 0.8
+      },
+      {
+        "rank": 6,
+        "token": " :",
+        "logit": 10.421875,
+        "probability_percent": 0.68
+      },
+      {
+        "rank": 7,
+        "token": " An",
+        "logit": 10.375,
+        "probability_percent": 0.65
+      },
+      {
+        "rank": 8,
+        "token": " Hy",
+        "logit": 9.8359375,
+        "probability_percent": 0.38
+      },
+      {
+        "rank": 9,
+        "token": " T",
+        "logit": 9.75,
+        "probability_percent": 0.35
+      }
+    ]
+  },
+  {
+    "prompt": "Franklin D. Roosevelt est né(e) à",
+    "generated_prefix": "Franklin D. Roosevelt est né(e) à Hyde",
+    "gold_token": "188",
+    "predicted_top1_token": " Park",
+    "token_pos_in_answer": 1,
+    "gold_logit": 2.42578125,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.6142578125,
+    "second_token_prob": 0.126708984375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": " Park",
+        "logit": 20.734375,
+        "probability_percent": 97.51
+      },
+      {
+        "rank": 1,
+        "token": " park",
+        "logit": 16.109375,
+        "probability_percent": 0.96
+      },
+      {
+        "rank": 2,
+        "token": " P",
+        "logit": 14.2890625,
+        "probability_percent": 0.15
+      },
+      {
+        "rank": 3,
+        "token": "-P",
+        "logit": 14.171875,
+        "probability_percent": 0.14
+      },
+      {
+        "rank": 4,
+        "token": " ",
+        "logit": 14.15625,
+        "probability_percent": 0.14
+      },
+      {
+        "rank": 5,
+        "token": "\n",
+        "logit": 14.140625,
+        "probability_percent": 0.13
+      },
+      {
+        "rank": 6,
+        "token": "port",
+        "logit": 13.6796875,
+        "probability_percent": 0.08
+      },
+      {
+        "rank": 7,
+        "token": "-p",
+        "logit": 13.5625,
+        "probability_percent": 0.07
+      },
+      {
+        "rank": 8,
+        "token": ",",
+        "logit": 13.1875,
+        "probability_percent": 0.05
+      },
+      {
+        "rank": 9,
+        "token": "Park",
+        "logit": 13.0078125,
+        "probability_percent": 0.04
+      }
+    ]
+  },
+  {
+    "prompt": "Franklin D. Roosevelt est né(e) à",
+    "generated_prefix": "Franklin D. Roosevelt est né(e) à Hyde Park",
+    "gold_token": "2",
+    "predicted_top1_token": ",",
+    "token_pos_in_answer": 2,
+    "gold_logit": 7.4296875,
+    "gold_prob_percent": 0.0,
+    "first_token_prob": 0.6142578125,
+    "second_token_prob": 0.126708984375,
+    "is_top_1": 0,
+    "top_k_predictions": [
+      {
+        "rank": 0,
+        "token": ",",
+        "logit": 17.203125,
+        "probability_percent": 37.21
+      },
+      {
+        "rank": 1,
+        "token": " (",
+        "logit": 16.1875,
+        "probability_percent": 13.48
+      },
+      {
+        "rank": 2,
+        "token": " dans",
+        "logit": 15.953125,
+        "probability_percent": 10.66
+      },
+      {
+        "rank": 3,
+        "token": ".",
+        "logit": 15.5859375,
+        "probability_percent": 7.39
+      },
+      {
+        "rank": 4,
+        "token": ".\n",
+        "logit": 15.4375,
+        "probability_percent": 6.37
+      },
+      {
+        "rank": 5,
+        "token": "\n",
+        "logit": 14.96875,
+        "probability_percent": 3.98
+      },
+      {
+        "rank": 6,
+        "token": " en",
+        "logit": 14.1953125,
+        "probability_percent": 1.84
+      },
+      {
+        "rank": 7,
+        "token": " le",
+        "logit": 14.1484375,
+        "probability_percent": 1.75
+      },
+      {
+        "rank": 8,
+        "token": " près",
+        "logit": 14.078125,
+        "probability_percent": 1.63
+      },
+      {
+        "rank": 9,
+        "token": " à",
+        "logit": 14.0703125,
+        "probability_percent": 1.62
+      }
+    ]
+  }
+]
