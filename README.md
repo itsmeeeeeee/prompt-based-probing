@@ -30,7 +30,7 @@ Große Sprachmodelle (LLMs) ermöglichen die effiziente Abfrage faktischen und l
 
 ## Daten
 
-Alle übersetzten und generierten Datensätze befinden sich im Ordner `Data`. Die Daten sind strukturiert abgelegt und beinhalten:
+Alle übersetzten und generierten Datensätze befinden sich im Ordner `data` Die Daten sind strukturiert abgelegt und beinhalten:
 
 * Übersetzte Daten in allen verwendeten Sprachen.
 * Für jede Relation, jede Permutation sowie jede Shots-Anzahl wurden zusätzlich die Modelloutputs als Logits gespeichert.
