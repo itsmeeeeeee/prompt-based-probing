@@ -26,7 +26,6 @@ Große Sprachmodelle (LLMs) ermöglichen die effiziente Abfrage faktischen und l
 * **`gpt_translate_data.ipynb`**
   Führt die Übersetzung des jeweils besten Prompt-Templates sowie der linguistischen (morphologischen) Daten mithilfe von GPT-4o durch.
 
----
 
 ## Daten
 
